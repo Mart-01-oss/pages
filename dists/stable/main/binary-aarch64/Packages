@@ -1,0 +1,13 @@
+Package: com.neonide.studio.cmake
+Version: 3.29.2
+Architecture: aarch64
+Maintainer: You <you@example.com>
+Filename: pool/main/c/com.neonide.studio.cmake/com.neonide.studio.cmake_3.29.2_aarch64.deb
+Size: 70913060
+MD5sum: c63401c7cd4d115ac879e8b9c0871484
+SHA1: 9bd2adb54947a7b18d4023c90231d505ff76c1b5
+SHA256: 3e25d1a8f75594f23b7e49cfa18b36439b9ef13864fc6bc721105a3b86757b2c
+Section: devel
+Priority: optional
+Description: CMake 3.29.2 built from source for NeonIDE
+
