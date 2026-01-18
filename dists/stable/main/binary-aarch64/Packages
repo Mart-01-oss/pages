@@ -162,6 +162,21 @@ SHA256: 984098509e0fb165e46accefc4dbb48c9740a03f820fdb549555ed7ac896a18d
 Homepage: https://gitlab.com/ajs124/abootimg
 Description: Pack or unpack android boot images
 
+Package: abseil-cpp
+Version: 20250814.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8760
+Depends: libc++
+Conflicts: libgrpc (<< 1.52.0-1)
+Filename: pool/main/a/abseil-cpp/abseil-cpp_20250814.0_aarch64.deb
+Size: 1118548
+MD5sum: 4b7121eab7d2bb081c96a822a35cdef7
+SHA1: 9b40a4a62cce9212ae2bc1dfc0f76933cb0c2047
+SHA256: b737936bb9ac59d40eaf54f7b1c61c50edebdc8ea762a92c59c0807066b67b9f
+Homepage: https://abseil.io/
+Description: Abseil C++ Common Libraries
+
 Package: ack-grep
 Version: 3.9.0
 Architecture: all
@@ -309,4 +324,59 @@ SHA1: 0bc661d78ad7fd66b0329ec24a36d44485ecc132
 SHA256: 5b4a61d68b50c3003cc487e11d4698e53e23f1e9469f9d0e0038c7c89952b35c
 Homepage: https://elinux.org/Android_aapt
 Description: Android Interface Definition Language (AIDL)
+
+Package: alass
+Version: 2.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1468
+Depends: ffmpeg
+Filename: pool/main/a/alass/alass_2.0.0-3_aarch64.deb
+Size: 577116
+MD5sum: 25878a3bc997dfb7a68247e1e189b843
+SHA1: 21b96388827f0881490df21c13e699784463c5f7
+SHA256: 677cd8ccbcd5c782f7e111921e5d865a13b66622296017f2577e1206db943a46
+Homepage: https://github.com/kaegi/alass
+Description: Automatic Language-Agnostic Subtitle Synchronization
+
+Package: alembic
+Version: 1.8.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3720
+Depends: imath, libc++
+Filename: pool/main/a/alembic/alembic_1.8.8-1_aarch64.deb
+Size: 585904
+MD5sum: d544ed778df8c7948a29bdfc47818b39
+SHA1: fe89b202fe8f10232e44ba4ae7f41a921cf21526
+SHA256: 23f9f77f922f1fae021fc503c3824f7aab1de1593a3ae768a3c2a38c2425b894
+Homepage: https://alembic.io
+Description: A framework for sharing scene data that includes a C++ lib, a file format and client plugin
+
+Package: algernon
+Version: 1.17.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38900
+Filename: pool/main/a/algernon/algernon_1.17.4_aarch64.deb
+Size: 8964796
+MD5sum: 893ec5a839f3c99c27ea2aa7a4b16dd1
+SHA1: d9b6e19fc715112fb26cf2dede0b88f45aab9d95
+SHA256: 5ded3c4a3b3087d71f0bfde245bfcdf9be2088f773b8704d2c257ebf2b8a026d
+Homepage: https://algernon.roboticoverlords.org/
+Description: Small self-contained web server with Lua, Markdown, QUIC, Redis and PostgreSQL support
+
+Package: alpine
+Version: 2.26-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9668
+Depends: coreutils, libcrypt, ncurses, openssl, openssl-tool
+Filename: pool/main/a/alpine/alpine_2.26-1_aarch64.deb
+Size: 1833948
+MD5sum: b19e03db83f59c66682e996340c3961e
+SHA1: 75632232e555dab712b2fc437df82febef629264
+SHA256: c6bb1271fabbf13c2732569f7acb040ca4830dab08cc1c8062fdda35365793da
+Homepage: http://alpine.x10host.com/
+Description: Fast, easy to use email client
 
