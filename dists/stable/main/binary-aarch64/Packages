@@ -380,3 +380,140 @@ SHA256: c6bb1271fabbf13c2732569f7acb040ca4830dab08cc1c8062fdda35365793da
 Homepage: http://alpine.x10host.com/
 Description: Fast, easy to use email client
 
+Package: alsa-lib
+Version: 1.2.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2272
+Depends: libandroid-sysv-semaphore, libandroid-shmem
+Filename: pool/main/a/alsa-lib/alsa-lib_1.2.14-1_aarch64.deb
+Size: 441620
+MD5sum: a92914454ae29417d47fd0277828fb24
+SHA1: 4de3c105d44d27456ff40a0f4db66cde373a3cde
+SHA256: bb4d6b1efeec4040e7efe6ed49494fcad2593226b91615299803c66270cb2c2a
+Homepage: https://www.alsa-project.org
+Description: The Advanced Linux Sound Architecture (ALSA) - library
+
+Package: alsa-plugins
+Version: 1.2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Depends: libandroid-sysv-semaphore, libandroid-shmem, alsa-lib, pulseaudio
+Filename: pool/main/a/alsa-plugins/alsa-plugins_1.2.12-1_aarch64.deb
+Size: 25612
+MD5sum: a54330b18eb880a5e583cd1bc466516d
+SHA1: a08cbc735c5b8d1de9b0bcf5cc153c89d12294f5
+SHA256: 72f7df40258dbe8ecc568d8add4eafb7736e79f89971eac19fd88162ba59ff6e
+Homepage: https://www.alsa-project.org
+Description: The Advanced Linux Sound Architecture (ALSA) - plugins
+
+Package: alsa-utils
+Version: 1.2.13-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2328
+Depends: ncurses, alsa-lib
+Filename: pool/main/a/alsa-utils/alsa-utils_1.2.13-2_aarch64.deb
+Size: 1026984
+MD5sum: 983eaa85e10626784ee5289e9d4d03f2
+SHA1: c6aedf373febea97d6d371cd2ec439fae108e796
+SHA256: 0e7ce2e5d4d3595ebb6b44d6ddb25771d900064d211cbd48a099ec7244902907
+Homepage: https://www.alsa-project.org
+Description: The Advanced Linux Sound Architecture (ALSA) - utils
+
+Package: amber
+Version: 0.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4992
+Breaks: amr, ambs
+Replaces: amr, ambs
+Filename: pool/main/a/amber/amber_0.6.0-1_aarch64.deb
+Size: 906368
+MD5sum: 5050330d92ca3997fa708286bd284668
+SHA1: 1c746fe6fef1b66de007144d97038ad14e06ddf4
+SHA256: f14c783b69dcfe2ff281990ae3b5c46b6cf93dcc54c1f6f165779ffeddceabf1
+Homepage: https://github.com/dalance/amber
+Description: A code search / replace tool
+
+Package: amfora
+Version: 1.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18080
+Filename: pool/main/a/amfora/amfora_1.11.0-1_aarch64.deb
+Size: 4179224
+MD5sum: f93bb3b66c41ee3d873a6b0c67a329e5
+SHA1: a6c84dd97a90295805d1207cb6330ca29f3f0542
+SHA256: e057dc33072f53023a858702b61eab48d73f004174db3870215a12274ab8a79d
+Homepage: https://github.com/makew0rld/amfora
+Description: Aims to be the best looking Gemini client
+
+Package: anewer
+Version: 0.1.6-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 808
+Filename: pool/main/a/anewer/anewer_0.1.6-1_aarch64.deb
+Size: 275524
+MD5sum: 2615a2a497deb17f3e03e4ce4d355a55
+SHA1: fcff6516eadab0477d6e244bfe0dc068c4113569
+SHA256: cd25c1451dfee787aeaa521c6581ba44d7133cb7fb346e5067dc04dd31f6d75b
+Homepage: https://github.com/ysf/anewer
+Description: Append lines from stdin to a file if these lines do not present in that file (aHash-based uniq)
+
+Package: angband
+Version: 4.2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23740
+Depends: ncurses
+Filename: pool/main/a/angband/angband_4.2.5-1_aarch64.deb
+Size: 20404936
+MD5sum: 764f68a5ee2dd3c75877d51a915ed47b
+SHA1: 388bd71a1c53125aa33844feca6314258e96fff4
+SHA256: 51d8958ef0a58ef10213fa5abf1d9ff08644b073f6fdf70798218ccecb036fa2
+Homepage: https://rephial.org/
+Description: Dungeon exploration adventure game
+
+Package: angle-android
+Version: 2.1.24923-f09a19ce-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19516
+Filename: pool/main/a/angle-android/angle-android_2.1.24923-f09a19ce-2_aarch64.deb
+Size: 3007796
+MD5sum: 7a33e5a621328ff884e32bcaa530eab2
+SHA1: cf6718b5d2fa79557f252fc47715495597e01178
+SHA256: b0c92079dfa0ffaaa347a50088de6a5673d891e4494a77f745c4989bd9f810bb
+Homepage: https://chromium.googlesource.com/angle/angle
+Description: A conformant OpenGL ES implementation for Windows, Mac, Linux, iOS and Android
+
+Package: angle-grinder
+Version: 0.19.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4380
+Filename: pool/main/a/angle-grinder/angle-grinder_0.19.6-1_aarch64.deb
+Size: 1209360
+MD5sum: f6c8cdf65d5cbf1a6ea391b1e0baf521
+SHA1: 8aae377de551ba817f309a6839514c40a579e4ac
+SHA256: 764b56e63632ceea0eca38cbeb5efbda4cbcbb0a3f6b5bb8456eaedecbb78106
+Homepage: https://github.com/rcoh/angle-grinder
+Description: Slice and dice logs on the command line
+
+Package: ani-cli
+Version: 4.10
+Architecture: all
+Maintainer: @termux
+Installed-Size: 84
+Depends: aria2, ffmpeg, fzf, grep, sed, wget
+Filename: pool/main/a/ani-cli/ani-cli_4.10_all.deb
+Size: 9044
+MD5sum: 8aaa465fd0811537ec3cf0fb9fddd82e
+SHA1: 759c0a69287f8599bdf081a6962c49e97863215e
+SHA256: 386fc68dcef8984f999fa4054867b27df53166c92918d9a492ce1ac9e61606d8
+Homepage: https://github.com/pystardust/ani-cli
+Description: A cli to browse and watch anime
+
