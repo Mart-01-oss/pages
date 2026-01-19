@@ -517,3 +517,31 @@ SHA256: 386fc68dcef8984f999fa4054867b27df53166c92918d9a492ce1ac9e61606d8
 Homepage: https://github.com/pystardust/ani-cli
 Description: A cli to browse and watch anime
 
+Package: ansifilter
+Version: 2.22
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libc++
+Filename: pool/main/a/ansifilter/ansifilter_2.22_aarch64.deb
+Size: 78028
+MD5sum: 0eff832f24ea6dae5eda9bfb8554e538
+SHA1: a1640832dc6082f81df28e411fa49c71f42ef2e2
+SHA256: a7dd5a1173e9d9e3545dd13efd892a2d96598152ddd354244417c1fa99535736
+Homepage: http://www.andre-simon.de/doku/ansifilter/en/ansifilter.php
+Description: Strip or convert ANSI codes into HTML, (La)Tex, RTF, or BBCode
+
+Package: libc++
+Version: 28c
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 1268
+Filename: pool/main/libc/libc++/libc++_28c_aarch64.deb
+Size: 290992
+MD5sum: a8892ee4ed48c5c9ea1e6020a27b329d
+SHA1: f342c2cdd5eddd7f8a43fb8ec033fd68c7527cd6
+SHA256: cc09c658cd4c04ecf856dbf02de6f363207c4b3803e70c46ad20132694fb61a8
+Homepage: https://libcxx.llvm.org/
+Description: C++ Standard Library
+
