@@ -558,6 +558,152 @@ SHA256: a0a65a08c68eaba2198f02f5be7dcc90ed386dde819320496fc8b80754c7c6fe
 Homepage: https://github.com/getantibody/antibody
 Description: The fastest shell plugin manager
 
+Package: antiword
+Version: 0.37-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 604
+Filename: pool/main/a/antiword/antiword_0.37-4_aarch64.deb
+Size: 91292
+MD5sum: 85ffa2471cbe255e5bd894cd6ec004a0
+SHA1: d954ab736cc776a7d10b56b2db69f3ee447c1b56
+SHA256: 74b05cb6d0f90cd5fb792b7d8ce9eec94ae1ff1308852995702d717d2dedd173
+Homepage: https://en.m.wikipedia.org/wiki/Antiword
+Description: A free MS Word reader
+
+Package: aosp-libs
+Version: 9.0.0-r76-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 38952
+Breaks: bionic-host
+Replaces: bionic-host
+Filename: pool/main/a/aosp-libs/aosp-libs_9.0.0-r76-1_aarch64.deb
+Size: 9655784
+MD5sum: 2e2130cf5475d831588ab48faf37ac21
+SHA1: 767f4a38fb6fbf7b51be58f71399230ec1af4405
+SHA256: 4e79bf489b4576d62c37c743b2d2c91203dbda2a3e430aaa12f79f76e67b482b
+Homepage: https://source.android.com/
+Description: bionic libc, libicuuc, liblzma, zlib, and boringssl for package builder and termux-docker
+
+Package: aosp-utils
+Version: 9.0.0-r76-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1248
+Depends: aosp-libs (= 9.0.0-r76-1)
+Filename: pool/main/a/aosp-utils/aosp-utils_9.0.0-r76-1_aarch64.deb
+Size: 327528
+MD5sum: 6dbc9a692d73e1dd0b7234cc27f6d4f4
+SHA1: 172f2d4cc3df09866c379e1c27789d3ba6f9cdec
+SHA256: 82a296ecba6c4a8883cb44cf7b21eeadd362f4672fb573b6508a496b9299a6b1
+Homepage: https://source.android.com/
+Description: AOSP-based mksh, toybox and iputils for termux-docker
+
+Package: apache-orc
+Version: 2.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1960
+Depends: libc++, liblz4, libprotobuf, libsnappy, zlib, zstd
+Filename: pool/main/a/apache-orc/apache-orc_2.2.0-2_aarch64.deb
+Size: 391908
+MD5sum: 526b4f17d50cc432356fd7103f562d5a
+SHA1: 97cb7262b5c25fce3faec3a7e7f029b086d9e9d8
+SHA256: 53debff728bcaf04c69e48e1f8d322fc91e71b4f1e935e93606a771dbf4a8bab
+Homepage: https://orc.apache.org/
+Description: Columnar storage for Hadoop workloads
+
+Package: apache2
+Version: 1:2.4.66-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31804
+Depends: apr, apr-util, libandroid-support, libcrypt, libnghttp2, libuuid, openssl, pcre2, zlib
+Breaks: apache2-dev
+Replaces: apache2-dev
+Filename: pool/main/a/apache2/apache2_1:2.4.66-1_aarch64.deb
+Size: 5029044
+MD5sum: 9c67487fb167e68ba14686d28091ade8
+SHA1: 68ce9dea5e53dabaaa3ab8cd9157f6794a43e777
+SHA256: edaf00c9da524dcf834c0823d3f72489d0fd5956763b69526a4230405a5d36f7
+Homepage: https://httpd.apache.org
+Description: Apache Web Server
+
+Package: apkeep
+Version: 0.17.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8644
+Depends: openssl (>= 3.0.3)
+Filename: pool/main/a/apkeep/apkeep_0.17.0-2_aarch64.deb
+Size: 2251368
+MD5sum: 40467ef9f16cc534e20823afedb439bd
+SHA1: 2c90c4d5e9fedb4fc3c48416c0e8f3d5ccaa8583
+SHA256: 9a17dc5983adba16977091debb66a56648e56cee9ac3056f3379393614f2348b
+Homepage: https://github.com/EFForg/apkeep
+Description: A command-line tool for downloading APK files from various sources
+
+Package: apr
+Version: 1.7.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1268
+Depends: libuuid
+Breaks: apr-dev
+Replaces: apr-dev
+Filename: pool/main/a/apr/apr_1.7.6-2_aarch64.deb
+Size: 237436
+MD5sum: 2c4e88f346d430538593f7957a2eb6e7
+SHA1: f620ffa0a4af1ef27ccb03f2d77d6d6c6bda4a28
+SHA256: 561d9aebd3be30d71b1998f79db897997bf3999e0232ed22d73cfe320213abbf
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Library
+
+Package: apr-static
+Version: 1.7.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: apr (= 1.7.6-2)
+Filename: pool/main/a/apr-static/apr-static_1.7.6-2_aarch64.deb
+Size: 83800
+MD5sum: 6c4c41986200571a587bc025494c26fc
+SHA1: 13349886fb66db5a593ceea43c2f0cc22f3dfc35
+SHA256: f71a3b82741f1a10db1325db6f530d22a75f1def68ddc79384c976a36cf6aad6
+Homepage: https://apr.apache.org/
+Description: Static libraries for apr
+
+Package: apr-util
+Version: 1.6.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Depends: apr, libcrypt, libexpat, libiconv, libuuid
+Breaks: apr-util-dev
+Replaces: apr-util-dev
+Filename: pool/main/a/apr-util/apr-util_1.6.3-3_aarch64.deb
+Size: 111376
+MD5sum: 32514f58df3579eec1ec3860f41629be
+SHA1: 8604bf87ea1107167856b3791058093e1296ef6b
+SHA256: 2a08dc37415adfa6c5ca0e51872431a8471f4c1227ef635b500bdbff822b6936
+Homepage: https://apr.apache.org/
+Description: Apache Portable Runtime Utility Library
+
+Package: apr-util-static
+Version: 1.6.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Depends: apr-util (= 1.6.3-3)
+Filename: pool/main/a/apr-util-static/apr-util-static_1.6.3-3_aarch64.deb
+Size: 68608
+MD5sum: 3401ccb249ee6fc6cc17b109dd2064b2
+SHA1: 2ee4eb50e2d4944ad6e36abf9c425b48db348ecf
+SHA256: 577b7f138b86c452a09c4903b90bf2a75029cdb34419d989113d2eb386bb0a2b
+Homepage: https://apr.apache.org/
+Description: Static libraries for apr-util
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
@@ -1814,6 +1960,21 @@ SHA256: 1d7ee7a3a5b6528859e2ead2a41ea8b30091a393e243e8d7fa50cab576f795dd
 Homepage: https://www.gnu.org/software/libtool/
 Description: Library for dlopening libraries
 
+Package: liblz4
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Breaks: liblz4-dev
+Replaces: liblz4-dev
+Filename: pool/main/libl/liblz4/liblz4_1.10.0-1_aarch64.deb
+Size: 84656
+MD5sum: 2c6886845dffa8b054a4b61245f99c50
+SHA1: b6e48c677b442f2666317a22386d8281ce6d563f
+SHA256: 6dc8aad8e11ec3e9db424a0c32e156861ca66c96322af8cb45061df43c8629f6
+Homepage: https://lz4.github.io/lz4/
+Description: Fast LZ compression algorithm library
+
 Package: liblzma
 Version: 5.8.1-1
 Architecture: aarch64
@@ -2092,6 +2253,23 @@ SHA256: bb0d8570075b7f18712ecb2c881c5dc7eded67e1a7241e4a539adcc625362070
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Static libraries for libpng
 
+Package: libprotobuf
+Version: 2:32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8732
+Depends: abseil-cpp, libc++, zlib
+Conflicts: protobuf-static
+Breaks: libprotobuf-dev, protobuf-static, libutf8-range
+Replaces: libprotobuf-dev, protobuf-static, libutf8-range
+Filename: pool/main/libp/libprotobuf/libprotobuf_2:32.0_aarch64.deb
+Size: 1321624
+MD5sum: 12336fe39bc83c2465847336068561c5
+SHA1: 29aef43a3efdb6022667debe64fccef83a72bda1
+SHA256: 7026e2bde2bc1ec06c6411a5b10f8a9a8f5c4900e47ef1c6737c2020f0664e15
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Protocol buffers C++ library
+
 Package: libsm
 Version: 1.2.6-1
 Architecture: aarch64
@@ -2120,6 +2298,20 @@ SHA1: 14c19938474e54c4657b2e81bb83a294ef5a3dce
 SHA256: 665ea4044faa37ea7c10b44b5cc2ef5a03a5196ae42b4044fd380eadc2a05375
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for smart adaptive formatting of tabular data
+
+Package: libsnappy
+Version: 1.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libc++
+Filename: pool/main/libs/libsnappy/libsnappy_1.2.2-1_aarch64.deb
+Size: 24992
+MD5sum: 9ccd988f8952adbec19cfc16cb8c5d75
+SHA1: 3e025491e931534a08aa5a548b798ee7f0628f1a
+SHA256: 02df4a95d473b33cc1aee568e436743c1f51cb168acb24c98eae96895e16d13e
+Homepage: https://github.com/google/snappy
+Description: A compression/decompression library
 
 Package: libsndfile
 Version: 1.2.2-2
@@ -2799,6 +2991,20 @@ SHA256: e1db549c8f2f592acdc5388cd9a2b8ab27081182e1b9cfa3481d11ba9ffb206b
 Homepage: http://www.littlecms.com/
 Description: Color management utilities
 
+Package: lz4
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: liblz4 (= 1.10.0-1)
+Filename: pool/main/l/lz4/lz4_1.10.0-1_aarch64.deb
+Size: 90940
+MD5sum: 110647336a3bb1875064dbec8f7b8fd1
+SHA1: 2b76b8e6b2be1699a89a3d1258adb3b83f678cb5
+SHA256: bb0acf74b2f8bbe5b63579e530e02df3550d7e9af72bdd43c121cb18b8354a50
+Homepage: https://lz4.github.io/lz4/
+Description: Fast LZ compression algorithm tool
+
 Package: mount-utils
 Version: 2.40.2-5
 Architecture: aarch64
@@ -3090,6 +3296,37 @@ SHA1: 2af6e18c14979ec30abe798d5af5a8ee91db7077
 SHA256: 6d0c5be908cac3996883796e3e86a3d7bb666bbc26edbac9fe49555a002c0e88
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
+
+Package: protobuf
+Version: 2:32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5780
+Depends: libprotobuf (= 2:32.0)
+Filename: pool/main/p/protobuf/protobuf_2:32.0_aarch64.deb
+Size: 1176488
+MD5sum: e660fab104ddd7661bbaf6e10b37402d
+SHA1: 6c694ba9ad41734ac385ccd7165a0181e2353ae5
+SHA256: ab2a163ae541bb2d746ab9539958465a0d9c3ccc2d915c1f35db6614283b45d5
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Compiler for protocol buffer definition files
+
+Package: protobuf-dev
+Version: 2:32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: libprotobuf (= 2:32.0)
+Conflicts: protobuf-static
+Breaks: libprotobuf (<< 2:21.12)
+Replaces: libprotobuf (<< 2:21.12)
+Filename: pool/main/p/protobuf-dev/protobuf-dev_2:32.0_aarch64.deb
+Size: 3180
+MD5sum: 6d9121003bbdf6b729fe8da4a553bba4
+SHA1: 2a31e5d27809207eb10eef9c9b6b6b58c0f77108
+SHA256: 41c69f79381b8e2de34e28d76605b610e16e0254012c8ada77c65e6c1c44e3b0
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: CMake files for protobuf shared libraries
 
 Package: psmisc
 Version: 23.7-1
