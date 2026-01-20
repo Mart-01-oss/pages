@@ -644,6 +644,20 @@ SHA256: 9a17dc5983adba16977091debb66a56648e56cee9ac3056f3379393614f2348b
 Homepage: https://github.com/EFForg/apkeep
 Description: A command-line tool for downloading APK files from various sources
 
+Package: apksigner
+Version: 33.0.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1036
+Depends: openjdk-21
+Filename: pool/main/a/apksigner/apksigner_33.0.1-1_all.deb
+Size: 913268
+MD5sum: 24ddf46a02ebbe9ab112d29790dd0f40
+SHA1: 36dab7f2d4e04d070b195b76c7283eb5ee5965d2
+SHA256: 8a0ef011b5711d558e772734141d10b412161cd364c5aad716214b4599783dac
+Homepage: https://developer.android.com/studio/command-line/apksigner
+Description: APK signing tool from Android SDK
+
 Package: apr
 Version: 1.7.6-2
 Architecture: aarch64
