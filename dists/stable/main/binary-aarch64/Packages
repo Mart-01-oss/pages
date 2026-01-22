@@ -837,6 +837,19 @@ SHA256: dcbb4a548479b1781fe1e6e031a3a77e8e1540ec1306bcecd587e3112673d8cc
 Homepage: https://libcheck.github.io/check
 Description: Static libraries for check
 
+Package: cmake
+Version: 4.2.2
+Architecture: aarch64
+Maintainer: Gemini CLI
+Filename: pool/main/c/cmake/cmake_4.2.2_aarch64.deb
+Size: 13182704
+MD5sum: df97852bd013377937501614ee867663
+SHA1: 79fcbf9b7aa50466785b6b92478b68e5ad129ea0
+SHA256: 668c0a62ee2084a32021ea98e4a74bda431e55565bd33f01bc6fb3ed82be82f4
+Description: CMake is an open-source, cross-platform family of tools designed to build, test and package software.
+ Section: devel
+ Priority: optional
+
 Package: coreutils
 Version: 9.7-3
 Architecture: aarch64
