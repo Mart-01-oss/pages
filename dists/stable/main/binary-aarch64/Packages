@@ -838,17 +838,18 @@ Homepage: https://libcheck.github.io/check
 Description: Static libraries for check
 
 Package: cmake
-Version: 4.2.2
+Version: 4.2.2-1
 Architecture: aarch64
-Maintainer: Gemini CLI
-Filename: pool/main/c/cmake/cmake_4.2.2_aarch64.deb
-Size: 13182704
-MD5sum: df97852bd013377937501614ee867663
-SHA1: 79fcbf9b7aa50466785b6b92478b68e5ad129ea0
-SHA256: 668c0a62ee2084a32021ea98e4a74bda431e55565bd33f01bc6fb3ed82be82f4
+Maintainer: @termux
+Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
+Recommends: clang, make
+Filename: pool/main/c/cmake/cmake_4.2.2-1_aarch64.deb
+Size: 13182760
+MD5sum: 03c4706514e80b321f08bbd8ed077766
+SHA1: e0f6239e0575ad364dc207a381771dc684bc3003
+SHA256: 2ca60355b878f9bb824a5cbf57f45dde4e5e50809f3353c82239ea32aad6a7e6
+Homepage: https://cmake.org/
 Description: CMake is an open-source, cross-platform family of tools designed to build, test and package software.
- Section: devel
- Priority: optional
 
 Package: coreutils
 Version: 9.7-3
