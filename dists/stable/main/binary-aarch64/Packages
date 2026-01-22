@@ -571,6 +571,20 @@ SHA256: 74b05cb6d0f90cd5fb792b7d8ce9eec94ae1ff1308852995702d717d2dedd173
 Homepage: https://en.m.wikipedia.org/wiki/Antiword
 Description: A free MS Word reader
 
+Package: aom-tools
+Version: 3.13.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 836
+Depends: libc++, libaom (= 3.13.1)
+Filename: pool/main/a/aom-tools/aom-tools_3.13.1_aarch64.deb
+Size: 196524
+MD5sum: 352dd18b593c06135e529fc44dbcc9e9
+SHA1: 7f34ac8e7a36df2f278f658a69b6eee209215e9d
+SHA256: e350f2f31bf0516ce2f4ec14d1075f5ca369b5f3d74023476833b7d93f96ce0c
+Homepage: https://aomedia.org/
+Description: Command-line tools using AOMedia library
+
 Package: aosp-libs
 Version: 9.0.0-r76-1
 Architecture: aarch64
@@ -658,6 +672,20 @@ SHA256: 8a0ef011b5711d558e772734141d10b412161cd364c5aad716214b4599783dac
 Homepage: https://developer.android.com/studio/command-line/apksigner
 Description: APK signing tool from Android SDK
 
+Package: appstream
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1108
+Depends: curl, glib, libfyaml, libxml2, libxmlb, zstd
+Filename: pool/main/a/appstream/appstream_1.1.0_aarch64.deb
+Size: 237288
+MD5sum: fe30142efd7de224ae1d28fb327b7230
+SHA1: 455ad5c75870f5043e4bbb13d07446ce5e2dd3cb
+SHA256: 9051d326f57f175f92aa806771d5b33048ff004a5df6af106e13cf529f1fa0fe
+Homepage: https://www.freedesktop.org/wiki/Distributions/AppStream/
+Description: Provides a standard for creating app stores across distributions
+
 Package: apr
 Version: 1.7.6-2
 Architecture: aarch64
@@ -735,6 +763,80 @@ SHA1: cd4bb145041eaad855533c5b6583388cf24da4eb
 SHA256: 99b30313e1ed5fb4e419ee19d8d15c1ffb7c07368dbc9b23229df45aa9c72c82
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+
+Package: binutils
+Version: 2.44-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: binutils-bin
+Conflicts: binutils-is-llvm
+Filename: pool/main/b/binutils/binutils_2.44-4_aarch64.deb
+Size: 1132
+MD5sum: 75e288388d2bae847066ab1a9db62847
+SHA1: 7d5169203ea225e5a05a9186a37e049192e96385
+SHA256: 7eec7b9f8b8777d373e0d3528495be71cefb41b9a5d29c902c7fbcd40b595700
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils (metapackage)
+
+Package: binutils-bin
+Version: 2.44-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9088
+Depends: libc++, zlib, zstd, binutils-libs (= 2.44-4)
+Breaks: binutils (<< 2.39-3)
+Replaces: binutils (<< 2.39-3)
+Filename: pool/main/b/binutils-bin/binutils-bin_2.44-4_aarch64.deb
+Size: 1763488
+MD5sum: a84176605030a9ad9e268c2567c57c75
+SHA1: 68c1925f82c64cdf71063120749636074337682a
+SHA256: a551a5478491ca70a9aa7e43e8ad053619b9becef49f04da0685d7e63a8f50de
+Homepage: https://www.gnu.org/software/binutils/
+Description: Collection of binary tools, the main ones being ld, the GNU linker, and as, the GNU assembler
+
+Package: binutils-cross
+Version: 2.44-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17512
+Filename: pool/main/b/binutils-cross/binutils-cross_2.44-4_aarch64.deb
+Size: 2224504
+MD5sum: 7b472bb43152e31d76eadf671de2adaf
+SHA1: 939a36aae69698d6abd97fadcbb7b54fe5ab5b4c
+SHA256: c1f659262babbc9135778284a0d16d2d09d741c11a14ad4079c7d3c6430d2c0d
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils for cross build on the host (NOT for Termux)
+
+Package: binutils-gold
+Version: 2.44-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3900
+Depends: libc++, zlib, zstd
+Filename: pool/main/b/binutils-gold/binutils-gold_2.44-4_aarch64.deb
+Size: 919712
+MD5sum: c1efa56304ccae99e602d7f0768ba81e
+SHA1: 16b500de8107fd7ac5a28cadf9a06cbe67381717
+SHA256: fa7efcdfc8a83ccb930fdb5e82e94128d27b68244262f609ff37fa79605c4b3b
+Homepage: https://www.gnu.org/software/binutils/
+Description: gold linker
+
+Package: binutils-libs
+Version: 2.44-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12568
+Depends: zlib, zstd
+Breaks: binutils (<< 2.39), binutils-dev
+Replaces: binutils (<< 2.39), binutils-dev
+Filename: pool/main/b/binutils-libs/binutils-libs_2.44-4_aarch64.deb
+Size: 1136564
+MD5sum: ae12d10ca55dbb1080085397e3a99b3d
+SHA1: f959210bd676bab1fcd1cf2d22748c19cf8de02d
+SHA256: c0ee07d2a24c010ea01988aadb86ae7b1cc8c000e571ba869b84c1dab80863d3
+Homepage: https://www.gnu.org/software/binutils/
+Description: GNU Binutils libraries
 
 Package: blk-utils
 Version: 2.40.2-5
@@ -1162,6 +1264,22 @@ SHA256: f6c48f9b50b59b49f18151c65cacb5dc90b15b292c5c548837522b9a0c870913
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Static libraries for gdbm
 
+Package: gdk-pixbuf
+Version: 2.44.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 580
+Depends: glib, libpng, libtiff, libjpeg-turbo, zstd
+Breaks: gdk-pixbuf-dev
+Replaces: gdk-pixbuf-dev
+Filename: pool/main/g/gdk-pixbuf/gdk-pixbuf_2.44.2_aarch64.deb
+Size: 119488
+MD5sum: c175992d9373c54046166abefc7051e0
+SHA1: 40456e096a2c6fd8b032c3fe81f577235af11f49
+SHA256: de0bf0415721a88ca2cfbd1db2b77fa7b2441562af9b5f23ca75b68af0204033
+Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
+Description: Library for image loading and manipulation
+
 Package: giflib
 Version: 5.2.2-1
 Architecture: aarch64
@@ -1279,6 +1397,52 @@ SHA256: 83bd6bf60eecbd126b87572edd0dbe7005e2e4884337839a9ce65df436ce6d2b
 Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
 
+Package: harfbuzz
+Version: 11.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2944
+Depends: freetype, glib, libcairo, libgraphite
+Breaks: harfbuzz-dev
+Replaces: harfbuzz-dev
+Filename: pool/main/h/harfbuzz/harfbuzz_11.5.1_aarch64.deb
+Size: 611196
+MD5sum: 58fcad545d80c874156bb3562bf90717
+SHA1: 445f743b56a98763fc06be841df1f53d353cfd71
+SHA256: 98cc7469fe4b9e2bdc3d354ae145ddc98313a1f5668fa08582619c3adff54c42
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: OpenType text shaping engine
+
+Package: harfbuzz-icu
+Version: 11.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: libicu, harfbuzz (= 11.5.1)
+Breaks: harfbuzz (<< 7.0.0)
+Replaces: harfbuzz (<< 7.0.0)
+Filename: pool/main/h/harfbuzz-icu/harfbuzz-icu_11.5.1_aarch64.deb
+Size: 5424
+MD5sum: 82acaa7a2a2bf0dd26e97fad6b114ad3
+SHA1: c459639bc082afc1267d24d61a53f2c2412e1ad3
+SHA256: eea3b3c21f8a2522819a2b988f13c843b5bacb9a54fb9e7118797143a6d70631
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: OpenType text shaping engine ICU backend
+
+Package: harfbuzz-utils
+Version: 11.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: harfbuzz (= 11.5.1)
+Filename: pool/main/h/harfbuzz-utils/harfbuzz-utils_11.5.1_aarch64.deb
+Size: 65092
+MD5sum: e3fe4464d2859310a70fdaf71bdf2faf
+SHA1: 755f10c834f701c055a0fc9635dadea7e28f9d59
+SHA256: c99eb3d26597524ce2577f71b4b25b4dcb049efe6bd70f8ba332385c30e35ac4
+Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
+Description: Tools using the harfbuzz library
+
 Package: iconv
 Version: 1.18-1
 Architecture: aarch64
@@ -1292,6 +1456,20 @@ SHA1: cf898e34b8d1b0045023acae82f1fd7c300f5f24
 SHA256: a6bcf505d694001ef944586038303f71b229ed3b00e2812e1e70f38d2df325c9
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
+
+Package: icu-devtools
+Version: 77.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 984
+Depends: libicu (= 77.1-2)
+Filename: pool/main/i/icu-devtools/icu-devtools_77.1-2_aarch64.deb
+Size: 213084
+MD5sum: f83b13aa133b9f988ce3e073732f0f85
+SHA1: e618d87a00686763e32e22ce0da7ead1348c4127
+SHA256: fd7a613c1fcf8082305d2f3d85675c6ad1cab34b7f5c1fdf9c97160f884a521a
+Homepage: http://site.icu-project.org/home
+Description: Development utilities for International Components for Unicode
 
 Package: lame
 Version: 3.100-7
@@ -1561,6 +1739,33 @@ SHA256: a9c9927ae11f08822b7be71b730ab07426fc6093334c48ba78cb13ff197fec98
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
 
+Package: libaom
+Version: 3.13.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6908
+Filename: pool/main/liba/libaom/libaom_3.13.1_aarch64.deb
+Size: 1970052
+MD5sum: 93fbdac588550362b4b3783aa03d36e9
+SHA1: c1f1f9d158a12d6a1ae4ef37083b7cafa4ef901a
+SHA256: 291ca58afe23fc9673c32ed841dce3ae0b0474fc5013b0625fa67189eb7711d1
+Homepage: https://aomedia.org/
+Description: AV1 Video Codec Library
+
+Package: libaom-static
+Version: 3.13.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8712
+Depends: libaom (= 3.13.1)
+Filename: pool/main/liba/libaom-static/libaom-static_3.13.1_aarch64.deb
+Size: 2115408
+MD5sum: a83d95105c528c7d99887ffb31f4e2c4
+SHA1: 5592c9b20c282cb582acc337bae356d49392e0ef
+SHA256: 24ec734dbcccd490043027222dcc94911c038786e0251b3c8e47908a186af1a1
+Homepage: https://aomedia.org/
+Description: Static libraries for libaom
+
 Package: libblkid
 Version: 2.40.2-5
 Architecture: aarch64
@@ -1681,6 +1886,19 @@ SHA256: 2931ee527c67d3d8a93e149881826020f8086b8474aed0c2c71d8b7fe1aef15b
 Homepage: https://curl.se/
 Description: Static libraries for libcurl
 
+Package: libdav1d
+Version: 1.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Filename: pool/main/libd/libdav1d/libdav1d_1.5.1-1_aarch64.deb
+Size: 291300
+MD5sum: 6524cbd941ee6354418f408ffd4a7303
+SHA1: 3867b4a00c117af7a8ba283c349169e2237b67f1
+SHA256: eb02d21ff4ea68cc132df40fac33a3bd296e7d3412befcd3fa8b25250f61eddf
+Homepage: https://code.videolan.org/videolan/dav1d/
+Description: AV1 cross-platform decoder focused on speed and correctness
+
 Package: libevent
 Version: 2.1.12-3
 Architecture: aarch64
@@ -1798,6 +2016,33 @@ SHA256: d717ce966ae87c0d971a1ccbe808e450194df43ff7efbe5c572b52c02555e26e
 Homepage: https://xiph.org/flac/
 Description: Static libraries for libflac
 
+Package: libfyaml
+Version: 0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 856
+Filename: pool/main/libf/libfyaml/libfyaml_0.9_aarch64.deb
+Size: 226788
+MD5sum: dfe33a184661c72aaca35143b2d05390
+SHA1: 0e8d462583b9e0924470cc0e04019758907105cb
+SHA256: ff87878563461be63756047552d06f6561398c015471c617f48da01c3323d477
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Fully feature complete YAML parser and emitter
+
+Package: libfyaml-static
+Version: 0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Depends: libfyaml (= 0.9)
+Filename: pool/main/libf/libfyaml-static/libfyaml-static_0.9_aarch64.deb
+Size: 195508
+MD5sum: 88be617b5cc5721efcf9fc9cb397c639
+SHA1: c258c7a3159e143990a8104d85efaa8061fb9f82
+SHA256: 6b7dee4e16480d176d112874960817dcb82aa81e7fa83496f659762d5781100b
+Homepage: https://pantoniou.github.io/libfyaml/
+Description: Static libraries for libfyaml
+
 Package: libgmp
 Version: 6.3.0-2
 Architecture: aarch64
@@ -1858,6 +2103,62 @@ SHA256: e4ef13d3e4042b35c4c93c75cb401d04775134b71f4ef6bb247d82d885992880
 Homepage: https://www.gnutls.org/
 Description: Static libraries for libgnutls
 
+Package: libgts
+Version: 0.7.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: glib
+Filename: pool/main/libg/libgts/libgts_0.7.6-2_aarch64.deb
+Size: 147456
+MD5sum: 66283e0e3bd1955c35593f4a2962e9eb
+SHA1: 93ac826a374890ab5956aca18d0bafb5341bb44b
+SHA256: 4aa2d59636cc7087ac7895ad497255be42b0f29a4a4fb3b54c607f457b851120
+Homepage: https://gts.sourceforge.net/
+Description: Provides useful functions to deal with 3D surfaces meshed with interconnected triangles
+
+Package: libgts-static
+Version: 0.7.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 652
+Depends: libgts (= 0.7.6-2)
+Filename: pool/main/libg/libgts-static/libgts-static_0.7.6-2_aarch64.deb
+Size: 133200
+MD5sum: 5764fb6f104ad52f69582a73f5a07106
+SHA1: 1a3ce04b50ebc65fbc91103488e13a0e2b522093
+SHA256: 123eca011d05bd887b7971f0c6207d5d40d5b311822ab80c14dfb7037adc86e6
+Homepage: https://gts.sourceforge.net/
+Description: Static libraries for libgts
+
+Package: libheif
+Version: 1.20.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1880
+Depends: gdk-pixbuf, glib, libaom, libc++, libdav1d, libde265, librav1e, libx265
+Filename: pool/main/libh/libheif/libheif_1.20.2_aarch64.deb
+Size: 443196
+MD5sum: 1d8c6fdde1a3bc33c705a3d227d80e77
+SHA1: fc573d3c2ea50640c25a4ede7eab8bdf95d76195
+SHA256: 66cb6d7f39406e164fca4bdcbe154a704dedfb46a126660335c1421f7b5eb891
+Homepage: https://github.com/strukturag/libheif
+Description: HEIF (HEIC/AVIF) image encoding and decoding library
+
+Package: libheif-progs
+Version: 1.20.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 528
+Depends: libjpeg-turbo, libpng, libheif (= 1.20.2)
+Filename: pool/main/libh/libheif-progs/libheif-progs_1.20.2_aarch64.deb
+Size: 118956
+MD5sum: 6bb849e47c7e94aa9a2656df34e4ef23
+SHA1: 80c4ce66dd982b13b33fc14bf58975cf7ce93b3f
+SHA256: c43d71872ffabb5fae56c2ec6512b7f1f9e67a5883055d9632b1096d4c72f5fb
+Homepage: https://github.com/strukturag/libheif
+Description: Programs for manipulating HEIF (HEIC/AVIF) image files
+
 Package: libice
 Version: 1.1.2-1
 Architecture: aarch64
@@ -1899,6 +2200,36 @@ SHA1: 88a59f2e9e741c96c17ced9c70450edd5419ccc5
 SHA256: b420dcc1b12c184241263d1cfb3725f2ec8f22c7b9729b108ff6c3681f63ff7d
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Static libraries for libiconv
+
+Package: libicu
+Version: 77.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42308
+Depends: libc++
+Breaks: libicu-dev
+Replaces: libicu-dev
+Filename: pool/main/libi/libicu/libicu_77.1-2_aarch64.deb
+Size: 9940752
+MD5sum: 94ed23b4646c19ef7e573e75cfd4ec71
+SHA1: b7a4a84abe01ba84d16ad98af68724e3d11ac7d2
+SHA256: 1b63efbba29162197d727b27ddab39a0206842cb6313e82efd23443e09332bcd
+Homepage: http://site.icu-project.org/home
+Description: International Components for Unicode library
+
+Package: libicu-static
+Version: 77.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 45244
+Depends: libicu (= 77.1-2)
+Filename: pool/main/libi/libicu-static/libicu-static_77.1-2_aarch64.deb
+Size: 9822560
+MD5sum: a34e729f5d2e739143a55f22be111371
+SHA1: 187162bf45a2a2b2d5d8faf0a9e108d53929e465
+SHA256: 7471c605f525e188c2546e785402b5264257e66ee65b2538ea29093578bd1825
+Homepage: http://site.icu-project.org/home
+Description: Static libraries for libicu
 
 Package: libidn2
 Version: 2.3.8-1
@@ -2461,6 +2792,33 @@ SHA256: dd4bcd06f147c27a599c5284f86edf7e9ef15c6b0247c711a07c4717c5d0ca4e
 Homepage: https://www.libssh2.org
 Description: Static libraries for libssh2
 
+Package: libstemmer
+Version: 2.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Filename: pool/main/libs/libstemmer/libstemmer_2.2.0-2_aarch64.deb
+Size: 88916
+MD5sum: 6e7d756f450ccaee6917df74d8575a8d
+SHA1: 647ed74d266e7496ff8db9ba10af4fd300a1825c
+SHA256: d2ec0fb835a6b77eee11260e7b61b27af9da9f129bb2f4a685958f494a14af4f
+Homepage: https://snowballstem.org/
+Description: Snowball compiler and stemming algorithms
+
+Package: libstemmer-static
+Version: 2.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1428
+Depends: libstemmer (= 2.2.0-2)
+Filename: pool/main/libs/libstemmer-static/libstemmer-static_2.2.0-2_aarch64.deb
+Size: 156208
+MD5sum: 373f8c00d9f59c195d5aa05a90e38703
+SHA1: 553a091af54e1a534576c0306abb1a45b78fb956
+SHA256: c404016967d82d758589de8e7707d86f1c52e484b5fe42aba1acfdc293065304
+Homepage: https://snowballstem.org/
+Description: Static libraries for libstemmer
+
 Package: libtiff
 Version: 4.7.1
 Architecture: aarch64
@@ -2626,6 +2984,22 @@ SHA256: 8fd87f0d2ee0c9a2db785f4110c5a65d676f75ea34c52d9941b9237d80465a86
 Homepage: https://xiph.org/vorbis/
 Description: Static libraries for libvorbis
 
+Package: libwebp
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1264
+Depends: giflib, libjpeg-turbo, libpng, libtiff, zlib
+Breaks: libwebp-dev
+Replaces: libwebp-dev
+Filename: pool/main/libw/libwebp/libwebp_1.6.0-1_aarch64.deb
+Size: 331196
+MD5sum: 138ddbe8d2cc51cc8e5d6d3cfde0587e
+SHA1: 5e0557040739a532773cd7521e1c5bced148bd7d
+SHA256: 1824865dd6b7111b4a82c1f15df911b44a16d234b2a043b677593c951ca66f03
+Homepage: https://github.com/webmproject/libwebp
+Description: Library to encode and decode images in WebP format
+
 Package: libwebrtc-audio-processing
 Version: 1.3-3
 Architecture: aarch64
@@ -2668,6 +3042,36 @@ SHA1: 49f4009602ca759a253a5141e5d3fa34c3a9fade
 SHA256: 9b742dbe20abdfe9bb0fec77f04efb00e7d3b9502de67dec17215d255e812de9
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libx11
+
+Package: libx265
+Version: 4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2692
+Depends: libandroid-posix-semaphore, libc++
+Breaks: libx265-dev
+Replaces: libx265-dev
+Filename: pool/main/libx/libx265/libx265_4.1-1_aarch64.deb
+Size: 711568
+MD5sum: 242ca0c1e96d096d276ac5b84cf51797
+SHA1: 7ce456b2bbaa7054418169dc2de444f404729ec6
+SHA256: 0ca7b6c170d847bfc9af9d0b795f421bd319dd80c4e76c51720eb0acb86a594c
+Homepage: http://x265.org/
+Description: H.265/HEVC video stream encoder library
+
+Package: libx265-static
+Version: 4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3676
+Depends: libx265 (= 4.1-1)
+Filename: pool/main/libx/libx265-static/libx265-static_4.1-1_aarch64.deb
+Size: 746616
+MD5sum: fb7dcf111071b3d0cd6fc43959fef2c8
+SHA1: ada6786bade850d28a03da267533fce7b62bcd7b
+SHA256: 95c3223cb1cacc3c3ad333cdf86fd891673ecf55e4666ac725a1837097d8e767
+Homepage: http://x265.org/
+Description: Static libraries for libx265
 
 Package: libxau
 Version: 1.0.12-2
@@ -2849,6 +3253,93 @@ SHA1: 36bc32e78b41ae3726f9ebed6eb924702e6382bf
 SHA256: 30136b46dae845566969ca95b417348de23e1902d5966f64dae54dc0a870670b
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxi
+
+Package: libxml2
+Version: 2.14.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1720
+Depends: libiconv, liblzma, zlib
+Breaks: libxml2-dev
+Replaces: libxml2-dev
+Filename: pool/main/libx/libxml2/libxml2_2.14.6_aarch64.deb
+Size: 452484
+MD5sum: 8e6267e02e88dc0baded48c66b0f4f63
+SHA1: bdb67602ed2ef561b9fddcf8e62dfa45c52a9d53
+SHA256: 6f76b9c13379fb2c2317273bd598c44d0f9887843a74e58a814f81a994b2ba3a
+Homepage: http://www.xmlsoft.org
+Description: Library for parsing XML documents
+
+Package: libxml2-python
+Version: 2.14.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1588
+Depends: python, libxml2 (= 2.14.6)
+Filename: pool/main/libx/libxml2-python/libxml2-python_2.14.6_aarch64.deb
+Size: 175436
+MD5sum: 5f172d6623ba6c4629a395c534233294
+SHA1: b921fa579fe9c6385a031cafb383dc035f335367
+SHA256: 2c767aecac437491429423996a944ba42bd1118ddeb58a9a6b4d8d271df16160
+Homepage: http://www.xmlsoft.org
+Description: Python bindings for libxml2
+
+Package: libxml2-python-static
+Version: 2.14.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 524
+Depends: libxml2-python, libxml2 (= 2.14.6)
+Filename: pool/main/libx/libxml2-python-static/libxml2-python-static_2.14.6_aarch64.deb
+Size: 64060
+MD5sum: 6d86c53e042b837d5091cf337a535312
+SHA1: 8b7b1f0cc6af07ff7384356ca09d8c08c4e846aa
+SHA256: 5a30dd354c7cc814306c347b9b89cad81d3be7371c1a89aea25f8bea0d300eb3
+Homepage: http://www.xmlsoft.org
+Description: Static libraries for libxml2-python
+
+Package: libxml2-static
+Version: 2.14.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1852
+Depends: libxml2 (= 2.14.6)
+Filename: pool/main/libx/libxml2-static/libxml2-static_2.14.6_aarch64.deb
+Size: 442056
+MD5sum: f43113eca17784087c0f2a0010d15b5b
+SHA1: 1b2e99fe965d2413dde524a9dcf6f3a73fcb389e
+SHA256: 8c6df36d5355ebe5c7b792704fd97ae1528a626fdd3e2ffe534f5a6e06ce5d9e
+Homepage: http://www.xmlsoft.org
+Description: Static libraries for libxml2
+
+Package: libxml2-utils
+Version: 2.14.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libxml2 (= 2.14.6)
+Provides: xmllint
+Filename: pool/main/libx/libxml2-utils/libxml2-utils_2.14.6_aarch64.deb
+Size: 34064
+MD5sum: 5e1f3b8ecd918ad1ea70656cb5358692
+SHA1: faf896611388da7fc328e48aacbb6e6c8f8c6041
+SHA256: 88dcbd57a36577d1ab3eab2d638a8448f27ed42e12567d86cdc6a1afb9285118
+Homepage: http://www.xmlsoft.org
+Description: XML utilities
+
+Package: libxmlb
+Version: 0.3.24
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: glib, liblzma, libstemmer, zstd
+Filename: pool/main/libx/libxmlb/libxmlb_0.3.24_aarch64.deb
+Size: 64008
+MD5sum: 28b761d586503f7915a842a54f6a9981
+SHA1: a4266b327cbcd385eb13ba0ca01f57a5ea22790d
+SHA256: 1f4da069ba6b7842b4c22380abae6aedd4979cdfd694ed2280bf19d6f1552976
+Homepage: https://github.com/hughsie/libxmlb
+Description: Library to help create and query binary XML blobs
 
 Package: libxrandr
 Version: 1.5.4-1
@@ -3612,6 +4103,19 @@ SHA256: ceebf9f89f742309f6d330af30305ea871f256818a49547e990294ddb06a6eee
 Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
 
+Package: stemwords
+Version: 2.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 804
+Filename: pool/main/s/stemwords/stemwords_2.2.0-2_aarch64.deb
+Size: 87396
+MD5sum: bb0dd2b5fcc0f5dc004cd1ccc4615f2a
+SHA1: 254c7f6c5c5753d8f8db553b369b88aa1675f4e2
+SHA256: 3ca395d3ecd30a5a7c541eb918dfe81eb20fdcffb43103e5cfc0ccd108559c40
+Homepage: https://snowballstem.org/
+Description: A command-line tool which uses libstemmer
+
 Package: swig
 Version: 4.3.1-1
 Architecture: aarch64
@@ -3874,6 +4378,20 @@ SHA1: e479cef7267ff9086b0a8c85d6a924b97a9fa7e6
 SHA256: 4740b9d7d7dbb7f0bfa88f6ddb61bd400a2a001bcc850ff99d35d40a79e1809d
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling universally unique identifiers
+
+Package: x265
+Version: 4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libx265 (= 4.1-1)
+Filename: pool/main/x/x265/x265_4.1-1_aarch64.deb
+Size: 42244
+MD5sum: 63660ddf9387e420dbce8fec16c683ba
+SHA1: 11e890e1d43fe407b12250ae823649282356eddc
+SHA256: 223cd8f1ac0689a82faba83ac60f48c64087b6e48c677faeef7164e73521ca20
+Homepage: http://x265.org/
+Description: H.265/HEVC video stream encoder tool
 
 Package: xcb-proto
 Version: 1.17.0-1
