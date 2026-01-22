@@ -794,6 +794,20 @@ SHA256: 9f001225e4436f5a14240476dc758f32d4def460441e1b8d78b9d851b73aa379
 Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
+Package: apt-show-versions
+Version: 0.22.16
+Architecture: all
+Maintainer: @termux
+Installed-Size: 116
+Depends: apt, libapt-pkg-perl, perl
+Filename: pool/main/a/apt-show-versions/apt-show-versions_0.22.16_all.deb
+Size: 13388
+MD5sum: 7da1ab75ca3ea191dce662eb959f89b8
+SHA1: cb79dd69972f7b1cfdd23b2dde52957b5a4d96aa
+SHA256: 1d7bb89bdf539cb10f8540850fa97fbe0bfb91982e9a0952ac92dd99bbe39406
+Homepage: https://salsa.debian.org/debian/apt-show-versions
+Description: Lists available package versions with distribution
+
 Package: apt-transport-tor
 Version: 2.8.1-2
 Architecture: all
@@ -807,6 +821,87 @@ SHA1: ff10b940fd7693503d8b6465e5ada00732817dc2
 SHA256: de9fd77e69c8afa8f3be9d30a59dce2b18d0285491c19b01e8027c25d2e35a57
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
+
+Package: aptly
+Version: 1.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44040
+Filename: pool/main/a/aptly/aptly_1.6.2-1_aarch64.deb
+Size: 9055668
+MD5sum: 148485e49efdb2b272ea73dc1aac8188
+SHA1: 7eb3dec1d6b942613dc498570034391b572f7d45
+SHA256: 19a997917f7689cb31c72deb652ad56220e07e8afa6b2bfb315a1694db27d387
+Homepage: https://www.aptly.info
+Description: A Swiss Army knife for Debian repository management
+
+Package: argon2
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/a/argon2/argon2_20190702-2_aarch64.deb
+Size: 22684
+MD5sum: 7ce6e5abffd7af50202d3bc0a1715051
+SHA1: 6355a716b93b93a0d150d840543c1145d2724a42
+SHA256: f0283b88b7deed3374990f1530c4c4922fc9eeff3f60f2edc830b370dcf4a16a
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: A password-hashing function (reference C implementation)
+
+Package: argon2-static
+Version: 20190702-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Depends: argon2 (= 20190702-2)
+Filename: pool/main/a/argon2-static/argon2-static_20190702-2_aarch64.deb
+Size: 45076
+MD5sum: 40768b164f862d9513d2098576201820
+SHA1: 53283ffc9a7af356eb1137f2b67580d9454dfca7
+SHA256: fc01ecadc19141e7eab4ab7217a835f1603f4ae7c89065528ca94fbc33293c4d
+Homepage: https://github.com/P-H-C/phc-winner-argon2
+Description: Static libraries for argon2
+
+Package: argp
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: pool/main/a/argp/argp_1.5.0-1_aarch64.deb
+Size: 21148
+MD5sum: 1f15e172f52ccf7eab5f5a14ad2314a8
+SHA1: 20fdafac9fb5d2ae33d477bcaeea2a5514925d92
+SHA256: 45569b1928ef41d923b33e13a97bef10c2ca740135485f031a9d107b9099c6b2
+Homepage: https://github.com/argp-standalone/argp-standalone
+Description: Standalone version of arguments parsing functions from GLIBC
+
+Package: argp-static
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: argp (= 1.5.0-1)
+Filename: pool/main/a/argp-static/argp-static_1.5.0-1_aarch64.deb
+Size: 41928
+MD5sum: 81be6a6a9a6821e7beb842a05c4daf3f
+SHA1: f6b5e3a1dcdff3935b4e167ba04736f0335b8d80
+SHA256: 07353b0801b7f314face0c307341221a9c319ce994ea5a8c8bafac6970ae3d17
+Homepage: https://github.com/argp-standalone/argp-standalone
+Description: Static libraries for argp
+
+Package: aria2
+Version: 1.37.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2692
+Depends: libc++, c-ares, libgnutls, libxml2, zlib
+Filename: pool/main/a/aria2/aria2_1.37.0-2_aarch64.deb
+Size: 677928
+MD5sum: e8eb6270b7d3a2492c1f562daa779984
+SHA1: 0599a941f5a68cf95611566e8941f1e07d2d5d51
+SHA256: 102f4a7486946d7111cafebdcf13628db8dc5969b93d73e239c5f6d5f9397c7a
+Homepage: https://aria2.github.io
+Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
 
 Package: bash
 Version: 5.3.3-1
@@ -945,6 +1040,22 @@ SHA1: 07b4ed449486df3e4d502c6a9fccaf1c41d5f3c1
 SHA256: bea33994c102a2aa2007f8c930aff5a49401fd0903c3be891bb57e227a416436
 Homepage: http://www.bzip.org/
 Description: Tools for working with bzip2 compression
+
+Package: c-ares
+Version: 1.34.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1096
+Depends: resolv-conf
+Breaks: c-ares-dev
+Replaces: c-ares-dev
+Filename: pool/main/c/c-ares/c-ares_1.34.5-1_aarch64.deb
+Size: 191876
+MD5sum: f45173e9ed2bbdff4e7e3225a5166d56
+SHA1: ecb90f660e346b4a1b50247edeb89facc71e7c90
+SHA256: 43648be5dd6be462715f4821eef82555882e5e0fd62bfd5a26499d33d81bdd9f
+Homepage: https://c-ares.org/
+Description: Library for asynchronous DNS requests (including name resolves)
 
 Package: ca-certificates
 Version: 1:2025.09.09
