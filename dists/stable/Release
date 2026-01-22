@@ -2,23 +2,23 @@ Origin: com.neonide.studio
 Label: com.neonide.studio
 Suite: stable
 Codename: stable
-Date: Thu, 22 Jan 2026 07:27:29 +0000
+Date: Thu, 22 Jan 2026 18:07:07 +0000
 Architectures: aarch64
 Components: main
 Description: NeonIDE APT repo
 MD5Sum:
- 16673fea3372bd419b272bdc248f014d              200 Release
- 45d34f7c3a127889cd7c77c792342890           151627 main/binary-aarch64/Packages
- d159bd9da2c32dcc64def63a5d7f5023            49638 main/binary-aarch64/Packages.gz
+ 370b39177a4d36a191aa32c1fb614077              200 Release
+ 5331bbba8f20040e49059aa1c5c44f1e           178509 main/binary-aarch64/Packages
+ 102c9b49f1cd1569eca0cd9a12177cc1            58802 main/binary-aarch64/Packages.gz
 SHA1:
- c213f2312c66ba5339bbfdff94c1d7dfffa5d6f2              428 Release
- 575b80fc28494eaa5198f63410d9d5ff3ec7c2a5           151627 main/binary-aarch64/Packages
- db21e3718a369c7351e7310bb463bc707e50aa2f            49638 main/binary-aarch64/Packages.gz
+ 550e84e595baa20e51578b4ae80dcca7add29406              428 Release
+ 123e097d7fd767ba95c93dc6fea609c9c2418e79           178509 main/binary-aarch64/Packages
+ ea89e6752c2e05b728143c8aa729254f258f0c10            58802 main/binary-aarch64/Packages.gz
 SHA256:
- 9488509786a5be848641f594404783d918331486c73763737c7e963697449a92              682 Release
- 9a2ebe1cffffab2e859d1e201cf44ba768651475251cec91ba307c15624e4c98           151627 main/binary-aarch64/Packages
- 49a614bf01afe190de6de83555a60e16461fcfc4d485e7581932b9ff97d11b5c            49638 main/binary-aarch64/Packages.gz
+ 195c7045a3e6308d6df7dd0a6f60f98368a425913f5f446a9f9359f197d8be7c              682 Release
+ e3a9692f1c6ccbbd5f6c9dbc0c6d9910b49c5b65ba62a81c2513dcc94265dc11           178509 main/binary-aarch64/Packages
+ 9ccb9900aa417a1bcfa53c2ef8ce1b20be7e1916241e5b52f0f5bdcfb97f6752            58802 main/binary-aarch64/Packages.gz
 SHA512:
- 16614310ebb9e596b973eb7c0b9acf49571c8fca4a577d514b75aa06e0f425615aab1d86e274130b3d547d0e20c8f0a1129ea5d479ac4c6681ee7eff6f1f658d             1008 Release
- c99ab7650036e263778b6dc9a14f4f16314102e0d9d88d266754fcb214647edbcff59d30414500a96bd6fc3afeba9045d3dd409794ce041dee976b3a037183e6           151627 main/binary-aarch64/Packages
- a5a8d3e08e709fc0b710b00b493b0784fb0b342f8be02a1766e6d5f9fa9627fa7d284404f133a760de5e8bc600ec12950fd4a2531aa9041ae6c0baf5dba4647d            49638 main/binary-aarch64/Packages.gz
+ 748bfe378471d05d49f156e3370088b69478994de3393c6a613616bd897d3685f64d4067a6f03cffbf2d3794053c0ccb678656f0a705fb80dd19ce5f258b97dd             1008 Release
+ 81b8e19b29268ae7a4305f101ec6ea72db47d6c541cda4d0f99d5855cfdcba999116d2882b5e39e4da0f470aa1d8df0cfb29ea9b43f84d55bb520f8ce80e85b2           178509 main/binary-aarch64/Packages
+ c2b2f0983fee43a78b6c49deb2c74dddeb8175de7d93e722e10b99a1fabe93f37f8da0dce432c51892406a0f0b0d282540150e4c7317a54f2478233bfdf49608            58802 main/binary-aarch64/Packages.gz
