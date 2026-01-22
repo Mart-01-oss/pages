@@ -903,6 +903,75 @@ SHA256: 102f4a7486946d7111cafebdcf13628db8dc5969b93d73e239c5f6d5f9397c7a
 Homepage: https://aria2.github.io
 Description: Download utility supporting HTTP/HTTPS, FTP, BitTorrent and Metalink
 
+Package: arj
+Version: 3.10.22-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Filename: pool/main/a/arj/arj_3.10.22-6_aarch64.deb
+Size: 118176
+MD5sum: 4a2fc66c8206ddfca852bd6047026bb2
+SHA1: f53d2274db6473b12f90b961fcaa61896dbc5378
+SHA256: 75d1e32c6209843f6093ef8ae662222523d721bd9b37050dc5d00f2b5c9bc6f2
+Homepage: https://arj.sourceforge.net/
+Description: Open-source version of arj archiver
+
+Package: arpack-ng
+Version: 3.9.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1044
+Depends: libopenblas
+Filename: pool/main/a/arpack-ng/arpack-ng_3.9.1-1_aarch64.deb
+Size: 223152
+MD5sum: bcc26a284298dafcc1be1da049d1562e
+SHA1: b99d3dd9a4279221d9603e7ea20c3100278d08f1
+SHA256: 18c53079e57c182c32ff6fac50f8c1dab4a4889da15095470e704c7dbd31b308
+Homepage: https://github.com/opencollab/arpack-ng
+Description: Collection of Fortran77 subroutines designed to solve large scale eigenvalue problems.
+
+Package: artalk
+Version: 2.9.1-1
+Architecture: aarch64
+Maintainer: Moraxyc <termux@qaq.li>
+Installed-Size: 50300
+Filename: pool/main/a/artalk/artalk_2.9.1-1_aarch64.deb
+Size: 10203396
+MD5sum: 7ef76c95e3f2bc96876b9d4ce5fe74ff
+SHA1: 7bb550fe10ed3c495465d095ac2d2980eecf3121
+SHA256: 9f073efe4e5b11f2f16feb9809aa5f81704ffc954602d2c75e2050a2081c290e
+Homepage: https://artalk.js.org/
+Description: A self-hosted comment system
+
+Package: arturo
+Version: 0.9.83-1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 6396
+Depends: libgmp, libmpfr, libandroid-glob, libsqlite
+Filename: pool/main/a/arturo/arturo_0.9.83-1_aarch64.deb
+Size: 1000840
+MD5sum: 9bd5085c9560b91da0c903f1b1b0ed2b
+SHA1: 40bbb9de5fce5e53f5910acec8e5a5af4e82335c
+SHA256: 593041b7ae09f772b4f0e7db60e31937febd52143340f7d7f58b66f577d3a667
+Homepage: https://arturo-lang.io
+Description: Simple, expressive & portable programming language for efficient scripting
+
+Package: asciidoc
+Version: 10.2.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1764
+Depends: docbook-xsl, libxml2-utils, python, xsltproc
+Suggests: w3m
+Filename: pool/main/a/asciidoc/asciidoc_10.2.1-1_all.deb
+Size: 303144
+MD5sum: 7853fbc694f36dd761515ed7716a11ec
+SHA1: c73000488e6c14a53099cfca86a3a3565f093ee8
+SHA256: 4faf18f6746953b453f51ee173ac134c1addbfd3310ff2cd4453f8a246e7307e
+Homepage: https://asciidoc.org
+Description: Text document format for short documents, articles, books and UNIX man pages.
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
@@ -994,6 +1063,20 @@ SHA1: f959210bd676bab1fcd1cf2d22748c19cf8de02d
 SHA256: c0ee07d2a24c010ea01988aadb86ae7b1cc8c000e571ba869b84c1dab80863d3
 Homepage: https://www.gnu.org/software/binutils/
 Description: GNU Binutils libraries
+
+Package: blas-openblas
+Version: 0.3.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32
+Depends: libopenblas (= 0.3.30-1)
+Filename: pool/main/b/blas-openblas/blas-openblas_0.3.30-1_aarch64.deb
+Size: 996
+MD5sum: 4be3699ab12307c887313d1d4ff65c29
+SHA1: 7ae84cc468ada4c07bd7baf006e3c771994ebb81
+SHA256: 2710ecb10050df44bc79d7ae37e1c187e94c42504d2f58ccf4f7028f9d550f1a
+Homepage: https://www.openblas.net
+Description: OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
 
 Package: blk-utils
 Version: 2.40.2-5
@@ -3155,6 +3238,33 @@ SHA1: 2c9ae266a6dc01cb40ea05d877a7d41318d25657
 SHA256: 08138bd1a0a533ff4795f065f95713570f3d0d370f4718f4c1950686e99263d1
 Homepage: https://xiph.org/ogg/
 Description: Static libraries for libogg
+
+Package: libopenblas
+Version: 0.3.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11656
+Filename: pool/main/libo/libopenblas/libopenblas_0.3.30-1_aarch64.deb
+Size: 2514268
+MD5sum: f4ca7490f6d382e72454e77b9ff4f04d
+SHA1: 55f8f1b08fb178a749729c2d1d2dd81a464552df
+SHA256: c317ce739b8e52e07981b21eee666369d253b383bcc5e09ec3fbda0a56e5cb1d
+Homepage: https://www.openblas.net
+Description: An optimized BLAS library based on GotoBLAS2 1.13 BSD
+
+Package: libopenblas-static
+Version: 0.3.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 23500
+Depends: libopenblas (= 0.3.30-1)
+Filename: pool/main/libo/libopenblas-static/libopenblas-static_0.3.30-1_aarch64.deb
+Size: 2533856
+MD5sum: 0896112b6fcf5173688d9f7df9238b6b
+SHA1: 56ec6a239818a9cdc65fade6e248f7b2facc64fb
+SHA256: 11d69f75b8faa494519fd3c95f9380da793f4cb7b8557c9f3007e77de0678ebc
+Homepage: https://www.openblas.net
+Description: Static libraries for libopenblas
 
 Package: libopus
 Version: 1.5.2-1
