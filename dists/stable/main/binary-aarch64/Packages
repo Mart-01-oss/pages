@@ -1435,6 +1435,22 @@ SHA256: 5b63572a11de6fdc39f4655cbc90e78015035e46111da81fe4fa8c9c1a1b35ef
 Homepage: https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum
 Description: A command line utility for calculating BLAKE3 hashes, similar to Coreutils tools like b2sum or md5sum
 
+Package: babl
+Version: 0.1.114-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 872
+Depends: littlecms
+Breaks: babl-dev
+Replaces: babl-dev
+Filename: pool/main/b/babl/babl_0.1.114-1_aarch64.deb
+Size: 252372
+MD5sum: bcf9c94181bb0df331473437643398ab
+SHA1: 258b8d321045ea131efe7bf1a21f0852099563e3
+SHA256: 3dcce72823147e9243cf45d47c74c56c3f3bfed0110b76cdb4cab915c4385215
+Homepage: https://gegl.org/babl/
+Description: Dynamic pixel format translation library
+
 Package: bacula-fd
 Version: 15.0.3-1
 Architecture: aarch64
@@ -2152,6 +2168,20 @@ SHA256: 4871f09189c0b295d0d9cb8986d19fd8948ebf58f22691991ad785f54d0316ac
 Homepage: https://github.com/txthinking/brook
 Description: A cross-platform strong encryption and not detectable proxy. Zero-Configuration.
 
+Package: broot
+Version: 1.49.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9364
+Depends: libgit2
+Filename: pool/main/b/broot/broot_1.49.1_aarch64.deb
+Size: 3355856
+MD5sum: d3634800260163747d5c7cbd08e42060
+SHA1: 27b4e9ff56b822e6e072f483fb6e1afbbc216a68
+SHA256: 4d704aa1d506776e8d18bc3f5b3b30121dd436c5a65f0a89031f2e872713e6cf
+Homepage: https://github.com/Canop/broot
+Description: A better way to navigate directories
+
 Package: brotli
 Version: 1.1.0-3
 Architecture: aarch64
@@ -2166,6 +2196,161 @@ SHA1: 3af097bf26ccb8266c553f23813abb7078722f40
 SHA256: 3be2788e9d1fb7c1f54335f942abf13eba35e8b554a5d81b6b01c038f345e5c7
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
+
+Package: bsd-finger
+Version: 0.17-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/b/bsd-finger/bsd-finger_0.17-2_aarch64.deb
+Size: 17204
+MD5sum: f08f10b7ba718c9d073559ca88a82334
+SHA1: 6233b5d5f21cc958eed78da17e8b10d3ab92a8ab
+SHA256: 09af22c2ed477acbc338ab17acbc3ff7127b0040661d1d44db4bb2e799b84e8a
+Homepage: https://packages.debian.org/sid/source/bsd-finger
+Description: User information lookup program
+
+Package: bsd-games
+Version: 1:3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 872
+Depends: ncurses
+Filename: pool/main/b/bsd-games/bsd-games_1+3.3-1_aarch64.deb
+Size: 206288
+MD5sum: 606e0a3d6a3ce8a131d4ecd81751a00c
+SHA1: 3ceab6443a131045354cb9ff2fcf42c3a78c9e05
+SHA256: 7eddf76d5053d1fedc0a545a92394ac3133f8bc6b6ef38c0a61aeb4972dc0518
+Homepage: https://www.polyomino.org.uk/computer/software/bsd-games/
+Description: Classic text mode games from UNIX folklore
+
+Package: bsdtar
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1488
+Depends: libarchive (= 3.8.1-1)
+Filename: pool/main/b/bsdtar/bsdtar_3.8.1-1_aarch64.deb
+Size: 346472
+MD5sum: 1bab911c062606ce726fa8f8eea9ec34
+SHA1: 8d67218f4f04e2bfc1fc53c76e64db04827dccb6
+SHA256: f50ccfd81c67d4abfcbb1160a0504e380821e0ea17e3f9f5b4ccfa638c324a71
+Homepage: https://www.libarchive.org/
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: btfs2
+Version: 4.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 103148
+Depends: libc++
+Conflicts: btfs
+Replaces: btfs
+Filename: pool/main/b/btfs2/btfs2_4.0.0-1_aarch64.deb
+Size: 27834608
+MD5sum: 0a92c4b248d012c8d7b66487e03e622e
+SHA1: 81530672d23737b15bad40c2d1eb08de612b82ae
+SHA256: e9508a490a3a0f19051cf8925c85cfbf3840cd2b62cc2a401b526989aee1346d
+Homepage: https://www.bittorrent.com/btfs/
+Description: Decentralized file system integrating with TRON network and Bittorrent network
+
+Package: btrfs-progs
+Version: 6.16.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5508
+Depends: e2fsprogs, liblzo, libuuid, util-linux, zlib, zstd
+Filename: pool/main/b/btrfs-progs/btrfs-progs_6.16.1_aarch64.deb
+Size: 973200
+MD5sum: 348188975099aeddc23f5b260fee356a
+SHA1: 529be4fe6a5e5684c97997fbe387b971f6a55b0c
+SHA256: 4df9d62adbb71f798ede7d86a4e6626676b947608dfc170c6a80d16477c0fbbd
+Homepage: https://btrfs.readthedocs.io/en/latest/
+Description: Utilities for Btrfs filesystem
+
+Package: buf
+Version: 1.57.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 47444
+Filename: pool/main/b/buf/buf_1.57.2_aarch64.deb
+Size: 9020160
+MD5sum: 1d96a44165ed3a2c4d4402feea76d478
+SHA1: 46af48bef72d0dfa5d30b10cad251bd8500ebde1
+SHA256: c360def5bc648bd67fa46fccea3f47fa9a63c222bedfa6574e30f6fa2aef39cc
+Homepage: https://buf.build
+Description: A new way of working with Protocol Buffers
+
+Package: build-essential
+Version: 4.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: clang, make, pkg-config
+Recommends: autoconf, automake, bc, bison, cmake, flex, gperf, libtool, m4
+Suggests: git, golang, nodejs, patchelf, proot, python, ruby, rust, subversion
+Filename: pool/main/b/build-essential/build-essential_4.1_all.deb
+Size: 808
+MD5sum: f9cbb940816aec4cf88f71e6b4319e44
+SHA1: 43fa299b3173be26782542c037d73c19bc34b977
+SHA256: 06d357fc5dc74904a8902a724a7b858507d2bc9e7f1b9ddd3d936601cb9dcc0c
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that installs essential development tools
+
+Package: busybox
+Version: 1.37.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1020
+Filename: pool/main/b/busybox/busybox_1.37.0-2_aarch64.deb
+Size: 464700
+MD5sum: 81f1d5d626a48443899de36710451eef
+SHA1: ce50ef3bc337879579344cf8cb28e4171480446e
+SHA256: 3bb8bad3d1ea68e3137916ec07117a7ac60f07b5713e8ed5e0eb5040ba9c409d
+Homepage: https://busybox.net/
+Description: Tiny versions of many common UNIX utilities into a single small executable
+
+Package: bvi
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: ncurses
+Filename: pool/main/b/bvi/bvi_1.5.0-1_aarch64.deb
+Size: 43588
+MD5sum: f68e69660f135c78814abc35d226d413
+SHA1: d372fd39f8a64bac95758d9ca500d96974615530
+SHA256: 5f06041639e3eddea55f0c4c0ac0933287541cf5810f0d69e5474859deb044e4
+Homepage: https://bvi.sourceforge.net/
+Description: Binary file editor based on vi
+
+Package: byacc
+Version: 20241231-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Conflicts: bison
+Filename: pool/main/b/byacc/byacc_20241231-2_aarch64.deb
+Size: 54692
+MD5sum: 6a6dba0a7f51f5b1371dde377b520419
+SHA1: 698c67a3f144b2d8cc50873471ef91c85f7e4ef8
+SHA256: db81f6f8ab5a6be2ba266ecf5a356be049e18fa5e1f3a89cf5a4ef6521266a04
+Homepage: https://invisible-island.net/byacc/
+Description: byacc is generally conceded to be the best yacc variant available
+
+Package: byobu
+Version: 6.13
+Architecture: all
+Maintainer: @termux
+Installed-Size: 828
+Depends: gawk, tmux
+Filename: pool/main/b/byobu/byobu_6.13_all.deb
+Size: 87748
+MD5sum: 1b704f389ae9478de75aef6860c1122e
+SHA1: ecb6b59a7ab62d292c9e50977592294fbc4aa3ee
+SHA256: 08f728c666fe74ee186d464d55a4d22e241ff552a359e68493bad2ed73ffa4c0
+Homepage: https://www.byobu.org/
+Description: Byobu is a GPLv3 open source text-based window manager and terminal multiplexer
 
 Package: bzip2
 Version: 1.0.8-8
@@ -2197,6 +2382,50 @@ SHA1: ecb90f660e346b4a1b50247edeb89facc71e7c90
 SHA256: 43648be5dd6be462715f4821eef82555882e5e0fd62bfd5a26499d33d81bdd9f
 Homepage: https://c-ares.org/
 Description: Library for asynchronous DNS requests (including name resolves)
+
+Package: c-script
+Version: 0.14
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: bash
+Filename: pool/main/c/c-script/c-script_0.14_all.deb
+Size: 3660
+MD5sum: 8230a65f971330ed3120b92b5757f6e3
+SHA1: fb9a1b2299c14949c8c41b6563daf770fc1c95b9
+SHA256: 8b09705876b6be0807f79648ad412f75c3ebb60117ce7070f35f5aa248116e06
+Homepage: https://github.com/ryanmjacobs/c
+Description: Compile and execute C 'scripts' in one go!
+
+Package: c-toxcore
+Version: 0.2.20-p20250105-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1032
+Depends: libsodium, libopus, libvpx
+Breaks: c-toxcore-dev
+Replaces: c-toxcore-dev
+Filename: pool/main/c/c-toxcore/c-toxcore_0.2.20-p20250105-1_aarch64.deb
+Size: 251068
+MD5sum: 4147a71037aeb36f8fca458cb9fc3c63
+SHA1: 0ad0d266776a600d6ecc63e56f9e5933ec659d3a
+SHA256: 8920a6615cc3981b2cebd5725a1da4a6c784a0bc315a3ac827c45cf9b4ec95c8
+Homepage: https://tox.chat
+Description: Backend library for the Tox protocol
+
+Package: c-toxcore-static
+Version: 0.2.20-p20250105-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1252
+Depends: c-toxcore (= 0.2.20-p20250105-1)
+Filename: pool/main/c/c-toxcore-static/c-toxcore-static_0.2.20-p20250105-1_aarch64.deb
+Size: 232680
+MD5sum: 174e82fd4dd3fdcbb3bd2d19e07fd2b2
+SHA1: 5ce10905d15f5646c6689d9173f7580c71e30359
+SHA256: 74ca724c11b8ab5c692516534265f736165cae6754e7a40790e199a2f4360ec1
+Homepage: https://tox.chat
+Description: Static libraries for c-toxcore
 
 Package: ca-certificates
 Version: 1:2025.09.09
@@ -2547,6 +2776,22 @@ SHA1: 1c2ca7df031c72c728d55c0932e44217fdfcfeeb
 SHA256: a8b1ad4d53312343e3995a646fcb626e82429cd1353495339806eb4666c41a72
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Description: Small SSH server and client
+
+Package: e2fsprogs
+Version: 1.47.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5548
+Depends: libarchive, libblkid, libuuid
+Breaks: e2fsprogs-dev
+Replaces: e2fsprogs-dev
+Filename: pool/main/e/e2fsprogs/e2fsprogs_1.47.3-1_aarch64.deb
+Size: 780360
+MD5sum: 7a48184058700e63e7baa8ffcbf8d992
+SHA1: e131090d3fca4b2e6da13e75e499a1a1e5a417fb
+SHA256: 0e7f7b09b3bdd48a403bee15a4c38798f26e75bf65913cb412a581bab7ba9281
+Homepage: https://e2fsprogs.sourceforge.net
+Description: EXT 2/3/4 filesystem utilities
 
 Package: fdisk
 Version: 2.40.2-5
@@ -3127,6 +3372,20 @@ SHA1: a3f1443eb3601f0686c4ec043bc9ba80f0e8775c
 SHA256: b48f12f7861e2746dd967bf00732015cd0dab1c47542bcaa2bad9f23d12440cd
 Homepage: https://www.gnu.org/software/grep/
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
+
+Package: groff
+Version: 1.23.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 35528
+Depends: libc++, perl, mandoc
+Filename: pool/main/g/groff/groff_1.23.0-2_aarch64.deb
+Size: 9720900
+MD5sum: 9490c271f397a8ff843b2f26026007be
+SHA1: 42585360f762291884582908f33cb0e094b22c8b
+SHA256: af7c38a75b150f3e2940812596b460616d7ecc8d11d7cff173aec0a1be1d9220
+Homepage: https://www.gnu.org/software/groff/
+Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
 
 Package: gzip
 Version: 1.14-1
@@ -3774,6 +4033,36 @@ SHA1: 94c44d45cda59bf6baddfb5ca98842c5aedbe6ef
 SHA256: c0c374c5932a550f1abb364fda34f0b5bf9ceb6a382cdfccc51b53dd30f9780b
 Homepage: https://packages.debian.org/libapt-pkg-perl
 Description: Perl interface to APT's libapt-pkg
+
+Package: libarchive
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1028
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Breaks: libarchive-dev
+Replaces: libarchive-dev
+Filename: pool/main/liba/libarchive/libarchive_3.8.1-1_aarch64.deb
+Size: 390384
+MD5sum: 3648cc3b6e78c4e900dc8d2b2b2214bd
+SHA1: e2523c5fef4dac71d820082103f008ec0639c8e4
+SHA256: 9de091762d36a43394135fd7115fcc6c026e09994b7c5749d54184509d9134e5
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library
+
+Package: libarchive-static
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2032
+Depends: libarchive (= 3.8.1-1)
+Filename: pool/main/liba/libarchive-static/libarchive-static_3.8.1-1_aarch64.deb
+Size: 367852
+MD5sum: 31d3d3b092a0157f2cbe888cb9a48733
+SHA1: b63dc54320d9598567439978aaa229d14087eced
+SHA256: d1008dd26e8b224b4764ce0e217201ec3ddc24acf85ab7dadd5bc9c505249ed0
+Homepage: https://www.libarchive.org/
+Description: Static libraries for libarchive
 
 Package: libass
 Version: 0.17.4-1
@@ -7154,6 +7443,23 @@ SHA256: 052abfa54dfb2d8e0a072ffcd0424333b9c38b8b7966f5b738df30b6315ce384
 Homepage: https://www.gnu.org/software/make/
 Description: Tool to control the generation of non-source files from source files
 
+Package: mandoc
+Version: 1.14.6-6
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 908
+Depends: less, libandroid-glob, zlib
+Breaks: man
+Replaces: man
+Provides: man
+Filename: pool/main/m/mandoc/mandoc_1.14.6-6_aarch64.deb
+Size: 276940
+MD5sum: 487e731ef145f2b9658b6a3bfe511f36
+SHA1: cb793b5b195d4fcc8b2376a8f29d9bdbbca86867
+SHA256: 5c1a42a9b0eb73778ed68346910ba4fcab16c886208684a983a2cc004a61068a
+Homepage: https://mdocml.bsd.lv/
+Description: Man page viewer from the mandoc toolset
+
 Package: mlir
 Version: 20.1.8-3
 Architecture: aarch64
@@ -8462,6 +8768,20 @@ SHA1: d1bd122ce01b0e155b5cab39370704f8e8fdeae0
 SHA256: f60b3cc324bb2f5075d81779ce2fa0c4d8a95e8605c6392f22275bf3b3fddb3d
 Homepage: https://tcl.sourceforge.net/
 Description: A windowing toolkit for use with tcl
+
+Package: tmux
+Version: 3.5a-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1036
+Depends: ncurses, libevent, libandroid-support, libandroid-glob
+Filename: pool/main/t/tmux/tmux_3.5a-1_aarch64.deb
+Size: 343008
+MD5sum: 3a3f537e37f951d4da5544e88b6f40cb
+SHA1: 0d34ba6612c803a9b5c48654d795fd95a3a83022
+SHA256: 55e0c597815f9eb8a90f91c68024ffb5f025b3778e79dc750e327d212211d6b8
+Homepage: https://tmux.github.io/
+Description: Terminal multiplexer
 
 Package: tor
 Version: 0.4.8.18
