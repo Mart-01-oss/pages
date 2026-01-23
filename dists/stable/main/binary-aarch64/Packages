@@ -2454,6 +2454,205 @@ SHA256: 0ba30263df1ff2c1da595521cd873ca5f015ef26a820ab8a6dfbb21b82999c9e
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
+Package: cabextract
+Version: 1.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: pool/main/c/cabextract/cabextract_1.11-1_aarch64.deb
+Size: 26856
+MD5sum: 9248f46cb1c203936bef28f67c3ae129
+SHA1: 877ae6aae824a780a9bea8518a1e681bf479a3ac
+SHA256: 33602734b8421b36306a8d248cb89db98940b1981af985a5f8d1c0d61ba8ab9c
+Homepage: https://www.cabextract.org.uk/
+Description: A program to extract Microsoft cabinet (.CAB) files
+
+Package: cabin
+Version: 0.13.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3120
+Depends: fmt, libc++, libcurl, libgit2, libspdlog, libtbb
+Suggests: clang, make, pkg-config
+Conflicts: poac
+Replaces: poac
+Filename: pool/main/c/cabin/cabin_0.13.0-1_aarch64.deb
+Size: 513476
+MD5sum: 3b02fc5db369703b3ad81276a7a14983
+SHA1: c5259bb07c26da0676365aaeeb502689625073df
+SHA256: 4b52a5e271a82758240217b0cf8c23d4f9724c6d22ef418bb6c1aeb1d3e64435
+Homepage: https://github.com/cabinpkg/cabin
+Description: A package manager and build system for C++
+
+Package: cadaver
+Version: 0.28
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: libiconv, libneon, readline
+Filename: pool/main/c/cadaver/cadaver_0.28_aarch64.deb
+Size: 35900
+MD5sum: bea015757a5abd6441cfa9221e94391c
+SHA1: c63f695ce509df209842be578cce9433a6045211
+SHA256: 805f7e867e7235278cc2a13d83718fbbf86fa750d3e27fd909be022e8bfec630
+Homepage: https://notroj.github.io/cadaver/
+Description: A command-line WebDAV client for Unix
+
+Package: caddy
+Version: 2.10.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 51232
+Filename: pool/main/c/caddy/caddy_2.10.2_aarch64.deb
+Size: 11190720
+MD5sum: 539df46b941d4347aec9aef14a799629
+SHA1: c164c6c33bdcc651b5ffe899b176b2858fd1b415
+SHA256: 37295c6e57d4246062a29e1bf2caa4b4ce1d9dbe5f4d1a6a7f68dfb89c1dac5a
+Homepage: https://caddyserver.com/
+Description: Fast, cross-platform HTTP/2 web server
+
+Package: calc
+Version: 2.15.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6640
+Depends: ncurses, readline
+Filename: pool/main/c/calc/calc_2.15.1.1-1_aarch64.deb
+Size: 817556
+MD5sum: b8f2da779afbe982b84c613c2e5f4805
+SHA1: 4bd0dcf9eaf8e49f8a4c3d6ab4b67a065389bddc
+SHA256: 4487b72e198892409c935da08598dffe50a42545be9271e0a48e8ec2b8e34b54
+Homepage: http://www.isthe.com/chongo/tech/comp/calc/
+Description: Arbitrary precision console calculator
+
+Package: calcurse
+Version: 4.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 620
+Depends: libandroid-support, ncurses
+Recommends: calcurse-caldav
+Filename: pool/main/c/calcurse/calcurse_4.8.2_aarch64.deb
+Size: 145944
+MD5sum: d3bca20733d4dd825998e71e350816b8
+SHA1: 14b68f0f3911fdcde8f49f4b7e45d821d981174d
+SHA256: 1822d6f9f04b02e828558ef73d434a7f98b6e8bd017a9acd611348235794c67b
+Homepage: https://calcurse.org/
+Description: calcurse is a calendar and scheduling application for the command line
+
+Package: calcurse-caldav
+Version: 4.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: python, python-pip, calcurse (= 4.8.2)
+Breaks: calcurse (<< 4.7.1-1)
+Replaces: calcurse (<< 4.7.1-1)
+Filename: pool/main/c/calcurse-caldav/calcurse-caldav_4.8.2_aarch64.deb
+Size: 7848
+MD5sum: c50993cef24ca5524a3c3373493db3a7
+SHA1: 1e8422b8e63d85da7fabd84199e29bd6d9248a0b
+SHA256: 4948a4c323e7c4ec26045088c392c31135317b198f38a7de647a39ae901c462f
+Homepage: https://calcurse.org/
+Description: Sync calcurse with remote caldav calendar
+
+Package: capnproto
+Version: 1.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8644
+Depends: libc++
+Filename: pool/main/c/capnproto/capnproto_1.2.0-1_aarch64.deb
+Size: 1625884
+MD5sum: c216d616ddd809c20cf214751e1ce590
+SHA1: 59de77e8b03378f18acbf9748742fc62a95014bf
+SHA256: 65df9f452b20b6521d6f5fa3f5b46863c3891e6398a0723f36ae11dfce9988c5
+Homepage: https://capnproto.org/
+Description: Data interchange format and capability-based RPC system
+
+Package: capstone
+Version: 5.0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18544
+Breaks: capstone-dev
+Replaces: capstone-dev
+Filename: pool/main/c/capstone/capstone_5.0.6-1_aarch64.deb
+Size: 1468100
+MD5sum: 31ab553c448d41e7e1500ce52b6b8ebe
+SHA1: e70da01bbabf9134d9f38590dea105726513aeb4
+SHA256: 89c115fab514289fb30fe3b81d12b5b4880322627797ef447136d0713dcbb74a
+Homepage: https://www.capstone-engine.org/
+Description: Lightweight multi-platform, multi-architecture disassembly framework
+
+Package: capstone-static
+Version: 5.0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10200
+Depends: capstone (= 5.0.6-1)
+Filename: pool/main/c/capstone-static/capstone-static_5.0.6-1_aarch64.deb
+Size: 739696
+MD5sum: 18384bb94454ee7b0b7dcdf2aff89f25
+SHA1: c48da00f7822cb2e2728aa320654c25dc7ed8ee2
+SHA256: 7e70b5cfc0118e479b1db3fb646e70db4c650f421a2c6cfef00f649c6dfcef64
+Homepage: https://www.capstone-engine.org/
+Description: Static libraries for capstone
+
+Package: carapace
+Version: 1.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 55936
+Filename: pool/main/c/carapace/carapace_1.5.0_aarch64.deb
+Size: 7165452
+MD5sum: b278887a90cddecee65552ca81bc9d1d
+SHA1: 85975ff33640f077ad810c59a657ec6cfe78f358
+SHA256: 494ef52bdecbf7184c3c4252b7006458a92c774a72604322368fc2a832bb77d1
+Homepage: https://carapace.sh/
+Description: Multi-shell multi-command argument completer
+
+Package: catdoc
+Version: 0.95-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 760
+Depends: libandroid-glob
+Filename: pool/main/c/catdoc/catdoc_0.95-2_aarch64.deb
+Size: 62712
+MD5sum: c0c4fa89ff5ff9eabcad43de6410d9b4
+SHA1: d12726a955d310b67e99e9387bcde096229d9537
+SHA256: 8db9e2fd2e72c0b47ffea9d820db75e721429d668ab48275ddc5cb985de91d94
+Homepage: http://www.wagner.pp.ru/~vitus/software/catdoc/
+Description: Program which reads MS-Word file and prints readable ASCII text to stdout
+
+Package: catgirl
+Version: 2.2a-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: libandroid-support, libretls, ncurses, openssl
+Filename: pool/main/c/catgirl/catgirl_2.2a-1_aarch64.deb
+Size: 50588
+MD5sum: 6d2e5f99d8211877218f5abbb417b505
+SHA1: 01e447a5130d07002cc3b716afa6e430c1fdfb7c
+SHA256: 27ed0ce5f702cfb1a4470af3c1e31a7fec0f34908c42381e52a983071bd0c070
+Homepage: https://git.causal.agency/catgirl
+Description: A TLS-only terminal IRC client
+
+Package: catimg
+Version: 2.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Filename: pool/main/c/catimg/catimg_2.7.0-1_aarch64.deb
+Size: 38216
+MD5sum: 0fc356e9f8c26dc233fea354720340a9
+SHA1: 2f71e8c9aa7823b681f0bb2836dd3b0f1bbd44d6
+SHA256: 8db380c2c4836f934150858c643eb26bade1e6dc6672ce3eb684938ae13da351
+Homepage: https://posva.net/shell/retro/bash/2013/05/27/catimg
+Description: Renders images in the terminal
+
 Package: check
 Version: 0.15.2-3
 Architecture: aarch64
@@ -2911,6 +3110,20 @@ SHA1: adb42797b4750401e3084b6e04a1dbe026353423
 SHA256: 0e1fdcf2b78b26a08af9868434eacd4fbb83986b1b589cb067e5615f68f1acf3
 Homepage: https://github.com/westes/flex
 Description: Static libraries for flex
+
+Package: fmt
+Version: 1:11.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Depends: libc++
+Filename: pool/main/f/fmt/fmt_1+11.2.0_aarch64.deb
+Size: 168600
+MD5sum: 8545a7f7674a5529f0376ea7ed5cc36a
+SHA1: 1f4355d9a3999d1506947e33694f35c9860b528e
+SHA256: ba2da46c75823702d98a63924f4d3764a626855166586ab0df2ad5cb59f2b0c3
+Homepage: https://fmt.dev/latest/index.html
+Description: Open-source formatting library for C++
 
 Package: fontconfig
 Version: 2.17.1-1
@@ -5425,6 +5638,34 @@ SHA256: 7e35969c3c78b9ec9166dce4f2fd34a7cbee7d71262676e01e319fb090c0b6a7
 Homepage: https://mpg123.org/
 Description: Static libraries for libmpg123
 
+Package: libneon
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1292
+Depends: libexpat, openssl, zlib
+Filename: pool/main/libn/libneon/libneon_0.35.0-1_aarch64.deb
+Size: 184432
+MD5sum: ee437f9b32c7f56fd2cfcc366a0e6481
+SHA1: 3500edeb76ee76dd616bb4fd84557e7910aeb93b
+SHA256: e0ad3269ae52fd7032005729a3c92dce6ac474d303cfb5cd54c5c786356bbf70
+Homepage: https://notroj.github.io/neon/
+Description: An HTTP/1.1 and WebDAV client library, with a C interface
+
+Package: libneon-static
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: libneon (= 0.35.0-1)
+Filename: pool/main/libn/libneon-static/libneon-static_0.35.0-1_aarch64.deb
+Size: 65688
+MD5sum: 38b5c99a6d1c33bb38c8f48a7304d2a1
+SHA1: b7b2bdd3307fc531414ff0116c94f7c9d2a23a45
+SHA256: c054324efed40e1322c41e91c4e0b29e60309989454328c1c1a72415d9cbe471
+Homepage: https://notroj.github.io/neon/
+Description: Static libraries for libneon
+
 Package: libnettle
 Version: 3.10.2-1
 Architecture: aarch64
@@ -5927,6 +6168,36 @@ SHA256: 21fd2b4e37d5ca8aca3d817059249bad157fadc99d74455ae2c6832d4311ad6f
 Homepage: https://cwrap.org/resolv_wrapper.html
 Description: A wrapper for DNS name resolving or DNS faking
 
+Package: libretls
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: openssl
+Replaces: libtls
+Provides: libtls
+Filename: pool/main/libr/libretls/libretls_3.8.1-1_aarch64.deb
+Size: 46076
+MD5sum: c43852e0d29b1043ecfb17b2f09532eb
+SHA1: a1fe5a28dc20670ad40bdfbd33474d4a95bb6e41
+SHA256: c471c8fcd81cc216ec2b790030457b6ba8e5e2ae25c17b9dd9593b276842c185
+Homepage: https://git.causal.agency/libretls/about/
+Description: libtls for OpenSSL
+
+Package: libretls-static
+Version: 3.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libretls (= 3.8.1-1)
+Filename: pool/main/libr/libretls-static/libretls-static_3.8.1-1_aarch64.deb
+Size: 26392
+MD5sum: 59124ebc89694fa02b85526e30a95f4d
+SHA1: 09e449f8d61db17510a5ebbfdabb74e969dc44fa
+SHA256: 17e3c613002cfba7e8344862250a1e41092859be33460eff7e223ea61ee93d36
+Homepage: https://git.causal.agency/libretls/about/
+Description: Static libraries for libretls
+
 Package: librsvg
 Version: 2.61.1
 Architecture: aarch64
@@ -6073,6 +6344,20 @@ SHA256: b50cc8662aa139e61ffcc52273c89959cb37a5d8c4507d9f69d0bac78dd719f6
 Homepage: https://sourceforge.net/projects/soxr/
 Description: High quality, one-dimensional sample-rate conversion library
 
+Package: libspdlog
+Version: 1.15.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1148
+Depends: libc++, fmt
+Filename: pool/main/libs/libspdlog/libspdlog_1.15.3-1_aarch64.deb
+Size: 154996
+MD5sum: fd0c7c756effb37760d1efa7a2fa0fda
+SHA1: d73cf694f7ccf06c86405759c5e7d47ef8d1ce35
+SHA256: 588cf12b26b69839325cd20a56320e0fe4dfd65a90e4ce05a4076071296b76a7
+Homepage: https://github.com/gabime/spdlog
+Description: Very fast, header-only/compiled, C++ logging library
+
 Package: libsqlite
 Version: 3.50.4-1
 Architecture: aarch64
@@ -6204,6 +6489,20 @@ SHA1: 553a091af54e1a534576c0306abb1a45b78fb956
 SHA256: c404016967d82d758589de8e7707d86f1c52e484b5fe42aba1acfdc293065304
 Homepage: https://snowballstem.org/
 Description: Static libraries for libstemmer
+
+Package: libtbb
+Version: 2022.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2328
+Depends: libc++
+Filename: pool/main/libt/libtbb/libtbb_2022.2.0-2_aarch64.deb
+Size: 289016
+MD5sum: 850ef4c6950c37d2181421b86db9a7a0
+SHA1: 79d3185e133bcf07c58a37a2a13d17704b52dd40
+SHA256: 54e505679fcee45e14f7ce0f4e3ab3e53a4dafd15b006d6be43935cc5a845e74
+Homepage: https://oneapi-src.github.io/oneTBB/
+Description: oneAPI Threading Building Blocks
 
 Package: libtheora
 Version: 1.2.0-1
@@ -7589,6 +7888,19 @@ SHA1: ec7e324a73196db98bb3c1f6101d52116c84aeb6
 SHA256: b2d7b4cb64ff8692023c12303fe137d3a1a15274677627cc1d5c21af8597ee49
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
+
+Package: nlohmann-json
+Version: 3.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1148
+Filename: pool/main/n/nlohmann-json/nlohmann-json_3.12.0_aarch64.deb
+Size: 113556
+MD5sum: 93063a9735fab21a70e5e77740517188
+SHA1: c147e7f8a00ec76f5088a2416b421a338893e538
+SHA256: 1eec20c705caa6d12bf77e6feaa825b91613216e4923c8f0905bd3331708260e
+Homepage: https://github.com/nlohmann/json
+Description: JSON for Modern C++
 
 Package: ocl-icd
 Version: 2.3.4
