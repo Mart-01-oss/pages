@@ -1215,6 +1215,212 @@ SHA256: 88f5e64379dca765df1231054b116cc8a64d88608f585c883fe367ab74060065
 Homepage: https://www.nongnu.org/atool
 Description: tool for managing file archives of various types
 
+Package: attr
+Version: 2.5.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Breaks: attr-dev
+Replaces: attr-dev
+Filename: pool/main/a/attr/attr_2.5.2-1_aarch64.deb
+Size: 52596
+MD5sum: 9a7f465be0512fb583f64918c9e8a0f9
+SHA1: 10430b005b29d27343fe593ce1f28fba563f3d3d
+SHA256: 0c3bb641b1078609102537e0350fca257a170d191ff9d95fad4877577e54ec9f
+Homepage: http://savannah.nongnu.org/projects/attr/
+Description: Utilities for manipulating filesystem extended attributes
+
+Package: attr-static
+Version: 2.5.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: attr (= 2.5.2-1)
+Filename: pool/main/a/attr-static/attr-static_2.5.2-1_aarch64.deb
+Size: 7092
+MD5sum: 9d1b004aad3486b5239655c047c10484
+SHA1: e5a020c22ddbbab3a64789f92c8fd7ab79cebd57
+SHA256: 7601b7bf2e114cc95448694b06b35b1e46e7e861657e2a29599d5444199d4419
+Homepage: http://savannah.nongnu.org/projects/attr/
+Description: Static libraries for attr
+
+Package: atuin
+Version: 18.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25192
+Filename: pool/main/a/atuin/atuin_18.8.0_aarch64.deb
+Size: 6077792
+MD5sum: 35ec80c78996565c38eda1400c61d7d3
+SHA1: 97952d3762af548084810db8a065de4a04683685
+SHA256: e26561556559128b7f9b3c72b602d77b0e603352e2f2918b03a787f1c13a772d
+Homepage: https://atuin.sh/
+Description: Magical shell history
+
+Package: autoconf
+Version: 2.72
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3648
+Depends: m4, make, perl
+Filename: pool/main/a/autoconf/autoconf_2.72_all.deb
+Size: 624096
+MD5sum: 5534cc1685c03d1a26f2164b5e1d6a47
+SHA1: 4710eae8c759709e11cac5c252864975e0261500
+SHA256: bd1a8053fe000e973f90be381e31be494bf3d4b631b58244419f5ec9102e498b
+Homepage: https://www.gnu.org/software/autoconf/autoconf.html
+Description: Creator of shell scripts to configure source code packages
+
+Package: autoconf-archive
+Version: 2024.10.16
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4620
+Filename: pool/main/a/autoconf-archive/autoconf-archive_2024.10.16_all.deb
+Size: 402520
+MD5sum: 8dd2e415753992ec4f4dd04ee4c3c7d0
+SHA1: f03d9bc10bbf1aee43fffe43f1eba6f58979e339
+SHA256: 39e5c47095e275b56b5459bbd69914860190cd1c5bbdb902a952ff0a54db56e6
+Homepage: https://www.gnu.org/software/autoconf-archive/
+Description: A collection of freely re-usable Autoconf macros
+
+Package: autojump
+Version: 22.5.3-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 216
+Depends: python
+Filename: pool/main/a/autojump/autojump_22.5.3-1_all.deb
+Size: 27868
+MD5sum: 6bcd175deafe0b62e23ba336f8dcfda3
+SHA1: b170079b59033d9786f60eaf53c2fdcac73bb8c8
+SHA256: 866e2fa96e2e99eadb5e106eea5107406e590f5d54a105d8178aadb6a3cd99c7
+Homepage: https://github.com/wting/autojump
+Description: A faster way to navigate your filesystem
+
+Package: automake
+Version: 1.18.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2860
+Depends: autoconf
+Filename: pool/main/a/automake/automake_1.18.1_all.deb
+Size: 576528
+MD5sum: 812bb90be0bf8ad14b6a0c01dfc4d922
+SHA1: f2dd6798999349748af2b36664eced805f5c4690
+SHA256: 437c4c694a6a46a3df627f92698e392f563b7975f3c9a915685dd4dc2a43c1f9
+Homepage: https://www.gnu.org/software/automake/
+Description: Tool for automatically generating Makefile.in files
+
+Package: autossh
+Version: 1.4g-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: openssh | dropbear
+Filename: pool/main/a/autossh/autossh_1.4g-4_aarch64.deb
+Size: 22476
+MD5sum: 926242b19d312378a2fb538bbcf1c8dc
+SHA1: ad5be0f4907c0c9a543e0014642d02b385805f9c
+SHA256: 7276cad5356ffe676de90b7b64928f978001193a8fbfd32aba0649209fed7d15
+Homepage: https://www.harding.motd.ca/autossh/
+Description: Automatically restart SSH sessions and tunnels
+
+Package: aview
+Version: 1.3.0rc1-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: aalib (>> 1.4rc5-8)
+Filename: pool/main/a/aview/aview_1.3.0rc1-6_aarch64.deb
+Size: 14212
+MD5sum: 988aa740a3417b04c3ca291a62c7f47a
+SHA1: e9df6e8026228a9b08b7e62a5d063e606f0c9d8b
+SHA256: 88091cf81adea95e83f94b37899cefdd3b2a52e940edab1b436a8a7811557669
+Homepage: https://aa-project.sourceforge.net/aview/
+Description: High quality ascii-art image browser and animation player
+
+Package: avra
+Version: 1.4.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1896
+Filename: pool/main/a/avra/avra_1.4.2-1_aarch64.deb
+Size: 77696
+MD5sum: b5ddcf0bf93e80c590b71aafa9bb5a59
+SHA1: e6b7ac6c4b04d4b195a663dc3cbc67eca87dcc66
+SHA256: eb4b3edf6fd55a456e255128a31817830f8ec51da2953e5a46d2b4b804b7c200
+Homepage: https://github.com/Ro5bert/avra
+Description: Assember for the Atmel AVR microcontroller family
+
+Package: await
+Version: 2.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/a/await/await_2.1.0_aarch64.deb
+Size: 9596
+MD5sum: 312f67539c11d534763cfce5bbe3b7a7
+SHA1: 45b76e95369550dc41ca75a4b01907191960a012
+SHA256: 48282f83f005852c0a430212307e81786c2c319b189e3541b4373d1c47a06b53
+Homepage: https://github.com/slavaGanzin/await
+Description: Runs list of commands in parallel and waits for their termination
+
+Package: axel
+Version: 2.17.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: openssl
+Filename: pool/main/a/axel/axel_2.17.14-1_aarch64.deb
+Size: 24328
+MD5sum: 16de21aedcff0a87a5232b32125e5a6e
+SHA1: f1f0ddd57627f0498550d5be2daeff428a585567
+SHA256: 3988fd7657a712dee1b766f425e4d1a6d9a5fdaa79fdab653de693791beac231
+Homepage: https://github.com/axel-download-accelerator/axel
+Description: light command line download accelerator
+
+Package: b3sum
+Version: 1.8.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1048
+Filename: pool/main/b/b3sum/b3sum_1.8.2-1_aarch64.deb
+Size: 338016
+MD5sum: 3754262b75b5ef95b53b4b37a48f11ac
+SHA1: 4b30eb1edada7b00f334080a869f5f56eeaa4b9a
+SHA256: 5b63572a11de6fdc39f4655cbc90e78015035e46111da81fe4fa8c9c1a1b35ef
+Homepage: https://github.com/BLAKE3-team/BLAKE3/tree/master/b3sum
+Description: A command line utility for calculating BLAKE3 hashes, similar to Coreutils tools like b2sum or md5sum
+
+Package: bacula-fd
+Version: 15.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2076
+Depends: libc++, liblzo, openssl, zlib
+Filename: pool/main/b/bacula-fd/bacula-fd_15.0.3-1_aarch64.deb
+Size: 529076
+MD5sum: d37bbb2fac6a64198d01daed336ed847
+SHA1: 264cd290f63cb6214c070fa19d91a8089e762d3c
+SHA256: 10ead001510005f4502146ba1adaca0810c82a1b03664fd177be255dd152e051
+Homepage: https://www.bacula.org
+Description: Bacula backup software
+
+Package: bacula-fd-static
+Version: 15.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2780
+Depends: bacula-fd (= 15.0.3-1)
+Filename: pool/main/b/bacula-fd-static/bacula-fd-static_15.0.3-1_aarch64.deb
+Size: 327428
+MD5sum: 7acfd8c5640e1141b3f0cbc4f5d66c0e
+SHA1: 4d91a0cfa978d890396df03de2c558265973249f
+SHA256: bd2454dacb87097cf6ebd4d157ea7272ad775446a96ac96e31eb71ba60a25471
+Homepage: https://www.bacula.org
+Description: Static libraries for bacula-fd
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
@@ -1733,6 +1939,22 @@ SHA256: 2ebfe8be0ba8c94cb7bce4f7d30275bd7e73e23c98bab799c8b0f4a8109d7108
 Homepage: https://packages.debian.org/dpkg
 Description: Creates Packages index files
 
+Package: dropbear
+Version: 2025.87-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 408
+Depends: termux-auth, zlib
+Suggests: openssh-sftp-server
+Conflicts: openssh
+Filename: pool/main/d/dropbear/dropbear_2025.87-3_aarch64.deb
+Size: 139716
+MD5sum: 60f2b09362c3e3d0093ed17a216bb7e4
+SHA1: 1c2ca7df031c72c728d55c0932e44217fdfcfeeb
+SHA256: a8b1ad4d53312343e3995a646fcb626e82429cd1353495339806eb4666c41a72
+Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
+Description: Small SSH server and client
+
 Package: fdisk
 Version: 2.40.2-5
 Architecture: aarch64
@@ -2222,6 +2444,22 @@ SHA256: fd7a613c1fcf8082305d2f3d85675c6ad1cab34b7f5c1fdf9c97160f884a521a
 Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
 
+Package: krb5
+Version: 1.22.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3940
+Depends: libandroid-support, libandroid-glob, libresolv-wrapper, readline, openssl, libdb
+Breaks: krb5-dev
+Replaces: krb5-dev
+Filename: pool/main/k/krb5/krb5_1.22.1-1_aarch64.deb
+Size: 902244
+MD5sum: 1fb98e04fa4ad7e29835fa8f07b7b1f4
+SHA1: 3d1c5d25b8ea05144faeb2ef80adf84286ca857f
+SHA256: dc7db5c12fa3fd942cfa82376ac47f1aec7aab50dd391f6924b3edc93817280c
+Homepage: https://web.mit.edu/kerberos
+Description: The Kerberos network authentication system
+
 Package: lame
 Version: 3.100-7
 Architecture: aarch64
@@ -2250,6 +2488,36 @@ SHA1: 665c1ccdce223c2c28efa190d93b793ecb74b14d
 SHA256: 0f6377b4b0a4a6ba8af7751869b609b7c5f2a864e9d83acdc91b04a3c2d3bd06
 Homepage: https://github.com/termux/termux-packages
 Description: Fake ldd command
+
+Package: ldns
+Version: 1.8.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2868
+Depends: openssl, resolv-conf
+Breaks: ldns-dev
+Replaces: ldns-dev
+Filename: pool/main/l/ldns/ldns_1.8.4-1_aarch64.deb
+Size: 302428
+MD5sum: 83ad02f38eba8191b98a583dc03a352d
+SHA1: e8dcb215354e7d78e12d6ecccbf84e269a951c0a
+SHA256: f0461ce6272bb22b6b1bcac4007d65e68cb3db783838fd881f05cd1d0daa2c68
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Library for simplifying DNS programming and supporting recent and experimental RFCs
+
+Package: ldns-static
+Version: 1.8.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 688
+Depends: ldns (= 1.8.4-1)
+Filename: pool/main/l/ldns-static/ldns-static_1.8.4-1_aarch64.deb
+Size: 133240
+MD5sum: 01bfef50360a09fe94c132792f4e1aff
+SHA1: b5b4b4c4ef28a5373dcffbcc03169f534bc86e51
+SHA256: acef8a4f78e17d403f6cc803d66317f99c2b8fbfac55accb40e3c90abf80d659
+Homepage: https://www.nlnetlabs.nl/projects/ldns/
+Description: Static libraries for ldns
 
 Package: less
 Version: 679-2
@@ -3452,6 +3720,35 @@ SHA256: c8468dc8555f4a6846b68874f2beaaa205a2f1e85c7e90f87297cddc06ba1307
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
+Package: liblzo
+Version: 2.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Breaks: liblzo-dev
+Replaces: liblzo-dev
+Filename: pool/main/libl/liblzo/liblzo_2.10-4_aarch64.deb
+Size: 69372
+MD5sum: 1ba9e0e447bf58bad65538b6df81d87a
+SHA1: 5a1d4fbf04f2e3ff8e195a0aa5723cbdada0936e
+SHA256: a6b3980034678e0eda2701954326127a38e6bb1cde3fea955e00181a6782752c
+Homepage: http://www.oberhumer.com/opensource/lzo
+Description: Portable lossless data compression library
+
+Package: liblzo-static
+Version: 2.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: liblzo (= 2.10-4)
+Filename: pool/main/libl/liblzo-static/liblzo-static_2.10-4_aarch64.deb
+Size: 34372
+MD5sum: 8b54a91eeb3122d3b6c12c00964fe054
+SHA1: 9b784b0c4550a621c6c565347b87a0029bd63ef3
+SHA256: 062a904febf6ade167d2452755d8bd036d8d17499d5d3430aebfeaa23317a5f9
+Homepage: http://www.oberhumer.com/opensource/lzo
+Description: Static libraries for liblzo
+
 Package: libmd
 Version: 1.1.0-1
 Architecture: aarch64
@@ -3827,6 +4124,20 @@ SHA1: 4f3bddc622118545d8eb0be18be62fa8c33071f1
 SHA256: 7346bb41b1303160207b042271a025cf3796dbc0e1eb55b4f0bc8e4b16b4d93a
 Homepage: https://metacpan.org/pod/Regexp::Assemble
 Description: Perl module to merge several regular expressions
+
+Package: libresolv-wrapper
+Version: 1.1.7-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: resolv-conf
+Filename: pool/main/libr/libresolv-wrapper/libresolv-wrapper_1.1.7-6_aarch64.deb
+Size: 11544
+MD5sum: e3fcd295db928cc54a33ad39ff1581f7
+SHA1: 750815b3180b8723798a9f66326d29ed3eebda7d
+SHA256: 21fd2b4e37d5ca8aca3d817059249bad157fadc99d74455ae2c6832d4311ad6f
+Homepage: https://cwrap.org/resolv_wrapper.html
+Description: A wrapper for DNS name resolving or DNS faking
 
 Package: libsm
 Version: 1.2.6-1
@@ -4916,6 +5227,19 @@ SHA256: bb0acf74b2f8bbe5b63579e530e02df3550d7e9af72bdd43c121cb18b8354a50
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
+Package: m4
+Version: 1.4.19-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Filename: pool/main/m/m4/m4_1.4.19-5_aarch64.deb
+Size: 191448
+MD5sum: f417f6285353d2f1eddcc90f7ae2efb0
+SHA1: 1d2d8f2c57d689429911ad803743608c121eebf1
+SHA256: 56b0766a91136d6e7d60d8a2ec92aeecdc40dd2e59cdd5164657ebb3878cf0b0
+Homepage: https://www.gnu.org/software/m4/m4.html
+Description: Traditional Unix macro processor
+
 Package: make
 Version: 4.4.1-1
 Architecture: aarch64
@@ -5090,6 +5414,38 @@ SHA1: 7184d513f8e66dc4cba445cac8341e8313de5a60
 SHA256: 9979509679a33a3db27428d42bea9d30689d5634c6d93506fe48bf6af7fb7d54
 Homepage: https://openjdk.java.net
 Description: Portion of openjdk-21 requiring X11 functionality
+
+Package: openssh
+Version: 10.0p2-9
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 6840
+Depends: krb5, ldns, libandroid-support, libedit, openssh-sftp-server, openssl, termux-auth, zlib
+Suggests: termux-services
+Conflicts: dropbear
+Filename: pool/main/o/openssh/openssh_10.0p2-9_aarch64.deb
+Size: 923476
+MD5sum: 50efdec87fe7cc6516d8cc1dc6b47d7e
+SHA1: 623caedc132de761fcca4b1a760edfba9eb59301
+SHA256: 26c0ac0abf3718ea9827dedd7b05cf84ca894555e5c5ca20b3ef8935805410da
+Homepage: https://www.openssh.com/
+Description: Secure shell for logging into a remote machine
+
+Package: openssh-sftp-server
+Version: 10.0p2-9
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 188
+Depends: libandroid-support
+Breaks: openssh (<= 9.9p2-1)
+Replaces: openssh (<= 9.9p2-1)
+Filename: pool/main/o/openssh-sftp-server/openssh-sftp-server_10.0p2-9_aarch64.deb
+Size: 54972
+MD5sum: bfd30fea02a165040b043901bdbf839c
+SHA1: be07094e2cdb8d829ad53aeaa13d72d1f81cf82e
+SHA256: 25c9bb3277142437f8047986030bdb9ad19fbceb5a9aff3c095a3486a3bd0bce
+Homepage: https://www.openssh.com/
+Description: OpenSSH SFTP server subsystem
 
 Package: openssl
 Version: 1:3.5.2
@@ -5671,6 +6027,22 @@ SHA1: 8210b4b8d14128cedfa4a51820a067c96ae1b6dc
 SHA256: fd3332d64b3caaf44f99461a3f6320121ffb6bfb06532d436d042f294e9a9a3d
 Homepage: https://github.com/termux/termux-am-socket
 Description: A faster version of am with less features that only works while Termux is running
+
+Package: termux-auth
+Version: 1.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: openssl
+Breaks: termux-auth-dev
+Replaces: termux-auth-dev
+Filename: pool/main/t/termux-auth/termux-auth_1.5.0-1_aarch64.deb
+Size: 6996
+MD5sum: 270150cd008aaf69dc6f3f81d7ed71c9
+SHA1: 76abf9b62e01905a6df863797d7ac5a5669c9766
+SHA256: 8df6b7d90496b96d1c9d36f04eeb3111fb4dad5c43ca90c2670f7b5f77e1bb8d
+Homepage: https://github.com/termux/termux-auth
+Description: Password authentication library and utility for Termux
 
 Package: termux-core
 Version: 0.4.0-1
