@@ -1126,6 +1126,79 @@ SHA256: 3395f37d07229722e723a0c59687a856452397623879c5c4e05df9007a37d0d0
 Homepage: https://gitlab.com/berdyansk/astra-sm
 Description: Software for digital TV broadcasting
 
+Package: asymptote
+Version: 3.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5064
+Depends: fftw, libc++, libtirpc, zlib, ncurses, readline
+Filename: pool/main/a/asymptote/asymptote_3.05-1_aarch64.deb
+Size: 1260248
+MD5sum: 6f6a4a833707c504d84c31b88d2603d8
+SHA1: 8009c2518dc5e6c55f10ac81e3f5f4e4136ddeba
+SHA256: f7fc08e2296f7e765f93df95336d226203394dc820e65eef4ed7a09ae817b9b6
+Homepage: https://asymptote.sourceforge.io/
+Description: A powerful descriptive vector graphics language for technical drawing
+
+Package: at
+Version: 3.2.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Suggests: termux-services
+Filename: pool/main/a/at/at_3.2.5-2_aarch64.deb
+Size: 31744
+MD5sum: 154b4306f3dc5ce44ffa27d903daee34
+SHA1: 2f9bd4d0c43bbe71e577bc81ffd41760b5bd4687
+SHA256: 7b62c47543f45751a67ed0055e02a54840a9be39bb5f46f951139d887f944c4b
+Homepage: https://salsa.debian.org/debian/at
+Description: AT and batch delayed command scheduling utility and daemon
+
+Package: at-spi2-core
+Version: 2.58.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3356
+Depends: dbus, glib, libx11, libxi, libxtst
+Breaks: at-spi2-atk (<< 2.46.0), atk (<< 2.46.0), libatk
+Replaces: at-spi2-atk (<< 2.46.0), atk (<< 2.46.0), libatk
+Provides: at-spi2-atk, atk
+Filename: pool/main/a/at-spi2-core/at-spi2-core_2.58.0_aarch64.deb
+Size: 349676
+MD5sum: 20e420e93b6d1663946c802a8f3ae305
+SHA1: 41205da23235582cd7adb1d64298bed9240775c6
+SHA256: c1cb6fb6cd1ab3047a8b62a29a7e9c07da2d8fab10a652ae7fa8da73ae3d8363
+Homepage: https://wiki.gnome.org/Accessibility
+Description: Assistive Technology Service Provider Interface (AT-SPI)
+
+Package: atomicparsley
+Version: 1:20240608.083822.1ed9031-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 380
+Depends: libc++, zlib
+Filename: pool/main/a/atomicparsley/atomicparsley_1:20240608.083822.1ed9031-1_aarch64.deb
+Size: 108304
+MD5sum: 04f95efd4b0a0ad242f31177ff2f6905
+SHA1: 44be1c3715e8fc7f96a2ed06777375e55c40e360
+SHA256: fb772c9d3589a735b424bf1dc851ef54ab1c87930469b8a50c4615323dff7f77
+Homepage: https://github.com/wez/atomicparsley
+Description: Read, parse and set metadata of MPEG-4 and 3gp files
+
+Package: atomvm
+Version: 1:0.6.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 708
+Depends: zlib
+Filename: pool/main/a/atomvm/atomvm_1:0.6.6-1_aarch64.deb
+Size: 176392
+MD5sum: 7b4215c560bae719ec5cff39afbf74d7
+SHA1: a06ff66496928e91693c183814da9886ba28d3b1
+SHA256: b7ad2ebfc1eb6ef01d6c053e66a6a2d6d4efc310201d2ad0c2d6881d4144c8d7
+Homepage: https://github.com/bettio/AtomVM
+Description: The minimal Erlang VM implementation
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
@@ -1658,6 +1731,35 @@ SHA256: f267de31b2e5c0b5e9306fafe21310d3c21753800a211eb7d7365bb82d60d364
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities to manipulate disk partition tables
 
+Package: fftw
+Version: 3.3.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3404
+Breaks: fftw-dev
+Replaces: fftw-dev
+Filename: pool/main/f/fftw/fftw_3.3.10-4_aarch64.deb
+Size: 1015640
+MD5sum: febf13def3d5ee8ccc195cf4e51d8d70
+SHA1: 28a0a42ba500216ba0d32ab964814ed89e6d7dfb
+SHA256: e86e28dd1f054e5e90b2168a45843b37a5f273c5e856c8e5d3282a59fbb90a97
+Homepage: http://www.fftw.org/
+Description: Library for computing the Discrete Fourier Transform (DFT) in one or more dimensions
+
+Package: fftw-static
+Version: 3.3.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6948
+Depends: fftw (= 3.3.10-4)
+Filename: pool/main/f/fftw-static/fftw-static_3.3.10-4_aarch64.deb
+Size: 1005716
+MD5sum: b9db4e48172605d2932cc0759e8640c5
+SHA1: 2a5f2f6e46a3af37c935370b5bbc286fa5a5e17d
+SHA256: 170bfc68ffa74224b044a82ce50c71f77bfdd6c2a0cd40b214f03c1fd681f0c6
+Homepage: http://www.fftw.org/
+Description: Static libraries for fftw
+
 Package: findutils
 Version: 4.10.0-1
 Architecture: aarch64
@@ -1760,6 +1862,22 @@ SHA1: 9f7bcdbe015b1c7cb0d562b8e03800401e934646
 SHA256: 86309b41ebfe9958bc8642a29c8fc3723ffc13f31483107f106573d9ddccf7e8
 Homepage: https://www.freetype.org
 Description: Static libraries for freetype
+
+Package: g-ir-scanner
+Version: 1.86.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1076
+Depends: ldd, python, gobject-introspection (= 1.86.0)
+Breaks: gobject-introspection (<< 1.74.0-1)
+Replaces: gobject-introspection (<< 1.74.0-1)
+Filename: pool/main/g/g-ir-scanner/g-ir-scanner_1.86.0_aarch64.deb
+Size: 130292
+MD5sum: 16a5c495b1a80b773caa686c61cbc2df
+SHA1: 0963a36089955ac1e3fc0d1b02c2b44ac079f567
+SHA256: 220b6da128e37ecb143988ee4a053eeb8143ed45ba478ebeffcd4e3a44251a56
+Homepage: https://gi.readthedocs.io/
+Description: A tool which generates GIR XML files
 
 Package: gawk
 Version: 5.3.1-2
@@ -1912,6 +2030,19 @@ SHA256: ca018570cffbd9676520761a1bb4f689bcc2ee62d2f43e7e50470b36385f31f2
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
 
+Package: glm
+Version: 1.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24228
+Filename: pool/main/g/glm/glm_1.0.1_aarch64.deb
+Size: 3555976
+MD5sum: 8197861d50cf26ce809384f34b681c44
+SHA1: 6a76a26afaadfb008994b1e024a38a3f3701eddb
+SHA256: ede0576142054b752ca7f83d82ceaec814c73762a48367d5fa8ffe27a7b5d79d
+Homepage: https://glm.g-truc.net/
+Description: C++ mathematics library for graphics software based on the GLSL specifications
+
 Package: gnupg
 Version: 2.5.11
 Architecture: aarch64
@@ -1942,6 +2073,21 @@ SHA1: a1124e94cd1118d80dcf1f02d34746443c3e0737
 SHA256: 47c6335eff4e32ad3f1028710c54a84db3defd7c30c333a8c59e205ba7899058
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
+
+Package: gobject-introspection
+Version: 1.86.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1460
+Depends: glib, libffi
+Suggests: g-ir-scanner
+Filename: pool/main/g/gobject-introspection/gobject-introspection_1.86.0_aarch64.deb
+Size: 203312
+MD5sum: f4b1c8cf2b9847dc998dc43c593ef0ea
+SHA1: 569f77c3381b6606008630d6187c858a596b5f23
+SHA256: 0845bd4caeaa2a7729eb032d3a05ed248579556ad33bbb0051c08de860491627
+Homepage: https://gi.readthedocs.io/
+Description: Uniform machine readable API
 
 Package: gpgv
 Version: 2.5.11
@@ -2073,6 +2219,21 @@ SHA1: 75c52df275e41be49422aad3749eb69ea5e24c3e
 SHA256: cca17424bfa5e10e308e10a4c50cb1b103b467feabffe6641f14c043423bcbe5
 Homepage: https://lame.sourceforge.io/
 Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
+
+Package: ldd
+Version: 0.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44
+Depends: bash, binutils-bin
+Conflicts: binutils (<< 2.39-1)
+Filename: pool/main/l/ldd/ldd_0.3_aarch64.deb
+Size: 1860
+MD5sum: c61ce04b3d88ed26ecedb81d174a4e49
+SHA1: 665c1ccdce223c2c28efa190d93b793ecb74b14d
+SHA256: 0f6377b4b0a4a6ba8af7751869b609b7c5f2a864e9d83acdc91b04a3c2d3bd06
+Homepage: https://github.com/termux/termux-packages
+Description: Fake ldd command
 
 Package: less
 Version: 679-2
@@ -3884,6 +4045,33 @@ SHA1: 61b60a2531a838e39175f57496dcce27dfb4ad24
 SHA256: f34e39adbbac5c6db690474479a5f46cfa73cd9071317e74bd7ab3186faa4a5e
 Homepage: http://www.simplesystems.org/libtiff/
 Description: Tools for working with tiff files
+
+Package: libtirpc
+Version: 1.3.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Filename: pool/main/libt/libtirpc/libtirpc_1.3.7-1_aarch64.deb
+Size: 123836
+MD5sum: 08bcb08cbe6fa692376d72c3bd96a97e
+SHA1: 80f0c30922862eb939079231fcbe72b8ae67f82d
+SHA256: a050472150c099007378ff2922c5a92e82c635ce12a52491ee7e8f2a2f1b103d
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+Description: Transport Independent RPC library
+
+Package: libtirpc-static
+Version: 1.3.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libtirpc (= 1.3.7-1)
+Filename: pool/main/libt/libtirpc-static/libtirpc-static_1.3.7-1_aarch64.deb
+Size: 69912
+MD5sum: ecad568374081fd692dbcb3cce962fa2
+SHA1: ec609e656189c7deee4d28fb02eba8875a133500
+SHA256: d1950404a7cbbea08de88b4e32c1fee978c730a581aeca79ecb666a2b981e55a
+Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
+Description: Static libraries for libtirpc
 
 Package: libtool
 Version: 2.5.4-2
