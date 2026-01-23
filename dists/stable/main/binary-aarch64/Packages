@@ -3541,6 +3541,115 @@ SHA256: a0016a0f22fe60c5c33f0a0cadd933843e16432b63fc803907977b7e05173ab8
 Homepage: https://github.com/DrakeW/corgi
 Description: CLI workflow manager
 
+Package: corkscrew
+Version: 2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: openssh
+Filename: pool/main/c/corkscrew/corkscrew_2.0-4_aarch64.deb
+Size: 5988
+MD5sum: fb4562327a1d59969e5cd7b9ef5cbbb0
+SHA1: 2d0d7dfc8bcea72612d4310ea2f765fca5fdbd5a
+SHA256: ddf4936707039c8c1fdd30e83631dff8d07638b1888971670cd19003b57e1a76
+Homepage: https://wiki.linuxquestions.org/wiki/Corkscrew
+Description: A tool for tunneling SSH through HTTP proxies
+
+Package: cowsay
+Version: 3.8.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 276
+Depends: perl
+Filename: pool/main/c/cowsay/cowsay_3.8.4_all.deb
+Size: 15084
+MD5sum: bcc23814d21fb703a050f6a10e04a394
+SHA1: aa308321b094e68cbc37491f26ff94b1887aa617
+SHA256: ac6bebd2b144257366d6e4bc5d123b515b0041ce2fec08d6184447dde6612378
+Homepage: https://cowsay.diamonds/
+Description: Program which generates ASCII pictures of a cow with a message
+
+Package: cpio
+Version: 2.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: tar
+Filename: pool/main/c/cpio/cpio_2.15-1_aarch64.deb
+Size: 66268
+MD5sum: 722308f06ec35cdf76b386d3acc86706
+SHA1: b5b36e839ec1d689e821faa52334e2d6126f32d7
+SHA256: fa1193e5e049cc6b3d066ef0d18a1e0a7a67b23583aa7ab763d84f5a88c78a66
+Homepage: https://www.gnu.org/software/cpio/
+Description: CPIO implementation from the GNU project
+
+Package: cppcheck
+Version: 2.18.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10000
+Depends: libc++
+Filename: pool/main/c/cppcheck/cppcheck_2.18.3_aarch64.deb
+Size: 1861488
+MD5sum: 36d2e03416b11231d394fc3140ee36d1
+SHA1: e79f43f9d555141ea10b0fdd2b82b18e7e98a0d4
+SHA256: 1cec743c59fc80a554c14d70ce6f244978fdab11cb702035cd918d3ae46ac268
+Homepage: https://github.com/danmar/cppcheck
+Description: tool for static C/C++ code analysis
+
+Package: cppi
+Version: 1.18-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: pool/main/c/cppi/cppi_1.18-2_aarch64.deb
+Size: 19248
+MD5sum: ed9025571b89c1db22820a7a58b8a987
+SHA1: 031cf0980151f4dcc6048988ec2442aa4e40c1b2
+SHA256: 5efcdaae9f7ce25022473c68867c56be9daf8125924272e05d0a4acbfb50427d
+Homepage: https://www.gnu.org/software/cppi/
+Description: Indents C preprocessor directives to reflect their nesting, among other regularizations
+
+Package: cpufetch
+Version: 1.06-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Filename: pool/main/c/cpufetch/cpufetch_1.06-1_aarch64.deb
+Size: 41668
+MD5sum: e9bdbe4729b29726ac784497f788f7f8
+SHA1: 721dcc4ce1297fb3dbad6fea6e3f958f4a36fa67
+SHA256: af85ffe9f3d5561aed6f6be1cdecbc383568f0555fa34a76dcd07b401d199581
+Homepage: https://github.com/Dr-Noob/cpufetch
+Description: Simple yet fancy CPU architecture fetching tool
+
+Package: cpulimit
+Version: 0.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Filename: pool/main/c/cpulimit/cpulimit_0.2-2_aarch64.deb
+Size: 7776
+MD5sum: 91aee8e335b378fe8872412a9965a37d
+SHA1: 921e62da8196b6d20ee33c795cbebb014ce2e50b
+SHA256: c729ade83163d2ed2f185f087f28d28650a49a2921610382c3ddb89d44704e66
+Homepage: https://github.com/opsengine/cpulimit
+Description: CPU usage limiter
+
+Package: crawl
+Version: 0.33.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25064
+Depends: libc++, liblua51, libsqlite, ncurses, zlib
+Filename: pool/main/c/crawl/crawl_0.33.1-1_aarch64.deb
+Size: 6249116
+MD5sum: f48ed2d821504759fec3dfbc30383318
+SHA1: 04e63604bc085d1e24dfd2a4308ba3f2e626d1dc
+SHA256: e57ffdd66086ab51904cc061adfa73f73c6f3ea97755fd1b16b7faaca877a3f0
+Homepage: https://crawl.develz.org/
+Description: Roguelike adventure through dungeons filled with dangerous monsters
+
 Package: cryptopp
 Version: 8.9.0-1
 Architecture: aarch64
