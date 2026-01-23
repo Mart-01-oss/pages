@@ -1040,6 +1040,48 @@ SHA256: 889f2f4a7f84d3ef8e324a9deb6ffae715a889b8d3b4aeb3d02ae2a6b626c6b1
 Homepage: http://aspell.net/
 Description: German dictionary for aspell
 
+Package: aspell-en
+Version: 1:2020.12.07
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4556
+Depends: aspell
+Filename: pool/main/a/aspell-en/aspell-en_1:2020.12.07_all.deb
+Size: 1124108
+MD5sum: 038e2ea3ee667069f58d48404ffa7c5f
+SHA1: 3bc142a1edaad46bd2e99958d4bf7d9d450bc6c5
+SHA256: 6c8dd059b68226ad8016002cc74180361060e55cd759e615f83ef234e77e37b0
+Homepage: http://aspell.net/
+Description: English dictionary for aspell
+
+Package: aspell-es
+Version: 2:1.11-2-0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1504
+Depends: aspell
+Filename: pool/main/a/aspell-es/aspell-es_2:1.11-2-0_all.deb
+Size: 452560
+MD5sum: ea47f04ca786cb48c3daefc71cfdad50
+SHA1: a57ae1a71c66139cd5eada40f104fdfc3eaa5c69
+SHA256: 896c29c0ce6dd5ef3923718300efee7137701e0e1477c225369e27adc6f19c11
+Homepage: http://aspell.net/
+Description: Spanish dictionary for aspell
+
+Package: aspell-fr
+Version: 2:0.50-3-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 17564
+Depends: aspell
+Filename: pool/main/a/aspell-fr/aspell-fr_2:0.50-3-1_all.deb
+Size: 4369504
+MD5sum: 3e98eebec5941548af4f8b0928ea7ca2
+SHA1: 255f5ab146a3a7e2c0aade076f716ea8334ea341
+SHA256: 4c83c7f691d31f33f0245f0acccfbb203e4f61a3cc778cbef5eec92e706b3ae3
+Homepage: http://aspell.net/
+Description: French dictionary for aspell
+
 Package: aspell-static
 Version: 0.60.8.1-1
 Architecture: aarch64
@@ -1053,6 +1095,36 @@ SHA1: b88d5a10494de8ab68d7e3033011596ed8ac6e4f
 SHA256: c5df03be478b908d314082de4913ee309ae4b6a95bab2b9e0bf1cb848f3fe829
 Homepage: http://aspell.net
 Description: Static libraries for aspell
+
+Package: assimp
+Version: 6.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10912
+Depends: libc++, zlib
+Breaks: assimp-dev
+Replaces: assimp-dev
+Filename: pool/main/a/assimp/assimp_6.0.2-1_aarch64.deb
+Size: 2214628
+MD5sum: b594be73c3ed59f910ee89705340c015
+SHA1: 728cc362d410b5b2db834ceff8f37f8efe8f6611
+SHA256: 0da76a097f3236f5fa85b56bda623a2e005c74068a46884b64d65cb25996235e
+Homepage: https://assimp.sourceforge.net/index.html
+Description: Library to import various well-known 3D model formats in an uniform manner
+
+Package: astra-sm
+Version: 2019.06.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: libdvbcsa, liblua53
+Filename: pool/main/a/astra-sm/astra-sm_2019.06.19-1_aarch64.deb
+Size: 111280
+MD5sum: 9c0ba49842e790c85bd92cca0937203b
+SHA1: a7c5c83ebdb8bde5c309ab2594442ff7d742806d
+SHA256: 3395f37d07229722e723a0c59687a856452397623879c5c4e05df9007a37d0d0
+Homepage: https://gitlab.com/berdyansk/astra-sm
+Description: Software for digital TV broadcasting
 
 Package: bash
 Version: 5.3.3-1
@@ -1175,6 +1247,50 @@ SHA1: 16cfe370ad4ce60923cf28df0daa1a3c2996cfe9
 SHA256: c42c46a268dd6ae71182241fe91728207324eae74b590ca50bcf9ca710aae900
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling block device attributes
+
+Package: boost
+Version: 1:1.89.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8436
+Depends: libc++, libbz2, libiconv, liblzma, zlib, libandroid-wordexp
+Breaks: libboost-python (<= 1.65.1-2), boost-dev
+Replaces: libboost-python (<= 1.65.1-2), boost-dev
+Filename: pool/main/b/boost/boost_1:1.89.0_aarch64.deb
+Size: 1446728
+MD5sum: e1a4b9b30546b3cdbe67d1c1c6b22f2b
+SHA1: 4c13d18b47c63e56e419cd9d9a4afded3ea9f69d
+SHA256: 24b9e3c3eddf614b5f807b997176db27dd5a7c6acafec8eaedcb6b15cfd8a314
+Homepage: https://boost.org
+Description: Free peer-reviewed portable C++ source libraries
+
+Package: boost-headers
+Version: 1:1.89.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 188140
+Depends: boost (= 1:1.89.0)
+Filename: pool/main/b/boost-headers/boost-headers_1:1.89.0_all.deb
+Size: 10571884
+MD5sum: fb85de7b2654e24f4fe856968733410d
+SHA1: 8af0e2275bc88b939a13a8d73653f2a0dd53d835
+SHA256: 57001d72cd9f61b3202710bf29b084d4e49064cc2cddc64a486d51adc054110c
+Homepage: https://boost.org
+Description: Boost header files
+
+Package: boost-static
+Version: 1:1.89.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 41884
+Depends: boost (= 1:1.89.0)
+Filename: pool/main/b/boost-static/boost-static_1:1.89.0_aarch64.deb
+Size: 3131436
+MD5sum: b09c31a6528436826a7bd5878f9bb4a1
+SHA1: 45e01b6273c79e02c27899c515d53f174fc062cc
+SHA256: a83035f46d241fb5c3c7a26ff169ce58150b9ca0795976e233b59887f2554d2f
+Homepage: https://boost.org
+Description: Static libraries for boost
 
 Package: brotli
 Version: 1.1.0-3
@@ -2212,6 +2328,33 @@ SHA256: a9c9927ae11f08822b7be71b730ab07426fc6093334c48ba78cb13ff197fec98
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
 
+Package: libandroid-wordexp
+Version: 0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Filename: pool/main/liba/libandroid-wordexp/libandroid-wordexp_0.1-1_aarch64.deb
+Size: 3636
+MD5sum: 35a0b50881782f3fad62195cecc5cadc
+SHA1: 4ad545617ff92f44e7537673dddbf05a8c125c0d
+SHA256: ed20aa6c85780e851b4a9b642baf879f285834b976752253d28390da40dc2fa3
+Homepage: https://man7.org/linux/man-pages/man3/wordexp.3.html
+Description: Shared library for the wordexp(3) system function
+
+Package: libandroid-wordexp-static
+Version: 0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: libandroid-wordexp (= 0.1-1)
+Filename: pool/main/liba/libandroid-wordexp-static/libandroid-wordexp-static_0.1-1_aarch64.deb
+Size: 2680
+MD5sum: 345a8ae39e1c4e2111072236520255e9
+SHA1: 25f6dfce12a2532a7b6a23290d58b35a9b9e8fa7
+SHA256: aa38991af629d5dd15ec07e40a554b90c4ac61d139962739c1ad11d6192d9670
+Homepage: https://man7.org/linux/man-pages/man3/wordexp.3.html
+Description: Static libraries for libandroid-wordexp
+
 Package: libaom
 Version: 3.13.1
 Architecture: aarch64
@@ -2460,6 +2603,33 @@ SHA1: 6e355b22541546cf0297fcd269c161f332bc2b12
 SHA256: c40a5792551401951d4b1a5949c8eea26200a34860c5752c4f9159a54eafc4be
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
+
+Package: libdvbcsa
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Aditya Alok <alok@termux.org>
+Installed-Size: 100
+Filename: pool/main/libd/libdvbcsa/libdvbcsa_1.1.0-3_aarch64.deb
+Size: 18712
+MD5sum: bb2754f5c8c9bd556ecde2049b35cf1c
+SHA1: cd4daf3f4803c8b6a54ab03b68b16e250330c792
+SHA256: 29f6b19dc9cd1e38415f42dff8f233c08750fed3220f864dc2e4aac2e94d326c
+Homepage: https://www.videolan.org/developers/libdvbcsa.html
+Description: An implementation of the DVB Common Scrambling Algorithm - DVB/CSA - with encryption and decryption capabilities
+
+Package: libdvbcsa-static
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Aditya Alok <alok@termux.org>
+Installed-Size: 92
+Depends: libdvbcsa (= 1.1.0-3)
+Filename: pool/main/libd/libdvbcsa-static/libdvbcsa-static_1.1.0-3_aarch64.deb
+Size: 18884
+MD5sum: f84c863872e682c8a2d5a12536e36317
+SHA1: ffdc2c9efef687b4691b0a7b390584c3ce060c90
+SHA256: 82570fe731a2bcb441186c8b15f662c4f7d5a1a8fd397d766df9280b7049244c
+Homepage: https://www.videolan.org/developers/libdvbcsa.html
+Description: Static libraries for libdvbcsa
 
 Package: libedit
 Version: 20240517-3.1-1
@@ -3030,6 +3200,35 @@ SHA1: d399a3ca3e9bc4cac73ea57e69f3e9c89154793c
 SHA256: 1d7ee7a3a5b6528859e2ead2a41ea8b30091a393e243e8d7fa50cab576f795dd
 Homepage: https://www.gnu.org/software/libtool/
 Description: Library for dlopening libraries
+
+Package: liblua53
+Version: 5.3.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Breaks: liblua-dev, liblua (<< 5.3.5-6)
+Replaces: liblua-dev, liblua (<< 5.3.5-6)
+Filename: pool/main/libl/liblua53/liblua53_5.3.6-4_aarch64.deb
+Size: 86312
+MD5sum: dfb52a5293391952ed9c8308a0140783
+SHA1: ad08ff52bdccc5b515ca888a340afde79c342795
+SHA256: b1a6cec155db08f9bab1afb62426442ddfe64aedf6c418f687b815a7af549193
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter (v5.3.x)
+
+Package: liblua53-static
+Version: 5.3.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: liblua53 (= 5.3.6-4)
+Filename: pool/main/libl/liblua53-static/liblua53-static_5.3.6-4_aarch64.deb
+Size: 95888
+MD5sum: c1974eb032a18bd5044919841c160b0a
+SHA1: 5919cf344de8a5ed0f583eaf59289f3d1ee9cdc9
+SHA256: 19891ba2743614825eb7c3ce1aced0215ea835c01293b444c4a32a88d3649cb1
+Homepage: https://www.lua.org/
+Description: Static libraries for liblua53
 
 Package: liblz4
 Version: 1.10.0-1
@@ -4482,6 +4681,22 @@ SHA1: a4437e11f121c45f73db3f72d2027ba6a85370bc
 SHA256: 2a6a516e20cdb5c2031658459c2454504495477c46d5692ece325c80535e2bfc
 Homepage: https://clang.llvm.org/
 Description: LLVM gold plugin
+
+Package: lua53
+Version: 5.3.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: readline
+Breaks: lua (<< 5.3.5-6)
+Replaces: lua (<< 5.3.5-6)
+Filename: pool/main/l/lua53/lua53_5.3.6-4_aarch64.deb
+Size: 91448
+MD5sum: 057c4a1fdbea2474cf84f0c5c4481bd2
+SHA1: 256cb870592562d2ce4cdba3f05a7d0d5ffc922a
+SHA256: d0d234158ef4bd60d01d0cf0eb963354fdc0c9597c1dbeea370cc1ed5af2be5c
+Homepage: https://www.lua.org/
+Description: Simple, extensible, embeddable programming language
 
 Package: lz4
 Version: 1.10.0-1
