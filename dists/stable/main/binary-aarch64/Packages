@@ -78,6 +78,20 @@ SHA256: e5de5e3ad505d791c598f0ff6cbeb10f3ef67fde72ee43ef7f6b2de19a6c321a
 Homepage: https://github.com/adriancable/8086tiny
 Description: A PC XT-compatible emulator/virtual machine
 
+Package: a52dec
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: liba52 (= 0.8.0-3)
+Filename: pool/main/a/a52dec/a52dec_0.8.0-3_aarch64.deb
+Size: 14212
+MD5sum: ed83fe0a83fc05b3aacd50e14d57d381
+SHA1: 681289a7538dbe3b32781a76f55351920c6c1e05
+SHA256: 770df71c8583e38c059b0a0d4269ddff26178759b59a5b02d400f43883087955
+Homepage: http://liba52.sourceforge.net/
+Description: A test program for liba52
+
 Package: aalib
 Version: 1.4rc5-13
 Architecture: aarch64
@@ -1688,6 +1702,20 @@ SHA256: aec2fef7d0378f1bd9d9f6c95648c2e9eeeb8a7859465387a8bb33f15b03ae34
 Homepage: https://debugmo.de/2009/04/bgrep-a-binary-grep/
 Description: Binary string grep tool
 
+Package: biboumi
+Version: 9.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 956
+Depends: libc++, libexpat, libgcrypt, libiconv, libidn, libsqlite, libuuid
+Filename: pool/main/b/biboumi/biboumi_9.0-4_aarch64.deb
+Size: 247380
+MD5sum: 9467716b70ec55560a02aaaee293c6cf
+SHA1: 90627d4dad5f50feb731590d9d1ba16f106713ed
+SHA256: 2259342c727d06ffe2162cab5a163c2df8ef3a403fd1be9b642fea9dc05ec57a
+Homepage: https://biboumi.louiz.org/
+Description: An XMPP gateway that connects to IRC servers and translates between the two protocols
+
 Package: binaryen
 Version: 124
 Architecture: aarch64
@@ -2653,6 +2681,158 @@ SHA256: 8db380c2c4836f934150858c643eb26bade1e6dc6672ce3eb684938ae13da351
 Homepage: https://posva.net/shell/retro/bash/2013/05/27/catimg
 Description: Renders images in the terminal
 
+Package: cava
+Version: 0.10.6
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 144
+Depends: fftw, libiniparser, ncurses, pulseaudio
+Filename: pool/main/c/cava/cava_0.10.6_aarch64.deb
+Size: 33732
+MD5sum: d87edfe880446a262ac104a468d00533
+SHA1: eca9f4d52b11111bb25dfd7b1f85d5ded33d7e03
+SHA256: cc675f92c5bf237f747df42b8507200fccc0bcc0e62b31c970d7c2cae3ab8818
+Homepage: https://github.com/karlstav/cava
+Description: Console-based Audio Visualizer. Works with MPD and Pulseaudio
+
+Package: cavez-of-phear
+Version: 0.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: libandroid-support, ncurses
+Filename: pool/main/c/cavez-of-phear/cavez-of-phear_0.6.1-2_aarch64.deb
+Size: 17036
+MD5sum: ab1cb012d88e7b8c8ec663d0a8abe34e
+SHA1: 4e3c3c2b9d451fe251bee968c5ea446e01b6fbb7
+SHA256: 2c3af136fea087f94d0a831c3c8a2385ae23acce569a08183da6921c5e44567b
+Homepage: https://github.com/AMDmi3/cavezofphear
+Description: A Boulder Dash like game for consoles/terminals
+
+Package: cavif-rs
+Version: 1.5.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3568
+Filename: pool/main/c/cavif-rs/cavif-rs_1.5.6_aarch64.deb
+Size: 1263960
+MD5sum: 2e392fdc4e05437921b929faa8549d24
+SHA1: 27c890cb65cf5008f6d1b65f7ccadb3a3b2deec4
+SHA256: a51706cedefba608040601b779d27b4d54000f61e7845e93b33f8c4c45741708
+Homepage: https://lib.rs/cavif
+Description: AVIF image creator in pure Rust
+
+Package: cboard
+Version: 0.7.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libandroid-support,libandroid-glob,gnuchess, ncurses, ncurses-ui-libs
+Filename: pool/main/c/cboard/cboard_0.7.5-5_aarch64.deb
+Size: 72560
+MD5sum: b73187a4b32efba8ad7fedc4725ee837
+SHA1: 3f0e547de8aa91207b22faa39b9beccb8ecec927
+SHA256: 09b5c566f8ba99425c5a95880c930814adb22831b74fa551f6ffb7a22b70b450
+Homepage: https://benkibbey.wordpress.com/cboard/
+Description: PGN browser, editor and chess engine frontend
+
+Package: cbonsai
+Version: 1.4.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: ncurses, ncurses-ui-libs
+Filename: pool/main/c/cbonsai/cbonsai_1.4.2-1_aarch64.deb
+Size: 11232
+MD5sum: 532095461dc9d0248eb4ebedac32e42b
+SHA1: e9a0a3c9c6a45e2d4cd65bbd82c43626f63417ab
+SHA256: e3781011cd79b24db2c70330cce6cdfbe3559f55b0e2d06d04841e5b59e86e4d
+Homepage: https://gitlab.com/jallbrit/cbonsai
+Description: Grow bonsai trees in your terminal
+
+Package: cc65
+Version: 2.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33192
+Filename: pool/main/c/cc65/cc65_2.19-1_aarch64.deb
+Size: 1914428
+MD5sum: 98f5d94e8ed7ed93dc837ce92c5e753a
+SHA1: c952893872fcbe83f6423451a67db001a4df732b
+SHA256: ea9abe456044c42754c0498dddbf55e537a2ec7154980331ad17f37780895418
+Homepage: https://cc65.github.io/
+Description: A free compiler for 6502 based system
+
+Package: ccache
+Version: 4.12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1960
+Depends: fmt, libandroid-spawn, libc++, libhiredis, xxhash, zlib, zstd
+Filename: pool/main/c/ccache/ccache_4.12_aarch64.deb
+Size: 491572
+MD5sum: f7b4ea281ba73807d433018700136dd8
+SHA1: 5cbf1d7b9f845d955e044f517aed3f127f7e0a3f
+SHA256: 0fb9cd3cfcfde14e07e30e7eeade109010b53171e84d229474c085a8c48ae174
+Homepage: https://ccache.samba.org
+Description: Compiler cache for fast recompilation of C/C++ code
+
+Package: cccc
+Version: 3.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: libc++
+Filename: pool/main/c/cccc/cccc_3.2.0-1_aarch64.deb
+Size: 130084
+MD5sum: 5fbfbe9e21e784d8d0bf9f79e3d017f3
+SHA1: 96aeaf1c4eb78f6d2a8a5b3430f77973e3cfb776
+SHA256: f4419d60c75e43cc46f2d4f9c4a3787406d6c8c6cbceb416ccc1f3684b6afe0f
+Homepage: https://sarnold.github.io/cccc/
+Description: Source code counter and metrics tool for C++, C, and Java
+
+Package: ccextractor
+Version: 0.94-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 640
+Depends: freetype, gpac, libiconv, libmd, libpng, libprotobuf-c, utf8proc
+Filename: pool/main/c/ccextractor/ccextractor_0.94-6_aarch64.deb
+Size: 223988
+MD5sum: 690316c628794a773b0b241cf553ef20
+SHA1: b4c1609d0c42e680b18af2b3b417132659ae1cf0
+SHA256: 2c1fb0543c4e20b867a7406ffe5fbfd13a30dfead359350d9c33c7fe74fc9e1c
+Homepage: https://ccextractor.org/
+Description: A tool used to produce subtitles for TV recordings
+
+Package: ccrypt
+Version: 1.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: libcrypt
+Filename: pool/main/c/ccrypt/ccrypt_1.11-1_aarch64.deb
+Size: 37972
+MD5sum: 6376be5a7bf063bbcbabdf52fcc4d3c2
+SHA1: 80e640db63c2ed74ed09d7c47d6c4b3c7754c6f7
+SHA256: 0705d92f86a345124052b25f4ae7ebe3dca57e4071cd1d014b12a415ffb1b57d
+Homepage: https://ccrypt.sourceforge.net/
+Description: Secure encryption and decryption of files and streams utility
+
+Package: ceu-lang
+Version: 2019.07.17-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 460
+Depends: lua53, lua53-lpeg, liblua53
+Filename: pool/main/c/ceu-lang/ceu-lang_2019.07.17-2_aarch64.deb
+Size: 75864
+MD5sum: e21486de6a57be96ed4da39e0b1a5023
+SHA1: 0a4e429f6351fd07eb51d9b1f8cf1919c223aa2a
+SHA256: e6e9ee8f49e67e6bb4f80e700abf2a948a721b8f4a50b4d3df04fa50e4961015
+Homepage: https://github.com/ceu-lang/ceu
+Description: The Structured Synchronous Reactive Programming Language Céu
+
 Package: check
 Version: 0.15.2-3
 Architecture: aarch64
@@ -3481,6 +3661,20 @@ SHA256: ede0576142054b752ca7f83d82ceaec814c73762a48367d5fa8ffe27a7b5d79d
 Homepage: https://glm.g-truc.net/
 Description: C++ mathematics library for graphics software based on the GLSL specifications
 
+Package: gnuchess
+Version: 6.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 480
+Depends: readline
+Filename: pool/main/g/gnuchess/gnuchess_6.3.0_aarch64.deb
+Size: 149856
+MD5sum: b554c3bc61adfb0d2e3b48fd6b7b7156
+SHA1: a51f153b553ad3327b2f5576f5ac0802709530da
+SHA256: 41ee90595ff7be77987b7a313dd1bf2e80057f6262c34093449fe70130f5a6d8
+Homepage: https://www.gnu.org/software/chess/
+Description: Chess-playing program
+
 Package: gnupg
 Version: 2.5.11
 Architecture: aarch64
@@ -3526,6 +3720,34 @@ SHA1: 569f77c3381b6606008630d6187c858a596b5f23
 SHA256: 0845bd4caeaa2a7729eb032d3a05ed248579556ad33bbb0051c08de860491627
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
+
+Package: gpac
+Version: 2.4.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12860
+Depends: ffmpeg, freetype, liba52, libjpeg-turbo, liblzma, libmad, libnghttp2, libogg, libpng, libtheora, libvorbis, openjpeg, openssl, pulseaudio, xvidcore, zlib
+Filename: pool/main/g/gpac/gpac_2.4.0-4_aarch64.deb
+Size: 3811708
+MD5sum: cee9c03aefe655afbec7c63288c119e8
+SHA1: 99b4b35552177ac51608bc88ce430018eba0ab19
+SHA256: 6620cb4d373949d07bad238627050af56508e50f23184a9b71c741113db885b7
+Homepage: https://gpac.wp.imt.fr/
+Description: An open-source multimedia framework focused on modularity and standards compliance
+
+Package: gpac-static
+Version: 2.4.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13788
+Depends: gpac (= 2.4.0-4)
+Filename: pool/main/g/gpac-static/gpac-static_2.4.0-4_aarch64.deb
+Size: 3015192
+MD5sum: 5f23d954dc1b0e24d0c8bae913644ef4
+SHA1: 6f2b4384a3ba375039a48118c9c0a614883846e0
+SHA256: f3e28b03ffb0d333be31ef7766935fc133504fc695895fd6ad86af9823b543b6
+Homepage: https://gpac.wp.imt.fr/
+Description: Static libraries for gpac
 
 Package: gpgv
 Version: 2.5.11
@@ -3897,6 +4119,33 @@ SHA1: 46dcf5da8164c4bd0d5799e2b9a7633f3556a1a6
 SHA256: f780206b1d14987cb4e798dfc7bee0bf0c60291b8287ad7c3e5fe7208d0d128e
 Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
+
+Package: liba52
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Filename: pool/main/liba/liba52/liba52_0.8.0-3_aarch64.deb
+Size: 15452
+MD5sum: 388abaec1c6a35357b8036824f2bf9c5
+SHA1: ed6509e23b8b8a5be7c1ba41e059b1a7e88618e4
+SHA256: e9a452a4722ad894de2bd7f7899fdaeb1928dcbf71e3d91bbfc22e913ebfb8cf
+Homepage: http://liba52.sourceforge.net/
+Description: A free library for decoding ATSC A/52 streams
+
+Package: liba52-static
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: liba52 (= 0.8.0-3)
+Filename: pool/main/liba/liba52-static/liba52-static_0.8.0-3_aarch64.deb
+Size: 15648
+MD5sum: 46fac17175c3b7c0d33e770a55a7466f
+SHA1: 9ae13857f79a2bc96fe5564c4b60214189779910
+SHA256: 0c34360f586fe571e5e227aadb724bd4dbca5f708d36a4a0deb63b64a6a2d307
+Homepage: http://liba52.sourceforge.net/
+Description: Static libraries for liba52
 
 Package: libacl
 Version: 2.3.1-1
@@ -5068,6 +5317,19 @@ SHA256: c43d71872ffabb5fae56c2ec6512b7f1f9e67a5883055d9632b1096d4c72f5fb
 Homepage: https://github.com/strukturag/libheif
 Description: Programs for manipulating HEIF (HEIC/AVIF) image files
 
+Package: libhiredis
+Version: 1.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Filename: pool/main/libh/libhiredis/libhiredis_1.3.0-1_aarch64.deb
+Size: 46656
+MD5sum: d462ba86a79378e36275102002b49d37
+SHA1: 98ae3950fa9a47f237fafc1a6cd383a043276c05
+SHA256: bc7355fec721fd0f09a9b6e0a6d157721ef164a3798b587e6154544401b5418d
+Homepage: https://redis.com/lp/hiredis
+Description: Hiredis is a minimalistic C client library for the Redis database
+
 Package: libice
 Version: 1.1.2-1
 Architecture: aarch64
@@ -5199,6 +5461,33 @@ SHA1: 6e4b3e0b8c9df258bc5a8c362dcc20c9c62cf72e
 SHA256: 68d7b271afeb54df55d6cdc87ed867c75b92537852d835d7c68dd9db49a77019
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Static libraries for libidn2
+
+Package: libiniparser
+Version: 4.2.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Filename: pool/main/libi/libiniparser/libiniparser_4.2.6-2_aarch64.deb
+Size: 14616
+MD5sum: 1a0e7b2c3e8fa610cc295de2c6534249
+SHA1: 6f365261a1c4eb18045db2b44851073f7856c7cd
+SHA256: 15888ce7f2d6f47d07e75072d607ea8cc41d9ecbc9f598c80b4ad5451e416343
+Homepage: https://github.com/ndevilla/iniparser
+Description: Offers parsing of ini files from the C level
+
+Package: libiniparser-static
+Version: 4.2.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libiniparser (= 4.2.6-2)
+Filename: pool/main/libi/libiniparser-static/libiniparser-static_4.2.6-2_aarch64.deb
+Size: 6908
+MD5sum: c363b01ebb84086e4bfff414742e047d
+SHA1: 97a8b8d40a522c213b3c1e432f797676bcda2aa3
+SHA256: bdd35751e77d6b3a3fb4ee19a18f9cd6eddb895d818195b6315f8ac27737eccf
+Homepage: https://github.com/ndevilla/iniparser
+Description: Static libraries for libiniparser
 
 Package: libjasper
 Version: 4.2.8
@@ -5406,6 +5695,62 @@ SHA256: 1d7ee7a3a5b6528859e2ead2a41ea8b30091a393e243e8d7fa50cab576f795dd
 Homepage: https://www.gnu.org/software/libtool/
 Description: Library for dlopening libraries
 
+Package: liblua51
+Version: 5.1.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Filename: pool/main/libl/liblua51/liblua51_5.1.5-5_aarch64.deb
+Size: 70572
+MD5sum: 739f651a5181e4b867587c31a8977077
+SHA1: 0e72deda65da950c55b52320b1a46c5f45a8e4c3
+SHA256: b759a58fa7b5597b066a930fe24d880ef99c9ace314f80ebdeeaf34bf69f6bdb
+Homepage: https://www.lua.org
+Description: Shared library for the Lua interpreter (v5.1.x)
+
+Package: liblua51-static
+Version: 5.1.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: liblua51 (= 5.1.5-5)
+Filename: pool/main/libl/liblua51-static/liblua51-static_5.1.5-5_aarch64.deb
+Size: 75468
+MD5sum: d85dcb8c4ccf44f445e4f1ec1e7333f8
+SHA1: 6cc98432a8a28b9e97c172094df660089de2018c
+SHA256: 98205bc14d8a1b5a0ae885f58d0a6bc7b8767106c2df33634f60025400521bdf
+Homepage: https://www.lua.org
+Description: Static libraries for liblua51
+
+Package: liblua52
+Version: 5.2.4-13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Breaks: liblua52-dev
+Replaces: liblua52-dev
+Filename: pool/main/libl/liblua52/liblua52_5.2.4-13_aarch64.deb
+Size: 76588
+MD5sum: bac72b8f7b73bb7c74773e9117458a0d
+SHA1: 5fde9fabb5fffd07859ada22e7b0012ebf8c11d7
+SHA256: 6861f27c3831d8b5ebec18477d0102a9d5a7928bf3486106c793f3d8d71b4ec3
+Homepage: https://www.lua.org
+Description: Shared library for the Lua interpreter (v5.2.x)
+
+Package: liblua52-static
+Version: 5.2.4-13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: liblua52 (= 5.2.4-13)
+Filename: pool/main/libl/liblua52-static/liblua52-static_5.2.4-13_aarch64.deb
+Size: 85236
+MD5sum: cbde8cf74b3b6a735896092cb9154a16
+SHA1: 554cef1de0ddc3ea553a30b577571093bece6342
+SHA256: 1de1ad1a690e4798c276ec876c46b70ce747666c1a19daa13fb078e6042177ae
+Homepage: https://www.lua.org
+Description: Static libraries for liblua52
+
 Package: liblua53
 Version: 5.3.6-4
 Architecture: aarch64
@@ -5434,6 +5779,35 @@ SHA1: 5919cf344de8a5ed0f583eaf59289f3d1ee9cdc9
 SHA256: 19891ba2743614825eb7c3ce1aced0215ea835c01293b444c4a32a88d3649cb1
 Homepage: https://www.lua.org/
 Description: Static libraries for liblua53
+
+Package: liblua54
+Version: 5.4.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Breaks: liblua-dev
+Replaces: liblua-dev
+Filename: pool/main/libl/liblua54/liblua54_5.4.8-3_aarch64.deb
+Size: 96740
+MD5sum: 8f7e50532fd9bf9a540436ca24e53593
+SHA1: ec562dc4f0c463d55a447317be8bfcde9ffc12ba
+SHA256: 2c4f21f5034d87c66e07ab75f384a271b080fbe0dcd167f083bf6c2be6d49217
+Homepage: https://www.lua.org/
+Description: Shared library for the Lua interpreter
+
+Package: liblua54-static
+Version: 5.4.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: liblua54 (= 5.4.8-3)
+Filename: pool/main/libl/liblua54-static/liblua54-static_5.4.8-3_aarch64.deb
+Size: 108160
+MD5sum: af3a4fd5d1e91ae1a44a4b8a439cef1a
+SHA1: 137053cd399f4b89f39b857979d5b1a2ad1cea63
+SHA256: 6c86d34fdc256de5016eed99282aaade00fc5649c70ed61ca16b284c54498d6b
+Homepage: https://www.lua.org/
+Description: Static libraries for liblua54
 
 Package: liblz4
 Version: 1.10.0-1
@@ -5508,6 +5882,21 @@ SHA1: 9b784b0c4550a621c6c565347b87a0029bd63ef3
 SHA256: 062a904febf6ade167d2452755d8bd036d8d17499d5d3430aebfeaa23317a5f9
 Homepage: http://www.oberhumer.com/opensource/lzo
 Description: Static libraries for liblzo
+
+Package: libmad
+Version: 0.16.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Breaks: libmad-dev
+Replaces: libmad-dev
+Filename: pool/main/libm/libmad/libmad_0.16.4-2_aarch64.deb
+Size: 63560
+MD5sum: 9bb7877821c1229233cf4fec5516332e
+SHA1: 85b2b626030a52e0c25485be1137eb54acb68729
+SHA256: 2884c9cff3dc6736a0738d87722bc2159a8b9d9c4ab3dfd96f067a783aa0172d
+Homepage: http://www.underbit.com/products/mad/
+Description: MAD is a high-quality MPEG audio decoder
 
 Package: libmd
 Version: 1.1.0-1
@@ -6070,6 +6459,36 @@ SHA1: 29aef43a3efdb6022667debe64fccef83a72bda1
 SHA256: 7026e2bde2bc1ec06c6411a5b10f8a9a8f5c4900e47ef1c6737c2020f0664e15
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library
+
+Package: libprotobuf-c
+Version: 1.5.2-2
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 360
+Depends: abseil-cpp, libc++, libprotobuf, protobuf
+Breaks: libprotobuf-c-dev
+Replaces: libprotobuf-c-dev
+Filename: pool/main/libp/libprotobuf-c/libprotobuf-c_1.5.2-2_aarch64.deb
+Size: 85236
+MD5sum: c3c591b72f47bbb1f50e15ac728af13a
+SHA1: 5ee3b8d6e1a7759ef12db937754250647d32b2e1
+SHA256: 8b4235e0d8460c27ad57a6c38ef975a44ce0bd9b7655d6e40aea37cb6d726a0d
+Homepage: https://github.com/protobuf-c/protobuf-c
+Description: Protocol buffers C library
+
+Package: libprotobuf-c-static
+Version: 1.5.2-2
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 64
+Depends: libprotobuf-c (= 1.5.2-2)
+Filename: pool/main/libp/libprotobuf-c-static/libprotobuf-c-static_1.5.2-2_aarch64.deb
+Size: 11996
+MD5sum: e89ae9d11483a3a6fd8e7fb80312c3a8
+SHA1: 1a0e1ea9741f9ed68d39739455b72345d7973002
+SHA256: f24547809948e2312d472a3afdd25490e83e88ff4ccdb443bba262f2bbde43e0
+Homepage: https://github.com/protobuf-c/protobuf-c
+Description: Static libraries for libprotobuf-c
 
 Package: libraqm
 Version: 0.10.3
@@ -7669,6 +8088,76 @@ SHA256: 2a6a516e20cdb5c2031658459c2454504495477c46d5692ece325c80535e2bfc
 Homepage: https://clang.llvm.org/
 Description: LLVM gold plugin
 
+Package: lua-lpeg
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 156
+Depends: liblua54
+Filename: pool/main/l/lua-lpeg/lua-lpeg_1.1.0-3_aarch64.deb
+Size: 26624
+MD5sum: aeb16d612fab3ec61f608b765431760b
+SHA1: 2bc5a067356b54d41bf7f8b43bb31c84ce8768f9
+SHA256: 210151498115ae3f41a4ce4372559e33c60340fcd6d5c4f782da1977ed054f2f
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.4
+
+Package: lua51
+Version: 5.1.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 324
+Depends: readline, liblua51 (= 5.1.5-5)
+Filename: pool/main/l/lua51/lua51_5.1.5-5_aarch64.deb
+Size: 74392
+MD5sum: a4175d5366f76cecfa4d03f5a130980e
+SHA1: 74d462494dcdc9bab18b9393c44e9a6e5f95c32d
+SHA256: 3386847d2b46f308dd652c64370fb51c002af22ceaea0a07a1aaa4fa2f8758d5
+Homepage: https://www.lua.org
+Description: Simple, extensible, embeddable programming language
+
+Package: lua51-lpeg
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 108
+Depends: liblua51
+Filename: pool/main/l/lua51-lpeg/lua51-lpeg_1.1.0-3_aarch64.deb
+Size: 21640
+MD5sum: 2db9fbb79e890bb64e8e8f5030c4aaca
+SHA1: 363097ebc5ef3b9c425544466d253c3d23559069
+SHA256: 9b526349ddbe156acfb51c7728c6177b7f34c695706c079f34cfae4c2861cc57
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.1
+
+Package: lua52
+Version: 5.2.4-13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: readline, liblua52 (= 5.2.4-13)
+Filename: pool/main/l/lua52/lua52_5.2.4-13_aarch64.deb
+Size: 82652
+MD5sum: 9e14d45952a0e39cae206c4ed744ae9a
+SHA1: 3b4d596231b40eb1cf80f2f7de24d42ad2ce2527
+SHA256: 6686bd7dc19a59df077bde89e1f32a800093f39f1d33bcec9c5be71e42aa1122
+Homepage: https://www.lua.org
+Description: Simple, extensible, embeddable programming language
+
+Package: lua52-lpeg
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 108
+Depends: liblua52
+Filename: pool/main/l/lua52-lpeg/lua52-lpeg_1.1.0-3_aarch64.deb
+Size: 21652
+MD5sum: 5793c82675881f7c5ebf64a81f46a976
+SHA1: fa0e5fa379c987e82620a8030ef18833bc30db40
+SHA256: 556b6fcca37bfe4a85e8480ee3895a00e2d34ef897538604946b573cea60884f
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.2
+
 Package: lua53
 Version: 5.3.6-4
 Architecture: aarch64
@@ -7682,6 +8171,34 @@ Size: 91448
 MD5sum: 057c4a1fdbea2474cf84f0c5c4481bd2
 SHA1: 256cb870592562d2ce4cdba3f05a7d0d5ffc922a
 SHA256: d0d234158ef4bd60d01d0cf0eb963354fdc0c9597c1dbeea370cc1ed5af2be5c
+Homepage: https://www.lua.org/
+Description: Simple, extensible, embeddable programming language
+
+Package: lua53-lpeg
+Version: 1.1.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 108
+Depends: liblua53
+Filename: pool/main/l/lua53-lpeg/lua53-lpeg_1.1.0-3_aarch64.deb
+Size: 21696
+MD5sum: 4117ca12c0d88e81004b735e876c4e44
+SHA1: eb1623123fdec64257a4240dc6f58291ba9e8416
+SHA256: 02edcd0f083626ee2875a24ae4905468463e43f735eb4f7b2ad581953e4e9cb9
+Homepage: https://www.inf.puc-rio.br/~roberto/lpeg
+Description: Pattern-matching library for Lua 5.3
+
+Package: lua54
+Version: 5.4.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: readline, liblua54 (= 5.4.8-3)
+Filename: pool/main/l/lua54/lua54_5.4.8-3_aarch64.deb
+Size: 104516
+MD5sum: 36b85d6a50fa6fb51f21c9cc40be80b6
+SHA1: 4934c680b23282f82d2188c9b14438beeeec2352
+SHA256: 86dc44714d751af975f401ef3daf90581ce1e0451b843047f7119c113b61e2c2
 Homepage: https://www.lua.org/
 Description: Simple, extensible, embeddable programming language
 
@@ -9149,6 +9666,35 @@ SHA1: b0cdbc16abc7598ab79022a78611ec0e038dbf8e
 SHA256: 8c8ea14cd8de93f823483d49bfd7ae923d51b5d8696ee1af0586bb0c228c0971
 Homepage: https://www.gnu.org/software/texinfo/
 Description: Update or create index file from all installed info files in directory
+
+Package: utf8proc
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 440
+Breaks: utf8proc-dev
+Replaces: utf8proc-dev
+Filename: pool/main/u/utf8proc/utf8proc_2.10.0-1_aarch64.deb
+Size: 59192
+MD5sum: 2d3ca2e79b7861fd11dd8ae8bccbcaaf
+SHA1: 9dadd51371dd2287bb52a515e9a0bad75de3ade1
+SHA256: c4b3ab9513aa66292a2ddd042cc9e584ee65bf7b3debc72721c52625db5d9886
+Homepage: https://github.com/JuliaLang/utf8proc
+Description: Library for processing UTF-8 Unicode data
+
+Package: utf8proc-static
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: utf8proc (= 2.10.0-1)
+Filename: pool/main/u/utf8proc-static/utf8proc-static_2.10.0-1_aarch64.deb
+Size: 48260
+MD5sum: a66a768904586b407f869ae1a53f6811
+SHA1: 0db97e95799c1708f08627951a200ec44743ba49
+SHA256: 4b41e60a8c83624eae6f2b132cb36db1fe62ae9fd87c4801795bf7a9929543cf
+Homepage: https://github.com/JuliaLang/utf8proc
+Description: Static libraries for utf8proc
 
 Package: util-linux
 Version: 2.40.2-5
