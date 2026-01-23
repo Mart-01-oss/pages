@@ -1199,6 +1199,22 @@ SHA256: b7ad2ebfc1eb6ef01d6c053e66a6a2d6d4efc310201d2ad0c2d6881d4144c8d7
 Homepage: https://github.com/bettio/AtomVM
 Description: The minimal Erlang VM implementation
 
+Package: atool
+Version: 0.39.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 184
+Depends: perl
+Recommends: arj, binutils-is-llvm | binutils, bzip2, cpio, file, gzip, lhasa, lzip, lzop, p7zip, tar, unrar, unzip, xz-utils, zip
+Suggests: bash-completion
+Filename: pool/main/a/atool/atool_0.39.0-1_all.deb
+Size: 34724
+MD5sum: 899eccb79afff96802f2eee95b9e85b0
+SHA1: 3dc648038a05a071f2c8df6dd8c58bef645355a9
+SHA256: 88f5e64379dca765df1231054b116cc8a64d88608f585c883fe367ab74060065
+Homepage: https://www.nongnu.org/atool
+Description: tool for managing file archives of various types
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
