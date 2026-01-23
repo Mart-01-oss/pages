@@ -1617,6 +1617,33 @@ SHA256: bbf4969e06d332c72d9d8e41101efd107c6e12e6805d87c44d624be530e6bf9c
 Homepage: https://bftpd.sourceforge.net/
 Description: Small, easy-to-configure FTP server
 
+Package: bgrep
+Version: 1.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Filename: pool/main/b/bgrep/bgrep_1.0-4_aarch64.deb
+Size: 28456
+MD5sum: 05eb3b0cbd9c23e7b7268f776547f371
+SHA1: 8f0b84f67f28c1ee2e4a7f6d0e1f06cd9dda34be
+SHA256: aec2fef7d0378f1bd9d9f6c95648c2e9eeeb8a7859465387a8bb33f15b03ae34
+Homepage: https://debugmo.de/2009/04/bgrep-a-binary-grep/
+Description: Binary string grep tool
+
+Package: binaryen
+Version: 124
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22300
+Depends: libc++
+Filename: pool/main/b/binaryen/binaryen_124_aarch64.deb
+Size: 3765200
+MD5sum: 150b5ed75948324c945e227b23a9f5c2
+SHA1: a3386673193b3bbe81009632c94500448d86dad2
+SHA256: 4e8ced66e5858e15f64d55ccd25df13d657f8a8f240334483ea77d2253e3f9ca
+Homepage: https://github.com/WebAssembly/binaryen
+Description: Binaryen is a compiler and toolchain infrastructure library for WebAssembly
+
 Package: binutils
 Version: 2.44-4
 Architecture: aarch64
@@ -1675,6 +1702,21 @@ SHA256: fa7efcdfc8a83ccb930fdb5e82e94128d27b68244262f609ff37fa79605c4b3b
 Homepage: https://www.gnu.org/software/binutils/
 Description: gold linker
 
+Package: binutils-is-llvm
+Version: 0.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: lld, llvm
+Conflicts: binutils
+Filename: pool/main/b/binutils-is-llvm/binutils-is-llvm_0.3-3_aarch64.deb
+Size: 1836
+MD5sum: 01eeb6bf4bc3c1d46989707df05909cf
+SHA1: 58594660a4b686bc0fdaa01e735149e9b5685f8f
+SHA256: 37a37a8ab3d79b99263f3de8669b967240d0c6e11b7d28b6c785b36fbbdc0d64
+Homepage: https://github.com/trentbuck/binutils-is-llvm
+Description: Use llvm as binutils
+
 Package: binutils-libs
 Version: 2.44-4
 Architecture: aarch64
@@ -1691,6 +1733,90 @@ SHA256: c0ee07d2a24c010ea01988aadb86ae7b1cc8c000e571ba869b84c1dab80863d3
 Homepage: https://www.gnu.org/software/binutils/
 Description: GNU Binutils libraries
 
+Package: bison
+Version: 3.8.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2668
+Depends: m4
+Filename: pool/main/b/bison/bison_3.8.2-4_aarch64.deb
+Size: 534296
+MD5sum: 7e3595a1c2b971e00704c3f0a4733163
+SHA1: 858435a540a704c688db49850eecc8e9df53f7fd
+SHA256: 28f6335a27f3908df30f5a9e3699bbd24c6ba1a8e89da7c9a46140f7e42b659d
+Homepage: https://www.gnu.org/software/bison/
+Description: General-purpose parser generator
+
+Package: bison-static
+Version: 3.8.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32
+Depends: bison (= 3.8.2-4)
+Filename: pool/main/b/bison-static/bison-static_3.8.2-4_aarch64.deb
+Size: 1520
+MD5sum: bf031efc8be941a5e67c3dbdb0bea94e
+SHA1: ae4545208d6e438d41d75e71938d2983233a6f2e
+SHA256: 59030fc2e9c3c0a2e50b2041306d0851c008fb17ea54d6c39edebf85826265fa
+Homepage: https://www.gnu.org/software/bison/
+Description: Static libraries for bison
+
+Package: bitcoin
+Version: 29.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20840
+Depends: libc++, libevent
+Filename: pool/main/b/bitcoin/bitcoin_29.1_aarch64.deb
+Size: 5069760
+MD5sum: 34e222ab6697097ad11a7679d719947e
+SHA1: e59dc22c70c555d6df1dae5bde9305499289d0f5
+SHA256: 4a07b96111af94171a11bd82cdd1c0126e5e49e740f1a92041aa1b9ea118a859
+Homepage: https://bitcoincore.org/
+Description: Bitcoin Core
+
+Package: bitlbee
+Version: 3.6-1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 752
+Depends: ca-certificates, glib, libgcrypt, libgnutls
+Filename: pool/main/b/bitlbee/bitlbee_3.6-1-2_aarch64.deb
+Size: 184596
+MD5sum: 0b76e8003b2d4c0db06d3a2d4035e1ed
+SHA1: 0beced8694b76ff18d1a6b9b93d49668cbf20134
+SHA256: fdc22b302257ea197e55521fe3f5bf030664414d16e9a0dfd3454bdcb93ef38e
+Homepage: https://www.bitlbee.org/
+Description: An IRC to other chat networks gateway
+
+Package: bk
+Version: 0.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 868
+Filename: pool/main/b/bk/bk_0.6.0-1_aarch64.deb
+Size: 318064
+MD5sum: 1cec5dd0ae5dcd0b63c4b3df8c58bcc6
+SHA1: 295c1ecb86c555790e76413e344da7ca4ba9b511
+SHA256: 4f2c1c2354737e023337ed7cc25b5a339353e8f495975510c3dcd45de7a16396
+Homepage: https://github.com/aeosynth/bk
+Description: A terminal EPUB reader
+
+Package: blackbox
+Version: 1:1.20220610
+Architecture: all
+Maintainer: @termux
+Installed-Size: 160
+Depends: gnupg
+Suggests: git, subversion
+Filename: pool/main/b/blackbox/blackbox_1+1.20220610_all.deb
+Size: 12436
+MD5sum: 39c579f59a039a60122d57edbd2783c7
+SHA1: ac62eb3bd0b27e49f216c199df8e1ed6cef56b89
+SHA256: 4ab673a18720dffed80c1fafed39c841b5d166607718ccfb88889a0eae192038
+Homepage: https://github.com/StackExchange/blackbox
+Description: Safely store secrets in Git/Mercurial/Subversion
+
 Package: blas-openblas
 Version: 0.3.30-1
 Architecture: aarch64
@@ -1704,6 +1830,19 @@ SHA1: 7ae84cc468ada4c07bd7baf006e3c771994ebb81
 SHA256: 2710ecb10050df44bc79d7ae37e1c187e94c42504d2f58ccf4f7028f9d550f1a
 Homepage: https://www.openblas.net
 Description: OpenBLAS symlinks for BLAS/CBLAS/LAPACK/LAPACKE
+
+Package: blink
+Version: 1:1.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1240
+Filename: pool/main/b/blink/blink_1+1.1.0-1_aarch64.deb
+Size: 295332
+MD5sum: e17b868ad07ceedf82b3a8fb572cec1a
+SHA1: 5946f84eba9fb5674bcab525086b3a08ae4def29
+SHA256: 601c9f4e6b612806536fdb5647c042dd3e6c2b3a744cf8f3163bba7d32903165
+Homepage: https://justine.lol/blinkenlights/
+Description: Tiny x86-64 Linux emulator
 
 Package: blk-utils
 Version: 2.40.2-5
@@ -1720,6 +1859,33 @@ SHA1: 16cfe370ad4ce60923cf28df0daa1a3c2996cfe9
 SHA256: c42c46a268dd6ae71182241fe91728207324eae74b590ca50bcf9ca710aae900
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling block device attributes
+
+Package: blogc
+Version: 0.20.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Filename: pool/main/b/blogc/blogc_0.20.1-1_aarch64.deb
+Size: 60328
+MD5sum: f6a983f198e47c85be8f536957ebd364
+SHA1: b4c1a1afdb83c382b698a53bae62282908d046f1
+SHA256: 0d5cbded7c9b2ef6e39668ead0f04cc5fadeafddd43e160f2dd82c3148ff80f5
+Homepage: https://blogc.rgm.io/
+Description: A blog compiler
+
+Package: blueprint-compiler
+Version: 0.18.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1180
+Depends: gobject-introspection, python, pygobject
+Filename: pool/main/b/blueprint-compiler/blueprint-compiler_0.18.0_aarch64.deb
+Size: 209208
+MD5sum: 002a89c314aef804ea9eac511b0b29c5
+SHA1: c7dac89243d63ddce2ff850fc4105d381a6d40eb
+SHA256: 70039a29201ccb642f5184b5fd447f86a57c7ca0ffcd67d3a3e7f4287740eb02
+Homepage: https://gnome.pages.gitlab.gnome.org/blueprint-compiler/
+Description: Markup language for GTK user interfaces
 
 Package: boost
 Version: 1:1.89.0
@@ -3154,6 +3320,22 @@ SHA256: cc09c658cd4c04ecf856dbf02de6f363207c4b3803e70c46ad20132694fb61a8
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
+Package: libcairo
+Version: 1.18.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1640
+Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-execinfo, liblzo, libpixman, libpng, libx11, libxcb, libxext, libxrender, zlib
+Breaks: libcairo-dev, libcairo-gobject
+Replaces: libcairo-dev, libcairo-gobject
+Filename: pool/main/libc/libcairo/libcairo_1.18.4-2_aarch64.deb
+Size: 485008
+MD5sum: 2e8855675df4039d5284dc75d9a16bf9
+SHA1: 21064d8b0310f7546bd883eb077af1dd81858fc6
+SHA256: 2b491e95b0879b623c03911b634157072bd39a1719cd7f8503c056c1299a7e1b
+Homepage: https://cairographics.org
+Description: Cairo 2D vector graphics library
+
 Package: libcap-ng
 Version: 2:0.8.5-1
 Architecture: aarch64
@@ -4317,6 +4499,21 @@ SHA1: d51aca936d9724bef9d4a8e8e211dd2c5aeef6a5
 SHA256: 89630568203b98013c4bcbec736945193f38e1b6979662eb1fa15093d5feafda
 Homepage: https://www.pcre.org
 Description: Posix-compatible runtime libraries for libpcre
+
+Package: libpixman
+Version: 0.46.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Breaks: libpixman-dev
+Replaces: libpixman-dev
+Filename: pool/main/libp/libpixman/libpixman_0.46.4-1_aarch64.deb
+Size: 157760
+MD5sum: 264f52a5dcc4d3b8714bf9e053319f59
+SHA1: 2e06cc22f3d1131e2b3b685f962b4c920884c73f
+SHA256: ae6c99ad880075212a1a9cbee240b77d796fd62c7e89d3831385dd6152609cf3
+Homepage: https://www.pixman.org/
+Description: Low-level library for pixel manipulation
 
 Package: libpng
 Version: 1.6.50-1
@@ -5995,6 +6192,34 @@ SHA1: 913fafee7eb5f01be7ac5dd4ada6f33b1aa95c89
 SHA256: 741082f8d6b5d1a9bcb90c2a62c605f46f672f3ef94e067d04454428172b956f
 Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
 Description: PulseAudio GLIB mainloop component
+
+Package: pycairo
+Version: 1.28.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Depends: libcairo, python
+Filename: pool/main/p/pycairo/pycairo_1.28.0-1_aarch64.deb
+Size: 89336
+MD5sum: f21b28d622ff1a5ea84f5335c02e4258
+SHA1: d5f085b28e8b30eb5553e0f4164538e8aaaa151f
+SHA256: 033793f65e150f4135344a5acc7e341e29aec2e380c7812205a06af82afbad3f
+Homepage: https://www.cairographics.org/pycairo/
+Description: Python bindings for the cairo graphics library
+
+Package: pygobject
+Version: 3.54.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1292
+Depends: glib, gobject-introspection, libcairo, libffi, pycairo, python
+Filename: pool/main/p/pygobject/pygobject_3.54.2_aarch64.deb
+Size: 264040
+MD5sum: bcbd5783a748526a352965ee88f244f7
+SHA1: e15e87d80094723adf9d9da191c3cd2ca649c4bc
+SHA256: 91e176cdf7428c0324eaff163ab88116573c7f1d20d6fa93a5fc9f4faa5604ff
+Homepage: https://pygobject.gnome.org/
+Description: Python package which provides bindings for GObject based libraries
 
 Package: python
 Version: 3.12.11-1
