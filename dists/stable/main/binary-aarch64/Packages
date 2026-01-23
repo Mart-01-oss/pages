@@ -3400,6 +3400,115 @@ SHA256: 44942fa7c9e8f7245e79a8e05fbaec73985498dd69ddc9bd518213b412adcebb
 Homepage: https://github.com/coin-or/Clp
 Description: Static libraries for coinor-clp
 
+Package: cointop
+Version: 1.6.10-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12428
+Filename: pool/main/c/cointop/cointop_1.6.10-3_aarch64.deb
+Size: 3226172
+MD5sum: 8d0525d54f882aecf9ca1679bd53a7bc
+SHA1: 70999e17852d6324ae539f74057e004e4a0af53b
+SHA256: 40bd9e57635002b638aece417c74e25d49705e7b9d1f08cb6c4bebfccc6681dc
+Homepage: https://cointop.sh/
+Description: A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies
+
+Package: colm
+Version: 0.14.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3628
+Depends: libc++
+Filename: pool/main/c/colm/colm_0.14.7-2_aarch64.deb
+Size: 566888
+MD5sum: d1e6796ce4fc1751a4fb1cc5f9cb90b4
+SHA1: c093dc6d85c0bd5fb3eb84e6b39809c89f232913
+SHA256: 605f42f87fd915a69d4f6d585b293841c3877582311fd243cc1043bb820132f9
+Homepage: https://www.colm.net/open-source/colm/
+Description: COmputer Language Machinery
+
+Package: colm-static
+Version: 0.14.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3920
+Depends: colm (= 0.14.7-2)
+Filename: pool/main/c/colm-static/colm-static_0.14.7-2_aarch64.deb
+Size: 382072
+MD5sum: 87e891e09d06bee6de8fe9b59c907e52
+SHA1: a7fc9e81f3bd86c42c2b730fc2482190f71c68d5
+SHA256: 6b48065ca35117614867beec754c9ef3d1065c778d8af5986925cb8e5eeb7277
+Homepage: https://www.colm.net/open-source/colm/
+Description: Static libraries for colm
+
+Package: colordiff
+Version: 1.0.21
+Architecture: all
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 92
+Depends: perl
+Filename: pool/main/c/colordiff/colordiff_1.0.21_all.deb
+Size: 10864
+MD5sum: 9316b025942437d0b2ee7e4ae16973f1
+SHA1: 59b4dc784735db078e121692214f2aa3e8db69df
+SHA256: a3b45375f9598d284a7ecd34adf2b40c54485f20a155e6281c0359484bf7fd8b
+Homepage: https://www.colordiff.org/
+Description: Tool to colorize 'diff' output
+
+Package: composer
+Version: 2.8.12
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3100
+Depends: php
+Filename: pool/main/c/composer/composer_2.8.12_all.deb
+Size: 564912
+MD5sum: 86c9d8a4850ae5e935b28633befea76f
+SHA1: 18be461462d95f7ee329ce5152826baff3f31b83
+SHA256: 44648268970f37f0c1078ce804f2368d7efa367e7ef51478e1825daf4c88138a
+Homepage: https://getcomposer.org/
+Description: Dependency Manager for PHP
+
+Package: console-bridge
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 140
+Depends: libc++
+Filename: pool/main/c/console-bridge/console-bridge_1.0.2-1_aarch64.deb
+Size: 20928
+MD5sum: 80ee3c158e5753f311287cb03785e63c
+SHA1: 211eec029edead27045e3672116cdbb1d74f2c51
+SHA256: 782a6f5e8ad8f0688ad19feb3b237af3d274e6808cf822d07a6b98bd7a30dfb7
+Homepage: https://github.com/ros/console_bridge
+Description: A ROS-independent package for logging that seamlessly pipes into rosconsole/rosout for ROS-dependent packages
+
+Package: convertlit
+Version: 1.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Filename: pool/main/c/convertlit/convertlit_1.8-2_aarch64.deb
+Size: 60740
+MD5sum: 6d7c533baea11d39663959b45cf2abdf
+SHA1: 868c4bf955c7947b6ff0d9a7c5a3f5d2733f18bc
+SHA256: 5ddac3bbaabd241d623e8b096bb63771affae05901400460fdb1a271c562ec35
+Homepage: http://www.convertlit.com/
+Description: An extractor/converter for .LIT eBooks
+
+Package: cookcli
+Version: 0.18.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20116
+Filename: pool/main/c/cookcli/cookcli_0.18.0_aarch64.deb
+Size: 6554320
+MD5sum: 996e381d91d56eac59b6c3626dc30fb1
+SHA1: d3a0c571633a10fb2944a1bd1a93e233bdc74b54
+SHA256: 710f6e8ff982ee2f26817ce6a40793012b11efc22b13ec955fb746a88811cc00
+Homepage: https://cooklang.org
+Description: A suite of tools to create shopping lists and maintain food recipes
+
 Package: coreutils
 Version: 9.7-3
 Architecture: aarch64
@@ -3416,6 +3525,21 @@ SHA1: dbc8fabbbcea4a14b607265491c0d8c95f653c42
 SHA256: e99ce5375ec8b9d2af4e67e0ae67de1f89ae7484f2b680848bc839be370b126f
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
+
+Package: corgi
+Version: 0.2.4-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3396
+Recommends: fzf
+Suggests: peco
+Filename: pool/main/c/corgi/corgi_0.2.4-5_aarch64.deb
+Size: 969536
+MD5sum: 36521eb913cd3afdd7f048f9ad0650a4
+SHA1: 9cbe9a11be4cd08f386d53297745ef41a7a35a70
+SHA256: a0016a0f22fe60c5c33f0a0cadd933843e16432b63fc803907977b7e05173ab8
+Homepage: https://github.com/DrakeW/corgi
+Description: CLI workflow manager
 
 Package: cryptopp
 Version: 8.9.0-1
@@ -7548,6 +7672,35 @@ SHA256: ed889515b2e732a7d119c82ba13f2354e1e8d5f6fc52829b35f284d62550ec9f
 Homepage: https://libsndfile.github.io/libsamplerate/
 Description: A library for performing sample rate conversion of audio data
 
+Package: libsasl
+Version: 2.1.28-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 616
+Breaks: libsasl-dev
+Replaces: libsasl-dev
+Filename: pool/main/libs/libsasl/libsasl_2.1.28-2_aarch64.deb
+Size: 95072
+MD5sum: 91b3321c8efc3e52926ecc8e7ecf066e
+SHA1: 4ad542e7cfbd1103fa8e531a1a13767c1ed0e2b5
+SHA256: e650fb331875092eeffe2031e41aeb6e4548df14817fcd3a2575899bfc6c9410
+Homepage: https://www.cyrusimap.org/sasl/
+Description: Cyrus SASL - authentication abstraction library
+
+Package: libsasl-static
+Version: 2.1.28-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 576
+Depends: libsasl (= 2.1.28-2)
+Filename: pool/main/libs/libsasl-static/libsasl-static_2.1.28-2_aarch64.deb
+Size: 76480
+MD5sum: 2a2f03886c548d6ce8a41a224e2cf948
+SHA1: fcf392797486db39607c86de6207ad5976f4aba6
+SHA256: 6fdb5c6c61f64c053b1ef832378b163dd9704ea059e22ea59b37cfbb0786fbb5
+Homepage: https://www.cyrusimap.org/sasl/
+Description: Static libraries for libsasl
+
 Package: libsm
 Version: 1.2.6-1
 Architecture: aarch64
@@ -7963,6 +8116,33 @@ SHA1: 2aad23c6c7a824747f4f14002899a6e28c92599e
 SHA256: f1aaae93d435add0748ae903893a6bab096caacb25124e432a0044c4c38cad3c
 Homepage: https://www.libtom.net/LibTomCrypt/
 Description: Static libraries for libtomcrypt
+
+Package: libtommath
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Filename: pool/main/libt/libtommath/libtommath_1.3.0_aarch64.deb
+Size: 10800
+MD5sum: 4d7be47383b66dfb3c52b6504a2c4511
+SHA1: 4804a2278d6f8fbb5d0008bd6056d1d9ae3ba505
+SHA256: 8c6b243cf479f369621cd2e8a1674282b1f6a21b7fbb60dd2ef5a83e93d4407c
+Homepage: https://www.libtom.net/LibTomMath/
+Description: A free open source portable number theoretic multiple-precision integer library
+
+Package: libtommath-static
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Depends: libtommath (= 1.3.0)
+Filename: pool/main/libt/libtommath-static/libtommath-static_1.3.0_aarch64.deb
+Size: 43468
+MD5sum: 45bf88f81da1bdd33f9b560d401a6dff
+SHA1: b9a31421b78ef4ec080a7635174b6e9dc3efd2bd
+SHA256: 6fd89f2433042849d2d83186f9097f251e2b37f181e9ba2a10b82030a217cfb0
+Homepage: https://www.libtom.net/LibTomMath/
+Description: Static libraries for libtommath
 
 Package: libtool
 Version: 2.5.4-2
@@ -9388,6 +9568,33 @@ SHA256: c53abaeefd65f543d8195957f20c058b70a8624ad41b684f4d827f507141aada
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
 
+Package: oniguruma
+Version: 6.9.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Filename: pool/main/o/oniguruma/oniguruma_6.9.10-1_aarch64.deb
+Size: 136488
+MD5sum: f2574b00648735d6e063ed8561e164af
+SHA1: 75c83f4b778585fa632ffdc420aec55cc83fd4e9
+SHA256: 24721bb86b840969a9b65f48d0e2ee1df1b3b8c3a70b3d9088d180766bb3db54
+Homepage: https://github.com/kkos/oniguruma
+Description: Regular expressions library
+
+Package: oniguruma-static
+Version: 6.9.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 820
+Depends: oniguruma (= 6.9.10-1)
+Filename: pool/main/o/oniguruma-static/oniguruma-static_6.9.10-1_aarch64.deb
+Size: 143876
+MD5sum: 359287b9d19b49dd87ce4a0efbb26242
+SHA1: bae1f37cce4d1a50396c1c19989701556cfa159d
+SHA256: a14f9ba02eb51f76a9df9331f550d68d3d0e692acebda740c44b7699de1c7395
+Homepage: https://github.com/kkos/oniguruma
+Description: Static libraries for oniguruma
+
 Package: opencl-clhpp
 Version: 2025.07.22
 Architecture: all
@@ -9501,6 +9708,36 @@ SHA1: 7cbb82be148e65512320ae3c014dd73e7dba2f48
 SHA256: c338b6de44c8b41daa906a58eb580bc628a3cd091275d7175f9f5baf056385ea
 Homepage: https://www.openjpeg.org/
 Description: Command-line tools using the JPEG 2000 library
+
+Package: openldap
+Version: 2.6.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3880
+Depends: libsasl, libuuid, openssl
+Breaks: openldap-dev
+Replaces: openldap-dev
+Filename: pool/main/o/openldap/openldap_2.6.10-1_aarch64.deb
+Size: 1135280
+MD5sum: c3cc9623560ea66c48c1c43899502846
+SHA1: 10e7004fe817bf261654723c7277193988ca7dcc
+SHA256: c0ebac495ee62bd0ac0e446ea33a070a92e00c2ba0f9080daeddb9b3fa308cbb
+Homepage: https://openldap.org
+Description: OpenLDAP server
+
+Package: openldap-static
+Version: 2.6.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 812
+Depends: openldap (= 2.6.10-1)
+Filename: pool/main/o/openldap-static/openldap-static_2.6.10-1_aarch64.deb
+Size: 159140
+MD5sum: d62cb837e5de391f76bcc9e754b4023c
+SHA1: 7327b475429b7317f0d4dca55de4f7c69ffa6c3c
+SHA256: 35f69e6761db28bf0c4497ba2b19d332de392c9d71bf9f8cbd35104fefa1c3bf
+Homepage: https://openldap.org
+Description: Static libraries for openldap
 
 Package: openmpt123
 Version: 0.8.3
@@ -9712,6 +9949,164 @@ SHA256: 971b20e3224d68a23839cbe2c99db29fa1baf2e93ffa99722132d64be9581f4a
 Homepage: https://www.perl.org/
 Description: Capable, feature-rich programming language
 
+Package: php
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 67828
+Depends: libandroid-glob, libandroid-support, libbz2, libc++, libcurl, libffi, libgmp, libiconv, libicu, libresolv-wrapper, libsqlite, libxml2, libxslt, libzip, oniguruma, openssl, pcre2, readline, tidy, zlib
+Conflicts: php-mysql, php-dev
+Replaces: php-mysql, php-dev
+Filename: pool/main/p/php/php_8.4.2-3_aarch64.deb
+Size: 10877772
+MD5sum: 7b0247ad800ef130d2f9fb2e85f5c5cb
+SHA1: 27a7572809733cbe01e474553c255d6a9d52cf59
+SHA256: 35c9db855d14dbeec382ec11eae9031c905023945975b1a58fc1f8a903c1f7f1
+Homepage: https://php.net
+Description: Server-side, HTML-embedded scripting language
+
+Package: php-apache
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19912
+Depends: apache2, apr-util, php (= 8.4.2-3)
+Filename: pool/main/p/php-apache/php-apache_8.4.2-3_aarch64.deb
+Size: 3256524
+MD5sum: af05d4dcc8cf775c5ca0bc1662ad2e50
+SHA1: ce25d4bbf7005fc0078698014fec76cdbabf0b85
+SHA256: 91bc993847b45aaf484dbc21d8e03504b38123cdb8b9db8a693445ffcf965c28
+Homepage: https://php.net
+Description: Apache 2.0 Handler module for PHP
+
+Package: php-apache-ldap
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 168
+Depends: openldap, php-apache, php (= 8.4.2-3)
+Filename: pool/main/p/php-apache-ldap/php-apache-ldap_8.4.2-3_aarch64.deb
+Size: 25428
+MD5sum: 7d53738d4fab06a43b9ab8fedeee461b
+SHA1: 65742cd0f6b153ce155edc13f130a5bdbc702b07
+SHA256: 8b6b449a6ed3980e12a9688c844aca785e0f44f5cde4a8429e848dddadb7b28f
+Homepage: https://php.net
+Description: LDAP module for PHP/Apache
+
+Package: php-apache-opcache
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 884
+Depends: php-apache, php (= 8.4.2-3)
+Filename: pool/main/p/php-apache-opcache/php-apache-opcache_8.4.2-3_aarch64.deb
+Size: 293244
+MD5sum: 22d27738e172e0dc186a164c71c308cc
+SHA1: 3482f126a8f426cc12bbb4149527836bcb44b388
+SHA256: 0a0e851f8c228ec56c10c8d1802cd1b97a4b25d87fcfae4d79952a4c66abb6b2
+Homepage: https://php.net
+Description: OPcache module for PHP/Apache
+
+Package: php-apache-pgsql
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Depends: php-apache, postgresql, php (= 8.4.2-3)
+Filename: pool/main/p/php-apache-pgsql/php-apache-pgsql_8.4.2-3_aarch64.deb
+Size: 56032
+MD5sum: f3264d4cdd5d178d6674178fde63c176
+SHA1: 19ccf373e64871ef4653f37326b038ff7a22ba99
+SHA256: d51dd7edd2626520343cbd6b4113977813021f6de2c1dff69944954263e77e23
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP/Apache
+
+Package: php-apache-sodium
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libsodium, php-apache, php (= 8.4.2-3)
+Filename: pool/main/p/php-apache-sodium/php-apache-sodium_8.4.2-3_aarch64.deb
+Size: 22080
+MD5sum: be3d600d0ff138d1f70f1e1dfcb54229
+SHA1: 9041a119e647ad8a46cbafdbec7bb8fbc35d4bca
+SHA256: f3194dc2e7eec3caa1dcfe835b43aa5bc907364c313bca5b1167dffed75f41ba
+Homepage: https://php.net
+Description: Sodium module for PHP/Apache
+
+Package: php-fpm
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20052
+Depends: php (= 8.4.2-3)
+Breaks: php (<< 8.1.12)
+Replaces: php (<< 8.1.12)
+Filename: pool/main/p/php-fpm/php-fpm_8.4.2-3_aarch64.deb
+Size: 3317496
+MD5sum: 06edf48a618e96c7e43da3fff9f0eb80
+SHA1: 9578504435d0f8be1106f191cf79c59b13d0ee1f
+SHA256: 7b7989e8bd0e3ab4aa2591aaefc62dc1359da11cf0fb76b2a246f3351cb528b4
+Homepage: https://php.net
+Description: FastCGI Process Manager for PHP
+
+Package: php-gd
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 168
+Depends: libgd, php (= 8.4.2-3)
+Filename: pool/main/p/php-gd/php-gd_8.4.2-3_aarch64.deb
+Size: 29648
+MD5sum: ac6e6818615b0e74861146bd46e11de1
+SHA1: 35991e0c929a5b90e3455a443451a5c2b56b2ad1
+SHA256: 6c5fb02c812bba6243eb21d322548a09cb7a042a67bb894d0e59e9e9c838e63c
+Homepage: https://php.net
+Description: gd module for PHP
+
+Package: php-ldap
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: openldap, php (= 8.4.2-3)
+Filename: pool/main/p/php-ldap/php-ldap_8.4.2-3_aarch64.deb
+Size: 25228
+MD5sum: 62b2012b337deee9abc319a1824b0896
+SHA1: 89941599e601bda21adc37e3993090593d124aa0
+SHA256: 1ed3ce22e0b95168d9dc14dbe6b35e978419c800d1b0dc2ec19167b3e74e51bd
+Homepage: https://php.net
+Description: LDAP module for PHP
+
+Package: php-pgsql
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: postgresql, php (= 8.4.2-3)
+Filename: pool/main/p/php-pgsql/php-pgsql_8.4.2-3_aarch64.deb
+Size: 55492
+MD5sum: b91c14dcf98c8aa9ec1e603405b8c29b
+SHA1: 01cd7a55f7603daaab7364c35a2845e60098eabd
+SHA256: eea94db2ecc869b384b0e04c525ecafd4ab5232a368ad9be576f43b156e03c58
+Homepage: https://php.net
+Description: PostgreSQL modules for PHP
+
+Package: php-sodium
+Version: 8.4.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libsodium, php (= 8.4.2-3)
+Filename: pool/main/p/php-sodium/php-sodium_8.4.2-3_aarch64.deb
+Size: 21936
+MD5sum: 095893568e9014ff4d5fb04f4bc2a3c1
+SHA1: 58bb91bb9ae8bb8242bad7e3da9824bbabebb008
+SHA256: 7a971097fa8e6f0f8427dd279b65b741f53f85f1427de14df1944b5317091be9
+Homepage: https://php.net
+Description: Sodium module for PHP
+
 Package: pinentry
 Version: 1.3.2-1
 Architecture: aarch64
@@ -9739,6 +10134,36 @@ SHA1: ed1346fd76b87f1cf1370956061301c89e6fa88e
 SHA256: d9cf696b5af59a80941b3093dbbe1f8f511ab52306d14458391763adc3676ed4
 Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
 Description: Helper tool used when compiling applications and libraries
+
+Package: postgresql
+Version: 17.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29512
+Depends: libandroid-execinfo, libandroid-shmem, libicu, libuuid, libxml2, openssl, readline, zlib
+Breaks: postgresql-contrib (<= 10.3-1), postgresql-dev
+Replaces: postgresql-contrib (<= 10.3-1), postgresql-dev
+Filename: pool/main/p/postgresql/postgresql_17.0-4_aarch64.deb
+Size: 6045452
+MD5sum: 00f9f162a724a77456843281a22d352f
+SHA1: 54bd3804516807c3b76c34d19c1f2be6e74ba92b
+SHA256: dee00b6ed5400edf6a7495067aaaf7163f315295b7bba5897c398b05d9a810e1
+Homepage: https://www.postgresql.org
+Description: Object-relational SQL database
+
+Package: postgresql-static
+Version: 17.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1708
+Depends: postgresql (= 17.0-4)
+Filename: pool/main/p/postgresql-static/postgresql-static_17.0-4_aarch64.deb
+Size: 255252
+MD5sum: f6858ccb78866d52646ffbc5c7e0809e
+SHA1: b4c0c8717fac745d452f50075339e65ed509c1c5
+SHA256: ad817ffa71387f0b390a8934d6a0dd6fbb413a242fba6ff6effdac26cd8a248d
+Homepage: https://www.postgresql.org
+Description: Static libraries for postgresql
 
 Package: procps
 Version: 3.3.17-6
@@ -10566,6 +10991,36 @@ SHA1: 1afdf04204bd585ec662333037f4e91e2c654e10
 SHA256: b2c5da28794eb494446210537eb76a5b1c3c512b79344843761614e6a601cdcb
 Homepage: https://www.gnu.org/software/texinfo/
 Description: Documentation system for on-line information and printed output
+
+Package: tidy
+Version: 5.9.14-next-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2360
+Depends: libxslt
+Breaks: tidy-dev
+Replaces: tidy-dev
+Filename: pool/main/t/tidy/tidy_5.9.14-next-3_aarch64.deb
+Size: 309548
+MD5sum: 69154c3daa7de8c3effe44d8a0b7b705
+SHA1: f3c063b839bd6c543dd0d460ef338ca3aa9cd870
+SHA256: ff9a98a069fa0e49128e2349eac6e8f8bd2a63377c8a3ab5796464d737bc7dd4
+Homepage: http://www.html-tidy.org/
+Description: A tool to tidy down your HTML code to a clean style
+
+Package: tidy-static
+Version: 5.9.14-next-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1360
+Depends: tidy (= 5.9.14-next-3)
+Filename: pool/main/t/tidy-static/tidy-static_5.9.14-next-3_aarch64.deb
+Size: 215716
+MD5sum: a0abf47485301b4030a17cd4b4d23381
+SHA1: b5b550223d4b751c392c51c8dd0032b788c2aa7e
+SHA256: 427d71f261ca68a01d7c2a2d6c8f7bde8119af740f26b8287c48ca5a2e318356
+Homepage: http://www.html-tidy.org/
+Description: Static libraries for tidy
 
 Package: tk
 Version: 8.6.14-1
