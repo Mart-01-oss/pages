@@ -1421,6 +1421,45 @@ SHA256: bd2454dacb87097cf6ebd4d157ea7272ad775446a96ac96e31eb71ba60a25471
 Homepage: https://www.bacula.org
 Description: Static libraries for bacula-fd
 
+Package: badvpn-udpgw
+Version: 1.999.130-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/b/badvpn-udpgw/badvpn-udpgw_1.999.130-1_aarch64.deb
+Size: 36028
+MD5sum: 0d769693df458a47180c240eb69cf220
+SHA1: 5abd4a078c264f87123fbd23623fa3ae049ff1f6
+SHA256: f175a85f7a2b75e588c7bc228b3c279acc3c5fe39001d442d4ecdcc2b910d05a
+Homepage: https://github.com/ambrop72/badvpn
+Description: UDP gateway for BadVPN
+
+Package: barcode
+Version: 0.99-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Filename: pool/main/b/barcode/barcode_0.99-5_aarch64.deb
+Size: 38992
+MD5sum: 8a075abf8e69aff2b3a9e55f718229fa
+SHA1: e17063e5b1d88ff3c12f49d15263997558ef93d8
+SHA256: ca3c96b0d7659cdd4ad159e8bf451293f3e53a1d36b746918652ef6b1352cd9f
+Homepage: https://www.gnu.org/software/barcode/
+Description: Tool to convert text strings to printed bars
+
+Package: base16384
+Version: 2.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Filename: pool/main/b/base16384/base16384_2.3.2-1_aarch64.deb
+Size: 17180
+MD5sum: 4737e3942abd25e56a08b27849c2335f
+SHA1: c64f8aef7f5f39452adeb4ec38862ef3b413de8a
+SHA256: fb70d2188064856afa3e61afaea325953fdf8e630b8e08f38a41ea5535455352
+Homepage: https://github.com/fumiama/base16384
+Description: Encode binary to printable utf16be
+
 Package: bash
 Version: 5.3.3-1
 Architecture: aarch64
@@ -1438,6 +1477,145 @@ SHA1: cd4bb145041eaad855533c5b6583388cf24da4eb
 SHA256: 99b30313e1ed5fb4e419ee19d8d15c1ffb7c07368dbc9b23229df45aa9c72c82
 Homepage: https://www.gnu.org/software/bash/
 Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+
+Package: bash-completion
+Version: 2.16.0
+Architecture: all
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 2612
+Depends: bash
+Filename: pool/main/b/bash-completion/bash-completion_2.16.0_all.deb
+Size: 184308
+MD5sum: 8b62f2b39b52d8b53aa4e076b98ae945
+SHA1: da21c12710a6674c124a747d8f458fae7f56365d
+SHA256: b4e8c7b576eb9d90f5b0552108bc6ee6cf525f6d2ea0fc806c8ad9584bff888b
+Homepage: https://github.com/scop/bash-completion
+Description: Programmable completion for the bash shell
+
+Package: bastet
+Version: 0.43.2-12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 416
+Depends: libc++, ncurses
+Filename: pool/main/b/bastet/bastet_0.43.2-12_aarch64.deb
+Size: 100804
+MD5sum: d740db3f9b94267856097f28b2a9f4f4
+SHA1: dce39d387c196f073c4d35e9c74385e4529daf2a
+SHA256: 6bf6a2b3c9ac4e92b2a4a46ee632e458bd101de8621292681b8b588056207fef
+Homepage: http://fph.altervista.org/prog/bastet.html
+Description: Tetris clone with 'bastard' block-choosing AI
+
+Package: bat
+Version: 0.25.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5040
+Depends: less, libgit2
+Filename: pool/main/b/bat/bat_0.25.0-3_aarch64.deb
+Size: 2129328
+MD5sum: 1e405a3c8080a962db168b07e064b8a5
+SHA1: 665d0e92a3ccf9836435cf5d90bf14af0323275b
+SHA256: 8dd81ba902966b67d922129ff2241e83dfb67a5556c691d5ac076bdf7289524c
+Homepage: https://github.com/sharkdp/bat
+Description: A cat(1) clone with wings
+
+Package: bc
+Version: 1.08.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: readline,flex
+Filename: pool/main/b/bc/bc_1.08.2-1_aarch64.deb
+Size: 75680
+MD5sum: 1fda3cd6253cc308466af9554811f78f
+SHA1: 5ed934a057ed58f36e5a1ff90e8320ca68526d7a
+SHA256: f90c1fb3b83a3f3ce92057fb02b78c1e11b31b6b8e092103770e856ea0ffd256
+Homepage: https://www.gnu.org/software/bc/
+Description: Arbitrary precision numeric processing language
+
+Package: bc-gh
+Version: 7.0.3-1
+Architecture: aarch64
+Maintainer: Gavin D. Howard <gavin@gavinhoward.com>
+Installed-Size: 228
+Depends: readline
+Filename: pool/main/b/bc-gh/bc-gh_7.0.3-1_aarch64.deb
+Size: 88176
+MD5sum: 3071f25308f43ee83c35785b07542162
+SHA1: 7acaf11f2ac51775c4fa6228bb1baa4333e72bb5
+SHA256: 60002680ec20876b932d6aa1156d5c1af1e0553ea507352810c7639f903f476d
+Homepage: https://git.gavinhoward.com/gavin/bc
+Description: Unix dc and POSIX bc with GNU and BSD extensions
+
+Package: bcal
+Version: 2.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: readline, bc
+Filename: pool/main/b/bcal/bcal_2.4-1_aarch64.deb
+Size: 24536
+MD5sum: 14546a63ba5a3339c041d2ff1740352f
+SHA1: 63f434c75d31af5e5db206d9989c4511dbb3953e
+SHA256: 5d3b487dd899ad85e710f5f4dea91f58a1cc9ca1bcba9b2bda07259b61109c25
+Homepage: https://github.com/jarun/bcal
+Description: Command-line utility for storage conversions and calculations
+
+Package: bdsup2sub
+Version: 4.0.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 428
+Depends: openjdk-21
+Filename: pool/main/b/bdsup2sub/bdsup2sub_4.0.1-1_all.deb
+Size: 358760
+MD5sum: 20c996059d1d7b8260ab691ce56dd2b0
+SHA1: 31a61dea3af2ae434328448bd64e1dafd8f87d91
+SHA256: 5fbb5ee85bad15809d8c5aba7a7c5b6f18a7288f1a3f9dc92b8dc587cda26cc8
+Homepage: https://github.com/mjuhasz/BDSup2Sub
+Description: A subtitle conversion tool for image based stream formats
+
+Package: beanshell
+Version: 2.1.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 228
+Depends: dash, termux-tools
+Filename: pool/main/b/beanshell/beanshell_2.1.1-1_all.deb
+Size: 185316
+MD5sum: 1b984af75e9e711f6836433b96c98219
+SHA1: aa3f2c2ac74d72957ca40725b0b6201e7b24b788
+SHA256: 2dafc83c917978d0bd0056883cfce0fa52c4f76219c7a0cb0ca8a49d5c5f1855
+Homepage: https://github.com/beanshell/beanshell
+Description: Small, free, embeddable, source level Java interpreter with object based scripting language features written in Java
+
+Package: bed
+Version: 0.2.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3584
+Filename: pool/main/b/bed/bed_0.2.8_aarch64.deb
+Size: 923580
+MD5sum: d258ff67850dc4c5e567aacb2714dd54
+SHA1: 4d282cdb05dfc6cc0e4020e03c3b796f3d58f5e1
+SHA256: 94496de54ed376167856c0e3ef1eee50ddeba018b1c13d1ffe0703024f9dfca9
+Homepage: https://github.com/itchyny/bed
+Description: Binary editor written in GO
+
+Package: bftpd
+Version: 6.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: libcrypt
+Filename: pool/main/b/bftpd/bftpd_6.3-1_aarch64.deb
+Size: 31892
+MD5sum: 9f1b309fba83078d2728c9c75b3578d5
+SHA1: ddf26ec8941f6fd7a90fd5c20e839dc1df1a035d
+SHA256: bbf4969e06d332c72d9d8e41101efd107c6e12e6805d87c44d624be530e6bf9c
+Homepage: https://bftpd.sourceforge.net/
+Description: Small, easy-to-configure FTP server
 
 Package: binutils
 Version: 2.44-4
@@ -2027,6 +2205,36 @@ SHA256: bcc00f8aac5553136eaa1f2c57ef994d1392c68c3417c608601f5cc6eedb4e3d
 Homepage: https://xiph.org/flac/
 Description: FLAC (Free Lossless Audio Codec) command-line tool
 
+Package: flex
+Version: 2.6.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 904
+Depends: m4
+Conflicts: flex-dev
+Replaces: flex-dev
+Filename: pool/main/f/flex/flex_2.6.4-4_aarch64.deb
+Size: 199736
+MD5sum: 16d3dcfc60f7858553e3023f114fe911
+SHA1: 27d3e7acc50f8f2cae3f5d47a9ba1ba168473103
+SHA256: 0baaf7a1144a657ace1a708df5657d988dbb4c3cac7e565858a0672de0ee396e
+Homepage: https://github.com/westes/flex
+Description: Fast lexical analyser generator
+
+Package: flex-static
+Version: 2.6.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: flex (= 2.6.4-4)
+Filename: pool/main/f/flex-static/flex-static_2.6.4-4_aarch64.deb
+Size: 1896
+MD5sum: 4f64f68a8397365878c7e97461e63e44
+SHA1: adb42797b4750401e3084b6e04a1dbe026353423
+SHA256: 0e1fdcf2b78b26a08af9868434eacd4fbb83986b1b589cb067e5615f68f1acf3
+Homepage: https://github.com/westes/flex
+Description: Static libraries for flex
+
 Package: fontconfig
 Version: 2.17.1-1
 Architecture: aarch64
@@ -2193,6 +2401,36 @@ SHA1: 40456e096a2c6fd8b032c3fe81f577235af11f49
 SHA256: de0bf0415721a88ca2cfbd1db2b77fa7b2441562af9b5f23ca75b68af0204033
 Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
 Description: Library for image loading and manipulation
+
+Package: gettext
+Version: 0.26-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26172
+Depends: attr, libc++, libiconv, libunistring, libxml2, ncurses
+Breaks: gettext-dev
+Replaces: gettext-dev
+Filename: pool/main/g/gettext/gettext_0.26-1_aarch64.deb
+Size: 2412300
+MD5sum: e405072cf1a265fd033c978b526fe064
+SHA1: 052df67eaa9a3714307cb7aa9378e89107400ee3
+SHA256: fe360d1ecfcc2ee1b8dd4d97f820077d17fb5c475bed9e7e75f22981ad776f33
+Homepage: https://www.gnu.org/software/gettext/
+Description: GNU Internationalization utilities
+
+Package: gettext-static
+Version: 0.26-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3984
+Depends: gettext (= 0.26-1)
+Filename: pool/main/g/gettext-static/gettext-static_0.26-1_aarch64.deb
+Size: 561536
+MD5sum: 15a5d4fad562bec6d1b85bbd83147b6e
+SHA1: d7978f21b2d09c7d4368fe3004e9d208c0bbfafd
+SHA256: 920b9652eb7dd7020f56ef3e1b8d95c727d61d38b5c4b14b131cff8789440f5d
+Homepage: https://www.gnu.org/software/gettext/
+Description: Static libraries for gettext
 
 Package: giflib
 Version: 5.2.2-1
@@ -3280,6 +3518,22 @@ SHA256: 855683e00bb853e72c290c1b9bca3bbcf3825d8cc69dab83db0af0c58879d39d
 Homepage: https://www.gnu.org/software/libgcrypt/
 Description: Static libraries for libgcrypt
 
+Package: libgit2
+Version: 1.9.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3704
+Depends: libssh2, openssl, pcre2, zlib
+Breaks: libgit2-dev
+Replaces: libgit2-dev
+Filename: pool/main/libg/libgit2/libgit2_1.9.1-1_aarch64.deb
+Size: 718472
+MD5sum: 2a55179bf409f136ff886b3f2412ca07
+SHA1: d2359b46460aa43f82439bbcecd47e4bc0bf5ee7
+SHA256: 1324ec1df16907ffac9e064b445fbcd313927ba24ee4a7800b84837cf4d64eac
+Homepage: https://libgit2.github.com/
+Description: C library implementing Git core methods
+
 Package: libgmp
 Version: 6.3.0-2
 Architecture: aarch64
@@ -4049,6 +4303,20 @@ SHA1: ca39145391db6946dc71110a44436594518d8b44
 SHA256: 42b52a18f785ed31bf1dfc9aedabd45a56b76f896589a4a0bc592b57ea35bd9c
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for libopus
+
+Package: libpcreposix
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: pcre (= 8.45-2)
+Filename: pool/main/libp/libpcreposix/libpcreposix_8.45-2_aarch64.deb
+Size: 3240
+MD5sum: 96b16120b12dc25e3733d1c5a58f34d8
+SHA1: d51aca936d9724bef9d4a8e8e211dd2c5aeef6a5
+SHA256: 89630568203b98013c4bcbec736945193f38e1b6979662eb1fa15093d5feafda
+Homepage: https://www.pcre.org
+Description: Posix-compatible runtime libraries for libpcre
 
 Package: libpng
 Version: 1.6.50-1
@@ -5492,6 +5760,36 @@ SHA256: 819565625cada18404c20168dc0acd86bb92b1a28b5b95e8cc8e859bb44b9aac
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
+Package: pcre
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2712
+Depends: libc++
+Breaks: pcre-dev
+Replaces: pcre-dev
+Filename: pool/main/p/pcre/pcre_8.45-2_aarch64.deb
+Size: 649588
+MD5sum: f1b6b8ebf41db59de76984ad046ecbf1
+SHA1: 88d366acc9e677d1d0b1abbe87db077fdc5518ba
+SHA256: 33717e122a6b568ab012dfa31bdcb9216044d8f8b699213b728854a1e9ef4623
+Homepage: https://www.pcre.org
+Description: Library implementing regular expression pattern matching using the same syntax and semantics as Perl 5
+
+Package: pcre-static
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 528
+Depends: pcre (= 8.45-2)
+Filename: pool/main/p/pcre-static/pcre-static_8.45-2_aarch64.deb
+Size: 135108
+MD5sum: 9479263a54fe7adb0dddef5fac230fdc
+SHA1: 1a93a1770fdb301029c24b38ff5a94c418cfa866
+SHA256: a96f7c241dfb42fd0693b71701ca3f3d772336f8bd005e6986d6e7f7599dabcf
+Homepage: https://www.pcre.org
+Description: Static libraries for pcre
+
 Package: pcre2
 Version: 10.46
 Architecture: aarch64
@@ -5532,6 +5830,20 @@ Size: 34032
 MD5sum: 137960cf246ce8dd4ed971c54e50cb50
 SHA1: 22baae3220f818725a92cd7a19774d88867ecd7f
 SHA256: 4badc1c448c7c5e3af4852a67b670285cd5bd38ee676e76017f51b72f35e123a
+Homepage: https://www.pcre.org
+Description: A grep with Perl-compatible regular expressions
+
+Package: pcregrep
+Version: 8.45-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: pcre (= 8.45-2)
+Filename: pool/main/p/pcregrep/pcregrep_8.45-2_aarch64.deb
+Size: 24612
+MD5sum: b2909b35ffa30ad341e781e5de751942
+SHA1: a730e4a43e2d9c948e8b8ba71cff2c68ad4dfbde
+SHA256: 18edce8b03504f8e06a94b36efe367743ca7bcb892c4b29d8b74bcb539cf64e9
 Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
 
