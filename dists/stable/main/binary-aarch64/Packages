@@ -3217,6 +3217,35 @@ SHA256: 93b4f93d4618b7afff6ab82472893392aa36aa8392d60aec965ee03cfc0989ea
 Homepage: https://github.com/cloudflare/cloudflared
 Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
 
+Package: clpeak
+Version: 1.1.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libc++, ocl-icd
+Filename: pool/main/c/clpeak/clpeak_1.1.5_aarch64.deb
+Size: 51112
+MD5sum: fd53bb778132d89557b4996465c1088a
+SHA1: fcac2637d15da1490d736d70c6fd7f7042d05fdf
+SHA256: a8e14af0571799e900c59bebb35a2b4d05d7f7f259466799be2e57d0dc4f00a5
+Homepage: https://github.com/krrishnarraj/clpeak
+Description: A tool which profiles OpenCL devices to find their peak capacities
+
+Package: clvk
+Version: 0.0.20250920.101737
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 69088
+Depends: libc++, vulkan-loader
+Recommends: ocl-icd
+Filename: pool/main/c/clvk/clvk_0.0.20250920.101737_aarch64.deb
+Size: 16501840
+MD5sum: a2663c3e04477fe96ed0cdf43a3d607f
+SHA1: 947e247da53f1f01bece36713811c3420d278f23
+SHA256: 2fc62f02c9f8162a7b99d72e3e458d60d838faa3e151bd7f564e970faeafad74
+Homepage: https://github.com/kpet/clvk
+Description: Experimental implementation of OpenCL on Vulkan
+
 Package: cmake
 Version: 4.2.2-1
 Architecture: aarch64
@@ -3230,6 +3259,146 @@ SHA1: e0f6239e0575ad364dc207a381771dc684bc3003
 SHA256: 2ca60355b878f9bb824a5cbf57f45dde4e5e50809f3353c82239ea32aad6a7e6
 Homepage: https://cmake.org/
 Description: CMake is an open-source, cross-platform family of tools designed to build, test and package software.
+
+Package: cmark
+Version: 0.31.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Breaks: cmark-dev
+Replaces: cmark-dev
+Filename: pool/main/c/cmark/cmark_0.31.1-1_aarch64.deb
+Size: 75460
+MD5sum: 6cd49e8ca4168b8ccf4d6f227564c779
+SHA1: d9b0b77055d1c677becb8d4a8d3fa429901f160c
+SHA256: a39cb7627680e6a8378a9f78df4805ae2d2fef347d1fd201dfad69d628576add
+Homepage: https://github.com/commonmark/cmark
+Description: CommonMark parsing and rendering program
+
+Package: cmark-static
+Version: 0.31.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Depends: cmark (= 0.31.1-1)
+Filename: pool/main/c/cmark-static/cmark-static_0.31.1-1_aarch64.deb
+Size: 64840
+MD5sum: 4f1867572e727178c73b6df83a5fe634
+SHA1: 03e32fcfb0daf0c68520875e5325c3218341bc5c
+SHA256: 051b5c52f88e12f2645539a5377d300d82a3f9887be7f52ffffb71720ae8a3b6
+Homepage: https://github.com/commonmark/cmark
+Description: Static libraries for cmark
+
+Package: cmatrix
+Version: 2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: ncurses
+Filename: pool/main/c/cmatrix/cmatrix_2.0-1_aarch64.deb
+Size: 7644
+MD5sum: 19f08cee2e438a1aa71206e7dfcf8985
+SHA1: 5a689c88bff788b4e4a9388ca6a37762f96b9ea8
+SHA256: e21f06427e651524dcd1eb7c0e9c1216d95d2ca1a85f8d185e1f694e2afcb45e
+Homepage: https://github.com/abishekvashok/cmatrix
+Description: Command producing a Matrix-style animation
+
+Package: cmocka
+Version: 1.1.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Filename: pool/main/c/cmocka/cmocka_1.1.8-2_aarch64.deb
+Size: 30528
+MD5sum: 7f83177e033ecec445c7dbc60d5937e4
+SHA1: 216975550d720cf01e68481be4256543447ad466
+SHA256: 44b96797748f5bb4a6dc56a1450efe1556561829a432ffac193920571b5fdd98
+Homepage: https://cmocka.org/
+Description: cmocka is an unit testing framework for C
+
+Package: cmusfm
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: libandroid-spawn, libcurl, openssl
+Filename: pool/main/c/cmusfm/cmusfm_0.5.0-1_aarch64.deb
+Size: 11280
+MD5sum: ecbf6f286113e291cef34619e6660a69
+SHA1: 896a8cdf9bc0a4fba5466921c66a69fb58d4d56d
+SHA256: bad604284ec35745089981c7243968ba39947efa40c799cf18e59521b4353451
+Homepage: https://github.com/Arkq/cmusfm
+Description: Last.fm standalone scrobbler for the cmus music player
+
+Package: codecrypt
+Version: 1.8-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Depends: cryptopp, fftw, libc++, libgmp
+Filename: pool/main/c/codecrypt/codecrypt_1.8-10_aarch64.deb
+Size: 127496
+MD5sum: 2675adc9d47a9e7901f7b1bab1a40b6b
+SHA1: dbc67f487e06f4062cb590494cccd9fc85f39bd5
+SHA256: 922aa4708de5bb7338a820ddd5df054f001179b71c26fadd2e75fd66291f36d0
+Homepage: http://e-x-a.org/codecrypt/
+Description: The post-quantum cryptography tool
+
+Package: coinor-cbc
+Version: 2.10.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2748
+Depends: coinor-clp, libc++, libcoinor-cgl, libcoinor-osi, libcoinor-utils
+Filename: pool/main/c/coinor-cbc/coinor-cbc_2.10.12-1_aarch64.deb
+Size: 657984
+MD5sum: 47928c7ed901648a80b14ce16f122458
+SHA1: 0e19a11f9e6886d8365cf6db50d32d3ef299f4a6
+SHA256: f0dfeee197124a37adf6dff607a7c24c8238ed93bfd2091f78ef5213048c01ad
+Homepage: https://github.com/coin-or/Cbc
+Description: An open-source mixed integer linear programming solver
+
+Package: coinor-cbc-static
+Version: 2.10.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4660
+Depends: coinor-cbc (= 2.10.12-1)
+Filename: pool/main/c/coinor-cbc-static/coinor-cbc-static_2.10.12-1_aarch64.deb
+Size: 735660
+MD5sum: 625d1486d8073cffc5fb694c89650370
+SHA1: 13f6aeb69956d1357fcaff8993a68fe8257d9791
+SHA256: a218f54450b7cc6262b82a2b8989a19d6ddd522222a06231bf2939500f93304a
+Homepage: https://github.com/coin-or/Cbc
+Description: Static libraries for coinor-cbc
+
+Package: coinor-clp
+Version: 1:1.17.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2752
+Depends: libc++, libcoinor-osi, libcoinor-utils
+Filename: pool/main/c/coinor-clp/coinor-clp_1+1.17.10-1_aarch64.deb
+Size: 732208
+MD5sum: 12bd7a274fbefefb0794de274a407a2b
+SHA1: 5c27b0c3cd9727b83b550a0bcedd5aefabdc4550
+SHA256: 8431f42480f5d3e20900b528b7c6aadac1202ba0a71e6234e3ac5604fe016a74
+Homepage: https://github.com/coin-or/Clp
+Description: An open-source linear programming solver
+
+Package: coinor-clp-static
+Version: 1:1.17.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7436
+Depends: coinor-clp (= 1:1.17.10-1)
+Filename: pool/main/c/coinor-clp-static/coinor-clp-static_1+1.17.10-1_aarch64.deb
+Size: 832336
+MD5sum: acabbb127527d1a9076bb8b3995efc28
+SHA1: 796039e14da83d953aa0dbb2cf7a098256bdcbae
+SHA256: 44942fa7c9e8f7245e79a8e05fbaec73985498dd69ddc9bd518213b412adcebb
+Homepage: https://github.com/coin-or/Clp
+Description: Static libraries for coinor-clp
 
 Package: coreutils
 Version: 9.7-3
@@ -3247,6 +3416,36 @@ SHA1: dbc8fabbbcea4a14b607265491c0d8c95f653c42
 SHA256: e99ce5375ec8b9d2af4e67e0ae67de1f89ae7484f2b680848bc839be370b126f
 Homepage: https://www.gnu.org/software/coreutils/
 Description: Basic file, shell and text manipulation utilities from the GNU project
+
+Package: cryptopp
+Version: 8.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7552
+Depends: libc++
+Breaks: cryptopp-dev
+Replaces: cryptopp-dev
+Filename: pool/main/c/cryptopp/cryptopp_8.9.0-1_aarch64.deb
+Size: 1257424
+MD5sum: 989f76f15cb03c425fa1c7a5ed2a165f
+SHA1: 4823ff90b3f1a07daaaa5100f8f8347a8524a417
+SHA256: fae7782fadf6ba44224e455a0dadd9633a4c5071e06f40622c0bab99336b0925
+Homepage: https://www.cryptopp.com/
+Description: A free C++ class library of cryptographic schemes
+
+Package: cryptopp-static
+Version: 8.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 53548
+Depends: cryptopp (= 8.9.0-1)
+Filename: pool/main/c/cryptopp-static/cryptopp-static_8.9.0-1_aarch64.deb
+Size: 5979260
+MD5sum: 69e0970d881134c2c927310d86229887
+SHA1: 2fb734858bdb852b7132d71981abc5c67e137053
+SHA256: 655d2dab490c472b0319fa3f52d41b4f08a9d0e3d1720e74d54a11e3a93eedca
+Homepage: https://www.cryptopp.com/
+Description: Static libraries for cryptopp
 
 Package: cups
 Version: 2.4.14
@@ -5179,6 +5378,90 @@ SHA256: 9332f68b84866a6f77332a0710dc65623aa3fd972ebb910a09f1239e42af2ab6
 Homepage: https://sites.google.com/site/fullycapable/
 Description: Static libraries for libcap
 
+Package: libcoinor-cgl
+Version: 0.60.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1288
+Depends: coinor-clp, libc++, libcoinor-osi, libcoinor-utils
+Filename: pool/main/libc/libcoinor-cgl/libcoinor-cgl_0.60.8-1_aarch64.deb
+Size: 356988
+MD5sum: c77d86fe9644cebf3d538a82d296900c
+SHA1: 7ed8c1c522ddddf41c8104d75dda72d4bd4a0e5b
+SHA256: f92e3258b0a8d2df6d09547c6e6f0e0a5c87da555c7e900ce8fbe8d571eba43a
+Homepage: https://github.com/coin-or/Cgl
+Description: An open-source cut generation library for COIN-OR projects
+
+Package: libcoinor-cgl-static
+Version: 0.60.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2744
+Depends: libcoinor-cgl (= 0.60.8-1)
+Filename: pool/main/libc/libcoinor-cgl-static/libcoinor-cgl-static_0.60.8-1_aarch64.deb
+Size: 427676
+MD5sum: 328239b179cd0da582e1104318e13de6
+SHA1: 678166342d618293cd43213eaeaf6982edf3feca
+SHA256: aca6ca79f8f4d0bd17f4bcb221d2dcb27f0f3575cd6eda0c4b5df8b37053a3cd
+Homepage: https://github.com/coin-or/Cgl
+Description: Static libraries for libcoinor-cgl
+
+Package: libcoinor-osi
+Version: 1:0.108.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1064
+Depends: libc++, libcoinor-utils
+Filename: pool/main/libc/libcoinor-osi/libcoinor-osi_1+0.108.8-1_aarch64.deb
+Size: 257004
+MD5sum: 5fc3ffa345d08f16965dde38cea963c7
+SHA1: bd66fe279a5da25a65b400ec00fa97c8d1130228
+SHA256: 764ccce8a2caace0d854d216df934220b58761f8c4f1d2c9a9e64784b3d5a63a
+Homepage: https://github.com/coin-or/Osi
+Description: An abstract base class to a generic linear programming (LP) solver
+
+Package: libcoinor-osi-static
+Version: 1:0.108.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3844
+Depends: libcoinor-osi (= 1:0.108.8-1)
+Filename: pool/main/libc/libcoinor-osi-static/libcoinor-osi-static_1+0.108.8-1_aarch64.deb
+Size: 320920
+MD5sum: e0a85be7fb0fad9239555f2e97f7c50a
+SHA1: 6a94e644187600ea15af23da669c2958045da9f6
+SHA256: fb0498c16add9302ff3f947f544d9112c931a84a2fc1bfa244ebe79238fcc126
+Homepage: https://github.com/coin-or/Osi
+Description: Static libraries for libcoinor-osi
+
+Package: libcoinor-utils
+Version: 1:2.11.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1844
+Depends: libc++
+Filename: pool/main/libc/libcoinor-utils/libcoinor-utils_1+2.11.11-1_aarch64.deb
+Size: 451280
+MD5sum: 6e157f538adf90f71b20bf3adb4c82ed
+SHA1: 445f6a793321c9514c33e28baecbfcb04abee7bd
+SHA256: 65f6bf1295daeaedef979f69e5af1dcea136c5e0da306fd0de7c48cb2ba64ed6
+Homepage: https://github.com/coin-or/CoinUtils
+Description: An open-source collection of classes and helper functions for COIN-OR projects
+
+Package: libcoinor-utils-static
+Version: 1:2.11.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3924
+Depends: libcoinor-utils (= 1:2.11.11-1)
+Filename: pool/main/libc/libcoinor-utils-static/libcoinor-utils-static_1+2.11.11-1_aarch64.deb
+Size: 495396
+MD5sum: 594e3985ddbba48f8c676e4b1e3ebd5a
+SHA1: ad97dbd34cc31de2bbc30e2e1eadce09f4276493
+SHA256: 86d9acf71b56b9d5eac27ca921c20b14a0dfae5aba2caf00f297a9fc4406d09a
+Homepage: https://github.com/coin-or/CoinUtils
+Description: Static libraries for libcoinor-utils
+
 Package: libcompiler-rt
 Version: 20.1.8-3
 Architecture: aarch64
@@ -5222,6 +5505,19 @@ SHA1: cc633b7e3c94ba7a77cfe3f3bc5f7868d9575253
 SHA256: 609e2d6e04148379dedeb011f8f3cfae6c7ad77ad2c2f1fc9bd66c062208c3f7
 Homepage: https://github.com/martinh/libconfuse
 Description: Static libraries for libconfuse
+
+Package: libcpufeatures
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Filename: pool/main/libc/libcpufeatures/libcpufeatures_0.10.1-1_aarch64.deb
+Size: 28288
+MD5sum: fd3666d8cee862ae68ec74d2a1caef83
+SHA1: 4457f2fc03b3340513f3d16c9386c5f732cfafc0
+SHA256: d6dbb6e31da0cdca6d21c85c04b9be7c220e804badf47f6bda8403e71fa46c58
+Homepage: https://github.com/google/cpu_features
+Description: A cross-platform C library to retrieve CPU features (such as available instructions) at runtime
 
 Package: libcrypt
 Version: 0.2-6
@@ -9092,6 +9388,19 @@ SHA256: c53abaeefd65f543d8195957f20c058b70a8624ad41b684f4d827f507141aada
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
 
+Package: opencl-clhpp
+Version: 2025.07.22
+Architecture: all
+Maintainer: @termux
+Installed-Size: 492
+Filename: pool/main/o/opencl-clhpp/opencl-clhpp_2025.07.22_all.deb
+Size: 48668
+MD5sum: 9586a0f1e8ecd01c3a65a37f307fffdf
+SHA1: f613a81746fc3d1d74782809024707b5ce6d671d
+SHA256: 05b794235342c9b10e8828d808efda6a4609aa784849590ac4fed2400e7570f8
+Homepage: https://github.com/KhronosGroup/OpenCL-CLHPP
+Description: Khronos OpenCL C++ Headers
+
 Package: opencl-headers
 Version: 2025.07.22
 Architecture: all
@@ -10501,6 +10810,32 @@ SHA1: 5ed16e3d4b31ef05acae133d23122e8488c5ac63
 SHA256: 309437db3588505a21e0c93843923639aa9d40f40b3306b0760d1f5e1aec547c
 Homepage: https://www.vamp-plugins.org/
 Description: Static libraries for vamp-plugin-sdk
+
+Package: vulkan-headers
+Version: 1.4.328
+Architecture: all
+Maintainer: @termux
+Installed-Size: 32280
+Filename: pool/main/v/vulkan-headers/vulkan-headers_1.4.328_all.deb
+Size: 1620396
+MD5sum: 03d664eb77e356d87b377b79382196e8
+SHA1: d3f55a0148684346d7d6476cb8c14c0dbcfc494d
+SHA256: 2853b9388548a651f421bf9b075a6ae2550e76fe738c14a1010ecee118482c84
+Homepage: https://github.com/KhronosGroup/Vulkan-Headers
+Description: Vulkan Header files and API registry
+
+Package: vulkan-loader-android
+Version: 28c-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Filename: pool/main/v/vulkan-loader-android/vulkan-loader-android_28c-1_aarch64.deb
+Size: 5008
+MD5sum: 82766f39cee6cd760d70bfbd801593f6
+SHA1: 1e5def4492ebf24bc1e919e4de8b18d1106f919b
+SHA256: 42d302d4a66cb19db840a3b42b2460a4d21b9028b320ab124cce82c9f83fcd55
+Homepage: https://source.android.com/devices/graphics/arch-vulkan
+Description: Vulkan Loader for Android
 
 Package: x264
 Version: 1:0.164.3191-1
