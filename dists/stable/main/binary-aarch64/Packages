@@ -3650,6 +3650,63 @@ SHA256: e57ffdd66086ab51904cc061adfa73f73c6f3ea97755fd1b16b7faaca877a3f0
 Homepage: https://crawl.develz.org/
 Description: Roguelike adventure through dungeons filled with dangerous monsters
 
+Package: croc
+Version: 1:10.2.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10932
+Filename: pool/main/c/croc/croc_1+10.2.5_aarch64.deb
+Size: 2929100
+MD5sum: 818c9796582d2ec8c80e595b6c7e4485
+SHA1: ae7248437943b08a21607ac70535a22c7fa1cd81
+SHA256: e27a4a99d145e98c4e0b0f3e68f4a3d16d8ea06dfff301e777359c094208f0c1
+Homepage: https://github.com/schollz/croc
+Description: Easily and securely send things from one computer to another
+
+Package: cronie
+Version: 1.7.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: dash
+Suggests: termux-services
+Conflicts: busybox (<< 1.31.1-11)
+Replaces: anacron
+Filename: pool/main/c/cronie/cronie_1.7.2-4_aarch64.deb
+Size: 57796
+MD5sum: 795d077d1e4cdd92e478ba60da095225
+SHA1: 5874194b091cfc11a41540abbad880b8f4954cd2
+SHA256: 7a7ea0afbaa31a6d48d21a8b6a455b552bae1d2ebc944f06db1474f9dbf0967e
+Homepage: https://github.com/cronie-crond/cronie/
+Description: Daemon that runs specified programs at scheduled times and related tools
+
+Package: crowbook
+Version: 0.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7044
+Depends: openssl
+Filename: pool/main/c/crowbook/crowbook_0.17.0-1_aarch64.deb
+Size: 1998352
+MD5sum: 411b56e20bf07c757af59d10dc445ef6
+SHA1: 974fe3025c7edb54546784c51916ac864303aecb
+SHA256: a4b31a576065a39b3a6694435df4df03b435dde9c227f1c1de1353373cb39ab9
+Homepage: https://github.com/crowdagger/crowbook
+Description: Allows you to write a book in Markdown without worrying about formatting or typography
+
+Package: crunch
+Version: 3.6-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/main/c/crunch/crunch_3.6-5_aarch64.deb
+Size: 30656
+MD5sum: 1d78a14577e2d668f5604654b1d6c963
+SHA1: 849cd12ad8b463daffb5ce7865aeedf6e11983df
+SHA256: efca641488b34326dc516b3b565ce71bd1b86f9d2dba14077e7ef5c21a1dc64a
+Homepage: https://sourceforge.net/projects/crunch-wordlist/
+Description: Highly customizable wordlist generator
+
 Package: cryptopp
 Version: 8.9.0-1
 Architecture: aarch64
@@ -3679,6 +3736,63 @@ SHA1: 2fb734858bdb852b7132d71981abc5c67e137053
 SHA256: 655d2dab490c472b0319fa3f52d41b4f08a9d0e3d1720e74d54a11e3a93eedca
 Homepage: https://www.cryptopp.com/
 Description: Static libraries for cryptopp
+
+Package: crystal
+Version: 1.17.1-1
+Architecture: aarch64
+Maintainer: @HertzDevil
+Installed-Size: 26896
+Depends: libc++, libevent, libgc, libgmp, libiconv, libllvm (<< 21), libxml2, libyaml, openssl, pcre2, zlib
+Recommends: clang, libffi, make, pkg-config
+Filename: pool/main/c/crystal/crystal_1.17.1-1_aarch64.deb
+Size: 4118384
+MD5sum: fda1c6551498cc67704c827efffefc92
+SHA1: 29b41a7eec3075599d1ca478e1838625ea16e04b
+SHA256: 07bd772ed8f8edf22300a36ce4affd4152f9dc55c24882728927853f4fe1b515
+Homepage: https://crystal-lang.org
+Description: Fast and statically typed, compiled language with Ruby-like syntax
+
+Package: cscope
+Version: 15.9-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 712
+Depends: ncurses
+Filename: pool/main/c/cscope/cscope_15.9-2_aarch64.deb
+Size: 118312
+MD5sum: 69d04d49cd79aca9a76b6edbc75832a0
+SHA1: f93e693e58ebe27aa527fbdb0ee694b59211587d
+SHA256: 4bfd4965635d465a7ad49643aff4d26203260df1896ac612ad22f1397a914af5
+Homepage: https://cscope.sourceforge.net/
+Description: A developers tool for browsing program code
+
+Package: csh
+Version: 20110502-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libandroid-glob, libbsd
+Filename: pool/main/c/csh/csh_20110502-1_aarch64.deb
+Size: 80788
+MD5sum: 35292f469517b66eb84154088072bc8e
+SHA1: 3bc4289b78aa1b22b789a65d310efd84b2be5e81
+SHA256: 60012e7790c74a941a60834ee76c24598b5afc447d118db2c33a544eb0e4cd5d
+Homepage: https://packages.debian.org/sid/csh
+Description: C Shell with process control from 3BSD
+
+Package: csol
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 236
+Depends: libandroid-support, ncurses
+Filename: pool/main/c/csol/csol_1.6.0-1_aarch64.deb
+Size: 32684
+MD5sum: 4c54a76a32a5dc2c190383f243142319
+SHA1: f48ff6b83ec6494a79595a50e93b50f52d72e51f
+SHA256: b92cd39588d2589158895079d06b9d34bf869e397f11100006b727be101a57e8
+Homepage: https://github.com/nielssp/csol
+Description: A small collection of solitaire games implemented in C using ncurses
 
 Package: cups
 Version: 2.4.14
@@ -5507,6 +5621,36 @@ SHA1: 0bcd661898bd48c5e312e5bbb39de1d5c243ef1e
 SHA256: a91f8a206a09a2d2b94face720df5336749f9752c84357d8912e0bda84129dda
 Homepage: https://code.videolan.org/videolan/libbluray/
 Description: Example utilities for libbluray
+
+Package: libbsd
+Version: 0.11.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1324
+Depends: libmd
+Breaks: libbsd-dev
+Replaces: libbsd-dev
+Filename: pool/main/libb/libbsd/libbsd_0.11.7-2_aarch64.deb
+Size: 150796
+MD5sum: 6bf3804358549d7c395659ff13adee96
+SHA1: c4cfd77652b78600d0605ee05b6b45baf4cc9da2
+SHA256: 6a2ad4397a316f6ee26c4cba8fd79828d4b9e21f5c57684434b0cd12d38eec34
+Homepage: https://libbsd.freedesktop.org
+Description: utility functions from BSD systems
+
+Package: libbsd-static
+Version: 0.11.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libbsd (= 0.11.7-2)
+Filename: pool/main/libb/libbsd-static/libbsd-static_0.11.7-2_aarch64.deb
+Size: 32804
+MD5sum: 75a1588068adb3a0c8f8710f5b578810
+SHA1: c858858011407da14868fcf8f5636ffe744c9cd8
+SHA256: 03c7a28cbbab8086142cbf770d7f3a0dc55552300abed95e617f4795ec0313ac
+Homepage: https://libbsd.freedesktop.org
+Description: Static libraries for libbsd
 
 Package: libbz2
 Version: 1.0.8-8
