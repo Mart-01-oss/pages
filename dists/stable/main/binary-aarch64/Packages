@@ -2640,6 +2640,20 @@ SHA256: 494ef52bdecbf7184c3c4252b7006458a92c774a72604322368fc2a832bb77d1
 Homepage: https://carapace.sh/
 Description: Multi-shell multi-command argument completer
 
+Package: cargo-c
+Version: 0.10.16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 91320
+Depends: libcurl, libgit2, libssh2, openssl, zlib
+Filename: pool/main/c/cargo-c/cargo-c_0.10.16_aarch64.deb
+Size: 24141728
+MD5sum: f31d9c9a3d137c7d03f2882db5a4dd56
+SHA1: 32097ed777f71396710671cb35dd2c5f51fdbbbe
+SHA256: 04b25c2216ad143393809155550887c46d7cc80eb375c8eb8bbb92586f630fab
+Homepage: https://github.com/lu-zero/cargo-c
+Description: Cargo C-ABI helpers
+
 Package: catdoc
 Version: 0.95-2
 Architecture: aarch64
@@ -3050,6 +3064,34 @@ SHA256: e2a1ae75f0bc76f8edb87c86074fc19d765fa9898cf4df0ebb4c022e16f52584
 Homepage: https://github.com/mitnk/cicada
 Description: A bash like Unix shell
 
+Package: ciso
+Version: 1.0.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: zlib
+Filename: pool/main/c/ciso/ciso_1.0.2-2_aarch64.deb
+Size: 4664
+MD5sum: 58c4df31e8c93477e5d0049ee3e55f66
+SHA1: 3376c82ba1b32f8e8044509b69aac748c2f2bfb0
+SHA256: 923db4402fb312bfd2180e764857a331b133a0390b9c4ed2f12f279c734a6d1c
+Homepage: https://github.com/jamie/ciso
+Description: PSP ISO compression tool
+
+Package: ckermit
+Version: 9.0.302-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4904
+Depends: libcrypt
+Filename: pool/main/c/ckermit/ckermit_9.0.302-3_aarch64.deb
+Size: 1403316
+MD5sum: c0229bbdbf592900e6ca772c2151af09
+SHA1: 890ed27aa439af970b781eb5a55495f767054779
+SHA256: 8655c41346548a58fb24365d6c96cf77ca8ef412efed2f6e17365c1684adc2e3
+Homepage: https://www.kermitproject.org/ckermit.html
+Description: A combined network and serial communication software package
+
 Package: clang
 Version: 20.1.8-3
 Architecture: aarch64
@@ -3065,6 +3107,115 @@ SHA1: bf18769923d73386efd3c19d2cdb215a809bb169
 SHA256: 99f14eeb7f7d9fd1fe34779995ffb8742614ef671bb3ed302581933df5300a52
 Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
+
+Package: clblast
+Version: 1.6.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11880
+Depends: libc++, ocl-icd
+Filename: pool/main/c/clblast/clblast_1.6.3-1_aarch64.deb
+Size: 1060340
+MD5sum: 9ad368582a11d6d12e8a260a2f08917d
+SHA1: e691a72ebe3910011b915a6b29d687df1e2ddb35
+SHA256: 8921ab35d33c1b7a5ff7fc262c797664a9f4cd5db9a6886ed57b7c298bd3e419
+Homepage: https://github.com/CNugteren/CLBlast
+Description: Tuned OpenCL BLAS
+
+Package: cliaoke
+Version: 0.2.4-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6216
+Recommends: fluidsynth
+Filename: pool/main/c/cliaoke/cliaoke_0.2.4-5_aarch64.deb
+Size: 1814244
+MD5sum: 7e2324c7b9bf7e31edda8ecc128fdb6a
+SHA1: 9107abf089040c0cb272f6792a7348605cfb2087
+SHA256: 83fd1356c2bf51d73efbc10429ebebd2fdc43bb49d32866624964992b302d421
+Homepage: https://github.com/jessfraz/cliaoke
+Description: Command line karaoke
+
+Package: clidle
+Version: 2022.05.25-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6132
+Filename: pool/main/c/clidle/clidle_2022.05.25-3_aarch64.deb
+Size: 1654652
+MD5sum: b5e2fb4d2a6e7ccb0db3d1f1029a6863
+SHA1: 20644a7dabc125efb4c4c0766bf42dbc3b532ef3
+SHA256: 2cd1f75c5012af5912a9e2663740e971a1da52adaf9d7f12898f02c4128c3e6f
+Homepage: https://github.com/ajeetdsouza/clidle
+Description: Play Wordle over SSH
+
+Package: clifm
+Version: 1.26-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1860
+Depends: libcap, libacl, readline, file, libandroid-glob, libandroid-support
+Filename: pool/main/c/clifm/clifm_1.26-1_aarch64.deb
+Size: 490752
+MD5sum: 66df7760cfcf2f752627a0eed1411875
+SHA1: a61bbd4166cca6bde236035706572117c2dd760f
+SHA256: 2bda60cbeb6f9537dbc937933cac0f54a0d1a83fa09cfb89c3187e4db0a12b22
+Homepage: https://github.com/leo-arch/clifm
+Description: The shell-like, command line terminal file manager: simple, fast, extensible, and lightweight as hell
+
+Package: clinfo
+Version: 3.0.25.02.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: ocl-icd
+Filename: pool/main/c/clinfo/clinfo_3.0.25.02.14-1_aarch64.deb
+Size: 41400
+MD5sum: 8b16f3c8bd90c7f0c5af2c0e75333048
+SHA1: 66f713d3bc74d87ee3b902cdc7c9f5498f07af55
+SHA256: 9994db897ec5788ef7c080a6a827e1ea6f18ba1af01f974f76c2bed354f43071
+Homepage: https://github.com/Oblomov/clinfo
+Description: Print all known information about all available OpenCL platforms and devices in the system
+
+Package: clipp
+Version: 1.2.3-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 256
+Filename: pool/main/c/clipp/clipp_1.2.3-1_all.deb
+Size: 30800
+MD5sum: 6bee0de6ee1f697f783b2da267be1e32
+SHA1: e3c504b4dfe3c5f574bb23a7371dd3e2093b7e5c
+SHA256: e2d22c04380d46636882b57f425cd6887bc76c4d3a33abf6b8324809867cfb15
+Homepage: https://github.com/muellan/clipp
+Description: Command line interfaces for modern C++
+
+Package: cloneit
+Version: 20240728-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4188
+Depends: openssl
+Filename: pool/main/c/cloneit/cloneit_20240728-1_aarch64.deb
+Size: 1374736
+MD5sum: 72a25d527e85d70cb4c6af544976dad5
+SHA1: 276cbfe2292fced1673ace019f73f3cddb5d4252
+SHA256: e8b6f7711bf9bf7ec51f1100e95c415f3046f599e639f28cb4c2176c7ebf8813
+Homepage: https://github.com/alok8bb/cloneit
+Description: A cli tool to download specific GitHub directories or files
+
+Package: cloudflared
+Version: 2025.9.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28756
+Filename: pool/main/c/cloudflared/cloudflared_2025.9.1_aarch64.deb
+Size: 6545596
+MD5sum: db0f7a2aecf173506ebbf0ad0714170a
+SHA1: e295efeb4a2377a6f3c68851640bf1f72de6a1d5
+SHA256: 93b4f93d4618b7afff6ab82472893392aa36aa8392d60aec965ee03cfc0989ea
+Homepage: https://github.com/cloudflare/cloudflared
+Description: A tunneling daemon that proxies traffic from the Cloudflare network to your origins
 
 Package: cmake
 Version: 4.2.2-1
@@ -3420,6 +3571,36 @@ SHA1: 2a5f2f6e46a3af37c935370b5bbc286fa5a5e17d
 SHA256: 170bfc68ffa74224b044a82ce50c71f77bfdd6c2a0cd40b214f03c1fd681f0c6
 Homepage: http://www.fftw.org/
 Description: Static libraries for fftw
+
+Package: file
+Version: 5.46-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10388
+Depends: zlib
+Breaks: file-dev
+Replaces: file-dev
+Filename: pool/main/f/file/file_5.46-2_aarch64.deb
+Size: 396512
+MD5sum: da5a039846bda132e91bf5b377ca4efc
+SHA1: 055eeb52807cecbf17c094154269f4813b11bdd2
+SHA256: c3d8888daa56e53a31ec84012b9c5811fae3387f750b46e9b810bef10fa3d54a
+Homepage: https://darwinsys.com/file/
+Description: Command-line tool that tells you in words what kind of data a file contains
+
+Package: file-static
+Version: 5.46-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: file (= 5.46-2)
+Filename: pool/main/f/file-static/file-static_5.46-2_aarch64.deb
+Size: 67232
+MD5sum: f726b854beb1cd290e3d7f8c3e316b19
+SHA1: 9e1584ab95a0de33cf6db83c195e812ef740c54e
+SHA256: 39c978f9b0a2c196e2abe7d12052834fb61e4f18d5579cdd9cd66f742c3ba5dc
+Homepage: https://darwinsys.com/file/
+Description: Static libraries for file
 
 Package: findutils
 Version: 4.10.0-1
