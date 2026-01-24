@@ -3119,6 +3119,36 @@ SHA256: 8655c41346548a58fb24365d6c96cf77ca8ef412efed2f6e17365c1684adc2e3
 Homepage: https://www.kermitproject.org/ckermit.html
 Description: A combined network and serial communication software package
 
+Package: clamav
+Version: 1.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20676
+Depends: json-c, libandroid-support, libbz2, libc++, libcurl, libiconv, libxml2, ncurses, openssl, pcre2, zlib
+Breaks: clamav-dev
+Replaces: clamav-dev
+Filename: pool/main/c/clamav/clamav_1.4.3_aarch64.deb
+Size: 3405660
+MD5sum: 243dc558ace87e763a45a9397d179294
+SHA1: 44b7db31ccdfa966d8273c623b8db65ceec56774
+SHA256: 56ef4c677a133dbdcff645970fe0459c640ae296f88e564a8abebdfdcf059d16
+Homepage: https://www.clamav.net/
+Description: Anti-virus toolkit for Unix
+
+Package: clamav-static
+Version: 1.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36384
+Depends: clamav (= 1.4.3)
+Filename: pool/main/c/clamav-static/clamav-static_1.4.3_aarch64.deb
+Size: 6195048
+MD5sum: e9d13f81eab034b471968cc5e1acdf92
+SHA1: f448ce97538e18b88f5d5ec553e5733dc33b381a
+SHA256: 7415d7101ac4a79360b31273c9e09772811abf52e8bdcad92f7e99f26fa0e79b
+Homepage: https://www.clamav.net/
+Description: Static libraries for clamav
+
 Package: clang
 Version: 20.1.8-3
 Architecture: aarch64
@@ -3495,6 +3525,20 @@ SHA1: 59b4dc784735db078e121692214f2aa3e8db69df
 SHA256: a3b45375f9598d284a7ecd34adf2b40c54485f20a155e6281c0359484bf7fd8b
 Homepage: https://www.colordiff.org/
 Description: Tool to colorize 'diff' output
+
+Package: command-not-found
+Version: 3.1-13
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 88
+Depends: libc++
+Filename: pool/main/c/command-not-found/command-not-found_3.1-13_aarch64.deb
+Size: 16732
+MD5sum: c9544e92e4f3e2e5b265dbee9e0f6369
+SHA1: e2f75fffdbd5ba3297fa0524ccb6ed1ac4fc2ece
+SHA256: 2c666280581ff00055d28efdbca172ebcb1b992fda64a66fd948b8ecb6b93cac
+Homepage: https://github.com/termux/command-not-found
+Description: Suggest installation of packages in interactive shell sessions
 
 Package: composer
 Version: 2.8.12
@@ -4792,6 +4836,34 @@ SHA256: d875ea2cf5d8669138edd940c9602ffea71aa5c629e808d8b756367abbe7742b
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: A metapackage for .NET Host
 
+Package: double-conversion
+Version: 3.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: libc++
+Filename: pool/main/d/double-conversion/double-conversion_3.3.1-1_aarch64.deb
+Size: 55376
+MD5sum: 111781b259873a1a74722880493c5ff2
+SHA1: 04a79e7aa6f8c97345b76151b621516475bd955b
+SHA256: 36c401fcfed07db17253c4bee885fc399488dfa0f1c88494ccd0c8b103a42d40
+Homepage: https://github.com/google/double-conversion
+Description: Binary-decimal and decimal-binary routines for IEEE doubles
+
+Package: doxygen
+Version: 1.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 45048
+Depends: libc++, libiconv
+Filename: pool/main/d/doxygen/doxygen_1.14.0-1_aarch64.deb
+Size: 9539900
+MD5sum: 8ee08b85261b5577cfdb000843231307
+SHA1: ed82f73884e9d44b09c9d4ef8b017c64d0bdb227
+SHA256: 3248815864a109adc9281f71c6158b895da2a7edd22623e8d316c5cea16176a5
+Homepage: http://www.doxygen.org
+Description: A documentation system for C++, C, Java, IDL and PHP
+
 Package: dpkg
 Version: 1.22.6-4
 Architecture: aarch64
@@ -4837,6 +4909,34 @@ SHA256: 2ebfe8be0ba8c94cb7bce4f7d30275bd7e73e23c98bab799c8b0f4a8109d7108
 Homepage: https://packages.debian.org/dpkg
 Description: Creates Packages index files
 
+Package: draco
+Version: 1.5.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3468
+Depends: libc++
+Filename: pool/main/d/draco/draco_1.5.7-1_aarch64.deb
+Size: 464760
+MD5sum: 9fcedb60af8c6bc477101c168a9a3867
+SHA1: a863cf00693a3b50e95c1a1a660b91ffede138b5
+SHA256: 468e4b7a208d33e0af8a8f8497e36d9e917f4f6827733ea3b8b2e796b8c17cbc
+Homepage: https://google.github.io/draco/
+Description: Library for compressing and decompressing 3D geometric meshes and point clouds
+
+Package: draco-static
+Version: 1.5.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4136
+Depends: draco (= 1.5.7-1)
+Filename: pool/main/d/draco-static/draco-static_1.5.7-1_aarch64.deb
+Size: 410648
+MD5sum: 07d33c31ffa2f068b06497d929c1b7e3
+SHA1: 2cbfe93f8071d3ad3263d62abae7f6dc21264001
+SHA256: 7bc08abd63ed5944b4607972da6f4c75db81785a51896fa6fe0d0a35e2c4979f
+Homepage: https://google.github.io/draco/
+Description: Static libraries for draco
+
 Package: dropbear
 Version: 2025.87-3
 Architecture: aarch64
@@ -4852,6 +4952,61 @@ SHA1: 1c2ca7df031c72c728d55c0932e44217fdfcfeeb
 SHA256: a8b1ad4d53312343e3995a646fcb626e82429cd1353495339806eb4666c41a72
 Homepage: https://matt.ucc.asn.au/dropbear/dropbear.html
 Description: Small SSH server and client
+
+Package: dtach
+Version: 0.9-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Filename: pool/main/d/dtach/dtach_0.9-2_aarch64.deb
+Size: 9376
+MD5sum: 8c4405b93cec542e296af6b8cf9f290d
+SHA1: 4290f1978623c0bb43b982cde733ddfb1acda028
+SHA256: e2fd1ee0990d526aca51ea5ab0d538a099e23af4b6da61aa2d777bde23001f0f
+Homepage: https://dtach.sourceforge.net/
+Description: Emulates the detach feature of screen
+
+Package: dtc
+Version: 1.7.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Breaks: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Replaces: dtc-dev, qemu-common (<< 1:8.2.5-2), qemu-system-x86-64 (<< 1:8.2.5-3)
+Filename: pool/main/d/dtc/dtc_1.7.2-2_aarch64.deb
+Size: 82780
+MD5sum: b8ab479cc45b9e47e2473b7fbc5b7550
+SHA1: eb8a9e8cb66acb309118c7cb8f8cd9df7b099bea
+SHA256: 38a19ed1700fe1f3bd6737749ba676925244567a45a174175f4b63b8129d39a7
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Description: Device Tree Compiler
+
+Package: dtc-static
+Version: 1.7.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: dtc (= 1.7.2-2)
+Filename: pool/main/d/dtc-static/dtc-static_1.7.2-2_aarch64.deb
+Size: 54636
+MD5sum: be78d772ecc9e4114969970010797bd7
+SHA1: 0c1b8edc55cfd8d1424f597d6f152d7df6004744
+SHA256: daec21dadeddec9fea6f4167582620f7ec7034ca2ca841856341b1e89033dfe1
+Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
+Description: Static libraries for dtc
+
+Package: dua
+Version: 2.32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1924
+Filename: pool/main/d/dua/dua_2.32.0_aarch64.deb
+Size: 641360
+MD5sum: b0214b043b22b87090e23348b1e505f0
+SHA1: b02e3ae9c17cfafb42a6bc93135c3c394b984b64
+SHA256: a59e0612aa9fbc3e72d7e10274350f0c7a0f5cfea7ec3adb6d0273960ad8d02c
+Homepage: https://github.com/Byron/dua-cli
+Description: View disk space usage and delete unwanted data, fast
 
 Package: e2fsprogs
 Version: 1.47.3-1
