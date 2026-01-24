@@ -6053,6 +6053,51 @@ SHA256: edc4eebd01772404f405e3f67fcfc81eadfbfb5a493badf54d0d04ba10e33a24
 Homepage: https://github.com/epi052/feroxbuster
 Description: A fast, simple, recursive content discovery tool written in Rust
 
+Package: fetchmail
+Version: 6.5.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: openssl
+Filename: pool/main/f/fetchmail/fetchmail_6.5.5_aarch64.deb
+Size: 152944
+MD5sum: 2c23cd7fbeec09b3184a3daaed2e574c
+SHA1: 77ff8bc91f9a1c7124d9ff08745bc8d1e8cb856a
+SHA256: 484eee2bbc73cff15e6c24eef03590c56b81328658d27e0326a9eeb4a221c209
+Homepage: https://www.fetchmail.info/
+Description: A remote-mail retrieval utility
+
+Package: fetchmailconf
+Version: 6.5.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 156
+Depends: python, python-tkinter, fetchmail (= 6.5.5)
+Conflicts: fetchmail (<< 6.4.33)
+Replaces: fetchmail (<< 6.4.33)
+Filename: pool/main/f/fetchmailconf/fetchmailconf_6.5.5_all.deb
+Size: 24908
+MD5sum: e2b79b2d7685a6b2dacfc7500678fc35
+SHA1: d3d0f3401c2d54f4cddaa8051a973c79e96772a2
+SHA256: 3c736c7e897883d0c1dd2d7cff68b75d1ce7f2315724d9e3d4169fd04e07c70b
+Homepage: https://www.fetchmail.info/
+Description: A GUI configurator for generating fetchmail configuration files
+
+Package: fff
+Version: 2.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 104
+Depends: bash
+Suggests: w3m-img, xdotool
+Filename: pool/main/f/fff/fff_2.2_all.deb
+Size: 16200
+MD5sum: 4bfabf769324a9d1c6165fb5903be3a4
+SHA1: ba3f1ac5c7d049072863cf110d4bc47daf7db014
+SHA256: 8ceaec332fff0cd50ed78a69a7e74b6c507b5fcf2c9ce0ab32f14cd3b2fd17c7
+Homepage: https://github.com/dylanaraps/fff
+Description: A simple file manager written in bash
+
 Package: ffmpeg
 Version: 7.1.1-6
 Architecture: aarch64
@@ -6069,6 +6114,34 @@ SHA1: 9e6a38d4a3e19e6a4538a0af64fa50aa938bf488
 SHA256: 9d4d2b252d6ad5862b81db83981e3a26db3750315e1fa39981bb3a38c7d447ee
 Homepage: https://ffmpeg.org
 Description: Tools and libraries to manipulate a wide range of multimedia formats and protocols
+
+Package: ffmpegthumbnailer
+Version: 2.2.3-p20240913-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: ffmpeg, libc++, libjpeg-turbo, libpng
+Filename: pool/main/f/ffmpegthumbnailer/ffmpegthumbnailer_2.2.3-p20240913-2_aarch64.deb
+Size: 76072
+MD5sum: 04e71fa88488f53a4f753aa548be5363
+SHA1: 01db9402ba268a4f37cba05d77eaa80c1c638a72
+SHA256: 69cc3ae904e89daf764a318d9aec93191634710ee6b18371c4335c6f18b593a4
+Homepage: https://github.com/dirkvdb/ffmpegthumbnailer
+Description: Lightweight video thumbnailer that can be used by file managers
+
+Package: ffsend
+Version: 0.2.77-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7284
+Depends: openssl
+Filename: pool/main/f/ffsend/ffsend_0.2.77-2_aarch64.deb
+Size: 1958548
+MD5sum: bf298d26faf8d16c482faab9ac347517
+SHA1: dd9aa9b8ba11ecfc1a200ad7f3f2fb7437f9bae3
+SHA256: 594aa9b100ec62e4d2eb6990d58af4cbc94e6d252937426dc49ae41a7dd99833
+Homepage: https://gitlab.com/timvisee/ffsend
+Description: A fully featured Firefox Send client
 
 Package: fftw
 Version: 3.3.10-4
@@ -6098,6 +6171,19 @@ SHA1: 2a5f2f6e46a3af37c935370b5bbc286fa5a5e17d
 SHA256: 170bfc68ffa74224b044a82ce50c71f77bfdd6c2a0cd40b214f03c1fd681f0c6
 Homepage: http://www.fftw.org/
 Description: Static libraries for fftw
+
+Package: figlet
+Version: 2.2.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 832
+Filename: pool/main/f/figlet/figlet_2.2.5-3_aarch64.deb
+Size: 89628
+MD5sum: 632ec684f717d400e9a7b10d52632a49
+SHA1: 634c8e682205bec3884436231e78053926af9564
+SHA256: 9f06660cc92afe7ead09288a1fce4b04d3782f6c3e3c1b618263fb86aa8d1006
+Homepage: http://www.figlet.org/
+Description: Program for making large letters out of ordinary text
 
 Package: file
 Version: 5.46-2
@@ -6129,6 +6215,50 @@ SHA256: 39c978f9b0a2c196e2abe7d12052834fb61e4f18d5579cdd9cd66f742c3ba5dc
 Homepage: https://darwinsys.com/file/
 Description: Static libraries for file
 
+Package: finch
+Version: 2.14.14-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3696
+Depends: glib, libgnt, libgnutls, libidn, libsasl, libxml2, ncurses
+Breaks: finch-dev
+Replaces: finch-dev
+Filename: pool/main/f/finch/finch_2.14.14-2_aarch64.deb
+Size: 865860
+MD5sum: 122808135d817f89dbb309a49dea10c1
+SHA1: 7820eb8a252b3e02150c6f9c92e3834660c1f0da
+SHA256: 1d6d0d82bef62e3b398826f91f52eb6359b99c02bc34b1a934d43f5427e25aa8
+Homepage: https://pidgin.im/
+Description: Text-based multi-protocol instant messaging client
+
+Package: finch-static
+Version: 2.14.14-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17712
+Depends: finch (= 2.14.14-2)
+Filename: pool/main/f/finch-static/finch-static_2.14.14-2_aarch64.deb
+Size: 2736044
+MD5sum: 4bdf18d267147039ee287287bd7e4ae1
+SHA1: 8b5d7f07ee00e018970bd1d14ceacc750199d183
+SHA256: 16c6b9758df8a5c49dd72efc89c236fa61db0e0cecf39a370867e783e0b1e160
+Homepage: https://pidgin.im/
+Description: Static libraries for finch
+
+Package: findomain
+Version: 10.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13140
+Depends: resolv-conf, openssl
+Filename: pool/main/f/findomain/findomain_10.0.1-1_aarch64.deb
+Size: 3849484
+MD5sum: 94fc5d0e54a42278c1882548807c8e4c
+SHA1: 580d2e14d18e20e9e8fd50265d1f6678bbc84700
+SHA256: 1e1500b8939bcb6fd71986b0c4dca818a6d7aef8ad34826ab37d9f5a1a147a8a
+Homepage: https://findomain.app/
+Description: Findomain is the fastest subdomain enumerator and the only one written in Rust
+
 Package: findutils
 Version: 4.10.0-1
 Architecture: aarch64
@@ -6144,6 +6274,20 @@ SHA256: 593b6e705bd5d9943954160c61647c30a8c50b4489b5d14d32f830d0c9b172b4
 Homepage: https://www.gnu.org/software/findutils/
 Description: Utilities to find files meeting specified criteria and perform various actions on the files which are found
 
+Package: fish
+Version: 4.0.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24412
+Depends: bc, libandroid-support, libc++, ncurses, ncurses-utils, mandoc, pcre2
+Filename: pool/main/f/fish/fish_4.0.8_aarch64.deb
+Size: 3220232
+MD5sum: 0ad67403c606f53cc90cf65bc1e415c7
+SHA1: 412e64b18033817de7671e94265a549567ac74a4
+SHA256: 39ea87c93fc3f2999df80b118d45b13a6daaa131005eae5ff2164a6c35acfa43
+Homepage: https://fishshell.com/
+Description: The user-friendly command line shell
+
 Package: flac
 Version: 1.5.0-1
 Architecture: aarch64
@@ -6157,6 +6301,48 @@ SHA1: 7034e5f83b8829976d972180e6c9dd6d93e12560
 SHA256: bcc00f8aac5553136eaa1f2c57ef994d1392c68c3417c608601f5cc6eedb4e3d
 Homepage: https://xiph.org/flac/
 Description: FLAC (Free Lossless Audio Codec) command-line tool
+
+Package: flang
+Version: 20.1.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 895236
+Depends: libandroid-complex-math-static, libc++, libllvm (= 20.1.8-3), clang (= 20.1.8-3), lld (= 20.1.8-3), mlir (= 20.1.8-3)
+Filename: pool/main/f/flang/flang_20.1.8-3_aarch64.deb
+Size: 58515772
+MD5sum: 661472fdf1ccd55696bd7741b82a0682
+SHA1: 80b7a83ebbc174192ac093690d69005acd4d8053
+SHA256: e5181c64149e3eb65a875e94cb4dc9c43810910ac89d308c60e18e6574294514
+Homepage: https://flang.llvm.org/
+Description: LLVM's Fortran frontend
+
+Package: flatbuffers
+Version: 25.9.23
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4432
+Depends: libc++
+Filename: pool/main/f/flatbuffers/flatbuffers_25.9.23_aarch64.deb
+Size: 1036796
+MD5sum: 77fcbb39838e82580c3cba57a77f742a
+SHA1: e3b8b0288c3b01fe2591a176b90d01339f1f69b5
+SHA256: 4e084b9467efeaa4e199416347ef4ef7f8be6bb10b57a2fc2ed9b6000b644c05
+Homepage: https://github.com/google/flatbuffers
+Description: Memory Efficient Serialization Library
+
+Package: flatbuffers-static
+Version: 25.9.23
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1140
+Depends: flatbuffers (= 25.9.23)
+Filename: pool/main/f/flatbuffers-static/flatbuffers-static_25.9.23_aarch64.deb
+Size: 170732
+MD5sum: 85303d75ed7d17292c309a45b978ae6f
+SHA1: f934895bf41d9f6f5dd424a5adee4526b3603b43
+SHA256: b848b24edfdd12f1e402c47adcf530b7d216aefaee1738b54d8ba6d1a33ef121
+Homepage: https://github.com/google/flatbuffers
+Description: Static libraries for flatbuffers
 
 Package: flex
 Version: 2.6.4-4
@@ -6187,6 +6373,33 @@ SHA1: adb42797b4750401e3084b6e04a1dbe026353423
 SHA256: 0e1fdcf2b78b26a08af9868434eacd4fbb83986b1b589cb067e5615f68f1acf3
 Homepage: https://github.com/westes/flex
 Description: Static libraries for flex
+
+Package: fluidsynth
+Version: 2.4.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1556
+Depends: dbus, glib, libc++, libsndfile, pulseaudio, readline
+Filename: pool/main/f/fluidsynth/fluidsynth_2.4.8_aarch64.deb
+Size: 429588
+MD5sum: 59538393b87f4e81814a16719f94f814
+SHA1: ed755312d24d232cb24d8cd65c90035f9f8eb6bd
+SHA256: 4cb10483ba1e953b686fbda48f16423fff5c102bd149aaa1c8087c2bef5cbd3f
+Homepage: https://github.com/FluidSynth/fluidsynth
+Description: Software synthesizer based on the SoundFont 2 specifications
+
+Package: flyctl
+Version: 0.3.185
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 69508
+Filename: pool/main/f/flyctl/flyctl_0.3.185_aarch64.deb
+Size: 14545168
+MD5sum: c58a97c0705d1697f29eedd49720cc3b
+SHA1: b226d455d353bc727a9ab83960fa1bc26ee7cd1b
+SHA256: bc0b39b2bbe488c77547a43b819c080c56722e3b96a809310e850074afbf24ec
+Homepage: https://fly.io
+Description: Command line tools for fly.io services
 
 Package: fmt
 Version: 1:11.2.0
@@ -7384,6 +7597,33 @@ SHA1: 06d10d23eecda0ec379137a357a08299dd5f52f1
 SHA256: 00b94fb8c228c9bc682efd630807c15ccd35f0af5aa1d338f9b165c62556eda9
 Homepage: http://savannah.nongnu.org/projects/acl
 Description: Static libraries for libacl
+
+Package: libandroid-complex-math
+Version: 0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Filename: pool/main/liba/libandroid-complex-math/libandroid-complex-math_0.2_aarch64.deb
+Size: 9588
+MD5sum: a848c72e808b82ecc70adc76a0e69502
+SHA1: d365f29c29f1ecd434abb8eda35797c5e3f71ae2
+SHA256: ab69b36a6ad55d8fbdf10a4d5e344ca88e22cf08ef30262ffb3b11dd7a6e5bd0
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm/upstream-netbsd/lib/libm/complex
+Description: A shared library providing libm complex math functions
+
+Package: libandroid-complex-math-static
+Version: 0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: libandroid-complex-math (= 0.2)
+Filename: pool/main/liba/libandroid-complex-math-static/libandroid-complex-math-static_0.2_aarch64.deb
+Size: 6052
+MD5sum: 9d42b6d80f4ad224f3c8eb3ba6a24ddc
+SHA1: 3c59149590e312d2d1ff45781e0417528a29b1c3
+SHA256: 52102191df4706b85e2c27bae221839a4eec449d2eaac1e81af3628927b274a0
+Homepage: https://android.googlesource.com/platform/bionic/+/refs/heads/master/libm/upstream-netbsd/lib/libm/complex
+Description: Static libraries for libandroid-complex-math
 
 Package: libandroid-execinfo
 Version: 0.1-3
@@ -8821,6 +9061,20 @@ SHA1: 83ef84ec59fdf98b19bfc260bb1623e62e501f4f
 SHA256: 450e53b79fe6a224433d59e337bdb391196ec0ff515d9130b971ccf785a5f211
 Homepage: https://gmplib.org/
 Description: Static libraries for libgmp
+
+Package: libgnt
+Version: 2.14.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 528
+Depends: glib, libxml2, ncurses, ncurses-ui-libs
+Filename: pool/main/libg/libgnt/libgnt_2.14.4-2_aarch64.deb
+Size: 96124
+MD5sum: 18ce6ba9248f7a37e70c6ae87dde52e5
+SHA1: 8dd1b42bc231cc3b8681cb17433d8ef6efe90e07
+SHA256: 76a451aed94c14cbb99eac87a0a107d24354c24dc3c2f302b7c386935e80a117
+Homepage: https://keep.imfreedom.org/libgnt/libgnt
+Description: An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way
 
 Package: libgnutls
 Version: 3.8.10
