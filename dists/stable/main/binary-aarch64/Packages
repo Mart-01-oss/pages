@@ -3987,6 +3987,87 @@ SHA256: 089f7befc5e8d1ee5e9a3a695d513f988a137b2c92ea9f8be05e7ee353513642
 Homepage: https://www.nongnu.org/cvs/
 Description: Concurrent Versions System
 
+Package: d8
+Version: 33.0.1-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 8052
+Depends: openjdk-21
+Filename: pool/main/d/d8/d8_33.0.1-1_all.deb
+Size: 7398452
+MD5sum: 5468d52c4525140d44fda713f2ee9ee9
+SHA1: 5b0fc191cc85aad1911b81956db112ce77ded1f1
+SHA256: dba5db09d42f8fd592e04edd3dd86d4dea88484bac6cd08da0a320383031fccd
+Homepage: https://developer.android.com/studio/command-line/d8
+Description: DEX bytecode compiler from Android SDK
+
+Package: daemonize
+Version: 1.7.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Filename: pool/main/d/daemonize/daemonize_1.7.8-3_aarch64.deb
+Size: 9608
+MD5sum: f582e9105fdafa5e4a7becf456a52860
+SHA1: 68f82fe4db3f6e1390dc799735014ad297533921
+SHA256: b4175c3344a9792a9b3ca5c7172043dc8815a537bdb8fd7b661cdd877dd5c877
+Homepage: http://software.clapper.org/daemonize/
+Description: Run a command as a Unix daemon
+
+Package: dar
+Version: 2.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5840
+Depends: attr, libbz2, libc++, libgcrypt, libgpg-error, liblzma, liblzo, zlib, zstd
+Filename: pool/main/d/dar/dar_2.8.1_aarch64.deb
+Size: 1330860
+MD5sum: cbd52b67f9546114a7f0262806fc7101
+SHA1: dcc0234b9f716b957b8a0b49b0df484a45d39b71
+SHA256: 761642b14d0e459365212ae314cfbcf1eac4ca600d1b1f8ac92d1fec2206e482
+Homepage: http://dar.linux.free.fr/
+Description: A full featured command-line backup tool, short for Disk ARchive
+
+Package: dar-static
+Version: 2.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10260
+Depends: dar (= 2.8.1)
+Filename: pool/main/d/dar-static/dar-static_2.8.1_aarch64.deb
+Size: 1139248
+MD5sum: e259592809337f1e9690735f67b3a882
+SHA1: ae7bd7624f067abf7aa0f2b27b07c226c09e6200
+SHA256: d4752ba31da71c953e9157b7301c94cf5661040f8a38f953ee1f3c175114ff5f
+Homepage: http://dar.linux.free.fr/
+Description: Static libraries for dar
+
+Package: darkhttpd
+Version: 1.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Filename: pool/main/d/darkhttpd/darkhttpd_1.17-1_aarch64.deb
+Size: 17056
+MD5sum: be3dfc3537395121c63cd34da8978dad
+SHA1: 656aa3a94c0032f3711a07efa5c671a2f67aab54
+SHA256: 5bdc7615c9646049c609149761cacbe91d2fa618df996d70ea939a56f88921ea
+Homepage: https://unix4lyfe.org/darkhttpd
+Description: A simple webserver, implemented in a single .c file.
+
+Package: dasel
+Version: 2.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10332
+Filename: pool/main/d/dasel/dasel_2.8.1-1_aarch64.deb
+Size: 2653988
+MD5sum: 39177cfb68b9a877820678a922fd50a6
+SHA1: 576d7610e5d0fcde3928e71b02b7bae497b473fb
+SHA256: 9ce737a4ae2c4757ca500eef22c019f2b01939ae266592c82b46963b1e7043bc
+Homepage: https://github.com/TomWright/dasel
+Description: Select, put and delete data from JSON, TOML, YAML, XML and CSV files with a single utility
+
 Package: dash
 Version: 0.5.12-1
 Architecture: aarch64
@@ -4000,6 +4081,45 @@ SHA1: 11c77d7824593246c029ebc3c041265530380db4
 SHA256: 7a7c761669ca3004a4259ffd89fcc98960ee634e1d6dafa2ca3a03d543b21794
 Homepage: http://gondor.apana.org.au/~herbert/dash/
 Description: Small POSIX-compliant implementation of /bin/sh
+
+Package: dasm
+Version: 2.20.14.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Filename: pool/main/d/dasm/dasm_2.20.14.1-1_aarch64.deb
+Size: 33056
+MD5sum: baef3e88ab9092096a2c848e9ee38b2a
+SHA1: cc5fac575e4c171f80d212afe1a44f7627857f17
+SHA256: ff5337d60d65648ac7a20ea62fa62599c168e59801c0208418ff21d209478eb3
+Homepage: https://dasm-dillon.sourceforge.io/
+Description: Macro assembler with support for several 8-bit microprocessors
+
+Package: datamash
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2404
+Filename: pool/main/d/datamash/datamash_1.9-1_aarch64.deb
+Size: 286332
+MD5sum: 238958be77791b6eb9a2ebbebbf48ff6
+SHA1: c8e288a9d752f06dc5ca0405a0a99d71683b9530
+SHA256: 6c70f5a1341aa8570abff0a1c06a45221146353126a4feebfdd595d5357b90e2
+Homepage: https://www.gnu.org/software/datamash/
+Description: Program performing numeric, textual and statistical operations
+
+Package: dateutils
+Version: 0.4.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1512
+Filename: pool/main/d/dateutils/dateutils_0.4.11-1_aarch64.deb
+Size: 189844
+MD5sum: 2e8b9b3d8815a41f58678a834df5b8d8
+SHA1: a6cefd0577a58c134502b86b811497562ebe4ccb
+SHA256: fd2d7dfe1cc4be6ff0b3045846d510fd2818c75370f0bed79e01f3e51ccb0bd8
+Homepage: https://www.fresse.org/dateutils/
+Description: Command line date and time utilities
 
 Package: db
 Version: 18.1.40-5
@@ -4030,6 +4150,34 @@ SHA1: 4731b9573bc20aa775650cff1803794817df33a3
 SHA256: b6c788b67483ae9fecbae8f768cb0347f5c4c5da7713701dd6e3548f3ff55b5b
 Homepage: https://dbus.freedesktop.org
 Description: Freedesktop.org message bus system
+
+Package: dbus-python
+Version: 1.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 648
+Depends: dbus, glib, python
+Filename: pool/main/d/dbus-python/dbus-python_1.4.0-1_aarch64.deb
+Size: 103736
+MD5sum: 07da5e69d5e6ce005831f691faa69b79
+SHA1: 8cba4f78e6f50bbac85d21c4396f83ec33318f08
+SHA256: 4bfdd43f55b77adcd79dc31503af0fa4ce226554af32d4a8eb3394f064d59a0c
+Homepage: https://dbus.freedesktop.org/doc/dbus-python/
+Description: Python bindings for D-Bus
+
+Package: dcmtk
+Version: 3.6.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56492
+Depends: libc++, libiconv, libpng, libtiff, libxml2, openssl, zlib
+Filename: pool/main/d/dcmtk/dcmtk_3.6.9-1_aarch64.deb
+Size: 6587192
+MD5sum: 0a9222a9777885211eb778388caf70ac
+SHA1: 967bcb507792eab2fe2b61633e22824de90900d6
+SHA256: c991bd23375d65ba93e5ea1edf5f4ebd11b8ad1ee73a138594e5bc960e01a15a
+Homepage: https://dicom.offis.de/dcmtk
+Description: A collection of libraries and applications implementing large parts the DICOM standard
 
 Package: dialog
 Version: 1.3-20240307-1
