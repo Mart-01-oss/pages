@@ -5620,6 +5620,20 @@ SHA256: 81ece5cf4d5c62686fb7c4a5946016d22c37fe77f01db60f8ab2cb9e1db4f5f5
 Homepage: https://github.com/exfatprogs/exfatprogs
 Description: exFAT filesystem userspace utilities
 
+Package: exhale
+Version: 1.2.2RC
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 336
+Depends: libc++
+Filename: pool/main/e/exhale/exhale_1.2.2RC_aarch64.deb
+Size: 123376
+MD5sum: 8a6121272bec5842687f8ad042e6c81c
+SHA1: f1e06d9fbcd93f70387cba28b9cd84347a946d4d
+SHA256: 9c77ab09d3d8562205de80c34ba3a0c312db0f6559a1b3782f47fa4b3b11c7fc
+Homepage: https://gitlab.com/ecodis/exhale
+Description: Open source xHE-AAC encoder
+
 Package: exiftool
 Version: 13.45
 Architecture: all
@@ -5665,6 +5679,131 @@ SHA1: 909d0f14145f3f7d31d9706131f9f5cc6c6d7cf5
 SHA256: 10dc0dc80eb704fa10cc812c5c9e28f597cb8e6155562f997f3d359a3193e92d
 Homepage: https://core.tcl.tk/expect/index
 Description: Tool for automating interactive terminal applications
+
+Package: eza
+Version: 0.23.3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1408
+Depends: libgit2
+Breaks: exa
+Replaces: exa
+Filename: pool/main/e/eza/eza_0.23.3_aarch64.deb
+Size: 478100
+MD5sum: c1bfdbc0758afd8dc4b63054f1f734d1
+SHA1: 413634844950b540573252f2a58bc182f98c6260
+SHA256: 267889e3255ab9f226ea97a715db5697d14dbcf4ee5fd2736664b6c1d5b96dac
+Homepage: https://github.com/eza-community/eza
+Description: A modern replacement for ls
+
+Package: fact++
+Version: 1.6.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1416
+Depends: libc++
+Filename: pool/main/f/fact++/fact++_1.6.5-3_aarch64.deb
+Size: 313720
+MD5sum: 1852fad95a44956c82c6b769f0745408
+SHA1: cd2627f2a26d6a511dfa3199700809ad1fb0ea52
+SHA256: 1c44f89dea0480065d719a171e627be79a36ea1bf60cfcce4e7c5f5566277357
+Homepage: https://bitbucket.org/dtsarkov/factplusplus
+Description: Re-implementation of the well-known FaCT Description Logic (DL) Reasoner
+
+Package: fasd
+Version: 2.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/f/fasd/fasd_2.0.0_aarch64.deb
+Size: 7424
+MD5sum: c7dcf3de227a23195defecfaecf97adc
+SHA1: decfcfb737f7bd3a5c511dae417a08bc3d4d51ad
+SHA256: c3104e7ffb5c0b47458b91ce1c83ee714496f452bb2709faf2649dc419f5566a
+Homepage: https://github.com/whjvenyl/fasd
+Description: To fastly access files and folders
+
+Package: fastmod
+Version: 0.4.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3316
+Filename: pool/main/f/fastmod/fastmod_0.4.4-1_aarch64.deb
+Size: 952100
+MD5sum: 61e775ceb684781ec930677535f8e8c5
+SHA1: 168c0119e6bd36c5e5f6cef78d8d8ab2632e7a18
+SHA256: 5634b7b1f03576536aa95985eb1b8529e1fa79e74a7c725e1f9955651d9b43c3
+Homepage: https://github.com/facebookincubator/fastmod
+Description: Regex-based code refactoring utility
+
+Package: fatsort
+Version: 1.6.5.640-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: libiconv
+Filename: pool/main/f/fatsort/fatsort_1.6.5.640-1_aarch64.deb
+Size: 25268
+MD5sum: 3c9afd4e3398564cfdb6b515b61e0f47
+SHA1: bb69adca66e0da795ba5a0d78ed31e77fab369a8
+SHA256: b2d01e36eac95878cec824c59f3968da6f2a235dbc5425cdd00f38e165b65b37
+Homepage: https://fatsort.sourceforge.io/
+Description: A C utility that sorts FAT12, FAT16, FAT32 and exFAT partitions
+
+Package: faust
+Version: 2.81.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64448
+Depends: libc++
+Filename: pool/main/f/faust/faust_2.81.2-1_aarch64.deb
+Size: 25504148
+MD5sum: 40b0a6446b9b2ba9f0fd69cd5b39afed
+SHA1: 17995ac3e432b2ec24d0bab9f8845b4024bb7a82
+SHA256: f529c9bca2e2f62221516213900b153e2b84dfdb473e4263ce04e36f128845d8
+Homepage: https://github.com/grame-cncm/faust
+Description: A functional programming language for signal processing and sound synthesis
+
+Package: faust-static
+Version: 2.81.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36424
+Depends: faust (= 2.81.2-1)
+Filename: pool/main/f/faust-static/faust-static_2.81.2-1_aarch64.deb
+Size: 4506324
+MD5sum: 047dc6d52e2530e99d6c6c3f239bffb2
+SHA1: 828ccbaf08586d005060a20dfc1027e7631ed107
+SHA256: 75118e4d256e43c0a42984e5b90f41820a794dc3549ba25d9a9bb460b3fcc0c2
+Homepage: https://github.com/grame-cncm/faust
+Description: Static libraries for faust
+
+Package: faustlibraries
+Version: 2.81.2-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1976
+Depends: faust
+Filename: pool/main/f/faustlibraries/faustlibraries_2.81.2-1_all.deb
+Size: 348572
+MD5sum: 1054ee2f27a5182a82594293c1d84907
+SHA1: 650ecd3d85444c512322b0c8a39b934c743f3352
+SHA256: 0f007edce42f1b9751e4182421ed66b6256d4a02228401ffce6672da952e1846
+Homepage: https://github.com/grame-cncm/faust
+Description: Faust DSP libraries
+
+Package: fclones
+Version: 0.35.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4132
+Filename: pool/main/f/fclones/fclones_0.35.0-1_aarch64.deb
+Size: 1272684
+MD5sum: 3907d92746c127306483befef8f96c99
+SHA1: b2a1203abfe507fc9e9f06c6c9fa0be1be6f2b2b
+SHA256: 69c0e8dda50f374646ed2057da9f4e6be9b6c0629debbb101a9a529808d02e77
+Homepage: https://github.com/pkolaczk/fclones
+Description: Efficient Duplicate File Finder
 
 Package: fdisk
 Version: 2.40.2-5
