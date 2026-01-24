@@ -5187,6 +5187,159 @@ SHA256: 0e7f7b09b3bdd48a403bee15a4c38798f26e75bf65913cb412a581bab7ba9281
 Homepage: https://e2fsprogs.sourceforge.net
 Description: EXT 2/3/4 filesystem utilities
 
+Package: e2tools
+Version: 0.1.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: e2fsprogs
+Filename: pool/main/e/e2tools/e2tools_0.1.2-1_aarch64.deb
+Size: 130456
+MD5sum: 2318f277b0461a7863d6e0dd894eed19
+SHA1: c015cff57588a9dfe2ad2f3ff9b028c2de43e794
+SHA256: 6bc6adfaf3afc8b78c3c590f9de21f299180afda46bc5f0da71295a30a4252b2
+Homepage: https://github.com/e2tools/e2tools
+Description: mtools analogue for ext2/3 filesystems
+
+Package: ebook-tools
+Version: 0.2.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: convertlit, libxml2, libzip
+Filename: pool/main/e/ebook-tools/ebook-tools_0.2.2-3_aarch64.deb
+Size: 21700
+MD5sum: 74e408451b34e7b43d18ad27f67c7d28
+SHA1: 4e8f3ee6da3c16d91a6343bb123765a856832dbc
+SHA256: eeac47f90aa3a6d580ed06cee08a1c8f8ad70d13084e1b9769daf2e5d566fa4b
+Homepage: https://sourceforge.net/projects/ebook-tools/
+Description: Tools for accessing and converting various ebook file formats
+
+Package: ecj
+Version: 1:4.12-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 8188
+Conflicts: ecj4.6
+Filename: pool/main/e/ecj/ecj_1+4.12-5_all.deb
+Size: 6776476
+MD5sum: cf337a5ce82e64863d142a73ee81fa65
+SHA1: 470e6e8897a7aec18a0f49b03b415dedebcc8f82
+SHA256: 020374cefb81478390493f450fbd1101ddf034fcd1b90232eeec74a6b6437cc8
+Homepage: https://www.eclipse.org/jdt/core/
+Description: Eclipse Compiler for Java
+
+Package: ecl
+Version: 24.5.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12068
+Depends: libandroid-support, libgmp, libgc, libffi
+Filename: pool/main/e/ecl/ecl_24.5.10-1_aarch64.deb
+Size: 2088480
+MD5sum: c2a017124df920174607bbb4710adaee
+SHA1: d57bec0c77bafddb3d091c8cfb7e49229c1c04d1
+SHA256: 3cbe150e3741a59ed68bb95f1d828c4d499fe37f8c880bb19a76cbf31180ef01
+Homepage: https://common-lisp.net/project/ecl/
+Description: ECL (Embeddable Common Lisp) is an interpreter of the Common Lisp language
+
+Package: edbrowse
+Version: 3.8.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2536
+Depends: libandroid-glob, libcurl, openssl, pcre2, readline, unixodbc
+Filename: pool/main/e/edbrowse/edbrowse_3.8.12-1_aarch64.deb
+Size: 785548
+MD5sum: e4e7df05d64b13d877efbda1d982c1ea
+SHA1: 6a43b087d95f965947a7e07a9e8180593307e60f
+SHA256: b1de00b5ad21c4fff31f8126b7e130c9e316e604e1046a122bb0b75938d22ef1
+Homepage: https://edbrowse.org/
+Description: Line based editor, browser, and mail client
+
+Package: editorconfig-core-c
+Version: 0.12.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: pcre2
+Filename: pool/main/e/editorconfig-core-c/editorconfig-core-c_0.12.9-1_aarch64.deb
+Size: 17924
+MD5sum: b81cf45b750f7bc5d769e35cb3fe0178
+SHA1: 8d98254c581a681c4a2ec555b24dddf376361a6c
+SHA256: e97303f1d4070fd0f3851dbb2af872c5e5dd22f9594e4e51b80fba99de489eb8
+Homepage: https://editorconfig.org/
+Description: EditorConfig core code written in C (for use by plugins supporting EditorConfig parsing)
+
+Package: editorconfig-core-c-static
+Version: 0.12.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: editorconfig-core-c (= 0.12.9-1)
+Filename: pool/main/e/editorconfig-core-c-static/editorconfig-core-c-static_0.12.9-1_aarch64.deb
+Size: 7936
+MD5sum: 2455cf3d791fb7513c4293eb73250365
+SHA1: 18f231ffc35f7b18c820014773cbabf424a4c007
+SHA256: 7d513020ddacdec88ebeb0acc9540a00e1064cbf7cd834712c9214846ea3689e
+Homepage: https://editorconfig.org/
+Description: Static libraries for editorconfig-core-c
+
+Package: eigen
+Version: 3.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10000
+Breaks: eigen-dev
+Replaces: eigen-dev
+Filename: pool/main/e/eigen/eigen_3.4.0_aarch64.deb
+Size: 1016012
+MD5sum: 36859d512b0a4f838248ba4029b7293d
+SHA1: 97087f3ca41a978f085d97bb510614fa42fbdfbb
+SHA256: 2c1de8f52c21222d21472dfa0f817967031490c6982076a02d680479f5227d8c
+Homepage: http://eigen.tuxfamily.org
+Description: Eigen is a C++ template library for linear algebra: matrices, vectors, numerical solvers, and related algorithms
+
+Package: eja
+Version: 18.4.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 476
+Filename: pool/main/e/eja/eja_18.4.19-1_aarch64.deb
+Size: 116776
+MD5sum: a6be38bde056da0caf470264e0e42e89
+SHA1: 7f3da4fb26eb0c828557f501c8e063d0ccf79358
+SHA256: 12bd58c5c235933400441502cd65865658e5ffb840d280a36c891c97a1e6e2e7
+Homepage: https://github.com/eja/eja
+Description: eja micro web server
+
+Package: electric-fence
+Version: 2.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Filename: pool/main/e/electric-fence/electric-fence_2.2.7-1_aarch64.deb
+Size: 12076
+MD5sum: 72ba3d134aea18fac4740895f1dd1579
+SHA1: 23dc679919e3760a6d9ad165295b435f0220ac47
+SHA256: 94511308c6ceb8dddcc01423f95b2b6d704586625428d4606d51b8b0327bc951
+Homepage: https://elinux.org/Electric_Fence
+Description: Electric Fence (eFence) malloc memory debugger
+
+Package: electric-fence-static
+Version: 2.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: electric-fence (= 2.2.7-1)
+Filename: pool/main/e/electric-fence-static/electric-fence-static_2.2.7-1_aarch64.deb
+Size: 14288
+MD5sum: 061a225bab4eb12eaa56b1a02b5d1fef
+SHA1: cb99e2967777a8ef5885c1eaffac3a844cd64c25
+SHA256: 77db4e93da67895764c81a4cf8b60d2cdd030977d3af1a3dc9615f21e31f89cd
+Homepage: https://elinux.org/Electric_Fence
+Description: Static libraries for electric-fence
+
 Package: elfutils
 Version: 0.193-1
 Architecture: aarch64
@@ -5200,6 +5353,20 @@ SHA1: ac274c9005067d574bbdd9349a15cb358581aee9
 SHA256: 85d53b48d4348d341a98e5b77e814782b7904f292a8958d5d6421cf6fe452b9b
 Homepage: https://sourceware.org/elfutils/
 Description: A collection of utilities to read, create and modify ELF binary files
+
+Package: elinks
+Version: 0.18.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1332
+Depends: libandroid-execinfo, libexpat, libiconv, libidn, openssl, libbz2, zlib
+Filename: pool/main/e/elinks/elinks_0.18.0-1_aarch64.deb
+Size: 397608
+MD5sum: ceb5448c1ebf6436bf3bd989cbb760fe
+SHA1: cdfa2b23fec4c766b93e8b169d9d231f753b5dfc
+SHA256: 506273bfb8508b41b7126910421e8a1981db1b9a587e365e9adf9b8553955f0d
+Homepage: https://github.com/rkd77/elinks
+Description: Full-Featured Text WWW Browser
 
 Package: fdisk
 Version: 2.40.2-5
@@ -12452,6 +12619,19 @@ SHA256: 52d8b79bca68567220acbb78f6489ef7f71fb3e0ee0fccfcfcd5e36ca565e714
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
 
+Package: quickjs
+Version: 1:20250426-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7944
+Filename: pool/main/q/quickjs/quickjs_1+20250426-1_aarch64.deb
+Size: 1298680
+MD5sum: e002e3bb732ebb7419f6972b2ce9050e
+SHA1: 00928d3742c70147f1e20db2853f7c2b7426f26a
+SHA256: 0191b6d85768e2fe4382dd23f949561099c557e32a7da0ec8c76a62eac9c85d1
+Homepage: https://bellard.org/quickjs/
+Description: QuickJS is a small and embeddable Javascript engine
+
 Package: rapidjson
 Version: 1.1.0-5
 Architecture: all
@@ -13203,6 +13383,34 @@ SHA1: 45cbe68e8e2f72cd6465756802ef9f006d73587f
 SHA256: c2521fa57a5e75e5d3960b7bf214ec586df8c91a0128d810de5c6d93cd8a6675
 Homepage: https://unbound.net/
 Description: Unbound command-line tools
+
+Package: unixodbc
+Version: 2.3.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 912
+Depends: libiconv, libltdl, readline
+Filename: pool/main/u/unixodbc/unixodbc_2.3.12-1_aarch64.deb
+Size: 194708
+MD5sum: 07fb84ee03cf851f5b1506c543dea2d9
+SHA1: 9d80b400765059ab390cfe8e81f0d214ed475a02
+SHA256: c4060c037535e4004b44d2dcbcae263a3bd2abb1f8a1792e710288fafec62615
+Homepage: https://www.unixodbc.org/
+Description: An Open Source ODBC sub-system and an ODBC SDK for Linux, Mac OSX, and UNIX
+
+Package: unixodbc-static
+Version: 2.3.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1512
+Depends: unixodbc (= 2.3.12-1)
+Filename: pool/main/u/unixodbc-static/unixodbc-static_2.3.12-1_aarch64.deb
+Size: 170576
+MD5sum: cc8202ca55bb5d794fdbb662a7b99f15
+SHA1: d2e0e981cb8e3cd9c6a7a2280d2bb50c53cebc2e
+SHA256: 2599754231b078c47aada01ec4631c8501e2778346a15228a03cb22dd2ea7473
+Homepage: https://www.unixodbc.org/
+Description: Static libraries for unixodbc
 
 Package: update-info-dir
 Version: 7.2-3
