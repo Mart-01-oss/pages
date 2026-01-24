@@ -4179,6 +4179,103 @@ SHA256: c991bd23375d65ba93e5ea1edf5f4ebd11b8ad1ee73a138594e5bc960e01a15a
 Homepage: https://dicom.offis.de/dcmtk
 Description: A collection of libraries and applications implementing large parts the DICOM standard
 
+Package: dcraw
+Version: 9.28.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: littlecms, libjasper, libjpeg-turbo
+Filename: pool/main/d/dcraw/dcraw_9.28.0-7_aarch64.deb
+Size: 114740
+MD5sum: 58534cf0776aeca179253a15ddef0906
+SHA1: 1b1e3264c8deeedf07d1e2a8cc265433ac3a320b
+SHA256: 83bffa699a5cf0e7404684ad1f68fb87c68e569fa62dcec3fb39cfb83369e71a
+Homepage: https://www.dechifro.org/dcraw/
+Description: Raw digital camera images decoding utility
+
+Package: ddrescue
+Version: 1.29.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libc++
+Filename: pool/main/d/ddrescue/ddrescue_1.29.1-1_aarch64.deb
+Size: 97180
+MD5sum: 537cce6a14a8720927c993a60e01408b
+SHA1: 8c0cf74fb0f0f8d06bbf8167d154596847a9ec93
+SHA256: fd79c9ca37dcc2e38ece95b445ca60c8722b59f21eeca26ec8101d3f790538c6
+Homepage: https://www.gnu.org/software/ddrescue/
+Description: GNU data recovery tool
+
+Package: debootstrap
+Version: 1.0.141
+Architecture: all
+Maintainer: @termux
+Installed-Size: 328
+Depends: binutils | binutils-is-llvm, perl, proot, sed, wget
+Filename: pool/main/d/debootstrap/debootstrap_1.0.141_all.deb
+Size: 35260
+MD5sum: f3e36e8ff7be59575b5841bf50cbb35b
+SHA1: 1e93b691249aabf9db4f608c92895bb4764905f5
+SHA256: 7b280eccd66b289ebbba73eff1fd093b43ca882a0e0d0dccc436c8d93bfc2af2
+Homepage: https://wiki.debian.org/Debootstrap
+Description: Bootstrap a basic Debian system
+
+Package: delve
+Version: 1.25.2
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 12948
+Depends: golang, git
+Filename: pool/main/d/delve/delve_1.25.2_aarch64.deb
+Size: 3341876
+MD5sum: 979ae2adc98d2e4897403deb6f2a52be
+SHA1: 39e5b131312f0b37cfa9eed79b08424c37b46ae2
+SHA256: 6dacd746340d837853fbab8207c9ca55b31e225cd51c8d521933f969bfb35bed
+Homepage: https://github.com/go-delve/delve
+Description: A debugger for the Go programming language
+
+Package: desed
+Version: 1.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1300
+Filename: pool/main/d/desed/desed_1.2.2-1_aarch64.deb
+Size: 412708
+MD5sum: 3ac3491827f35e2588ccfa937469e19b
+SHA1: dcdeb303b6e3357108054cf9bee9452fe7cb4835
+SHA256: b89d030984c1dac0f3ee534587ca18d75e58271b980f131785dab5b1b27ed89a
+Homepage: https://github.com/SoptikHa2/desed
+Description: Demystifies and debugs your sed scripts
+
+Package: deutex
+Version: 5.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: libpng, zlib
+Filename: pool/main/d/deutex/deutex_5.2.3-1_aarch64.deb
+Size: 64640
+MD5sum: e8f119bd916f96e3e84b7cce289c34af
+SHA1: 775e98863b936bc99c9347154dc4649326f5961b
+SHA256: 1d7ffe93e75a5b84756097291e79d89f58454f9df13c14e4a8ae37bdba951a3e
+Homepage: https://github.com/Doom-Utils/deutex/
+Description: WAD composer for Doom, Heretic, Hexen, and Strife
+
+Package: dex2jar
+Version: 2.4-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 20324
+Depends: openjdk-21
+Filename: pool/main/d/dex2jar/dex2jar_2.4-1_all.deb
+Size: 18736228
+MD5sum: 2db929bd842b0eeaa31855d3bdf82c81
+SHA1: 2e06fadac2a33649baf7fa7586d4ee2361678ba3
+SHA256: bb3b9b0a399d003d7210b80871dbdce60e510cd9bd4cd67f14892256090b364f
+Homepage: https://github.com/pxb1988/dex2jar
+Description: Tools to work with android .dex and java .class files
+
 Package: dialog
 Version: 1.3-20240307-1
 Architecture: aarch64
@@ -4206,6 +4303,35 @@ SHA1: a83d795b3c251b8ffffa1f00e7dd3ebb2316d9c9
 SHA256: 7c2fd48540aa7a9c068252b3f6ecd23af87dca4577058668c956e77d3a4b7d11
 Homepage: https://invisible-island.net/dialog/
 Description: Static libraries for dialog
+
+Package: dictd
+Version: 1.13.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: libmaa, zlib
+Filename: pool/main/d/dictd/dictd_1.13.3-1_aarch64.deb
+Size: 119820
+MD5sum: a92174132c091a25c1cd1f4a9519b2c4
+SHA1: bc475f92cf5cb3d4fcb2728bb7b6379b1ba970d7
+SHA256: 345f8a6eb8d6344f53fd69b388a4910e0fb62dae3a082d9dc1105f6b506b72db
+Homepage: https://sourceforge.net/projects/dict/
+Description: Online dictionary client and server
+
+Package: diff-so-fancy
+Version: 1.4.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 96
+Depends: perl
+Recommends: git
+Filename: pool/main/d/diff-so-fancy/diff-so-fancy_1.4.4_all.deb
+Size: 15028
+MD5sum: 7e76200f49caf354f2a3c3ada5385d39
+SHA1: 8d98c3c3486262602c942fe749128102475b4cd9
+SHA256: c2dee34aa4ec4528bf3911a3f5da6dd28a8bef1b36ea10d43b34ab7d9e463301
+Homepage: https://github.com/so-fancy/diff-so-fancy
+Description: Good-lookin' diffs. Actually... nah... The best-lookin' diffs
 
 Package: diffutils
 Version: 3.12-2
@@ -4878,6 +5004,64 @@ SHA256: c885376d224627279fc398087b6bf5feb1e43b4f2719d7817c151aab9bb86ee2
 Homepage: https://giflib.sourceforge.net/
 Description: A set of utilities that comes with giflib package
 
+Package: git
+Version: 2.51.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 27064
+Depends: libcurl, libexpat, libiconv, less, openssl, pcre2, zlib
+Recommends: openssh
+Suggests: perl
+Filename: pool/main/g/git/git_2.51.0_aarch64.deb
+Size: 4575644
+MD5sum: 7f32a198197d782951cd0baf271252b1
+SHA1: 0daa9acebc312387e3f7000ed804cfb431cdddd5
+SHA256: 94bc74934886697a6f027f0719d9948918184d792ceeec72c258fbbb338c6f50
+Homepage: https://git-scm.com/
+Description: Fast, scalable, distributed revision control system
+
+Package: git-gitk
+Version: 2.51.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 972
+Depends: tk, git (= 2.51.0)
+Filename: pool/main/g/git-gitk/git-gitk_2.51.0_aarch64.deb
+Size: 143088
+MD5sum: aa885cbcd513028193a3ebaf7adf8a12
+SHA1: b3d9645c9e7063e36316de547b5cc9f93570f674
+SHA256: e5752850699fa2532f65ca7edff3dec727e28d048daeff5ea0ae1c16c6c77a1e
+Homepage: https://git-scm.com/
+Description: Git repository browser
+
+Package: git-gui
+Version: 2.51.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1548
+Depends: tk, git (= 2.51.0)
+Filename: pool/main/g/git-gui/git-gui_2.51.0_aarch64.deb
+Size: 214640
+MD5sum: c8307587a72a866c3a9fd1ba5a87ba08
+SHA1: c8bd5913fa3a4d0a44c281ef274cb1d07fda524a
+SHA256: 0e2950081da0c6f2de83935502c9fcaf5f0f1852338d27566688e773b9f60f0a
+Homepage: https://git-scm.com/
+Description: A graphical interface to Git
+
+Package: git-svn
+Version: 2.51.0
+Architecture: all
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 320
+Depends: subversion-perl, git (= 2.51.0)
+Filename: pool/main/g/git-svn/git-svn_2.51.0_all.deb
+Size: 75532
+MD5sum: c1b1ad35ce8db6a894a00d703728ed47
+SHA1: 22bdf157f35f9cf1613df481730d641e41c475c8
+SHA256: d32b4a73798df0abd65fefcd17b4fedc884725e5eaaae8900a74108c606e0d88
+Homepage: https://git-scm.com/
+Description: Convert between Git and Subversion repositories
+
 Package: glib
 Version: 2.86.0
 Architecture: aarch64
@@ -4980,6 +5164,35 @@ SHA1: 569f77c3381b6606008630d6187c858a596b5f23
 SHA256: 0845bd4caeaa2a7729eb032d3a05ed248579556ad33bbb0051c08de860491627
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
+
+Package: golang
+Version: 3:1.25.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 186988
+Depends: clang
+Recommends: resolv-conf
+Filename: pool/main/g/golang/golang_3+1.25.0_aarch64.deb
+Size: 30093032
+MD5sum: cc61df1fdf11d5d861ce4881eaf30239
+SHA1: af5c20a09b6218fbdce6d6c4b1147533075f80c5
+SHA256: 8a30469968bc285546db92409fc32763c272f9d0f9f6203760ca310f0640ae5a
+Homepage: https://go.dev/
+Description: Go programming language compiler
+
+Package: golang-doc
+Version: 3:1.25.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: golang (= 3:1.25.0)
+Filename: pool/main/g/golang-doc/golang-doc_3+1.25.0_aarch64.deb
+Size: 93160
+MD5sum: 1630f8d5074b0a5af4669fd0c0c976fa
+SHA1: 23647b5adb3f8448aaff5bafdc68dbfb57d0a912
+SHA256: f0d89998ea92e018c4f6c78f384dbe3c4f361ab6d4446afb54c09e5c87b6ed30
+Homepage: https://go.dev/
+Description: Go programming language - documentation
 
 Package: gpac
 Version: 2.4.0-4
@@ -7545,6 +7758,19 @@ SHA256: 062a904febf6ade167d2452755d8bd036d8d17499d5d3430aebfeaa23317a5f9
 Homepage: http://www.oberhumer.com/opensource/lzo
 Description: Static libraries for liblzo
 
+Package: libmaa
+Version: 1.4.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/libm/libmaa/libmaa_1.4.7-1_aarch64.deb
+Size: 29920
+MD5sum: 97fa2daa2d38067c9cd3ca9d716d9198
+SHA1: cb5cca9b1f2c48964b123488862608256376546e
+SHA256: 294945ec41739b44ce8b7c4cfc5634b2b9dc6f27abd140672d7f851b0cb0fd44
+Homepage: https://sourceforge.net/projects/dict/
+Description: Provides many low-level data structures which are helpful for writing compilers
+
 Package: libmad
 Version: 0.16.4-2
 Architecture: aarch64
@@ -8744,6 +8970,35 @@ SHA1: 553a091af54e1a534576c0306abb1a45b78fb956
 SHA256: c404016967d82d758589de8e7707d86f1c52e484b5fe42aba1acfdc293065304
 Homepage: https://snowballstem.org/
 Description: Static libraries for libstemmer
+
+Package: libtalloc
+Version: 2.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Filename: pool/main/libt/libtalloc/libtalloc_2.4.3_aarch64.deb
+Size: 33116
+MD5sum: 71c8302c0dd2b8086a857c3e02bc1fc6
+SHA1: d2e2d9bb0ad5d1419a09faf896e38cd8cc1a87db
+SHA256: 4246348dd9a40c4a5c8c5a4bb30f06179830126d200fa9da787dde2e7b5a7e0d
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Description: Hierarchical, reference counted memory pool system with destructors
+
+Package: libtalloc-static
+Version: 2.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libtalloc (= 2.4.3)
+Filename: pool/main/libt/libtalloc-static/libtalloc-static_2.4.3_aarch64.deb
+Size: 11288
+MD5sum: 2227eb9868b46a557af6156f55880cd0
+SHA1: 5ee3bfa398f4d795499bdae635cfcc9f9d8152f4
+SHA256: c9f78d09aa2db35c4d6775f3af4d834c1e37c542b8bdb95a22ac98f0c092a49b
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Description: Static libraries for libtalloc
 
 Package: libtbb
 Version: 2022.2.0-2
@@ -11035,6 +11290,21 @@ SHA256: 6d0c5be908cac3996883796e3e86a3d7bb666bbc26edbac9fe49555a002c0e88
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
 
+Package: proot
+Version: 5.1.107-65
+Architecture: aarch64
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 308
+Depends: libtalloc
+Suggests: proot-distro
+Filename: pool/main/p/proot/proot_5.1.107-65_aarch64.deb
+Size: 85080
+MD5sum: b27fb167333b8a6791b3bec1b0c18579
+SHA1: 0983b64ebd99264942db3f667c99a54602756eca
+SHA256: 0d310fc1b9fa10fb0336582980532c912f71190f6a85b80bbf1950d056840e54
+Homepage: https://proot-me.github.io/
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+
 Package: protobuf
 Version: 2:32.0
 Architecture: aarch64
@@ -11512,6 +11782,36 @@ SHA256: a23e33d93f6fb0f42119ea6d361bf9b658ff1df38f4976c7090d09ccdb3e2818
 Homepage: https://drobilla.net/software/serd.html
 Description: A lightweight C library for RDF syntax
 
+Package: serf
+Version: 1.3.10-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: apr, apr-util, openssl, zlib
+Breaks: serf-dev
+Replaces: serf-dev
+Filename: pool/main/s/serf/serf_1.3.10-2_aarch64.deb
+Size: 47704
+MD5sum: 0e6f40db6cc9a6abcb1e1d16b213e2ea
+SHA1: ac5b318f063d4a2858115d0347a8e5f0157ae3e9
+SHA256: 8ae25dbba2da784c46ad750c1711fdc0877657b29e0e18d155f92233174a0dab
+Homepage: https://serf.apache.org/
+Description: High performance C-based HTTP client library
+
+Package: serf-static
+Version: 1.3.10-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: serf (= 1.3.10-2)
+Filename: pool/main/s/serf-static/serf-static_1.3.10-2_aarch64.deb
+Size: 39240
+MD5sum: dfe5e4a932dc1043ef47000c14e8c5eb
+SHA1: 3d12f1b7497c9286261faaa4c05dd068b15e6f6f
+SHA256: 53c89db7769a3ea08b6e7f8f80c8e3440d909d8421b72a679db5cb38b4f3d286
+Homepage: https://serf.apache.org/
+Description: Static libraries for serf
+
 Package: sord
 Version: 0.16.18-1
 Architecture: aarch64
@@ -11595,6 +11895,64 @@ SHA1: 254c7f6c5c5753d8f8db553b369b88aa1675f4e2
 SHA256: 3ca395d3ecd30a5a7c541eb918dfe81eb20fdcffb43103e5cfc0ccd108559c40
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
+
+Package: subversion
+Version: 1.14.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6168
+Depends: apr, apr-util, serf, libexpat, libsqlite, liblz4, utf8proc, zlib
+Breaks: subversion-dev
+Replaces: subversion-dev
+Filename: pool/main/s/subversion/subversion_1.14.5-1_aarch64.deb
+Size: 1387752
+MD5sum: 54ef32e8627e241ef0d2681125353618
+SHA1: 4fc8eae98ba3aaa53cc6f74409ed39772354c02b
+SHA256: 37323d62d190fe206e4928a7fdbf5e19a83520f6f6afd32ad6cf13773d21e713
+Homepage: https://subversion.apache.org
+Description: Centralized version control system characterized by its simplicity
+
+Package: subversion-perl
+Version: 1.14.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3880
+Depends: perl, subversion (= 1.14.5-1)
+Filename: pool/main/s/subversion-perl/subversion-perl_1.14.5-1_aarch64.deb
+Size: 768544
+MD5sum: b6df55986e9544e10b6b36d98db94984
+SHA1: 6e9dd869bb5bc4d8e2ba5892c283dbf1c403929e
+SHA256: 7a70b4d6e1c79ecc679311f6bb4f1c1b70e3cab066c40b33f6d9b9501d69e376
+Homepage: https://subversion.apache.org
+Description: Perl interface to Subversion
+
+Package: subversion-perl-static
+Version: 1.14.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: subversion-perl, subversion (= 1.14.5-1)
+Filename: pool/main/s/subversion-perl-static/subversion-perl-static_1.14.5-1_aarch64.deb
+Size: 15564
+MD5sum: ab49f118fa417cd710acc834469c93c5
+SHA1: 92d26f136c4640bd3898f9aa2900982cdcdf0e5d
+SHA256: a6ce2b009a72a26d46bf15a640831dff7530e5ab4b0fd3eb58ea1ee719691fe3
+Homepage: https://subversion.apache.org
+Description: Static libraries for subversion-perl
+
+Package: subversion-static
+Version: 1.14.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5744
+Depends: subversion (= 1.14.5-1)
+Filename: pool/main/s/subversion-static/subversion-static_1.14.5-1_aarch64.deb
+Size: 1139300
+MD5sum: 5c623e01d7cf710b45093559b48caf99
+SHA1: 95df227bac911fda4172bfd8b3466e8017549339
+SHA256: 2bd682c6275d386f12a03859260a84a878c3e74b966b6790c4949d8933e38cae
+Homepage: https://subversion.apache.org
+Description: Static libraries for subversion
 
 Package: svt-av1
 Version: 3.1.2
@@ -12157,6 +12515,20 @@ SHA1: 07852336a43f63643be3231831e0d010b8280e7e
 SHA256: 30eae4ea3ee5de3f23ab00b31b4ae3a9dc9cc316574d284b4b796109645eb8ac
 Homepage: https://www.wavpack.com/
 Description: WavPack command-line programs
+
+Package: wget
+Version: 1.25.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 792
+Depends: libandroid-support, libiconv, libidn2, libuuid, openssl, pcre2, zlib
+Filename: pool/main/w/wget/wget_1.25.0-1_aarch64.deb
+Size: 281272
+MD5sum: aadd5d5ae5304d51928b147530941b42
+SHA1: 5b75b9870af68ef8bc751c615033d66e1fde7467
+SHA256: 389840dbaffffcc4cd21404be7f1bf44dcfabae8f990ad45b3c4c951fab02fdd
+Homepage: https://www.gnu.org/software/wget/
+Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
 
 Package: x264
 Version: 1:0.164.3191-1
