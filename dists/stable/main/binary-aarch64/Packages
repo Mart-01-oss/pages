@@ -1903,6 +1903,19 @@ SHA256: 4ab673a18720dffed80c1fafed39c841b5d166607718ccfb88889a0eae192038
 Homepage: https://github.com/StackExchange/blackbox
 Description: Safely store secrets in Git/Mercurial/Subversion
 
+Package: blade
+Version: 0.0.87
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3356
+Filename: pool/main/b/blade/blade_0.0.87_aarch64.deb
+Size: 495060
+MD5sum: 764e3c50dad23341eb0949077adc5e8e
+SHA1: ead85aeac711398a7852fdd27d5c1235969555d1
+SHA256: 0076d57d539064ab176a2e34beeadabe3e56f3bfba528cbd561a4fdc877f0b04
+Homepage: https://bladelang.com/
+Description: A simple, fast, clean and dynamic language
+
 Package: blas-openblas
 Version: 0.3.30-1
 Architecture: aarch64
@@ -2819,6 +2832,20 @@ SHA256: 2c1fb0543c4e20b867a7406ffe5fbfd13a30dfead359350d9c33c7fe74fc9e1c
 Homepage: https://ccextractor.org/
 Description: A tool used to produce subtitles for TV recordings
 
+Package: ccls
+Version: 0.20250815
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1292
+Depends: clang, libc++, libllvm
+Filename: pool/main/c/ccls/ccls_0.20250815_aarch64.deb
+Size: 394360
+MD5sum: a731f8a62dcf8db245b2d86cda39a8ba
+SHA1: f400b1074d9a1f4f1f322bd73d7d0ee2f199652e
+SHA256: f24aedf2b12349126f70f422e2c8bd44e122c7e45e10c49dd0a42692eee42418
+Homepage: https://github.com/MaskRay/ccls
+Description: C/C++/ObjC language server
+
 Package: ccrypt
 Version: 1.11-1
 Architecture: aarch64
@@ -3316,6 +3343,20 @@ SHA256: 44b96797748f5bb4a6dc56a1450efe1556561829a432ffac193920571b5fdd98
 Homepage: https://cmocka.org/
 Description: cmocka is an unit testing framework for C
 
+Package: cmus
+Version: 2.12.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 748
+Depends: ffmpeg, libandroid-support, libflac, libiconv, libmad, libmodplug, libvorbis, libwavpack, ncurses, opusfile, pulseaudio, alsa-lib
+Filename: pool/main/c/cmus/cmus_2.12.0-4_aarch64.deb
+Size: 190388
+MD5sum: 773c1343c928e6c7f781942ec1962019
+SHA1: 86c4807662310e459576b51156d828b6ded85dda
+SHA256: 05e46e2c4047a13025fc392ced5db549d6efbe927eefba1946c393117856522e
+Homepage: https://cmus.github.io/
+Description: Small, fast and powerful console music player
+
 Package: cmusfm
 Version: 0.5.0-1
 Architecture: aarch64
@@ -3794,6 +3835,60 @@ SHA256: b92cd39588d2589158895079d06b9d34bf869e397f11100006b727be101a57e8
 Homepage: https://github.com/nielssp/csol
 Description: A small collection of solitaire games implemented in C using ncurses
 
+Package: csview
+Version: 1.3.4-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 876
+Filename: pool/main/c/csview/csview_1.3.4-1_aarch64.deb
+Size: 290108
+MD5sum: 99b3677e5dc1b0446a223ba7d4a9c8c7
+SHA1: 475a8418cfc4f2f1d583cf6e8f7db4b3ea5d7510
+SHA256: e2a106a9522128262ff09ec3222d54c8a41559828feb1f4d069f76ef783c110b
+Homepage: https://github.com/wfxr/csview
+Description: Pretty-printing CSV/TSV/xSV on terminal
+
+Package: ctags
+Version: 2:6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3656
+Depends: libiconv, libjansson, libxml2, libyaml
+Filename: pool/main/c/ctags/ctags_2+6.2.0-1_aarch64.deb
+Size: 720932
+MD5sum: 1a474768935d924f6d9c0deba99ce956
+SHA1: a01e62820ea22c7c5224a7992f8d6ff7a98d698b
+SHA256: 1d8999109609acab4faea5e3d0d0b86ac988bf921b5e8d797c86d52e85c88286
+Homepage: https://ctags.io/
+Description: Universal ctags: Source code index builder
+
+Package: ctypes-sh
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: bash, libelf, libdw, libffi, zlib
+Filename: pool/main/c/ctypes-sh/ctypes-sh_1.2-2_aarch64.deb
+Size: 45164
+MD5sum: 732ddd5342f392926c7a559330f3c1d3
+SHA1: 03b84f8d6dae5d23671b67ca19462f13e366976f
+SHA256: 4591c80a9ffd63b61a632ee9860b30a3a4917bc83ce6ed4d920d166017a1a620
+Homepage: https://github.com/taviso/ctypes.sh
+Description: A foreign function interface for bash
+
+Package: cuetools
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Filename: pool/main/c/cuetools/cuetools_1.4.1-1_aarch64.deb
+Size: 38008
+MD5sum: 206744e5b2944c3bf9ea512aab6c2910
+SHA1: 7e55644bcb1789a3c96c312fc295804893b4de05
+SHA256: 79794555c54b6765a286fc402b5cf34926485a898157a56fafee3dc9ae25e93d
+Homepage: https://github.com/svend/cuetools
+Description: A set of utilities for working with Cue Sheet (cue) and Table of Contents (toc) files
+
 Package: cups
 Version: 2.4.14
 Architecture: aarch64
@@ -3807,6 +3902,20 @@ SHA1: ff9fa03079ecc99be289af95032d099771db7a51
 SHA256: d3d78967d3c5e3440bb7a93c9bea3692ee080c3c490b4a3bfc8ad7366e36edc3
 Homepage: https://www.cups.org/
 Description: Common UNIX Printing System
+
+Package: cups-pdf
+Version: 3.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: cups, ghostscript
+Filename: pool/main/c/cups-pdf/cups-pdf_3.0.1-1_aarch64.deb
+Size: 17404
+MD5sum: 972f0dfae57cef640f22761f703423c3
+SHA1: acbd1d1320658d878369ce53e190d7c8b6384511
+SHA256: 1b75f766a36c4d80d7e7a26baea638ef4f2d34a9936801d64b08b8246b428ab4
+Homepage: https://www.cups-pdf.de/
+Description: CUPS PDF backend
 
 Package: cups-static
 Version: 2.4.14
@@ -3836,6 +3945,47 @@ SHA1: af08853854084827afcf51eca7079cf1e85df696
 SHA256: 44760465bdc50a776735b8a4ee0ee992a4d052cb0b203b742dec726dfb788efe
 Homepage: https://curl.se/
 Description: Command line tool for transferring data with URL syntax
+
+Package: curlie
+Version: 1.8.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2792
+Filename: pool/main/c/curlie/curlie_1.8.2_aarch64.deb
+Size: 798836
+MD5sum: 196b4b06b5060b9327b17bed21c4c5d4
+SHA1: feadef5d3da6e75e7fdc8c49272e5f2efa449e09
+SHA256: c27af605eaafd7fb4603227f316d94c901d0d88c6f88b0441ff9259849852738
+Homepage: https://curlie.io/
+Description: The power of curl, the ease of use of httpie
+
+Package: curseofwar
+Version: 1.3.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: libc++, ncurses
+Filename: pool/main/c/curseofwar/curseofwar_1.3.0-5_aarch64.deb
+Size: 28028
+MD5sum: ed2f859ba67425346859053d84c973fb
+SHA1: 9838fb1f88966b9a06d10f2b33a53ed7a6d3527b
+SHA256: 0a29a4ecd071d9d56174d20749ce8f537a203e5a1605c6dae2ece58d515c7713
+Homepage: http://a-nikolaev.github.io/curseofwar/
+Description: Fast-paced action strategy game focusing on high-level strategic planning
+
+Package: cvs
+Version: 1:1.12.13-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1692
+Depends: zlib, libandroid-support
+Filename: pool/main/c/cvs/cvs_1+1.12.13-5_aarch64.deb
+Size: 499844
+MD5sum: bb17cf4f3d065c381f33ea550dfa15ce
+SHA1: a761cfed721f33a81856182f2849ed0a93c59c5b
+SHA256: 089f7befc5e8d1ee5e9a3a695d513f988a137b2c92ea9f8be05e7ee353513642
+Homepage: https://www.nongnu.org/cvs/
+Description: Concurrent Versions System
 
 Package: dash
 Version: 0.5.12-1
@@ -4057,6 +4207,20 @@ SHA1: e131090d3fca4b2e6da13e75e499a1a1e5a417fb
 SHA256: 0e7f7b09b3bdd48a403bee15a4c38798f26e75bf65913cb412a581bab7ba9281
 Homepage: https://e2fsprogs.sourceforge.net
 Description: EXT 2/3/4 filesystem utilities
+
+Package: elfutils
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2876
+Depends: argp, libarchive, libasm, libc++, libdebuginfod, libdw, libmicrohttpd, libsqlite, libelf (= 0.193-1)
+Filename: pool/main/e/elfutils/elfutils_0.193-1_aarch64.deb
+Size: 442636
+MD5sum: 3992f25b213bf6a6925bccb424fbd17e
+SHA1: ac274c9005067d574bbdd9349a15cb358581aee9
+SHA256: 85d53b48d4348d341a98e5b77e814782b7904f292a8958d5d6421cf6fe452b9b
+Homepage: https://sourceware.org/elfutils/
+Description: A collection of utilities to read, create and modify ELF binary files
 
 Package: fdisk
 Version: 2.40.2-5
@@ -4994,6 +5158,35 @@ SHA256: ca99fbf6aef57b7ec794b26a97294b778e09ee88bf7935c05c18ed32df1457a2
 Homepage: https://jbig2dec.com/
 Description: Static libraries for jbig2dec
 
+Package: json-c
+Version: 0.18-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 292
+Breaks: json-c-dev
+Replaces: json-c-dev
+Filename: pool/main/j/json-c/json-c_0.18-2_aarch64.deb
+Size: 50472
+MD5sum: dc98fb48f7e4d584477f4cc39fea97d2
+SHA1: c1d9ba8817bafeaf13aaf8a9a7ba4b7aa43e1ddb
+SHA256: 5169e03c78e80186746bd25abcba46080561169d9ca92db458013a05380d25d3
+Homepage: https://github.com/json-c/json-c/wiki
+Description: A JSON implementation in C
+
+Package: json-c-static
+Version: 0.18-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: json-c (= 0.18-2)
+Filename: pool/main/j/json-c-static/json-c-static_0.18-2_aarch64.deb
+Size: 31060
+MD5sum: e103e51affb0ce50fe902fff771b1e10
+SHA1: a7754b9aad5d330439ab710f1848b3db5aaf5ac5
+SHA256: 515f43e2031887311607a0b558a8b0ae3d1fb238d8b49be23a44bad7469f61b3
+Homepage: https://github.com/json-c/json-c/wiki
+Description: Static libraries for json-c
+
 Package: krb5
 Version: 1.22.1-1
 Architecture: aarch64
@@ -5505,6 +5698,34 @@ SHA256: d1008dd26e8b224b4764ce0e217201ec3ddc24acf85ab7dadd5bc9c505249ed0
 Homepage: https://www.libarchive.org/
 Description: Static libraries for libarchive
 
+Package: libasm
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: libdw, libelf (= 0.193-1)
+Filename: pool/main/liba/libasm/libasm_0.193-1_aarch64.deb
+Size: 13272
+MD5sum: 60e0be2188f1225e91318b96dc22b76b
+SHA1: 57172bfc8e5121715d8b89df30df7a54ae059be3
+SHA256: cf7d8f5fa4a2bbba7a3116ec41e8c340f3564f70329ee652416aa5b8f7fcf4ff
+Homepage: https://sourceware.org/elfutils/
+Description: Library to assemble and disassemble instructions
+
+Package: libasm-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libasm, libelf (= 0.193-1)
+Filename: pool/main/liba/libasm-static/libasm-static_0.193-1_aarch64.deb
+Size: 13428
+MD5sum: 190388cbeff2bae9dc13beb99c51b865
+SHA1: 4036c4c5b883893eb779f1043782255a6bd1a34e
+SHA256: 4f8b476d49514af423d13e8da54d38ed36354bde7cf6ba9bf8640d2c2ba57a0d
+Homepage: https://sourceware.org/elfutils/
+Description: Static library to assemble and disassemble instructions
+
 Package: libass
 Version: 0.17.4-1
 Architecture: aarch64
@@ -6015,6 +6236,20 @@ SHA256: 877ec7b00552fb706ea6328fca951f394c0f259dae8a3e1d9bd2dbf3f253681c
 Homepage: https://github.com/strukturag/libde265
 Description: Static libraries for libde265
 
+Package: libdebuginfod
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libcurl, libelf (= 0.193-1)
+Filename: pool/main/libd/libdebuginfod/libdebuginfod_0.193-1_aarch64.deb
+Size: 20360
+MD5sum: 3613e356af7b4e23906e0149040c4e19
+SHA1: fd860481f6a8a4e66b1a1bdd31fd4f2cda1f8a36
+SHA256: 49c63182975338a28d39b69538e62b76ff1ece36a5ed9de95bbd7d2c4fd8b56a
+Homepage: https://sourceware.org/elfutils/
+Description: Library for debuginfod
+
 Package: libdvbcsa
 Version: 1.1.0-3
 Architecture: aarch64
@@ -6041,6 +6276,34 @@ SHA1: ffdc2c9efef687b4691b0a7b390584c3ce060c90
 SHA256: 82570fe731a2bcb441186c8b15f662c4f7d5a1a8fd397d766df9280b7049244c
 Homepage: https://www.videolan.org/developers/libdvbcsa.html
 Description: Static libraries for libdvbcsa
+
+Package: libdw
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Depends: argp, libbz2, liblzma, libelf (= 0.193-1)
+Filename: pool/main/libd/libdw/libdw_0.193-1_aarch64.deb
+Size: 212424
+MD5sum: 5bffdb4a241db22242b7b846819dbd18
+SHA1: a3c45e51bef53017cdbcf029b841a1d0f527ec29
+SHA256: 256a9d1d2a053e0d9f51962f1751e03f79ef682df74eb6658471837d229ce77c
+Homepage: https://sourceware.org/elfutils/
+Description: Library to read DWARF information
+
+Package: libdw-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1512
+Depends: libdw, libelf (= 0.193-1)
+Filename: pool/main/libd/libdw-static/libdw-static_0.193-1_aarch64.deb
+Size: 238296
+MD5sum: 956fd07602cd5584878b7b5e046e2622
+SHA1: ce018e26cd6e2c61ef22e9301579ef224c378a8b
+SHA256: 2832adad4f2934aeb392f2d01b286132e8cfab321f4d5e1a0d334edd34ad85fb
+Homepage: https://sourceware.org/elfutils/
+Description: Static library to read DWARF information
 
 Package: libedit
 Version: 20240517-3.1-1
@@ -6071,6 +6334,36 @@ SHA1: 95158f52af676b6987263eff1f65bdf5d17f552a
 SHA256: a5c583ca8a1bf31dfc593923755ffa0c5ed72da3f4608cd57254b8152e19b052
 Homepage: https://thrysoee.dk/editline/
 Description: Static libraries for libedit
+
+Package: libelf
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: libandroid-support, zlib, zstd, json-c
+Conflicts: libelf-dev
+Replaces: libelf-dev
+Filename: pool/main/libe/libelf/libelf_0.193-1_aarch64.deb
+Size: 66144
+MD5sum: 89f49be49294baac258148f1d0d22972
+SHA1: 90c908c5d4b9d4ba69aef1b8dae31aa3c338634a
+SHA256: 3ab8af116430a650ed3253357a5157b7cf4e672ca7858b4372c23dbdaf64400b
+Homepage: https://sourceware.org/elfutils/
+Description: ELF object file access library
+
+Package: libelf-static
+Version: 0.193-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 324
+Depends: libelf (= 0.193-1)
+Filename: pool/main/libe/libelf-static/libelf-static_0.193-1_aarch64.deb
+Size: 45432
+MD5sum: 7ca46f8e5a3fe66aa50fa6259d454bdd
+SHA1: 57d39ec2891f2a36cc591e228a71aa55be43f431
+SHA256: 6d9434962ccf27b826347aa005b3298818c5f2943e92eecf665f92237d18c062
+Homepage: https://sourceware.org/elfutils/
+Description: Static libraries for libelf
 
 Package: libevent
 Version: 2.1.12-3
@@ -6654,6 +6947,35 @@ SHA256: bdd35751e77d6b3a3fb4ee19a18f9cd6eddb895d818195b6315f8ac27737eccf
 Homepage: https://github.com/ndevilla/iniparser
 Description: Static libraries for libiniparser
 
+Package: libjansson
+Version: 2.14.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Breaks: libjansson-dev
+Replaces: libjansson-dev
+Filename: pool/main/libj/libjansson/libjansson_2.14.1-1_aarch64.deb
+Size: 46840
+MD5sum: de8567c1264b5762cd6624cb54ede411
+SHA1: c4a4726928d981f6e4773e40c10efbfbd2cc1c2d
+SHA256: d318e3799d6e6a18a1a4eeb2b5f3887202523502e21a26633c226db2060052b3
+Homepage: http://www.digip.org/jansson/
+Description: C library for encoding, decoding and manipulating JSON data
+
+Package: libjansson-static
+Version: 2.14.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: libjansson (= 2.14.1-1)
+Filename: pool/main/libj/libjansson-static/libjansson-static_2.14.1-1_aarch64.deb
+Size: 46944
+MD5sum: 24e42b1a099b1ac9da1ae0ead24d1346
+SHA1: ef6c4fff000ca1d9a1013329a8df37a2944ba36a
+SHA256: 29d5105a29882a02f9bfc8027e4954973dcad334ab00cab2fa0d67749b2fbcd7
+Homepage: http://www.digip.org/jansson/
+Description: Static libraries for libjansson
+
 Package: libjasper
 Version: 4.2.8
 Architecture: aarch64
@@ -7116,6 +7438,64 @@ SHA1: 977a7e45097e39cb1314a57fb8fae5015549a733
 SHA256: de7e05d6a009d0dc249d4d91dcec5f64a8252f9fdde3746a35b85ab43ab7300f
 Homepage: https://www.hadrons.org/software/libmd/
 Description: Static libraries for libmd
+
+Package: libmicrohttpd
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 988
+Depends: libgnutls
+Breaks: libmicrohttpd-dev
+Replaces: libmicrohttpd-dev
+Filename: pool/main/libm/libmicrohttpd/libmicrohttpd_1.0.2-1_aarch64.deb
+Size: 205000
+MD5sum: b04d19f049c13a6bb875edf6a69518cf
+SHA1: 236250c122e6fc046d1d5cd436d3ac94805af541
+SHA256: 41e305fd316c320213a12bf831ef9e53fa14f92c96eadd887aaf004945029b61
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Description: A small C library that is supposed to make it easy to run an HTTP server as part of another application
+
+Package: libmicrohttpd-static
+Version: 1.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libmicrohttpd (= 1.0.2-1)
+Filename: pool/main/libm/libmicrohttpd-static/libmicrohttpd-static_1.0.2-1_aarch64.deb
+Size: 75624
+MD5sum: 46c4e10d0fbf6feff7a970274da4e3ba
+SHA1: 548148a0be1b0cc056590cf5c361c629728a2631
+SHA256: ed245a5e9e917fa8f716c8c0ab779db72a1deaa6ef5aff6725bdd5acf3b04d5c
+Homepage: http://www.gnu.org/software/libmicrohttpd/
+Description: Static libraries for libmicrohttpd
+
+Package: libmodplug
+Version: 0.8.9.1.r461-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: libc++
+Filename: pool/main/libm/libmodplug/libmodplug_0.8.9.1.r461-1_aarch64.deb
+Size: 129184
+MD5sum: ee38d6544e59d4141fd8810763c7881e
+SHA1: c044abf73b664779eb87d9232d3df51152aec080
+SHA256: a1a00d34c0ba98716c8fff841962786f34cdb19f03786a228dd8847dc3389f91
+Homepage: https://modplug-xmms.sourceforge.net/
+Description: The ModPlug mod file playing library
+
+Package: libmodplug-static
+Version: 0.8.9.1.r461-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 928
+Depends: libmodplug (= 0.8.9.1.r461-1)
+Filename: pool/main/libm/libmodplug-static/libmodplug-static_0.8.9.1.r461-1_aarch64.deb
+Size: 171392
+MD5sum: 6ca009e2591d4b6b8665993e1cca314c
+SHA1: 1069f84a33515d5a9daa7ac6a0a58bc2cfb7d176
+SHA256: d3e4e3c99806c3b4e696a88417255580509f91f21744c46a6d24bfa9a1361e6a
+Homepage: https://modplug-xmms.sourceforge.net/
+Description: Static libraries for libmodplug
 
 Package: libmount
 Version: 2.40.2-5
@@ -8700,6 +9080,34 @@ SHA256: 5c40f939c6b1fd2c39c584f6925533fb82bcc77b64f77d7c2620576c310a2f3b
 Homepage: https://www.webmproject.org
 Description: Static libraries for libvpx
 
+Package: libwavpack
+Version: 5.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 648
+Depends: libandroid-glob
+Filename: pool/main/libw/libwavpack/libwavpack_5.8.1-1_aarch64.deb
+Size: 391768
+MD5sum: 6155c8d04ad1bf759ff4f218a04819d8
+SHA1: 4c659cfb58848137560dbd62eaf28d6438e2d2e2
+SHA256: bbdb20dd43a1d5c67b41801560e5fad546db98fbca891b835e9036e7bb027855
+Homepage: https://www.wavpack.com/
+Description: A completely open audio compression format providing lossless, high-quality lossy, and a unique hybrid compression mode
+
+Package: libwavpack-static
+Version: 5.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: libwavpack (= 5.8.1-1)
+Filename: pool/main/libw/libwavpack-static/libwavpack-static_5.8.1-1_aarch64.deb
+Size: 68592
+MD5sum: e25f1e8261aade72a8407e3a21f0054b
+SHA1: e9dfb07602ef39e9cdf3184606dd3b45bef4cac2
+SHA256: e6dff2c284bfc29675c57fc1d0dcf0176132629041442a51c3091ce0b5a39c79
+Homepage: https://www.wavpack.com/
+Description: Static libraries for libwavpack
+
 Package: libwebp
 Version: 1.6.0-1
 Architecture: aarch64
@@ -10085,6 +10493,36 @@ SHA256: 819565625cada18404c20168dc0acd86bb92b1a28b5b95e8cc8e859bb44b9aac
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
+Package: opusfile
+Version: 0.12-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: libopus, libogg
+Breaks: opusfile-dev
+Replaces: opusfile-dev
+Filename: pool/main/o/opusfile/opusfile_0.12-4_aarch64.deb
+Size: 42588
+MD5sum: 5b12cc47b027cfedeccd0d3f77049167
+SHA1: a6f0afd9b52fb39ab80ed2b6b6ae3a13079e9cf2
+SHA256: c46805544e29422c60a7350e493728b3ea2cbf5b933927d3109c0a9a4d7dba8d
+Homepage: https://www.opus-codec.org/
+Description: A high-level API for decoding and seeking within .opus files
+
+Package: opusfile-static
+Version: 0.12-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: opusfile (= 0.12-4)
+Filename: pool/main/o/opusfile-static/opusfile-static_0.12-4_aarch64.deb
+Size: 21172
+MD5sum: 46a398c83f0aa8401401e1cd51503e32
+SHA1: 801078d224d36756beefb33fe62d65af8783f0c5
+SHA256: 60b708114cbefc1d5d51869efa10927b0d47271e107ace45e894d167acb08f50
+Homepage: https://www.opus-codec.org/
+Description: Static libraries for opusfile
+
 Package: pango
 Version: 1.57.0
 Architecture: aarch64
@@ -10692,6 +11130,19 @@ SHA1: 08d20c53d964de60fc1fe1c6bbd3eeedec09f14b
 SHA256: 52d8b79bca68567220acbb78f6489ef7f71fb3e0ee0fccfcfcd5e36ca565e714
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
+
+Package: rapidjson
+Version: 1.1.0-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 896
+Filename: pool/main/r/rapidjson/rapidjson_1.1.0-5_all.deb
+Size: 99616
+MD5sum: 312308c8298c3e1cb87094c28ce28f95
+SHA1: bae9c4630f02e63bdf3d25758ffacbf0c7617b2d
+SHA256: 1604d6cc3a7a58405e8d88c87a699a39060ec67a2ce1feaec922d5af0db2d890
+Homepage: https://github.com/Tencent/rapidjson/
+Description: Fast JSON parser/generator for C++ with SAX/DOM style API
 
 Package: rav1e
 Version: 0.8.1
@@ -11544,6 +11995,20 @@ SHA1: 1e5def4492ebf24bc1e919e4de8b18d1106f919b
 SHA256: 42d302d4a66cb19db840a3b42b2460a4d21b9028b320ab124cce82c9f83fcd55
 Homepage: https://source.android.com/devices/graphics/arch-vulkan
 Description: Vulkan Loader for Android
+
+Package: wavpack
+Version: 5.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: libiconv, libwavpack (= 5.8.1-1)
+Filename: pool/main/w/wavpack/wavpack_5.8.1-1_aarch64.deb
+Size: 84988
+MD5sum: c33af26e55d7d6fa74c3fd07b1f5934a
+SHA1: 07852336a43f63643be3231831e0d010b8280e7e
+SHA256: 30eae4ea3ee5de3f23ab00b31b4ae3a9dc9cc316574d284b4b796109645eb8ac
+Homepage: https://www.wavpack.com/
+Description: WavPack command-line programs
 
 Package: x264
 Version: 1:0.164.3191-1
