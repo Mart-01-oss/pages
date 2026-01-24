@@ -4621,6 +4621,22 @@ SHA256: 5ddd81d6b9e53d60686f3dbce1800d1f1e8ff59679c079f1f096113bcef38f44
 Homepage: https://github.com/measurement-factory/dnstop
 Description: A libpcap application that displays various tables of DNS traffic on your network
 
+Package: dnsutils
+Version: 9.20.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6896
+Depends: cmocka, json-c, krb5, libandroid-execinfo, libandroid-glob, libcap, libnghttp2, liburcu, libuv, libxml2, openssl, readline, resolv-conf, zlib
+Breaks: dnsutils-dev
+Replaces: dnsutils-dev
+Filename: pool/main/d/dnsutils/dnsutils_9.20.13_aarch64.deb
+Size: 1698756
+MD5sum: 4016561831ee64285f8abfeaa466f2e1
+SHA1: bf5a87aecc791f449f10075a39d1ecb067645c40
+SHA256: b518e7e7864aa0b692c9086527292eaeca10affa09d3fcc24e5ba6423039045f
+Homepage: https://www.isc.org/bind/
+Description: Clients provided with BIND
+
 Package: docbook-xml
 Version: 5.1-1
 Architecture: all
@@ -4649,6 +4665,132 @@ SHA1: 4f36ae3eb7bbd1863718723bea9e9cb5611fa476
 SHA256: 2cbd506d5537d09f5b4e429e9c326d394c118424cf48143aa4da1dc44ad6126b
 Homepage: https://docbook.org/
 Description: XML stylesheets for Docbook-xml transformations
+
+Package: docopt
+Version: 0.6.3-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 420
+Depends: libc++
+Filename: pool/main/d/docopt/docopt_0.6.3-4_aarch64.deb
+Size: 97776
+MD5sum: 5bc06316e4364086877ed569d0912bd2
+SHA1: e6420ef8520ba77f3c79e5fdba3d9cf88352eb3c
+SHA256: 7aaa97736aeb50a97d0d6d1909b9ec4c69b23a72fc7044e137ba380f5fa9e80a
+Homepage: http://docopt.org
+Description: Command line arguments parser for C++11 and later
+
+Package: docopt-static
+Version: 0.6.3-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 612
+Depends: docopt (= 0.6.3-4)
+Filename: pool/main/d/docopt-static/docopt-static_0.6.3-4_aarch64.deb
+Size: 91428
+MD5sum: 48d5758a2d3b46737c85a1f2845f1b1a
+SHA1: edf34d376840654dee117b9a4a233d48ddcbcbba
+SHA256: 9f069614ec9dc1e3b71eaf26bfafce94bff5393c1065ecae03cb56957e915ab9
+Homepage: http://docopt.org
+Description: Static libraries for docopt
+
+Package: doctest
+Version: 2.4.12
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 436
+Depends: libc++
+Filename: pool/main/d/doctest/doctest_2.4.12_aarch64.deb
+Size: 61428
+MD5sum: 30d66b50d8dc9437e8fdbc0a958f91fb
+SHA1: b277dd0b5260d027c16911eb68e0953facf0c851
+SHA256: 67d035b870089bef4f453a2cf0eb4901f621df8f8d6ff203cfc2c0862305bbed
+Homepage: https://github.com/doctest/doctest
+Description: The fastest feature-rich C++11/14/17/20 single-header testing framework
+
+Package: doge
+Version: 0.2.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1484
+Depends: openssl, resolv-conf
+Replaces: dog
+Filename: pool/main/d/doge/doge_0.2.8-2_aarch64.deb
+Size: 313804
+MD5sum: dcc63210f91899f8c0354a5a094d2744
+SHA1: 9ba339a9ebc7c4fe4a148f97005e4b0ffeb7eff2
+SHA256: 676c0b4f12e7f33751529f90417f1b2b917704a5a9f3f42c7e18830a2cd1f365
+Homepage: https://github.com/Dj-Codeman/dog_community
+Description: A command-line DNS client
+
+Package: dopewars
+Version: 1.6.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 752
+Depends: glib, libcurl, ncurses
+Filename: pool/main/d/dopewars/dopewars_1.6.2-1_aarch64.deb
+Size: 252152
+MD5sum: 4638a9d55875f502117edb92fd19cabf
+SHA1: 08ae4028b17a4f4a4390376215c85e0335bc4398
+SHA256: d09140ffb8872dffb141da28a44f429fa803fd34b2dd3b02d36610cbda4c93d6
+Homepage: https://dopewars.sourceforge.io
+Description: Drug-dealing game set in streets of New York City
+
+Package: dosfstools
+Version: 4.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Depends: libiconv
+Filename: pool/main/d/dosfstools/dosfstools_4.2-1_aarch64.deb
+Size: 121832
+MD5sum: 4d054b81d28a5922993f861bd7fff5e8
+SHA1: 18aebbe00323ee5a7677f2e4f34a796bb822fbed
+SHA256: 6590748ce30979af57df18ff404e8a2bab0568e6b3eed11081f5d4e58ae1c736
+Homepage: https://github.com/dosfstools/dosfstools
+Description: DOS file system utilities
+
+Package: dotconf
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Filename: pool/main/d/dotconf/dotconf_1.4.1-1_aarch64.deb
+Size: 26908
+MD5sum: 014a88f57fbd924c74f739e7eb94dfd2
+SHA1: 2662e635c876172cac23cf79a56a75f3ce88a5d6
+SHA256: e9dbee86be90d6c108e532fda6c956eb32534ed390961a1dca2f2efee1f528e4
+Homepage: https://github.com/williamh/dotconf
+Description: dot.conf configuration file parser
+
+Package: dotconf-static
+Version: 1.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: dotconf (= 1.4.1-1)
+Filename: pool/main/d/dotconf-static/dotconf-static_1.4.1-1_aarch64.deb
+Size: 8976
+MD5sum: f97bde5a49e0935b13b3e676e9c6774d
+SHA1: b602b5a0656195cb11942ce631bc727ac5d28ab6
+SHA256: 78d0f80b4b7d00245d88fdb7613d9ff2a11eb1fa6935ec8986fc3ea56b6018e2
+Homepage: https://github.com/williamh/dotconf
+Description: Static libraries for dotconf
+
+Package: dotnet-host
+Version: 9.0-2
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 4
+Depends: dotnet-host-9.0 | dotnet-host-8.0
+Filename: pool/main/d/dotnet-host/dotnet-host_9.0-2_aarch64.deb
+Size: 696
+MD5sum: 73de910aa4199cb0a018a7cba2f06998
+SHA1: 51335adccd46dbcb361c2f5bac8ed48b867ba20f
+SHA256: d875ea2cf5d8669138edd940c9602ffea71aa5c629e808d8b756367abbe7742b
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: A metapackage for .NET Host
 
 Package: dpkg
 Version: 1.22.6-4
@@ -9584,6 +9726,33 @@ SHA256: ec16b2fdcdba81a0916ace4cab17bed90554bd1c7327efb94b0bf918684289ec
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Static libraries for libunistring
 
+Package: liburcu
+Version: 0.15.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1364
+Filename: pool/main/libu/liburcu/liburcu_0.15.3-1_aarch64.deb
+Size: 122340
+MD5sum: 18623e2f60b61b74a3de039b16aea3d1
+SHA1: 47c721746ee2b876d010f67279722ee4846c5e29
+SHA256: 8079a847e236d69712015a3903df428c599d1f77522d978f10d1fbf96f5bf2f8
+Homepage: https://liburcu.org/
+Description: LGPLv2.1 userspace RCU (read-copy-update) library
+
+Package: liburcu-static
+Version: 0.15.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 436
+Depends: liburcu (= 0.15.3-1)
+Filename: pool/main/libu/liburcu-static/liburcu-static_0.15.3-1_aarch64.deb
+Size: 45524
+MD5sum: cc12cefa1156bf5cd151af51a78e258d
+SHA1: 72936e1d4b5b90c20d788e329ee17485435c3604
+SHA256: 61319dde37e1e591d0359f23fdf4b17317e9b7b6ac1af3349b4a94ce191b0ec1
+Homepage: https://liburcu.org/
+Description: Static libraries for liburcu
+
 Package: libusb
 Version: 1.0.29-1
 Architecture: aarch64
@@ -9627,6 +9796,35 @@ SHA1: 0bc899313bd0cd936ccbc841f0cc11dd500dffbe
 SHA256: 1fa4fd9dc7260b9c642bc0dfcec8cfff18f7b277687cc50319dbccccc69a67bf
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for handling universally unique identifiers
+
+Package: libuv
+Version: 1.51.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Breaks: libuv-dev
+Replaces: libuv-dev
+Filename: pool/main/libu/libuv/libuv_1.51.0-1_aarch64.deb
+Size: 81932
+MD5sum: 4e0df782186c18367617dfb9bc724e96
+SHA1: 2b0773fad83205137f5a61fb7bc5d6b595723cef
+SHA256: 07ae42cd83b31207e4d554bb4bf6379b933604beb3f62d4206947ff17d676c60
+Homepage: https://libuv.org
+Description: Support library with a focus on asynchronous I/O
+
+Package: libuv-static
+Version: 1.51.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1552
+Depends: libuv (= 1.51.0-1)
+Filename: pool/main/libu/libuv-static/libuv-static_1.51.0-1_aarch64.deb
+Size: 283292
+MD5sum: 581d1ea56489ac2f8a8195aac5205844
+SHA1: 14393e76f71d5e709c7622947c15573ed59e59b9
+SHA256: c50b679bb7600a74a3ce7e8b54a45a7b65747dffa208eb9ca57387d5eac08799
+Homepage: https://libuv.org
+Description: Static libraries for libuv
 
 Package: libv4l
 Version: 1.24.1-2
