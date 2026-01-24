@@ -4499,6 +4499,128 @@ SHA256: 5833041e0a83b2f00ac12237252b81b515a53cbc6cb6d34e4125d8ebd6441287
 Homepage: https://djvu.sourceforge.net/
 Description: Static libraries for djvulibre
 
+Package: dmagnetic
+Version: 0.37-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Filename: pool/main/d/dmagnetic/dmagnetic_0.37-1_aarch64.deb
+Size: 61596
+MD5sum: 12de1f2f3531f2fd22b838365a213ee2
+SHA1: 2d0c74ba1ae2926684382281345ecf663d180d8d
+SHA256: a0ba554a6d69ad849d6ea4e28b2cee374a1988d499b69ad28f7da00cade37e15
+Homepage: https://dettus.net/dMagnetic
+Description: Interpreter for classic text adventure games and interactive fiction
+
+Package: dmtx-utils
+Version: 0.7.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Depends: imagemagick, libdmtx
+Filename: pool/main/d/dmtx-utils/dmtx-utils_0.7.6-1_aarch64.deb
+Size: 18240
+MD5sum: 43113f2fc8be61f11a5eabfe1ff45e95
+SHA1: 3eccc1428ce1e10e0367693c4541f6c9b7336396
+SHA256: 617b9b5a868eef10dd32269a4500a66adb28f1e8dc16de8378c0d6374a7ba9b7
+Homepage: https://github.com/dmtx/dmtx-utils
+Description: A command line interface for libdmtx
+
+Package: dnglab
+Version: 0.7.0
+Architecture: aarch64
+Maintainer: Florian Wagner <florian@wagner-flo.de>
+Installed-Size: 8220
+Filename: pool/main/d/dnglab/dnglab_0.7.0_aarch64.deb
+Size: 2115712
+MD5sum: 3cffa65feab5d79b880eec66daef1ffc
+SHA1: f4e767ba8ddbb20e700151391fe0962771f3a9f0
+SHA256: ce714b89e06307adfdeba1873b73d7d7dc7b59e347a53588500022ca436cb706
+Homepage: https://github.com/dnglab/dnglab
+Description: Camera RAW to DNG file format converter
+
+Package: dnote
+Version: 1:0.15.1-1
+Architecture: aarch64
+Maintainer: Ravener <ravener.anime@gmail.com>
+Installed-Size: 11520
+Breaks: dnote-client
+Replaces: dnote-client
+Filename: pool/main/d/dnote/dnote_1+0.15.1-1_aarch64.deb
+Size: 3127824
+MD5sum: 2194a63c7df7aa71cad532572e223668
+SHA1: 08ff1cbe4707fc71c1147979f7c2908f92728e5b
+SHA256: 27ee261f674117d6a22368a677d2fb0f6e16ec8c9943a3016f871276b66cefe4
+Homepage: https://www.getdnote.com/
+Description: A simple command line notebook for programmers
+
+Package: dnote-server
+Version: 2.1.1-3
+Architecture: aarch64
+Maintainer: Ravener <ravener.anime@gmail.com>
+Installed-Size: 11280
+Suggests: postgresql
+Filename: pool/main/d/dnote-server/dnote-server_2.1.1-3_aarch64.deb
+Size: 3072100
+MD5sum: e21e37836c0c8bd1ca013e25e5c30d5d
+SHA1: 6c45a934c5a661bea9b9fcc5fbd4034896f85c1a
+SHA256: ce6c51ce7143870af28f9ab5a933456f5f5351031a86bcceeb545be5b7d811c0
+Homepage: https://www.getdnote.com/
+Description: This package contains the Dnote server. It comprises of the web interface, the web API, and the background jobs.
+
+Package: dns2tcp
+Version: 0.5.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/d/dns2tcp/dns2tcp_0.5.2-2_aarch64.deb
+Size: 32856
+MD5sum: 5cf3eb98706f03eecc32cb3200ca9661
+SHA1: f374a4f7d36147df7bed97ffe0cbf083a5fbde9f
+SHA256: 6c580a2b8c0d35615f83ac13ed76bfe3dc31cc377febd92d873effdea729e709
+Homepage: https://github.com/alex-sector/dns2tcp
+Description: dns2tcp is a tool for relaying TCP connections over DNS
+
+Package: dnslookup
+Version: 1.11.1-2
+Architecture: aarch64
+Maintainer: CHIZI-0618 <kay9925@outlook.com>
+Installed-Size: 8764
+Filename: pool/main/d/dnslookup/dnslookup_1.11.1-2_aarch64.deb
+Size: 2337676
+MD5sum: fdcfadc0e1fe6bf5a9f2c4b997a66cdd
+SHA1: 77ae02fe9c33960dd8bf27cf989b01f4a9bd95f8
+SHA256: 61ae7d4cb05914b3eaaef2b8df9880bbca4b76ceda4d1ba3b5eb77131c100c7c
+Homepage: https://github.com/ameshkov/dnslookup
+Description: Simple command line utility to make DNS lookups. Supports all known DNS protocols: plain DNS, DoH, DoT, DoQ, DNSCrypt.
+
+Package: dnsmap
+Version: 0.36-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Filename: pool/main/d/dnsmap/dnsmap_0.36-3_aarch64.deb
+Size: 13216
+MD5sum: 00277a2299ce730d41328e97fb6c9977
+SHA1: 385ae9fde14312aeefc3b8fd5c7a0615bc52be62
+SHA256: 387274644bf040e1a73ed82c2fd3a04d95c86b32143a1cddb2b525f6cbcff2a5
+Homepage: https://github.com/resurrecting-open-source-projects/dnsmap
+Description: Subdomain Bruteforcing Tool
+
+Package: dnstop
+Version: 2022.10.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: libpcap, ncurses
+Filename: pool/main/d/dnstop/dnstop_2022.10.19-1_aarch64.deb
+Size: 31860
+MD5sum: 9235964894d1843416b738b8591fb360
+SHA1: a0c9d5de246836156cefccbc9e4554606adae2dc
+SHA256: 5ddd81d6b9e53d60686f3dbce1800d1f1e8ff59679c079f1f096113bcef38f44
+Homepage: https://github.com/measurement-factory/dnstop
+Description: A libpcap application that displays various tables of DNS traffic on your network
+
 Package: docbook-xml
 Version: 5.1-1
 Architecture: all
@@ -6734,6 +6856,33 @@ SHA256: 49c63182975338a28d39b69538e62b76ff1ece36a5ed9de95bbd7d2c4fd8b56a
 Homepage: https://sourceware.org/elfutils/
 Description: Library for debuginfod
 
+Package: libdmtx
+Version: 0.7.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Filename: pool/main/libd/libdmtx/libdmtx_0.7.8-1_aarch64.deb
+Size: 42092
+MD5sum: 936e1c9ef63ba9060ab2618c7f73d9c7
+SHA1: 33fae1d2acabbf2b4bcaa41b5ea651e43fe63714
+SHA256: 49cfde89971e4e96dd3353b4c34f165940812c1db528b3e006cff735e6e1da54
+Homepage: https://github.com/dmtx/libdmtx
+Description: A software library that enables programs to read and write Data Matrix barcodes
+
+Package: libdmtx-static
+Version: 0.7.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libdmtx (= 0.7.8-1)
+Filename: pool/main/libd/libdmtx-static/libdmtx-static_0.7.8-1_aarch64.deb
+Size: 34880
+MD5sum: 240183430727cb8ac5b428fb20b55655
+SHA1: 3126db4a65dfc3900f44be6356895d81485783d8
+SHA256: a11a08fb553b8ddce1751ecb4e48714e35ed1356fa149c27cafb786cf12551b9
+Homepage: https://github.com/dmtx/libdmtx
+Description: Static libraries for libdmtx
+
 Package: libdvbcsa
 Version: 1.1.0-3
 Architecture: aarch64
@@ -8479,6 +8628,35 @@ SHA1: ca39145391db6946dc71110a44436594518d8b44
 SHA256: 42b52a18f785ed31bf1dfc9aedabd45a56b76f896589a4a0bc592b57ea35bd9c
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for libopus
+
+Package: libpcap
+Version: 1.10.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Breaks: libpcap-dev
+Replaces: libpcap-dev
+Filename: pool/main/libp/libpcap/libpcap_1.10.5-1_aarch64.deb
+Size: 228624
+MD5sum: 31efe8d34166aede723f0d7ad4f645f2
+SHA1: d0ee31d1f323598cd96e13516614c7f9343929f3
+SHA256: b3a211c378166174ebff4e37f7e6bfb28ed543ff221cbf241adc8341badb680c
+Homepage: https://www.tcpdump.org
+Description: Library for network traffic capture
+
+Package: libpcap-static
+Version: 1.10.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: libpcap (= 1.10.5-1)
+Filename: pool/main/libp/libpcap-static/libpcap-static_1.10.5-1_aarch64.deb
+Size: 101748
+MD5sum: 9a49a1294f2dd73065cbc9169ae08768
+SHA1: 286c4b3c049e74049aa454fe084518f6ed5490da
+SHA256: 7ac498d8b74abe583c85ca3011b8a885e2f996f652c1f9c3ee7e11d78b123bd5
+Homepage: https://www.tcpdump.org
+Description: Static libraries for libpcap
 
 Package: libpcreposix
 Version: 8.45-2
