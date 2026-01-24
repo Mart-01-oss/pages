@@ -3415,6 +3415,20 @@ SHA256: 922aa4708de5bb7338a820ddd5df054f001179b71c26fadd2e75fd66291f36d0
 Homepage: http://e-x-a.org/codecrypt/
 Description: The post-quantum cryptography tool
 
+Package: codon
+Version: 0.19.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136700
+Depends: libc++, libxml2, zlib, zstd
+Filename: pool/main/c/codon/codon_0.19.3_aarch64.deb
+Size: 24757220
+MD5sum: 3aca38554392627f751aa573ffe662e3
+SHA1: 84183754549b3eafe77cc6881b9187b325173e58
+SHA256: 2edffcf4e8dd286b3d4e2b0d296cc4c2ce34999bb0455cb0521bea4e656bcd90
+Homepage: https://github.com/exaloop/codon
+Description: A high-performance, zero-overhead, extensible Python compiler using LLVM
+
 Package: coinor-cbc
 Version: 2.10.12-1
 Architecture: aarch64
@@ -4099,6 +4113,19 @@ SHA256: 5bdc7615c9646049c609149761cacbe91d2fa618df996d70ea939a56f88921ea
 Homepage: https://unix4lyfe.org/darkhttpd
 Description: A simple webserver, implemented in a single .c file.
 
+Package: dart
+Version: 3.9.3
+Architecture: aarch64
+Maintainer: @0x1ACA663
+Installed-Size: 378228
+Filename: pool/main/d/dart/dart_3.9.3_aarch64.deb
+Size: 88503896
+MD5sum: 9d812432fff5958fa227884d55c36a2a
+SHA1: 1f83512ba1977c4ce8b3761dda8fa5ff2473d397
+SHA256: 0dbe75aba1122a4978af5acc3c9c175ccde10bb92b173c550ba14327cb70830b
+Homepage: https://dart.dev/
+Description: Dart is a general-purpose programming language
+
 Package: dasel
 Version: 2.8.1-1
 Architecture: aarch64
@@ -4278,6 +4305,20 @@ SHA1: 39e5b131312f0b37cfa9eed79b08424c37b46ae2
 SHA256: 6dacd746340d837853fbab8207c9ca55b31e225cd51c8d521933f969bfb35bed
 Homepage: https://github.com/go-delve/delve
 Description: A debugger for the Go programming language
+
+Package: deno
+Version: 1:2.4.5
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 95068
+Depends: libandroid-stub, libffi, libsqlite, zlib
+Filename: pool/main/d/deno/deno_1+2.4.5_aarch64.deb
+Size: 28497044
+MD5sum: 74ad1350899fb5ae5347a3de76bca3a8
+SHA1: ee5105e6d2223ec6eaee6e894fd38722cfaab02c
+SHA256: 48293d73ef4b4a44a031bc4a056654766bc6f23a7c47dc2f492f1e5a5c663dfb
+Homepage: https://deno.land/
+Description: A modern runtime for JavaScript and TypeScript
 
 Package: desed
 Version: 1.2.2-1
@@ -4995,6 +5036,20 @@ SHA256: daec21dadeddec9fea6f4167582620f7ec7034ca2ca841856341b1e89033dfe1
 Homepage: https://git.kernel.org/pub/scm/utils/dtc/dtc
 Description: Static libraries for dtc
 
+Package: dte
+Version: 1.11.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: libandroid-support, libandroid-glob, libiconv
+Filename: pool/main/d/dte/dte_1.11.1-2_aarch64.deb
+Size: 145900
+MD5sum: fa90197ced8ed773045bebd9a189eac2
+SHA1: afdde6fdc89195f7ae7055c51adcf89e43d534b9
+SHA256: 797b67f414554e32e1387e98349fb2a44663743f7264eb2afcda358b5a827e24
+Homepage: https://craigbarnes.gitlab.io/dte/
+Description: A small, configurable console text editor
+
 Package: dua
 Version: 2.32.0
 Architecture: aarch64
@@ -5007,6 +5062,114 @@ SHA1: b02e3ae9c17cfafb42a6bc93135c3c394b984b64
 SHA256: a59e0612aa9fbc3e72d7e10274350f0c7a0f5cfea7ec3adb6d0273960ad8d02c
 Homepage: https://github.com/Byron/dua-cli
 Description: View disk space usage and delete unwanted data, fast
+
+Package: duc
+Version: 1.4.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: leveldb, ncurses
+Filename: pool/main/d/duc/duc_1.4.5-1_aarch64.deb
+Size: 44052
+MD5sum: 911198c53651861b3da222a26e01a97e
+SHA1: 6bcff3885fa496923b0ce9ebbebfae3d6090b5ff
+SHA256: a8ddf9f1a20d5f73d02ad9da949e70226023c8e895f911e861173db72a67ac4b
+Homepage: http://duc.zevv.nl/
+Description: High-performance disk usage analyzer
+
+Package: duf
+Version: 0.9.1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 3412
+Filename: pool/main/d/duf/duf_0.9.1_aarch64.deb
+Size: 890488
+MD5sum: 2f967bcb78f04f958d2c244d2866a812
+SHA1: a15b3b93c18c7b7e46f6848c8bca71c661311d5e
+SHA256: 2cf0d7f71113023d0b259db8ad2e95195772cce286deb2975f81d5b1278910d2
+Homepage: https://github.com/muesli/duf
+Description: Disk usage/free utility
+
+Package: dufs
+Version: 0.45.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3912
+Filename: pool/main/d/dufs/dufs_0.45.0_aarch64.deb
+Size: 1499332
+MD5sum: 992cba6d61d698b19519ae2171e72f19
+SHA1: 7a0a82196334fe3dcbfd2b4ac31cfa562256f4e8
+SHA256: 35fee1989dd1a4c3514288fe734c98097e61428059413d4e34f1994e5f76a2d3
+Homepage: https://github.com/sigoden/dufs
+Description: A file server that supports static serving, uploading, searching, accessing control, webdav...
+
+Package: dust
+Version: 1.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2776
+Filename: pool/main/d/dust/dust_1.2.3-1_aarch64.deb
+Size: 823208
+MD5sum: ae2bf575e98bb439f3e3766a50a3230f
+SHA1: 1826179b5191f0744258a91a44b13a3b224231ed
+SHA256: f6943547811536ce7db5ba6f5d6e2cec9fac32e22363c95f4acb8339feebbb2c
+Homepage: https://github.com/bootandy/dust
+Description: A more intuitive version of du in rust
+
+Package: dvdauthor
+Version: 0.7.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 612
+Depends: fontconfig, freetype, fribidi, graphicsmagick, libdvdread, libpng, libxml2
+Filename: pool/main/d/dvdauthor/dvdauthor_0.7.2-4_aarch64.deb
+Size: 150724
+MD5sum: 4fa425bbe60217b3502d2bf946088465
+SHA1: 80241bd2fab825ba1c2a67bc3f2c95d79cd7cbed
+SHA256: 6d514b3bd6a4234114c9cc9ffb001d8e99bceb97f44c6851765797692cb0589b
+Homepage: https://dvdauthor.sourceforge.net/
+Description: Generates a DVD-Video movie from a valid MPEG-2 stream
+
+Package: dvtm
+Version: 0.15-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: ncurses
+Filename: pool/main/d/dvtm/dvtm_0.15-4_aarch64.deb
+Size: 25308
+MD5sum: 76c7366d2fd7c7f59b036b35a08dcaf5
+SHA1: 8e36985146e51ed10fec2f2efd91b66d767fab7e
+SHA256: 9a3871e1375c017af305c1b0f8a3df9363f4c129f985aa39665efaf3f5f3a5d3
+Homepage: https://github.com/martanne/dvtm
+Description: Terminal tiling window manager
+
+Package: dwarves
+Version: 1.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1052
+Depends: argp, libdw, libelf, zlib
+Filename: pool/main/d/dwarves/dwarves_1.30-1_aarch64.deb
+Size: 292032
+MD5sum: 1879059f07cf195470f958952d76d642
+SHA1: 564ed2721cfdcc0bfaac621af932024d96d7d2c0
+SHA256: fbb49ba78acca3b2e614a99461bfbeb57908e055a50c8683a2664c25357a4e58
+Homepage: https://git.kernel.org/cgit/devel/pahole/pahole.git/
+Description: Pahole and other DWARF utils
+
+Package: dx
+Version: 1:1.16-7
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1472
+Filename: pool/main/d/dx/dx_1+1.16-7_all.deb
+Size: 1433596
+MD5sum: 6894f7a4c3d10e5d6ef872c676059371
+SHA1: d4fd194ea431f450751b4df92ddf28b164f5ffdb
+SHA256: 5ad307374bbd50610db03515969cd42622dfbd2e4648c1c811e0dc972ab098d4
+Homepage: http://developer.android.com/tools/help/index.html
+Description: Command which takes in Java class files and converts them to format executable by Dalvik VM
 
 Package: e2fsprogs
 Version: 1.47.3-1
@@ -5778,6 +5941,36 @@ SHA256: b776a02c7afb7046a5fcc16089fc13ed85a7abd25ccf65e1c4cca60fedae07cb
 Homepage: https://www.gnupg.org/
 Description: GNU privacy guard - signature verification tool
 
+Package: graphicsmagick
+Version: 1.3.45-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12688
+Depends: freetype, libbz2, libc++, libde265, libheif, libjasper, libjpeg-turbo, libjxl, liblzma, libpng, libtiff, libwebp, libxml2, littlecms, zlib, zstd
+Breaks: graphicsmagick-dev
+Replaces: graphicsmagick++, graphicsmagick-dev
+Filename: pool/main/g/graphicsmagick/graphicsmagick_1.3.45-4_aarch64.deb
+Size: 2132448
+MD5sum: 39d2073fc6e5c5e72908e703421bc19a
+SHA1: 053897b629d657b2ba225ad254a6e482c55c300e
+SHA256: 89042927c59f3141eb2de37bbb9bb209d15b84806936218df6940d83d06d96ec
+Homepage: http://www.graphicsmagick.org/
+Description: Collection of image processing tools
+
+Package: graphicsmagick-static
+Version: 1.3.45-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5172
+Depends: graphicsmagick (= 1.3.45-4)
+Filename: pool/main/g/graphicsmagick-static/graphicsmagick-static_1.3.45-4_aarch64.deb
+Size: 1041324
+MD5sum: a61b4e2d7679282f18cd46323fd9a53e
+SHA1: e56d36a18424386cb49b3d91be18f23e4e074d4a
+SHA256: 28bd16000e5a4f87cfeb86cec793afd063240e6a907a8a6634eaa8ca9b45c4cc
+Homepage: http://www.graphicsmagick.org/
+Description: Static libraries for graphicsmagick
+
 Package: graphviz
 Version: 14.0.0
 Architecture: aarch64
@@ -6194,6 +6387,22 @@ SHA1: 46dcf5da8164c4bd0d5799e2b9a7633f3556a1a6
 SHA256: f780206b1d14987cb4e798dfc7bee0bf0c60291b8287ad7c3e5fe7208d0d128e
 Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
+
+Package: leveldb
+Version: 1.23-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: libc++, libsnappy
+Breaks: leveldb-dev
+Replaces: leveldb-dev
+Filename: pool/main/l/leveldb/leveldb_1.23-4_aarch64.deb
+Size: 110044
+MD5sum: 7b86c88d12cf6db60224da7d7af1d771
+SHA1: d1ec1aff5f008157a637e97baa3591489bd44314
+SHA256: 0cb8fe0253875b806b5fa98df8daf4cba4a9bc151c2cfecb9b25f2b2d50733d5
+Homepage: https://github.com/google/leveldb
+Description: Fast key-value storage library
 
 Package: liba52
 Version: 0.8.0-3
@@ -7206,6 +7415,33 @@ SHA1: ffdc2c9efef687b4691b0a7b390584c3ce060c90
 SHA256: 82570fe731a2bcb441186c8b15f662c4f7d5a1a8fd397d766df9280b7049244c
 Homepage: https://www.videolan.org/developers/libdvbcsa.html
 Description: Static libraries for libdvbcsa
+
+Package: libdvdread
+Version: 6.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 376
+Filename: pool/main/libd/libdvdread/libdvdread_6.1.3-1_aarch64.deb
+Size: 87652
+MD5sum: c133d04f36bcd3592d005177ce6ae9b8
+SHA1: 31176545354785ecf46fc24569ea6f1cffd18fab
+SHA256: 3584d9751a2e36bbad7837390fa6c38366d6ea71ca0e3cce959de638ab0ba9ee
+Homepage: https://code.videolan.org/videolan/libdvdread
+Description: A library that allows easy use of sophisticated DVD navigation features
+
+Package: libdvdread-static
+Version: 6.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libdvdread (= 6.1.3-1)
+Filename: pool/main/libd/libdvdread-static/libdvdread-static_6.1.3-1_aarch64.deb
+Size: 43472
+MD5sum: 87b5bf16444d878707aabbbc30a38b4a
+SHA1: be450286a251580362e58fc575ed0148dccbb9c1
+SHA256: 90140db6ec64696d506e6d5ec19b08222de92232459b176e841925374bb13e9e
+Homepage: https://code.videolan.org/videolan/libdvdread
+Description: Static libraries for libdvdread
 
 Package: libdw
 Version: 0.193-1
@@ -9263,6 +9499,19 @@ SHA1: 61e10001544b90fecaaaa2e7d6bf3848b0bfea88
 SHA256: b7931cc9e006098f51d58607406c8ab94bc5f7a3743b4b29086d3f73244800f7
 Homepage: https://github.com/librsync/librsync
 Description: Remote delta-compression library
+
+Package: librusty-v8
+Version: 1:2.4.5
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 126904
+Filename: pool/main/libr/librusty-v8/librusty-v8_1+2.4.5_aarch64.deb
+Size: 14628648
+MD5sum: 85c1c8c5b0f88e99a5cc49a820b542b2
+SHA1: 4474dafab77f7231b2fa712427be9136210f7623
+SHA256: a2e6ca97743014f69426d730b3fc540c492adb6a1ebd4e4d26f7644fe761326a
+Homepage: https://deno.land/
+Description: High quality Rust bindings to V8's C++ API
 
 Package: libsamplerate
 Version: 0.2.2-3
