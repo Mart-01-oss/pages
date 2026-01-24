@@ -4333,6 +4333,34 @@ SHA256: c2dee34aa4ec4528bf3911a3f5da6dd28a8bef1b36ea10d43b34ab7d9e463301
 Homepage: https://github.com/so-fancy/diff-so-fancy
 Description: Good-lookin' diffs. Actually... nah... The best-lookin' diffs
 
+Package: diffstat
+Version: 1.68-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/d/diffstat/diffstat_1.68-1_aarch64.deb
+Size: 21908
+MD5sum: b3160b72e4bb2ab52df55b5e197d4ef5
+SHA1: 304c9cb7055c6ade9751efbb4cd05c2f4b45c5db
+SHA256: e0a69119998e5843dbed04d3f5fe6dc348da5050b38020923811f84dee543fdb
+Homepage: https://invisible-island.net/diffstat/diffstat.html
+Description: Displays a histogram of changes to a file
+
+Package: difftastic
+Version: 0.65.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 109720
+Depends: libc++
+Recommends: file
+Filename: pool/main/d/difftastic/difftastic_0.65.0_aarch64.deb
+Size: 6233024
+MD5sum: 5149e52d4aa0b9c99723559822ac4c50
+SHA1: 346797da933dcb3386afc5fe1c25840fe32a4367
+SHA256: 11b3e58f952ad039afcf67c6aee3c781584380f8f777f4918caeb01411476d77
+Homepage: https://github.com/Wilfred/difftastic
+Description: difft: A structural diff that understands syntax
+
 Package: diffutils
 Version: 3.12-2
 Architecture: aarch64
@@ -4347,6 +4375,101 @@ SHA1: 7db533f2528fc6796aae1dbb8e626855b306e359
 SHA256: ef7f74790d89dc4eb73fe9389b2d6b18990cd99f6dd3a8629aaee89e916d037f
 Homepage: https://www.gnu.org/software/diffutils/
 Description: Programs (cmp, diff, diff3 and sdiff) related to finding differences between files
+
+Package: dirb
+Version: 2.22-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1588
+Depends: libcurl
+Filename: pool/main/d/dirb/dirb_2.22-5_aarch64.deb
+Size: 193044
+MD5sum: aa1f1acccfd76fdfd5a32d0b919fe5b1
+SHA1: 40e24765bc366ec73cd1aca90c637fe80c7877f1
+SHA256: 96889ec35f36b9a0b1f9c78c4a105fba4750dd743242d2e0e11f368f5050aace
+Homepage: https://dirb.sourceforge.net/
+Description: Web Directory Fuzzer
+
+Package: direnv
+Version: 2.37.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8328
+Filename: pool/main/d/direnv/direnv_2.37.1-1_aarch64.deb
+Size: 2331756
+MD5sum: 28cf2bd36f469f1ea0d9ca95e22f9805
+SHA1: 6793e24a24a6414debb20d034cbdfb976e5801b0
+SHA256: 007b7e3967f69cdfbd51c5df8226b6dee4899900dbcedfeb75fca4902159794b
+Homepage: https://github.com/direnv/direnv
+Description: Environment switcher for shell
+
+Package: direvent
+Version: 5.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libandroid-glob
+Filename: pool/main/d/direvent/direvent_5.4-1_aarch64.deb
+Size: 95820
+MD5sum: f7f87f5adaf4708971f73e4acd35285a
+SHA1: a0bd48f1932767fd072b1368c7a56c1ceed9d156
+SHA256: fbc024ebff53571cc3cd225052c23945d14b49bb41593415b8513ebc6d8eb85b
+Homepage: https://www.gnu.org.ua/software/direvent/
+Description: Monitor of events in file system directories
+
+Package: discordo
+Version: 2025.08.06
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10740
+Filename: pool/main/d/discordo/discordo_2025.08.06_aarch64.deb
+Size: 2832436
+MD5sum: 7ac10cf0f8601aeff2367a4690a639b8
+SHA1: e2ca4c90f51ebf8cc8e79cda4f0f52987556ff9c
+SHA256: 0e7d4415bdbe68330482737e9ea56627a4fb81b51db6df1f8e44399739f5fe47
+Homepage: https://github.com/ayntgl/discordo
+Description: A lightweight, secure, and feature-rich Discord terminal client
+
+Package: diskus
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Filename: pool/main/d/diskus/diskus_0.8.0-1_aarch64.deb
+Size: 300204
+MD5sum: 9ef75922668cc8246528d5226dc0d88a
+SHA1: d0deb49436b5c33bdf898d0b110b7fcd7ec1b291
+SHA256: ef3465839996e771eea85db4c4f9e2cc3fd6989dbca171489ac8caa60415c04b
+Homepage: https://github.com/sharkdp/diskus
+Description: A minimal, fast alternative to 'du -sh'
+
+Package: distant
+Version: 1:0.20.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7844
+Depends: libssh2, openssl, zlib
+Filename: pool/main/d/distant/distant_1+0.20.0-3_aarch64.deb
+Size: 2731372
+MD5sum: 71fc1a6893be9d3793763f756a1aa3ee
+SHA1: 6a5506054f48e4210c320091d2a6a68b66d0b90c
+SHA256: 16e23d5079147b32d2cceba30d9d1b59b31d31c58417eaaf9b50030bb8ce17c8
+Homepage: https://github.com/chipsenkbeil/distant
+Description: Library and tooling that supports remote filesystem and process
+
+Package: distcc
+Version: 3.4-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: libpopt
+Filename: pool/main/d/distcc/distcc_3.4-4_aarch64.deb
+Size: 161036
+MD5sum: a2abd19a1bec573abd915e90fc3c1b9f
+SHA1: 76f64efcb7b6322a5103d6c95936d8d97e1af2ad
+SHA256: e9ff33cd52bfa78e1d0f87166b6c64ef65419eb2d7370670f287b3b12f5b9fd6
+Homepage: http://distcc.org/
+Description: Distributed C/C++ compiler
 
 Package: djvulibre
 Version: 3.5.29-1
