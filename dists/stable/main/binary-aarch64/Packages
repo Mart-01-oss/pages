@@ -5368,6 +5368,160 @@ SHA256: 506273bfb8508b41b7126910421e8a1981db1b9a587e365e9adf9b8553955f0d
 Homepage: https://github.com/rkd77/elinks
 Description: Full-Featured Text WWW Browser
 
+Package: eltclsh
+Version: 1.20-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 220
+Depends: libandroid-support, libedit, tcl
+Suggests: tk
+Filename: pool/main/e/eltclsh/eltclsh_1.20-1_aarch64.deb
+Size: 31136
+MD5sum: 7ded00d1792f7b2da324e0fc2aaa205e
+SHA1: 9df21d52bb033b1b13d64c03f17a5bb1d749b5ce
+SHA256: 8eb7c70e5a9af245d2d9461abd0d7ab4ffeecb5f2e42d9efdcd680cc4b8684bd
+Homepage: https://homepages.laas.fr/mallet/soft/shell/eltclsh
+Description: Interactive shell for TCL programming language
+
+Package: elvish
+Version: 0.21.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10208
+Filename: pool/main/e/elvish/elvish_0.21.0-1_aarch64.deb
+Size: 2638712
+MD5sum: 7c977ba912ab7ac274787ee0cf8b3125
+SHA1: ca8c3d1760bccf10dbb57b08d6c407a9af098d05
+SHA256: 3010875b25c0fd73748254a115861794d4f13c202f015d5906c2c15dea4b7831
+Homepage: https://github.com/elves/elvish
+Description: A friendly and expressive Unix shell
+
+Package: emacs
+Version: 30.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 125280
+Depends: libgmp, libgnutls, libsqlite, libxml2, ncurses, tree-sitter, zlib
+Breaks: emacs-dev
+Replaces: emacs-dev
+Filename: pool/main/e/emacs/emacs_30.2_aarch64.deb
+Size: 44213880
+MD5sum: a94901fa089da08323f98e5d6e9e67e5
+SHA1: 8e70f24cc67e2e3e0b6a922c87f17c05cb6d99ac
+SHA256: 630e2afa65dcf9a2b6ae7a76adf087cad0dbb9f693469f24e0c884fad70292c2
+Homepage: https://www.gnu.org/software/emacs/
+Description: Extensible, customizable text editor-and more
+
+Package: enblend
+Version: 4.2.0p20161007-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4836
+Depends: gsl, libandroid-glob, libc++, libtiff, libvigra, littlecms
+Filename: pool/main/e/enblend/enblend_4.2.0p20161007-7_aarch64.deb
+Size: 798656
+MD5sum: a69f3295993a533ca8b86ab350181ee0
+SHA1: 9ff78edf522a964e1240d82eecd7184839bb110f
+SHA256: 0a527fb6559ad8a286dd3e8cff3b866843c0267c9f36b0894d3601b0bd789c62
+Homepage: https://enblend.sourceforge.net/
+Description: A tool for compositing images using a Burt&Adelson multiresolution spline
+
+Package: enchant
+Version: 2.8.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: aspell, glib, hunspell, libc++
+Filename: pool/main/e/enchant/enchant_2.8.12-1_aarch64.deb
+Size: 58864
+MD5sum: ae71fbc2590113a9c0a5611842657f8b
+SHA1: fe0733741f96353165863fcfd4e59c8de220b324
+SHA256: aa738978f728351fa9386ad4dccdbe41adc71a85aff7a4c37b0bccc093cc5401
+Homepage: https://rrthomas.github.io/enchant/
+Description: Wraps a number of different spelling libraries and programs with a consistent interface
+
+Package: enchant-static
+Version: 2.8.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: enchant (= 2.8.12-1)
+Filename: pool/main/e/enchant-static/enchant-static_2.8.12-1_aarch64.deb
+Size: 25452
+MD5sum: 35564330a857173de10e2bbce2328187
+SHA1: 60ebb9c3c8ca811a2a3bbdd6cba0e4aa726a868f
+SHA256: b2ed8bc859a56cd57a003044a4dd1634b5c2df3625ebd8fcde8938bcc1aa2926
+Homepage: https://rrthomas.github.io/enchant/
+Description: Static libraries for enchant
+
+Package: enscript
+Version: 1.6.6-13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1968
+Depends: cups, perl
+Filename: pool/main/e/enscript/enscript_1.6.6-13_aarch64.deb
+Size: 271920
+MD5sum: a03026538b43ce270a6bbedea8204b6d
+SHA1: c7e5c6c019d617c6eccf57bff29a2777421156df
+SHA256: 5a7824c2464549990abce93ddde70f531fb265cd5fe359ddade3408ab3137440
+Homepage: https://www.gnu.org/software/enscript/
+Description: Enscript converts ASCII text files to PostScript, HTML, RTF, ANSI and overstrikes
+
+Package: entr
+Version: 5.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Filename: pool/main/e/entr/entr_5.7-1_aarch64.deb
+Size: 12296
+MD5sum: d0ad8263b9d8729efb19dbcdf1abd895
+SHA1: cb1e91549a57e4cd1961e899ed9b050d229cc6e7
+SHA256: c717e2ddf09cd3b8f30df2470ccfc6c9d7fea2d0a5829b44075c7b1a29192462
+Homepage: https://eradman.com/entrproject/
+Description: Event Notify Test Runner - run arbitrary commands when files change
+
+Package: erlang
+Version: 28.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 117716
+Depends: libc++, openssl, ncurses, zlib
+Filename: pool/main/e/erlang/erlang_28.1_aarch64.deb
+Size: 44550812
+MD5sum: 40e76420954ca49ad75a62c1dd72b426
+SHA1: 77cee4f82b0ec62a0df655e30a3286bd0d593f33
+SHA256: 9215a06adcc7f5e48ddffc8f799dd9bbf73113363a1a08c5f2d3762a5c4f22bd
+Homepage: https://www.erlang.org/
+Description: General-purpose concurrent functional programming language
+
+Package: erlang-doc
+Version: 28.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 94416
+Depends: erlang (= 28.1)
+Filename: pool/main/e/erlang-doc/erlang-doc_28.1_all.deb
+Size: 15922008
+MD5sum: fbbf5a5342d3a00b2b6eb2ff889783dd
+SHA1: d8052c52326cfe95e61ecf46e21b6baeaf0836ea
+SHA256: 29406cb5c117a4f1473984da0eed1cb86b0e8a669949b49be05b50d3a9ebf2f7
+Homepage: https://www.erlang.org/
+Description: Erlang HTML documentation
+
+Package: esbuild
+Version: 0.25.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10956
+Filename: pool/main/e/esbuild/esbuild_0.25.10_aarch64.deb
+Size: 3134500
+MD5sum: 3105616df1dcb64883ff6e9029145870
+SHA1: e3aa5dd7e9e6966a1671b917dc8b133abd354cdf
+SHA256: c9d4f8eb6173f60ed0a12b424683933717113c1bc082081aa073e834c85e35dc
+Homepage: https://esbuild.github.io/
+Description: An extremely fast JavaScript bundler
+
 Package: fdisk
 Version: 2.40.2-5
 Architecture: aarch64
@@ -6197,6 +6351,35 @@ SHA256: af7c38a75b150f3e2940812596b460616d7ecc8d11d7cff173aec0a1be1d9220
 Homepage: https://www.gnu.org/software/groff/
 Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
 
+Package: gsl
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6764
+Breaks: gsl-dev
+Replaces: gsl-dev
+Filename: pool/main/g/gsl/gsl_2.8-1_aarch64.deb
+Size: 1233316
+MD5sum: 858539c4d9a34cc9dc6568349e331305
+SHA1: e704393c571e5d78797c2d88cc2d126bbd9f0a73
+SHA256: 908014d4e62842de869099c5abb7da847b7aad247d3ba04e37150f3b024c3b16
+Homepage: https://www.gnu.org/software/gsl/
+Description: GNU Scientific Library (GSL) providing a wide range of mathematical routines
+
+Package: gsl-static
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5184
+Depends: gsl (= 2.8-1)
+Filename: pool/main/g/gsl-static/gsl-static_2.8-1_aarch64.deb
+Size: 908024
+MD5sum: d7daa16faa8fa1fbae09c0a57072405a
+SHA1: 745da14fcb2d6764e6ea2d69a56f4bf138d96137
+SHA256: 8bdc41d0069dfb72ed8214736be38eed890645cc768eaea10c6c7671af8e36df
+Homepage: https://www.gnu.org/software/gsl/
+Description: Static libraries for gsl
+
 Package: guile
 Version: 3.0.9-3
 Architecture: aarch64
@@ -6287,6 +6470,49 @@ SHA1: 755f10c834f701c055a0fc9635dadea7e28f9d59
 SHA256: c99eb3d26597524ce2577f71b4b25b4dcb049efe6bd70f8ba332385c30e35ac4
 Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 Description: Tools using the harfbuzz library
+
+Package: hunspell
+Version: 1.7.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1236
+Depends: libc++, libiconv, ncurses, readline, hunspell-en-us
+Breaks: hunspell-dev
+Replaces: hunspell-dev
+Filename: pool/main/h/hunspell/hunspell_1.7.2-1_aarch64.deb
+Size: 233168
+MD5sum: cfb96fe8b51ebeea75b38d338a25f17b
+SHA1: 65ea02181585235edfe4a5de5110f28ff75dbd26
+SHA256: 1ca90fec88cbd1397ede2b37f2f7e8d173abcba1b8e13fab7b213ef876be1a68
+Homepage: https://hunspell.github.io
+Description: Spell checker
+
+Package: hunspell-en-us
+Version: 20240129
+Architecture: all
+Maintainer: @termux
+Installed-Size: 584
+Filename: pool/main/h/hunspell-en-us/hunspell-en-us_20240129_all.deb
+Size: 162184
+MD5sum: 168c4383769354ccec676697775f5439
+SHA1: 7a36eb8de3e06e6446138cc40548947916fb699f
+SHA256: b74665b4a84ef0bf18e17b655e651bda8d576d28468cc8ddb1a44cc863c20c84
+Homepage: https://hunspell.github.io
+Description: American english dictionary for hunspell
+
+Package: hunspell-static
+Version: 1.7.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1876
+Depends: hunspell (= 1.7.2-1)
+Filename: pool/main/h/hunspell-static/hunspell-static_1.7.2-1_aarch64.deb
+Size: 233708
+MD5sum: 054df62cb19ea1ee0e407e7026b6e7b6
+SHA1: 44fe8752e03f2e297dd83e694d3bd1a3af78b4f9
+SHA256: 01e7ab5ea474cce3aa46e70fb3e11b1f7e11049bf2b6b46c9363410b68eb34a8
+Homepage: https://hunspell.github.io
+Description: Static libraries for hunspell
 
 Package: iconv
 Version: 1.18-1
@@ -8079,6 +8305,36 @@ SHA1: 1a3ce04b50ebc65fbc91103488e13a0e2b522093
 SHA256: 123eca011d05bd887b7971f0c6207d5d40d5b311822ab80c14dfb7037adc86e6
 Homepage: https://gts.sourceforge.net/
 Description: Static libraries for libgts
+
+Package: libhdf5
+Version: 1.14.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8272
+Depends: libc++, zlib
+Breaks: libhdf5-dev
+Replaces: libhdf5-dev
+Filename: pool/main/libh/libhdf5/libhdf5_1.14.4.3-1_aarch64.deb
+Size: 1654268
+MD5sum: e77ca05a7c2ad3c721d0157dc96de3e2
+SHA1: 0ae6e9ca74207b09ca9067eb83ace219faa6dbbd
+SHA256: 331f0b5b7a342d2d9e3390b047e4bbc6659222100556875bb8f0a3236874df1e
+Homepage: https://portal.hdfgroup.org/display/support
+Description: Hierarchical Data Format 5 (HDF5)
+
+Package: libhdf5-static
+Version: 1.14.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13780
+Depends: libhdf5 (= 1.14.4.3-1)
+Filename: pool/main/libh/libhdf5-static/libhdf5-static_1.14.4.3-1_aarch64.deb
+Size: 1631636
+MD5sum: 73d65277f7dbb62c507bedc341cb413e
+SHA1: 91a5c5d447636fc5a49d21e1455c40ba3131a7c2
+SHA256: c4309302894fa8f0a8532e658bb32f6e4cb88e0b8e5f9c422a145743fa5e013e
+Homepage: https://portal.hdfgroup.org/display/support
+Description: Static libraries for libhdf5
 
 Package: libheif
 Version: 1.20.2
@@ -10437,6 +10693,20 @@ SHA1: 962464886b9414a94b4827136d40436a9b76a90c
 SHA256: dee4cc10efc32172497c816033032e7ca2284d5bcec8f8a7ecb84c3131f2ccdb
 Homepage: https://github.com/georgmartius/vid.stab
 Description: video stabilization library
+
+Package: libvigra
+Version: 1.12.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7956
+Depends: imath, libc++, libhdf5, libjpeg-turbo, libpng, libtiff, openexr, zlib
+Filename: pool/main/libv/libvigra/libvigra_1.12.2-2_aarch64.deb
+Size: 925360
+MD5sum: 75c7503d4a7a4c79afdb7807076110e0
+SHA1: 0050a96eb19b5478679a52db4f605d369002756b
+SHA256: a115e2efaeae3f14f28c1153b636989b438591f8b6d1628258a1a53d02fdd6c0
+Homepage: https://ukoethe.github.io/vigra/
+Description: Computer vision library
 
 Package: libvmaf
 Version: 3.0.0-2
@@ -13356,6 +13626,35 @@ SHA1: 9005c1692c578a2293524a5e53814bbb6a5df020
 SHA256: 8ca132577aabd857ee1edd888e5ea9081efacc1e1c8d52e391163b307a011ce5
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
+
+Package: tree-sitter
+Version: 0.25.10-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 7912
+Breaks: libtreesitter
+Replaces: libtreesitter
+Filename: pool/main/t/tree-sitter/tree-sitter_0.25.10-1_aarch64.deb
+Size: 2005824
+MD5sum: be60e11748b4a09bce7ce10a47653832
+SHA1: 21be0274b5846d4f90af83c80ba433cf33bd5938
+SHA256: 6f5866e358870fe5a761f511612eda1ae270635704e55ce7de4fa023b1318ba1
+Homepage: https://tree-sitter.github.io/
+Description: An incremental parsing system for programming tools
+
+Package: tree-sitter-static
+Version: 0.25.10-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 320
+Depends: tree-sitter (= 0.25.10-1)
+Filename: pool/main/t/tree-sitter-static/tree-sitter-static_0.25.10-1_aarch64.deb
+Size: 80676
+MD5sum: d999b56ebcb22f647ce0939d52d9ba95
+SHA1: e60f4ee45f609fd376cdf198ebda745dee6d4750
+SHA256: 3a1e177644e11bd8491353cdcab0700494edbf43ee70acb84533fbf45e5fa197
+Homepage: https://tree-sitter.github.io/
+Description: Static libraries for tree-sitter
 
 Package: ttf-dejavu
 Version: 2.37-8
