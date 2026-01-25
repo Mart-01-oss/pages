@@ -5,39 +5,39 @@ Origin: com.neonide.studio
 Label: com.neonide.studio
 Suite: stable
 Codename: stable
-Date: Sun, 25 Jan 2026 00:30:39 +0000
+Date: Sun, 25 Jan 2026 00:55:43 +0000
 Architectures: aarch64
 Components: main
 Description: NeonIDE APT repo
 MD5Sum:
- 2af3651eaec1a6bee7a588833c4c2e7b              200 Release
- 6f982ae8d3d9dfc0df0d7a344d762d8f           531729 main/binary-aarch64/Packages
- bedbd1b4d959d2eb88e496309ac4c730           179274 main/binary-aarch64/Packages.gz
+ 4f78ea3f6b130a223784edf2e3ab2ee1              200 Release
+ d5d2af7aa256fc96cf72628f8b13155d           547668 main/binary-aarch64/Packages
+ e22aa3ab744f3b6e41073f066d3046c9           184772 main/binary-aarch64/Packages.gz
 SHA1:
- c00dee04716bc1adb574a4f76bbd68f8d0d4bfc5              428 Release
- c6511e9203410974321860f1fac32a54d699b5ef           531729 main/binary-aarch64/Packages
- a65874b1fd1d8a9630d9439fc3a2a1cd08e8b957           179274 main/binary-aarch64/Packages.gz
+ 549b602981823d83ad8f93e872efbd9c94c47800              428 Release
+ 940723fa5fa8c0efa874b9e8b4ca48fd7ff9b481           547668 main/binary-aarch64/Packages
+ 3a232b0994b15cc4b74a7ee4964a7f35f4f8a047           184772 main/binary-aarch64/Packages.gz
 SHA256:
- f7bca843404105fb7b989e78eb3239bf37631b2558b7eeca659cd37770d89e66              682 Release
- 5554b8b3b662564ea035f0a18784367d2da5f74581fb0012e90c45ccbed347ed           531729 main/binary-aarch64/Packages
- d892fd5f19c4aa80afbc4515bd7cf439051a45367c1fc2210cb92be3ca61bf9d           179274 main/binary-aarch64/Packages.gz
+ 3286e8f31f39e2d8cfe0f5705a388d7ab5674be796d6ad8812c2376fd56ccf9f              682 Release
+ 31afe3649d704ef31622a5a15f98901b58f5c9c0b8c68fb2a2f013a155e40a9a           547668 main/binary-aarch64/Packages
+ 83d81c75ab93d8bef04395d7c079f1d01f06c058ba7713d54f048cc9efac1494           184772 main/binary-aarch64/Packages.gz
 SHA512:
- 558478b519e53e5ff150031406f68d5ece444d494582929d78ed80dcb1149744aa9cbf4d3a65c74f5fa98de96dc91d9efc063752573ce582c996e9120eb23c31             1008 Release
- f7bb4ac60a13ac1ee49169d0cae9d6b3081461da5139a4820f9c54f0fecb5fcd370b72b5f41483c10cd22e96af645cb4be229e9ce87c6dde17d94fbecb0321b1           531729 main/binary-aarch64/Packages
- 2453fdf7dd362fba4fd75766f158955eb52f9f59a1360822f5afe10c0eb7b9ae41ac96a9669a35094afbcabe56ced25231c9cab4cc2f54f8843bef4daa25b5ba           179274 main/binary-aarch64/Packages.gz
+ 007d4dad1a699193e9a67234aa6f93c14428294cc8932c1aecbd47be80df177f0a79c431047e1a2e3c6c6494779bb7f1a1ff74f7859362afbd88e6a952114762             1008 Release
+ 717fa5cce97dd70ff22c0a986e716e13a936a5ce7d3e5d29f2914eba4d745148dc1e6fe851885f7878c99ccb516e85c0defb921df734efc4e0566e9f65aed02c           547668 main/binary-aarch64/Packages
+ 97e3ad25272f446b2559e5c44144537d56a4d5cc2dcd0e3a0cb1d13d75d4c060129433a7f40bbdff1b70747a571036c852beb34bd4fd34430fe70abf30c089d4           184772 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExZc89leBly0JS53xCXP36mAqp9YFAml1ZC8ACgkQCXP36mAq
-p9ahLw//Y4o/Gwc3WTTEL9MX/ZdFquJz517ytqQptSQ3CXvLdvOMNV6XWloYTZIr
-4hxZbaL8xyoL0P9DHOAAy0JJZ1jkoUwKR8YuvlI3b6YABb101GErCkQ4JwghTsl6
-o9RoeWpSKyz4WDXzsByR0IcKTzwPf09qH96UeQMeSuqr3pNG91Qlqce4vYV87xsc
-cpMFNGGbJnM3FNuk8DzSj7yCawYjJGYOrg71Jtfrh/dsx+XKFy8K2gDWCRN+gbiS
-AhjNcN9eeUEerV2vmedn/FbFp/iv6YevyPq0iuTBiCdn5vcrTZVih4q4JaMHky5d
-fVtkX9oq/Pqoloca5uAsu2xHyUT4xDMi6fGt38lkHjxn9K8yAkRyKFKKUOD61DDf
-mIiiX731WPfGKAt6MIIXVQT2L2nAQxFrdpcWGd2ANP/AUB1B4efWV8nxqxAgqGQK
-4OAd/15dKO1rUNBlkyz6d+y1t5QyE2fBZk8MR60cs3F+QfG71i6yKlN8JjQ2zn7u
-36VwRrxdqe1Us3PihhffilzeHggZUXV/MwCY5D3+GqsvcfJOtLrua7/EbpIrnrKc
-y9zOD3eKsAsoW8jo2tILtvsMtuY+BoBVw7BduLyaZOW/5SD89E1GIE8JWDk0p8bq
-syYN+n2rWdtslbbsCLafjqmSiMfGRzijgtPTwOICzPdKvRewTy0=
-=a+qZ
+iQIzBAEBCgAdFiEExZc89leBly0JS53xCXP36mAqp9YFAml1ag8ACgkQCXP36mAq
+p9ajaxAAuX459ohtekCcdtzKPVJwm8jggUoyXm6Nf3lJGSdUQKKsH4250HRj7w5L
+DljlH6hZAcFrXCPbNlpnzgm8GnC1otcLAaYr1eMyKPznOLPrtm2KcsItB/qsRt2s
+HyczdORwQ/oeErB9pMfWU8vM3YU2D/gbD65IykiBLsSyRQ9Iog0Y+4au5ri7wOmz
+egrBpMlmffXOcnVYcmzZsXOTg7M8Fy0aVN7QVqjzgqf6EV0H6z2/nDW0eaoM0e79
+v//H5cdHQaqn+GqbhdTFwokTYNZTd7sSnKgoQU3nvEC4u3v5pnvoXmz4KDqy5Gii
+OZVoMhrKRtK2ypAKj8apy3Wd/pJypjKI/3f2LMkebkUVBO5VjWDN7f/cGmpyFOhn
+c7f2njrsPOLqQnOjMW6QeFc1c+MMnX2D/rGkn8CF1V7MCwzImEkHVe073Fh2yedF
+bFoXPgdJIHw7HVpnna94YqzQ2WkTOiEu4eZ6KIFBcTei/NxbFHdazvTJONsCg/4S
+rLv7KPNvvrLCwS6Nu/56pfQlBXWYk8UyUfeX6a7MMaTDmyZO2F1Oy2/MiyxUNxt4
+UFWI+kXZs/mU4gR6Ek4izcGRtve1FQDP/svxTDh6hgSLxVv6PkqDoo/RdxqGP9XW
+wbL6aqoTVa+BtcPv7OB+78perGLulwi/Q4c6WoUC+azbNUuxA/w=
+=S9+Z
 -----END PGP SIGNATURE-----

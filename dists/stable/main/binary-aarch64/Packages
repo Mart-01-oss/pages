@@ -6856,6 +6856,35 @@ SHA256: b2c5381396fc7d848b28428031c2696f99c1334241446037261f0379c4097ac1
 Homepage: https://www.gap-system.org/
 Description: Packages for gap
 
+Package: gauche
+Version: 0.9.15-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 41328
+Depends: gdbm, libcrypt, libiconv, mbedtls, zlib
+Recommends: binutils-is-llvm | binutils, ca-certificates
+Filename: pool/main/g/gauche/gauche_0.9.15-2_aarch64.deb
+Size: 8354504
+MD5sum: 55d4a4b7d5a00a281cf9b12e2986dc36
+SHA1: 88c2330a765fda561984c342f0ba59c5e3d0b177
+SHA256: f1be5675f1434896a0ae6e3a5e2c19c25013ea90ac7014735761aa88b6a11d85
+Homepage: https://practical-scheme.net/gauche/
+Description: An R7RS Scheme implementation developed to be a handy script interpreter
+
+Package: gauche-static
+Version: 0.9.15-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 57744
+Depends: gauche (= 0.9.15-2)
+Filename: pool/main/g/gauche-static/gauche-static_0.9.15-2_aarch64.deb
+Size: 8851812
+MD5sum: f510bea3d7a47582f7494c3007b06846
+SHA1: 7e7bf26550bbc4754f03b950930d76594056061e
+SHA256: ffacbce837fc0fbcb3e589e866aff23420ddc5beeb4f30ed2306f15baa6f7cc4
+Homepage: https://practical-scheme.net/gauche/
+Description: Static libraries for gauche
+
 Package: gawk
 Version: 5.3.1-2
 Architecture: aarch64
@@ -6927,6 +6956,22 @@ SHA1: e1d287b718fbfef73013f81fc8de123cf4665647
 SHA256: e1092423561ffedd7fcd921c92b2fee2c6abb30d8a45c7706429012d25f94785
 Homepage: https://www.gnu.org/software/gcal/
 Description: Program for calculating and printing calendars
+
+Package: gdal
+Version: 3.11.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33224
+Depends: giflib, json-c, libc++, libcurl, libexpat, libfreexl, libgeos, libiconv, libjpeg-turbo, libjxl, liblzma, libpng, libspatialite, libsqlite, libwebp, libxml2, netcdf-c (>= 4.9.3), openjpeg, openssl, proj, postgresql, zlib, zstd
+Breaks: gdal-dev
+Replaces: gdal-dev
+Filename: pool/main/g/gdal/gdal_3.11.4_aarch64.deb
+Size: 8068952
+MD5sum: a0f44e9cccc0c76d3a0c91214052de31
+SHA1: 943877745ced3f8d0fb443e521e55b3f5d7b7ba3
+SHA256: 671952be598be323f2dbb99ab3a01c1acd44ace80aa5af61e2a22c3e9c9b21c4
+Homepage: https://gdal.org
+Description: A translator library for raster and vector geospatial data formats
 
 Package: gdb
 Version: 16.3
@@ -7005,6 +7050,145 @@ SHA1: 40456e096a2c6fd8b032c3fe81f577235af11f49
 SHA256: de0bf0415721a88ca2cfbd1db2b77fa7b2441562af9b5f23ca75b68af0204033
 Homepage: https://wiki.gnome.org/Projects/GdkPixbuf
 Description: Library for image loading and manipulation
+
+Package: gdrive-downloader
+Version: 1:1.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 124
+Depends: bash, curl
+Filename: pool/main/g/gdrive-downloader/gdrive-downloader_1+1.1_all.deb
+Size: 18616
+MD5sum: 903e431423dd4e9b0c22cdc53849fe82
+SHA1: 179db8e2380c14a4dd46b145c55a67f9326b118b
+SHA256: 49ed47881e5f2c43db8d1e7c3988d07d00f5cff2163c2b8efb5957cfd1b26c24
+Homepage: https://github.com/Akianonymus/gdrive-downloader
+Description: Download a gdrive folder or file easily, shell ftw
+
+Package: gdu
+Version: 5.31.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15648
+Filename: pool/main/g/gdu/gdu_5.31.0-1_aarch64.deb
+Size: 3994684
+MD5sum: 2b9b6da2b720fe49b575e3fbee55ca9d
+SHA1: 19db6c00e4272a341d46bb0dd673731ff6729479
+SHA256: 79543df02990f9a7b76ec0ba0c251be7baeae54aa420943fe120815e6aee156a
+Homepage: https://github.com/dundee/gdu
+Description: Fast disk usage analyzer with console interface written in Go
+
+Package: geckodriver
+Version: 0.36.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5092
+Recommends: firefox
+Filename: pool/main/g/geckodriver/geckodriver_0.36.0-1_aarch64.deb
+Size: 1466068
+MD5sum: 5932ea156833533766bb1e280fba1da6
+SHA1: c7b621ba9c85a28521d7c0558179782df2c81161
+SHA256: b47a6a26831ad6df384bd5201ecabf17f4dc003a8e7057b714548473df73cd79
+Homepage: https://github.com/mozilla/geckodriver
+Description: Proxy for using W3C WebDriver-compatible clients to interact with Gecko-based browsers
+
+Package: gecode
+Version: 6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18084
+Depends: libc++
+Filename: pool/main/g/gecode/gecode_6.2.0-1_aarch64.deb
+Size: 2165832
+MD5sum: 8292fa69086d09dce549237d48ad62a9
+SHA1: a87f760f89fb0984de27904d1baa57d3a701c973
+SHA256: 7e8657910dab930e2521061a23433ff0bca1730878676291c813bbeabc3b6756
+Homepage: https://github.com/Gecode/gecode
+Description: Generic Constraint Development Environment
+
+Package: gecode-static
+Version: 6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36244
+Depends: gecode (= 6.2.0-1)
+Filename: pool/main/g/gecode-static/gecode-static_6.2.0-1_aarch64.deb
+Size: 3023992
+MD5sum: 07e23b738a96338879e8118fb3cf4f7a
+SHA1: 9b56d1a6c0cf8e2e03618a85f82583c3b06426df
+SHA256: 5607d7e059b6c8b13752a2331b2bb2ae25a07fca14dfbbc9b27eee6fd7562fc1
+Homepage: https://github.com/Gecode/gecode
+Description: Static libraries for gecode
+
+Package: gegl
+Version: 0.4.62-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5760
+Depends: babl, ffmpeg, gdk-pixbuf, glib, json-glib, libandroid-support, libc++, libcairo, libjasper, libjpeg-turbo, libpng, libraw, librsvg, libtiff, libwebp, littlecms, openexr, pango, poppler
+Breaks: gegl-dev
+Replaces: gegl-dev
+Filename: pool/main/g/gegl/gegl_0.4.62-1_aarch64.deb
+Size: 1311756
+MD5sum: d56956317268589c15b6865ddc218680
+SHA1: 2ade6b2d4d16c9426f0fa132bbc4657316b4c215
+SHA256: 16a599ad070346e87885b8100d94b154f08eb2ca8f101d02664db449f418e55a
+Homepage: https://gegl.org/
+Description: Data flow based image processing framework
+
+Package: gengetopt
+Version: 2.23-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 988
+Depends: libc++
+Filename: pool/main/g/gengetopt/gengetopt_2.23-4_aarch64.deb
+Size: 188112
+MD5sum: 6b042481947dac775bd6f78580118af1
+SHA1: 54822bf1692f4e1cf42e7799cd499d034ee52e89
+SHA256: 9bbd4c5c8e890750de5c60f84af12f963821fcbc659008ae6eb5c80e3f4b0596
+Homepage: https://www.gnu.org/software/gengetopt/
+Description: gengetopt is a tool to write command line option parsing code for C programs
+
+Package: geographiclib
+Version: 2.5.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2796
+Depends: libc++
+Filename: pool/main/g/geographiclib/geographiclib_2.5.2_aarch64.deb
+Size: 491576
+MD5sum: de992af1f416bfc12964d92da32adca6
+SHA1: 25a7b395860bbb5cbf9e252f96ef6a8a2c21e7a6
+SHA256: 89ed36103e7bafaaea1a75fdd6eb9e2a9570d2e142c0d38188729a10fcf01b7c
+Homepage: https://geographiclib.sourceforge.io
+Description: Utilities and C++ library to solve some geodesic problems
+
+Package: geoip2-database
+Version: 20191221-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 71700
+Filename: pool/main/g/geoip2-database/geoip2-database_20191221-2_all.deb
+Size: 23195440
+MD5sum: 65505a94fd2f8a9f12c33d974b7b6a25
+SHA1: b7c4ddd5bae2d9a8790cb2abe71e0b85b685c75f
+SHA256: bf87823cf00b331de5868861949080829be407689b7d961069302f4ad3bd5606
+Homepage: https://dev.maxmind.com/geoip/geoip2/geolite2/
+Description: GeoLite2 IP geolocation databases compiled by MaxMind
+
+Package: germanium
+Version: 1.2.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7124
+Filename: pool/main/g/germanium/germanium_1.2.3-3_aarch64.deb
+Size: 1867060
+MD5sum: 23db7cb156a4d4ae01a81a7d19f703e5
+SHA1: f4473205b586955ab1e37173919ccc8f64f9c5d5
+SHA256: 5371d7cbf1d02ca4c2869d5d718b8fe1cee12bf684ea59c8f7cfb541c6cd59cd
+Homepage: https://github.com/matsuyoshi30/germanium
+Description: Generate image from source code
 
 Package: gettext
 Version: 0.26-1
@@ -7814,6 +7998,22 @@ SHA256: 515f43e2031887311607a0b558a8b0ae3d1fb238d8b49be23a44bad7469f61b3
 Homepage: https://github.com/json-c/json-c/wiki
 Description: Static libraries for json-c
 
+Package: json-glib
+Version: 1.10.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 784
+Depends: glib
+Breaks: json-glib-dev
+Replaces: json-glib-dev
+Filename: pool/main/j/json-glib/json-glib_1.10.8_aarch64.deb
+Size: 94904
+MD5sum: 91b1fe49f5a20c6c7405abb553a428c9
+SHA1: 5f316248c55b899906e341b5b88c5cd198417942
+SHA256: e4a64032736a3053529cbd5cc8184aea5664d2d7c07b0a3249ec2f03048c6239
+Homepage: https://wiki.gnome.org/Projects/JsonGlib
+Description: GLib JSON manipulation library
+
 Package: krb5
 Version: 1.22.1-1
 Architecture: aarch64
@@ -8455,6 +8655,33 @@ SHA1: b041902634fd8306147892620331981e24582d2c
 SHA256: 99fce80e553dbfc6582d60945d518af89405796c022521121eb76c4ff497941f
 Homepage: https://www.gnupg.org/related_software/libassuan/
 Description: Static libraries for libassuan
+
+Package: libatomic-ops
+Version: 7.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1028
+Filename: pool/main/liba/libatomic-ops/libatomic-ops_7.8.4_aarch64.deb
+Size: 87848
+MD5sum: dd5f31a0c1f3f3daaec75e2da3c57ce1
+SHA1: b4f127931c1e21a7a0b5633b34b9a6c2bc602f5e
+SHA256: ca51bab14d2033ca2b1b284ef42e9e19620cac178c3d33a4f23dd529ffa6eedd
+Homepage: https://github.com/bdwgc/libatomic_ops
+Description: Provides semi-portable access to hardware-provided atomic memory update operations
+
+Package: libatomic-ops-static
+Version: 7.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libatomic-ops (= 7.8.4)
+Filename: pool/main/liba/libatomic-ops-static/libatomic-ops-static_7.8.4_aarch64.deb
+Size: 4220
+MD5sum: 906c2851201fb53bcf229b833ec90dab
+SHA1: 1117d1ef6a585039d1010a00dcff69217d479c23
+SHA256: 17180f2a7ebcb08bbe67b92b0e34e48396c1e3dd86eccaad3401435048dbbe66
+Homepage: https://github.com/bdwgc/libatomic_ops
+Description: Static libraries for libatomic-ops
 
 Package: libblkid
 Version: 2.40.2-5
@@ -9259,6 +9486,34 @@ SHA256: d717ce966ae87c0d971a1ccbe808e450194df43ff7efbe5c572b52c02555e26e
 Homepage: https://xiph.org/flac/
 Description: Static libraries for libflac
 
+Package: libfreexl
+Version: 2.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: libiconv, libminizip, libexpat
+Filename: pool/main/libf/libfreexl/libfreexl_2.0.0-1_aarch64.deb
+Size: 25464
+MD5sum: 6a423b402ae360a31ef4604fa3f65885
+SHA1: 873b764065c5ad21cbbbb6e92e18eec067408a5e
+SHA256: c289f9b5110f0f5a81ced2449b94c6dbb149cd3bdd2fa729a1b06012f71b44ce
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Description: Library to extract valid data from within an Excel (.xls) spreadsheet
+
+Package: libfreexl-static
+Version: 2.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: libfreexl (= 2.0.0-1)
+Filename: pool/main/libf/libfreexl-static/libfreexl-static_2.0.0-1_aarch64.deb
+Size: 21668
+MD5sum: 596b12a4ee6c2ac6e935d64781fd3bac
+SHA1: 4facb5a49c464d2dbf06a725e9e0eb75dc1c6eb0
+SHA256: 6b8084d2c286ea66ba6daed6557e838369e8c30afea51e9854c0378697008442
+Homepage: https://www.gaia-gis.it/fossil/freexl
+Description: Static libraries for libfreexl
+
 Package: libfyaml
 Version: 0.9
 Architecture: aarch64
@@ -9374,6 +9629,22 @@ SHA1: 18b1f7c40f3a4da3ee2192ecf284852e10a38af0
 SHA256: 98e6c3e4a8a9ab8f50306d90772fd4ac0b2f7ee7cb922b40c77251119309e150
 Homepage: https://libgd.github.io/
 Description: Static libraries for libgd
+
+Package: libgeos
+Version: 3.13.1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 8652
+Depends: libc++
+Breaks: libgeos-dev
+Replaces: libgeos-dev
+Filename: pool/main/libg/libgeos/libgeos_3.13.1_aarch64.deb
+Size: 1323776
+MD5sum: 7e68550171eb6cdf14f322e809de62dd
+SHA1: 04b74f50885d93892ce1eb5ec5a311157b2c3e6a
+SHA256: ca57a3e718deb03b818fb78e5a01cff87303110c882f049212e99bf976fc3aed
+Homepage: https://geos.osgeo.org/
+Description: Geometry Engine, C++ port of the Java Topology Suite
 
 Package: libgit2
 Version: 1.9.1-1
@@ -10350,6 +10621,34 @@ SHA256: ed245a5e9e917fa8f716c8c0ab779db72a1deaa6ef5aff6725bdd5acf3b04d5c
 Homepage: http://www.gnu.org/software/libmicrohttpd/
 Description: Static libraries for libmicrohttpd
 
+Package: libminizip
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: zlib
+Filename: pool/main/libm/libminizip/libminizip_1.3.1-1_aarch64.deb
+Size: 24304
+MD5sum: e164cfdc5b55ad932669d780cb05b1a5
+SHA1: 714f26c2128dcf25ca09b52fde6830566b596e89
+SHA256: d7d2829ea6e3a0945e254baa76a9f6c28dc2a73b054930fc8bee34693eab01c6
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Description: Mini zip and unzip based on zlib
+
+Package: libminizip-static
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: libminizip (= 1.3.1-1)
+Filename: pool/main/libm/libminizip-static/libminizip-static_1.3.1-1_aarch64.deb
+Size: 15900
+MD5sum: c745034ef7e6fe3bc47df81e293b4b49
+SHA1: 7171bb34d1f87c235ee45680be2775861dcde797
+SHA256: 0257d6c67143c62d45472ec328030fa568c56bfcc8d01ac82f5e08d7d01fe786
+Homepage: https://www.winimage.com/zLibDll/minizip.html
+Description: Static libraries for libminizip
+
 Package: libmodplug
 Version: 0.8.9.1.r461-1
 Architecture: aarch64
@@ -11202,6 +11501,34 @@ SHA256: b7931cc9e006098f51d58607406c8ab94bc5f7a3743b4b29086d3f73244800f7
 Homepage: https://github.com/librsync/librsync
 Description: Remote delta-compression library
 
+Package: librttopo
+Version: 1.1.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 580
+Depends: libgeos, proj
+Filename: pool/main/libr/librttopo/librttopo_1.1.0-4_aarch64.deb
+Size: 157100
+MD5sum: d14bcbc1b60dd5ce83f7b606a3a6dcb9
+SHA1: bd8903f03ab3a8a46bacaed46b7313bd49d13a2c
+SHA256: 201c0b3ed2273b58ec89652768c5ca95bd509db88e1996188fc62a164c9b91b2
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Description: The RT Topology Library exposes an API to create and manage standard topologies
+
+Package: librttopo-static
+Version: 1.1.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 772
+Depends: librttopo (= 1.1.0-4)
+Filename: pool/main/libr/librttopo-static/librttopo-static_1.1.0-4_aarch64.deb
+Size: 161216
+MD5sum: 21987c237138a042233e6b5cf9f91e54
+SHA1: 778c69bf65d1c7309ca7915b64a3093a6f6dfe3c
+SHA256: 2a93ec3ee87a9cd5ac539dff4ce9092ba59403db9e0583d86fd6147176690f75
+Homepage: https://git.osgeo.org/gitea/rttopo/librttopo
+Description: Static libraries for librttopo
+
 Package: librusty-v8
 Version: 1:2.4.5
 Architecture: aarch64
@@ -11400,6 +11727,34 @@ SHA1: c4a0b5f85a25e41e2cced7732bea0568db488ff9
 SHA256: b50cc8662aa139e61ffcc52273c89959cb37a5d8c4507d9f69d0bac78dd719f6
 Homepage: https://sourceforge.net/projects/soxr/
 Description: High quality, one-dimensional sample-rate conversion library
+
+Package: libspatialite
+Version: 5.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14240
+Depends: libgeos, proj, libfreexl, libsqlite, libxml2, librttopo
+Filename: pool/main/libs/libspatialite/libspatialite_5.1.0-2_aarch64.deb
+Size: 2745524
+MD5sum: 31e83edae272faaaa916753fd53b2a37
+SHA1: 20bdd926e52a33488fc1998d14828c0cf0b59d86
+SHA256: ecb0515cdd17ae1129099b3bfe03c5f5aa49fa82bdf5e67b3f66385de5c8eba8
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Description: SQLite extension to support spatial data types and operations
+
+Package: libspatialite-static
+Version: 5.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15532
+Depends: libspatialite (= 5.1.0-2)
+Filename: pool/main/libs/libspatialite-static/libspatialite-static_5.1.0-2_aarch64.deb
+Size: 2048628
+MD5sum: a32777c4a4850b528249285eee0664e5
+SHA1: 73e33086d2dfa84208cb7f08fc21624bf7db9d38
+SHA256: dbd66a6af8a09a4bdc31508c9dced975305dca5e1870139aff9881bd36bfe6b0
+Homepage: https://www.gaia-gis.it/fossil/libspatialite
+Description: Static libraries for libspatialite
 
 Package: libspdlog
 Version: 1.15.3-1
@@ -13190,6 +13545,35 @@ SHA256: 5c1a42a9b0eb73778ed68346910ba4fcab16c886208684a983a2cc004a61068a
 Homepage: https://mdocml.bsd.lv/
 Description: Man page viewer from the mandoc toolset
 
+Package: mbedtls
+Version: 3.6.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3564
+Breaks: mbedtls-dev
+Replaces: mbedtls-dev
+Filename: pool/main/m/mbedtls/mbedtls_3.6.4-1_aarch64.deb
+Size: 633144
+MD5sum: f95151d03a85b556773729d8a6e143b7
+SHA1: d01342c5234f759d33be9be6bd9aab42db98b3f5
+SHA256: 838f936b47e86d0904c83c7820cf894e0c3a812bad194d98525ceb9ae6e483c3
+Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
+Description: Light-weight cryptographic and SSL/TLS library
+
+Package: mbedtls-static
+Version: 3.6.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: mbedtls (= 3.6.4-1)
+Filename: pool/main/m/mbedtls-static/mbedtls-static_3.6.4-1_aarch64.deb
+Size: 1328
+MD5sum: 30cf5b9ea0d468d4ab51af5ed1203f3e
+SHA1: 09ff4a8ef19e8fb49db34e32100f24618c0da0ca
+SHA256: 4de1300102037616d5cd9ea8ee0555ceb34e3481ca30e6570f65a45de87cddc2
+Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
+Description: Static libraries for mbedtls
+
 Package: mesa
 Version: 25.1.5-2
 Architecture: aarch64
@@ -13384,6 +13768,36 @@ SHA1: 47085e19df87788a6a1654264009cc33a65d3619
 SHA256: 9b8739e534e5e1222c6c6f96368f5f8fa8a20bb99bb5045c7016bb3517fbe950
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
+
+Package: netcdf-c
+Version: 4.9.3-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2080
+Depends: libandroid-execinfo, libcurl, zlib
+Breaks: gdal (<= 3.10.2), monetdb (<= 11.51.7)
+Replaces: netcdf-c-dev
+Filename: pool/main/n/netcdf-c/netcdf-c_4.9.3-1_aarch64.deb
+Size: 534900
+MD5sum: c83baf738e364aa5c27afec246b53ada
+SHA1: 70b6691badbc31dc3cb412faa588a28724de7abe
+SHA256: 417798777402c65e61181624adea40991fa1f8878fe1a0a559d6ac148a5f9d7a
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Description: NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data
+
+Package: netcdf-c-static
+Version: 4.9.3-1
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2016
+Depends: netcdf-c (= 4.9.3-1)
+Filename: pool/main/n/netcdf-c-static/netcdf-c-static_4.9.3-1_aarch64.deb
+Size: 367996
+MD5sum: 3bc02f56f0af5c84d58f64591bd1dddc
+SHA1: d337a99b29c7474a6d28942ad507655ecb376e7a
+SHA256: 68be5923c88f9c16435d1145224e02d5d324f8fd4e4e3e42bc20e8b88659fadd
+Homepage: https://www.unidata.ucar.edu/software/netcdf/
+Description: Static libraries for netcdf-c
 
 Package: nettle
 Version: 3.10.2-1
@@ -14064,6 +14478,22 @@ SHA256: d9cf696b5af59a80941b3093dbbe1f8f511ab52306d14458391763adc3676ed4
 Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
 Description: Helper tool used when compiling applications and libraries
 
+Package: poppler
+Version: 24.05.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7364
+Depends: fontconfig, freetype, glib, gpgme, gpgmepp, libc++, libcairo, libcurl, libiconv, libjpeg-turbo, libnspr, libnss, libpng, libtiff, littlecms, openjpeg, zlib
+Breaks: poppler-dev, poppler-qt (<< 24.05.0)
+Replaces: poppler-dev, poppler-qt (<< 22.04.0-3)
+Filename: pool/main/p/poppler/poppler_24.05.0-3_aarch64.deb
+Size: 1237680
+MD5sum: cdab5083d63f08040b5087e07e0e15e9
+SHA1: 35d16744b472183b220fdeb1ea189f46b97f4a5c
+SHA256: 43a730c7e31db3888e9e09598aa235421c207026fa397a002bf95c3f4f23de66
+Homepage: https://poppler.freedesktop.org/
+Description: PDF rendering library
+
 Package: postgresql
 Version: 17.0-4
 Architecture: aarch64
@@ -14124,6 +14554,22 @@ SHA1: 2af6e18c14979ec30abe798d5af5a8ee91db7077
 SHA256: 6d0c5be908cac3996883796e3e86a3d7bb666bbc26edbac9fe49555a002c0e88
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
+
+Package: proj
+Version: 9.7.0
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 14696
+Depends: libc++, libsqlite, sqlite, libtiff, libcurl
+Breaks: proj-dev
+Replaces: proj-dev
+Filename: pool/main/p/proj/proj_9.7.0_aarch64.deb
+Size: 2367100
+MD5sum: b1f5f8d67c038f30cf285d66c818ad20
+SHA1: af330c3a8877cec9a70d5a01f7694e90b1f320f3
+SHA256: fc5890689bdf26679cda7d4ccafaacdc7b9eac9dbbc9a0e462ef5f2a56d9f722
+Homepage: https://proj.org
+Description: Generic coordinate transformation software
 
 Package: proot
 Version: 5.1.107-65
