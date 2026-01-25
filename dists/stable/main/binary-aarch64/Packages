@@ -8087,6 +8087,47 @@ SHA256: 471b4df831d1fe1d4a7ef88d401b70a174a66ebf2ecfe5759d9a83719def60c6
 Homepage: https://gitlab.com/opennota/findimagedupes
 Description: Find visually similar or duplicate images
 
+Package: go-musicfox
+Version: 4.7.1
+Architecture: aarch64
+Maintainer: @anhoder
+Installed-Size: 20016
+Depends: libc++, libflac, libvorbis
+Filename: pool/main/g/go-musicfox/go-musicfox_4.7.1_aarch64.deb
+Size: 5345288
+MD5sum: f4a1f356e50629fb9051de11569035b4
+SHA1: 42ea29a39228e355ff5d2cc3ff87263629bfcb6d
+SHA256: dde26445a386c48311c603a0eb19363644139644130c6544c6e837fc7bda40ad
+Homepage: https://github.com/go-musicfox/go-musicfox
+Description: A netease music player in terminal.
+
+Package: goaccess
+Version: 1.9.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1236
+Depends: ncurses, openssl
+Filename: pool/main/g/goaccess/goaccess_1.9.4-1_aarch64.deb
+Size: 336804
+MD5sum: 595265fa28f5d1dc93dc34b630757cc7
+SHA1: ea36ca0de17ea2efda092820cb9e2c028d6b8a12
+SHA256: 4c4c82937a667adfe46ac9fd08d76b3f27272645ac2eedde5eb6412d937ba7a9
+Homepage: https://goaccess.io
+Description: An open source real-time web log analyzer and interactive viewer
+
+Package: gobang
+Version: 0.1.0-alpha.5-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6484
+Filename: pool/main/g/gobang/gobang_0.1.0-alpha.5-4_aarch64.deb
+Size: 2124460
+MD5sum: 76b88c7bbf0812f361dc27ea00b421fb
+SHA1: db5a74f6ad40c0b21f80d6fde08f47fbc85d8342
+SHA256: e84af90120892169a3dbbd054680ac977a02cefbeaed0db8940718bb06e8a899
+Homepage: https://github.com/TaKO8Ki/gobang
+Description: A cross-platform TUI database management tool written in Rust
+
 Package: gobject-introspection
 Version: 1.86.0
 Architecture: aarch64
@@ -8101,6 +8142,33 @@ SHA1: 569f77c3381b6606008630d6187c858a596b5f23
 SHA256: 0845bd4caeaa2a7729eb032d3a05ed248579556ad33bbb0051c08de860491627
 Homepage: https://gi.readthedocs.io/
 Description: Uniform machine readable API
+
+Package: gogs
+Version: 0.13.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 67096
+Depends: dash, git
+Filename: pool/main/g/gogs/gogs_0.13.3-1_aarch64.deb
+Size: 18237784
+MD5sum: c103d1cf88a842c6ba7bcb9bc18f78a3
+SHA1: b0d732bf17e617b5a0bc2b2818cdf3bfcaf38575
+SHA256: f8769056202744fbd6224f260e27a1806980753613da3262bae8b68d3384a01c
+Homepage: https://gogs.io
+Description: A painless self-hosted Git service
+
+Package: gojq
+Version: 0.12.17
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4548
+Filename: pool/main/g/gojq/gojq_0.12.17_aarch64.deb
+Size: 1203020
+MD5sum: 44fbc8d87687aebe2b3e21c516cb6a6d
+SHA1: 7ef586891f0b57f22399ffa5f15eba9227398837
+SHA256: 8a34af7bd31a91674b0977cb21952d66f48cb7512a8be27749688019ae41004c
+Homepage: https://github.com/itchyny/gojq
+Description: Pure Go implementation of jq
 
 Package: golang
 Version: 3:1.25.0
@@ -8131,6 +8199,50 @@ SHA256: f0d89998ea92e018c4f6c78f384dbe3c4f361ab6d4446afb54c09e5c87b6ed30
 Homepage: https://go.dev/
 Description: Go programming language - documentation
 
+Package: gomuks
+Version: 0.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22380
+Depends: libolm, resolv-conf
+Filename: pool/main/g/gomuks/gomuks_0.3.1-1_aarch64.deb
+Size: 5039980
+MD5sum: b395497caa19b984cf62b7c4d91a4926
+SHA1: 67912a13addc31ad82f6406694cce5669a5d3dc1
+SHA256: fc633acabce985af2716839116f6d2cc61414b4e589e9ec03a3b5ec579e7a69b
+Homepage: https://maunium.net/go/gomuks/
+Description: A terminal Matrix client written in Go
+
+Package: google-drive-upload
+Version: 4.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 168
+Depends: bash, curl
+Filename: pool/main/g/google-drive-upload/google-drive-upload_4.5_all.deb
+Size: 25968
+MD5sum: 40b1f3ce2a63a2cc17fd778ebca98637
+SHA1: 1f241b187c0ae20a2e7d92cb0ba639aa8d643245
+SHA256: db8b89054d4dc021c9b305a353b625a83d725006262a1866cb06dad88561f0eb
+Homepage: https://github.com/labbots/google-drive-upload
+Description: Bash scripts to upload files to google drive
+
+Package: google-glog
+Version: 0.7.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: gflags, libc++
+Breaks: google-glog-dev
+Replaces: google-glog-dev
+Filename: pool/main/g/google-glog/google-glog_0.7.1-1_aarch64.deb
+Size: 104204
+MD5sum: c07c12823f93f5f6331766d8107f7fb5
+SHA1: 6b34e626bfb87653292c4fe381c8a072129845bf
+SHA256: 9cca741789659ed166c74f6d4aae4beb7f3c848e1313a046f829d8a8a30fb370
+Homepage: https://github.com/google/glog
+Description: Logging library for C++
+
 Package: googletest
 Version: 1.17.0-1
 Architecture: aarch64
@@ -8146,6 +8258,19 @@ SHA1: 360c9483277785df642b0ac069da7396347a820a
 SHA256: ba1f2250137a304d4cd9cb394b7562c76317926159157a23d3e17b076908fe17
 Homepage: https://github.com/google/googletest
 Description: Google C++ testing framework
+
+Package: goose
+Version: 3.25.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 39056
+Filename: pool/main/g/goose/goose_3.25.0_aarch64.deb
+Size: 8365788
+MD5sum: 5f66193913626723f22b4e3c0acdb9df
+SHA1: 106a1c66f929c853664efebb6fa0c0709c908ebf
+SHA256: 673d83c59225d911145397898670e662a2561e7c1d3bc975ad3f84f57fd1bad0
+Homepage: https://pressly.github.io/goose
+Description: A database migration tool. Supports SQL migrations and Go functions.
 
 Package: gpac
 Version: 2.4.0-4
@@ -11727,6 +11852,19 @@ SHA1: 2c9ae266a6dc01cb40ea05d877a7d41318d25657
 SHA256: 08138bd1a0a533ff4795f065f95713570f3d0d370f4718f4c1950686e99263d1
 Homepage: https://xiph.org/ogg/
 Description: Static libraries for libogg
+
+Package: libolm
+Version: 3.2.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Filename: pool/main/libo/libolm/libolm_3.2.16-1_aarch64.deb
+Size: 93212
+MD5sum: fe7e0ef072deccfbb1613dc7fe078b0e
+SHA1: 082ca395f6d16f310b6d86e79aeba024a21ae09e
+SHA256: 7a9d2187ad059b8639c9ead911aa847a4855093290ab3399cb355dacb57a58f0
+Homepage: https://matrix.org/docs/projects/other/olm/
+Description: An implementation of the Double Ratchet cryptographic ratchet
 
 Package: libopenblas
 Version: 0.3.30-1
