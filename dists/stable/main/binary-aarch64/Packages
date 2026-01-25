@@ -6856,6 +6856,20 @@ SHA256: b2c5381396fc7d848b28428031c2696f99c1334241446037261f0379c4097ac1
 Homepage: https://www.gap-system.org/
 Description: Packages for gap
 
+Package: gatling
+Version: 0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: libcrypt, libiconv, openssl, zlib
+Filename: pool/main/g/gatling/gatling_0.16-1_aarch64.deb
+Size: 108080
+MD5sum: 9fe7cfc2ee1835a7d6377eb4f6f1ff54
+SHA1: 769cec6bac691b19a0bc3e9ba0122d783641519e
+SHA256: e2aa43e2404c18160af50fdabefc54927ccf8a7e02039ea07953c210de1fb2bb
+Homepage: https://www.fefe.de/gatling/
+Description: A high performance http, ftp and smb server
+
 Package: gauche
 Version: 0.9.15-2
 Architecture: aarch64
@@ -7190,6 +7204,47 @@ SHA256: 5371d7cbf1d02ca4c2869d5d718b8fe1cee12bf684ea59c8f7cfb541c6cd59cd
 Homepage: https://github.com/matsuyoshi30/germanium
 Description: Generate image from source code
 
+Package: getconf
+Version: 0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Filename: pool/main/g/getconf/getconf_0.6-1_aarch64.deb
+Size: 6560
+MD5sum: c9c755acb8793df1428d14eec1e6296d
+SHA1: c735c73afc9a492186d01cf250c662d5cf123efe
+SHA256: ba2bb1927aade0adff107bfa682314207b98ba73c8598e10a798e96e702b9003
+Homepage: https://github.com/termux/getconf
+Description: Utility to print configuration values
+
+Package: geth
+Version: 1.16.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 50344
+Suggests: geth-utils
+Filename: pool/main/g/geth/geth_1.16.4_aarch64.deb
+Size: 12749576
+MD5sum: d588667873f1ef1782642840bbd085a5
+SHA1: 365cbe6fef3d0976fed7fc4c8e9943a030c84b14
+SHA256: 09bfaca989ea1864c7d09c360bc9e3a03ce69161fdef9500257590c269fb9741
+Homepage: https://geth.ethereum.org/
+Description: Go implementation of the Ethereum protocol
+
+Package: geth-utils
+Version: 1.16.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208268
+Depends: geth (= 1.16.4)
+Filename: pool/main/g/geth-utils/geth-utils_1.16.4_aarch64.deb
+Size: 58942656
+MD5sum: 8fef60cdca4e69074b229b1b8556fb0c
+SHA1: d645b2a5aaa967f632f3c3bbe1fd50513f51bcae
+SHA256: 94516d24d000de7f42bf8be0076160950f864c3701deb0ec4295a9fe18b459df
+Homepage: https://geth.ethereum.org/
+Description: Additional utilities for Geth (like abigen, bootnode, evm, puppeth)
+
 Package: gettext
 Version: 0.26-1
 Architecture: aarch64
@@ -7219,6 +7274,77 @@ SHA1: d7978f21b2d09c7d4368fe3004e9d208c0bbfafd
 SHA256: 920b9652eb7dd7020f56ef3e1b8d95c727d61d38b5c4b14b131cff8789440f5d
 Homepage: https://www.gnu.org/software/gettext/
 Description: Static libraries for gettext
+
+Package: gexiv2
+Version: 0.14.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 660
+Depends: exiv2, glib, libc++
+Filename: pool/main/g/gexiv2/gexiv2_0.14.6-1_aarch64.deb
+Size: 89492
+MD5sum: 664180a03af601ec039a99a22e538e05
+SHA1: 9503d7a0c0a92a3585a1213459f27247e932119d
+SHA256: 629a81596d0ad8612357ba403e510c0e5065417b39a8a1a20ef7ef1b20eb3657
+Homepage: https://wiki.gnome.org/Projects/gexiv2
+Description: A GObject-based Exiv2 wrapper
+
+Package: gflags
+Version: 2.2.2-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 440
+Depends: libc++
+Breaks: gflags-dev
+Replaces: gflags-dev
+Filename: pool/main/g/gflags/gflags_2.2.2-11_aarch64.deb
+Size: 78788
+MD5sum: fecceb7b1b20c17405e9dd44df2d1690
+SHA1: 064b4485f3b67fd0aa1da940c4c4b30dbaae1134
+SHA256: d333baa09b805bc36e3bed7fbcb55f6568ca8511d25a21f926ae807e311af077
+Homepage: https://github.com/gflags/gflags
+Description: A C++ library that implements commandline flags processing
+
+Package: gflags-static
+Version: 2.2.2-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: gflags (= 2.2.2-11)
+Filename: pool/main/g/gflags-static/gflags-static_2.2.2-11_aarch64.deb
+Size: 60676
+MD5sum: 0b351de39ee65e8e967c31ea4e668bde
+SHA1: 72d6dcbcb3e2c536d2bb9878042a9d1538256b3f
+SHA256: 9665e3b5e2f4399a1417430f0b11b6894ba7b2c7b592fdcb1ac3d1d82fa05486
+Homepage: https://github.com/gflags/gflags
+Description: Static libraries for gflags
+
+Package: gforth
+Version: 0.7.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4132
+Filename: pool/main/g/gforth/gforth_0.7.3-3_aarch64.deb
+Size: 616588
+MD5sum: b1dc9cdc291fdea7d6a499b2fa67f681
+SHA1: e845993942bb2592076eee8f4bf0ffa7288821da
+SHA256: 79611c78f8e74cdcd90a1b680fa30d98543f8c999b07fce85e22d02802208cd1
+Homepage: https://www.gnu.org/software/gforth/
+Description: The Forth implementation of the GNU project
+
+Package: gh
+Version: 2.80.0
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 57528
+Recommends: openssh
+Filename: pool/main/g/gh/gh_2.80.0_aarch64.deb
+Size: 11678152
+MD5sum: 67f7208a986fd20ddd3bbe55e3736205
+SHA1: a5b906ac51b1591b6f33bce175f305fb650b73d7
+SHA256: 8f77aaddd23a0407e24793c244d2910aca3036a06e2af221c267fa6602c91d44
+Homepage: https://cli.github.com/
+Description: GitHub’s official command line tool
 
 Package: ghostscript
 Version: 10.05.1-2
@@ -7278,6 +7404,33 @@ SHA256: c885376d224627279fc398087b6bf5feb1e43b4f2719d7817c151aab9bb86ee2
 Homepage: https://giflib.sourceforge.net/
 Description: A set of utilities that comes with giflib package
 
+Package: gifsicle
+Version: 1.96-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Suggests: libx11
+Filename: pool/main/g/gifsicle/gifsicle_1.96-1_aarch64.deb
+Size: 112624
+MD5sum: a79ebb0b76c2354d48ce5a761ad40734
+SHA1: 62ce9a7895b84d1cdcf1b3af446377d9a416c2ef
+SHA256: 4d8f19ce2fd74a002686c792e225bfe7c9fc420b2a9e8c7da0b147f52d8081c6
+Homepage: https://www.lcdf.org/gifsicle/
+Description: Tool for creating, editing, and getting information about GIF images and animations
+
+Package: gifski
+Version: 1.34.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1388
+Filename: pool/main/g/gifski/gifski_1.34.0-1_aarch64.deb
+Size: 516060
+MD5sum: ce08002edca33c1eb0d605730a1a26ff
+SHA1: 9761f72a18f55ab792ec43a962f6f3f4ea6b7850
+SHA256: 7344588790ae1974cd3e9a65a3ac456b58fa22d826f8d24917e5caa431c4dc3d
+Homepage: https://gif.ski/
+Description: GIF encoder based on libimagequant
+
 Package: git
 Version: 2.51.0
 Architecture: aarch64
@@ -7293,6 +7446,34 @@ SHA1: 0daa9acebc312387e3f7000ed804cfb431cdddd5
 SHA256: 94bc74934886697a6f027f0719d9948918184d792ceeec72c258fbbb338c6f50
 Homepage: https://git-scm.com/
 Description: Fast, scalable, distributed revision control system
+
+Package: git-crypt
+Version: 0.7.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: git, libc++, openssl
+Filename: pool/main/g/git-crypt/git-crypt_0.7.0-3_aarch64.deb
+Size: 59160
+MD5sum: 563319a7c7508b8bec5547e2a8b249e9
+SHA1: f8413a30da41cc8312b11f1399832f282db6afaf
+SHA256: 3cea4dbd9c559cb233839aaa8399cf7cb2b53bf94a2f3850d8b81697ee8044bd
+Homepage: https://www.agwa.name/projects/git-crypt/
+Description: Enables transparent encryption and decryption of files for a git repository
+
+Package: git-delta
+Version: 0.18.2-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 5576
+Depends: git, libgit2, oniguruma
+Filename: pool/main/g/git-delta/git-delta_0.18.2-3_aarch64.deb
+Size: 2063388
+MD5sum: 7d560579cb82946c999493d9297b5f65
+SHA1: 55c2b87789b2d78a332c03f2af567200cdd389b6
+SHA256: c382b7669fcf834c98fb266b231349d477a16a1ed313280f6b0a15390e5f90ff
+Homepage: https://dandavison.github.io/delta/
+Description: A syntax-highlighter for git and diff output
 
 Package: git-gitk
 Version: 2.51.0
@@ -11162,6 +11343,19 @@ SHA1: ca39145391db6946dc71110a44436594518d8b44
 SHA256: 42b52a18f785ed31bf1dfc9aedabd45a56b76f896589a4a0bc592b57ea35bd9c
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for libopus
+
+Package: libowfat
+Version: 0.33-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2740
+Filename: pool/main/libo/libowfat/libowfat_0.33-1_aarch64.deb
+Size: 283124
+MD5sum: 5f38fb24f11c4b75a73b346b53813f47
+SHA1: 2db9b4d4ac5f6a2f765a9577aeeb6ddd3821d0d6
+SHA256: acf27392b1fb05d4492da419490aade08ded970709c92f351acab0b8b396a4a6
+Homepage: http://www.fefe.de/libowfat/
+Description: GPL reimplementation of libdjb
 
 Package: libpcap
 Version: 1.10.5-1
