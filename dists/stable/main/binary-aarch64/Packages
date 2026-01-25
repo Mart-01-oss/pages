@@ -7687,6 +7687,19 @@ SHA256: d22e5db1e1d878c4565e47b59af366f1e2696360580e3d39d5ebdc9ce9952b4a
 Homepage: https://gitlab.gnome.org/GNOME/glib-networking
 Description: Network-related giomodules for glib
 
+Package: glibc-repo
+Version: 1.0
+Architecture: all
+Maintainer: @termux-pacman
+Installed-Size: 52
+Filename: pool/main/g/glibc-repo/glibc-repo_1.0_all.deb
+Size: 1128
+MD5sum: db4cca391c0746fb8700f032d037125a
+SHA1: d939c43ded6443708433ebc0345f7b6e2cbd82d1
+SHA256: 5d6494166080f4bb09ec9e40c58cfe691630d65a5e383eab5461f5bad4462f6c
+Homepage: https://github.com/termux/glibc-packages
+Description: A package repository containing glibc-based programs and libraries
+
 Package: glm
 Version: 1.0.1
 Architecture: aarch64
@@ -7699,6 +7712,163 @@ SHA1: 6a76a26afaadfb008994b1e024a38a3f3701eddb
 SHA256: ede0576142054b752ca7f83d82ceaec814c73762a48367d5fa8ffe27a7b5d79d
 Homepage: https://glm.g-truc.net/
 Description: C++ mathematics library for graphics software based on the GLSL specifications
+
+Package: global
+Version: 6.6.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2220
+Depends: coreutils, ncurses, libltdl
+Filename: pool/main/g/global/global_6.6.14-1_aarch64.deb
+Size: 429096
+MD5sum: 7ff7352a4d85a4fa2f798cf6e3755792
+SHA1: d137afe1d0439fd79993a30bf345877228d492a3
+SHA256: 2d2f3f1bbb8218a8d8228de7c6c5507a7cc9fe95aa0f669de8dc8d1836d15435
+Homepage: https://www.gnu.org/software/global/
+Description: Source code search and browse tools
+
+Package: glow
+Version: 2.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17688
+Suggests: git
+Filename: pool/main/g/glow/glow_2.1.1-1_aarch64.deb
+Size: 4238412
+MD5sum: b4bb6c835e43638fa0cdf3d0d9e9eb74
+SHA1: d3853ee8512eb0145744e390a626c5d64571a649
+SHA256: 8fc24016cb9d46db6b2e38bcf17106d1cbf9d5fe1b3597b0feeed0d89dea0094
+Homepage: https://github.com/charmbracelet/glow
+Description: Render markdown on the CLI, with pizzazz!
+
+Package: glpk
+Version: 5.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Depends: libgmp
+Filename: pool/main/g/glpk/glpk_5.0-2_aarch64.deb
+Size: 320292
+MD5sum: 2592e3203ce94476c1e28e1d59af77f3
+SHA1: 8aafa753e76beb58d115e530adced822e76f153f
+SHA256: af59d344348c6f92ef84ddf6560459ffd8f1de2b7d88fe77b92b828a4d81f642
+Homepage: https://www.gnu.org/software/glpk/
+Description: GNU Linear Programming Kit: solve LP, MIP and other problems
+
+Package: glpk-static
+Version: 5.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1780
+Depends: glpk (= 5.0-2)
+Filename: pool/main/g/glpk-static/glpk-static_5.0-2_aarch64.deb
+Size: 381584
+MD5sum: d1b06add49539e2d7fbed19e311b4462
+SHA1: 82843784f0c62685efbbedb1579f3639ddcf8d28
+SHA256: 2867ba5d21c121bdd19e28e519bfee3eec2de1dae5c318ba943578ab23a871d8
+Homepage: https://www.gnu.org/software/glpk/
+Description: Static libraries for glpk
+
+Package: glslang
+Version: 16.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14864
+Depends: libc++
+Filename: pool/main/g/glslang/glslang_16.0.0_aarch64.deb
+Size: 2281080
+MD5sum: 46f681d79ab8c76f24ba6e38c25f112a
+SHA1: 1984928d7e7e13aafc9c9afd9746664a47d1bd91
+SHA256: 32760b53464f2c0ac4b3781b2bd85adefd55f8f3826cf87827dcb1327a668d26
+Homepage: https://github.com/KhronosGroup/glslang
+Description: OpenGL and OpenGL ES shader front end and validator
+
+Package: gluelang
+Version: 0.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: libc++
+Filename: pool/main/g/gluelang/gluelang_0.2.0-2_aarch64.deb
+Size: 41208
+MD5sum: 0c1d5a4ac37dd60cc856df6f7865758c
+SHA1: 8fbe3aaefb933797954e1bd3b7d0700689cf4b44
+SHA256: 82392270042fc45d663ca902316c11e9f4c51de2c1229c1a3136fdb7d684bf7d
+Homepage: https://ryuichiueda.github.io/GlueLang/
+Description: A programming language that has a strong nature to be a glue of commands
+
+Package: glulxe
+Version: 0.6.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: ncurses
+Filename: pool/main/g/glulxe/glulxe_0.6.1-1_aarch64.deb
+Size: 80540
+MD5sum: 65fdbdc9197f4bcffa9ca71b1b1138fe
+SHA1: 1ee1d7b03560bc5c22a4513c5f5e7553b0814e80
+SHA256: 5a1cc6caf489f3b1ae3e09a4bb425b18be894f10afd1bbd21721a10fcc92c83f
+Homepage: https://www.eblong.com/zarf/glulx/
+Description: Interpreter for the Glulx portable VM for interactive fiction (IF) games
+
+Package: gmic
+Version: 3.5.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5172
+Depends: fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Filename: pool/main/g/gmic/gmic_3.5.3-1_aarch64.deb
+Size: 2731296
+MD5sum: 6fe70cd8eda7c49ea670d7f51debc2c5
+SHA1: d236c67862937f946a74c97a481d8833a0d65ceb
+SHA256: 756b70a1488c6e33c999a22fddb9ebd7be149375e47d2292cd6f6d74b8e011b0
+Homepage: https://gmic.eu
+Description: Full-featured framework for image processing
+
+Package: gmic-gm
+Version: 3.5.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5172
+Depends: graphicsmagick, fftw, imath, libc++, libcurl, libjpeg-turbo, libpng, libtiff, libx11, openexr, zlib
+Filename: pool/main/g/gmic-gm/gmic-gm_3.5.3-1_aarch64.deb
+Size: 2733048
+MD5sum: ece305bbb1d92c5291e67e645cfc662d
+SHA1: bd37af626f5c1d18ead4c870452884435c8877fd
+SHA256: e1e858d9b76910b281beef942c8e1328f093a240c143415f8db72c7c168d0cdc
+Homepage: https://gmic.eu
+Description: Full-featured framework for image processing (GraphicsMagick variant)
+
+Package: gn
+Version: 20250605-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 1968
+Depends: libc++
+Recommends: ninja
+Filename: pool/main/g/gn/gn_20250605-1_aarch64.deb
+Size: 567868
+MD5sum: 6d09f7c0acf8c74d1f52f86cf1a3edf5
+SHA1: ed9332d6b08b7e8e19cafa04edcaaf6e082a0223
+SHA256: a0255075e8796d3206e2de70d7e05fe4789aa49693884249413a767747d63fde
+Homepage: https://gn.googlesource.com/gn
+Description: Meta-build system that generates build files for Ninja
+
+Package: gnucap
+Version: 20210107-4
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 2516
+Depends: libc++, readline
+Breaks: gnucap-dev
+Replaces: gnucap-dev
+Filename: pool/main/g/gnucap/gnucap_20210107-4_aarch64.deb
+Size: 547204
+MD5sum: 42f53402866dd852abd7db82b836eabd
+SHA1: e7a6a434aeed10a5817474d6e33eb9a87d0ec0c8
+SHA256: a61e09cdd1978ee1944e30a5a519e61df229dacd9aad1f15c685c83d83468df8
+Homepage: https://www.gnu.org/software/gnucap/gnucap.html
+Description: The Gnu Circuit Analysis Package
 
 Package: gnuchess
 Version: 6.3.0
