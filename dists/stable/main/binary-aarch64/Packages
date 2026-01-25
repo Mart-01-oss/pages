@@ -6656,6 +6656,20 @@ SHA256: 09af8b9018bfd388c0c38e24985a34a679c536c4dd2aa9aa404ebba28cbd238b
 Homepage: https://github.com/sulkasormi/frogcomposband/
 Description: Open world Angband variant with many additions
 
+Package: frotz
+Version: 2.55-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: ncurses, dialog, curl
+Filename: pool/main/f/frotz/frotz_2.55-2_aarch64.deb
+Size: 64928
+MD5sum: 9d954b761f06727c285e6d272609d93f
+SHA1: 8261eb50ab66f6218c7516a237308b06aa0dc3fc
+SHA256: 7accf9f88171ae0409aff33b64b10762829390c19851caac2426af00d64657e8
+Homepage: https://gitlab.com/DavidGriffith/frotz
+Description: Interpreter for Infocom and other Z-machine interactive fiction (IF) games
+
 Package: frp
 Version: 0.65.0
 Architecture: aarch64
@@ -6684,6 +6698,90 @@ SHA1: 687394ffac4b0a16f5052c40fdbcfeb562edfe4d
 SHA256: e636acb2e157a52f0cf55ec13054129a1eba96365e52abcea84fb1a805606725
 Homepage: https://fselect.rocks/
 Description: Find files with SQL-like queries
+
+Package: fsmon
+Version: 1.8.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Filename: pool/main/f/fsmon/fsmon_1.8.8-1_aarch64.deb
+Size: 10224
+MD5sum: 51094d04a5d18bf31de1eb37d7169acc
+SHA1: 742acae77e022f271aeae3589ca9811f2d80ef93
+SHA256: 2125c4ee5d1203d0f6ed7a1cb71d63f1cb13b9abc92e8f256063ed8bcd215277
+Homepage: https://github.com/nowsecure/fsmon
+Description: Filesystem monitor with fanotify and inotify backends
+
+Package: fwknop
+Version: 2.6.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 396
+Depends: gpgme
+Breaks: fwknop-dev
+Replaces: fwknop-dev
+Filename: pool/main/f/fwknop/fwknop_2.6.11-1_aarch64.deb
+Size: 99116
+MD5sum: 1c9334ab0604780a1dc2898e185574f0
+SHA1: f7efd5ca39617cd84290c32912bfcb8b32cba467
+SHA256: 564e7efc4b7efddc56160943beb513a379b3507da1e086e927c70f91c39b9122
+Homepage: https://www.cipherdyne.org/fwknop/
+Description: fwknop: Single Packet Authorization > Port Knocking
+
+Package: fwknop-static
+Version: 2.6.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: fwknop (= 2.6.11-1)
+Filename: pool/main/f/fwknop-static/fwknop-static_2.6.11-1_aarch64.deb
+Size: 35360
+MD5sum: 08bbe38f4faa787c96806b967a310f86
+SHA1: beba9be5fb5848535cf9f237954d5f223c066076
+SHA256: d16388e25befff529e4e7666bb4f5764feb9d97f4159f4eefc49f584fe7064e6
+Homepage: https://www.cipherdyne.org/fwknop/
+Description: Static libraries for fwknop
+
+Package: fx
+Version: 39.1.0
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 13020
+Filename: pool/main/f/fx/fx_39.1.0_aarch64.deb
+Size: 3056352
+MD5sum: 9a4b009333edb9bb96c22b375a7b5682
+SHA1: 5837f8d61c52480a352a41de3c911a69a47491bb
+SHA256: 033482a310815b8d7d8cfb7a81f5d01a5dcb8665f87cd78422e6a16fb5a2c6b7
+Homepage: https://github.com/antonmedv/fx
+Description: Interactive JSON viewer on your terminal
+
+Package: fzf
+Version: 0.65.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4904
+Depends: bash, findutils, ncurses-utils
+Suggests: tmux
+Filename: pool/main/f/fzf/fzf_0.65.2_aarch64.deb
+Size: 1313440
+MD5sum: 5688daea4c494e16d566ddacf7e350ee
+SHA1: e8288525421788eb3b7463e79cef15b41b59b7cb
+SHA256: 965c42460834745baf1dbf918044819ade6d124ec2053b5c9c6947bb98e91a2f
+Homepage: https://junegunn.github.io/fzf/
+Description: Command-line fuzzy finder
+
+Package: fzy
+Version: 1.1-1
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 92
+Filename: pool/main/f/fzy/fzy_1.1-1_aarch64.deb
+Size: 12760
+MD5sum: abe9b0784f267df0e0463f343a3efb55
+SHA1: b83e9c68318588f3dad945f3c89b9fda094ab412
+SHA256: ef0fa27cff327f8f82eee9f3e15177115086122bfacc63599c6afe9c6af1032e
+Homepage: https://github.com/jhawthorn/fzy
+Description: A simple, fast fuzzy finder for the terminal
 
 Package: g-ir-scanner
 Version: 1.86.0
@@ -6729,6 +6827,35 @@ SHA256: 572ec46d943e7195798379aaab229b778c5ea58dc9cf880479f5a07e49981028
 Homepage: https://bitbucket.org/mpyne/game-music-emu/wiki/Home
 Description: Static libraries for game-music-emu
 
+Package: gap
+Version: 4.14.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92084
+Depends: readline, libgmp, zlib, gap-packages
+Breaks: gap-dev
+Replaces: gap-dev
+Filename: pool/main/g/gap/gap_4.14.0-2_aarch64.deb
+Size: 21024620
+MD5sum: c738692d577fdd6a2d374dd795e3384a
+SHA1: ce3a8719eeb1b49c3d50d25a9e2e49b404574c3b
+SHA256: 27933cb759d67987592319a027ebfe92b2426f15d9ea49ca63b368695c8b3327
+Homepage: https://www.gap-system.org/
+Description: GAP is a system for computational discrete algebra, with particular emphasis on Computational Group Theory
+
+Package: gap-packages
+Version: 4.14.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 106768
+Filename: pool/main/g/gap-packages/gap-packages_4.14.0-2_all.deb
+Size: 95103608
+MD5sum: 506cb5bba9f1164a0c48141a87382612
+SHA1: f5c7c8567850a869b01da7d02a4df21a10232531
+SHA256: b2c5381396fc7d848b28428031c2696f99c1334241446037261f0379c4097ac1
+Homepage: https://www.gap-system.org/
+Description: Packages for gap
+
 Package: gawk
 Version: 5.3.1-2
 Architecture: aarch64
@@ -6759,6 +6886,47 @@ SHA1: 42277d70adde36bdd80aa0ac1e67baf092968bc9
 SHA256: 6fbe8e26ff6bb828e6f593ae8c517dd21e7f99e3960b62f60814ed1cdc44c373
 Homepage: https://www.gnu.org/software/gawk/
 Description: Static libraries for gawk
+
+Package: gbt
+Version: 2.0.0-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2992
+Filename: pool/main/g/gbt/gbt_2.0.0-6_aarch64.deb
+Size: 763416
+MD5sum: f935c4360e7ba1dd165ee813cd772f86
+SHA1: 2fc36fbb9aea7c260bb12a4d0b1b5cf680d336e0
+SHA256: 168ace9e2207bc1e22afd9d579457d427147abf18368365285afa525e95b6abc
+Homepage: https://github.com/jtyr/gbt
+Description: Highly configurable prompt builder for Bash and ZSH written in Go
+
+Package: gcab
+Version: 1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 272
+Depends: glib, zlib
+Filename: pool/main/g/gcab/gcab_1.6-1_aarch64.deb
+Size: 36284
+MD5sum: 6473db333fd7539d0af01f0ea3b94d28
+SHA1: a887ec1b3b4a974e79ad9f129ef497fbdcc11b2d
+SHA256: 4aa754c941290e7bc32221a78e77f81b47a40fe968183c331e6020f9b55947fe
+Homepage: https://gitlab.gnome.org/GNOME/gcab
+Description: GObject library to create cabinet files
+
+Package: gcal
+Version: 4.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2808
+Depends: ncurses
+Filename: pool/main/g/gcal/gcal_4.1-4_aarch64.deb
+Size: 545848
+MD5sum: 3472fab61505f53b96fd1d012bca9bac
+SHA1: e1d287b718fbfef73013f81fc8de123cf4665647
+SHA256: e1092423561ffedd7fcd921c92b2fee2c6abb30d8a45c7706429012d25f94785
+Homepage: https://www.gnu.org/software/gcal/
+Description: Program for calculating and printing calendars
 
 Package: gdb
 Version: 16.3
@@ -7159,6 +7327,64 @@ SHA1: 6f2b4384a3ba375039a48118c9c0a614883846e0
 SHA256: f3e28b03ffb0d333be31ef7766935fc133504fc695895fd6ad86af9823b543b6
 Homepage: https://gpac.wp.imt.fr/
 Description: Static libraries for gpac
+
+Package: gpgme
+Version: 1.24.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1140
+Depends: gnupg (>= 2.2.9-1), libassuan, libgpg-error
+Breaks: gpgme-dev
+Replaces: gpgme-dev
+Filename: pool/main/g/gpgme/gpgme_1.24.3-1_aarch64.deb
+Size: 249156
+MD5sum: 43e0f04851a5ae4166e669dd752235a7
+SHA1: b37839d82409de65a6827f09b1120dbc8b778928
+SHA256: 0f17e0b49186f901642e93f40221c3bbe7a28e7fad521c696e759728a4613665
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: Library designed to make access to GnuPG easier
+
+Package: gpgme-static
+Version: 1.24.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 712
+Depends: gpgme (= 1.24.3-1)
+Filename: pool/main/g/gpgme-static/gpgme-static_1.24.3-1_aarch64.deb
+Size: 129152
+MD5sum: 5f1730427eae8f1a2570e8cb8c2be6de
+SHA1: abeeae881d453afc72efbe88bc5e59c04920677d
+SHA256: 86a81799edbc9d2e9070302d22502340b615622f5a68f1af5c59d025d9eceb55
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: Static libraries for gpgme
+
+Package: gpgmepp
+Version: 1.24.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 708
+Depends: libc++, gpgme (= 1.24.3-1)
+Filename: pool/main/g/gpgmepp/gpgmepp_1.24.3-1_aarch64.deb
+Size: 123648
+MD5sum: 82c8b7f0d5ac03773534d421a9e2b5b6
+SHA1: c79a39dfc4f95ae6fbc54d2272277cda9b4b768f
+SHA256: fdb7d771bc15f0905807a85ffe9ccee3a3465f413fc34a43d34105cfa2f167dd
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: Programmatic C++ library interface to GnuPG
+
+Package: gpgmepp-static
+Version: 1.24.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1664
+Depends: gpgmepp, gpgme (= 1.24.3-1)
+Filename: pool/main/g/gpgmepp-static/gpgmepp-static_1.24.3-1_aarch64.deb
+Size: 176464
+MD5sum: 9421dc985a8e5d64e8704394c95a78e2
+SHA1: de1cdca6ffb19e70f3e94b0b9b0f21b07b730c8f
+SHA256: 0330ffe21fc7638907546f8046f024554677b348779d1dca08a4afa7ac6e3408
+Homepage: https://www.gnupg.org/related_software/gpgme/
+Description: Static libraries for gpgmepp
 
 Package: gpgv
 Version: 2.5.11
