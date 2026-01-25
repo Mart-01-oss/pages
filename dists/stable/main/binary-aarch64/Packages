@@ -8272,6 +8272,100 @@ SHA256: 673d83c59225d911145397898670e662a2561e7c1d3bc975ad3f84f57fd1bad0
 Homepage: https://pressly.github.io/goose
 Description: A database migration tool. Supports SQL migrations and Go functions.
 
+Package: gopass
+Version: 1.15.18
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 22176
+Depends: git, gnupg
+Suggests: termux-api, openssh
+Filename: pool/main/g/gopass/gopass_1.15.18_aarch64.deb
+Size: 6920736
+MD5sum: d6cba3a3e88fec2bfad8edeca1f8485a
+SHA1: 785a30b0e3b87c0be89bec9aac60ac0e9ebcc395
+SHA256: c891aa6ccdbb0f21aaeb6ab8b84a76d8b80b14d80b18312d2542f50f0147b4e7
+Homepage: https://github.com/gopasspw/gopass
+Description: The slightly more awesome standard unix password manager for teams
+
+Package: gopher
+Version: 3.0.17.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Depends: ncurses
+Filename: pool/main/g/gopher/gopher_3.0.17.3-2_aarch64.deb
+Size: 63616
+MD5sum: 3524d25fc2f57f36cf05f06e873082de
+SHA1: 3f940f1763c3a411877da6ed4dc09d531a89c1f0
+SHA256: 96f284d0960db6d2a42ac70bf34c68cfd79490191daaa7f0626e007f1463dffe
+Homepage: gopher://gopher.quux.org/1/devel/gopher
+Description: University of Minnesota gopher
+
+Package: gopls
+Version: 0.20.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 29116
+Filename: pool/main/g/gopls/gopls_0.20.0_aarch64.deb
+Size: 6983220
+MD5sum: 6bf6a07ba255dafbc9ee91f0ba05d31e
+SHA1: ee26a5861a70417ba9ddc32b0267de0a76a3577e
+SHA256: 1cd9703aaf2a3e08d76c19bc9f92a2c5e164b3d60ea4b02baee9b6cccf39bde0
+Homepage: https://github.com/golang/tools
+Description: The official Go language server
+
+Package: gost
+Version: 2.12.0
+Architecture: aarch64
+Maintainer: @ian4hu
+Installed-Size: 15420
+Filename: pool/main/g/gost/gost_2.12.0_aarch64.deb
+Size: 3914288
+MD5sum: 3877661de2135c40ed603f69786132c3
+SHA1: 8d9335ac685e9c86d6fcccf11a39c65294dd4b7e
+SHA256: 2d497960e88bb573c71a1f8bb3976c285585756c0dcb2fa8987b1affba97aa0c
+Homepage: https://github.com/ginuerzh/gost
+Description: GO Simple Tunnel - a simple tunnel written in golang
+
+Package: gotop
+Version: 4.2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8476
+Filename: pool/main/g/gotop/gotop_4.2.0-4_aarch64.deb
+Size: 2357644
+MD5sum: b67644dafac86b6385b4bb3569099262
+SHA1: 01659b9d81ce8ec6ee18c2b0bd1f551e5a526507
+SHA256: e3c5de08c9a620e3014ac34589951d69e2390fa11efcb527243a1b09f97eeedc
+Homepage: https://github.com/xxxserxxx/gotop
+Description: A terminal based graphical activity monitor inspired by gtop and vtop
+
+Package: gotorrent
+Version: 0.1.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10192
+Filename: pool/main/g/gotorrent/gotorrent_0.1.2_aarch64.deb
+Size: 2759940
+MD5sum: c821f52ab572b25bec0abd09d9ae1200
+SHA1: 7cf86d3714b6f680177a1405e75917ee3db5da9c
+SHA256: 6fdd23e787f39d87ae891dd3ed305584c24d0e995289377a12ece35c06559742
+Homepage: https://github.com/ismaelpadilla/gotorrent
+Description: TUI for searching torrents
+
+Package: gotty
+Version: 1.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12000
+Filename: pool/main/g/gotty/gotty_1.6.0-1_aarch64.deb
+Size: 3019512
+MD5sum: 627b6464289139a360f5dbe9a1de5191
+SHA1: 071113ab8f38a0bb7f17f2f9b085fa060c5247ae
+SHA256: f891ba04c89771db37c10470533ae925e7c2b75ddeb8a55a4a7168fdf7dbed23
+Homepage: https://github.com/sorenisanerd/gotty
+Description: Share your terminal as a web application
+
 Package: gpac
 Version: 2.4.0-4
 Architecture: aarch64
@@ -8299,6 +8393,20 @@ SHA1: 6f2b4384a3ba375039a48118c9c0a614883846e0
 SHA256: f3e28b03ffb0d333be31ef7766935fc133504fc695895fd6ad86af9823b543b6
 Homepage: https://gpac.wp.imt.fr/
 Description: Static libraries for gpac
+
+Package: gperf
+Version: 3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libc++
+Filename: pool/main/g/gperf/gperf_3.3-1_aarch64.deb
+Size: 86808
+MD5sum: a3f70129b1e2dfba74aebd629396b090
+SHA1: d6ab717b42c4148bd41fc26f1b6a9ef9f53b3913
+SHA256: 52b5f3392bcc04048c7039dab1379c604799c4dfe5416a77102aea8b3efdcfcb
+Homepage: https://www.gnu.org/software/gperf
+Description: A perfect hash function generator
 
 Package: gpgme
 Version: 1.24.3-1
@@ -8371,6 +8479,19 @@ SHA1: 040371cbfd8bf9b133679f46e9e0abc853201c75
 SHA256: b776a02c7afb7046a5fcc16089fc13ed85a7abd25ccf65e1c4cca60fedae07cb
 Homepage: https://www.gnupg.org/
 Description: GNU privacy guard - signature verification tool
+
+Package: gping
+Version: 1.20.1-1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 2848
+Filename: pool/main/g/gping/gping_1.20.1-1_aarch64.deb
+Size: 841776
+MD5sum: 298013f03f0b408f639ae84a400ef573
+SHA1: 86a646d08f4104b1e2ba2ec5a02e5e9276fc6f2f
+SHA256: 786460337e1e64b7a97934269f55898155454d5b0e1dc9856f6e68c0b6f17e1f
+Homepage: https://github.com/orf/gping
+Description: Ping, but with a graph
 
 Package: graphicsmagick
 Version: 1.3.45-4
