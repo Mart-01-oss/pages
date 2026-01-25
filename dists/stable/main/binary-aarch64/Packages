@@ -7475,6 +7475,21 @@ SHA256: c382b7669fcf834c98fb266b231349d477a16a1ed313280f6b0a15390e5f90ff
 Homepage: https://dandavison.github.io/delta/
 Description: A syntax-highlighter for git and diff output
 
+Package: git-extras
+Version: 7.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Depends: bash, git, util-linux, gawk, findutils, ncurses-utils
+Recommends: curl, procps, rsync
+Filename: pool/main/g/git-extras/git-extras_7.4.0-1_aarch64.deb
+Size: 106120
+MD5sum: 8ad1c203f9242a7bae7aa97b70a3b954
+SHA1: 95f749fb946e88559146bcdd794f486918be5a5a
+SHA256: 2c61083c9913d8267e33e7e7736fa86fe77f94eaa01b53ebc5aa1c29f06b17c0
+Homepage: https://github.com/tj/git-extras
+Description: Little git extras.
+
 Package: git-gitk
 Version: 2.51.0
 Architecture: aarch64
@@ -7503,6 +7518,33 @@ SHA256: 0e2950081da0c6f2de83935502c9fcaf5f0f1852338d27566688e773b9f60f0a
 Homepage: https://git-scm.com/
 Description: A graphical interface to Git
 
+Package: git-lfs
+Version: 3.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13164
+Filename: pool/main/g/git-lfs/git-lfs_3.7.0-1_aarch64.deb
+Size: 3452012
+MD5sum: 8730758ea08c7e386f9090d25d8f53c7
+SHA1: c5d1428eb3adf6781652275dcf101bd22a1a680e
+SHA256: 6dd1d595912a8ba57cc9554cb62fd3b70506bc5c56cd0c9204c47dc52d4893e5
+Homepage: https://git-lfs.github.com/
+Description: Git extension for versioning large files
+
+Package: git-sizer
+Version: 1.5.0-5
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 3280
+Depends: git
+Filename: pool/main/g/git-sizer/git-sizer_1.5.0-5_aarch64.deb
+Size: 930060
+MD5sum: 6fb08d52a4666ca3613f19169576336e
+SHA1: 85f2fe1fbc31144f318fda24be957b9fa21687b2
+SHA256: 71db317f377030daca6f1976f0c032d17981564475e4247b3e04b7335433c71e
+Homepage: https://github.com/github/git-sizer
+Description: Compute various size metrics for a Git repository
+
 Package: git-svn
 Version: 2.51.0
 Architecture: all
@@ -7516,6 +7558,90 @@ SHA1: 22bdf157f35f9cf1613df481730d641e41c475c8
 SHA256: d32b4a73798df0abd65fefcd17b4fedc884725e5eaaae8900a74108c606e0d88
 Homepage: https://git-scm.com/
 Description: Convert between Git and Subversion repositories
+
+Package: gitea
+Version: 1.24.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120160
+Depends: dash, git
+Filename: pool/main/g/gitea/gitea_1.24.6_aarch64.deb
+Size: 31976740
+MD5sum: 879b597103f3d95dd3a38ed7a435285d
+SHA1: 6a6678cfb6555dd0c218370c3b93705632364ccd
+SHA256: 0ffe56e1e1fdc2819e5c2c446c7764ddc25bffd963d1ab7e2a95af47861f2cf8
+Homepage: https://gitea.io
+Description: Git with a cup of tea, painless self-hosted git service
+
+Package: gitflow-avh
+Version: 1.12.3-9
+Architecture: all
+Maintainer: @termux
+Installed-Size: 448
+Depends: dash, git
+Filename: pool/main/g/gitflow-avh/gitflow-avh_1.12.3-9_all.deb
+Size: 31500
+MD5sum: 055b2a3845a97e0b8bf75c4ef6c2f869
+SHA1: 64d946f5fc489d9e63c70e3d10848a7eb9a8d8fa
+SHA256: cd5caa6e02311305e2874c612ee7c20720415ad2591ed3fbf7e9837ecde2ae7e
+Homepage: https://github.com/petervanderdoes/gitflow/
+Description: Extend git with Vincent Driessen's branching model. The AVH Edition adds more functionality.
+
+Package: gitoxide
+Version: 0.45.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26720
+Depends: resolv-conf
+Filename: pool/main/g/gitoxide/gitoxide_0.45.0-1_aarch64.deb
+Size: 6835404
+MD5sum: 26b3339dd6539f571d700f220c3e74b6
+SHA1: 8cd80d1b0875569ff6c1fa4e087ae8658289cd62
+SHA256: cf2411d0e5e7300a68024d81d8301fc9961ea5ca861345965a3c5f1ec024bd2f
+Homepage: https://github.com/Byron/gitoxide
+Description: Rust implementation of Git
+
+Package: gkermit
+Version: 2.01-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libandroid-support
+Filename: pool/main/g/gkermit/gkermit_2.01-1_aarch64.deb
+Size: 38156
+MD5sum: a6924d7c2591efeefcd35caddf9de94c
+SHA1: 2c291fd81236d55b25470b442bfa57ca85e0aa37
+SHA256: 9dcfb1b659337931597d6440c62ce9c4fb0e704926fb9de7799be357a246b86c
+Homepage: http://www.columbia.edu/kermit/gkermit.html
+Description: Simple, Portable, Free File Transfer Software for UNIX
+
+Package: glab-cli
+Version: 1.72.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44892
+Filename: pool/main/g/glab-cli/glab-cli_1.72.0_aarch64.deb
+Size: 10522816
+MD5sum: 416d44c8ba45051627936a385d1c7516
+SHA1: 5f9ba79c87adf1b9471162fc5cdfbb86d83d8c66
+SHA256: 3b4d1362f7ea47a3c25bcdeceffae8a7abf05c37e84095d63d1a2be8dc3527e1
+Homepage: https://gitlab.com/gitlab-org/cli
+Description: A GitLab CLI tool bringing GitLab to your command line
+
+Package: gleam
+Version: 1.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16884
+Depends: erlang
+Suggests: nodejs | nodejs-lts
+Filename: pool/main/g/gleam/gleam_1.12.0_aarch64.deb
+Size: 4603716
+MD5sum: 9a52a3884ce60591e01ef522e9beabf8
+SHA1: c243efa99bd586544a63ff11cedc581dee4df29b
+SHA256: fe19a473e8bd605723a49ffe55f992409c4a6d4b3d3b586e45f463203f8262be
+Homepage: https://gleam.run
+Description: A friendly language for building type-safe, scalable systems!
 
 Package: glib
 Version: 2.86.0
@@ -7546,6 +7672,20 @@ SHA1: 2b37fe49c41a92e9e3a293d104e3f4703749002c
 SHA256: ca018570cffbd9676520761a1bb4f689bcc2ee62d2f43e7e50470b36385f31f2
 Homepage: https://developer.gnome.org/glib/
 Description: glib for host (NOT for Termux)
+
+Package: glib-networking
+Version: 2.80.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: glib, libgnutls
+Filename: pool/main/g/glib-networking/glib-networking_2.80.1-1_aarch64.deb
+Size: 39136
+MD5sum: 778069d6bef1489579f87c9cec3da0bc
+SHA1: 0adf005d0ad6741e2656c711427f40502e5ef299
+SHA256: d22e5db1e1d878c4565e47b59af366f1e2696360580e3d39d5ebdc9ce9952b4a
+Homepage: https://gitlab.gnome.org/GNOME/glib-networking
+Description: Network-related giomodules for glib
 
 Package: glm
 Version: 1.0.1
