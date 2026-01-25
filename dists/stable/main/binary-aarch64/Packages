@@ -6401,6 +6401,19 @@ SHA256: bc0b39b2bbe488c77547a43b819c080c56722e3b96a809310e850074afbf24ec
 Homepage: https://fly.io
 Description: Command line tools for fly.io services
 
+Package: fm
+Version: 1.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13028
+Filename: pool/main/f/fm/fm_1.1.0-1_aarch64.deb
+Size: 2932260
+MD5sum: 52ca3f7dd0640a504711194a9245c049
+SHA1: d324775a3dabdaf1ab8889a104119b2a1391b38a
+SHA256: eeece60a6a6c89e7025065ae3294985ef856ed3ba70851693efa52ded5dacb80
+Homepage: https://github.com/knipferrc/fm
+Description: A terminal based file manager
+
 Package: fmt
 Version: 1:11.2.0
 Architecture: aarch64
@@ -6459,6 +6472,88 @@ SHA256: 149635d8d4faafecc42872a8c5732c6e8cf1f5eb2d2fb54e2422281efaa0f966
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Description: Fontconfig binaries
 
+Package: forgejo
+Version: 12.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 114048
+Depends: dash, git
+Filename: pool/main/f/forgejo/forgejo_12.0.4_aarch64.deb
+Size: 32693208
+MD5sum: bd805d40c0cc6613d4ef58e6a6ec8bc3
+SHA1: ec13f081a5af2243c4dc5418f075549a1d642c96
+SHA256: 9fb26a3151c6aeeeff59672e8b6835d3a4541cf15c3a870bf0902eb7594d3eb9
+Homepage: https://forgejo.org/
+Description: Forgejo is a self-hosted lightweight software forge.
+
+Package: fortune
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2600
+Filename: pool/main/f/fortune/fortune_1.2-2_aarch64.deb
+Size: 817688
+MD5sum: 655f867c7b150b6b6f6a8d064dbcfac1
+SHA1: 7f5a3350a45431664c581ca6a65cd4c5c49e1363
+SHA256: 7af862ade632fd2195673ff0a03c4ae1a2247fc7a77a89bb680c2491c2a30774
+Homepage: https://www.fefe.de/fortune/
+Description: Revealer of fortunes
+
+Package: fossil
+Version: 2.26
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5044
+Depends: openssl, zlib
+Filename: pool/main/f/fossil/fossil_2.26_aarch64.deb
+Size: 1667716
+MD5sum: 4a6bda85a25eb793847a55cf8630b6b4
+SHA1: 153bcf01b4bd42ba8c6558f8c208848429496420
+SHA256: 4c14772cc709d4df46db84b8cbbdd23cb259c6ae28b21f25543b39427495c108
+Homepage: https://www.fossil-scm.org
+Description: DSCM with built-in wiki, http interface and server, tickets database
+
+Package: freecolor
+Version: 0.9.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Filename: pool/main/f/freecolor/freecolor_0.9.3-1_aarch64.deb
+Size: 5612
+MD5sum: 45592ba6b1cc6b01ad5c710d7093519f
+SHA1: 80e2c04ff8312d0dba21fdf4fb0b15bd9bd18048
+SHA256: 4213f419547256e76295115018c18c3011a63ce1ab2ff0600cb48c10effdbaa5
+Homepage: http://rkeene.org/oss/freecolor/
+Description: Freecolor is a replacement for Linux that displays free memory graphically
+
+Package: freeimage
+Version: 3.18.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7060
+Depends: libc++
+Filename: pool/main/f/freeimage/freeimage_3.18.0-7_aarch64.deb
+Size: 1823548
+MD5sum: bd98cd0fd30dbab1146e2ebdb709362a
+SHA1: 04ed8a9606b12622b3d69d6d176a151bcba77a78
+SHA256: 6a3acb1952c3b343e5c34dae5e1c3c09e6dea56795366c850d5fe0cee2f30549
+Homepage: https://freeimage.sourceforge.io
+Description: The library project for developers who would like to support popular graphics image formats
+
+Package: freeimage-static
+Version: 3.18.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11620
+Depends: freeimage (= 3.18.0-7)
+Filename: pool/main/f/freeimage-static/freeimage-static_3.18.0-7_aarch64.deb
+Size: 2175964
+MD5sum: aa443431cb31e127a87c49d77f7b1f91
+SHA1: 0113e772caa4721a9146f5fda8a7e737f6857fa4
+SHA256: ce15cbf099d2a83e3d543826cd1368cd9572b759df9d6ffd8953a1712dc4ff49
+Homepage: https://freeimage.sourceforge.io
+Description: Static libraries for freeimage
+
 Package: freetype
 Version: 2.14.1
 Architecture: aarch64
@@ -6489,6 +6584,20 @@ SHA256: 86309b41ebfe9958bc8642a29c8fc3723ffc13f31483107f106573d9ddccf7e8
 Homepage: https://www.freetype.org
 Description: Static libraries for freetype
 
+Package: frei0r-plugins
+Version: 2.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3916
+Depends: libc++, libcairo
+Filename: pool/main/f/frei0r-plugins/frei0r-plugins_2.4.0_aarch64.deb
+Size: 505468
+MD5sum: 594be2b2e6276144d9078d36b71a9809
+SHA1: 8decf71099c61d6144fb45b0099e54e95f91822d
+SHA256: 4c747367f057e16e82d3a7c419432a459ce3749054842c31a940839cc8b4ec42
+Homepage: https://www.dyne.org/software/frei0r/
+Description: Minimalistic plugin API for video effects
+
 Package: fribidi
 Version: 1.0.16-1
 Architecture: aarch64
@@ -6518,6 +6627,63 @@ SHA1: 56280154b8c2e2a40a11f1c3395a652840abc9b8
 SHA256: af5138f1b9d3df64c7718c41289788f53fc52aa4fcef8584e1b8b908a29b6ac8
 Homepage: https://github.com/fribidi/fribidi/
 Description: Static libraries for fribidi
+
+Package: frobtads
+Version: 2.0-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11176
+Depends: libc++, ncurses, libcurl
+Filename: pool/main/f/frobtads/frobtads_2.0-5_aarch64.deb
+Size: 2057156
+MD5sum: 1ada2de6330568c866969cdccee16abe
+SHA1: 1dc67022af796418cfbb7180c5a732a7d580e179
+SHA256: f9f27827aa7a9e87546bd4543bd4b0a0e369bd23a88c0cbe52ffe0c3c718dbc0
+Homepage: http://www.tads.org/frobtads.htm
+Description: TADS is a free authoring system for writing your own Interactive Fiction
+
+Package: frogcomposband
+Version: 7.1.salmiak-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10208
+Depends: ncurses
+Filename: pool/main/f/frogcomposband/frogcomposband_7.1.salmiak-3_aarch64.deb
+Size: 2027644
+MD5sum: 3a7aea1733e48121f894a1f2c368f810
+SHA1: 12b94420d50e4a273ad37f5ab76f18b486933b4c
+SHA256: 09af8b9018bfd388c0c38e24985a34a679c536c4dd2aa9aa404ebba28cbd238b
+Homepage: https://github.com/sulkasormi/frogcomposband/
+Description: Open world Angband variant with many additions
+
+Package: frp
+Version: 0.65.0
+Architecture: aarch64
+Maintainer: 2096779623 <admin@utermux.dev>
+Installed-Size: 36440
+Breaks: frpc, frps
+Replaces: frpc, frps
+Filename: pool/main/f/frp/frp_0.65.0_aarch64.deb
+Size: 9305020
+MD5sum: 79ed870c8727fa1323c1a4db11aa8e92
+SHA1: 5c26f9d2a811fc62e69a41eff6d9a66a11a87d04
+SHA256: c52ebef9117d4b4ca8f841f0f24254f22599b21ba623ca56ada54641564b58cf
+Homepage: https://github.com/fatedier/frp
+Description: A fast reverse proxy to expose a local server behind a NAT or firewall to the internet
+
+Package: fselect
+Version: 0.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5812
+Depends: zlib
+Filename: pool/main/f/fselect/fselect_0.9.0-1_aarch64.deb
+Size: 1997608
+MD5sum: c803a3be1ed10c47ca68c382e2d1139a
+SHA1: 687394ffac4b0a16f5052c40fdbcfeb562edfe4d
+SHA256: e636acb2e157a52f0cf55ec13054129a1eba96365e52abcea84fb1a805606725
+Homepage: https://fselect.rocks/
+Description: Find files with SQL-like queries
 
 Package: g-ir-scanner
 Version: 1.86.0
