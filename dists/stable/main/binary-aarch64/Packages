@@ -7884,6 +7884,76 @@ SHA256: 41ee90595ff7be77987b7a313dd1bf2e80057f6262c34093449fe70130f5a6d8
 Homepage: https://www.gnu.org/software/chess/
 Description: Chess-playing program
 
+Package: gnucobol
+Version: 3.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2536
+Depends: json-c, libgmp, libvbisam, libxml2, ncurses
+Filename: pool/main/g/gnucobol/gnucobol_3.2-2_aarch64.deb
+Size: 646304
+MD5sum: 149d79b50303949b7e09656c95d83de5
+SHA1: b9b2cfbb6352646c7b447c30c95dd9f0ec08604f
+SHA256: 342fb86230607dac6894cc77dcd569417dc144fff50a464d9c341cf84428cd67
+Homepage: https://gnucobol.sourceforge.io/
+Description: A free/libre COBOL compiler
+
+Package: gnucobol-static
+Version: 3.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 744
+Depends: gnucobol (= 3.2-2)
+Filename: pool/main/g/gnucobol-static/gnucobol-static_3.2-2_aarch64.deb
+Size: 175960
+MD5sum: 3f933a288dd2f9b5c644fcdcffba9736
+SHA1: 9450f7eaf0002e5662144ac8ee1286dd6a63a0aa
+SHA256: f891a336f36663b10a41d262a988c4045e680b3ec8c85df15ec17074f4903fd7
+Homepage: https://gnucobol.sourceforge.io/
+Description: Static libraries for gnucobol
+
+Package: gnugo
+Version: 3.8-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8368
+Depends: ncurses, readline
+Filename: pool/main/g/gnugo/gnugo_3.8-6_aarch64.deb
+Size: 1042260
+MD5sum: 4603914f1a85e6f07145c814e1bd1252
+SHA1: 409f19da3cc97250133748063935b4fc1a0c4e28
+SHA256: ba5c3a75e1e36ffda0ce11d1f8ad73517c207e7ffde04cb2b52cce686a26eabf
+Homepage: https://www.gnu.org/software/gnugo/
+Description: Program that plays the game of Go
+
+Package: gnuit
+Version: 4.9.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1536
+Depends: libandroid-support, ncurses
+Filename: pool/main/g/gnuit/gnuit_4.9.5-1_aarch64.deb
+Size: 181408
+MD5sum: cef188581b0c732d26a38424d04bd9a8
+SHA1: 5b8cda109ecf6f5d5e40fa21abbf9ea69cd9c10f
+SHA256: 442e2b4d1a911e68b4ceaaad68ab19430eb0728b7526f2f21076ca7869f5b662
+Homepage: https://www.gnu.org/software/gnuit/
+Description: gnuit - GNU Interactive Tools
+
+Package: gnunet
+Version: 0.25.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15724
+Depends: libcurl, libgcrypt, libgnutls, libgpg-error, libidn2, libjansson, libltdl, libmicrohttpd, libsodium, libsqlite, libunistring, zlib
+Filename: pool/main/g/gnunet/gnunet_0.25.1_aarch64.deb
+Size: 5307032
+MD5sum: 4e9642a293d6914e2ba45cb07e7f2e69
+SHA1: bf911ed2ca1a7787533683576dce96c0d30182b4
+SHA256: 42190ef89e2b2782524b0490574f1cf8a11139e9dba034ffe0c1db983daa3e80
+Homepage: https://gnunet.org
+Description: A framework for secure peer-to-peer networking
+
 Package: gnupg
 Version: 2.5.11
 Architecture: aarch64
@@ -7901,6 +7971,92 @@ SHA256: 03f437e0e06b6835998648f2f87e3bb7ed3330efe81aade0ecd2ec623476bfda
 Homepage: https://www.gnupg.org/
 Description: Implementation of the OpenPGP standard for encrypting and signing data and communication
 
+Package: gnuplot
+Version: 6.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2812
+Depends: glib, libandroid-support, libcairo, libgd, libiconv, libx11, pango, readline
+Breaks: gnuplot-x
+Replaces: gnuplot-x
+Filename: pool/main/g/gnuplot/gnuplot_6.0.3-1_aarch64.deb
+Size: 857204
+MD5sum: ff9a91e6ef8a5e3c972d754c1ad8b2f0
+SHA1: bfe554e0e74b56681c1ac06a0f52454f3bf69141
+SHA256: a9b214222fc553e9536374b4eecc747ee6f4c7f1f42df8bed09e4cf7013640f7
+Homepage: http://gnuplot.info/
+Description: Command-line driven graphing utility
+
+Package: gnurl
+Version: 7.72.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2688
+Depends: brotli, libgnutls, libidn2, libnettle, zlib, zstd
+Filename: pool/main/g/gnurl/gnurl_7.72.0-1_aarch64.deb
+Size: 877020
+MD5sum: a4a435e52e84cac76ef0e3a8f0be6449
+SHA1: 2bfb351d8c49fbbf8eb98c40ae694795809e9598
+SHA256: b064e6a3fa0a6af3a9e78d6c19d56bcf1adb0f35bb21919631e3f299c53c8fbf
+Homepage: https://gnunet.org/en/gnurl.html
+Description: Fork of libcurl, which is mostly for GNUnet
+
+Package: gnurl-static
+Version: 7.72.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 732
+Depends: gnurl (= 7.72.0-1)
+Filename: pool/main/g/gnurl-static/gnurl-static_7.72.0-1_aarch64.deb
+Size: 154464
+MD5sum: 8be40d5c8404a0167b74318acb392974
+SHA1: 24f5fb7e86122530f73e5880a6ad96aa15408c54
+SHA256: 7617a2fe62422f2206a8998babcf9be550a41ef5a55c9d4856fdef9d1d687dde
+Homepage: https://gnunet.org/en/gnurl.html
+Description: Static libraries for gnurl
+
+Package: gnushogi
+Version: 1.4.2-p20141119-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: ncurses
+Filename: pool/main/g/gnushogi/gnushogi_1.4.2-p20141119-1_aarch64.deb
+Size: 152608
+MD5sum: ea651374c0ce1483dab299f487e95efc
+SHA1: d6434df0d14fd0a9e449b00680194f6d946ed8dc
+SHA256: 0e92bdb6553f5953afe48cbf8874d2b08555c22d2497ca94e9cab25b9ba4fe13
+Homepage: https://www.gnu.org/software/gnushogi/
+Description: Program that plays the game of Shogi, also known as Japanese Chess
+
+Package: gnuski
+Version: 0.3-7
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 52
+Depends: ncurses
+Filename: pool/main/g/gnuski/gnuski_0.3-7_aarch64.deb
+Size: 4100
+MD5sum: ce2c363034e8afebcad058c6979ba119
+SHA1: 8a1a647994bb2eff63bed325c6871eb2102cda0c
+SHA256: d90d364f62c11b7cce77ead634c8963a5c4ec7f0f4ecc19fa24bf9c7c942a451
+Homepage: https://sourceforge.net/projects/gnuski/
+Description: Open source clone of Skifree, the old Windows game
+
+Package: gnustep-make
+Version: 2.9.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1296
+Depends: libobjc2
+Filename: pool/main/g/gnustep-make/gnustep-make_2.9.3_aarch64.deb
+Size: 167880
+MD5sum: 3686f0354b17fb27083ebe709bae9a7d
+SHA1: aeb14ce5c18137cdb7dc474ac6921f55d903b81c
+SHA256: 198c891703dd95e7cbfa5a3f7b59ad5386ee15fdd784b7113560fd949201e819
+Homepage: https://www.gnustep.org
+Description: The GNUstep makefile package
+
 Package: gnutls
 Version: 3.8.10
 Architecture: aarch64
@@ -7914,6 +8070,22 @@ SHA1: a1124e94cd1118d80dcf1f02d34746443c3e0737
 SHA256: 47c6335eff4e32ad3f1028710c54a84db3defd7c30c333a8c59e205ba7899058
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
+
+Package: go-findimagedupes
+Version: 2023.01.29-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4920
+Depends: file, libc++, libheif, libjpeg-turbo, libpng, libtiff
+Conflicts: findimagedupes
+Replaces: findimagedupes
+Filename: pool/main/g/go-findimagedupes/go-findimagedupes_2023.01.29-4_aarch64.deb
+Size: 1418548
+MD5sum: c3cd7e95c064353927f54c9b73c0e5e0
+SHA1: df425e20f7b3467b5a71722b74eb2ddb4df7e8c1
+SHA256: 471b4df831d1fe1d4a7ef88d401b70a174a66ebf2ecfe5759d9a83719def60c6
+Homepage: https://gitlab.com/opennota/findimagedupes
+Description: Find visually similar or duplicate images
 
 Package: gobject-introspection
 Version: 1.86.0
@@ -11512,6 +11684,21 @@ SHA256: 516d23880f6895d3ca8554e39b96d7ac0e2a6f1a1fdfd30305e23762d275f4c4
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Network Security Services (NSS)
 
+Package: libobjc2
+Version: 2.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 408
+Depends: libc++
+Conflicts: libblocksruntime
+Filename: pool/main/libo/libobjc2/libobjc2_2.1-3_aarch64.deb
+Size: 80244
+MD5sum: e0a67e90c13edcbc5f4bdccda610573a
+SHA1: 7dbc0541acd31b5039983770fd76477e802009ca
+SHA256: c0abd750bc0bbd1cf523c8e26b8d1ba2274fa0959d9f3a6f8acbfd8abef7a899
+Homepage: https://www.gnustep.org/
+Description: The GNUstep Objective-C runtime
+
 Package: libogg
 Version: 1.3.6-1
 Architecture: aarch64
@@ -12859,6 +13046,33 @@ SHA1: b857924a393b206052c33aef55d99b74182dc27b
 SHA256: 9b7afa9552f747913464b0959eb8094cf690cc0b9be7f4f0f3ffa5fab4d49e02
 Homepage: https://git.linuxtv.org/v4l-utils.git
 Description: Static libraries for libv4l
+
+Package: libvbisam
+Version: 2.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Filename: pool/main/libv/libvbisam/libvbisam_2.0-3_aarch64.deb
+Size: 39228
+MD5sum: 70ec052bbf8176ca012c536e1b998adc
+SHA1: 3257ca1fa0598b2acf74e0a3e4b80fd88260506d
+SHA256: 8a917b5b9c2525e9d60c8ce5ca5dcf504ab3d8a8c39734a272be9221f4087f1a
+Homepage: https://sourceforge.net/projects/vbisam/
+Description: A replacement for IBM's C-ISAM
+
+Package: libvbisam-static
+Version: 2.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Depends: libvbisam (= 2.0-3)
+Filename: pool/main/libv/libvbisam-static/libvbisam-static_2.0-3_aarch64.deb
+Size: 43136
+MD5sum: cf8c9a4b9d216cc646b6ff6c775cab17
+SHA1: 3555d4f1355af9199159c9e2ce754ba7d72eb711
+SHA256: 26d69b20ef6c53f2487ce55ea606002f63c0682ddb544de9be1be51dbeb34640
+Homepage: https://sourceforge.net/projects/vbisam/
+Description: Static libraries for libvbisam
 
 Package: libvidstab
 Version: 1.1.1-3
