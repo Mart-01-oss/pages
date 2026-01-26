@@ -8797,6 +8797,20 @@ SHA256: 657b5121f2693102b56ad110d07dc2b4e95a80087edee6371bb23a51d66d5cbe
 Homepage: https://gstreamer.freedesktop.org/
 Description: GStreamer Ugly Plug-ins
 
+Package: gst-python
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 256
+Depends: gst-plugins-base, gst-plugins-bad, gstreamer, pygobject, python
+Filename: pool/main/g/gst-python/gst-python_1.26.6_aarch64.deb
+Size: 39636
+MD5sum: 7071e3242973efe16a693a612f84b8d9
+SHA1: 1973a762a5a6aae063c78d40c376b713ded50912
+SHA256: 4f97829a34ceaa90af05be8081619377a7f8d3b31408b8944942ca420dbaf311
+Homepage: https://gstreamer.freedesktop.org/
+Description: Python bindings for GStreamer
+
 Package: gstreamer
 Version: 1.26.6
 Architecture: aarch64
@@ -8812,6 +8826,20 @@ SHA1: f75c5dccce2669c82b0bbf5ae1a4bf26179fad73
 SHA256: 4ff547342807938c59b4e423c2c4c30de9bf9c54e43ddd2040bd639c61af9f63
 Homepage: https://gstreamer.freedesktop.org/
 Description: Open source multimedia framework
+
+Package: gtypist
+Version: 2.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2404
+Depends: libandroid-support, libiconv, ncurses
+Filename: pool/main/g/gtypist/gtypist_2.10.1-1_aarch64.deb
+Size: 453520
+MD5sum: e0c6c5d6916da54bf4f4f11af7c9f1ea
+SHA1: d1f11cf1c14629727bd94ef336f391a649dd2947
+SHA256: fc9c7db372c1a826ee0f0903a10701a2fd62ac8f6d276c7dcc65aed8cd63f86c
+Homepage: https://www.gnu.org/software/gtypist/
+Description: Universal typing tutor
 
 Package: guile
 Version: 3.0.9-3
@@ -8844,6 +8872,77 @@ SHA256: 4d2ca34992f63eee949e1ff804c16df51e6842e6019cacd7c35097581101f392
 Homepage: http://www.gnu.org/software/guile/
 Description: Static libraries for guile
 
+Package: guile18
+Version: 1.8.8-16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5968
+Depends: libcrypt, libgmp, libltdl, ncurses, readline
+Conflicts: guile
+Breaks: guile18-dev
+Replaces: guile18-dev
+Filename: pool/main/g/guile18/guile18_1.8.8-16_aarch64.deb
+Size: 1038196
+MD5sum: 5deadd5d45357f07abf92b3d3b1db2b5
+SHA1: b3dca0a88d1fa5b13582a7120f138776e0780ffc
+SHA256: 9230f996635c46770b128f1c3d50323f50206f26e0e0c66e7a0ad079da71e5c8
+Homepage: http://www.gnu.org/software/guile/
+Description: Portable, embeddable Scheme implementation written in C. (legacy branch)
+
+Package: guile18-static
+Version: 1.8.8-16
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2084
+Depends: guile18 (= 1.8.8-16)
+Filename: pool/main/g/guile18-static/guile18-static_1.8.8-16_aarch64.deb
+Size: 334948
+MD5sum: d7a612e47159f41badf3e0c22230d19f
+SHA1: c55532559cf8da55c452a20793799a457fe688a0
+SHA256: f196340b0ae289ab9c218bfe51b0a2f725f9f729e868c521de54737e7a1e823e
+Homepage: http://www.gnu.org/software/guile/
+Description: Static libraries for guile18
+
+Package: gum
+Version: 0.17.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13968
+Filename: pool/main/g/gum/gum_0.17.0_aarch64.deb
+Size: 3091916
+MD5sum: b5317be472523365c739caebdc12ab56
+SHA1: f13fc9703f0b9644a1b73c6536069e49172357c0
+SHA256: af25005b3bf719b68c3be2f5644dcd00fc4b5dadd2e2c4a1ce5ba60069b81de5
+Homepage: https://github.com/charmbracelet/gum
+Description: A tool for creating minimal interactive TUIs for shell scripts
+
+Package: gumbo-parser
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Filename: pool/main/g/gumbo-parser/gumbo-parser_0.10.1-1_aarch64.deb
+Size: 102428
+MD5sum: 710299bb9983166ab8eefd01b5ffe47b
+SHA1: f62b6786538302ae868b8e1b87ac254f4ca450f8
+SHA256: 97fc93936b46e2b6cf26a067cd7ab298815fc3c725bab5edea8d78b016983cf0
+Homepage: https://github.com/google/gumbo-parser
+Description: An HTML5 parsing library
+
+Package: gumbo-parser-static
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 444
+Depends: gumbo-parser (= 0.10.1-1)
+Filename: pool/main/g/gumbo-parser-static/gumbo-parser-static_0.10.1-1_aarch64.deb
+Size: 101472
+MD5sum: 9ae1939d60d9abbc1a3e2ee6a4b3bcb9
+SHA1: c318d87bda78fd4e69a1aa6a804c7a04ec78e308
+SHA256: a2ac1cae9bdc48d2f22a87d0df38669a25343119a4a4df536293577aad02f125
+Homepage: https://github.com/google/gumbo-parser
+Description: Static libraries for gumbo-parser
+
 Package: gzip
 Version: 1.14-1
 Architecture: aarch64
@@ -8857,6 +8956,20 @@ SHA1: 197328248849d1cac7cb8b4d1197448d23bd3e30
 SHA256: 83bd6bf60eecbd126b87572edd0dbe7005e2e4884337839a9ce65df436ce6d2b
 Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
+
+Package: haproxy
+Version: 3.2.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5532
+Depends: liblua53, openssl, pcre2, zlib
+Filename: pool/main/h/haproxy/haproxy_3.2.5_aarch64.deb
+Size: 1480088
+MD5sum: 183fec97ef5eea168df85a75fa2ea7b3
+SHA1: f38e05636c5b33938a0cc9a2834915502fbbe50b
+SHA256: f58ceab38c2106aea8535c386c9cfcaab33b02bf1aa8e4f3f189b0124083781a
+Homepage: https://www.haproxy.org/
+Description: The Reliable, High Performance TCP/HTTP Load Balancer
 
 Package: harfbuzz
 Version: 11.5.1
@@ -8903,6 +9016,34 @@ SHA1: 755f10c834f701c055a0fc9635dadea7e28f9d59
 SHA256: c99eb3d26597524ce2577f71b4b25b4dcb049efe6bd70f8ba332385c30e35ac4
 Homepage: https://www.freedesktop.org/wiki/Software/HarfBuzz/
 Description: Tools using the harfbuzz library
+
+Package: has
+Version: 1.5.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Depends: bash, ncurses-utils
+Filename: pool/main/h/has/has_1.5.2_all.deb
+Size: 5412
+MD5sum: 8e7ae95c2cbc92d00572a8ba1bd094e0
+SHA1: 1a28ba33c038db4877fdab63d9566cd37f54e106
+SHA256: 1277a132a5adefa84c548093f875facc15b9db092a4d88f5735205c4de752651
+Homepage: https://github.com/kdabir/has
+Description: has checks presence of various command line tools and their versions on the path
+
+Package: hash-slinger
+Version: 3.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 124
+Depends: ca-certificates, gnupg, openssh, python, pyunbound, resolv-conf, swig, python-pip
+Filename: pool/main/h/hash-slinger/hash-slinger_3.4_all.deb
+Size: 22704
+MD5sum: f3249da8e7a4e84d5735349210796423
+SHA1: 02a49c2bfa090a5b4cb48b7ac7bc0c263393a09a
+SHA256: 26f6e9ff3c346c126d8c763d42a0cdc64246e6511e36f25b09b1619fdfa46d00
+Homepage: https://github.com/letoams/hash-slinger
+Description: Various tools to generate special DNS records
 
 Package: hunspell
 Version: 1.7.2-1
