@@ -8493,6 +8493,36 @@ SHA256: 786460337e1e64b7a97934269f55898155454d5b0e1dc9856f6e68c0b6f17e1f
 Homepage: https://github.com/orf/gping
 Description: Ping, but with a graph
 
+Package: gpsbabel
+Version: 1.4.4-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1384
+Depends: libexpat
+Filename: pool/main/g/gpsbabel/gpsbabel_1.4.4-3_aarch64.deb
+Size: 442568
+MD5sum: 2dcdc034457be9dfe38bda3705b3a115
+SHA1: 2b72c07209e8f68abce0f0567e4b6e0ce5d2f8ef
+SHA256: df97d7f441a314ccc5466dda03387f98d524d6bb631835a7faeccc446602248d
+Homepage: https://www.gpsbabel.org/
+Description: GPS file conversion plus transfer to/from GPS units
+
+Package: graphene
+Version: 1.10.8-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1940
+Depends: glib
+Conflicts: gst-plugins-base (<< 1.20.3-1)
+Breaks: gst-plugins-base (<< 1.20.3-1)
+Filename: pool/main/g/graphene/graphene_1.10.8-3_aarch64.deb
+Size: 192056
+MD5sum: 50b5614071810932c2f0ba7a282b4c13
+SHA1: ed3ea26991193667a1b3076e64b9baf946ee68d3
+SHA256: b0330d9ac749ea967408cf315e085e205603c4668df1c965834a93aecd02c7bd
+Homepage: https://ebassi.github.io/graphene/
+Description: A thin layer of graphic data types
+
 Package: graphicsmagick
 Version: 1.3.45-4
 Architecture: aarch64
@@ -8553,6 +8583,20 @@ SHA256: b4d32c0523e2e8bfb0ea183b9426b095813fcced438a2c377ae165b77f771b9f
 Homepage: https://www.graphviz.org/
 Description: Static libraries for graphviz
 
+Package: greed
+Version: 4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: ncurses
+Filename: pool/main/g/greed/greed_4.3-1_aarch64.deb
+Size: 8636
+MD5sum: d2e447cc80a17f776bdd99bad5ab60ea
+SHA1: 95cccda5381270ca751ef4a06363502a7530175d
+SHA256: b9e7fb01c36446dea5b907cb7aaa6c8b2df43b243297db05d4f8582175c517cd
+Homepage: http://www.catb.org/~esr/greed/
+Description: Game where you try to eat as much as possible of the board before munching yourself into a corner
+
 Package: grep
 Version: 3.12-2
 Architecture: aarch64
@@ -8568,6 +8612,19 @@ SHA256: b48f12f7861e2746dd967bf00732015cd0dab1c47542bcaa2bad9f23d12440cd
 Homepage: https://www.gnu.org/software/grep/
 Description: Command which searches one or more input files for lines containing a match to a specified pattern
 
+Package: grex
+Version: 1.4.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2748
+Filename: pool/main/g/grex/grex_1.4.5-1_aarch64.deb
+Size: 707452
+MD5sum: bfb7f463c7c9acfc5ebc12d6e1630b6e
+SHA1: 50f0f57f045ce8c06cb4706b1efb860d1d0c8789
+SHA256: c4a04605cef599ae23251f4bfda47ba68f7e6c59e47b9f4d4754f45bfca02cbe
+Homepage: https://github.com/pemistahl/grex
+Description: Simplifies the task of creating regular expressions
+
 Package: groff
 Version: 1.23.0-2
 Architecture: aarch64
@@ -8581,6 +8638,19 @@ SHA1: 42585360f762291884582908f33cb0e094b22c8b
 SHA256: af7c38a75b150f3e2940812596b460616d7ecc8d11d7cff173aec0a1be1d9220
 Homepage: https://www.gnu.org/software/groff/
 Description: typesetting system that reads plain text mixed with formatting commands and produces formatted output
+
+Package: gron
+Version: 0.7.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6428
+Filename: pool/main/g/gron/gron_0.7.1-4_aarch64.deb
+Size: 1863972
+MD5sum: 7324ae6ee2ae068582b8abb36fe458e8
+SHA1: 6e821409500a16925e862c0935b2236206143cc2
+SHA256: 2555cc7d5991c76088cb200b1d7886ce6d75878784bbc5b9db53ea5774be65bf
+Homepage: https://github.com/tomnomnom/gron
+Description: Transforms JSON into discrete assignments
 
 Package: gsl
 Version: 2.8-1
