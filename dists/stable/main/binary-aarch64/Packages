@@ -8507,6 +8507,19 @@ SHA256: df97d7f441a314ccc5466dda03387f98d524d6bb631835a7faeccc446602248d
 Homepage: https://www.gpsbabel.org/
 Description: GPS file conversion plus transfer to/from GPS units
 
+Package: grafana
+Version: 1:11.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584796
+Filename: pool/main/g/grafana/grafana_1+11.6.0-1_aarch64.deb
+Size: 94482780
+MD5sum: b85b94834dd1dcdb1ff909367f1e4865
+SHA1: c003a8c8a9f437d391ff8da922de9b7a2df53db0
+SHA256: e5c94568a5027165b38861dd74479dcc5b36301bf2e5594c2f85416ed81d568c
+Homepage: https://grafana.com/
+Description: The open-source platform for monitoring and observability
+
 Package: graphene
 Version: 1.10.8-3
 Architecture: aarch64
@@ -8652,6 +8665,34 @@ SHA256: 2555cc7d5991c76088cb200b1d7886ce6d75878784bbc5b9db53ea5774be65bf
 Homepage: https://github.com/tomnomnom/gron
 Description: Transforms JSON into discrete assignments
 
+Package: groonga
+Version: 15.1.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28228
+Depends: libandroid-execinfo, libarrow-cpp, libc++, liblz4, libstemmer, onigmo, simdjson, xxhash, zlib, zstd
+Filename: pool/main/g/groonga/groonga_15.1.5-1_aarch64.deb
+Size: 2719700
+MD5sum: 6bdea53fdc8fb5ad3fcd9b68733e013d
+SHA1: b5c4008d4d1d50552d679c3dc56074b381de16a1
+SHA256: 77eec4206e27a21c1210429bf85fef3c0b87ff34204781acfaf468a546b1faef
+Homepage: https://github.com/groonga/groonga/
+Description: An embeddable fulltext search engine
+
+Package: groovy
+Version: 4.0.26-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 32640
+Depends: libjansi (>= 2.4.0-1), openjdk-21
+Filename: pool/main/g/groovy/groovy_4.0.26-4_all.deb
+Size: 29242628
+MD5sum: c9d98a3ee2b13064fa52603d87ed75f9
+SHA1: f9bd728d57a9a8b55556d6aefe4791fb8a38614e
+SHA256: c7328dc5572b896fc2d556bf16711ff12a708d80f3cd8b4a065749069c919f0c
+Homepage: https://groovy-lang.org/
+Description: A powerful multi-faceted programming language for the JVM platform
+
 Package: gsl
 Version: 2.8-1
 Architecture: aarch64
@@ -8680,6 +8721,97 @@ SHA1: 745da14fcb2d6764e6ea2d69a56f4bf138d96137
 SHA256: 8bdc41d0069dfb72ed8214736be38eed890645cc768eaea10c6c7671af8e36df
 Homepage: https://www.gnu.org/software/gsl/
 Description: Static libraries for gsl
+
+Package: gst-libav
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: ffmpeg, glib, gst-plugins-base, gstreamer
+Filename: pool/main/g/gst-libav/gst-libav_1.26.6_aarch64.deb
+Size: 76472
+MD5sum: 951bc2ba2e63fb17fe402227ac63e56a
+SHA1: 6af9dd1fea8aaa48d2b92d847f747b9a3251b5dd
+SHA256: 1056c9b0257c1281ead543ea2fe95567c7d6d332f27ab48a655933423424f840
+Homepage: https://gstreamer.freedesktop.org/modules/gst-libav.html
+Description: GStreamer Libav plug-in contains one plugin with a set of elements using the Libav library code
+
+Package: gst-plugins-bad
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8300
+Depends: game-music-emu, glib, gst-plugins-base, gstreamer, libaom, libass, libbz2, libcairo, libcurl, libopus, librsvg, libsndfile, libsrt, libx11, libxml2, littlecms, openal-soft, openh264, openjpeg, openssl, pango
+Breaks: gst-plugins-bad-dev
+Replaces: gst-plugins-bad-dev
+Filename: pool/main/g/gst-plugins-bad/gst-plugins-bad_1.26.6_aarch64.deb
+Size: 2007336
+MD5sum: 2933c3e0bc7735fe9af7e63066706dd3
+SHA1: 8853d6afa560fb00889419d80f785992fb7a3ec4
+SHA256: 8f696f7591dd6a62fc04d08732c085fadf7ae68f2e86ba63a4867cdd30a144b3
+Homepage: https://gstreamer.freedesktop.org/
+Description: GStreamer Bad Plug-ins
+
+Package: gst-plugins-base
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12288
+Depends: glib, graphene, gstreamer, libandroid-shmem, libjpeg-turbo, libogg, libopus, libpng, libtheora, libvorbis, libx11, libxcb, libxext, libxi, libxv, zlib
+Recommends: opengl
+Breaks: gst-plugins-base-dev
+Replaces: gst-plugins-base-dev
+Filename: pool/main/g/gst-plugins-base/gst-plugins-base_1.26.6_aarch64.deb
+Size: 1969844
+MD5sum: d60ce6b13b5d5dab8689c1c7e86a9144
+SHA1: 2fd9dd5965258f45a7acc20fe20b47a6435c4248
+SHA256: c1e330e96be0307de538a1c9eea1d55e18e96730a9d53421886b8bd648591a17
+Homepage: https://gstreamer.freedesktop.org/
+Description: GStreamer base plug-ins
+
+Package: gst-plugins-good
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5216
+Depends: glib, gst-plugins-base, gstreamer, libandroid-shmem, libbz2, libcaca, libflac, libjpeg-turbo, libmp3lame, libnettle, libpng, libvpx, libx11, libxext, libxfixes, libxml2, libmpg123, pulseaudio, zlib
+Filename: pool/main/g/gst-plugins-good/gst-plugins-good_1.26.6_aarch64.deb
+Size: 1484064
+MD5sum: ab7313c2ef6ac4fac82f44232db96bda
+SHA1: 6bc0542882f20eee8001605549bf34ba5e50d9c0
+SHA256: 761afa9063e231ea80ef293b971a3d81fe8b01fd1b701039bfe8a14ba052efe1
+Homepage: https://gstreamer.freedesktop.org/
+Description: GStreamer Good Plug-ins
+
+Package: gst-plugins-ugly
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: glib, gst-plugins-base
+Filename: pool/main/g/gst-plugins-ugly/gst-plugins-ugly_1.26.6_aarch64.deb
+Size: 76176
+MD5sum: a58669b84ad252b66c8db6e2cacc381a
+SHA1: b8e530e4028e308235331c2003336128c270d6fe
+SHA256: 657b5121f2693102b56ad110d07dc2b4e95a80087edee6371bb23a51d66d5cbe
+Homepage: https://gstreamer.freedesktop.org/
+Description: GStreamer Ugly Plug-ins
+
+Package: gstreamer
+Version: 1.26.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9260
+Depends: glib
+Breaks: gstreamer-dev
+Replaces: gstreamer-dev
+Filename: pool/main/g/gstreamer/gstreamer_1.26.6_aarch64.deb
+Size: 1312884
+MD5sum: 9ac8195fc5ff655d1e21de9b13446b70
+SHA1: f75c5dccce2669c82b0bbf5ae1a4bf26179fad73
+SHA256: 4ff547342807938c59b4e423c2c4c30de9bf9c54e43ddd2040bd639c61af9f63
+Homepage: https://gstreamer.freedesktop.org/
+Description: Open source multimedia framework
 
 Package: guile
 Version: 3.0.9-3
@@ -8888,6 +9020,34 @@ SHA1: 750139a945620be1ef244f8a526140f4fd1c5f87
 SHA256: 38bca92c0b331be9bd61250169e1424667e36065e2cda1b0fb22a4d890405dcd
 Homepage: https://imath.readthedocs.io/
 Description: Library for vector/matrix and math operations, plus the half type
+
+Package: imlib2
+Version: 1.12.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1292
+Depends: freetype, gdk-pixbuf, giflib, glib, libandroid-shmem, libbz2, libcairo, libheif, libid3tag, libjpeg-turbo, libjxl, liblzma, libpng, librsvg, libtiff, libwebp, libx11, libxcb, libxext, openjpeg, zlib
+Filename: pool/main/i/imlib2/imlib2_1.12.5-1_aarch64.deb
+Size: 509272
+MD5sum: 84d3b790379d64b1fc3e0162355e5c64
+SHA1: 5e8b7b505d8a722b7e31ebe33a78bfc0c275e535
+SHA256: 1aa612464248c4df2286b8f7c53f0b90d734f9634a733a7710dfcba5ccbc716d
+Homepage: https://sourceforge.net/projects/enlightenment/
+Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+
+Package: imlib2-static
+Version: 1.12.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 596
+Depends: imlib2 (= 1.12.5-1)
+Filename: pool/main/i/imlib2-static/imlib2-static_1.12.5-1_aarch64.deb
+Size: 116316
+MD5sum: 5c8009f32320519677534149896c5bf5
+SHA1: 09ca48fe98490c6e618a36e3ad8eaaef81bb609f
+SHA256: c0a527ce72fbd4e6841417a0b3ed8b4d7897e0d0ab78e9961bd2e8b12009243b
+Homepage: https://sourceforge.net/projects/enlightenment/
+Description: Static libraries for imlib2
 
 Package: inotify-tools
 Version: 4.25.9.0
@@ -9547,6 +9707,21 @@ SHA256: d1008dd26e8b224b4764ce0e217201ec3ddc24acf85ab7dadd5bc9c505249ed0
 Homepage: https://www.libarchive.org/
 Description: Static libraries for libarchive
 
+Package: libarrow-cpp
+Version: 21.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40552
+Depends: abseil-cpp, apache-orc, libandroid-execinfo, libc++, liblz4, libprotobuf, libre2, libsnappy, thrift, utf8proc, zlib, zstd
+Breaks: libarrow-python (<< 21.0.0)
+Filename: pool/main/liba/libarrow-cpp/libarrow-cpp_21.0.0-3_aarch64.deb
+Size: 6375600
+MD5sum: e12529e0c734fbc7b5d4a3321d074d93
+SHA1: 5a36fd978e4c7f67dea9eb42d4da01354fd1066a
+SHA256: f50306c27248e7cf42371f54682582d8fbed10b114f6981d07864993139677c8
+Homepage: https://github.com/apache/arrow
+Description: C++ libraries for Apache Arrow
+
 Package: libasm
 Version: 0.193-1
 Architecture: aarch64
@@ -9778,6 +9953,36 @@ SHA1: f342c2cdd5eddd7f8a43fb8ec033fd68c7527cd6
 SHA256: cc09c658cd4c04ecf856dbf02de6f363207c4b3803e70c46ad20132694fb61a8
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
+
+Package: libcaca
+Version: 0.99.beta20-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1384
+Depends: imlib2, libc++, ncurses, zlib
+Breaks: libcaca-dev
+Replaces: libcaca-dev
+Filename: pool/main/libc/libcaca/libcaca_0.99.beta20-3_aarch64.deb
+Size: 248904
+MD5sum: 9880cc6ad30c61c5c6ccaf9ba71c4c80
+SHA1: 74bde760684c59194e7cc864173c357ccc49c0a3
+SHA256: e3f924bc2029b5eb4713b89535a97868b8edfae4b9a834fdd677d89fc36c6354
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: Graphics library that outputs text instead of pixels
+
+Package: libcaca-static
+Version: 0.99.beta20-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1520
+Depends: libcaca (= 0.99.beta20-3)
+Filename: pool/main/libc/libcaca-static/libcaca-static_0.99.beta20-3_aarch64.deb
+Size: 304272
+MD5sum: b8e2e8df9ee82a1f87ec51a054e338de
+SHA1: c3fec8a5a517ad1ff236f3ce6b24577b94c4f4ef
+SHA256: b302e41ca4747e49ea09e99f826d047258aaf467628c9aaf0eabc820cb9967b4
+Homepage: http://caca.zoy.org/wiki/libcaca
+Description: Static libraries for libcaca
 
 Package: libcairo
 Version: 1.18.4-2
@@ -10964,6 +11169,22 @@ SHA256: 7471c605f525e188c2546e785402b5264257e66ee65b2538ea29093578bd1825
 Homepage: http://site.icu-project.org/home
 Description: Static libraries for libicu
 
+Package: libid3tag
+Version: 0.16.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: zlib
+Breaks: libid3tag-dev
+Replaces: libid3tag-dev
+Filename: pool/main/libi/libid3tag/libid3tag_0.16.3-2_aarch64.deb
+Size: 30064
+MD5sum: 78e4250239e9b229389f12cb782ab54f
+SHA1: fb0540444c555ae534a2288235d4cad74b8266e5
+SHA256: d4070e3d06c122b7a90dfa15efb612700be409d239419bb55614edad66f4d13d
+Homepage: http://www.underbit.com/products/mad/
+Description: MAD ID3 tag manipulation library
+
 Package: libidn
 Version: 1.43-1
 Architecture: aarch64
@@ -11064,6 +11285,19 @@ SHA1: 97a8b8d40a522c213b3c1e432f797676bcda2aa3
 SHA256: bdd35751e77d6b3a3fb4ee19a18f9cd6eddb895d818195b6315f8ac27737eccf
 Homepage: https://github.com/ndevilla/iniparser
 Description: Static libraries for libiniparser
+
+Package: libjansi
+Version: 2.4.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Filename: pool/main/libj/libjansi/libjansi_2.4.2-1_aarch64.deb
+Size: 4788
+MD5sum: 8f7d07ab1931aec8ff940e2d11b16c96
+SHA1: 061bde4c96a2793cf9319ddea00eca65f3c63d28
+SHA256: 8de25a4229c3b64a011f0e1579c2eb2fefa60f9e3908e443cc7b071ebba8ee74
+Homepage: https://fusesource.github.io/jansi/
+Description: A small java library that allows you to use ANSI escape codes to format your console output
 
 Package: libjansson
 Version: 2.14.1-1
@@ -12430,6 +12664,20 @@ SHA1: 92723322e5a9f51b83d2d104669b715a27066887
 SHA256: 16b783fba0a5c271b2125c1e74a135daeefed98824689fb36dd96a03a0725b61
 Homepage: https://www.libraw.org/
 Description: Static libraries for libraw
+
+Package: libre2
+Version: 2025-08-12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 620
+Depends: abseil-cpp, libc++
+Filename: pool/main/libr/libre2/libre2_2025-08-12-1_aarch64.deb
+Size: 165044
+MD5sum: 0f8815411eae9ac35b47afdb6f519dd1
+SHA1: 1d0874af6e3b6a6e5fe79fe4eb79d6ba42ab37e7
+SHA256: a37669ee911f70e61fb16c96b1038011fd2733b78c0593a3029d0a82fb55d1d0
+Homepage: https://github.com/google/re2
+Description: A regular expression library
 
 Package: libregexp-assemble-perl
 Version: 0.38-7
@@ -14155,6 +14403,20 @@ SHA256: 93cea111f7845d401f73d9b7611003492dcc33e69ce9d318ed4750b36c4b9b27
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxtst
 
+Package: libxv
+Version: 1.0.13-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: libx11, libxext
+Filename: pool/main/libx/libxv/libxv_1.0.13-1_aarch64.deb
+Size: 31684
+MD5sum: 2973c13c1a622e8ebc231165db335ebf
+SHA1: e747dfaaef49b726566888f1cc71d2ec7a56e347
+SHA256: bbfb5db8703243af1b0c2c902cdf595495082471b281dc37afb690243d13f1bf
+Homepage: https://xorg.freedesktop.org/
+Description: Library for the X Video (Xv) extension to the X Window System
+
 Package: libxxf86vm
 Version: 1.1.6-1
 Architecture: aarch64
@@ -14900,6 +15162,33 @@ SHA256: c53abaeefd65f543d8195957f20c058b70a8624ad41b684f4d827f507141aada
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
 
+Package: onigmo
+Version: 6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 736
+Filename: pool/main/o/onigmo/onigmo_6.2.0-1_aarch64.deb
+Size: 121348
+MD5sum: 073194b8b683e1151022d8d7bcc87207
+SHA1: ef1491cf7f9c6d5a120301f2eaf6cb650d5e6c37
+SHA256: f727c70dd03eb49157d2b7b53f4d352f1e6edfa2cf495674126970eaf74c23e2
+Homepage: https://github.com/k-takata/Onigmo
+Description: A regular expressions library forked from Oniguruma
+
+Package: onigmo-static
+Version: 6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 856
+Depends: onigmo (= 6.2.0-1)
+Filename: pool/main/o/onigmo-static/onigmo-static_6.2.0-1_aarch64.deb
+Size: 126952
+MD5sum: 7e14019d60720c7eec7683c6ffdf8c73
+SHA1: 7406e3b7d3032b978d45a24801f02f3a64b0d342
+SHA256: 832f20cdeaf751dc3dd6b7c7d0e542b973cf6139c40a88834b2f39ddadc8b998
+Homepage: https://github.com/k-takata/Onigmo
+Description: Static libraries for onigmo
+
 Package: oniguruma
 Version: 6.9.10-1
 Architecture: aarch64
@@ -14926,6 +15215,22 @@ SHA1: bae1f37cce4d1a50396c1c19989701556cfa159d
 SHA256: a14f9ba02eb51f76a9df9331f550d68d3d0e692acebda740c44b7699de1c7395
 Homepage: https://github.com/kkos/oniguruma
 Description: Static libraries for oniguruma
+
+Package: openal-soft
+Version: 1.24.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2364
+Depends: libc++
+Breaks: openal-soft-dev
+Replaces: openal-soft-dev
+Filename: pool/main/o/openal-soft/openal-soft_1.24.3_aarch64.deb
+Size: 587144
+MD5sum: c4ceb6ecb36d28a6a734c79a33d7b841
+SHA1: 6286492491d212034d7b450eea036be9da345787
+SHA256: b365e757effab88ec17b18d72331b36e26b5079b1140348b0e1d1595d82716b6
+Homepage: https://openal-soft.org/
+Description: Software implementation of the OpenAL API
 
 Package: opencl-clhpp
 Version: 2025.07.22
@@ -14968,6 +15273,34 @@ SHA1: 3dbf161a0f8a7b3fe1f257ed0ac817ee2c35da4a
 SHA256: 4469116aaae3d44660ce6a42ffbf814babd2c364caab0a2869a6606f64ea7855
 Homepage: https://www.openexr.com/
 Description: Provides the specification and reference implementation of the EXR file format
+
+Package: opengl
+Version: 4.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: libglvnd, mesa
+Filename: pool/main/o/opengl/opengl_4.5_all.deb
+Size: 692
+MD5sum: 3e8ade7814dfea5cb8233b72fad2e140
+SHA1: 7a56ad2463e1c2561926cd01f8937f378b34c747
+SHA256: 8304481069077863c9fcc18815dfdf0995bd6fc726b5daeec2d0d2a6aea55d6a
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage for OpenGL implementation
+
+Package: openh264
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 996
+Depends: libc++
+Filename: pool/main/o/openh264/openh264_2.6.0-1_aarch64.deb
+Size: 307904
+MD5sum: bffd566d94aadc46b7742f7e17a56e7a
+SHA1: 969a7fabef65ef35145a7ae6c9cf66eca0e22b73
+SHA256: f10acdaf28227e79b1bdd795747f3d6bcefae4e9e4dce08e7d413f72fe2fd9f2
+Homepage: https://www.openh264.org/
+Description: Codec library supporting H.264 encoding and decoding
 
 Package: openjdk-21
 Version: 21.0.8-2
@@ -15800,6 +16133,34 @@ SHA256: f0c44b48a33079c9af14b55596812acddf2528c4b96de49e9cb818f3df240b29
 Homepage: https://github.com/lxml/lxml
 Description: Python binding for the libxml2 and libxslt libraries
 
+Package: python-numpy
+Version: 2.2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 32012
+Depends: libc++, libopenblas, python
+Filename: pool/main/p/python-numpy/python-numpy_2.2.5-1_aarch64.deb
+Size: 5558120
+MD5sum: e979658be8cb40c56d0ca46040d842a9
+SHA1: e03f5af191eb87fc0218ab73f08d35495d09ece9
+SHA256: 2d0a702fd7be0cd205f05ee1f5b2704b9ac0f854fd023e9b9908662ca8436fd3
+Homepage: https://numpy.org/
+Description: The fundamental package for scientific computing with Python
+
+Package: python-numpy-static
+Version: 2.2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 212
+Depends: python-numpy (= 2.2.5-1)
+Filename: pool/main/p/python-numpy-static/python-numpy-static_2.2.5-1_aarch64.deb
+Size: 48020
+MD5sum: d2824e58355c37e3483e782cdd5e9b21
+SHA1: c5cde6c0ece13444c416d655c3a267b8c7d2f219
+SHA256: 8e79d30aa4ceceb5e8bee9cb3f9b2d083f4dade4c9bae81f41d77263bf59f4e1
+Homepage: https://numpy.org/
+Description: Static libraries for python-numpy
+
 Package: python-pip
 Version: 25.2
 Architecture: all
@@ -15814,6 +16175,20 @@ SHA1: 41cddce702c74f84a02a80d3bc8a13756e72603f
 SHA256: e765415f6278777f2ff214688da656baa8897687d0b69ac338bef6d8ae8930a7
 Homepage: https://pip.pypa.io/
 Description: The PyPA recommended tool for installing Python packages
+
+Package: python-pyarrow
+Version: 21.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28556
+Depends: python, python-numpy, libarrow-cpp (= 21.0.0-3)
+Filename: pool/main/p/python-pyarrow/python-pyarrow_21.0.0-3_aarch64.deb
+Size: 4117172
+MD5sum: e774257f76114dc29acf7c7a77ebbfdc
+SHA1: a9b09a59f9f52ab1f784beacc7a008e690105910
+SHA256: f6aa28a2d5db9fbe81b44aff2c6cfc6796263f37f20f5188164622235664e977
+Homepage: https://github.com/apache/arrow
+Description: Python bindings for Apache Arrow
 
 Package: python-static
 Version: 3.12.11-1
@@ -16166,6 +16541,20 @@ SHA1: 3d12f1b7497c9286261faaa4c05dd068b15e6f6f
 SHA256: 53c89db7769a3ea08b6e7f8f80c8e3440d909d8421b72a679db5cb38b4f3d286
 Homepage: https://serf.apache.org/
 Description: Static libraries for serf
+
+Package: simdjson
+Version: 4.0.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5908
+Depends: libc++
+Filename: pool/main/s/simdjson/simdjson_4.0.6_aarch64.deb
+Size: 219488
+MD5sum: 5b8d8b2124cb8b2ac2cd38b0a9e46f54
+SHA1: 34855739a65ba349f15d8610d0adf5c7db161679
+SHA256: 13d98cab83f65a98eb288e11e0f79d2010aa45033619fc7929854829a1e864cc
+Homepage: https://simdjson.org/
+Description: A C++ library to see how fast we can parse JSON with complete validation
 
 Package: sord
 Version: 0.16.18-1
@@ -16611,6 +17000,20 @@ SHA1: 1afdf04204bd585ec662333037f4e91e2c654e10
 SHA256: b2c5da28794eb494446210537eb76a5b1c3c512b79344843761614e6a601cdcb
 Homepage: https://www.gnu.org/software/texinfo/
 Description: Documentation system for on-line information and printed output
+
+Package: thrift
+Version: 0.22.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1508
+Depends: libc++, openssl
+Filename: pool/main/t/thrift/thrift_0.22.0-1_aarch64.deb
+Size: 236324
+MD5sum: 097467812ff274bd28a4408072324302
+SHA1: 26383b384418fdea68994ca42450e5f01fe93a9a
+SHA256: 41f8d52236aca85aa4b63ad023de90e1314c355ada6c8647929205c583592c7f
+Homepage: https://thrift.apache.org
+Description: Scalable cross-language services framework for IPC/RPC
 
 Package: tidy
 Version: 5.9.14-next-3
@@ -17196,6 +17599,20 @@ SHA1: ee7ab92682129f67637e0a9f01cd31e88ddb42ba
 SHA256: 6a56ec1cb2a6d0c36b700a87f0a4884c6c2fa97983777ba25ad4416184866dfa
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
+
+Package: yarn
+Version: 1.22.22
+Architecture: all
+Maintainer: @termux
+Installed-Size: 5304
+Depends: nodejs | nodejs-lts
+Filename: pool/main/y/yarn/yarn_1.22.22_all.deb
+Size: 895620
+MD5sum: ce7c9cfdd19c605289324d7f23c14877
+SHA1: 30f37f1770bebbe98388dcee1eb7c3fd3dabb661
+SHA256: a8c0012120411c3c46b483be28942cc483160fee34990daec231a11e58c60aa8
+Homepage: https://classic.yarnpkg.com/lang/en/
+Description: Fast, reliable, and secure dependency management
 
 Package: zlib
 Version: 1.3.1-1
