@@ -1,0 +1,14 @@
+Package: gradle
+Version: 1:9.0.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 146376
+Depends: openjdk-21
+Filename: https://github.com/Mart-01-oss/termux-packages/releases/download/Packages/gradle_1+9.0.0-1_all.deb
+Size: 132619280
+MD5sum: ba49feb9dc2153a02434bfffe7f47754
+SHA1: a405eb9575ce9bc688d4f3a39dbaf7813662a3ea
+SHA256: 0111ea3fb28f0bb0d1aac33db4daeb9f6477a82654c4f627d6587dac6b007721
+Homepage: https://gradle.org/
+Description: Powerful build system for the JVM
+
