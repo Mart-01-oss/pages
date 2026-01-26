@@ -9182,6 +9182,115 @@ SHA256: 0a90ddbcaa98cfcd80ceec8f6a081db3987f3597fa9339e9993658d4d50fe806
 Homepage: https://www.gnu.org/software/help2man/
 Description: Conversion tool to create man files
 
+Package: hexcurse
+Version: 1.60.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: ncurses
+Filename: pool/main/h/hexcurse/hexcurse_1.60.0-7_aarch64.deb
+Size: 17296
+MD5sum: f42061c68a6a9a8d83fdb8e4bb68c25e
+SHA1: 03b80a1d4372686606c472fb2b1615f65eaef22d
+SHA256: d804c67e8d33d78098642a4c81943541d970ef4966dc8ffa7f2e389002c9d7b3
+Homepage: https://github.com/LonnyGomes/hexcurse
+Description: Console hexeditor
+
+Package: hexedit
+Version: 1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: ncurses
+Filename: pool/main/h/hexedit/hexedit_1.6-1_aarch64.deb
+Size: 17228
+MD5sum: 1bdcb3b1d42ff4ae1860d9d7cd30c5fd
+SHA1: 852e27a3894fe09e94abd7d405356ace4b7a7371
+SHA256: 95f3256cee12227ecee7dd344a8f35b5149db684461a56c7d5b6e0cea611cdfb
+Homepage: http://rigaux.org/hexedit.html
+Description: view and edit files in hexadecimal or in ASCII
+
+Package: hexer
+Version: 1.0.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: ncurses
+Filename: pool/main/h/hexer/hexer_1.0.7_aarch64.deb
+Size: 75968
+MD5sum: 4d3dafa992229edfbe103456e11a4ba4
+SHA1: accbab64b8945da473825cebbba0136e91c513f8
+SHA256: b208b518f50cdb1d1234cc44eba56d48dc924bae90310895e34e9ddbff27ec7b
+Homepage: https://devel.ringlet.net/editors/hexer/
+Description: A multi-buffer editor for binary files for Unix-like systems that displays its buffer(s) as a hex dump
+
+Package: hexyl
+Version: 0.16.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 892
+Filename: pool/main/h/hexyl/hexyl_0.16.0-2_aarch64.deb
+Size: 298828
+MD5sum: ccf771b9a3389bdb0b2fbd76cb8b6e1c
+SHA1: af03d97b5e9a9b65bd3db5d0f02b35004ffee225
+SHA256: d7f64b1a4b7c9fe159c188e84a7b6cdcdc0fba9380692c73f13a9ffb6b39da1c
+Homepage: https://github.com/sharkdp/hexyl
+Description: A command-line hex viewer
+
+Package: heyu
+Version: 1:2.10.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 868
+Filename: pool/main/h/heyu/heyu_1+2.10.3-2_aarch64.deb
+Size: 372600
+MD5sum: db04f868a451653b92d80b3b11f592e6
+SHA1: 203778f47302f519c79dfe62bf5e13daab3fe95d
+SHA256: f842ce07964f1d6a79f9d938f50b99577279c7f5b338a63a497e69701d85b272
+Homepage: https://www.heyu.org/
+Description: Program for remotely controlling lights and appliances
+
+Package: hfsutils
+Version: 3.2.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libandroid-support
+Filename: pool/main/h/hfsutils/hfsutils_3.2.6-2_aarch64.deb
+Size: 53908
+MD5sum: 4d0f7df5d617869efad656db450757a5
+SHA1: de17145078570af02ecc247b0f4cb4ce1715fdc7
+SHA256: 27db63fdf1093391f26dc4e4a0ac9db75975e29dc8232866fedd6a8ece8df51a
+Homepage: https://www.mars.org/home/rob/proj/hfs/
+Description: Tool for manipulating HFS images
+
+Package: hidapi
+Version: 0.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: libiconv, libusb
+Filename: pool/main/h/hidapi/hidapi_0.14.0-1_aarch64.deb
+Size: 30184
+MD5sum: 8d0c33b61dfe4f866e1f2630b6b4bd21
+SHA1: 7bfb1cd27dfa8dea090029fedb0f8178e9594b47
+SHA256: 7301f4a8f4c0f3a111bec3213d2f071eec7bc428b386bd77f448270d4ecbf026
+Homepage: https://libusb.info/hidapi
+Description: Simple cross-platform library for communicating with HID devices
+
+Package: hilbish
+Version: 1:2.3.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10072
+Filename: pool/main/h/hilbish/hilbish_1+2.3.4-1_aarch64.deb
+Size: 2472124
+MD5sum: c9d223dbc14c46c22bcadec29d17a863
+SHA1: 84197cc2e5042dca01e8a8dc6dfa18c933c30c9d
+SHA256: f14cbd7786789e3c05e84de99be111f79ff9a8882d04ca89018ea832cfedd6b9
+Homepage: https://rosettea.github.io/Hilbish/
+Description: The Moon-powered shell! A comfy and extensible shell for Lua fans!
+
 Package: hunspell
 Version: 1.7.2-1
 Architecture: aarch64
