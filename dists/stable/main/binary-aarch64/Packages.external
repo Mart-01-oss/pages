@@ -4,7 +4,7 @@ Architecture: all
 Maintainer: @termux
 Installed-Size: 146376
 Depends: openjdk-21
-Filename: https://github.com/Mart-01-oss/termux-packages/releases/download/Packages/gradle_1+9.0.0-1_all.deb
+Filename: https://github.com/Mart-01-oss/termux-packages/releases/download/Packages/gradle_1:9.0.0-1_all.deb
 Size: 132619280
 MD5sum: ba49feb9dc2153a02434bfffe7f47754
 SHA1: a405eb9575ce9bc688d4f3a39dbaf7813662a3ea
