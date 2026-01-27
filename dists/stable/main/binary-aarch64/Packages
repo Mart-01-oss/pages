@@ -10678,9 +10678,9 @@ Installed-Size: 4
 Depends: jack2
 Filename: pool/main/j/jack/jack_0.0.1_all.deb
 Size: 696
-MD5sum: 10dbc6658ae1cd70be7c24b2606145c4
-SHA1: f590db87d5274d4c715f987389c482667a0473ec
-SHA256: 70b5ca0a17043e43ead13b58b8db5ed2caacbbcea02bf27c806eed1fbdff3a59
+MD5sum: 60a188e9d609c8c5dc079bb9c5dae1fd
+SHA1: 57dee3f41a9bbf8efe9d0d39e699442e3c24896a
+SHA256: eec4b78782b35ab7c0ebb1ae1bb444388e820d5a8b64a2ea3d15c35988930bc0
 Homepage: https://github.com/termux/termux-packages
 Description: A metapackage that provides JACK Audio Connection Kit
 
@@ -10705,10 +10705,10 @@ Maintainer: @termux
 Installed-Size: 2120
 Depends: alsa-lib, dbus, libandroid-posix-semaphore, libdb, libexpat, libsamplerate, libopus
 Filename: pool/main/j/jack2/jack2_1.9.22-2_aarch64.deb
-Size: 373368
-MD5sum: 51b7b015ab05f2d39ebf3844b3738b56
-SHA1: cfa1ccd510f35d737efe10735531eefbe20c4908
-SHA256: 50de37488a883a8e396e9d7c6d5ce8ab80950bd1e182a17f4eea06c28e608eb0
+Size: 373132
+MD5sum: 28152cfe0782ec85cc90f4fa2c3d05ac
+SHA1: e3f1156a4d16e0f8ed764020ee3a7acd7e9ec604
+SHA256: 8d910894dac4a8d43861ebb0cda105e09d92539156a6a67dcc23b1dc629f7208
 Homepage: https://jackaudio.org/
 Description: The JACK low-latency audio server
 
@@ -10769,6 +10769,197 @@ SHA1: 526f07539d7d7312b16370858e55f1d6d80f7dd2
 SHA256: ca99fbf6aef57b7ec794b26a97294b778e09ee88bf7935c05c18ed32df1457a2
 Homepage: https://jbig2dec.com/
 Description: Static libraries for jbig2dec
+
+Package: jbig2enc
+Version: 2023.01.08-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Depends: giflib, leptonica, libc++, libjpeg-turbo, libpng, libtiff, libwebp, python, zlib
+Filename: pool/main/j/jbig2enc/jbig2enc_2023.01.08-3_aarch64.deb
+Size: 48780
+MD5sum: 7facffcf1af568fe54d441064c825bc6
+SHA1: e64cae3db38f2af893056d1af741aac6d96b3578
+SHA256: 484554cf3cfb8756abfd0ee607a47696527c75c25975c7e42649f0f40ddd8885
+Homepage: https://github.com/agl/jbig2enc
+Description: An encoder for JBIG2
+
+Package: jbig2enc-static
+Version: 2023.01.08-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 728
+Depends: jbig2enc (= 2023.01.08-3)
+Filename: pool/main/j/jbig2enc-static/jbig2enc-static_2023.01.08-3_aarch64.deb
+Size: 71316
+MD5sum: 768c046ae0ff08b6466ac19cdf6acdc5
+SHA1: be5175685f2e2fb3899c53498dcc38ca241b6a4e
+SHA256: a9d0cf964ef7a70966098f89dc88830bef1cb9cff1c572ab8c8faa46f8fb35b3
+Homepage: https://github.com/agl/jbig2enc
+Description: Static libraries for jbig2enc
+
+Package: jcal
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Filename: pool/main/j/jcal/jcal_0.5.1-1_aarch64.deb
+Size: 39256
+MD5sum: 4e9625a35aaa97c7d66f16216f0e9ac9
+SHA1: 74e32f351f750531461ef96c3ab7c3f48753b08d
+SHA256: c94a308985b84d422783bebb520508cd877d3536ef0acaa4253b8b0958709d52
+Homepage: http://nongnu.org/jcal
+Description: UNIX-cal-like tool to display Jalali (Persian/Iranian) calendar
+
+Package: jcal-static
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: jcal (= 0.5.1-1)
+Filename: pool/main/j/jcal-static/jcal-static_0.5.1-1_aarch64.deb
+Size: 8460
+MD5sum: 3971a927cbc5ee7a2ca6153de6b29ea7
+SHA1: dcc240fd769afe91fbbca2d6165b8f321b16968d
+SHA256: d93002751e71107fe73bcff2116446bda049aab6716b71108b34984973cf5341
+Homepage: http://nongnu.org/jcal
+Description: Static libraries for jcal
+
+Package: jfrog-cli
+Version: 2.79.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60404
+Filename: pool/main/j/jfrog-cli/jfrog-cli_2.79.2_aarch64.deb
+Size: 12594552
+MD5sum: 684eaea18946b9e9e0b9e1fad91f2568
+SHA1: 6f8ec178e970f875bc94a06b5b6278d7567f73e5
+SHA256: d7099d45188bcc6ebf7d95b9c424e105585158a74b8d9fc1ec3af3a46646cfda
+Homepage: https://jfrog.com/getcli
+Description: A CLI for JFrog products
+
+Package: jftui
+Version: 0.7.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: libcurl, yajl, mpv
+Filename: pool/main/j/jftui/jftui_0.7.5_aarch64.deb
+Size: 44808
+MD5sum: b11985a9af6a6b92719997628d9fccfb
+SHA1: 932d6f72b879ff631ce6ea1d057b1f8d687ed00b
+SHA256: bc7d07645f2bbea088a6b4deee98fee54b39db3c0584ae58580ed5b2ba7d7207
+Homepage: https://github.com/Aanok/jftui
+Description: jftui is a minimalistic, lightweight C99 command line client for the open source Jellyfin media server.
+
+Package: jhead
+Version: 3.08-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Filename: pool/main/j/jhead/jhead_3.08-1_aarch64.deb
+Size: 42200
+MD5sum: f3d3944b72d29cc46f2a70a394e0f2f2
+SHA1: 74e0d3ebc9b44a5d56fe42e42c88cb56af3341e8
+SHA256: cca5e186275248d4a47d652acafa8f04a42b458b58f4ee4bdea3b0dcd797578e
+Homepage: http://www.sentex.net/~mwandel/jhead/
+Description: Exif Jpeg header manipulation tool
+
+Package: jigdo
+Version: 0.8.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 416
+Depends: libbz2, libc++, libdb, wget, zlib
+Filename: pool/main/j/jigdo/jigdo_0.8.2-1_aarch64.deb
+Size: 121652
+MD5sum: 055639e8645c68a9e0d37429a75d6f37
+SHA1: a45e7eecf600296371f693cddb6ef5220b5399db
+SHA256: 9373c02efcb9f26c452ccdae6f047989fccafc0cfa6db9f312143d000ede7739
+Homepage: http://atterer.org/jigdo/
+Description: Distribute large images by sending and receiving the files that make them up
+
+Package: jira-go
+Version: 1.0.28-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10892
+Filename: pool/main/j/jira-go/jira-go_1.0.28-3_aarch64.deb
+Size: 2888772
+MD5sum: 05cbcc95ff5c5a64994706cce3afdb0e
+SHA1: c34528a0561c1065f8c273066c04140e649619ee
+SHA256: 54e41718b6c25f17a29c6ca16a3e09d6857a92ab11eb6366689616c2a6440f5f
+Homepage: https://github.com/go-jira/jira
+Description: Simple jira command line client written in Go
+
+Package: jless
+Version: 0.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2532
+Filename: pool/main/j/jless/jless_0.9.0-1_aarch64.deb
+Size: 700636
+MD5sum: b5ab220fc258f4829a130d60bacd776a
+SHA1: e21224c46c668e0708bf3ff0d5e74defdc97d0c4
+SHA256: 2fb27f906f25573cfae55b894295a2926f6443af6480c5d286d7c85bf5bf62e7
+Homepage: https://jless.io
+Description: A command-line JSON viewer designed for reading, exploring, and searching through JSON data.
+
+Package: jo
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: pool/main/j/jo/jo_1.9-1_aarch64.deb
+Size: 17216
+MD5sum: 06afdd75f085a98f30b2df469fd91b3c
+SHA1: 866390872ba58de1c717544a98387bc0b10f709b
+SHA256: 175d09710f6492b68c99a94bc75c6ad9574a593300febda7e36a3ebc43c130d7
+Homepage: https://jpmens.net/2016/03/05/a-shell-command-to-create-json-jo/
+Description: JSON output from a shell
+
+Package: joe
+Version: 4.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2252
+Depends: ncurses
+Conflicts: jupp
+Filename: pool/main/j/joe/joe_4.6-4_aarch64.deb
+Size: 448740
+MD5sum: 273790d48047834d70064ee5b9df28b9
+SHA1: f85cebd3710958e653c61a3464cf596db0467f60
+SHA256: 561de9bd30a7ec2e7007aa97b0c6ae973f3249eb659c37a970eceb14f1573617
+Homepage: http://joe-editor.sourceforge.net
+Description: Wordstar like text editor
+
+Package: jove
+Version: 4.17.5.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1280
+Depends: ncurses
+Filename: pool/main/j/jove/jove_4.17.5.3-1_aarch64.deb
+Size: 481652
+MD5sum: c5eb299ca107f772752d9bc3a6e89b43
+SHA1: e77ecd74a7944e191f54e4c5e1448e262df35aeb
+SHA256: ee33b3152dda87544cf31bfd707a11288a01afff18d5382a35b5c94bad09fa1f
+Homepage: https://directory.fsf.org/wiki/Jove
+Description: Jove is a compact, powerful, Emacs-style text-editor.
+
+Package: jp2a
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: libcurl, libexif, libjpeg-turbo, libpng, libwebp, ncurses
+Filename: pool/main/j/jp2a/jp2a_1.3.2-1_aarch64.deb
+Size: 23016
+MD5sum: e632c4c8db7be099450a93805ecad241
+SHA1: 94cb1a3bda1ab6cfa7320dd9c92cbbe3eb61adfa
+SHA256: 699dfdd487b55c4c2a2eb6153b9adcf4369d29d2efc5436b086ecacc0e678ae8
+Homepage: https://github.com/Talinx/jp2a/
+Description: A simple JPEG to ASCII converter
 
 Package: json-c
 Version: 0.18-2
@@ -10903,6 +11094,36 @@ SHA1: b5b4b4c4ef28a5373dcffbcc03169f534bc86e51
 SHA256: acef8a4f78e17d403f6cc803d66317f99c2b8fbfac55accb40e3c90abf80d659
 Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Description: Static libraries for ldns
+
+Package: leptonica
+Version: 1.86.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3104
+Depends: giflib, libjpeg-turbo, libpng, libtiff, libwebp, openjpeg, zlib
+Breaks: leptonica-dev
+Replaces: leptonica-dev
+Filename: pool/main/l/leptonica/leptonica_1.86.0_aarch64.deb
+Size: 936464
+MD5sum: 02c65b61a85fbe578023517a834b0237
+SHA1: 3aa6dfdb3e14bb47841971a863bf5efdc9cb3fba
+SHA256: 695f6815ff66c76f55b6ebc32376ebc6da621be8670ca0136c4cd0df3adfcbb2
+Homepage: http://www.leptonica.com/
+Description: Library for image processing and image analysis
+
+Package: leptonica-static
+Version: 1.86.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4544
+Depends: leptonica (= 1.86.0)
+Filename: pool/main/l/leptonica-static/leptonica-static_1.86.0_aarch64.deb
+Size: 992900
+MD5sum: 2b6286e5084936a2819e48aeee3c2633
+SHA1: 8274b960caae38705535047fca211b034c730c09
+SHA256: 7bcd3d386751e6d9a71aa6ff7a7b86cc5c6270a16d956028ede88d80b31e63d2
+Homepage: http://www.leptonica.com/
+Description: Static libraries for leptonica
 
 Package: less
 Version: 679-2
@@ -12273,6 +12494,35 @@ SHA1: d21fbe7af394ba01d8bae14d8226be5c40222851
 SHA256: f2ac67a4b1b1786659d36de0919eabfa56100f4c6dea122627c9906b41904f3a
 Homepage: https://libevent.org/
 Description: Library that provides asynchronous event notification
+
+Package: libexif
+Version: 0.6.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Breaks: libexif-dev
+Replaces: libexif-dev
+Filename: pool/main/libe/libexif/libexif_0.6.25-1_aarch64.deb
+Size: 101700
+MD5sum: 64a06c1b8752641ed95d4b10579bcb82
+SHA1: 071b8295867029c3bb444c1f94fa57f194af6476
+SHA256: 9ee8f7b854d4db65972b6b347432541dc4a25ba64260acf21a2a0ab5c7fd5b90
+Homepage: https://libexif.github.io/
+Description: Library for reading and writing EXIF image metadata
+
+Package: libexif-static
+Version: 0.6.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 972
+Depends: libexif (= 0.6.25-1)
+Filename: pool/main/libe/libexif-static/libexif-static_0.6.25-1_aarch64.deb
+Size: 154996
+MD5sum: 7a85888e52e3534474571836374bc151
+SHA1: 7abd9fba9192a9c2cbcdfea9b58eacb602e40e6c
+SHA256: baf87bee8ed9fb5267950033cbffbbd46a257b5361449ccf04a3c241e0f05569
+Homepage: https://libexif.github.io/
+Description: Static libraries for libexif
 
 Package: libexpat
 Version: 2.7.3
@@ -14269,6 +14519,20 @@ SHA256: ae6c99ad880075212a1a9cbee240b77d796fd62c7e89d3831385dd6152609cf3
 Homepage: https://www.pixman.org/
 Description: Low-level library for pixel manipulation
 
+Package: libplacebo
+Version: 6.338.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1476
+Depends: python
+Filename: pool/main/libp/libplacebo/libplacebo_6.338.2-2_aarch64.deb
+Size: 403268
+MD5sum: 7b56547b5f78676e81a27eabdfe66caa
+SHA1: ff087591fa6c31529d8773c1df3f02d0aba26ac2
+SHA256: 0f8d9d24e966caaa4a4068e757321a61e0a8ee6abb78254ad022c7ac9996cd07
+Homepage: http://libplacebo.org/
+Description: Reusable library for GPU-accelerated video/image rendering
+
 Package: libpng
 Version: 1.6.50-1
 Architecture: aarch64
@@ -14730,6 +14994,22 @@ SHA1: cffc26a5cd3cebe2e2160357527a1cf530f1386d
 SHA256: c284abfb4d7d1e938ccf238c08a6ce48d2efec96e9e7413e3850fc7a3c47b886
 Homepage: https://icecast.org/
 Description: Static libraries for libshout
+
+Package: libsixel
+Version: 1.10.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 572
+Depends: gdk-pixbuf, glib, libcurl, libgd, libjpeg-turbo, libpng
+Breaks: libsixel-dev
+Replaces: libsixel-dev
+Filename: pool/main/libs/libsixel/libsixel_1.10.5-1_aarch64.deb
+Size: 96016
+MD5sum: a68dc323d6f99268376ee7dc9d471780
+SHA1: be445a4d11475278d903fd25415190f65e8bf5f9
+SHA256: 1bd6aec773ef0780f0c4a1ed372e485a1e9cea8f4c3ec398a106309e9352a73a
+Homepage: https://saitoha.github.io/libsixel/
+Description: Encoder/decoder implementation for DEC SIXEL graphics
 
 Package: libsm
 Version: 1.2.6-1
@@ -15277,6 +15557,34 @@ SHA1: 2a8f568d22a84d961e4a4681d104069908466466
 SHA256: 492c23927ed6f3e6bba9fc12f00e613a864b28e31fd2060e3481608fb8bc7f4a
 Homepage: https://www.gnu.org/software/libtool/
 Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+
+Package: libuchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: libc++
+Filename: pool/main/libu/libuchardet/libuchardet_0.0.8-2_aarch64.deb
+Size: 99828
+MD5sum: 3941cef6ce5f5f740de9bbd12ecd40f7
+SHA1: fac85063f74983fea1cd52ff63e7a15837429da9
+SHA256: 87e3360b61570287cdc1d57ebd7298febf6fb0f8147dd73ae9dc995652660a26
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector library
+
+Package: libuchardet-static
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libuchardet (= 0.0.8-2)
+Filename: pool/main/libu/libuchardet-static/libuchardet-static_0.0.8-2_aarch64.deb
+Size: 75424
+MD5sum: 2a6fc554dac80d408ece4be874fd4437
+SHA1: 80d2c4ffb5e39ad11a25cdceddfbc0006551898d
+SHA256: 1986e852f8da2d6869ce70e18ddc403a2214b62e0d5d5beebf3c0a2a479136cd
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: Static libraries for libuchardet
 
 Package: libudfread
 Version: 1.1.2-1
@@ -16933,6 +17241,20 @@ SHA1: 1cb2ed61c6d723e6c093f2d9aa064582d699970c
 SHA256: 35fe860e239b7854f49ab14362596fb582b41e640f8d1ab9d027d77f901176aa
 Homepage: https://mpg123.org/
 Description: Fast console MPEG Audio Player based on libmpg123
+
+Package: mpv
+Version: 0.40.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 4868
+Depends: alsa-lib, ffmpeg, jack, libandroid-glob, libandroid-support, libarchive, libass, libcaca, libiconv, liblua52, libsixel, libuchardet, openal-soft, pulseaudio, rubberband, zlib, libplacebo
+Filename: pool/main/m/mpv/mpv_0.40.0-1_aarch64.deb
+Size: 1032816
+MD5sum: 72347df617e13aca67993b9f43142271
+SHA1: edff9acce0c4f2afcde072ecc083844a59591c61
+SHA256: 7ef1e164ef22ef5a30e64bd1eb8dd4858a54757b4a06ae99e67f8f95d6479f9c
+Homepage: https://mpv.io/
+Description: Command-line media player
 
 Package: ncurses
 Version: 6.5.20240831-3
@@ -19160,6 +19482,20 @@ SHA256: 6cd7442ddb7ed55b6c3e132aa9f6a86cebc9ba874a30f4fdc2f9c98e26f5a404
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
 
+Package: uchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libuchardet (= 0.0.8-2)
+Filename: pool/main/u/uchardet/uchardet_0.0.8-2_aarch64.deb
+Size: 3664
+MD5sum: 5c2895c097076db387513215b012a5f6
+SHA1: 218fdd970d3c2605d2a1ade576e10df67c5a8062
+SHA256: e4000fb49d5767fa1743027123f21c5085bcd075fc2f3d5f888e9496c5a90610
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector utility
+
 Package: unbound
 Version: 1.24.0-1
 Architecture: aarch64
@@ -19639,10 +19975,10 @@ Installed-Size: 192
 Breaks: yajl-dev
 Replaces: yajl-dev
 Filename: pool/main/y/yajl/yajl_2.1.0-7_aarch64.deb
-Size: 25124
-MD5sum: 1cb24307473241a40743b36881d92f3c
-SHA1: 42ab2da0d01ae8762fa5848c4d3261ddf7e66b27
-SHA256: 24937efbe62674767bf90648f8647c9b771dcf0c885d81f69ab4531a76ea81d0
+Size: 25120
+MD5sum: fbe3f737cd31c29f7564d95460883bc9
+SHA1: 732cc74947bb35ae51eb126c32b2061bf8298da3
+SHA256: 136a02da022469ad6703eac6dbaef4cc35568c959d19d80ccac8baa768510317
 Homepage: https://lloyd.github.io/yajl/
 Description: Yet Another JSON Library
 
@@ -19653,10 +19989,10 @@ Maintainer: @termux
 Installed-Size: 88
 Depends: yajl (= 2.1.0-7)
 Filename: pool/main/y/yajl-static/yajl-static_2.1.0-7_aarch64.deb
-Size: 14368
-MD5sum: dd1ba39c83679a6ff72cf6b556efcca1
-SHA1: b1e22cc338a2ea62ef3abeba597a35709cf02276
-SHA256: 25560089ad4afa968659ecad88b25eda377e53109226a3c20e17317b1a065a6f
+Size: 14360
+MD5sum: c57b86c3653e51f57ce1349014fc30e3
+SHA1: fb1db855d3c40145945cc34815160ed731ffee1f
+SHA256: 7b14c79ab151a9883c8ef70c6ba07133bd346f06b4a0793c580be93fb2c0b582
 Homepage: https://lloyd.github.io/yajl/
 Description: Static libraries for yajl
 
