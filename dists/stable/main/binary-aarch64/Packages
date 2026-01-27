@@ -11046,6 +11046,36 @@ SHA256: e4a64032736a3053529cbd5cc8184aea5664d2d7c07b0a3249ec2f03048c6239
 Homepage: https://wiki.gnome.org/Projects/JsonGlib
 Description: GLib JSON manipulation library
 
+Package: jsoncpp
+Version: 1.9.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 448
+Depends: libc++
+Breaks: jsoncpp-dev
+Replaces: jsoncpp-dev
+Filename: pool/main/j/jsoncpp/jsoncpp_1.9.6-3_aarch64.deb
+Size: 94584
+MD5sum: f355b8421d47e70b9ebe54a782960403
+SHA1: d1d11b603f220c392a7ed4f65675540d105b1e71
+SHA256: 54164be1fb7ac0677c98552d797b897cf31d31e18df451ab6d94c5fbc270c174
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: C++ library for interacting with JSON
+
+Package: jsoncpp-static
+Version: 1.9.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 460
+Depends: jsoncpp (= 1.9.6-3)
+Filename: pool/main/j/jsoncpp-static/jsoncpp-static_1.9.6-3_aarch64.deb
+Size: 72604
+MD5sum: 6983318efbb5c01579f1f7b50e32c804
+SHA1: 59dd7ec095cd5cc101616f8230b99713628446c8
+SHA256: cfa8b20e57c747014c0ff0f0029ddaaf865cac329ce888dab21e941f77c9cc0c
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: Static libraries for jsoncpp
+
 Package: jump
 Version: 0.51.0-3
 Architecture: aarch64
@@ -11351,6 +11381,23 @@ SHA256: 06a1583da7ae2e6bfe9da251e9ee20f0c8e94da3a0d4805fe804cd2729012a1a
 Homepage: https://github.com/int128/kubelogin
 Description: A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication
 
+Package: kubo
+Version: 0.37.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 82228
+Suggests: termux-services
+Conflicts: ipfs
+Replaces: ipfs
+Provides: ipfs
+Filename: pool/main/k/kubo/kubo_0.37.0_aarch64.deb
+Size: 18415180
+MD5sum: 0bef34a5a0c825c20b7db9303740e06d
+SHA1: b18c09e4fe356b1ef58cf4bbee8b4eb420c4954c
+SHA256: 840068c7933d736842fcab89c5d82a2e62f80b1f21a9fd95cdbfe20e424358e1
+Homepage: https://ipfs.io/
+Description: A peer-to-peer hypermedia distribution protocol
+
 Package: ladspa-sdk
 Version: 1.17-2
 Architecture: aarch64
@@ -11378,6 +11425,49 @@ SHA1: 75c52df275e41be49422aad3749eb69ea5e24c3e
 SHA256: cca17424bfa5e10e308e10a4c50cb1b103b467feabffe6641f14c043423bcbe5
 Homepage: https://lame.sourceforge.io/
 Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
+
+Package: lastpass-cli
+Version: 1.6.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: libcurl, libxml2, openssl, pinentry
+Suggests: termux-api
+Filename: pool/main/l/lastpass-cli/lastpass-cli_1.6.1-3_aarch64.deb
+Size: 69124
+MD5sum: 22d274dc0104ed2bf128accb6f49470c
+SHA1: b7ed11275ac2f7e3b5711a97eac5afce7238e8b7
+SHA256: 7df42892dedd7a23fc70dd17b95ee5195983ecb8feea8e860bbe9eaf8ef8228c
+Homepage: https://lastpass.com/
+Description: LastPass command line interface tool
+
+Package: lazygit
+Version: 0.55.1
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 22904
+Recommends: git
+Suggests: diff-so-fancy
+Filename: pool/main/l/lazygit/lazygit_0.55.1_aarch64.deb
+Size: 5277988
+MD5sum: d54cfcdb707ea03d4e41f8d370c6f3bd
+SHA1: 74d39b117ef1b9f0e701edb1319761dc5dc806fc
+SHA256: c30954badef344de514c5b1084c7506ce50d15287f5f3478e8ea954205a6d625
+Homepage: https://github.com/jesseduffield/lazygit
+Description: Simple terminal UI for git commands
+
+Package: lcal
+Version: 2.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Filename: pool/main/l/lcal/lcal_2.1.0-1_aarch64.deb
+Size: 22172
+MD5sum: e07b9ce65d4bbb5c5a27dc6ca482b671
+SHA1: ac1a6288c44b4626e13318ed3354884de7d8e2ef
+SHA256: d7c7dcccf538761d8aed05bc4ac1e535eb1e7652ec3e0294555a5a8d2ec54c00
+Homepage: https://pcal.sourceforge.net/
+Description: A multi-platform program which generates PostScript lunar calendars in a yearly format
 
 Package: ldd
 Version: 0.3
@@ -11423,6 +11513,22 @@ SHA1: b5b4b4c4ef28a5373dcffbcc03169f534bc86e51
 SHA256: acef8a4f78e17d403f6cc803d66317f99c2b8fbfac55accb40e3c90abf80d659
 Homepage: https://www.nlnetlabs.nl/projects/ldns/
 Description: Static libraries for ldns
+
+Package: ledger
+Version: 3.3.2-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12336
+Depends: boost, libc++, libedit, libmpfr, libgmp, python
+Breaks: ledger-dev
+Replaces: ledger-dev
+Filename: pool/main/l/ledger/ledger_3.3.2-6_aarch64.deb
+Size: 1185128
+MD5sum: aaefe729a808b75f91f70a7218e8a9e3
+SHA1: 8b9d2193b2f1234bbe19b44d9ef9cc00b97169bb
+SHA256: b51ccbb92965f3bcc192c12aad2dedf5aeffc70f46c4d22f71d358aee047fe98
+Homepage: https://www.ledger-cli.org
+Description: Powerful, double-entry accounting system
 
 Package: leptonica
 Version: 1.86.0
@@ -11470,6 +11576,21 @@ SHA256: f780206b1d14987cb4e798dfc7bee0bf0c60291b8287ad7c3e5fe7208d0d128e
 Homepage: https://www.greenwoodsoftware.com/less/
 Description: Terminal pager program used to view the contents of a text file one screen at a time
 
+Package: lesspipe
+Version: 2.20
+Architecture: all
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 240
+Depends: less, file
+Suggests: imagemagick, p7zip, unrar, unzip
+Filename: pool/main/l/lesspipe/lesspipe_2.20_all.deb
+Size: 40480
+MD5sum: 73cb7ef343e2afbe1f8f7df4e8acbc56
+SHA1: bca614f759716dd0bf0752b6dbbe6b97936586d8
+SHA256: b3b9b251c4fd3d79edd2e05cd53669a5a1474a71dc8d537d89e9bc93e859ca41
+Homepage: http://www-zeuthen.desy.de/~friebel/unix/lesspipe.html
+Description: An input filter for the pager less
+
 Package: leveldb
 Version: 1.23-4
 Architecture: aarch64
@@ -11485,6 +11606,146 @@ SHA1: d1ec1aff5f008157a637e97baa3591489bd44314
 SHA256: 0cb8fe0253875b806b5fa98df8daf4cba4a9bc151c2cfecb9b25f2b2d50733d5
 Homepage: https://github.com/google/leveldb
 Description: Fast key-value storage library
+
+Package: lexbor
+Version: 2.5.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11740
+Filename: pool/main/l/lexbor/lexbor_2.5.0_aarch64.deb
+Size: 921076
+MD5sum: e77bc6d24fad0245dd725017b764c259
+SHA1: e437cfe444883d9cabececfb598445fd0308106e
+SHA256: 79fd1b6ea5d7dcca57c4776c0d3208b13ce9e519deaad5756a36b6553e3b94d7
+Homepage: https://lexbor.com
+Description: Fast embeddable web browser engine written in C with no dependencies
+
+Package: lexter
+Version: 1.0.3-5
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 808
+Depends: gettext, ncurses
+Filename: pool/main/l/lexter/lexter_1.0.3-5_aarch64.deb
+Size: 167920
+MD5sum: ed521d2604583106e8e6ad18abb6701b
+SHA1: c5dcbe8dc56ecefe6b4ce6f493f2b5e0c4d15051
+SHA256: 91e53e5473a75cabb24600180a8930845d5a1e23ef9cb86ffd494774f9e3c18a
+Homepage: https://www.kyne.au/~mark/software/lexter.php
+Description: A real-time word puzzle for text terminals
+
+Package: lf
+Version: 38
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4656
+Filename: pool/main/l/lf/lf_38_aarch64.deb
+Size: 1316760
+MD5sum: fccb889eae1489e6d246bcffcfc536cb
+SHA1: 5e587e05e19fdb9ab586404e38e1ef3dea70f48e
+SHA256: 0498d45ee6b2ed13f138d7e3ba1fb9a21de0c1acbace7f72ea58de26a72e8f76
+Homepage: https://github.com/gokcehan/lf
+Description: Terminal file manager
+
+Package: lfortran
+Version: 0.57.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 74668
+Depends: clang, libandroid-complex-math, libc++, ncurses, zlib, zstd
+Suggests: libkokkos
+Filename: pool/main/l/lfortran/lfortran_0.57.0_aarch64.deb
+Size: 14438320
+MD5sum: 748209cd426be7092d3c49f914fb0b5e
+SHA1: b05955d589e66fd5a03021433abf25af0ed45f4a
+SHA256: f45340eb302f19d36577019d567c85b786692d0ab3c312599df489e809e9005c
+Homepage: https://lfortran.org/
+Description: A modern open-source interactive Fortran compiler
+
+Package: lfortran-static
+Version: 0.57.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24176
+Depends: lfortran (= 0.57.0)
+Filename: pool/main/l/lfortran-static/lfortran-static_0.57.0_aarch64.deb
+Size: 1841500
+MD5sum: 971cb4fe7efe4d80fd595a6cb4847131
+SHA1: e9268f3046fdd79e07c5a947bd14ab12f87da5fb
+SHA256: 05ed7a35dcdf40cf844b76f2b3e53c84faa53388bb9df6bb81e2b25b4b405775
+Homepage: https://lfortran.org/
+Description: Static libraries for lfortran
+
+Package: lftp
+Version: 4.9.2-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1516
+Depends: libandroid-support, libc++, libexpat, libiconv, openssl, readline, libidn2, zlib
+Filename: pool/main/l/lftp/lftp_4.9.2-7_aarch64.deb
+Size: 499960
+MD5sum: 26b9507e78737b89487ed286878fa9fa
+SHA1: d11df4b5e58d506896e1d4336e1c935b252f6c77
+SHA256: 77ef6ad4a3f075034a11b1db0d94e3cada7b220511d6c7110b9fe879b6854f12
+Homepage: https://lftp.tech/
+Description: FTP/HTTP client and file transfer program
+
+Package: lftp-static
+Version: 4.9.2-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2108
+Depends: lftp (= 4.9.2-7)
+Filename: pool/main/l/lftp-static/lftp-static_4.9.2-7_aarch64.deb
+Size: 361088
+MD5sum: 3de7c2878cd0c52e25c5be14d7413bac
+SHA1: 449abdfa66b4ffbfc02e9635e54bfa24bc5cbba5
+SHA256: 08fcda8ff1cbf23eda991e75abcd3365e6d930464042cba8ea236b3b4834d2b6
+Homepage: https://lftp.tech/
+Description: Static libraries for lftp
+
+Package: lgogdownloader
+Version: 3.17-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1388
+Depends: boost, jsoncpp, libc++, libcurl, libhtmlcxx, libtinyxml2, rhash, tidy
+Filename: pool/main/l/lgogdownloader/lgogdownloader_3.17-2_aarch64.deb
+Size: 392936
+MD5sum: 429f44417d70b3cc5bb2a7cb044ad06d
+SHA1: 0b8c7f44b7b4dca0a8a1a9d0e282a36b1ba14b46
+SHA256: c793803d11d73e846b56aa351bbfba88357be1c9afa4314f0bb7e964e3d9739c
+Homepage: https://sites.google.com/site/gogdownloader/
+Description: Open source downloader to GOG.com for Linux users using the same API as the official GOGDownloader
+
+Package: lhasa
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Breaks: lhasa-dev
+Replaces: lhasa-dev
+Filename: pool/main/l/lhasa/lhasa_0.5.0-1_aarch64.deb
+Size: 34308
+MD5sum: 6db537ed89aaf093e446fa7e08714f7e
+SHA1: 8dced400007e5e044a49b2d86f1ac75fd09deeda
+SHA256: 37dad32f862e8b59a0748ef4f961ddda2f05fe525d84b0291d1d3b7b3bfe0ddd
+Homepage: https://lhasa.soulsphere.org/
+Description: LHA compressor/decompressor
+
+Package: lhasa-static
+Version: 0.5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: lhasa (= 0.5.0-1)
+Filename: pool/main/l/lhasa-static/lhasa-static_0.5.0-1_aarch64.deb
+Size: 20164
+MD5sum: 590d344579d8761bfb6e0f8ad77093ea
+SHA1: 9a8e0549351190bb7ac230a8ae3b8d2bcafdcc2f
+SHA256: ef157362d6b42d3a7dfd1db56d6bc0f1532bcaadf5abc0c266841f5a303d869c
+Homepage: https://lhasa.soulsphere.org/
+Description: Static libraries for lhasa
 
 Package: liba52
 Version: 0.8.0-3
@@ -13409,6 +13670,34 @@ SHA256: bc7355fec721fd0f09a9b6e0a6d157721ef164a3798b587e6154544401b5418d
 Homepage: https://redis.com/lp/hiredis
 Description: Hiredis is a minimalistic C client library for the Redis database
 
+Package: libhtmlcxx
+Version: 0.87-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 480
+Depends: libc++, libiconv
+Filename: pool/main/libh/libhtmlcxx/libhtmlcxx_0.87-5_aarch64.deb
+Size: 79488
+MD5sum: f490f7e44dea748f194dcb6f1094937a
+SHA1: 14dcb0cdbb7b84bbf06a6ec3b3bfa3cfaebbcf5c
+SHA256: bdd1c4f2a7c03e181a819904ab731a889c627f98e52d218ca99eda40166a0b5b
+Homepage: https://htmlcxx.sourceforge.net/
+Description: A simple non-validating css1 and html parser for C++
+
+Package: libhtmlcxx-static
+Version: 0.87-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 472
+Depends: libhtmlcxx (= 0.87-5)
+Filename: pool/main/libh/libhtmlcxx-static/libhtmlcxx-static_0.87-5_aarch64.deb
+Size: 60804
+MD5sum: 74287fb4e5684ca1051fad9fba9c41fa
+SHA1: 6fd62942a31b92874075c71a1858df475e9127cc
+SHA256: 92f2d15d5e33ba849b80c5b17c54850f53dfce65c59e2a12a0cf3baa75e91f94
+Homepage: https://htmlcxx.sourceforge.net/
+Description: Static libraries for libhtmlcxx
+
 Package: libice
 Version: 1.1.2-1
 Architecture: aarch64
@@ -13755,6 +14044,20 @@ SHA1: d9eaea02d804930f6d4dd441bd5d6ffdad00b071
 SHA256: cec9fcab02b61d9df12b4d5e230d185ba7abb5235e0c3a01955b8ccbfee4601b
 Homepage: https://github.com/kiwix/libkiwix
 Description: A library that contains a lot of things used by other kiwix programs
+
+Package: libkokkos
+Version: 4.7.01
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7788
+Depends: libandroid-execinfo, libc++
+Filename: pool/main/libk/libkokkos/libkokkos_4.7.01_aarch64.deb
+Size: 639196
+MD5sum: 1b73408c7abf5b09b67077fb894ec6c1
+SHA1: 65bea2f1c36ff2cf753f2a16738e9e273c919fa2
+SHA256: ff1da9037caa22a8cfcaa49dff09167e82e730afab6c603a547af500dec09dfd
+Homepage: https://github.com/kokkos
+Description: Implements a programming model in C++ for writing performance portable applications
 
 Package: libksba
 Version: 1.6.7-2
@@ -15817,6 +16120,20 @@ SHA1: 61b60a2531a838e39175f57496dcce27dfb4ad24
 SHA256: f34e39adbbac5c6db690474479a5f46cfa73cd9071317e74bd7ab3186faa4a5e
 Homepage: http://www.simplesystems.org/libtiff/
 Description: Tools for working with tiff files
+
+Package: libtinyxml2
+Version: 11.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: libc++
+Filename: pool/main/libt/libtinyxml2/libtinyxml2_11.0.0-1_aarch64.deb
+Size: 53372
+MD5sum: 5c4bc630e28243e3d50b1a22666f4c21
+SHA1: 2f23e62e93f1bdbbae57c7394c5ea5dc1ebeab73
+SHA256: 31803dbf043a14111631451d626bd69bd31045db85994bb4c2138b1513c9c651
+Homepage: http://www.grinninglizard.com/tinyxml2/
+Description: A simple, small, efficient, C++ XML parser
 
 Package: libtirpc
 Version: 1.3.7-1
@@ -19144,6 +19461,36 @@ SHA256: 69e2cf183760a18122120645df85a4a798ad8474609b20ac9fb7db6456d1684c
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
 
+Package: rhash
+Version: 1.4.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 388
+Depends: openssl
+Conflicts: librhash, rhash-dev
+Replaces: librhash, rhash-dev
+Filename: pool/main/r/rhash/rhash_1.4.6-1_aarch64.deb
+Size: 163052
+MD5sum: a12a25c157b21c3807ed1d38e2da5f8a
+SHA1: d00665e866bc57d62235f4e50d51526d3357f4e8
+SHA256: 4dd91828b147fe273a766839e3e30791c2fa793ad8c31805441b9ea7226860eb
+Homepage: https://github.com/rhash/RHash
+Description: Console utility for calculation and verification of magnet links and a wide range of hash sums
+
+Package: rhash-static
+Version: 1.4.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: rhash (= 1.4.6-1)
+Filename: pool/main/r/rhash-static/rhash-static_1.4.6-1_aarch64.deb
+Size: 132168
+MD5sum: c8a9445c53324a4dc5f893a8a371b7fa
+SHA1: 6dc773b18bc32866639ba88e45812142f687d3d0
+SHA256: 64ff3a060a5981a91c6c51f7318c0a45e67e76eab0563f9d03818a90d7a27975
+Homepage: https://github.com/rhash/RHash
+Description: Static libraries for rhash
+
 Package: rubberband
 Version: 4.0.0-1
 Architecture: aarch64
@@ -20010,6 +20357,19 @@ SHA1: b0cdbc16abc7598ab79022a78611ec0e038dbf8e
 SHA256: 8c8ea14cd8de93f823483d49bfd7ae923d51b5d8696ee1af0586bb0c228c0971
 Homepage: https://www.gnu.org/software/texinfo/
 Description: Update or create index file from all installed info files in directory
+
+Package: utf8cpp
+Version: 4.0.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Filename: pool/main/u/utf8cpp/utf8cpp_4.0.8_aarch64.deb
+Size: 10360
+MD5sum: ba7698663d2be81a01e758123985823e
+SHA1: 99c821084df57209c5322ac9c15871a441c9e07e
+SHA256: 22bda3aa10efbbe4274024b499f4b29c195d5a2b0dca65332102eecda97ce02d
+Homepage: https://github.com/nemtrif/utfcpp
+Description: UTF8-CPP: UTF-8 with C++ in a Portable Way
 
 Package: utf8proc
 Version: 2.10.0-1
