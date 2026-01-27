@@ -17448,6 +17448,34 @@ SHA256: 516d23880f6895d3ca8554e39b96d7ac0e2a6f1a1fdfd30305e23762d275f4c4
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Network Security Services (NSS)
 
+Package: libntl
+Version: 11.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3464
+Depends: libgf2x, libgmp
+Filename: pool/main/libn/libntl/libntl_11.5.1-1_aarch64.deb
+Size: 314424
+MD5sum: 111d7e6c82e1c67f7a3e1d4f2c02c97c
+SHA1: db956b76c659fd6c50ff92973f846998e9e2a2c9
+SHA256: 470f5f4ed47f49b092f2c4868a45e35d3dc5d1d81a324a36b0a0de9ef52b7c41
+Homepage: https://libntl.org
+Description: A Library for doing Number Theory
+
+Package: libntl-static
+Version: 11.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60148
+Depends: libntl (= 11.5.1-1)
+Filename: pool/main/libn/libntl-static/libntl-static_11.5.1-1_aarch64.deb
+Size: 8885852
+MD5sum: bd507d5c6eb4edac6f2dd4b73a350aaa
+SHA1: 60d7c5d30f3c46bafb90644cb8efc7fb8448c0ce
+SHA256: 212eb2ed20f40e618770b95a1c09349e7813ef7f4b0e136c019835685220674a
+Homepage: https://libntl.org
+Description: Static libraries for libntl
+
 Package: libobjc2
 Version: 2.1-3
 Architecture: aarch64
@@ -17506,6 +17534,22 @@ SHA256: 08138bd1a0a533ff4795f065f95713570f3d0d370f4718f4c1950686e99263d1
 Homepage: https://xiph.org/ogg/
 Description: Static libraries for libogg
 
+Package: liboggz
+Version: 1.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: libogg
+Breaks: liboggz-dev
+Replaces: liboggz-dev
+Filename: pool/main/libo/liboggz/liboggz_1.1.3-1_aarch64.deb
+Size: 93248
+MD5sum: 2ebc9bde320bb5c65670c420e3dde677
+SHA1: 11b48bf279761df4bc4b13c7b7585a784cf82f85
+SHA256: 488b939c5fc1ac9df72e807dc690f50d6383ebfc0b64d85a3a74f03aa4bef6d7
+Homepage: https://www.xiph.org/oggz/
+Description: Command and library to inspect, tweak, edit and validate Ogg files
+
 Package: libolm
 Version: 3.2.16-1
 Architecture: aarch64
@@ -17546,6 +17590,20 @@ SHA256: 11d69f75b8faa494519fd3c95f9380da793f4cb7b8557c9f3007e77de0678ebc
 Homepage: https://www.openblas.net
 Description: Static libraries for libopenblas
 
+Package: libopencc
+Version: 1.1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1712
+Depends: libc++, marisa
+Filename: pool/main/libo/libopencc/libopencc_1.1.9-1_aarch64.deb
+Size: 568036
+MD5sum: 2b5cfb18f040c6e9344b6bcc9de77b39
+SHA1: 1239cff4a86e584627a408e9fa938d5bea9c613f
+SHA256: 8e88a90e1018ab87b760b28d041bf712ec7c99f521f3133ac23f1fedc602a8eb
+Homepage: https://github.com/BYVoid/OpenCC
+Description: An opensource project for conversions between Traditional Chinese, Simplified Chinese and Japanese Kanji (Shinjitai)
+
 Package: libopencore-amr
 Version: 0.1.6-1
 Architecture: aarch64
@@ -17574,6 +17632,21 @@ SHA1: 2f615b5df7620da6e2798356c3122c8cc0de4110
 SHA256: aa3258126c42dd1444b917e3621f5fb2dbe17226d82b99540c58adc8a490db13
 Homepage: https://sourceforge.net/projects/opencore-amr/
 Description: Static libraries for libopencore-amr
+
+Package: libopenfec
+Version: 1.4.2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 832
+Breaks: libopenfec-dev
+Replaces: libopenfec-dev
+Filename: pool/main/libo/libopenfec/libopenfec_1.4.2.12-1_aarch64.deb
+Size: 207712
+MD5sum: c66944cc769fd47df4b39d89a46c30cd
+SHA1: 01906b198e3651f36cc1c42bb14db3bebf8641f5
+SHA256: d99a855a2bf66169a08bc1eedf06aec7058f0057478db497de94aa7ef7b478b2
+Homepage: http://openfec.org
+Description: Application-Level Forward Erasure Correction implementation library
 
 Package: libopenmpt
 Version: 0.8.3
@@ -17632,6 +17705,49 @@ SHA256: 42b52a18f785ed31bf1dfc9aedabd45a56b76f896589a4a0bc592b57ea35bd9c
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for libopus
 
+Package: libopusenc
+Version: 0.2.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 128
+Depends: libopus
+Breaks: libopusenc-dev
+Replaces: libopusenc-dev
+Filename: pool/main/libo/libopusenc/libopusenc_0.2.1-4_aarch64.deb
+Size: 24256
+MD5sum: d97593ded4f26bd59ba42a84ab98e9ad
+SHA1: 6b5cc5c70ecce24ea8aa1b67660b5767e1e16d0d
+SHA256: ec67e5cfd01add4c2fe0838b14bde6d8eda2e16b59c07a8c960151505a243f16
+Homepage: https://github.com/xiph/libopusenc
+Description: High-level API for encoding .opus files
+
+Package: libopusenc-static
+Version: 0.2.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libopusenc (= 0.2.1-4)
+Filename: pool/main/libo/libopusenc-static/libopusenc-static_0.2.1-4_aarch64.deb
+Size: 22596
+MD5sum: 8a5d6521077f74b6d0bfcdab6f1cfb5b
+SHA1: 4aee51d2a1b6b5c2b457bceddcecc87a108c3442
+SHA256: 72958e085928ce2efdf66efaa27a5155e31839e156b1bb81d97f6818382c68d1
+Homepage: https://github.com/xiph/libopusenc
+Description: Static libraries for libopusenc
+
+Package: liborc
+Version: 0.4.41-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Filename: pool/main/libo/liborc/liborc_0.4.41-1_aarch64.deb
+Size: 196036
+MD5sum: 44c1381f027aa78ffc4816dccd74bd16
+SHA1: 31a85c56ee19d8f9b0357a50dc81c31acf101c66
+SHA256: 988d26b1b34f759ae6bb56f1e2f84a12bb86daf6f20147b38382b31adc175c71
+Homepage: https://gstreamer.freedesktop.org/projects/orc.html
+Description: Library of Optimized Inner Loops Runtime Compiler
+
 Package: libosl
 Version: 0.9.7-1
 Architecture: aarch64
@@ -17659,6 +17775,47 @@ SHA1: a1c60f7e82ab211ee178c74b55091cbd7fde76f7
 SHA256: 643fe007354e8e83e03f3d20d0b511691c3b96a91769db1e13a66031c695d3d0
 Homepage: http://icps.u-strasbg.fr/~bastoul/development/openscop
 Description: Static libraries for libosl
+
+Package: libosmium
+Version: 2.22.0-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2104
+Filename: pool/main/libo/libosmium/libosmium_2.22.0-4_all.deb
+Size: 172736
+MD5sum: 668827ca121da917c116df8f379a839a
+SHA1: 1413afdd4a9d944c69990744314010daf0793057
+SHA256: 4a20141d7471de4dc42dce1bf10a8a71b4fd5ffc85b91fa53d50baaddfe97a2e
+Homepage: https://osmcode.org/libosmium/
+Description: Library for reading from and writing to OSM files in XML and PBF formats
+
+Package: libosmpbf
+Version: 1.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 648
+Depends: libc++, libprotobuf
+Filename: pool/main/libo/libosmpbf/libosmpbf_1.5.1-2_aarch64.deb
+Size: 71776
+MD5sum: 5e5a2d596514d3effc2bdbf74b3a510b
+SHA1: 77d6b8e3d39264f6c8c28be4a30f864668e57323
+SHA256: 04c3cc4ccdc65b3dda85cabcadf8c5ed152a98d9265cad3e436b4e28fb851403
+Homepage: https://github.com/openstreetmap/OSM-binary/
+Description: osmpbf is a Java/C library to read and write OpenStreetMap PBF files
+
+Package: libosmpbf-static
+Version: 1.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 204
+Depends: libosmpbf (= 1.5.1-2)
+Filename: pool/main/libo/libosmpbf-static/libosmpbf-static_1.5.1-2_aarch64.deb
+Size: 27484
+MD5sum: e9e39e5fdf8068b0472a72c47747bf15
+SHA1: 2e4db44660a7d9be60edbe3f9954a5b747cc37b0
+SHA256: 7dce2587f03d46d97ba7a827b7400d6f9098db51bde888376d5fe2610c63e906
+Homepage: https://github.com/openstreetmap/OSM-binary/
+Description: Static libraries for libosmpbf
 
 Package: libotr
 Version: 4.1.1-3
@@ -17703,6 +17860,20 @@ SHA256: acf27392b1fb05d4492da419490aade08ded970709c92f351acab0b8b396a4a6
 Homepage: http://www.fefe.de/libowfat/
 Description: GPL reimplementation of libdjb
 
+Package: libp11
+Version: 0.4.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 380
+Depends: openssl
+Filename: pool/main/libp/libp11/libp11_0.4.16-1_aarch64.deb
+Size: 57492
+MD5sum: 392323a3a00add2a1c223b054820df4d
+SHA1: 4560e11d21adcaeb1c3266d04fe9c2d6b67a8144
+SHA256: c621acf1b459357c5553376f7073caae9cb431ea79e177bfa45903b0d7d8e08a
+Homepage: https://github.com/OpenSC/libp11
+Description: PKCS#11 wrapper library
+
 Package: libp8-platform
 Version: 2.1.0.1-4
 Architecture: aarch64
@@ -17730,6 +17901,90 @@ SHA1: 264d066fc0cd5c31d44dfa4d9a44fae8ddabaf62
 SHA256: 029d346afcc15b5cb7419be440a68a9827d2ce76ca1bedff067e0b7a35343efc
 Homepage: https://esa.github.io/pagmo2/index.html
 Description: Scientific library for massively parallel optimization
+
+Package: libpangomm-1.4
+Version: 2.46.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 768
+Depends: glib, libc++, libcairomm-1.0, libglibmm-2.4, libsigc++-2.0, pango
+Filename: pool/main/libp/libpangomm-1.4/libpangomm-1.4_2.46.4-1_aarch64.deb
+Size: 97804
+MD5sum: b24a79bdbdc6ef902840f9a7bdcf7954
+SHA1: 6b946907d5da2fa083e5b681c86933de58d95f12
+SHA256: 155dd92d8bfdd93b6a89a15a95d800ab89f870f8e07909cc5a82e1360ecaf876
+Homepage: https://www.gtkmm.org/
+Description: A C++ API for Pango
+
+Package: libpangomm-2.48
+Version: 2.56.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 888
+Depends: glib, libc++, libcairomm-1.16, libglibmm-2.68, libsigc++-3.0, pango
+Filename: pool/main/libp/libpangomm-2.48/libpangomm-2.48_2.56.1-1_aarch64.deb
+Size: 118672
+MD5sum: 7c0d9b5acdfc24ccfbf7956e95abc469
+SHA1: 50a00c9915e7bf7bd5f9ab58f18e5db04272e551
+SHA256: d253a5fd1c64d2f284c2882896f940e0dc566162c6574bc977562a83f190e06a
+Homepage: https://www.gtkmm.org/
+Description: A C++ API for Pango
+
+Package: libpano13
+Version: 2.9.22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 900
+Depends: libjpeg-turbo, libpng, libtiff, zlib
+Filename: pool/main/libp/libpano13/libpano13_2.9.22-2_aarch64.deb
+Size: 244192
+MD5sum: f618c7a4f98a6adfbe5341ee40d31ba5
+SHA1: 8b0d7bf1d38b3708d05cda3e26de06279f2d0a56
+SHA256: 65becc4b26a283c9879f052c3b72210096afb92f56400c418df1d6ced6c047fe
+Homepage: https://panotools.sourceforge.net/
+Description: Part of the Panorama Tools by Helmut Dersch
+
+Package: libpano13-static
+Version: 2.9.22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 800
+Depends: libpano13 (= 2.9.22-2)
+Filename: pool/main/libp/libpano13-static/libpano13-static_2.9.22-2_aarch64.deb
+Size: 198540
+MD5sum: 585d68a2702982c8dbda1b6fa17707df
+SHA1: f4851114c3dcf2b7ca0478f2c1b2bd8cc1835464
+SHA256: 90d10b938cf0c78912bbe1cd1417408feca678ab9fe2a5133685a665771088a1
+Homepage: https://panotools.sourceforge.net/
+Description: Static libraries for libpano13
+
+Package: libpaper
+Version: 2.2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Provides: paper
+Filename: pool/main/libp/libpaper/libpaper_2.2.6-1_aarch64.deb
+Size: 32520
+MD5sum: 6fa0bad7f6178a9e4079d46b60259676
+SHA1: f502e40efd8cc84b754149b464e560bf5391a31b
+SHA256: 6cb96d4d0cf671fa975f47d9a7ee01eeff9ae6520e7b9d9aee17ddafe3ab0cc2
+Homepage: https://github.com/rrthomas/psutils
+Description: Library for handling paper characteristics (by @rrthomas)
+
+Package: libpaper-static
+Version: 2.2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libpaper (= 2.2.6-1)
+Filename: pool/main/libp/libpaper-static/libpaper-static_2.2.6-1_aarch64.deb
+Size: 5688
+MD5sum: 47294d8ca37dc68df5e5954b4da201e7
+SHA1: 0150a4b0679f7145eedfd1cd19496d809ddc740c
+SHA256: e20efa09fe34a079cf2ca2a61581952438687a68774c39a68feea89c35c1952a
+Homepage: https://github.com/rrthomas/psutils
+Description: Static libraries for libpaper
 
 Package: libpcap
 Version: 1.10.5-1
@@ -17773,6 +18028,36 @@ SHA1: d51aca936d9724bef9d4a8e8e211dd2c5aeef6a5
 SHA256: 89630568203b98013c4bcbec736945193f38e1b6979662eb1fa15093d5feafda
 Homepage: https://www.pcre.org
 Description: Posix-compatible runtime libraries for libpcre
+
+Package: libpcsclite
+Version: 2.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: python
+Breaks: libpcsclite-dev
+Replaces: libpcsclite-dev
+Filename: pool/main/libp/libpcsclite/libpcsclite_2.3.3-2_aarch64.deb
+Size: 58232
+MD5sum: 2a8028b6ca4f2cf997092bc1d314505e
+SHA1: cefaf8b477fe8faa2da351231ae9e098bc5027c9
+SHA256: 690724b6d6afa66f36b41d7afbd969a7bfec6565f21be98525a49f1b6f1d4247
+Homepage: https://pcsclite.apdu.fr/
+Description: Middleware to access a smart card using SCard API (PC/SC).
+
+Package: libpcsclite-static
+Version: 2.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: libpcsclite (= 2.3.3-2)
+Filename: pool/main/libp/libpcsclite-static/libpcsclite-static_2.3.3-2_aarch64.deb
+Size: 54356
+MD5sum: b290f4e3c7fe804f0b7b9a73e6e48d0a
+SHA1: 25379461ec7c8c4fb7b6abfae5a035b1a8423c36
+SHA256: 5334fc425c47e473fae9db7a52e4d45798046d7f1e547c4e5442e6ebe355cd61
+Homepage: https://pcsclite.apdu.fr/
+Description: Static libraries for libpcsclite
 
 Package: libpixman
 Version: 0.46.4-1
@@ -17951,6 +18236,19 @@ SHA1: 1a0e1ea9741f9ed68d39739455b72345d7973002
 SHA256: f24547809948e2312d472a3afdd25490e83e88ff4ccdb443bba262f2bbde43e0
 Homepage: https://github.com/protobuf-c/protobuf-c
 Description: Static libraries for libprotobuf-c
+
+Package: libprotozero
+Version: 1.8.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Filename: pool/main/libp/libprotozero/libprotozero_1.8.0_aarch64.deb
+Size: 19656
+MD5sum: abebea0a08c1ea649f71c7936d20d4e4
+SHA1: a2b01a32228227a2fcbb58853196d8819bd70fc5
+SHA256: 533c1f337bb530fb2f5b3e5c2a7e8f2f274a2fe6711e4272feb565217e247594
+Homepage: https://github.com/mapbox/protozero
+Description: Minimalistic protocol buffer decoder and encoder in C++
 
 Package: libpsl
 Version: 0.21.5-1
@@ -20571,6 +20869,20 @@ SHA256: 5c1a42a9b0eb73778ed68346910ba4fcab16c886208684a983a2cc004a61068a
 Homepage: https://mdocml.bsd.lv/
 Description: Man page viewer from the mandoc toolset
 
+Package: marisa
+Version: 0.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: libc++
+Filename: pool/main/m/marisa/marisa_0.3.1-1_aarch64.deb
+Size: 85988
+MD5sum: 7ee3586d9118f733e81bc13e04098fa4
+SHA1: 58bb953856c30bc9c35308f35f4cb7b22ce95ea9
+SHA256: 4fa0d96a56191eb0ac1c3a2261d8889b8ae85cf7abf5e04acfdd8fdd420354cd
+Homepage: https://github.com/s-yata/marisa-trie
+Description: Matching Algorithm with Recursively Implemented StorAge
+
 Package: mbedtls
 Version: 3.6.4-1
 Architecture: aarch64
@@ -21164,6 +21476,20 @@ SHA256: b365e757effab88ec17b18d72331b36e26b5079b1140348b0e1d1595d82716b6
 Homepage: https://openal-soft.org/
 Description: Software implementation of the OpenAL API
 
+Package: opencc-tools
+Version: 1.1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: libopencc (= 1.1.9-1)
+Filename: pool/main/o/opencc-tools/opencc-tools_1.1.9-1_aarch64.deb
+Size: 64396
+MD5sum: d20f7a2b86e409e02205660ab40e6bd1
+SHA1: 1825d701599201c042abaa6e2a3f3f58d11a57eb
+SHA256: 1c49e4ec7c26a61ee24ae9247ab2d86b0f4e235ba971285dd7a8cebe80ebd728
+Homepage: https://github.com/BYVoid/OpenCC
+Description: Command-line tools for OpenCC
+
 Package: opencl-clhpp
 Version: 2025.07.22
 Architecture: all
@@ -21634,6 +21960,20 @@ SHA1: a730e4a43e2d9c948e8b8ba71cff2c68ad4dfbde
 SHA256: 18edce8b03504f8e06a94b36efe367743ca7bcb892c4b29d8b74bcb539cf64e9
 Homepage: https://www.pcre.org
 Description: A grep with Perl-compatible regular expressions
+
+Package: pcscd
+Version: 2.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libusb, libpcsclite (= 2.3.3-2)
+Filename: pool/main/p/pcscd/pcscd_2.3.3-2_aarch64.deb
+Size: 43504
+MD5sum: 3f1b96e52c7b190e2e6bdf628aa54dad
+SHA1: 889c32ba672858831ef8c621a992e42c81c3eb84
+SHA256: f0329b0ce64f6a422bc042185bb7670dbd9b9d60ab1d844f7507427e911fcea8
+Homepage: https://pcsclite.apdu.fr/
+Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
 
 Package: perl
 Version: 5.40.3
