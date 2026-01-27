@@ -2509,6 +2509,20 @@ SHA256: 0ba30263df1ff2c1da595521cd873ca5f015ef26a820ab8a6dfbb21b82999c9e
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
+Package: cabal-install
+Version: 3.17.0.0-1
+Architecture: aarch64
+Maintainer: Cabal Development Team <cabal-devel@haskell.org>
+Depends: libffi, libiconv, libgmp, zlib, libandroid-posix-semaphore
+Suggests: ghc, dnsutils
+Filename: pool/main/c/cabal-install/cabal-install_3.17.0.0-1_aarch64.deb
+Size: 8194736
+MD5sum: 51ab39aa9de75d759ae793e3a1f8b726
+SHA1: 71b11662d39db0ea106534855d58cff488c76e27
+SHA256: c3949c9851c9e82f69eee1b43f4fde7bc03532a2601712f25978dbff98442281
+Homepage: https://www.haskell.org/cabal/
+Description: The command-line interface for Haskell-Cabal and Hackage
+
 Package: cabextract
 Version: 1.11-1
 Architecture: aarch64
