@@ -18059,6 +18059,48 @@ SHA256: 5334fc425c47e473fae9db7a52e4d45798046d7f1e547c4e5442e6ebe355cd61
 Homepage: https://pcsclite.apdu.fr/
 Description: Static libraries for libpcsclite
 
+Package: libphysfs
+Version: 3.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Filename: pool/main/libp/libphysfs/libphysfs_3.2.0-2_aarch64.deb
+Size: 93004
+MD5sum: 46ee4664650097a3c768afc8ff343910
+SHA1: 267191bed00d17569e7cfa9be6f3ca9629f72158
+SHA256: 391d426a88c868a1ff7d9ed4a00e0169408313b77c8de0f549a9be8ccffecc42
+Homepage: https://icculus.org/physfs/
+Description: A portable, flexible file i/o abstraction
+
+Package: libpipeline
+Version: 1.5.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Breaks: libpipeline-dev
+Replaces: libpipeline-dev
+Filename: pool/main/libp/libpipeline/libpipeline_1.5.8-1_aarch64.deb
+Size: 36484
+MD5sum: 6d5d52a57581fa54fe867336817959dc
+SHA1: e72881a8730e84f3c46cb02fea28183b51e83401
+SHA256: 46eff748f3b67f1c9a7c435cd247279f68ad62a84d3713a4ea332270f7f05361
+Homepage: http://libpipeline.nongnu.org/
+Description: C library for manipulating pipelines of subprocesses in a flexible and convenient way
+
+Package: libpipeline-static
+Version: 1.5.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libpipeline (= 1.5.8-1)
+Filename: pool/main/libp/libpipeline-static/libpipeline-static_1.5.8-1_aarch64.deb
+Size: 29628
+MD5sum: b5f97fc7fbfe3c8d7e8ae01473b57177
+SHA1: b2f0aa021b722c84602f5e209618e2656b63feac
+SHA256: 2439fdcdbea57020dbcce70c23026f0effee73843db71a38323104c7f251ac1d
+Homepage: http://libpipeline.nongnu.org/
+Description: Static libraries for libpipeline
+
 Package: libpixman
 Version: 0.46.4-1
 Architecture: aarch64
@@ -18116,6 +18158,36 @@ SHA256: 7140a7a31d3bf9ae8834749e82669e32faab675fd806f82dae44e000267f3529
 Homepage: https://libimobiledevice.org
 Description: Static libraries for libplist
 
+Package: libpluto
+Version: 0.11.3
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 1940
+Depends: libc++
+Breaks: plutolang (<< 0.9.4-1)
+Replaces: plutolang (<< 0.9.4-1)
+Filename: pool/main/libp/libpluto/libpluto_0.11.3_aarch64.deb
+Size: 637280
+MD5sum: a7ddb2b0e7ef39c5865880bcf28ec09a
+SHA1: 72be353dbe6664bb738a315f69778407c42c17db
+SHA256: 5ae8459951cc25ba928f214c4053ff897981cc6584ab9b63da06c18dc74714bf
+Homepage: https://plutolang.github.io/
+Description: Shared library for the Pluto interpreter
+
+Package: libpluto-static
+Version: 0.11.3
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 6400
+Depends: libpluto (= 0.11.3)
+Filename: pool/main/libp/libpluto-static/libpluto-static_0.11.3_aarch64.deb
+Size: 957012
+MD5sum: 150a0eb9680acaacf094db2a8a16d3bc
+SHA1: b350dee041778297ea2662790b74c6936c4c4004
+SHA256: d1c98f6af653e8284afe3293a5aadc83bcf436dc9624bd97692e8dea319952ac
+Homepage: https://plutolang.github.io/
+Description: Static libraries for libpluto
+
 Package: libpng
 Version: 1.6.50-1
 Architecture: aarch64
@@ -18145,6 +18217,48 @@ SHA1: 3ed24812bb90356693ab7749808c9c4cb36ae976
 SHA256: bb0d8570075b7f18712ecb2c881c5dc7eded67e1a7241e4a539adcc625362070
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Static libraries for libpng
+
+Package: libpngwriter
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: zlib,freetype,libpng
+Filename: pool/main/libp/libpngwriter/libpngwriter_0.7.0-1_aarch64.deb
+Size: 13036
+MD5sum: d8e439205cf08b7624f59079c3eba1b4
+SHA1: 75e4950d3cc74041d7d0f96f9e8c7f829528fd04
+SHA256: 9561ab3664917d5e57f27f49eb8709c0e2e4cdd6d3265b5ee0b578588b78e7ab
+Homepage: https://pngwriter.sourceforge.net
+Description: C++ library for creating PNG images
+
+Package: libpngwriter-static
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: libpngwriter (= 0.7.0-1)
+Filename: pool/main/libp/libpngwriter-static/libpngwriter-static_0.7.0-1_aarch64.deb
+Size: 34228
+MD5sum: f816bd7b2bd0111eb0c37cae8665ea3e
+SHA1: c12f49ce9f079dd68675a27a2eda8421402789b9
+SHA256: 799f06a37f93843773a14669b31846d02d87d6ec98e8ecd8223875dceb05f030
+Homepage: https://pngwriter.sourceforge.net
+Description: Static libraries for libpngwriter
+
+Package: libpoco
+Version: 1.14.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18928
+Depends: libc++, libexpat, libsqlite, openssl, pcre2, utf8proc, zlib
+Filename: pool/main/libp/libpoco/libpoco_1.14.2-1_aarch64.deb
+Size: 2837488
+MD5sum: f18c57b243ef6d8bc0833b198f3549a7
+SHA1: 038860486de3ab35ca7846d7ceb788d728e7d963
+SHA256: 744ead518cabafbe510049f0d38e5c874640c5eb0936920a37639311475eedda
+Homepage: https://pocoproject.org/
+Description: A comprehensive set of C++ libraries that cover all modern-day programming needs
 
 Package: libpolly
 Version: 20.1.8-3
@@ -18294,6 +18408,22 @@ SHA256: a092f5ec1498d863f17ea0d6edaf8b8377fbf5fc448fb2036e2546f4279646e5
 Homepage: https://pugixml.org/
 Description: Light-weight, simple and fast XML parser for C++ with XPath support
 
+Package: libqrencode
+Version: 4.1.1-2
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 180
+Depends: libandroid-support, libpng, zlib
+Breaks: libqrencode-dev
+Replaces: libqrencode-dev
+Filename: pool/main/libq/libqrencode/libqrencode_4.1.1-2_aarch64.deb
+Size: 41196
+MD5sum: e4b5a45b4e322a4421f0d7489660f575
+SHA1: ba690e0ae0aab9a571a84c3c62ab4a2fc145b587
+SHA256: d42d5f1ee5aad93c5917deed14468be48e0f418b37c9bb22825bbd8548b9830f
+Homepage: https://fukuchi.org/works/qrencode/
+Description: Fast and compact library for encoding data in a QR Code symbol
+
 Package: libraptor2
 Version: 2.0.16-9
 Architecture: aarch64
@@ -18335,6 +18465,34 @@ SHA1: e3a921dd5be1eacc321ecbf22ddc770ad96cbbe6
 SHA256: 600c72133d50641390a312473f021092782dfe800eb2382ddb7ee55437e1ae66
 Homepage: https://github.com/HOST-Oman/libraqm
 Description: Raqm is a small library that encapsulates the logic for complex text layout and provides a convenient API
+
+Package: librasqal
+Version: 0.9.33-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 656
+Depends: libgmp, libmhash, libraptor2, libuuid, pcre
+Filename: pool/main/libr/librasqal/librasqal_0.9.33-4_aarch64.deb
+Size: 161980
+MD5sum: f24e46dc71ddd320f5dcf5af978982c5
+SHA1: 92a4bb0e90bf4daa4a63d5bc7496a5293fd83acb
+SHA256: 07961aa826908d0c5d0df29f08cc397d6ca3221dcbf19dfda65457e69acb711c
+Homepage: https://librdf.org/rasqal/
+Description: RDF Query Library
+
+Package: librasqal-static
+Version: 0.9.33-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 872
+Depends: librasqal (= 0.9.33-4)
+Filename: pool/main/libr/librasqal-static/librasqal-static_0.9.33-4_aarch64.deb
+Size: 160236
+MD5sum: df7a6b36fe5cdf62b98660467e7f4c80
+SHA1: 9594344348b5ad09bd6370dcb155cd8aa8c84353
+SHA256: 64cd3df126c0d7e06014492833c7ef1f668a0af7afdc99c8665326eabdebc8db
+Homepage: https://librdf.org/rasqal/
+Description: Static libraries for librasqal
 
 Package: librav1e
 Version: 0.8.1
@@ -18463,6 +18621,88 @@ SHA256: 17e3c613002cfba7e8344862250a1e41092859be33460eff7e223ea61ee93d36
 Homepage: https://git.causal.agency/libretls/about/
 Description: Static libraries for libretls
 
+Package: librime
+Version: 1.14.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2928
+Depends: boost, google-glog, leveldb, libc++, libopencc, libyaml-cpp, marisa
+Filename: pool/main/libr/librime/librime_1.14.0-1_aarch64.deb
+Size: 638388
+MD5sum: ac8b9abe450c410a93eac5b28b34adba
+SHA1: d0f72eb89f5153812a5ae81ac0180f22b7774b20
+SHA256: 730789b940ca8b46820af5e2e7cda89713bcab033303f11c80c77505681e004c
+Homepage: https://rime.im/
+Description: A modular, extensible input method engine in cross-platform C++ code
+
+Package: librinutils
+Version: 0.10.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Filename: pool/main/libr/librinutils/librinutils_0.10.3_aarch64.deb
+Size: 6100
+MD5sum: ee59b2320bae2af2b6aae5d8c61a47c2
+SHA1: c73d2590716ad25db0c75c657e52f2c5d76a8aee
+SHA256: 7baf10c597ae495c6be16106c3915d0470e73810b4bef7b9ad2fe801623854ad
+Homepage: https://github.com/shlomif/rinutils
+Description: A C11 / gnu11 utilities C library
+
+Package: librnnoise
+Version: 0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1496
+Filename: pool/main/libr/librnnoise/librnnoise_0.2-1_aarch64.deb
+Size: 1192568
+MD5sum: def5d8039643d2124e29a003a4b9ca6f
+SHA1: 5825ea0b24be52913a1b5af37eba274b3e720af2
+SHA256: 877d730dceca5f94e37de15a83c761054ae907464d918b07561fb4e032931843
+Homepage: https://jmvalin.ca/demo/rnnoise/
+Description: RNN-based noise suppression
+
+Package: librnnoise-static
+Version: 0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1472
+Depends: librnnoise (= 0.2-1)
+Filename: pool/main/libr/librnnoise-static/librnnoise-static_0.2-1_aarch64.deb
+Size: 1190612
+MD5sum: c3965c67826bd3dd68f2d389c5a45f7d
+SHA1: fb3ca3b69a6201384bed9aa8e197d37eb51bfe51
+SHA256: 1d5d9c14fa7d070186581a0e5bd848e107822a0eb9ac32da22337f8119fbf24e
+Homepage: https://jmvalin.ca/demo/rnnoise/
+Description: Static libraries for librnnoise
+
+Package: librocksdb
+Version: 8.11.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11352
+Depends: gflags, libc++
+Filename: pool/main/libr/librocksdb/librocksdb_8.11.3-1_aarch64.deb
+Size: 2612224
+MD5sum: e5d5cb7a32b14340528463182bf7a96a
+SHA1: c43b364a10ddb5c701359306ca3c4fa6379c3216
+SHA256: 48ab92f48b478fd17345e5990306138eab37c2a7f96e7b8284a185a7342d32c6
+Homepage: https://rocksdb.org/
+Description: A persistent key-value store for flash and RAM storage
+
+Package: librocksdb-static
+Version: 8.11.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31820
+Depends: librocksdb (= 8.11.3-1)
+Filename: pool/main/libr/librocksdb-static/librocksdb-static_8.11.3-1_aarch64.deb
+Size: 3676864
+MD5sum: bf9909e1d3d0707693226e50d92e5b2c
+SHA1: 825228c4b6aca6def6af6e61cf2fee2dce9371cc
+SHA256: 8b07564275426b1627151304fbff639138df37c96daf3631aa421efced432316
+Homepage: https://rocksdb.org/
+Description: Static libraries for librocksdb
+
 Package: librsvg
 Version: 2.61.1
 Architecture: aarch64
@@ -18494,6 +18734,20 @@ SHA1: 61e10001544b90fecaaaa2e7d6bf3848b0bfea88
 SHA256: b7931cc9e006098f51d58607406c8ab94bc5f7a3743b4b29086d3f73244800f7
 Homepage: https://github.com/librsync/librsync
 Description: Remote delta-compression library
+
+Package: librtmidi
+Version: 5.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: libc++
+Filename: pool/main/libr/librtmidi/librtmidi_5.0.0-3_aarch64.deb
+Size: 34216
+MD5sum: 19eb95aa30bd2acca3801342dcbfcbf5
+SHA1: 37658ffb2657c2c19bc29bd90a04bf470dab90ef
+SHA256: 31862ad5dd0041563b61f981fc8acc97d6eb102b47c8e031402c72755dbc21e7
+Homepage: https://www.music.mcgill.ca/~gary/rtmidi/
+Description: A set of C++ classes that provides a common API for realtime MIDI input/output
 
 Package: librttopo
 Version: 1.1.0-4
@@ -18577,6 +18831,64 @@ SHA1: fcf392797486db39607c86de6207ad5976f4aba6
 SHA256: 6fdb5c6c61f64c053b1ef832378b163dd9704ea059e22ea59b37cfbb0786fbb5
 Homepage: https://www.cyrusimap.org/sasl/
 Description: Static libraries for libsasl
+
+Package: libsass
+Version: 3.6.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2664
+Depends: libc++
+Filename: pool/main/libs/libsass/libsass_3.6.6-1_aarch64.deb
+Size: 527836
+MD5sum: 5510f219ba4295cba07ab25c68b4b265
+SHA1: e33be2d55979f9d525c1b56184ebd225ec54c2eb
+SHA256: 7823123b396a7207fe05a99a858188d9d91d806950166868f1b8e33ac50c5f32
+Homepage: https://github.com/sass/libsass
+Description: Sass compiler written in C++
+
+Package: libsass-static
+Version: 3.6.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10424
+Depends: libsass (= 3.6.6-1)
+Filename: pool/main/libs/libsass-static/libsass-static_3.6.6-1_aarch64.deb
+Size: 969480
+MD5sum: 35319f359fa7f95ab3aac20fb9ff6982
+SHA1: 9e892cb2ddccddb16e07baeb4194d4e019a58281
+SHA256: 309a59c0744cfba196db3e5c3a1c9c9c47130a701b98be7b3c9e745b72cd0066
+Homepage: https://github.com/sass/libsass
+Description: Static libraries for libsass
+
+Package: libsearpc
+Version: 1:3.2.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: glib, libjansson, python
+Breaks: libsearpc-dev
+Replaces: libsearpc-dev
+Filename: pool/main/libs/libsearpc/libsearpc_1+3.2.0-7_aarch64.deb
+Size: 28076
+MD5sum: 1d77a2c94cb0faec78a4d82bf31f3b51
+SHA1: 7638a07a7e3eb09c8eb0c59cb1115a2998d218e5
+SHA256: 5b85e95b3dd1e570a042196e4a784eee08172e61c6e65566e35db66f07d5bedc
+Homepage: https://github.com/haiwen/libsearpc
+Description: A simple C language RPC framework (mainly for seafile)
+
+Package: libsearpc-static
+Version: 1:3.2.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libsearpc (= 1:3.2.0-7)
+Filename: pool/main/libs/libsearpc-static/libsearpc-static_1+3.2.0-7_aarch64.deb
+Size: 13696
+MD5sum: 46833c7dd25801872b23293de3ae760d
+SHA1: 29d62c9e3c19bb6d6c580875d9cecfa8390a45c8
+SHA256: e4804935924bf6c84ec53b77b543e0ce3fb642f9d20e2b4d0ff85bb57937d6d1
+Homepage: https://github.com/haiwen/libsearpc
+Description: Static libraries for libsearpc
 
 Package: libsecp256k1
 Version: 1:0.7.0-2
@@ -20405,6 +20717,20 @@ SHA256: ed0d471c0aa296cc45d9e64c0842c7ef95261bd586cb8600504e00923607260b
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: LibYAML is a YAML 1.1 parser and emitter written in C
 
+Package: libyaml-cpp
+Version: 0.8.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 612
+Depends: libc++
+Filename: pool/main/liby/libyaml-cpp/libyaml-cpp_0.8.0-1_aarch64.deb
+Size: 109656
+MD5sum: 247222adda2fe8a4383175041bda42df
+SHA1: c0d1204e934efbe95a2326128b4e0096883035fa
+SHA256: f80a3d56531c430d607980acf92e4e6628ba017cf4608e4763f221121dfd7d8b
+Homepage: https://github.com/jbeder/yaml-cpp
+Description: A YAML parser and emitter in C++ matching the YAML 1.2 spec
+
 Package: libyaml-static
 Version: 0.2.5-5
 Architecture: aarch64
@@ -22175,6 +22501,20 @@ SHA256: d9cf696b5af59a80941b3093dbbe1f8f511ab52306d14458391763adc3676ed4
 Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
 Description: Helper tool used when compiling applications and libraries
 
+Package: plutolang
+Version: 0.11.3
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 1920
+Depends: readline, libpluto (= 0.11.3)
+Filename: pool/main/p/plutolang/plutolang_0.11.3_aarch64.deb
+Size: 583240
+MD5sum: bb9fbfd09b4c35c57424e6b8783f7321
+SHA1: d2dd06c149380bb1999426b49909c084d7e8ae63
+SHA256: c42d47233b7bd99d983802e190cc85560f39204afb120d023d17888f50130a25
+Homepage: https://plutolang.github.io/
+Description: A superset of Lua 5.4 with a focus on general-purpose programming.
+
 Package: poppler
 Version: 24.05.0-3
 Architecture: aarch64
@@ -22708,6 +23048,20 @@ SHA1: 6dc773b18bc32866639ba88e45812142f687d3d0
 SHA256: 64ff3a060a5981a91c6c51f7318c0a45e67e76eab0563f9d03818a90d7a27975
 Homepage: https://github.com/rhash/RHash
 Description: Static libraries for rhash
+
+Package: roqet
+Version: 0.9.33-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: librasqal (= 0.9.33-4)
+Filename: pool/main/r/roqet/roqet_0.9.33-4_aarch64.deb
+Size: 14652
+MD5sum: 117c5bd40dfffee256db46e389fe8c7c
+SHA1: 152f634e4f6f41f31db3607d6a25aee1308c6465
+SHA256: 26c80d02c7d77b73d572b1ca264aa2180b5e6e9796682d7f857202dc8d6ff0d0
+Homepage: https://librdf.org/rasqal/
+Description: Standalone command line RDF query utility program
 
 Package: rubberband
 Version: 4.0.0-1
