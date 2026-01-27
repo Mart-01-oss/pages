@@ -9821,6 +9821,20 @@ SHA256: f14cbd7786789e3c05e84de99be111f79ff9a8882d04ca89018ea832cfedd6b9
 Homepage: https://rosettea.github.io/Hilbish/
 Description: The Moon-powered shell! A comfy and extensible shell for Lua fans!
 
+Package: hnterm
+Version: 1.0.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: libcurl, libimtui (= 1.0.5-2)
+Filename: pool/main/h/hnterm/hnterm_1.0.5-2_aarch64.deb
+Size: 34008
+MD5sum: bd69f02481a67cbfe6adb3e4fb767303
+SHA1: 3fbddd2ec2122965d1ab999536f691d9f09738be
+SHA256: 0d9ca50ebea0038e5b41aada109c6531f63660c55530d2a2ed11402e7c96bf54
+Homepage: https://github.com/ggerganov/imtui
+Description: A simple tool to browse Hacker News in the terminal
+
 Package: hoedown
 Version: 3.0.7-4
 Architecture: aarch64
@@ -10837,6 +10851,20 @@ SHA256: 55a938efde095ca50b67902e7c39e2cf07c66bd6ef4a334a6a3a5d6074e78c9d
 Homepage: https://github.com/skylot/jadx
 Description: Dex to Java decompiler GUI
 
+Package: janet
+Version: 1.39.1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 756
+Depends: libjanet (= 1.39.1)
+Filename: pool/main/j/janet/janet_1.39.1_aarch64.deb
+Size: 244288
+MD5sum: 96fc2fb1a7e824f76725bc352cf66e6e
+SHA1: f507f9124e29cf33e114ba0ea2fa2143e618963b
+SHA256: b16487a210ea99a57f0a125fbae6680a906f169bf324c245e4c2ba4588dc104a
+Homepage: https://janet-lang.org
+Description: Janet is a dialect of Lisp intended for embedding into programs and such
+
 Package: jbig2dec
 Version: 0.20-1
 Architecture: aarch64
@@ -11395,6 +11423,20 @@ SHA256: 45152d59c0322a396bdd014599c3e8631207d28afa68b2348d56333801d2cdf4
 Homepage: https://zeroflux.org/projects/knock
 Description: A port-knocking daemon
 
+Package: knot-utils
+Version: 3.2.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: libedit, libidn2, libnghttp2, resolv-conf, libknot (= 3.2.4-2)
+Filename: pool/main/k/knot-utils/knot-utils_3.2.4-2_aarch64.deb
+Size: 88808
+MD5sum: 84bb43545effec7e87537a9b354fd6b3
+SHA1: 58be527a631b0655e54784256e6ff1e43c054fec
+SHA256: 4e26760d6ff63f3c529ae03f6232fc6bce645da5268749033032998e2d17dadd
+Homepage: https://www.knot-dns.cz/
+Description: Knot DNS utilities
+
 Package: kona
 Version: 20211225-1
 Architecture: aarch64
@@ -11565,6 +11607,20 @@ SHA1: ac1a6288c44b4626e13318ed3354884de7d8e2ef
 SHA256: d7c7dcccf538761d8aed05bc4ac1e535eb1e7652ec3e0294555a5a8d2ec54c00
 Homepage: https://pcal.sourceforge.net/
 Description: A multi-platform program which generates PostScript lunar calendars in a yearly format
+
+Package: ldc
+Version: 1.30.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132148
+Depends: binutils-bin, binutils-is-llvm | binutils, clang, libc++, libcurl, zlib
+Filename: pool/main/l/ldc/ldc_1.30.0-2_aarch64.deb
+Size: 22964052
+MD5sum: 460e9e28380a06090563abc0d728e443
+SHA1: 9461e088adee0d4585d171868ead74d7baaab984
+SHA256: 02c1a283ab6566391efb4aedd7ea1564b7fabd7bd9d7cf9200e0556093e63c04
+Homepage: https://github.com/ldc-developers/ldc
+Description: D programming language compiler, built with LLVM
 
 Package: ldd
 Version: 0.3
@@ -15278,6 +15334,76 @@ SHA256: 7a930ac621d2752fc714621beff15332d285cf6d4c732a2809cc48cddb3d2e21
 Homepage: https://pngquant.org/lib/
 Description: Static libraries for libimagequant
 
+Package: libimobiledevice
+Version: 1.3.0-p20250228-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1084
+Depends: libimobiledevice-glue, libplist, libtatsu, libusbmuxd, openssl
+Filename: pool/main/libi/libimobiledevice/libimobiledevice_1.3.0-p20250228-1_aarch64.deb
+Size: 218552
+MD5sum: 5ae4740b6b0fe0e74bcbd52cf4e6312b
+SHA1: 093a9e536aef08253c28f3b40f381a1e23598d89
+SHA256: 574475cadc75b46cbda42a046eec078357663613a7c32d502ab06c9f2185428b
+Homepage: https://libimobiledevice.org/
+Description: A library to communicate with services on iOS devices using native protocols
+
+Package: libimobiledevice-glue
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: libplist
+Filename: pool/main/libi/libimobiledevice-glue/libimobiledevice-glue_1.3.2-1_aarch64.deb
+Size: 28192
+MD5sum: 7ec1ef99e24b27d0ef255cda04683c76
+SHA1: 44ea309f7e5e6d3af8369a92968dbfa016ce37c1
+SHA256: 69e10838e2e9fe0ed3576b4345e106b44ea8edde6709345f2b4efbf07695ab58
+Homepage: https://libimobiledevice.org/
+Description: Library with common code used by the libraries and tools around the libimobiledevice project
+
+Package: libimobiledevice-glue-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libimobiledevice-glue (= 1.3.2-1)
+Filename: pool/main/libi/libimobiledevice-glue-static/libimobiledevice-glue-static_1.3.2-1_aarch64.deb
+Size: 28120
+MD5sum: 08fb56d2451154c3349ed1c3186a754b
+SHA1: c6677ae42df3fa7ec410a26c518314b65967c02a
+SHA256: 1046e58d9f93887a8510f798e6daf22e1047536f1cf70f61b78ae543b7d17773
+Homepage: https://libimobiledevice.org/
+Description: Static libraries for libimobiledevice-glue
+
+Package: libimobiledevice-static
+Version: 1.3.0-p20250228-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 500
+Depends: libimobiledevice (= 1.3.0-p20250228-1)
+Filename: pool/main/libi/libimobiledevice-static/libimobiledevice-static_1.3.0-p20250228-1_aarch64.deb
+Size: 116800
+MD5sum: 8ce0218753181f3b00d6d4430fdb760d
+SHA1: 6fdec8154331bf4ab1d7b47dc84897b55e72245b
+SHA256: 5b8a804aae6da7165ebab14dfd0127fc3c543c4f3f14a7edebefd8bd9da28813
+Homepage: https://libimobiledevice.org/
+Description: Static libraries for libimobiledevice
+
+Package: libimtui
+Version: 1.0.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1024
+Depends: libc++, ncurses
+Filename: pool/main/libi/libimtui/libimtui_1.0.5-2_aarch64.deb
+Size: 316856
+MD5sum: c93732dc007f73b064f07d356cc399fa
+SHA1: 278d2057cca5b2a265051290e80b63dfdea97351
+SHA256: d323a2fe1ae756f7495a8772849db1399b9ae3416c7edac07fc569bc8b710ce1
+Homepage: https://github.com/ggerganov/imtui
+Description: An immediate mode text-based user interface library
+
 Package: libinih
 Version: 62
 Architecture: aarch64
@@ -15319,6 +15445,33 @@ SHA256: bdd35751e77d6b3a3fb4ee19a18f9cd6eddb895d818195b6315f8ac27737eccf
 Homepage: https://github.com/ndevilla/iniparser
 Description: Static libraries for libiniparser
 
+Package: libiodbc
+Version: 3.52.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1348
+Filename: pool/main/libi/libiodbc/libiodbc_3.52.16-1_aarch64.deb
+Size: 194384
+MD5sum: fad449e1200bd68c3521d43db3a6dcdb
+SHA1: 34abf09da8995418dc5d1cb387ae3a7cf9e9f6fb
+SHA256: 153e9b4ccb0102d619d33480eceb9084c71f66933f59b8d9cd84d4c09c1e0c10
+Homepage: https://www.iodbc.org/
+Description: Independent Open DataBase Connectivity for Linux, MacOS X and Unix systems
+
+Package: libiodbc-static
+Version: 3.52.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 916
+Depends: libiodbc (= 3.52.16-1)
+Filename: pool/main/libi/libiodbc-static/libiodbc-static_3.52.16-1_aarch64.deb
+Size: 138620
+MD5sum: 5602fc2acac284a8bf95f1418a6eeb4f
+SHA1: de977411ef0bf8db4c30884a35f0f8a60bc5f776
+SHA256: 2a7d4729cde406b4436882f2a226cd3904582777325a02fb43670c7110aafc4d
+Homepage: https://www.iodbc.org/
+Description: Static libraries for libiodbc
+
 Package: libisl
 Version: 0.26-1
 Architecture: aarch64
@@ -15348,6 +15501,95 @@ SHA1: 37499605887751fa3ac227d746b27f68f20bba32
 SHA256: 7f9af53aa880913394279430f14fc5f02ae0d1de289b1a3acdc3421ef780241d
 Homepage: https://libisl.sourceforge.io/
 Description: Static libraries for libisl
+
+Package: libisoburn
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1972
+Depends: libburn, libisofs, readline
+Conflicts: xorriso
+Breaks: libisoburn-dev
+Replaces: libisoburn-dev
+Filename: pool/main/libi/libisoburn/libisoburn_1.5.6-1_aarch64.deb
+Size: 627900
+MD5sum: 0feaf1366da04c14d6837c72a6f6394b
+SHA1: f2e75b9a918a901e2920c4e2a8e54ea21f13208d
+SHA256: fd75545d156c599080ef4e8862f5d4929b9dd8b7979bd01be3610987070d69cc
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Frontend for libraries libburn and libisofs
+
+Package: libisoburn-static
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5144
+Depends: libisoburn (= 1.5.6-1)
+Filename: pool/main/libi/libisoburn-static/libisoburn-static_1.5.6-1_aarch64.deb
+Size: 982340
+MD5sum: d4843a0d97246f8bc6a8823282b33a1d
+SHA1: d7ec2b3b885fa7991b2fe778c5bf04ef8477d5aa
+SHA256: dab26247d6670d05dc6f5c8c6e6d5b4cdcef44a930b91ff119c7df96f4e356a4
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Static libraries for libisoburn
+
+Package: libisofs
+Version: 1.5.6.pl01-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Depends: libiconv, zlib
+Breaks: libisofs-dev
+Replaces: libisofs-dev
+Filename: pool/main/libi/libisofs/libisofs_1.5.6.pl01-1_aarch64.deb
+Size: 228128
+MD5sum: 21cecc5373e28e4dd415489b5d7728b6
+SHA1: c4330e82292cc169cb6e245fb0b897b5fe85b500
+SHA256: 23e26a9c2312aa11845b29d2f93507936bb3a99d4fe2d40f5c338388559cf2a2
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Library to pack up hard disk files and directories into a ISO 9660 disk image
+
+Package: libisofs-static
+Version: 1.5.6.pl01-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2920
+Depends: libisofs (= 1.5.6.pl01-1)
+Filename: pool/main/libi/libisofs-static/libisofs-static_1.5.6.pl01-1_aarch64.deb
+Size: 602684
+MD5sum: f779ffb62efc05da6b65fe4e48f679d7
+SHA1: 4c9335ae4bb119260368c09da41772603dede886
+SHA256: 4cdcdf5bfe62e18e4b99cfa94d9fc265dd282ffc6d49520844d3615d541c740f
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Static libraries for libisofs
+
+Package: libjanet
+Version: 1.39.1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 928
+Depends: libandroid-spawn
+Filename: pool/main/libj/libjanet/libjanet_1.39.1_aarch64.deb
+Size: 273072
+MD5sum: fe4e81ffc1fa7452b5bb26dd6e394104
+SHA1: fe428c484ee46fa636f58417aae93b5bc5a43f59
+SHA256: d6b831804aed2655ea60da941a4df808afd1c4be3df3b8f961461d0591d27688
+Homepage: https://janet-lang.org
+Description: Development library for Janet
+
+Package: libjanet-static
+Version: 1.39.1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 1056
+Depends: libjanet (= 1.39.1)
+Filename: pool/main/libj/libjanet-static/libjanet-static_1.39.1_aarch64.deb
+Size: 268616
+MD5sum: c5ec7a0189c9c5bd4a949825e1313533
+SHA1: 128cf41e06879d90038a58cc91893c2efb935dd4
+SHA256: 696a2b242792772c07fa43224036a93aa0a9dbe7e230eb893012bed7e536cd2c
+Homepage: https://janet-lang.org
+Description: Static libraries for libjanet
 
 Package: libjansi
 Version: 2.4.2-1
@@ -15507,6 +15749,34 @@ SHA256: cec9fcab02b61d9df12b4d5e230d185ba7abb5235e0c3a01955b8ccbfee4601b
 Homepage: https://github.com/kiwix/libkiwix
 Description: A library that contains a lot of things used by other kiwix programs
 
+Package: libknot
+Version: 3.2.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1160
+Depends: libgnutls, liblmdb
+Filename: pool/main/libk/libknot/libknot_3.2.4-2_aarch64.deb
+Size: 243600
+MD5sum: 3f56bae8ee4ba323e373965b9f3e6d63
+SHA1: 1b8b56dbc44973b3bd9fdb1d54730778880d775b
+SHA256: fcfef0cb1c425a6fde48e0b77ce8c543c98e8f39a4a268927fc5308ffb4ef045
+Homepage: https://www.knot-dns.cz/
+Description: Knot DNS libraries
+
+Package: libknot-static
+Version: 3.2.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1072
+Depends: libknot (= 3.2.4-2)
+Filename: pool/main/libk/libknot-static/libknot-static_3.2.4-2_aarch64.deb
+Size: 223556
+MD5sum: c0c51ebe04f03a285d8ad5f227b8f829
+SHA1: f56d621eb33c4712dae7df9efad263bc1fb14491
+SHA256: 335079a097ec04d23ff41d173b43aa7b2cd0d64a8703c95d3414be24a14eaf00
+Homepage: https://www.knot-dns.cz/
+Description: Static libraries for libknot
+
 Package: libkokkos
 Version: 4.7.01
 Architecture: aarch64
@@ -15550,6 +15820,62 @@ SHA1: 22243ea98023c6895a76b18c6be46e05dbd54a88
 SHA256: 2b427aeb22421adcf4ace7292eef0a83be7eb49e6d4a293496ca573673419e3a
 Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
+
+Package: liblightning
+Version: 2.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: zlib
+Filename: pool/main/libl/liblightning/liblightning_2.2.3-1_aarch64.deb
+Size: 75316
+MD5sum: f123fc6b87fc235778334f0576e635ff
+SHA1: 67f03f39ebe50a5ac3e40c44d62bb87766cb89b0
+SHA256: e5f5431849fe8d8d7a7214b7c33bab38108aa9218ba087066080b68fcc5ddb98
+Homepage: https://www.gnu.org/software/lightning/
+Description: A library to aid in making portable programs that compile assembly code at run time
+
+Package: liblightning-static
+Version: 2.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: liblightning (= 2.2.3-1)
+Filename: pool/main/libl/liblightning-static/liblightning-static_2.2.3-1_aarch64.deb
+Size: 48548
+MD5sum: 00c5e0b6d91763bca9b4ad0638822c8d
+SHA1: 5160e8e861b3d3e984657894902a4b82e594df9b
+SHA256: 867a04fc3f3555d7338ea2945d2171267ac197220c0e30a86c0be786547c4026
+Homepage: https://www.gnu.org/software/lightning/
+Description: Static libraries for liblightning
+
+Package: libliquid-dsp
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1484
+Depends: fftw
+Filename: pool/main/libl/libliquid-dsp/libliquid-dsp_1.7.0-1_aarch64.deb
+Size: 316444
+MD5sum: d25b07b12e80262a545f29563f7d4c6b
+SHA1: 84674422d8459a0961d7cc8bc1c660a4a58fef70
+SHA256: f34abd65ed8ff69a995e24f3e5cd33ddeff85be70fbc72ae870b7f36d99c8b77
+Homepage: https://liquidsdr.org/
+Description: Software-defined radio digital signal processing library
+
+Package: libliquid-dsp-static
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1644
+Depends: libliquid-dsp (= 1.7.0-1)
+Filename: pool/main/libl/libliquid-dsp-static/libliquid-dsp-static_1.7.0-1_aarch64.deb
+Size: 285768
+MD5sum: 73656c313b54503ecb0173f0c1591927
+SHA1: 4f3cd3ab85e68a7f013deeb625b8370da7b5ec81
+SHA256: 40ef7c9ef9b2473403c0b9f949fb76e64f8af360b7f9ec3229b73104c73ffade
+Homepage: https://liquidsdr.org/
+Description: Static libraries for libliquid-dsp
 
 Package: libllvm
 Version: 20.1.8-3
@@ -15608,6 +15934,75 @@ SHA1: f0306021aa1b7e54357e14122579bf366fa6d26d
 SHA256: c302a9120d39fb8f50daeb3fce0b4490e7ae247e3c03c20bf750ec3b7e2a0d05
 Homepage: https://symas.com/lmdb/
 Description: Static libraries for liblmdb
+
+Package: liblo
+Version: 0.32-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 300
+Filename: pool/main/libl/liblo/liblo_0.32-1_aarch64.deb
+Size: 52100
+MD5sum: 21a317cb3f20a508ba447f1b7b85cceb
+SHA1: aa890c2ba252e5add6eb614a133a9720970d64b7
+SHA256: 67f690526c6aaf296de73d17c7bf10a77165a63bcab020abb7a4fcd4ee295e64
+Homepage: https://liblo.sourceforge.net/
+Description: A lightweight library that provides an easy to use implementation of the OSC protocol
+
+Package: liblo-static
+Version: 0.32-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: liblo (= 0.32-1)
+Filename: pool/main/libl/liblo-static/liblo-static_0.32-1_aarch64.deb
+Size: 26344
+MD5sum: 3289fa502ef873d298b57cda01b7eda0
+SHA1: b13e689c8c6d0e1d707712c7593cba9529f5b813
+SHA256: 966f21c75ce9bb98edaab1a02474069a6164440c9efe170f41ef8265a8edd176
+Homepage: https://liblo.sourceforge.net/
+Description: Static libraries for liblo
+
+Package: liblog4c
+Version: 1.2.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: libexpat
+Filename: pool/main/libl/liblog4c/liblog4c_1.2.4-2_aarch64.deb
+Size: 36876
+MD5sum: 02d21c745e949ca051706d6c3d2d0109
+SHA1: 412c816772571e8bd2cebb024ff75443dc2f4da6
+SHA256: a35922abf6dd4125d745bc062ae735271239d60538d3162533ddb7055f9e6cbe
+Homepage: https://log4c.sourceforge.net/
+Description: A C library for flexible logging to files, syslog and other destinations
+
+Package: liblog4c-static
+Version: 1.2.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: liblog4c (= 1.2.4-2)
+Filename: pool/main/libl/liblog4c-static/liblog4c-static_1.2.4-2_aarch64.deb
+Size: 27892
+MD5sum: 8bf2a76310de3b503c435e2476bd25d6
+SHA1: 8a234489c0f82959ec4ea311731eaf3a88c03b11
+SHA256: 961feed7cac749790edd7b2f4ccb1588d70b203b59c0547f24dc5afbd719a564
+Homepage: https://log4c.sourceforge.net/
+Description: Static libraries for liblog4c
+
+Package: liblog4cxx
+Version: 1.0.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3100
+Depends: apr, apr-util, libc++
+Filename: pool/main/libl/liblog4cxx/liblog4cxx_1.0.0-2_aarch64.deb
+Size: 474320
+MD5sum: a33be40885af978b596fa3822b01d1a7
+SHA1: 3d10450774dababadb1fbf1858dcbe6962777e6f
+SHA256: 37a59e1b6fd82f029c245a88087da50491bb1e71673b1d7a445a7b0ac34a1b3e
+Homepage: https://logging.apache.org/log4cxx/latest_stable/index.html
+Description: A logging framework for C++ patterned after Apache log4j
 
 Package: liblqr
 Version: 0.4.3-1
@@ -16711,6 +17106,34 @@ SHA256: 0f8d9d24e966caaa4a4068e757321a61e0a8ee6abb78254ad022c7ac9996cd07
 Homepage: http://libplacebo.org/
 Description: Reusable library for GPU-accelerated video/image rendering
 
+Package: libplist
+Version: 2.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 436
+Depends: libc++
+Filename: pool/main/libp/libplist/libplist_2.7.0-1_aarch64.deb
+Size: 84044
+MD5sum: 2c90fcae034a25677a5b6cf6e8f943b0
+SHA1: a0ba51f9f05aa5afc8c2b6df2e8cd54556c575ae
+SHA256: 75f4d82d935e5ca20f8d7c2e34239a9881d39d5f6b6f0b470815b74c5ee877cd
+Homepage: https://libimobiledevice.org
+Description: A small portable C library to handle Apple Property List files in binary or XML format
+
+Package: libplist-static
+Version: 2.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 376
+Depends: libplist (= 2.7.0-1)
+Filename: pool/main/libp/libplist-static/libplist-static_2.7.0-1_aarch64.deb
+Size: 62040
+MD5sum: 7da783c1e8ee6890b3e3537be8dc4a7e
+SHA1: a91369d979942dc0ba44af5f9351108d98ed9c7f
+SHA256: 7140a7a31d3bf9ae8834749e82669e32faab675fd806f82dae44e000267f3529
+Homepage: https://libimobiledevice.org
+Description: Static libraries for libplist
+
 Package: libpng
 Version: 1.6.50-1
 Architecture: aarch64
@@ -17568,6 +17991,34 @@ SHA256: c9f78d09aa2db35c4d6775f3af4d834c1e37c542b8bdb95a22ac98f0c092a49b
 Homepage: https://talloc.samba.org/talloc/doc/html/index.html
 Description: Static libraries for libtalloc
 
+Package: libtatsu
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libcurl (>= 7.0), libplist
+Filename: pool/main/libt/libtatsu/libtatsu_1.0.5-1_aarch64.deb
+Size: 14900
+MD5sum: f736907c9f3404dfb535c44b2e05a312
+SHA1: 96e68745aa27ba1e9b35b243696efbcd5401fa67
+SHA256: 3479fb02c264abdfd351b1321a49b2d8f4663e7bd70a7118de69875a48f8cfe9
+Homepage: https://libimobiledevice.org/
+Description: Library handling the communication with Apple's Tatsu Signing Server (TSS)
+
+Package: libtatsu-static
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libtatsu (= 1.0.5-1)
+Filename: pool/main/libt/libtatsu-static/libtatsu-static_1.0.5-1_aarch64.deb
+Size: 14888
+MD5sum: 38e479a6ea530135d598d1850ee2957a
+SHA1: 2718a4554b4d37ad3f05c09bd411c3446c68e94b
+SHA256: 9b60bddc96d5a9f99cde6e5745910226a860d2e00e1c78d2381f90cc6303b0ff
+Homepage: https://libimobiledevice.org/
+Description: Static libraries for libtatsu
+
 Package: libtbb
 Version: 2022.2.0-2
 Architecture: aarch64
@@ -17962,6 +18413,34 @@ SHA1: 99a607c25fd3fab14bd0e20a678646dd64533554
 SHA256: 94ca22b1f6055a0276f6cad094c5b78fcc84d46d08ad0a843061df01b56c9acd
 Homepage: https://libusb.info/
 Description: Static libraries for libusb
+
+Package: libusbmuxd
+Version: 2.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libimobiledevice-glue, libplist
+Filename: pool/main/libu/libusbmuxd/libusbmuxd_2.1.1-1_aarch64.deb
+Size: 22536
+MD5sum: d88852622f6c57da9c4de68230181a88
+SHA1: ace1a6b82ad9d51137399c9d2bd841d2d58732dd
+SHA256: 155c4f68de0cdd2c826ead6c7f9e6ba532890c1a000a36a0c60d02e3ce8f164a
+Homepage: https://libimobiledevice.org
+Description: A client library for applications to handle usbmux protocol connections with iOS devices
+
+Package: libusbmuxd-static
+Version: 2.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: libusbmuxd (= 2.1.1-1)
+Filename: pool/main/libu/libusbmuxd-static/libusbmuxd-static_2.1.1-1_aarch64.deb
+Size: 12780
+MD5sum: 240a75dd433419eb04cabf0bf02bb164
+SHA1: 7afb5615ae1e75495d4badbeaaa432203349c28e
+SHA256: 4310c68cb7e32f6e3c30e5c8ef4bba42edea4c263a3037eae8276812fc05b2fb
+Homepage: https://libimobiledevice.org
+Description: Static libraries for libusbmuxd
 
 Package: libuuid
 Version: 2.40.2-5
