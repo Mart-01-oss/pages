@@ -1124,6 +1124,90 @@ SHA256: c5df03be478b908d314082de4913ee309ae4b6a95bab2b9e0bf1cb848f3fe829
 Homepage: http://aspell.net
 Description: Static libraries for aspell
 
+Package: aspnetcore-runtime-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 11056
+Depends: dotnet-runtime-8.0
+Filename: pool/main/a/aspnetcore-runtime-8.0/aspnetcore-runtime-8.0_8.0.20_aarch64.deb
+Size: 2848144
+MD5sum: 18aa2a7e1ddb108ecbbccfc86c2e095a
+SHA1: ad8517bb6945e32d87c19aabf7218a0052813126
+SHA256: 08159d7338831644efa7a48b0ed75f4fbd2f766bab5ee2d843e128b66a99bc01
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Runtime
+
+Package: aspnetcore-runtime-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 10852
+Depends: dotnet-runtime-9.0
+Filename: pool/main/a/aspnetcore-runtime-9.0/aspnetcore-runtime-9.0_9.0.9_aarch64.deb
+Size: 2790148
+MD5sum: b37ad1d54289340f11309ee5c9fb95b5
+SHA1: 0e4698f1425d2fdeb7b0b0c796a78392f4e7c824
+SHA256: 9eea758177dcdaeae63e462acbcb8837caf1bc5e06097057bbe9fd35120665ad
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Runtime
+
+Package: aspnetcore-runtime-dbg-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 11396
+Depends: aspnetcore-runtime-8.0
+Filename: pool/main/a/aspnetcore-runtime-dbg-8.0/aspnetcore-runtime-dbg-8.0_8.0.20_aarch64.deb
+Size: 6702436
+MD5sum: bd0d87294bf257a701bc7da6ff194897
+SHA1: e8c4c186c6b916c98a16fa3f087a507b85bf0e34
+SHA256: 47caf6034dd96e746aed17b3a1d0fd2aab2a49042381e029abdf424eb1a4db7b
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Runtime Managed Debug Symbols
+
+Package: aspnetcore-runtime-dbg-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 5628
+Depends: aspnetcore-runtime-9.0
+Filename: pool/main/a/aspnetcore-runtime-dbg-9.0/aspnetcore-runtime-dbg-9.0_9.0.9_aarch64.deb
+Size: 1501068
+MD5sum: 09ff45614f16548827a47dc3f4cdeea9
+SHA1: 0c5eb48ef934de5876bd9827d2226d21af4c6033
+SHA256: 4ff14bf522ab6b859fd8865ea1358a412607df48ccd70b099dffdf70d7f356e5
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Runtime Managed Debug Symbols
+
+Package: aspnetcore-targeting-pack-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 15668
+Depends: dotnet-host
+Filename: pool/main/a/aspnetcore-targeting-pack-8.0/aspnetcore-targeting-pack-8.0_8.0.20_aarch64.deb
+Size: 1741028
+MD5sum: 1f965785eeaa80cbe6e70a60554d9ab0
+SHA1: 7dfc2cdfbe58e8b76d56213a1c414a3b82532437
+SHA256: 6097bf42210a7f583a26492dee62cf8d6de121618fb5b604853ed849300750d6
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 8.0 Targeting Pack
+
+Package: aspnetcore-targeting-pack-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 15748
+Depends: dotnet-host
+Filename: pool/main/a/aspnetcore-targeting-pack-9.0/aspnetcore-targeting-pack-9.0_9.0.9_aarch64.deb
+Size: 1738212
+MD5sum: 946e3c4e39864d436bc46e786f6904f4
+SHA1: 799fbde38f91266c1774dfc9b36a4ac22651c09f
+SHA256: 0e9d139b550f8580358da842524b27b557470558c56b5ff563be552446062d77
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: ASP.NET Core 9.0 Targeting Pack
+
 Package: assimp
 Version: 6.0.2-1
 Architecture: aarch64
@@ -4891,6 +4975,32 @@ SHA256: 78d0f80b4b7d00245d88fdb7613d9ff2a11eb1fa6935ec8986fc3ea56b6018e2
 Homepage: https://github.com/williamh/dotconf
 Description: Static libraries for dotconf
 
+Package: dotnet-apphost-pack-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 3264
+Filename: pool/main/d/dotnet-apphost-pack-8.0/dotnet-apphost-pack-8.0_8.0.20_aarch64.deb
+Size: 455324
+MD5sum: 454ff17ad8bdf95c30411742654b4b5f
+SHA1: 89d746b5215a6c00f0320ce21abbd9ecd671c615
+SHA256: 6b699308acd8de21f52b78a55d1de38257adb4f9fef838593f3e0757dec8551a
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+
+Package: dotnet-apphost-pack-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 3372
+Filename: pool/main/d/dotnet-apphost-pack-9.0/dotnet-apphost-pack-9.0_9.0.9_aarch64.deb
+Size: 470688
+MD5sum: d74772d96c8135bdec51f668a272d658
+SHA1: b0e32d3b52795142c8e1b98906218e030671b47f
+SHA256: 443907a40f5eeab4c917b8d7982fb895f933b5eaa21197ddb1fa564df0cfc498
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+
 Package: dotnet-host
 Version: 9.0-2
 Architecture: aarch64
@@ -4904,6 +5014,260 @@ SHA1: 51335adccd46dbcb361c2f5bac8ed48b867ba20f
 SHA256: d875ea2cf5d8669138edd940c9602ffea71aa5c629e808d8b756367abbe7742b
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: A metapackage for .NET Host
+
+Package: dotnet-host-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 884
+Filename: pool/main/d/dotnet-host-8.0/dotnet-host-8.0_8.0.20_aarch64.deb
+Size: 244112
+MD5sum: e4a2df1b56ebf1ed58dde9bf98da1ce5
+SHA1: 5b77215dc1f3c2f1ca6e0e3c7e311f47cb4c7ce7
+SHA256: 27a583459456e6ce36dd48cae690d600200d1397876fbca076509bd519c17c7f
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host
+
+Package: dotnet-host-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 904
+Conflicts: dotnet-host-8.0
+Filename: pool/main/d/dotnet-host-9.0/dotnet-host-9.0_9.0.9_aarch64.deb
+Size: 259128
+MD5sum: 22e05941529d6daf84baa53da09c0ac4
+SHA1: 87616e720dcdfd2454b2d4e21ca36776ce17ed7d
+SHA256: 7266d4d643e43034f7f799bf6f26710a1f9b1e7b153613a50a8e392e6b27a903
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Host
+
+Package: dotnet-hostfxr-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 1000
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-hostfxr-8.0/dotnet-hostfxr-8.0_8.0.20_aarch64.deb
+Size: 249388
+MD5sum: e202bf566cb801aeb70f5917c140ee4a
+SHA1: 4c004f0b15969f94def74e69068f2c0b75389cfa
+SHA256: 7d7483d0bc3df627d992197d9a3cdc4ebcc414230317d2c1df4bea4f11f70b3f
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Host Resolver
+
+Package: dotnet-hostfxr-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 1004
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-hostfxr-9.0/dotnet-hostfxr-9.0_9.0.9_aarch64.deb
+Size: 250680
+MD5sum: ff4dfbd2618799ee308d65a333ff3199
+SHA1: c4bb4a325f3b68c17b2722d2b210fb73a0ea819e
+SHA256: 69b82d8d3fb02cff692bc05b333d86e55172f118d7d0484536d2d119177f205e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Host Resolver
+
+Package: dotnet-runtime-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 32968
+Depends: dotnet-hostfxr-8.0, libicu, openssl, zlib
+Filename: pool/main/d/dotnet-runtime-8.0/dotnet-runtime-8.0_8.0.20_aarch64.deb
+Size: 8150380
+MD5sum: c97e4c5fc06b421912c24a07a88edaec
+SHA1: 738d3fed7e884fa850d0dc95d3697c4325d7dacd
+SHA256: 1b60514a7e656695251d81cf8bb1984704b7687127d74546ba5f41015049a721
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Runtime
+
+Package: dotnet-runtime-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 33660
+Depends: dotnet-hostfxr-9.0, libicu, openssl, zlib
+Filename: pool/main/d/dotnet-runtime-9.0/dotnet-runtime-9.0_9.0.9_aarch64.deb
+Size: 8350716
+MD5sum: 63b2ddf1e0ad8e1801a689409864bd76
+SHA1: 4e7f7f149af7d17a17e5f6e41de44500b50f7bca
+SHA256: 7bb2e6322ea4abc9414cabc49c46ab606750acb950285d653ff910bc0c47336e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Runtime
+
+Package: dotnet-runtime-dbg-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 20936
+Depends: dotnet-runtime-8.0
+Filename: pool/main/d/dotnet-runtime-dbg-8.0/dotnet-runtime-dbg-8.0_8.0.20_aarch64.deb
+Size: 15246468
+MD5sum: b5a4ef3bbd61886e9e8cfdd1114996d7
+SHA1: 8a536fd58e37ef46c7ed9f91bf468dfaea158f22
+SHA256: 407b7c2440989ba902aa7919cd1bca318399518ed75563f6b5fefa669f783fce
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Runtime Managed Debug Symbols
+
+Package: dotnet-runtime-dbg-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 8600
+Depends: dotnet-runtime-9.0
+Filename: pool/main/d/dotnet-runtime-dbg-9.0/dotnet-runtime-dbg-9.0_9.0.9_aarch64.deb
+Size: 2786572
+MD5sum: d66b1683e2ec863c10b14e5dc5c0ea2e
+SHA1: 6f7665cd5a992b5480589631186d3c3b18cafead
+SHA256: dc98e224b49700352c9698c418204398a672da2f50c3d282e9450e0f18c3ec16
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Runtime Managed Debug Symbols
+
+Package: dotnet-sdk-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 208856
+Depends: aspnetcore-runtime-8.0, aspnetcore-targeting-pack-8.0, dotnet-apphost-pack-8.0, dotnet-runtime-8.0, dotnet-targeting-pack-8.0, dotnet-templates-8.0, netstandard-targeting-pack-2.1
+Filename: pool/main/d/dotnet-sdk-8.0/dotnet-sdk-8.0_8.0.20_aarch64.deb
+Size: 45841528
+MD5sum: e672d5cb25999ca1a1b4a05828999a1c
+SHA1: faa3c894399c075c4540892488a0a92bce64ba12
+SHA256: d5cce85425690331f8ba492274e12899d367ffa928111305ef5255ca65f15e1d
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 SDK
+
+Package: dotnet-sdk-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 218468
+Depends: aspnetcore-runtime-9.0, aspnetcore-targeting-pack-9.0, dotnet-apphost-pack-9.0, dotnet-runtime-9.0, dotnet-targeting-pack-9.0, dotnet-templates-9.0, netstandard-targeting-pack-2.1
+Filename: pool/main/d/dotnet-sdk-9.0/dotnet-sdk-9.0_9.0.9_aarch64.deb
+Size: 47452588
+MD5sum: 492a7a7b5ee92a4680b0db3c8f55db4f
+SHA1: 1fc58f1ad5615b07f3cb6537412a5e723e10446a
+SHA256: c84dcd3541e8217d6ef88361d80296c643092c5b6c7f8e6116e30c6e195d58fb
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 SDK
+
+Package: dotnet-sdk-dbg-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 126720
+Depends: dotnet-sdk-8.0
+Filename: pool/main/d/dotnet-sdk-dbg-8.0/dotnet-sdk-dbg-8.0_8.0.20_aarch64.deb
+Size: 82363492
+MD5sum: 5246e571d902010534d817f724095cc9
+SHA1: 0aa3119c2337ed1283266d6dc77b1f3632396cf3
+SHA256: 7e9db3f9b8ee8b0830d199b99892dccf427f0182f0e467b2fc97949a8116b7b9
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 SDK Managed Debug Symbols
+
+Package: dotnet-sdk-dbg-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 47772
+Depends: dotnet-sdk-9.0
+Filename: pool/main/d/dotnet-sdk-dbg-9.0/dotnet-sdk-dbg-9.0_9.0.9_aarch64.deb
+Size: 14429484
+MD5sum: 1ecb014ce25446e9e434c7505ce71111
+SHA1: 7aa47311030f966de028d06cbbe55ce2ddbb0f2c
+SHA256: 4bbe56cf102839897259cf88987c48bcd4cf9af7b6fe89ac1a0e7d595df4a60e
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 SDK Managed Debug Symbols
+
+Package: dotnet-targeting-pack-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 36400
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-targeting-pack-8.0/dotnet-targeting-pack-8.0_8.0.20_aarch64.deb
+Size: 2761596
+MD5sum: 1bfbdb6f62ffb86a8efb7cb231f8751f
+SHA1: abeb67485fe8fc79793917c02f46a687ac0e3595
+SHA256: e905ffe56b3e7a303bdec49f3771f1743c124f8415db0b5b4d33410191675556
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Targeting Pack
+
+Package: dotnet-targeting-pack-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 38560
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-targeting-pack-9.0/dotnet-targeting-pack-9.0_9.0.9_aarch64.deb
+Size: 2868628
+MD5sum: 885c6405443006aefd0c0761f0816f3f
+SHA1: f5220608180a963f45a1034ce6fddb7c3bd38741
+SHA256: c2ccc3ced36734d8130b384f89b4f38db6507a23a18fdbf55dfd231c55034a75
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Targeting Pack
+
+Package: dotnet-templates-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 5884
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-templates-8.0/dotnet-templates-8.0_8.0.20_aarch64.deb
+Size: 2175616
+MD5sum: 992b671bfbe55d1a0d16b630e935c2cc
+SHA1: a0bb58376b7808aa0aaf40b68fe0a31d77e5ec42
+SHA256: ad47028d9df8e4a16ee62c903879bbb7bbf0b51c16cf9891bb9d452a49541738
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0 Templates
+
+Package: dotnet-templates-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 9988
+Depends: dotnet-host
+Filename: pool/main/d/dotnet-templates-9.0/dotnet-templates-9.0_9.0.9_aarch64.deb
+Size: 2718764
+MD5sum: 84cf213a4181deeed82441706af8223a
+SHA1: f93e35281026c309538fe091e3ba78a01de53afa
+SHA256: 2231c1c0ba2ac627d683941be1ea28c6ba85ea71054dbdd871128095bb747980
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0 Templates
+
+Package: dotnet8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 40
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
+Suggests: dotnet-sdk-8.0
+Filename: pool/main/d/dotnet8.0/dotnet8.0_8.0.20_aarch64.deb
+Size: 1532
+MD5sum: 9dd38ae49c52e5b39265e7f48fa83f11
+SHA1: 2677765fc5cd3c986a3685c752246513d329b239
+SHA256: 1a6ec24b4063798e43398b748490ff2d1dc4e359189f00f0fffb9278fc363bf0
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 8.0
+
+Package: dotnet9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 40
+Depends: aspnetcore-runtime-9.0, dotnet-host, dotnet-runtime-9.0
+Suggests: dotnet-sdk-9.0
+Conflicts: dotnet8.0
+Filename: pool/main/d/dotnet9.0/dotnet9.0_9.0.9_aarch64.deb
+Size: 1540
+MD5sum: 04bd985c9ade6eaf6a9833cc0a58b22f
+SHA1: 0e0e5682b029341ad0d4e117a09c67fe168f333b
+SHA256: 2a60533d788f09e8fd1ba507c32cce2a9290e8e4b9287cc9ff33ca88e6a7a515
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: .NET 9.0
 
 Package: double-conversion
 Version: 3.3.1-1
@@ -7461,6 +7825,20 @@ SHA256: 94bc74934886697a6f027f0719d9948918184d792ceeec72c258fbbb338c6f50
 Homepage: https://git-scm.com/
 Description: Fast, scalable, distributed revision control system
 
+Package: git-credential-manager
+Version: 2.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19284
+Depends: dotnet-host, dotnet-runtime-8.0
+Filename: pool/main/g/git-credential-manager/git-credential-manager_2.6.1-2_aarch64.deb
+Size: 5583192
+MD5sum: 61c525f27c87c875b85c9d55bda70b77
+SHA1: 01107b49e79d497286003b695ed8ed3fc4562a07
+SHA256: 4d136096899523d07fff1d1286248b98b1ea51dc8ca687f6b6b5bfcdfdf4150d
+Homepage: https://aka.ms/gcm
+Description: Cross-platform Git credential storage for multiple hosting providers
+
 Package: git-crypt
 Version: 0.7.0-3
 Architecture: aarch64
@@ -9305,6 +9683,164 @@ SHA256: f14cbd7786789e3c05e84de99be111f79ff9a8882d04ca89018ea832cfedd6b9
 Homepage: https://rosettea.github.io/Hilbish/
 Description: The Moon-powered shell! A comfy and extensible shell for Lua fans!
 
+Package: hoedown
+Version: 3.0.7-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 312
+Breaks: hoedown-dev
+Replaces: hoedown-dev
+Filename: pool/main/h/hoedown/hoedown_3.0.7-4_aarch64.deb
+Size: 43592
+MD5sum: 7caaba60efc7139efc1e40870363238c
+SHA1: f2d19695851d4bd07a769f76e9463585396315bb
+SHA256: d70479ab97c2ac6ebc18d814aabad6a4fe7899ecb4a910e053845e92a177ac11
+Homepage: https://github.com/hoedown/hoedown
+Description: Hoedown is a revived fork of Sundown, the Markdown parser based on the original code of the Upskirt library
+
+Package: hoedown-static
+Version: 3.0.7-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 432
+Depends: hoedown (= 3.0.7-4)
+Filename: pool/main/h/hoedown-static/hoedown-static_3.0.7-4_aarch64.deb
+Size: 89536
+MD5sum: e8977c58ced1367891fa0d49eeb2f6d6
+SHA1: fc6b564eda4629ebe9bbfd07c3686ec82a5e6524
+SHA256: cec1dbf5db4e52c6e6c5f277327956671f387223c1aac8e8d5f6f3da9bdd1edd
+Homepage: https://github.com/hoedown/hoedown
+Description: Static libraries for hoedown
+
+Package: hollywood
+Version: 1.22-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2456
+Depends: bmon, byobu, cmatrix, coreutils, dash, gawk, htop, mandoc, tree, util-linux
+Recommends: apg
+Filename: pool/main/h/hollywood/hollywood_1.22-1_all.deb
+Size: 2279744
+MD5sum: 246dbc7e3a34e19d90d9c35f068facf0
+SHA1: 5c57d363350fa892952bcc99045042539f3ee4ac
+SHA256: 246c9d9bf4647a261161033d8e6b5cd93018730b95de37eaf5828ab34bf0dfb7
+Homepage: https://launchpad.net/hollywood
+Description: Fill your console with Hollywood melodrama technobabble
+
+Package: hors
+Version: 0.8.2-3
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 7836
+Filename: pool/main/h/hors/hors_0.8.2-3_aarch64.deb
+Size: 2417980
+MD5sum: 98cc0844d777571f06d3cf71fecddaa7
+SHA1: 82a87058d3333bb23ffb43375ef2700c8542575b
+SHA256: 547ada5a23a0cd1dc49a1355ca9dd927905e0b45f39052def95f6dd6e9a39631
+Homepage: https://github.com/WindSoilder/hors
+Description: Instant coding answers via the command line (howdoi in rust)
+
+Package: hr
+Version: 1.5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Depends: bash
+Filename: pool/main/h/hr/hr_1.5_all.deb
+Size: 2820
+MD5sum: 40c9f634f17df35626e0fde153decf09
+SHA1: 8dc2f5a8f19f57c21c4d80c8e228c56888b299dd
+SHA256: 9cf3fe1b61f069cb615e5ace4a72a96d57604d811e7d80111ee3fe7d1fb910ff
+Homepage: https://github.com/LuRsT/hr
+Description: A horizontal ruler for your terminal
+
+Package: hstr
+Version: 3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: ncurses, readline
+Filename: pool/main/h/hstr/hstr_3.1-1_aarch64.deb
+Size: 21352
+MD5sum: 3d6535f2cc5b5331b9300dceecd37282
+SHA1: f1d67a3280898d47d0a241fc827c67ce1e33539f
+SHA256: dd8d564569c029f2f870552ee5a6644ea98f85b95aa0bd58f9098746182514a9
+Homepage: https://github.com/dvorka/hstr
+Description: Shell history suggest box for bash and zsh
+
+Package: html-xml-utils
+Version: 8.7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4272
+Depends: libcurl, libiconv, libidn2
+Filename: pool/main/h/html-xml-utils/html-xml-utils_8.7_aarch64.deb
+Size: 289924
+MD5sum: 7ead0047df9e3a7585d231c842c4acaa
+SHA1: a7f5c716f9afe4887c519321be471fefb2f3bc8a
+SHA256: 60f9927b91322344d82e461ad79b7bb0f2371b4890242808bf0431aacd4b6d69
+Homepage: https://www.w3.org/Tools/HTML-XML-utils/
+Description: A number of simple utilities for manipulating HTML and XML files
+
+Package: html2text
+Version: 1:2.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: libc++, libiconv
+Filename: pool/main/h/html2text/html2text_1+2.4.0_aarch64.deb
+Size: 74824
+MD5sum: 9861f76b3033b0ef706d3d3e5f5c5c72
+SHA1: b9dbd62f3854e3259ea633070100a62a68f8c3c9
+SHA256: d30c8c3839130f603cf21b09c1c39743d95cf9e46ab11230488cd1de726b9349
+Homepage: http://www.mbayer.de/html2text/
+Description: Utility that converts HTML documents into plain text
+
+Package: htop
+Version: 3.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: libandroid-support, ncurses
+Conflicts: htop-legacy
+Breaks: htop-legacy
+Replaces: htop-legacy
+Filename: pool/main/h/htop/htop_3.4.1-1_aarch64.deb
+Size: 110800
+MD5sum: 866df55fc4be1e17855e4bbe04055ea0
+SHA1: c8bc1b706c5c1d533f1e55708c53ede4bdeeed5f
+SHA256: 534f959c5585489e52f3f1b486f91a52b7172e7e45452ffc7852866515219d7f
+Homepage: https://htop.dev/
+Description: Interactive process viewer for Linux
+
+Package: htslib
+Version: 1.22.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4004
+Depends: libbz2, liblzma, zlib, libdeflate, libcurl
+Filename: pool/main/h/htslib/htslib_1.22.1-1_aarch64.deb
+Size: 643836
+MD5sum: cd5643a581c0531c703e9f3894e614d1
+SHA1: 388b71bc2941d32b6d1d097ecdc7113ec2b9882c
+SHA256: 1ce829249ce07b1049a73331bb0ea2c75d6c2904ce029f72467f0fb2f15fca86
+Homepage: https://github.com/samtools/htslib
+Description: C library for high-throughput sequencing data formats
+
+Package: htslib-static
+Version: 1.22.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1392
+Depends: htslib (= 1.22.1-1)
+Filename: pool/main/h/htslib-static/htslib-static_1.22.1-1_aarch64.deb
+Size: 368792
+MD5sum: 07ab5ae540652d9306e6c4cee1e4bd27
+SHA1: 2bc52779e070f5cff9616a0bf3a9767e63f432c4
+SHA256: b123489b72acfc84b4b7d751870fe89b809e4325e93a5f9dc7c21e27a1f2de58
+Homepage: https://github.com/samtools/htslib
+Description: Static libraries for htslib
+
 Package: hunspell
 Version: 1.7.2-1
 Architecture: aarch64
@@ -10744,6 +11280,33 @@ SHA1: fd860481f6a8a4e66b1a1bdd31fd4f2cda1f8a36
 SHA256: 49c63182975338a28d39b69538e62b76ff1ece36a5ed9de95bbd7d2c4fd8b56a
 Homepage: https://sourceware.org/elfutils/
 Description: Library for debuginfod
+
+Package: libdeflate
+Version: 1.24-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Filename: pool/main/libd/libdeflate/libdeflate_1.24-1_aarch64.deb
+Size: 57816
+MD5sum: 9aee4affc9d55b2da54a090675dafdaa
+SHA1: 853004e54ad35e8c35b2119d6f80ba1bb1e805bc
+SHA256: 807d245b58d8a1fbdf5f44afa1d06f82f80aac227ee37e0a155ebe347d128443
+Homepage: https://github.com/ebiggers/libdeflate
+Description: C library for fast compression and decompression
+
+Package: libdeflate-static
+Version: 1.24-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libdeflate (= 1.24-1)
+Filename: pool/main/libd/libdeflate-static/libdeflate-static_1.24-1_aarch64.deb
+Size: 45496
+MD5sum: 142c8b0f3bcef7690bfdfb9ebf1eb262
+SHA1: 14a4c840e9cf275d3ffe365169a522a2de342af8
+SHA256: 45fb8f0ad5d2c4d1a2e09470b5b258a90e7a5932d8d390b20e18d9e468639bb2
+Homepage: https://github.com/ebiggers/libdeflate
+Description: Static libraries for libdeflate
 
 Package: libdmtx
 Version: 0.7.8-1
@@ -15509,6 +16072,49 @@ SHA256: 68be5923c88f9c16435d1145224e02d5d324f8fd4e4e3e42bc20e8b88659fadd
 Homepage: https://www.unidata.ucar.edu/software/netcdf/
 Description: Static libraries for netcdf-c
 
+Package: netstandard-targeting-pack-2.1
+Version: 9.0-2
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 4
+Depends: netstandard-targeting-pack-2.1-9.0 | netstandard-targeting-pack-2.1-8.0
+Filename: pool/main/n/netstandard-targeting-pack-2.1/netstandard-targeting-pack-2.1_9.0-2_aarch64.deb
+Size: 732
+MD5sum: 8cd2615376914e71801889ab15666264
+SHA1: adbd5bfcb6a302a38942779712fc354f6057e02a
+SHA256: aa2cbf25c2a0cd042e0644d5235cac0b2b3d303cae5b3fea18dccd84995cd572
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: A metapackage for NETStandard.Library 2.1 Targeting Pack
+
+Package: netstandard-targeting-pack-2.1-8.0
+Version: 8.0.20
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 18480
+Depends: dotnet-host
+Filename: pool/main/n/netstandard-targeting-pack-2.1-8.0/netstandard-targeting-pack-2.1-8.0_8.0.20_aarch64.deb
+Size: 1318140
+MD5sum: 897be1135171a4175948a1939b33ea54
+SHA1: b63b328cefdcf5a5a589ed589b75f184254c00de
+SHA256: bad25ea32dcb5f0fa07121d329dcf48c483916e0e36723473d95c02c0cfafb13
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 8.0)
+
+Package: netstandard-targeting-pack-2.1-9.0
+Version: 9.0.9
+Architecture: aarch64
+Maintainer: @truboxl
+Installed-Size: 18480
+Depends: dotnet-host
+Conflicts: netstandard-targeting-pack-2.1-8.0
+Filename: pool/main/n/netstandard-targeting-pack-2.1-9.0/netstandard-targeting-pack-2.1-9.0_9.0.9_aarch64.deb
+Size: 1318112
+MD5sum: 241dfd50a328c9bf45d20f670d38cfef
+SHA1: be0c9e48ac647ce0d1d9f1a42804a2776c4205d5
+SHA256: a3f9fcf436fa10420f2b7598366dab6889c2d8b87997cd9ecc8ef3df125e06fa
+Homepage: https://dotnet.microsoft.com/en-us/
+Description: NETStandard.Library 2.1 Targeting Pack (.NET 9.0)
+
 Package: nettle
 Version: 3.10.2-1
 Architecture: aarch64
@@ -17487,6 +18093,20 @@ SHA1: 9005c1692c578a2293524a5e53814bbb6a5df020
 SHA256: 8ca132577aabd857ee1edd888e5ea9081efacc1e1c8d52e391163b307a011ce5
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
+
+Package: tree
+Version: 2.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libandroid-support
+Filename: pool/main/t/tree/tree_2.2.1-1_aarch64.deb
+Size: 33176
+MD5sum: da353593f1add0986ce3b1a720ff44ff
+SHA1: a4ebb3df69ed97ea433e0a365828a12f3a6f7cf8
+SHA256: c07fdf19ef2c6a67088d9498fc3ef876d5d15154784825ad9e6b3d5922a5e237
+Homepage: http://mama.indstate.edu/users/ice/tree/
+Description: Recursive directory lister producing a depth indented listing of files
 
 Package: tree-sitter
 Version: 0.25.10-1
