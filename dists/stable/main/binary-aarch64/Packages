@@ -10062,6 +10062,88 @@ SHA256: 4ee833ef528a27e728175b19da12088977d2dd699edb29e2bfaacc88a8c443e3
 Homepage: https://github.com/emersion/hydroxide
 Description: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 
+Package: hyperfine
+Version: 1.19.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1268
+Filename: pool/main/h/hyperfine/hyperfine_1.19.0-1_aarch64.deb
+Size: 443408
+MD5sum: e69109a57aa51cf54923fb6cb2344a85
+SHA1: b9b7d070e037949a6dc713bd32eff4ab0a13deae
+SHA256: ca2513bc688b21f05861f6533e5cdfb04e1aedacd4f121cbd28d32efb0dadfb3
+Homepage: https://github.com/sharkdp/hyperfine
+Description: A command-line benchmarking tool
+
+Package: hz
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13668
+Filename: pool/main/h/hz/hz_0.10.1-1_aarch64.deb
+Size: 3529440
+MD5sum: 38436a05159e8a4e6c859e01aec0b857
+SHA1: a7fe1aa11a8ee1573f4fc538da8dbfcff7bae7d3
+SHA256: a3fca5022c215b36eee969761a5397e855f45ef552afd0e8ca1a5a9560d52ac4
+Homepage: https://www.cloudwego.io
+Description: A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices
+
+Package: i2pd
+Version: 2.58.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4964
+Depends: boost, libc++, miniupnpc, openssl, zlib
+Filename: pool/main/i/i2pd/i2pd_2.58.0_aarch64.deb
+Size: 1122300
+MD5sum: 927e0ee276be39b8b93e8371f76ee785
+SHA1: cecb6d7e18f087f57165327307c57d6a11119a56
+SHA256: c1d13419dcdd8c45eb5a8e3ab57bdc681ba4caf6ac4d422a3ef0cb787b4a5854
+Homepage: https://i2pd.website/
+Description: A full-featured C++ implementation of the I2P router
+
+Package: i2pd-static
+Version: 2.58.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27312
+Depends: i2pd (= 2.58.0)
+Filename: pool/main/i/i2pd-static/i2pd-static_2.58.0_aarch64.deb
+Size: 2249140
+MD5sum: 4057024ce1d149ea77116752a573504e
+SHA1: 9a8212e3bc91eb7cfd84e07fb42f2f2cd89f4c8d
+SHA256: 91a45a04a7775d9ee9d0dc4c995739865fa69db10950b6690be9d25962600cfa
+Homepage: https://i2pd.website/
+Description: Static libraries for i2pd
+
+Package: icecast
+Version: 2.4.4-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2256
+Depends: libcurl, libgnutls, libogg, libvorbis, libxml2, libxslt, media-types, openssl
+Filename: pool/main/i/icecast/icecast_2.4.4-8_aarch64.deb
+Size: 1450608
+MD5sum: 141aa3d230b3e7be5bd466400abcccb5
+SHA1: f1802dd4b3bc96e8b33caa8df140d40e3c5a6c44
+SHA256: b084f80403054f1d1cc1fc5a1fd9f89f0cc72c15be83b980eca781f99ee9c495
+Homepage: https://icecast.org
+Description: Icecast is a streaming media (audio/video) server
+
+Package: ices
+Version: 2.0.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libshout
+Filename: pool/main/i/ices/ices_2.0.3-1_aarch64.deb
+Size: 42064
+MD5sum: 4ba2d338fec638e8dc4443044157e2f3
+SHA1: 89081fa6cf01a1db84159af340fd1d1d875c2bb2
+SHA256: 8ca6953dfecd9ac832c22f0aba17eb217d304a96b5b128390381d89b64732712
+Homepage: https://icecast.org/ices/
+Description: IceS is a source client for the Icecast streaming server.
+
 Package: iconv
 Version: 1.18-1
 Architecture: aarch64
@@ -10089,6 +10171,48 @@ SHA1: e618d87a00686763e32e22ce0da7ead1348c4127
 SHA256: fd7a613c1fcf8082305d2f3d85675c6ad1cab34b7f5c1fdf9c97160f884a521a
 Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
+
+Package: id3lib
+Version: 3.8.3-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: libc++, libiconv, zlib
+Filename: pool/main/i/id3lib/id3lib_3.8.3-4_aarch64.deb
+Size: 101816
+MD5sum: f323077b29a2faeeb3c2ba545fbcb418
+SHA1: d6ae37eef8b41bbce9d655dd2b18e12438e08244
+SHA256: 994bb4203787db4c1b079ef2bff59073d368a4c6f2fa0d79d0cbdf476e02f0f3
+Homepage: https://id3lib.sourceforge.net/
+Description: A software library for manipulating ID3v1/v1.1 and ID3v2 tags
+
+Package: id3lib-static
+Version: 3.8.3-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1196
+Depends: id3lib (= 3.8.3-4)
+Filename: pool/main/i/id3lib-static/id3lib-static_3.8.3-4_aarch64.deb
+Size: 132068
+MD5sum: ef20b9a1a8a58666ae2bda99cba6a3ad
+SHA1: 32fe8238ca3c5f98d57e4d33def57d3be229f96d
+SHA256: 4431f9a0ace4e43c9119094815493dcc3b4254dfc294c149a9f859d99b02113e
+Homepage: https://id3lib.sourceforge.net/
+Description: Static libraries for id3lib
+
+Package: id3v2
+Version: 0.1.12-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: id3lib, libc++, zlib
+Filename: pool/main/i/id3v2/id3v2_0.1.12-2_aarch64.deb
+Size: 25912
+MD5sum: e5a88d6d39c4862c1207fd2d43d78a38
+SHA1: 00c89ee58b18c1a3dd0bc539d7dc1d224537b6e6
+SHA256: b30547577a519b6f520c63ddd707c54ffd763aa2204fe0f344ca1f4adc8863a5
+Homepage: https://id3v2.sourceforge.net/
+Description: A command line id3v2 tag editor
 
 Package: imagemagick
 Version: 7.1.2.3
@@ -10136,6 +10260,20 @@ SHA256: 38bca92c0b331be9bd61250169e1424667e36065e2cda1b0fb22a4d890405dcd
 Homepage: https://imath.readthedocs.io/
 Description: Library for vector/matrix and math operations, plus the half type
 
+Package: imgflo
+Version: 0.4.2-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: babl, gegl, glib, json-glib, libpng, libsoup
+Filename: pool/main/i/imgflo/imgflo_0.4.2-9_aarch64.deb
+Size: 40128
+MD5sum: eb4756f58984b7edec442a5586206aec
+SHA1: c8fe2bbd056fc37b2c40ed7585ffbd9625a1287d
+SHA256: 480e5b1936d12a23e7275ab2d933024db6c97c3c3d65bea998d3f90ccf43fe23
+Homepage: https://github.com/imgflo/imgflo
+Description: HTTP image processing server & Flowhub.io compatible runtime
+
 Package: imlib2
 Version: 1.12.5-1
 Architecture: aarch64
@@ -10163,6 +10301,33 @@ SHA1: 09ca48fe98490c6e618a36e3ad8eaaef81bb609f
 SHA256: c0a527ce72fbd4e6841417a0b3ed8b4d7897e0d0ab78e9961bd2e8b12009243b
 Homepage: https://sourceforge.net/projects/enlightenment/
 Description: Static libraries for imlib2
+
+Package: indent
+Version: 2.2.13-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libandroid-support
+Filename: pool/main/i/indent/indent_2.2.13-1_aarch64.deb
+Size: 47748
+MD5sum: f7c5501d2b43f3e1a437a0242272d043
+SHA1: 51acc4281726dd0ab3492f3a178e9f5d7b805d78
+SHA256: 95eb1d7917fc4bc7d886e6c8655679445267fbb853a95b0afcf5246f46182a21
+Homepage: https://www.gnu.org/software/indent/
+Description: C language source code formatting program
+
+Package: influxdb
+Version: 1.8.10-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 162736
+Filename: pool/main/i/influxdb/influxdb_1.8.10-4_aarch64.deb
+Size: 24214604
+MD5sum: 63f674a5df0abb89a9c5c326b36839e6
+SHA1: 43d5baad60dd8333cb48455396df5cb45a30aec2
+SHA256: 285f89abf02dcb98355c3db933e527a281fe67c6b8f8f5718a23324c5df196b2
+Homepage: https://www.influxdata.com/
+Description: An open source time series database with no external dependencies
 
 Package: inotify-tools
 Version: 4.25.9.0
@@ -13738,6 +13903,36 @@ SHA256: f24547809948e2312d472a3afdd25490e83e88ff4ccdb443bba262f2bbde43e0
 Homepage: https://github.com/protobuf-c/protobuf-c
 Description: Static libraries for libprotobuf-c
 
+Package: libpsl
+Version: 0.21.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Depends: libidn2, libunistring
+Breaks: libpsl-dev
+Replaces: libpsl-dev
+Filename: pool/main/libp/libpsl/libpsl_0.21.5-1_aarch64.deb
+Size: 63428
+MD5sum: 284d6ca8d7725c03cccfb75aabbf6869
+SHA1: 1b7515b3abdf906214be45562cdd3800802f9b24
+SHA256: c9d79e822c0403343fc087ff30db05c936c038c37d621ebf936c36561784a9c4
+Homepage: https://github.com/rockdaboot/libpsl
+Description: Public Suffix List library
+
+Package: libpsl-static
+Version: 0.21.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libpsl (= 0.21.5-1)
+Filename: pool/main/libp/libpsl-static/libpsl-static_0.21.5-1_aarch64.deb
+Size: 49864
+MD5sum: 0e89c239191adb060a5d3a52b2f74a28
+SHA1: e26891207e7978cf9550580825c1fccb4c3f0c9b
+SHA256: ca67d71310b61fa3a8f7437725930039cc7ad3b40a96a8401774f63a72505343
+Homepage: https://github.com/rockdaboot/libpsl
+Description: Static libraries for libpsl
+
 Package: libraqm
 Version: 0.10.3
 Architecture: aarch64
@@ -14021,6 +14216,34 @@ SHA256: 615a45feea14cbd31918200f5dee3e2eb1b8b2a09cab2886f378c2c53bdeec9e
 Homepage: https://github.com/bitcoin-core/secp256k1
 Description: Static libraries for libsecp256k1
 
+Package: libshout
+Version: 2.4.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Depends: libogg, libvorbis, libxml2, openssl
+Filename: pool/main/libs/libshout/libshout_2.4.6-2_aarch64.deb
+Size: 56508
+MD5sum: 5ad45da0ecd01c79e1c6338b3dcbeb0f
+SHA1: 8b08515cd0b79fc836cdce79c3c3e7afdf544b7e
+SHA256: d2f9b5b92b04cd501c3d988084dcd301e9c5bbc557a1935be09abad3c2cbb074
+Homepage: https://icecast.org/
+Description: Library which can be used to write a source client like ices.
+
+Package: libshout-static
+Version: 2.4.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Depends: libshout (= 2.4.6-2)
+Filename: pool/main/libs/libshout-static/libshout-static_2.4.6-2_aarch64.deb
+Size: 40356
+MD5sum: 103225e18379c7589c031cd66a7d8052
+SHA1: cffc26a5cd3cebe2e2160357527a1cf530f1386d
+SHA256: c284abfb4d7d1e938ccf238c08a6ce48d2efec96e9e7413e3850fc7a3c47b886
+Homepage: https://icecast.org/
+Description: Static libraries for libshout
+
 Package: libsm
 Version: 1.2.6-1
 Architecture: aarch64
@@ -14122,6 +14345,23 @@ SHA1: 680fae6bef277f2994c4d057aa1606d60730a057
 SHA256: 572af03e013bb698eb0421635d0437e97be792ec21d49ae901ed973857d0ef5e
 Homepage: https://libsodium.org/
 Description: Static libraries for libsodium
+
+Package: libsoup
+Version: 2.74.3-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2616
+Depends: brotli, glib, libpsl, libsqlite, libxml2, zlib
+Recommends: glib-networking
+Breaks: libsoup-dev
+Replaces: libsoup-dev
+Filename: pool/main/libs/libsoup/libsoup_2.74.3-6_aarch64.deb
+Size: 344032
+MD5sum: e8527001ea431fdddabafe93786ecdab
+SHA1: d2bb01bdb485e90aa6af7e115fda593b147b18f7
+SHA256: 8a74de17319c67adca0efaadc6ba7f6188d3a38bf6ec6371b54e2501f108b2be
+Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
+Description: HTTP client and server library
 
 Package: libsoxr
 Version: 0.1.3-8
@@ -16025,6 +16265,23 @@ SHA256: 4de1300102037616d5cd9ea8ee0555ceb34e3481ca30e6570f65a45de87cddc2
 Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
 Description: Static libraries for mbedtls
 
+Package: media-types
+Version: 13.0.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 120
+Conflicts: mutt (<< 1.8.3-1)
+Breaks: mime-support
+Replaces: mime-support
+Provides: mime-support
+Filename: pool/main/m/media-types/media-types_13.0.0_all.deb
+Size: 19612
+MD5sum: 9995cefb32c824916a5c9e43df8f77c3
+SHA1: 007a2c51974979daeffb45fefc2b2313adf4a4a1
+SHA256: 77ce89b5a6fd57b0b09284929c953529a8b18cec41ea8ee59f7837f52cac45e8
+Homepage: https://pagure.io/mailcap
+Description: List of standard media types and their usual file extension
+
 Package: mesa
 Version: 25.1.5-2
 Architecture: aarch64
@@ -16103,6 +16360,35 @@ SHA1: a9cbe9b6ad66eac4aebb638f4b9691544705f5c4
 SHA256: d0e22229d0eedd945d091b2236cd8718cabf03b8e91002e5c7124ef232bc3f25
 Homepage: https://www.mesa3d.org
 Description: Mesa's Swrast Vulkan ICD
+
+Package: miniupnpc
+Version: 2.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Breaks: miniupnpc-dev
+Replaces: miniupnpc-dev
+Filename: pool/main/m/miniupnpc/miniupnpc_2.3.3-1_aarch64.deb
+Size: 50820
+MD5sum: e07540399ee0e933eb8e43c2eee4bc3a
+SHA1: 68ae7982beed9b8d26b8fffb298e7d4a396564a6
+SHA256: ecc5e56401866962e453fe7b0d55a0e712b60e87c3ff3c6988f9476a9ccd2d10
+Homepage: https://miniupnp.tuxfamily.org/
+Description: Small UPnP client library and tool to access Internet Gateway Devices
+
+Package: miniupnpc-static
+Version: 2.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: miniupnpc (= 2.3.3-1)
+Filename: pool/main/m/miniupnpc-static/miniupnpc-static_2.3.3-1_aarch64.deb
+Size: 22540
+MD5sum: 432773b2529e69654ea45f84e9162899
+SHA1: 23ca4171767687a7f955268a478e7723dcdb022f
+SHA256: a222717a427fcdc84d1891d2a59b523c0df9ccd7b510dd0e4d0a71fa79df52b8
+Homepage: https://miniupnp.tuxfamily.org/
+Description: Static libraries for miniupnpc
 
 Package: mlir
 Version: 20.1.8-3
