@@ -5524,6 +5524,20 @@ SHA256: a8ddf9f1a20d5f73d02ad9da949e70226023c8e895f911e861173db72a67ac4b
 Homepage: http://duc.zevv.nl/
 Description: High-performance disk usage analyzer
 
+Package: duckdb
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 43552
+Depends: libduckdb (= 1.4.0)
+Filename: pool/main/d/duckdb/duckdb_1.4.0_aarch64.deb
+Size: 9189812
+MD5sum: f240aa91ea40c37ad07dda5a51019d88
+SHA1: d2b94383bbbc8a213c60157d00f5d0770c223bf2
+SHA256: 009397449c42ca3d6c474c7cb9a4b7222176754422dd96dd21dc62255e789e10
+Homepage: https://duckdb.org/
+Description: DuckDB Command Line Interface (CLI) shell
+
 Package: duf
 Version: 0.9.1
 Architecture: aarch64
@@ -5549,6 +5563,19 @@ SHA1: 7a0a82196334fe3dcbfd2b4ac31cfa562256f4e8
 SHA256: 35fee1989dd1a4c3514288fe734c98097e61428059413d4e34f1994e5f76a2d3
 Homepage: https://github.com/sigoden/dufs
 Description: A file server that supports static serving, uploading, searching, accessing control, webdav...
+
+Package: duktape
+Version: 2.7.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Filename: pool/main/d/duktape/duktape_2.7.0-2_aarch64.deb
+Size: 130072
+MD5sum: 5352e2045afe64b98046622063c4b6dd
+SHA1: 6cb6078d754948d9d8d7b4b1bc32cd52f44d63d7
+SHA256: 7eb8589378345ddc0169af1335862ce210ce3504c3106979fcc37fd1ce729b23
+Homepage: https://www.duktape.org/
+Description: Simple REPL for Duktape
 
 Package: dust
 Version: 1.2.3-1
@@ -10240,6 +10267,20 @@ SHA256: a6bcf505d694001ef944586038303f71b229ed3b00e2812e1e70f38d2df325c9
 Homepage: https://www.gnu.org/software/libiconv/
 Description: Utility converting between different character encodings
 
+Package: icoutils
+Version: 0.32.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libpng, perl
+Filename: pool/main/i/icoutils/icoutils_0.32.3-2_aarch64.deb
+Size: 43000
+MD5sum: 35aad7b0ed91067e3578b14078bf162e
+SHA1: 72585a34d57ea130ba597bf692242af92b581d53
+SHA256: 85a20ec38a2224bfac237db9657bbd00ae86ca95efe45c5133f65271eec4b18a
+Homepage: https://www.nongnu.org/icoutils/
+Description: Extracts and converts images in MS Windows(R) icon and cursor files
+
 Package: icu-devtools
 Version: 77.1-2
 Architecture: aarch64
@@ -12407,6 +12448,19 @@ SHA256: e7753495846b008bb5122ef0ffd094efd5e9b7b54f9d1eddf7dc0e059807e091
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Block device identification library
 
+Package: libblocksruntime
+Version: 1:6.1-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 48
+Filename: pool/main/libb/libblocksruntime/libblocksruntime_1+6.1-1_aarch64.deb
+Size: 5432
+MD5sum: c9543c42b78405d2e2fbed4ccf80359c
+SHA1: e5772c2da4c80f66a809b474eb3d8b587909bab5
+SHA256: b1e377f1eb2f2fc25d7e8e4a1a79e46f8fd1be83752324660d812f6f40d354e7
+Homepage: https://github.com/swiftlang/swift-corelibs-libdispatch
+Description: LLVM Blocks runtime library
+
 Package: libblosc
 Version: 1.21.6-1
 Architecture: aarch64
@@ -13341,6 +13395,33 @@ SHA256: 93c70d2cb5daeb9ffb80535e6ec26b935d445055c29a36455d8e5e36ec3a2fc8
 Homepage: https://zeromq.org/
 Description: Static libraries for libczmq
 
+Package: libdaemon
+Version: 0.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Filename: pool/main/libd/libdaemon/libdaemon_0.14-1_aarch64.deb
+Size: 16944
+MD5sum: cb1e13d0c3f7ca2a84096c68014b5542
+SHA1: 8eac37fe99eb4c512104696834aa18e60ced44ee
+SHA256: 4780d3ad0dcdb0c95836f311f38a697d332878d1a4701c9f74266ff3cb71860a
+Homepage: https://0pointer.de/lennart/projects/libdaemon/
+Description: A lightweight C library that eases the writing of UNIX daemons
+
+Package: libdaemon-static
+Version: 0.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: libdaemon (= 0.14-1)
+Filename: pool/main/libd/libdaemon-static/libdaemon-static_0.14-1_aarch64.deb
+Size: 10552
+MD5sum: 6c1750c2c95dbdfdd4611979e6692fbc
+SHA1: ad838d6a33e8e49f4458df565df8ddf023067184
+SHA256: 271ad1111c853ff802a5dc6c018ebc5bb52452b32dd4882bf431cce04a25f224
+Homepage: https://0pointer.de/lennart/projects/libdaemon/
+Description: Static libraries for libdaemon
+
 Package: libdav1d
 Version: 1.5.1-1
 Architecture: aarch64
@@ -13453,6 +13534,47 @@ SHA256: 45fb8f0ad5d2c4d1a2e09470b5b258a90e7a5932d8d390b20e18d9e468639bb2
 Homepage: https://github.com/ebiggers/libdeflate
 Description: Static libraries for libdeflate
 
+Package: libdevil
+Version: 1.8.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 808
+Depends: libc++, libjasper, libjpeg-turbo, libpng, libtiff, littlecms
+Filename: pool/main/libd/libdevil/libdevil_1.8.0-7_aarch64.deb
+Size: 232140
+MD5sum: b3a5150dffe74ea93ce44c539b77537f
+SHA1: 269ed536a678de72eb2ec82d43b582e7e24d1522
+SHA256: 3bdd368e42d90d23decf774f15113143eca183b953ae11c53f5df5f631ab39d5
+Homepage: https://openil.sourceforge.net/
+Description: A cross-platform image library utilizing a simple syntax
+
+Package: libdispatch
+Version: 1:6.1-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 736
+Depends: libc++, libblocksruntime
+Filename: pool/main/libd/libdispatch/libdispatch_1+6.1-1_aarch64.deb
+Size: 138736
+MD5sum: e9bd97eaab3ac90b2d345410bff5da22
+SHA1: 14173de36afbe815fd49e4b5e32a7c12d90e78cc
+SHA256: 5322cf48a6e39b76fa621849cbc36788f308c670dd8a7ea58e3edd337fda9581
+Homepage: https://github.com/swiftlang/swift-corelibs-libdispatch
+Description: The libdispatch project, for concurrency on multicore hardware
+
+Package: libdisplay-info
+Version: 0.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 428
+Filename: pool/main/libd/libdisplay-info/libdisplay-info_0.3.0_aarch64.deb
+Size: 104516
+MD5sum: 92643282c30c7c4820ad37217825d16f
+SHA1: 94dd3431353d5d3289362771d5fccb5651c80e8b
+SHA256: 212c4cf6d7d8b39429786a649b31441a22c384ce07d0196daee078da3ffda6bf
+Homepage: https://emersion.pages.freedesktop.org/libdisplay-info/
+Description: EDID and DisplayID library
+
 Package: libdmtx
 Version: 0.7.8-1
 Architecture: aarch64
@@ -13493,6 +13615,49 @@ SHA256: a1acbbf63aba5b0d05ff9b48d120f69430ee1796378fa028ff13c7eaee7eabe3
 Homepage: https://dri.freedesktop.org/wiki/
 Description: Userspace interface to kernel DRM services
 
+Package: libduckdb
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60096
+Depends: libc++, openssl
+Filename: pool/main/libd/libduckdb/libduckdb_1.4.0_aarch64.deb
+Size: 10936612
+MD5sum: 0f490e8797d1e334e3bba17c38ec4ea7
+SHA1: f9daea01ab0414041dbb49da9e8528c5af31f455
+SHA256: 5b4dc70709bdef7bc9eaab7535ee7bb14388bb393827d1fb4e2a7e39fe539e3f
+Homepage: https://duckdb.org/
+Description: An in-process SQL OLAP database management system
+
+Package: libduckdb-static
+Version: 1.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 125900
+Depends: libduckdb (= 1.4.0)
+Filename: pool/main/libd/libduckdb-static/libduckdb-static_1.4.0_aarch64.deb
+Size: 13755984
+MD5sum: 43349a128fa2fe21c1ba7a945987616a
+SHA1: 84569178d0f8e5671fe5a5f6e291f744f24781f0
+SHA256: 0ad8b72165615778290c9e4640728501322ad1b21698943f3885681d7059038b
+Homepage: https://duckdb.org/
+Description: Static libraries for libduckdb
+
+Package: libduktape
+Version: 2.7.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 940
+Breaks: duktape (<< 2.3.0-1), libduktape-dev
+Replaces: duktape (<< 2.3.0-1), libduktape-dev
+Filename: pool/main/libd/libduktape/libduktape_2.7.0-2_aarch64.deb
+Size: 165176
+MD5sum: 7493b87f351388acae018a0a00d1d1fa
+SHA1: 835cf1a10d27087805e8007956b9c99668d0831f
+SHA256: db482fd2739f6e1ca6e24f30bee4839c46e8c695835e77f2a4b180cd9f617e72
+Homepage: https://www.duktape.org/
+Description: An embeddable Javascript engine with a focus on portability and compact footprint
+
 Package: libdvbcsa
 Version: 1.1.0-3
 Architecture: aarch64
@@ -13519,6 +13684,61 @@ SHA1: ffdc2c9efef687b4691b0a7b390584c3ce060c90
 SHA256: 82570fe731a2bcb441186c8b15f662c4f7d5a1a8fd397d766df9280b7049244c
 Homepage: https://www.videolan.org/developers/libdvbcsa.html
 Description: Static libraries for libdvbcsa
+
+Package: libdvbpsi
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 708
+Filename: pool/main/libd/libdvbpsi/libdvbpsi_1.3.3-1_aarch64.deb
+Size: 71720
+MD5sum: 6af774d30acbd41b201cce61e208fe48
+SHA1: 3e5c6aff5362202602f21eba4d53be7b7d83643e
+SHA256: 2809364849988b731c70e6e7a4f93a4eda2bd26ab753ddb044cc0c50b4d3bd63
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Simple MPEG TS PSI parser library supporting various standards
+
+Package: libdvbpsi-static
+Version: 1.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: libdvbpsi (= 1.3.3-1)
+Filename: pool/main/libd/libdvbpsi-static/libdvbpsi-static_1.3.3-1_aarch64.deb
+Size: 41932
+MD5sum: 9ac6cf0ded7962531c95bf966647a43c
+SHA1: dc5ecf8f382062771701910608a381319afc31e1
+SHA256: a1ed5d9e3e1e205d184f7da605dfbdd403538844ea430986bef5336985c79d05
+Homepage: https://code.videolan.org/videolan/libdvbpsi/
+Description: Static libraries for libdvbpsi
+
+Package: libdvdnav
+Version: 6.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libdvdread
+Filename: pool/main/libd/libdvdnav/libdvdnav_6.1.1-1_aarch64.deb
+Size: 47808
+MD5sum: 9c262d27bb2be725abdf0b4a1b1bade7
+SHA1: 52070c8d5aacef2a36b5950b203e49ca6bca97e8
+SHA256: 7be3ad90bbb87f46fdce0fc551e19f52b2f46a285c9e6d70313196038dc6cd22
+Homepage: https://www.videolan.org/developers/libdvdnav.html
+Description: A library that allows easy use of sophisticated DVD navigation features
+
+Package: libdvdnav-static
+Version: 6.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Depends: libdvdnav (= 6.1.1-1)
+Filename: pool/main/libd/libdvdnav-static/libdvdnav-static_6.1.1-1_aarch64.deb
+Size: 33720
+MD5sum: 722b2c0b8b3f83329fecaf6a215e7507
+SHA1: ce6762f4160166173c909aef838d811411231cd0
+SHA256: 1081b3ad38ee07b986b866e6720c4c92dd96fed7bec7d63d4a2fa119e049fbd2
+Homepage: https://www.videolan.org/developers/libdvdnav.html
+Description: Static libraries for libdvdnav
 
 Package: libdvdread
 Version: 6.1.3-1
@@ -13574,6 +13794,33 @@ SHA1: ce018e26cd6e2c61ef22e9301579ef224c378a8b
 SHA256: 2832adad4f2934aeb392f2d01b286132e8cfab321f4d5e1a0d334edd34ad85fb
 Homepage: https://sourceware.org/elfutils/
 Description: Static library to read DWARF information
+
+Package: libebml
+Version: 1.4.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: libc++
+Filename: pool/main/libe/libebml/libebml_1.4.5-2_aarch64.deb
+Size: 66028
+MD5sum: ee67de444e687eb930b50634a684f802
+SHA1: 16874fb3d6f2b799461512c754c2015921a096bc
+SHA256: d62e02743ad37bc3fca42649c5de06029b7bdbad98d07ea7ffe480ad106fce46
+Homepage: https://github.com/Matroska-Org/libebml
+Description: Extensible Binary Meta Language library
+
+Package: libebur128
+Version: 1.2.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Filename: pool/main/libe/libebur128/libebur128_1.2.6-3_aarch64.deb
+Size: 14796
+MD5sum: b5e8f46d6cc93baf29bcde5dab36afc3
+SHA1: 236ab27cc157078cefdbe62bcc7964d5bcf23c4c
+SHA256: 3752e11998fb176af1ec86edd1267b8268acd79e0473d8e85a717cfa641b3e80
+Homepage: https://github.com/jiixyj/libebur128
+Description: Implements the EBU R 128 standard for loudness normalisation
 
 Package: libedit
 Version: 20240517-3.1-1
@@ -13634,6 +13881,47 @@ SHA1: 57d39ec2891f2a36cc591e228a71aa55be43f431
 SHA256: 6d9434962ccf27b826347aa005b3298818c5f2943e92eecf665f92237d18c062
 Homepage: https://sourceware.org/elfutils/
 Description: Static libraries for libelf
+
+Package: libenet
+Version: 1.3.18-1
+Architecture: aarch64
+Maintainer: @ravener
+Installed-Size: 164
+Filename: pool/main/libe/libenet/libenet_1.3.18-1_aarch64.deb
+Size: 27312
+MD5sum: 9bb0b2210c6f3cfb58cfc4fcf609352f
+SHA1: 14f64880d54ce04d4885b47e3d8141a728c527d5
+SHA256: 3ca55196a9fedee12766c3dc5d280f6a3e939e5d604f99530095100645f7456a
+Homepage: http://enet.bespin.org
+Description: ENet reliable UDP networking library
+
+Package: libenet-static
+Version: 1.3.18-1
+Architecture: aarch64
+Maintainer: @ravener
+Installed-Size: 92
+Depends: libenet (= 1.3.18-1)
+Filename: pool/main/libe/libenet-static/libenet-static_1.3.18-1_aarch64.deb
+Size: 20364
+MD5sum: cb6efc6a0f86a8ee1a8c595e1182f05d
+SHA1: 2077b8836c3ca2a0de868e1d4d2c9afb033dde5b
+SHA256: d5bf775290f57d2f9b17ed74b3aaba85b46c102706b6000480de9d6343635848
+Homepage: http://enet.bespin.org
+Description: Static libraries for libenet
+
+Package: libepoxy
+Version: 1.5.10-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2732
+Depends: opengl
+Filename: pool/main/libe/libepoxy/libepoxy_1.5.10-3_aarch64.deb
+Size: 300812
+MD5sum: c0a30c61ff6dbe5369d5e72ca67de3ce
+SHA1: 6f038fd1591a85a4753685d823f5b2d93445ad3d
+SHA256: bf925cb4afd758287f7ef70e6eafe53884bb17d3d7b5a3e88cb37a334dbab692
+Homepage: https://github.com/anholt/libepoxy
+Description: Library handling OpenGL function pointer management
 
 Package: libevent
 Version: 2.1.12-3
