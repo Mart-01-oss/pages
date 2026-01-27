@@ -10329,6 +10329,20 @@ SHA256: 285f89abf02dcb98355c3db933e527a281fe67c6b8f8f5718a23324c5df196b2
 Homepage: https://www.influxdata.com/
 Description: An open source time series database with no external dependencies
 
+Package: innoextract
+Version: 1.9-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 572
+Depends: libc++, boost, liblzma, libiconv
+Filename: pool/main/i/innoextract/innoextract_1.9-9_aarch64.deb
+Size: 167624
+MD5sum: 3718d2e1e2121ca5b1b56b6fd14764a9
+SHA1: fb9a43cda45f13bbf8a0a399962c0f111d906a3b
+SHA256: 91365ceb156904c91b646cfac62577f843f1a4eecb87c720225b90e9c48d2d45
+Homepage: https://constexpr.org/innoextract/
+Description: A tool to unpack installers created by Inno Setup
+
 Package: inotify-tools
 Version: 4.25.9.0
 Architecture: aarch64
@@ -10357,6 +10371,149 @@ SHA1: 38e83009503527c948a98c026666b3a7152c6bed
 SHA256: 9508d501c6abe124c0797ffa7345326b9c70d232aa69e2bf5413fcc08f62b25b
 Homepage: https://github.com/rvoicilas/inotify-tools/wiki
 Description: Static libraries for inotify-tools
+
+Package: intltool
+Version: 0.51.0-3
+Architecture: all
+Maintainer: @suhan-paradkar
+Installed-Size: 224
+Depends: perl, clang, make, libexpat
+Filename: pool/main/i/intltool/intltool_0.51.0-3_all.deb
+Size: 37196
+MD5sum: c820e28d65319ad4a8f93224faed119e
+SHA1: 4df763f82cf9447a8eedcb231c33852ca00a804f
+SHA256: eed417b2556b2a28ce6eb32eeebdda42089700f6d3eda5a712966e14671bab23
+Homepage: https://launchpad.net/intltool
+Description: The internationalization tool collection
+
+Package: inxi
+Version: 3.3.39-1-0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1436
+Depends: perl
+Filename: pool/main/i/inxi/inxi_3.3.39-1-0_all.deb
+Size: 351764
+MD5sum: 63b83ab02750a441e80e56a3c9e1b958
+SHA1: 708d8059d3fcb62b0b51b811f6943f3fa9897be4
+SHA256: 40d5e5a17b9f43289673eadf7f7d7c6ccde6f1b91b93ede4b26a980dc9917ebe
+Homepage: https://smxi.org/site/about.htm#inxi
+Description: Full featured CLI system information tool
+
+Package: ipcalc
+Version: 0.51
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: perl
+Filename: pool/main/i/ipcalc/ipcalc_0.51_aarch64.deb
+Size: 10004
+MD5sum: 28e4120f0578570959ded4df640082de
+SHA1: 9d14a8f93f21353daaf90d198a7698fe955bf298
+SHA256: 29d446da77f70d653266fef5e9ee126bc111eded4b0c8cfc6f5e229525b46c82
+Homepage: http://jodies.de/ipcalc
+Description: Calculates IP broadcast, network, Cisco wildcard mask, and host ranges
+
+Package: iperf3
+Version: 3.19.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 300
+Depends: openssl
+Breaks: iperf3-dev
+Replaces: iperf3-dev
+Filename: pool/main/i/iperf3/iperf3_3.19.1-2_aarch64.deb
+Size: 80080
+MD5sum: 9a34b94c415abc1eea6b113efb03b555
+SHA1: 96517fbc442aca4d5d9d8388f3d457822b8b405f
+SHA256: ef184e2beaf3899b293add52a33a6913f21dc85b46a1f3b1acc88ca6ea96f8be
+Homepage: https://github.com/esnet/iperf
+Description: TCP, UDP, and SCTP network bandwidth measurement tool
+
+Package: iperf3-static
+Version: 3.19.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 336
+Depends: iperf3 (= 3.19.1-2)
+Filename: pool/main/i/iperf3-static/iperf3-static_3.19.1-2_aarch64.deb
+Size: 68752
+MD5sum: 0292d0683dbc9b66ff0ec8560d1aaa5e
+SHA1: 49b07ac09fed08b4fc6fd3ce02b070b71ca32d49
+SHA256: 9b7cc1d8e7ace020c854f3c1208c6f2830e7f1333550e90becd4af208149fc5e
+Homepage: https://github.com/esnet/iperf
+Description: Static libraries for iperf3
+
+Package: ipmitool
+Version: 1.8.19-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1752
+Depends: openssl, readline
+Filename: pool/main/i/ipmitool/ipmitool_1.8.19-1_aarch64.deb
+Size: 383672
+MD5sum: 640c5ab21c7a5d78f7b8214d84d34598
+SHA1: 4598c50401d6c485791ed1b850d2da3c1a3d25ba
+SHA256: 2820aedad380ceb7d1426d3bd57cc0e65928ab0bd54f89c9a159c741df38cbc8
+Homepage: https://github.com/ipmitool/ipmitool
+Description: Command-line interface to IPMI-enabled devices
+
+Package: iproute2
+Version: 6.16.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2852
+Depends: libandroid-glob, libandroid-support
+Filename: pool/main/i/iproute2/iproute2_6.16.0-1_aarch64.deb
+Size: 817432
+MD5sum: 0171570827cf16d262257d0c03bac12f
+SHA1: 7e2d03a9e1e520976676cf5e2bc4b6eae490288c
+SHA256: 973611680fa50beb52d90b2a0e1f247b4665671bb3c9419d6b346d958d962cf3
+Homepage: https://wiki.linuxfoundation.org/networking/iproute2
+Description: Utilities for controlling networking
+
+Package: ipv6calc
+Version: 4.4.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6344
+Depends: openssl, perl
+Filename: pool/main/i/ipv6calc/ipv6calc_4.4.0_aarch64.deb
+Size: 1063432
+MD5sum: 8af2160dbbf2793ae36bbc56d9e4bcdc
+SHA1: 085acf2f028469b1d107edffa293e53f1dcf4011
+SHA256: 228e4b507089c2abbe69976cb55a05a9fcf019b3a6a53c6cc5c945ef0776c31c
+Homepage: https://www.deepspace6.net/projects/ipv6calc.html
+Description: Does some format changes and calculations of IPv6 addresses
+
+Package: ipv6toolkit
+Version: 2022.09.30-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4004
+Depends: libpcap, resolv-conf
+Recommends: curl, perl
+Filename: pool/main/i/ipv6toolkit/ipv6toolkit_2022.09.30-4_aarch64.deb
+Size: 759836
+MD5sum: 3d42399749d7f8d049e1b994cce4dc68
+SHA1: 75207658ba630e1a8e05881fa4a9ae5ef727633d
+SHA256: 8c958982f987e0c2b4402961bd17510179e01c27832e374c276de3706d553dea
+Homepage: https://www.si6networks.com/research/tools/ipv6toolkit/
+Description: SI6 Networks IPv6 Toolkit
+
+Package: ircd-irc2
+Version: 2.11.2p3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 488
+Depends: libcrypt, resolv-conf
+Filename: pool/main/i/ircd-irc2/ircd-irc2_2.11.2p3-3_aarch64.deb
+Size: 149340
+MD5sum: fd8c430591c842a8b42724414b18618c
+SHA1: 0149790c6d2082754835b7eb1f5822b67c1dd8c1
+SHA256: 9c51bf3b4bdf4f6ae912420eda32616a86bb63ae2078150ab55484e4a68d29af
+Homepage: http://www.irc.org/
+Description: An Internet Relay Chat (IRC) daemon
 
 Package: jbig2dec
 Version: 0.20-1
