@@ -1128,13 +1128,13 @@ Package: aspnetcore-runtime-8.0
 Version: 8.0.20
 Architecture: aarch64
 Maintainer: @truboxl
-Installed-Size: 11056
+Installed-Size: 11052
 Depends: dotnet-runtime-8.0
 Filename: pool/main/a/aspnetcore-runtime-8.0/aspnetcore-runtime-8.0_8.0.20_aarch64.deb
-Size: 2848144
-MD5sum: 18aa2a7e1ddb108ecbbccfc86c2e095a
-SHA1: ad8517bb6945e32d87c19aabf7218a0052813126
-SHA256: 08159d7338831644efa7a48b0ed75f4fbd2f766bab5ee2d843e128b66a99bc01
+Size: 2848100
+MD5sum: be6e2bb5371eed1530b5186c59638965
+SHA1: 8a90d067adaf378bb1f406702ae9ece1d44ae0df
+SHA256: fe6f71a91845390b855da0c90dfacb9341ed25587146605cbadf23dbb5e174b6
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: ASP.NET Core 8.0 Runtime
 
@@ -1159,10 +1159,10 @@ Maintainer: @truboxl
 Installed-Size: 11396
 Depends: aspnetcore-runtime-8.0
 Filename: pool/main/a/aspnetcore-runtime-dbg-8.0/aspnetcore-runtime-dbg-8.0_8.0.20_aarch64.deb
-Size: 6702436
-MD5sum: bd0d87294bf257a701bc7da6ff194897
-SHA1: e8c4c186c6b916c98a16fa3f087a507b85bf0e34
-SHA256: 47caf6034dd96e746aed17b3a1d0fd2aab2a49042381e029abdf424eb1a4db7b
+Size: 6702640
+MD5sum: 67a17883b9c1d87322da443bb63b47db
+SHA1: 438c575d4c6d9d051ef0becb0882d9d3850cb48f
+SHA256: 3ee578d2b067eae2b49135628ed2812670c702f640ed1f76d0b7d21cf35bdffb
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: ASP.NET Core 8.0 Runtime Managed Debug Symbols
 
@@ -1187,10 +1187,10 @@ Maintainer: @truboxl
 Installed-Size: 15668
 Depends: dotnet-host
 Filename: pool/main/a/aspnetcore-targeting-pack-8.0/aspnetcore-targeting-pack-8.0_8.0.20_aarch64.deb
-Size: 1741028
-MD5sum: 1f965785eeaa80cbe6e70a60554d9ab0
-SHA1: 7dfc2cdfbe58e8b76d56213a1c414a3b82532437
-SHA256: 6097bf42210a7f583a26492dee62cf8d6de121618fb5b604853ed849300750d6
+Size: 1739504
+MD5sum: d665cf1bf2c235618d7f4bea54f26d52
+SHA1: 371555d478db73887678f20bb7c8a719d5541032
+SHA256: bf50178172261a1e5e0338d2df577872e32cb9e38712ec1d1aa8167e72341948
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: ASP.NET Core 8.0 Targeting Pack
 
@@ -2579,6 +2579,33 @@ SHA256: 2ec5188165805299e0ccc5aae274c5dc2dab016de021127b54688ee7fdae0b5e
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates
 
+Package: ca-certificates
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/main/c/ca-certificates/ca-certificates_1+2025.09.09_all.deb
+Size: 125660
+MD5sum: b25ee8d2b1e122fba749c2b871f74b26
+SHA1: 7e6fb1c207cb6fa33fafdb59128d71e6dbb03b8f
+SHA256: b87636d9ae28eee0324af6ae3afc2a42d100fc925a69fdf3a2982321022a4dac
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+
+Package: ca-certificates-java
+Version: 1:2025.09.09
+Architecture: all
+Maintainer: @termux
+Installed-Size: 212
+Depends: ca-certificates (= 1:2025.09.09)
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1+2025.09.09_all.deb
+Size: 115188
+MD5sum: 341742b9919ed395f2cbe0f08389cc3d
+SHA1: fe1a3d6f6281433ae4e1b486038a08452521ce3d
+SHA256: 513ac5daeab3c477257a9738eaf8588f38606f14d4aeafc51b1b4c990c133d0c
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates (java keystore format)
+
 Package: ca-certificates-java
 Version: 1:2025.09.09
 Architecture: all
@@ -3175,6 +3202,20 @@ SHA1: f24666c495f634d4c033f71a201b195730451727
 SHA256: bd6e854f784c09f3a67f15d5fd3ab931d0664efd9a2aeba6b0e910d55c486503
 Homepage: https://github.com/theryangeary/choose
 Description: A human-friendly and fast alternative to cut and (sometimes) awk
+
+Package: chromaprint
+Version: 1.5.1-p20250625-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: ffmpeg, libchromaprint (= 1.5.1-p20250625-1)
+Filename: pool/main/c/chromaprint/chromaprint_1.5.1-p20250625-1_aarch64.deb
+Size: 19256
+MD5sum: 31a32349a53f783edbbc491c60f09487
+SHA1: 8bef1789673000fd418962fb31c342273457d443
+SHA256: 93eee9d9f518c8efcfd660741bf9e3253ca77f15691995025c63b5d5b6178616
+Homepage: https://acoustid.org/chromaprint
+Description: C library for generating audio fingerprints used by AcoustID (fpcalc tool)
 
 Package: chrony
 Version: 4.8
@@ -4312,9 +4353,9 @@ Installed-Size: 264
 Depends: libdb (= 18.1.40-5)
 Filename: pool/main/d/db/db_18.1.40-5_aarch64.deb
 Size: 40728
-MD5sum: 36211a846be99eb55f214e0850529f83
-SHA1: e43bc432206cd957918d07ed4612d717957718d8
-SHA256: 071bb3d80ac0ad6c0c6ec80af088ee84594fede2ffe8c08cbb091d71fda096d3
+MD5sum: e13683945f07eed434fa61b29e80085f
+SHA1: 9cccaa4e0f70ddb8769b04eb1101ea1655c21c81
+SHA256: df57d6efc6914dd56eb353240fbfa32e74e2e700da4b24b28f5b4e927aa59d61
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: The Berkeley DB embedded database system
 
@@ -4981,10 +5022,10 @@ Architecture: aarch64
 Maintainer: @truboxl
 Installed-Size: 3264
 Filename: pool/main/d/dotnet-apphost-pack-8.0/dotnet-apphost-pack-8.0_8.0.20_aarch64.deb
-Size: 455324
-MD5sum: 454ff17ad8bdf95c30411742654b4b5f
-SHA1: 89d746b5215a6c00f0320ce21abbd9ecd671c615
-SHA256: 6b699308acd8de21f52b78a55d1de38257adb4f9fef838593f3e0757dec8551a
+Size: 456580
+MD5sum: 543caf1c18307ee65da9ff6ac77de0da
+SHA1: 991015f54f8c75d811d6df0c6b4f15a99bee15fd
+SHA256: 1a690d8eb4b1081c4f3096cb22285c839217944e45a15029dbbaa63747fcaba1
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Targeting Pack
 
@@ -5009,9 +5050,9 @@ Installed-Size: 4
 Depends: dotnet-host-9.0 | dotnet-host-8.0
 Filename: pool/main/d/dotnet-host/dotnet-host_9.0-2_aarch64.deb
 Size: 696
-MD5sum: 73de910aa4199cb0a018a7cba2f06998
-SHA1: 51335adccd46dbcb361c2f5bac8ed48b867ba20f
-SHA256: d875ea2cf5d8669138edd940c9602ffea71aa5c629e808d8b756367abbe7742b
+MD5sum: 172f07715ddd6999144dadfa4f4239ef
+SHA1: e9510e25ec5d24c29cdf07cde6b0ffe885bd3259
+SHA256: 98229b224b2dda811382eafcc3b553a6e19529b0bf02b51ed8ab04bbbac68739
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: A metapackage for .NET Host
 
@@ -5021,10 +5062,10 @@ Architecture: aarch64
 Maintainer: @truboxl
 Installed-Size: 884
 Filename: pool/main/d/dotnet-host-8.0/dotnet-host-8.0_8.0.20_aarch64.deb
-Size: 244112
-MD5sum: e4a2df1b56ebf1ed58dde9bf98da1ce5
-SHA1: 5b77215dc1f3c2f1ca6e0e3c7e311f47cb4c7ce7
-SHA256: 27a583459456e6ce36dd48cae690d600200d1397876fbca076509bd519c17c7f
+Size: 243632
+MD5sum: 9e03db99412bfc49c14940683cbd2a13
+SHA1: 39a9eb963b92a529ab4123fe3e4249931c1a8139
+SHA256: a46180e1ea40b864fcce4f43eaeb5f30aff704f9c681da86fd489ea2089ec005
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Host
 
@@ -5049,10 +5090,10 @@ Maintainer: @truboxl
 Installed-Size: 1000
 Depends: dotnet-host
 Filename: pool/main/d/dotnet-hostfxr-8.0/dotnet-hostfxr-8.0_8.0.20_aarch64.deb
-Size: 249388
-MD5sum: e202bf566cb801aeb70f5917c140ee4a
-SHA1: 4c004f0b15969f94def74e69068f2c0b75389cfa
-SHA256: 7d7483d0bc3df627d992197d9a3cdc4ebcc414230317d2c1df4bea4f11f70b3f
+Size: 247988
+MD5sum: 5f055bd286d3e710ae7b52c544b36c61
+SHA1: b9c149d854d76f19c8556f7c0de6ee036299a1cd
+SHA256: 1edecdffba239150c2620e8e50b6d557cf60aede1ed449af06ccd2ad9770ceff
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Host Resolver
 
@@ -5077,10 +5118,10 @@ Maintainer: @truboxl
 Installed-Size: 32968
 Depends: dotnet-hostfxr-8.0, libicu, openssl, zlib
 Filename: pool/main/d/dotnet-runtime-8.0/dotnet-runtime-8.0_8.0.20_aarch64.deb
-Size: 8150380
-MD5sum: c97e4c5fc06b421912c24a07a88edaec
-SHA1: 738d3fed7e884fa850d0dc95d3697c4325d7dacd
-SHA256: 1b60514a7e656695251d81cf8bb1984704b7687127d74546ba5f41015049a721
+Size: 8154968
+MD5sum: 42bb3175b4906dcb55f0147388167f38
+SHA1: 45f0e15124bbbe35915b3e06af16ae23fb6f3c2e
+SHA256: 1a02e3167e0610d933608b9fa42fa9d2c7af4ca7399087590d56f7c38136cf80
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Runtime
 
@@ -5105,10 +5146,10 @@ Maintainer: @truboxl
 Installed-Size: 20936
 Depends: dotnet-runtime-8.0
 Filename: pool/main/d/dotnet-runtime-dbg-8.0/dotnet-runtime-dbg-8.0_8.0.20_aarch64.deb
-Size: 15246468
-MD5sum: b5a4ef3bbd61886e9e8cfdd1114996d7
-SHA1: 8a536fd58e37ef46c7ed9f91bf468dfaea158f22
-SHA256: 407b7c2440989ba902aa7919cd1bca318399518ed75563f6b5fefa669f783fce
+Size: 15245784
+MD5sum: 97391aafb66e9f39a9d94a010f9054eb
+SHA1: e6882b92ece44dcf3fb02023823211c699f88463
+SHA256: b74b8e5fcf6eb3bd035ce767964e0a4fc9d727fc8a788adcb6d490bab1df187a
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Runtime Managed Debug Symbols
 
@@ -5130,13 +5171,13 @@ Package: dotnet-sdk-8.0
 Version: 8.0.20
 Architecture: aarch64
 Maintainer: @truboxl
-Installed-Size: 208856
+Installed-Size: 208848
 Depends: aspnetcore-runtime-8.0, aspnetcore-targeting-pack-8.0, dotnet-apphost-pack-8.0, dotnet-runtime-8.0, dotnet-targeting-pack-8.0, dotnet-templates-8.0, netstandard-targeting-pack-2.1
 Filename: pool/main/d/dotnet-sdk-8.0/dotnet-sdk-8.0_8.0.20_aarch64.deb
-Size: 45841528
-MD5sum: e672d5cb25999ca1a1b4a05828999a1c
-SHA1: faa3c894399c075c4540892488a0a92bce64ba12
-SHA256: d5cce85425690331f8ba492274e12899d367ffa928111305ef5255ca65f15e1d
+Size: 45831384
+MD5sum: 5c8ef8a59a3518e3bc1168cf48b4b9f4
+SHA1: 98bf46fbef98a0f992aae7d8ddd0c8727195f8bf
+SHA256: 1cf87a2d752c22a63a8cf9349b8f5305d791a3bb6fdaf7b5b634d01b2ab64556
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 SDK
 
@@ -5161,10 +5202,10 @@ Maintainer: @truboxl
 Installed-Size: 126720
 Depends: dotnet-sdk-8.0
 Filename: pool/main/d/dotnet-sdk-dbg-8.0/dotnet-sdk-dbg-8.0_8.0.20_aarch64.deb
-Size: 82363492
-MD5sum: 5246e571d902010534d817f724095cc9
-SHA1: 0aa3119c2337ed1283266d6dc77b1f3632396cf3
-SHA256: 7e9db3f9b8ee8b0830d199b99892dccf427f0182f0e467b2fc97949a8116b7b9
+Size: 82363980
+MD5sum: c39bd271de820290a74e4a13323c61fc
+SHA1: ff955b43ee3dae4c18403f50073397feae66c6b0
+SHA256: 8b5a9b455202d464cf4d3fb89cf2ca3f551a442dda4ec74ad3ccbd82d38c26b6
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 SDK Managed Debug Symbols
 
@@ -5189,10 +5230,10 @@ Maintainer: @truboxl
 Installed-Size: 36400
 Depends: dotnet-host
 Filename: pool/main/d/dotnet-targeting-pack-8.0/dotnet-targeting-pack-8.0_8.0.20_aarch64.deb
-Size: 2761596
-MD5sum: 1bfbdb6f62ffb86a8efb7cb231f8751f
-SHA1: abeb67485fe8fc79793917c02f46a687ac0e3595
-SHA256: e905ffe56b3e7a303bdec49f3771f1743c124f8415db0b5b4d33410191675556
+Size: 2757928
+MD5sum: 7c231403b50b0110ee6db585072742e0
+SHA1: 2f8e0b52be951292da71cad351b2aa6146073cdd
+SHA256: 4bc9c6988410c499858d042e83b0a8c640d1c898de464071824a84ff2a431694
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Targeting Pack
 
@@ -5217,10 +5258,10 @@ Maintainer: @truboxl
 Installed-Size: 5884
 Depends: dotnet-host
 Filename: pool/main/d/dotnet-templates-8.0/dotnet-templates-8.0_8.0.20_aarch64.deb
-Size: 2175616
-MD5sum: 992b671bfbe55d1a0d16b630e935c2cc
-SHA1: a0bb58376b7808aa0aaf40b68fe0a31d77e5ec42
-SHA256: ad47028d9df8e4a16ee62c903879bbb7bbf0b51c16cf9891bb9d452a49541738
+Size: 2176112
+MD5sum: b365753baae63e0f83e9d50486d81940
+SHA1: 8aa2325dde4e2096bd1ff3cc9432ce04a23c102c
+SHA256: 82574f06407308f3c2bdd4bce97c0c97579ba8f84da883faadcec105e0e2fc60
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0 Templates
 
@@ -5247,9 +5288,9 @@ Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
 Suggests: dotnet-sdk-8.0
 Filename: pool/main/d/dotnet8.0/dotnet8.0_8.0.20_aarch64.deb
 Size: 1532
-MD5sum: 9dd38ae49c52e5b39265e7f48fa83f11
-SHA1: 2677765fc5cd3c986a3685c752246513d329b239
-SHA256: 1a6ec24b4063798e43398b748490ff2d1dc4e359189f00f0fffb9278fc363bf0
+MD5sum: c3dc847ed5621290459fdff7167816fa
+SHA1: f4959f366fce3cb24d2522b17acf6da7ee18142f
+SHA256: 5f18b724ed362f77ba0bbdb68792c91779fea147ccb2cbecaedec98db8f41774
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: .NET 8.0
 
@@ -8605,6 +8646,20 @@ SHA256: f0d89998ea92e018c4f6c78f384dbe3c4f361ab6d4446afb54c09e5c87b6ed30
 Homepage: https://go.dev/
 Description: Go programming language - documentation
 
+Package: gomp
+Version: 2023.02.02-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9272
+Depends: mpd
+Filename: pool/main/g/gomp/gomp_2023.02.02-3_aarch64.deb
+Size: 2543744
+MD5sum: 4714c5dac87adfc9d9cdb54ee99dc4b5
+SHA1: 6255634d5e7e27c8785612325c93885b348054c9
+SHA256: 2e331ff0fc1e3efb2eb06125be0b993343b4d2ef1fde56745b72598492126854
+Homepage: https://aditya-k2.github.io/gomp/
+Description: MPD client inspired by ncmpcpp with builtin cover-art view and LastFM integration
+
 Package: gomuks
 Version: 0.3.1-1
 Architecture: aarch64
@@ -9983,6 +10038,19 @@ SHA256: e36e5c191ea69b51dd121fc57e88a7e49e60c70062202ef4b1ca0e3d1596515a
 Homepage: https://hunspell.github.io
 Description: French dictionary for hunspell
 
+Package: hunspell-hu
+Version: 2024.03.28
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4056
+Filename: pool/main/h/hunspell-hu/hunspell-hu_2024.03.28_all.deb
+Size: 642644
+MD5sum: acc57e64f6fb591af9af0f40b8f1188e
+SHA1: 1b9a61076d8ae78fa39c6b684bd2cfef10f140f6
+SHA256: f2f8e9aa8028a9d5e8cb78463c1fd9b28b16dfbed17b38241a855a2f67aa8cdb
+Homepage: https://magyarispell.sourceforge.net/
+Description: Hungarian dictionary for hunspell
+
 Package: hunspell-nl
 Version: 2013.07.22
 Architecture: all
@@ -10165,10 +10233,10 @@ Maintainer: @termux
 Installed-Size: 984
 Depends: libicu (= 77.1-2)
 Filename: pool/main/i/icu-devtools/icu-devtools_77.1-2_aarch64.deb
-Size: 213084
-MD5sum: f83b13aa133b9f988ce3e073732f0f85
-SHA1: e618d87a00686763e32e22ce0da7ead1348c4127
-SHA256: fd7a613c1fcf8082305d2f3d85675c6ad1cab34b7f5c1fdf9c97160f884a521a
+Size: 213572
+MD5sum: 410253a70de9ae5cf87a9527b375bd57
+SHA1: d46b2f03fd88bba4688fa959e5c2e16c57e0f094
+SHA256: 8732687d2f234d9d04b32fb203cf43c3ab8801f6bc9e6b60e1734f923ccf85e2
 Homepage: http://site.icu-project.org/home
 Description: Development utilities for International Components for Unicode
 
@@ -10515,6 +10583,163 @@ SHA256: 9c51bf3b4bdf4f6ae912420eda32616a86bb63ae2078150ab55484e4a68d29af
 Homepage: http://www.irc.org/
 Description: An Internet Relay Chat (IRC) daemon
 
+Package: ired
+Version: 0.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/i/ired/ired_0.6-3_aarch64.deb
+Size: 15000
+MD5sum: 203bbf10f857de5a4ed8a29f7c5551f8
+SHA1: 623b9c27201a8f837552b9a6687e1154c26c8672
+SHA256: 1b5c624763b7f65eb4d81db95ccd8577811f93dc50aac6c80bac9d6848655ae4
+Homepage: https://github.com/radare/ired
+Description: Minimalist hexadecimal editor
+
+Package: irssi
+Version: 1.4.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2912
+Depends: glib, libandroid-glob, libiconv, libotr, ncurses, openssl, perl, utf8proc
+Breaks: irssi-dev
+Replaces: irssi-dev
+Filename: pool/main/i/irssi/irssi_1.4.5-3_aarch64.deb
+Size: 536356
+MD5sum: 6208187336218be22e7ff89ca5ca502a
+SHA1: aca2eb14f94d33bac201f8fae4cf434b45333082
+SHA256: dd8dd97f4413dee3562f5bc70186cdfe496430cbc5999225753173eca49e9da7
+Homepage: https://irssi.org/
+Description: Terminal based IRC client
+
+Package: isync
+Version: 1.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 300
+Depends: openssl, zlib
+Filename: pool/main/i/isync/isync_1.5.1-1_aarch64.deb
+Size: 100268
+MD5sum: 2fceddd75d79658cfa1b40cea4a9c8d1
+SHA1: ce05545b2e6d7500888d3b94cc99d7180abb6b74
+SHA256: 5d0c66833fc02f33cbbab99e6eb6e2515558ea201ebc3b54a4f91257c1576bcf
+Homepage: http://isync.sourceforge.net
+Description: IMAP and MailDir mailbox synchronizer
+
+Package: iverilog
+Version: 12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5920
+Depends: libbz2, libc++, readline, zlib
+Breaks: iverilog-dev
+Replaces: iverilog-dev
+Filename: pool/main/i/iverilog/iverilog_12.0-1_aarch64.deb
+Size: 1505856
+MD5sum: 56ff58478271b72b8fc3ee7bcdf25bb3
+SHA1: 94167908306415b2a308c82cb6c055bc8a6b9382
+SHA256: 6d9a870293983f9a70a60bbc3f6182b911cd6673efcea30f3400f685dbe78a16
+Homepage: http://iverilog.icarus.com/
+Description: Icarus Verilog compiler and simulation tool
+
+Package: iverilog-static
+Version: 12.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: iverilog (= 12.0-1)
+Filename: pool/main/i/iverilog-static/iverilog-static_12.0-1_aarch64.deb
+Size: 16208
+MD5sum: 372b60fe551c9b580bb973a335a4481b
+SHA1: 5a87456e2f7d94dae6d2d266c8e4e872bc611db9
+SHA256: ece3c825a78b41c918437d633533fe9c9645366e94f481db3cb2c8d8bd53632a
+Homepage: http://iverilog.icarus.com/
+Description: Static libraries for iverilog
+
+Package: iwyu
+Version: 0.24-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8804
+Depends: clang (>= 20), clang (<< 21), libc++, python
+Filename: pool/main/i/iwyu/iwyu_0.24-1_aarch64.deb
+Size: 577588
+MD5sum: ef48315655c4fbadf08095fe6396a2f0
+SHA1: eba6f241b50b8147ebc56024fccf73fff0dfce4a
+SHA256: 928bd2705af47e3552adf7da8979903a6df369b3033758475b39f9e34770f2b3
+Homepage: https://include-what-you-use.org/
+Description: A tool to analyze #includes in C and C++ source files
+
+Package: jack
+Version: 0.0.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: jack2
+Filename: pool/main/j/jack/jack_0.0.1_all.deb
+Size: 696
+MD5sum: 10dbc6658ae1cd70be7c24b2606145c4
+SHA1: f590db87d5274d4c715f987389c482667a0473ec
+SHA256: 70b5ca0a17043e43ead13b58b8db5ed2caacbbcea02bf27c806eed1fbdff3a59
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides JACK Audio Connection Kit
+
+Package: jack-example-tools
+Version: 4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 596
+Depends: alsa-lib, jack, libsamplerate, libsndfile
+Filename: pool/main/j/jack-example-tools/jack-example-tools_4-1_aarch64.deb
+Size: 83636
+MD5sum: a77442d9ccb7a3a7829ddbe6f62fa429
+SHA1: 660b9855e41902436e37e8dc18022668e96ae478
+SHA256: 247056102da04e372c968fe76cbe8bde4395605375bf69048abf9e27f71fbfd1
+Homepage: https://jackaudio.org/
+Description: Official JACK example clients and tools
+
+Package: jack2
+Version: 1.9.22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2120
+Depends: alsa-lib, dbus, libandroid-posix-semaphore, libdb, libexpat, libsamplerate, libopus
+Filename: pool/main/j/jack2/jack2_1.9.22-2_aarch64.deb
+Size: 373368
+MD5sum: 51b7b015ab05f2d39ebf3844b3738b56
+SHA1: cfa1ccd510f35d737efe10735531eefbe20c4908
+SHA256: 50de37488a883a8e396e9d7c6d5ce8ab80950bd1e182a17f4eea06c28e608eb0
+Homepage: https://jackaudio.org/
+Description: The JACK low-latency audio server
+
+Package: jackett
+Version: 0.23.71
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14268
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0
+Filename: pool/main/j/jackett/jackett_0.23.71_aarch64.deb
+Size: 3174360
+MD5sum: 060b2acf4724a3f441dda86d0c602726
+SHA1: 68623f9a214a88c2a5f7e12b903f30b4f16372fc
+SHA256: 7e9cad88d90eeffc08114ba7b6dd6887c78292a3f1cc17618abeb31e1e30d0c0
+Homepage: https://github.com/jackett/jackett
+Description: API Support for your favorite torrent trackers
+
+Package: jadx-x
+Version: 1.5.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 36
+Depends: openjdk-21-x, jadx (= 1.5.3)
+Filename: pool/main/j/jadx-x/jadx-x_1.5.3_all.deb
+Size: 3300
+MD5sum: cfc236a7285989f6736d2bb448637a85
+SHA1: 8f2c2dd9f664a92abd78fcffe393e8b83feb3d64
+SHA256: 55a938efde095ca50b67902e7c39e2cf07c66bd6ef4a334a6a3a5d6074e78c9d
+Homepage: https://github.com/skylot/jadx
+Description: Dex to Java decompiler GUI
+
 Package: jbig2dec
 Version: 0.20-1
 Architecture: aarch64
@@ -10599,10 +10824,10 @@ Depends: libandroid-support, libandroid-glob, libresolv-wrapper, readline, opens
 Breaks: krb5-dev
 Replaces: krb5-dev
 Filename: pool/main/k/krb5/krb5_1.22.1-1_aarch64.deb
-Size: 902244
-MD5sum: 1fb98e04fa4ad7e29835fa8f07b7b1f4
-SHA1: 3d1c5d25b8ea05144faeb2ef80adf84286ca857f
-SHA256: dc7db5c12fa3fd942cfa82376ac47f1aec7aab50dd391f6924b3edc93817280c
+Size: 901228
+MD5sum: e90f23b6add7504db95f3baaa5e5e64d
+SHA1: c5f28a235e29a00e55033d54ddb0a612cca394b3
+SHA256: 952be807e939348454ebcbc90377b5c18d47da6650dc5dda7a525fc765a112ec
 Homepage: https://web.mit.edu/kerberos
 Description: The Kerberos network authentication system
 
@@ -10830,10 +11055,10 @@ Installed-Size: 64
 Breaks: libandroid-glob-dev
 Replaces: libandroid-glob-dev
 Filename: pool/main/liba/libandroid-glob/libandroid-glob_0.6-3_aarch64.deb
-Size: 7036
-MD5sum: 17c6fc1dc432e470a94d266a43fe89f8
-SHA1: 7aa9f4c7447c9d7b8a5402fee586d2a1bfe74c92
-SHA256: eea96c8a1431d6b56d9d9950240f55800c3127056758f7345d83873ec8810006
+Size: 7040
+MD5sum: 65e937cc81d53bb2fe093d7772a6e642
+SHA1: 85abd4dcafc6587d3c322770fddfca64bbfbd03e
+SHA256: e99727e9405600cd52eb7bf8c4a1be7f6f4f7bf09e49dcb544c68804092f6376
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Shared library for the glob(3) system function
 
@@ -10845,9 +11070,9 @@ Installed-Size: 40
 Depends: libandroid-glob (= 0.6-3)
 Filename: pool/main/liba/libandroid-glob-static/libandroid-glob-static_0.6-3_aarch64.deb
 Size: 4704
-MD5sum: 06aadcfa8312d022e71a22a02f14f55b
-SHA1: 9130581ef7eba37c48f27ce7eaf69c9a2dd5bfb4
-SHA256: 2919ae1f1537fd2ff4926e8bcf266abe39c26a773f647339363809f7dc5fbddb
+MD5sum: 0505b22c7a8c0d324838162f73ebc6db
+SHA1: d6332b488575098c59b315f1e3b592ebf689aed6
+SHA256: 1ba420471fc1862ff089181e5d03f36addeb9e753dcdc9af3f0f907b0e2a1662
 Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
 Description: Static libraries for libandroid-glob
 
@@ -10971,10 +11196,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 76
 Filename: pool/main/liba/libandroid-support/libandroid-support_29-1_aarch64.deb
-Size: 10864
-MD5sum: 59501290fb6aa1fec821f97c5e3df94d
-SHA1: e22e9336a4334cd69bbf864b0135e85b36b8c4aa
-SHA256: 11e75063a4037479dde8bf10ab38dff9a6257b6a8985ac4e33cb012a85c5685c
+Size: 10880
+MD5sum: 0eb7deffa3d2eb7d3ee0da3243cb5f7e
+SHA1: 08e056c16fec38b5ccdfd826fc9053f673aeb4e7
+SHA256: c51d9d06838ee603715a9d13ddc3e66a957f81451e970b3fad4e8f3b3b48a011
 Homepage: https://github.com/termux/libandroid-support
 Description: Library extending the Android C library (Bionic) for additional multibyte, locale and math support
 
@@ -10985,10 +11210,10 @@ Maintainer: @termux
 Installed-Size: 72
 Depends: libandroid-support (= 29-1)
 Filename: pool/main/liba/libandroid-support-static/libandroid-support-static_29-1_aarch64.deb
-Size: 8636
-MD5sum: 4064a2e2f53cab1e4bee2a5dc693624e
-SHA1: 8448080c43c4ebfa536476807d17980d98cb0028
-SHA256: 536a3cea8417ac30bd17d7fb6d774cb7ce1c6c15faf749633e2381e325294071
+Size: 8632
+MD5sum: 41a7bd66ede431ca675acd2b33dc3c7c
+SHA1: 1ebed8c002081b3510291073827ba048a65271f9
+SHA256: 3aa4669c0f726bfc3ab72360a49464e5a6272f8d390aa45c589f635b6dbd4a60
 Homepage: https://github.com/termux/libandroid-support
 Description: Static libraries for libandroid-support
 
@@ -11072,6 +11297,34 @@ SHA1: 25f6dfce12a2532a7b6a23290d58b35a9b9e8fa7
 SHA256: aa38991af629d5dd15ec07e40a554b90c4ac61d139962739c1ad11d6192d9670
 Homepage: https://man7.org/linux/man-pages/man3/wordexp.3.html
 Description: Static libraries for libandroid-wordexp
+
+Package: libao
+Version: 1.2.2-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 328
+Depends: pulseaudio
+Filename: pool/main/liba/libao/libao_1.2.2-8_aarch64.deb
+Size: 34824
+MD5sum: d1fb0a9cd568870428f7cdcc95df0e07
+SHA1: 88b640923e7b363a141d933cf70158dc02310b1b
+SHA256: ea8d26c889ae3730ec9a4a08508e123430a06d43981d244c4a1e9a35f96af2a5
+Homepage: https://www.xiph.org/ao/
+Description: A cross platform audio library
+
+Package: libao-static
+Version: 1.2.2-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: libao (= 1.2.2-8)
+Filename: pool/main/liba/libao-static/libao-static_1.2.2-8_aarch64.deb
+Size: 16712
+MD5sum: f2ba84c06452a259ca41631cec362055
+SHA1: cc6722c0a92560e7ecb9471a329e6b58c6f88752
+SHA256: 434ee473a6b9e6ee41cebb9620c67ea06642c91f8fea7ca69e69fe36db27933c
+Homepage: https://www.xiph.org/ao/
+Description: Static libraries for libao
 
 Package: libaom
 Version: 3.13.1
@@ -11384,10 +11637,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1268
 Filename: pool/main/libc/libc++/libc++_28c_aarch64.deb
-Size: 290992
-MD5sum: a8892ee4ed48c5c9ea1e6020a27b329d
-SHA1: f342c2cdd5eddd7f8a43fb8ec033fd68c7527cd6
-SHA256: cc09c658cd4c04ecf856dbf02de6f363207c4b3803e70c46ad20132694fb61a8
+Size: 290920
+MD5sum: a503ef8bd038bc515ae33ffd9dbe64b7
+SHA1: 7e0c3f54472aa80af18fcffd2183d92a842661b2
+SHA256: 9c2daf52459342a81896cc59910698756b7c3cc0483a67b7d5087e4028cbac71
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -11493,6 +11746,22 @@ SHA1: da72a8e8aa97138540d3762958e019dbc226260d
 SHA256: 9332f68b84866a6f77332a0710dc65623aa3fd972ebb910a09f1239e42af2ab6
 Homepage: https://sites.google.com/site/fullycapable/
 Description: Static libraries for libcap
+
+Package: libchromaprint
+Version: 1.5.1-p20250625-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: fftw, libc++
+Breaks: chromaprint (<< 1.5.1-p20250625)
+Replaces: chromaprint (<< 1.5.1-p20250625)
+Filename: pool/main/libc/libchromaprint/libchromaprint_1.5.1-p20250625-1_aarch64.deb
+Size: 46908
+MD5sum: fe021bb17e8b79b0ee05fd7d4373cb3a
+SHA1: cb51b1cf3705e077e52d19112bd0249899e5eb66
+SHA256: 3a8d04aa5013f34c8bae256c9e28332f7008c4608e122e5791300fb02109b4ba
+Homepage: https://acoustid.org/chromaprint
+Description: C library for generating audio fingerprints used by AcoustID
 
 Package: libclc
 Version: 20.1.7
@@ -11718,10 +11987,10 @@ Depends: libc++
 Breaks: libdb-dev
 Replaces: libdb-dev
 Filename: pool/main/libd/libdb/libdb_18.1.40-5_aarch64.deb
-Size: 507980
-MD5sum: ce667ce50183ea73a17b4a7c16485f72
-SHA1: ffe8550d283a34c34d6fedb9336664b44cc2770e
-SHA256: 319644f4ea023804bee0d8b9a0b6f6f0613fa58a94815cbdcbfa6f120355643b
+Size: 507248
+MD5sum: d9203aef3793c1d94aea9d8ad8c2ca43
+SHA1: 06d2bfe194d929a61b9558d59d6ab1da86c4b77b
+SHA256: e06bdd3d5ef6a3f92feada2998e048ca4800e92774cd00cdb36ca7dae1337ea5
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: The Berkeley DB embedded database system (library)
 
@@ -11732,10 +12001,10 @@ Maintainer: @termux
 Installed-Size: 9364
 Depends: libdb (= 18.1.40-5)
 Filename: pool/main/libd/libdb-static/libdb-static_18.1.40-5_aarch64.deb
-Size: 481272
-MD5sum: 6142201982a8c7ec133665496581ede0
-SHA1: 6e355b22541546cf0297fcd269c161f332bc2b12
-SHA256: c40a5792551401951d4b1a5949c8eea26200a34860c5752c4f9159a54eafc4be
+Size: 481076
+MD5sum: 84419f4fb82d0038dcfa87a11d54ec35
+SHA1: 7b272862373cb5c6501f11f39af12cc5f59dc780
+SHA256: 2f751c00d424390db2db9734cb3b438b41566f90efb6d971bf80d73720a5fd9b
 Homepage: https://www.oracle.com/database/berkeley-db
 Description: Static libraries for libdb
 
@@ -12612,10 +12881,10 @@ Depends: libc++
 Breaks: libicu-dev
 Replaces: libicu-dev
 Filename: pool/main/libi/libicu/libicu_77.1-2_aarch64.deb
-Size: 9940752
-MD5sum: 94ed23b4646c19ef7e573e75cfd4ec71
-SHA1: b7a4a84abe01ba84d16ad98af68724e3d11ac7d2
-SHA256: 1b63efbba29162197d727b27ddab39a0206842cb6313e82efd23443e09332bcd
+Size: 9933976
+MD5sum: dd78c13bc5d3acb431b0b6b7209ca3d2
+SHA1: c96bc25950a511444d80be21f78faeb5a77856ee
+SHA256: 16a867ee21179efb441f6a7c740ccd80e9d1e85f01c99810327a1209f4c49f70
 Homepage: http://site.icu-project.org/home
 Description: International Components for Unicode library
 
@@ -12626,10 +12895,10 @@ Maintainer: @termux
 Installed-Size: 45244
 Depends: libicu (= 77.1-2)
 Filename: pool/main/libi/libicu-static/libicu-static_77.1-2_aarch64.deb
-Size: 9822560
-MD5sum: a34e729f5d2e739143a55f22be111371
-SHA1: 187162bf45a2a2b2d5d8faf0a9e108d53929e465
-SHA256: 7471c605f525e188c2546e785402b5264257e66ee65b2538ea29093578bd1825
+Size: 9822276
+MD5sum: 145f07977304a02f5c20544dab58bfd4
+SHA1: b3351d93b2b08e07519502b490bf304f3567f012
+SHA256: ce64f26703860f46cb1c76a104f625c59597d86a372895c1e8cf4e342550a9eb
 Homepage: http://site.icu-project.org/home
 Description: Static libraries for libicu
 
@@ -13397,6 +13666,21 @@ SHA256: 16cb199b6567387ee09acc26d8095afad6c8cc1a06580a36bf047d4cb080b0e4
 Homepage: https://lame.sourceforge.io/
 Description: Static libraries for libmp3lame
 
+Package: libmpdclient
+Version: 2.24
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 544
+Breaks: libmpdclient-dev
+Replaces: libmpdclient-dev
+Filename: pool/main/libm/libmpdclient/libmpdclient_2.24_aarch64.deb
+Size: 72200
+MD5sum: fe3227b9c1b7dbfc5e39d36054eb8c44
+SHA1: 6c8964820ce7edd570aa9860782c2cced1705733
+SHA256: d5923baeb764f0db3cc84e611ed7f917b1a78269021f23535c6f18c7bca9653c
+Homepage: https://www.musicpd.org/libs/libmpdclient/
+Description: Asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
+
 Package: libmpfr
 Version: 4.2.1-1
 Architecture: aarch64
@@ -13513,6 +13797,22 @@ SHA1: f99e8611f1d3db384ac62190d3196fe54e414f01
 SHA256: 50f3f96fc7d45d4d68ca8a30161087c836f48c1a2d2d3ce8d851d714b0e6ce83
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Static libraries for libnettle
+
+Package: libnfs
+Version: 6.0.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 896
+Depends: libgnutls
+Breaks: libnfs-dev
+Replaces: libnfs-dev
+Filename: pool/main/libn/libnfs/libnfs_6.0.2-1_aarch64.deb
+Size: 152308
+MD5sum: 91e273c6af028c3bb187790ed6ee7670
+SHA1: 412727fe65988551b7ef7423c7bc9e476055f573
+SHA256: 50898a6c80a15c05720adbd6ade6f3e6651a314bbbc8b20e4a67da72df82a61f
+Homepage: https://github.com/sahlberg/libnfs
+Description: NFS client library
 
 Package: libnghttp2
 Version: 1.67.1
@@ -13868,6 +14168,36 @@ SHA256: 42b52a18f785ed31bf1dfc9aedabd45a56b76f896589a4a0bc592b57ea35bd9c
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for libopus
 
+Package: libotr
+Version: 4.1.1-3
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 376
+Depends: libgcrypt
+Breaks: libotr-dev
+Replaces: libotr-dev
+Filename: pool/main/libo/libotr/libotr_4.1.1-3_aarch64.deb
+Size: 68868
+MD5sum: 2694adb6a259f422c4af6fa88846db14
+SHA1: 9b1bb6c8a03dedc875b465b17118301118f3033c
+SHA256: c31d5b616e8480c315ff7e35ea84bf957e0b9a579c61f8b041c939d7414e5769
+Homepage: https://otr.cypherpunks.ca
+Description: Off-the-Record (OTR) Messaging allows you to have private conversations over instant messaging by providing: Encryption, Authentication, Deniability, Perfect forward secrecy
+
+Package: libotr-static
+Version: 4.1.1-3
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 180
+Depends: libotr (= 4.1.1-3)
+Filename: pool/main/libo/libotr-static/libotr-static_4.1.1-3_aarch64.deb
+Size: 36796
+MD5sum: bde9597990d8ab1f79edfe022eaac622
+SHA1: f858de1a466d9ac638bfbf618754b10e7ad24a30
+SHA256: b1f89248e705fc1aa9fac248ea4197ab482a51fa7be9ab7c843c097e2227f652
+Homepage: https://otr.cypherpunks.ca
+Description: Static libraries for libotr
+
 Package: libowfat
 Version: 0.33-1
 Architecture: aarch64
@@ -14194,10 +14524,10 @@ Maintainer: @termux
 Installed-Size: 104
 Depends: resolv-conf
 Filename: pool/main/libr/libresolv-wrapper/libresolv-wrapper_1.1.7-6_aarch64.deb
-Size: 11544
-MD5sum: e3fcd295db928cc54a33ad39ff1581f7
-SHA1: 750815b3180b8723798a9f66326d29ed3eebda7d
-SHA256: 21fd2b4e37d5ca8aca3d817059249bad157fadc99d74455ae2c6832d4311ad6f
+Size: 11548
+MD5sum: 9c0c158d6d91b2f7d3db866ec830a498
+SHA1: 504b167ca85b27c01fc13d85c4eda4e4a81ad385
+SHA256: 355aa491c8d8b4f8f58d7ada1faa43d333c4bf5c03c2f6f5a48b79fbe6b2c674
 Homepage: https://cwrap.org/resolv_wrapper.html
 Description: A wrapper for DNS name resolving or DNS faking
 
@@ -16576,6 +16906,20 @@ SHA256: e483dd8d405671311f0157ba90dcd0c7ccd869387ac794948d9ae5330c5db2cc
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for (un)mounting filesystems
 
+Package: mpd
+Version: 0.24.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7624
+Depends: libchromaprint, dbus, ffmpeg, game-music-emu, libao, libbz2, libc++, libcurl, libexpat, libflac, libicu, libid3tag, libmad, libmp3lame, libmpdclient, libnfs, libogg, libopenmpt, libopus, libsamplerate, libsndfile, libsoxr, libsqlite, libvorbis, libwavpack, libmpg123, openal-soft, pcre2, pulseaudio, yajl, zlib, fmt
+Filename: pool/main/m/mpd/mpd_0.24.5-1_aarch64.deb
+Size: 2788688
+MD5sum: cb7a301548c4c0f52fdaecf08910e425
+SHA1: 7fba20ba8b5a10db8947fad8d1c50675c89d0aca
+SHA256: 01668df942fd16d5043009d21841ebdff07efdec79033c29720688735af9912c
+Homepage: https://www.musicpd.org
+Description: Music player daemon
+
 Package: mpg123
 Version: 1.33.2
 Architecture: aarch64
@@ -16594,14 +16938,14 @@ Package: ncurses
 Version: 6.5.20240831-3
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 1592
+Installed-Size: 1588
 Breaks: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Replaces: ncurses-dev, ncurses-utils (<< 6.1.20190511-4)
 Filename: pool/main/n/ncurses/ncurses_6.5.20240831-3_aarch64.deb
-Size: 537528
-MD5sum: 34699f0fec270ce0192b549f7c558e08
-SHA1: 8b0be65c028782e02737a312e50c7ef017dcbd29
-SHA256: 1db8145d6ea64d8021bec130b10e760f6b2f5cee80e16e691b1e53ea3cb13a7a
+Size: 537784
+MD5sum: d2e6db9c51f97b9541d8fe7ea0d2e495
+SHA1: b7d1c213d34064cd55c0741777b9f2c8a6e67564
+SHA256: 8ff1065d05df5c356d879fe5823a31c515d06f217bdd23a4ac7c9889ae236751
 Homepage: https://invisible-island.net/ncurses/
 Description: Library for text-based user interfaces in a terminal-independent manner
 
@@ -16612,10 +16956,10 @@ Maintainer: @termux
 Installed-Size: 784
 Depends: ncurses (= 6.5.20240831-3)
 Filename: pool/main/n/ncurses-static/ncurses-static_6.5.20240831-3_aarch64.deb
-Size: 153576
-MD5sum: 272762add6834c9f543c02967ab39a77
-SHA1: dd806e77882a136a022cfbbf6aba591cb18a7d1d
-SHA256: 3a3b44b326c281c34926a79a44c66b31883bfdd916f510fdfcd5c9f9a1397514
+Size: 153804
+MD5sum: a7ced6520a6ff20e98fc04b2fc0b4225
+SHA1: 05ce5d660d386ec6604ebfb152e7504b3ee76b74
+SHA256: 54cff4a0c9b16c9be4d09646e3fecb5b79680f179a7de416cfc644e287983041
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
@@ -16628,10 +16972,10 @@ Depends: ncurses (= 6.5.20240831-3)
 Breaks: ncurses (<< 6.4)
 Replaces: ncurses (<< 6.4)
 Filename: pool/main/n/ncurses-ui-libs/ncurses-ui-libs_6.5.20240831-3_aarch64.deb
-Size: 33012
-MD5sum: cd1f237cb2f872ae1c19214d91fbe26b
-SHA1: c91d343a0c44158fce53b0394caee667c263aa97
-SHA256: b41738cc2df04b25b8aa9f4083bfab053669ccb4b2d31bd291744c826b7bc42e
+Size: 32992
+MD5sum: 2f078f87470f8a033743de49d9853975
+SHA1: 7a2bc3099be9aa920ad1e773f50aa86a704dfb19
+SHA256: 79d4f11cceaa9a82a051f59ed025f8259d07ae8886da9007167d3d21247b6144
 Homepage: https://invisible-island.net/ncurses/
 Description: Libraries for terminal user interfaces based on ncurses
 
@@ -16642,10 +16986,10 @@ Maintainer: @termux
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-3)
 Filename: pool/main/n/ncurses-ui-libs-static/ncurses-ui-libs-static_6.5.20240831-3_aarch64.deb
-Size: 39600
-MD5sum: 84f587ae3eb42b86a61effd5b1573519
-SHA1: 56f9e551b0591a3d0e779bd5afa08c569fde1a8c
-SHA256: 8c5dd77ac12eb7760a7cb1b83df53d3cbcef084da66f7b13d8e346b69615b320
+Size: 39564
+MD5sum: de2fc6d26c447fabe50367984c3fdaaf
+SHA1: 215f514c86040ab824439aa3f85d31d112c34c49
+SHA256: a8888a3295c74bbec419722a383c55a825496f4a3ce9210ad375bb3a53c19389
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
@@ -16656,10 +17000,10 @@ Maintainer: @termux
 Installed-Size: 268
 Depends: ncurses (= 6.5.20240831-3)
 Filename: pool/main/n/ncurses-utils/ncurses-utils_6.5.20240831-3_aarch64.deb
-Size: 87880
-MD5sum: c4997a4dfee1905438bee9e45434fbfd
-SHA1: 47085e19df87788a6a1654264009cc33a65d3619
-SHA256: 9b8739e534e5e1222c6c6f96368f5f8fa8a20bb99bb5045c7016bb3517fbe950
+Size: 87828
+MD5sum: 00a0bcb8ca1b1a56d1e4b4924ff3b630
+SHA1: e43d091d0ba26b34f48d9dc70cf8fb6270f315cd
+SHA256: f9c2b17b1a07a99b6d2455e90d37796b4e567da796b813c7cf3a545e4876499e
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
 
@@ -16701,9 +17045,9 @@ Installed-Size: 4
 Depends: netstandard-targeting-pack-2.1-9.0 | netstandard-targeting-pack-2.1-8.0
 Filename: pool/main/n/netstandard-targeting-pack-2.1/netstandard-targeting-pack-2.1_9.0-2_aarch64.deb
 Size: 732
-MD5sum: 8cd2615376914e71801889ab15666264
-SHA1: adbd5bfcb6a302a38942779712fc354f6057e02a
-SHA256: aa2cbf25c2a0cd042e0644d5235cac0b2b3d303cae5b3fea18dccd84995cd572
+MD5sum: b5132142cdd92a4faf49157f7a8e08bb
+SHA1: 6390f68720d5cf2fc12e07d78488dccc76392c98
+SHA256: 5640aaa2054324d60ae9ddce179882a1ed3344073662ff672b9aaefd92a52f31
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: A metapackage for NETStandard.Library 2.1 Targeting Pack
 
@@ -16714,10 +17058,10 @@ Maintainer: @truboxl
 Installed-Size: 18480
 Depends: dotnet-host
 Filename: pool/main/n/netstandard-targeting-pack-2.1-8.0/netstandard-targeting-pack-2.1-8.0_8.0.20_aarch64.deb
-Size: 1318140
-MD5sum: 897be1135171a4175948a1939b33ea54
-SHA1: b63b328cefdcf5a5a589ed589b75f184254c00de
-SHA256: bad25ea32dcb5f0fa07121d329dcf48c483916e0e36723473d95c02c0cfafb13
+Size: 1318600
+MD5sum: 9d0b7fd6c1fe4e202d5c0459750be353
+SHA1: 4401b6b7daf2f5ebb063ffa0131b02cd04b5f68c
+SHA256: 42cda51c2cf910e73c5c6e8e20139ed3ec64cd956fff5bf2d8b1cca44914d5c6
 Homepage: https://dotnet.microsoft.com/en-us/
 Description: NETStandard.Library 2.1 Targeting Pack (.NET 8.0)
 
@@ -17089,6 +17433,23 @@ Depends: ca-certificates, zlib
 Conflicts: libcurl (<< 7.61.0-1)
 Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
 Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
+Filename: pool/main/o/openssl/openssl_1+3.5.2_aarch64.deb
+Size: 2448476
+MD5sum: af8634c3ef4407d9cd16a2da8b523d4d
+SHA1: d9596c4450f1932cbf08681e2a20eefa225010a0
+SHA256: 8a3de1dc4fc3f5cca4ee107fe2bbbec51d884a08d8d6132e8f5774e08a0329ca
+Homepage: https://www.openssl.org/
+Description: Library implementing the SSL and TLS protocols as well as general purpose cryptography functions
+
+Package: openssl
+Version: 1:3.5.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8516
+Depends: ca-certificates, zlib
+Conflicts: libcurl (<< 7.61.0-1)
+Breaks: openssl-tool (<< 1.1.1b-1), openssl-dev
+Replaces: openssl-tool (<< 1.1.1b-1), openssl-dev
 Filename: pool/main/o/openssl/openssl_1:3.5.2_aarch64.deb
 Size: 2446224
 MD5sum: c069240bb85c3ee4a320fa816112b549
@@ -17111,6 +17472,20 @@ SHA256: ba0ac615a6f78e02226a1f11c5db244ac48042fcc15490a84942fcb102d42b4e
 Homepage: https://www.openssl.org/
 Description: Static libraries for openssl
 
+Package: openssl-static
+Version: 1:3.5.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11892
+Depends: openssl (= 1:3.5.2)
+Filename: pool/main/o/openssl-static/openssl-static_1+3.5.2_aarch64.deb
+Size: 2597780
+MD5sum: 57ded266993de82d0e79d27855ded00f
+SHA1: d1643c6fb939fc95fdd8f8f4607479d23b42131a
+SHA256: 2fac61c6296caa77f81c5b1e7fa38c5cf8b18c563036cdfa0d4ccb7dab4bc664
+Homepage: https://www.openssl.org/
+Description: Static libraries for openssl
+
 Package: openssl-tool
 Version: 1:3.5.2
 Architecture: aarch64
@@ -17122,6 +17497,20 @@ Size: 272836
 MD5sum: e7db2af3d84a9d97c437d72c2c7fb94d
 SHA1: cafb59ea821c43c9db269ef9b416b6e0c98b2b38
 SHA256: 819565625cada18404c20168dc0acd86bb92b1a28b5b95e8cc8e859bb44b9aac
+Homepage: https://www.openssl.org/
+Description: The openssl command line cryptographic tool
+
+Package: openssl-tool
+Version: 1:3.5.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 960
+Depends: openssl (= 1:3.5.2)
+Filename: pool/main/o/openssl-tool/openssl-tool_1+3.5.2_aarch64.deb
+Size: 274244
+MD5sum: 3b5d082928806fdbfe2937e48ce56f6c
+SHA1: df5dab21150a69e0881e8a964c8b3da8081e10f2
+SHA256: 56cc06ccee2e0003e34f6e3fb56bda2a3df08bd837139077a41b2ff6607bc259
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
@@ -17956,10 +18345,10 @@ Depends: libandroid-support, ncurses
 Breaks: bash (<< 5.0), readline-dev
 Replaces: readline-dev
 Filename: pool/main/r/readline/readline_8.3.1-1_aarch64.deb
-Size: 293652
-MD5sum: 188906108203ac458712c2ff79401d7b
-SHA1: c582c8008976223bba5e1b343244774040580d31
-SHA256: 39045d7abe4a232ec44a4936a6ed097a06999a4458cbcfa706bc35317da79d6a
+Size: 293504
+MD5sum: 56c1f406129e01df76876cb36fd6765a
+SHA1: 239fdf51b5ecef29b9e08ac4bce52aed53f532df
+SHA256: ddff787a2ab5f69031a363ac053a10cb629cd91bba77cb0355c92c2da30084ca
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Library that allow users to edit command lines as they are typed in
 
@@ -17970,10 +18359,10 @@ Maintainer: @termux
 Installed-Size: 712
 Depends: readline (= 8.3.1-1)
 Filename: pool/main/r/readline-static/readline-static_8.3.1-1_aarch64.deb
-Size: 125072
-MD5sum: 4e12cd1c33d219954b5d82d19eaa5b32
-SHA1: e4cfeed071a56a49f17dcb5f107563b4363d7e9e
-SHA256: 6694809659c8b3a030fd8738b8a5764460adf720d1fdc952260833696870ce85
+Size: 125220
+MD5sum: 75748b144e040bfe5d0b37544917ca2f
+SHA1: 17174f67e84a0716a631482d20a374760aefad46
+SHA256: 5776ea9d49dbfda2f413a5281638f98af7e9ca3bb626f862316577342b8a7479
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
 
@@ -17983,10 +18372,10 @@ Architecture: aarch64
 Maintainer: @termux
 Installed-Size: 48
 Filename: pool/main/r/resolv-conf/resolv-conf_1.3_aarch64.deb
-Size: 1012
-MD5sum: 933e5cc94c5e10d737a96be8b7eb909c
-SHA1: 00f7a985df411f02566c081188500a3e4f951499
-SHA256: 556232ba7968e43a828f08136d99b23e7f41e4c8f19932772c8800ea66997fbe
+Size: 1016
+MD5sum: 9879a5c6d8534e8cec3710f3000a4ec9
+SHA1: 2011a5018f3b200dca45976311175d82c84edb49
+SHA256: 69e2cf183760a18122120645df85a4a798ad8474609b20ac9fb7db6456d1684c
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
 
@@ -19242,6 +19631,35 @@ SHA256: 6a56ec1cb2a6d0c36b700a87f0a4884c6c2fa97983777ba25ad4416184866dfa
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
+Package: yajl
+Version: 2.1.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Breaks: yajl-dev
+Replaces: yajl-dev
+Filename: pool/main/y/yajl/yajl_2.1.0-7_aarch64.deb
+Size: 25124
+MD5sum: 1cb24307473241a40743b36881d92f3c
+SHA1: 42ab2da0d01ae8762fa5848c4d3261ddf7e66b27
+SHA256: 24937efbe62674767bf90648f8647c9b771dcf0c885d81f69ab4531a76ea81d0
+Homepage: https://lloyd.github.io/yajl/
+Description: Yet Another JSON Library
+
+Package: yajl-static
+Version: 2.1.0-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: yajl (= 2.1.0-7)
+Filename: pool/main/y/yajl-static/yajl-static_2.1.0-7_aarch64.deb
+Size: 14368
+MD5sum: dd1ba39c83679a6ff72cf6b556efcca1
+SHA1: b1e22cc338a2ea62ef3abeba597a35709cf02276
+SHA256: 25560089ad4afa968659ecad88b25eda377e53109226a3c20e17317b1a065a6f
+Homepage: https://lloyd.github.io/yajl/
+Description: Static libraries for yajl
+
 Package: yarn
 Version: 1.22.22
 Architecture: all
@@ -19264,10 +19682,10 @@ Installed-Size: 256
 Breaks: ndk-sysroot (<< 19b-3), zlib-dev
 Replaces: ndk-sysroot (<< 19b-3), zlib-dev
 Filename: pool/main/z/zlib/zlib_1.3.1-1_aarch64.deb
-Size: 60088
-MD5sum: 2be1a98750647ef4aa010ac84273f4ea
-SHA1: a02e959185034b234875e3695f65e486475342b7
-SHA256: bcff26950dee06c28f2d0a5df0c1133934afe3fa1aa9c3be41fd449c6b33a893
+Size: 60120
+MD5sum: 0e172854a23b46e937bcb94b28c3eb2d
+SHA1: 9a73b851fed1c575e9ae2fefab2ee3fe88b28747
+SHA256: b9a68e83d5efa4e18ca5a0c507e0014712f9344c3ff1bdcf564d84605411360a
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
@@ -19278,10 +19696,10 @@ Maintainer: @termux
 Installed-Size: 136
 Depends: zlib (= 1.3.1-1)
 Filename: pool/main/z/zlib-static/zlib-static_1.3.1-1_aarch64.deb
-Size: 34400
-MD5sum: deb2f11bfbaddb438441f5bd42f4a0a9
-SHA1: 55ab8fed7ad42eedaa774abf498a1e24c693e718
-SHA256: 7ddd6db4f172d8f554ca189762ef74534b8df68b80ee613843bcdf657937a598
+Size: 34380
+MD5sum: 78974108ea1f93f8a75fe171e8e7dcf0
+SHA1: efd895193a47aa6df693b52b8885f9d3935ae678
+SHA256: 97ba2bf60abacd70ffdbcd52be78c06e6021956d4596d6a7d90e3ffe51d388b1
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
