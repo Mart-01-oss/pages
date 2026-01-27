@@ -11135,9 +11135,9 @@ Maintainer: @termux
 Installed-Size: 88
 Filename: pool/main/k/kainjow-mustache/kainjow-mustache_4.1_all.deb
 Size: 8288
-MD5sum: cfa2af687958714f464dc8bc2a44f238
-SHA1: c6f961524df904eab01083a0ff7dbef24cafcf4a
-SHA256: 2474f82fdff37679cb3c47c642b70d20c3e942de0cbae6200dc65ae4dd6c1eb5
+MD5sum: 1aae402e9936760201aa9688574137fc
+SHA1: 6b4ef77f9d3cdeb083794b9ea8738851856dec63
+SHA256: 3c8159dff998a365741172b54bae0d7e9ec7c36c771dc415beb023e0eec229dd
 Homepage: https://github.com/kainjow/Mustache
 Description: Mustache implementation for modern C++
 
@@ -11170,6 +11170,131 @@ SHA256: cb5eb62f7f1f6a0cf66ce7bad667620dd9f4747b0f637c984bb388a18266f7eb
 Homepage: https://github.com/kakoune-lsp/kakoune-lsp
 Description: Language Server Protocol Client for the Kakoune editor
 
+Package: kbd
+Version: 2.9.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Filename: pool/main/k/kbd/kbd_2.9.0_aarch64.deb
+Size: 7048
+MD5sum: 8352a57430fc85ad8a957d83c63f1799
+SHA1: 5b0c3b8027a47c11d3230c506141bcbd251b6c72
+SHA256: 06f43b1efc568ddde2c7c91a10aa54740094abfb534ecb3aca846681edcb6611
+Homepage: https://kbd-project.org/
+Description: KBD's showkey utility for examining keycodes
+
+Package: kcptun
+Version: 20250730-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25028
+Breaks: kcptun-client, kcptun-server
+Replaces: kcptun-client, kcptun-server
+Filename: pool/main/k/kcptun/kcptun_20250730-1_aarch64.deb
+Size: 6486232
+MD5sum: 81a421bbd85cbf44b35c88b99150e418
+SHA1: a8a6db1e49db1e5f0eea12c5b09c644a0fe53671
+SHA256: 25030926fb005416c402dbed97510301960ba9ccc7fc0c79c9e63849b1003b7a
+Homepage: https://github.com/xtaci/kcptun
+Description: A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC
+
+Package: keybase
+Version: 6.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 134900
+Conflicts: kbfs
+Replaces: kbfs
+Filename: pool/main/k/keybase/keybase_6.5.1-1_aarch64.deb
+Size: 30351400
+MD5sum: 3dff41b24001483bae63680809d97944
+SHA1: ef901cadfb75d05b88aabd536d11fc10ecbe44eb
+SHA256: 845407fce428a8b72470b180a2248792d9df673b0c4ea1370d5e43143569c604
+Homepage: https://keybase.io
+Description: Key directory that maps social media identities to encryption keys
+
+Package: keychain
+Version: 2.9.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 108
+Depends: dash, gnupg
+Filename: pool/main/k/keychain/keychain_2.9.6_all.deb
+Size: 27300
+MD5sum: 910bc2e15dd3e99ead61798350df3e10
+SHA1: 58be508cd49aa68d300f5b99ca976cc11ca67019
+SHA256: 14b67e164dc16bf5d84e778ee149380efd952ab4891b68d1454dcecbb326e6c3
+Homepage: https://www.funtoo.org/Keychain
+Description: keychain ssh-agent front-end
+
+Package: kibi
+Version: 0.2.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Filename: pool/main/k/kibi/kibi_0.2.2-3_aarch64.deb
+Size: 196172
+MD5sum: e8a11d589943e98680491c34be1bfca5
+SHA1: 21711ee18f63201fdc7222194e27eaf530be7421
+SHA256: 939acdb217cbcf04634a535163f316c70cd71dee35bb51ad17fb1f5e79d5870b
+Homepage: https://github.com/ilai-deutel/kibi
+Description: A tiny terminal text editor, written in Rust
+
+Package: kiwix-tools
+Version: 3.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libc++, libkiwix, libzim
+Filename: pool/main/k/kiwix-tools/kiwix-tools_3.7.0-1_aarch64.deb
+Size: 36736
+MD5sum: 751eb8f5d3b90ffbb37b460e71e8c2a6
+SHA1: 2aa133a8fb2e4d535092acf3f10a8e712dd3df53
+SHA256: ba32394d4e4e9204831052062d7c079d512dabf1586fe033896da9ea8f23f692
+Homepage: https://github.com/kiwix/kiwix-tools
+Description: A collection of Kiwix related command line tools
+
+Package: knockd
+Version: 0.8.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Depends: libpcap
+Filename: pool/main/k/knockd/knockd_0.8.2-2_aarch64.deb
+Size: 29444
+MD5sum: 23d40fc821a7443acfbd8cbac932b97a
+SHA1: 5df59b385d1057224cc072f31f53119c85ce26ab
+SHA256: 45152d59c0322a396bdd014599c3e8631207d28afa68b2348d56333801d2cdf4
+Homepage: https://zeroflux.org/projects/knock
+Description: A port-knocking daemon
+
+Package: kona
+Version: 20211225-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Filename: pool/main/k/kona/kona_20211225-1_aarch64.deb
+Size: 85364
+MD5sum: 6c6838e9ce7968c85a20755b2839d3f7
+SHA1: cef5b19b2a81a08978d5dc1cfb93bd7028c98a51
+SHA256: 4377d7ece83da4f14f9d00941a73b2046cf4a4767b69b448266c7d8eff211054
+Homepage: https://github.com/kevinlawler/kona
+Description: Open-source implementation of the APL-like K programming language
+
+Package: kotlin
+Version: 2.2.20
+Architecture: all
+Maintainer: @termux
+Installed-Size: 84148
+Depends: openjdk-21
+Filename: pool/main/k/kotlin/kotlin_2.2.20_all.deb
+Size: 76757836
+MD5sum: 723a9a2df5ee083f049d50a83d7b044a
+SHA1: 8adf28338e6d621f2d24c1bf796481db93d62874
+SHA256: bf6bd92b27eda9f06cf9ddc2c3514d4637fc4f0542a1186b8cf2fa919c77caae
+Homepage: https://kotlinlang.org/
+Description: The Kotlin Programming Language
+
 Package: krb5
 Version: 1.22.1-1
 Architecture: aarch64
@@ -11185,6 +11310,46 @@ SHA1: c5f28a235e29a00e55033d54ddb0a612cca394b3
 SHA256: 952be807e939348454ebcbc90377b5c18d47da6650dc5dda7a525fc765a112ec
 Homepage: https://web.mit.edu/kerberos
 Description: The Kerberos network authentication system
+
+Package: kubecolor
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: Kalle Fagerberg @applejag
+Installed-Size: 6012
+Depends: kubectl
+Filename: pool/main/k/kubecolor/kubecolor_0.5.1-1_aarch64.deb
+Size: 1747212
+MD5sum: 40f1d16172024b00f7e43af5dbc1e64a
+SHA1: 0e9af7be0c9578d758d179520908223e76cf1567
+SHA256: 5df9b74e142988b1d7e7b3574658fa003fc0be351af6fbab437741d858ea90d3
+Homepage: https://github.com/kubecolor/kubecolor
+Description: Colorize your kubectl output
+
+Package: kubectl
+Version: 1.34.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 78520
+Filename: pool/main/k/kubectl/kubectl_1.34.1_aarch64.deb
+Size: 14078932
+MD5sum: 48b74f853c2afe018e8aeba24ef205d2
+SHA1: c88b3a9afb0f94b0d2d030485dd8e8e5c63153b3
+SHA256: f01486362f1911027d8ff36ce067c3792a07e31752e967bec692ef4a61c5ea43
+Homepage: https://kubernetes.io/
+Description: Kubernetes.io client binary
+
+Package: kubelogin
+Version: 1.34.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15472
+Filename: pool/main/k/kubelogin/kubelogin_1.34.1_aarch64.deb
+Size: 3857632
+MD5sum: 0ee9171a8c7db6ff405797a4f29faf08
+SHA1: b06ffa1e79e636b01a71b88c8d74a926f3c090d5
+SHA256: 06a1583da7ae2e6bfe9da251e9ee20f0c8e94da3a0d4805fe804cd2729012a1a
+Homepage: https://github.com/int128/kubelogin
+Description: A kubectl plugin for Kubernetes OpenID Connect (OIDC) authentication
 
 Package: ladspa-sdk
 Version: 1.17-2
@@ -13577,6 +13742,20 @@ SHA256: b44bf23f457d6f48b5b0e551e1365c943b90394aa65a6ae4d73ebfa15bd0c253
 Homepage: https://jpegxl.info/
 Description: Programs for manipulating JPEG XL files
 
+Package: libkiwix
+Version: 13.1.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1944
+Depends: libc++, libcurl, libicu, libmicrohttpd, libpugixml, libxapian, libzim, zlib
+Filename: pool/main/libk/libkiwix/libkiwix_13.1.0-4_aarch64.deb
+Size: 509712
+MD5sum: 95ba7e63174a913406a6a44a1b5eeaa8
+SHA1: d9eaea02d804930f6d4dd441bd5d6ffdad00b071
+SHA256: cec9fcab02b61d9df12b4d5e230d185ba7abb5235e0c3a01955b8ccbfee4601b
+Homepage: https://github.com/kiwix/libkiwix
+Description: A library that contains a lot of things used by other kiwix programs
+
 Package: libksba
 Version: 1.6.7-2
 Architecture: aarch64
@@ -14847,6 +15026,20 @@ SHA1: e26891207e7978cf9550580825c1fccb4c3f0c9b
 SHA256: ca67d71310b61fa3a8f7437725930039cc7ad3b40a96a8401774f63a72505343
 Homepage: https://github.com/rockdaboot/libpsl
 Description: Static libraries for libpsl
+
+Package: libpugixml
+Version: 1.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: libc++
+Filename: pool/main/libp/libpugixml/libpugixml_1.15-1_aarch64.deb
+Size: 85468
+MD5sum: 28ca3443f747e306557a045d6ff82154
+SHA1: 4f828098108bd42f1e51928e7267c7dc42d7f00e
+SHA256: a092f5ec1498d863f17ea0d6edaf8b8377fbf5fc448fb2036e2546f4279646e5
+Homepage: https://pugixml.org/
+Description: Light-weight, simple and fast XML parser for C++ with XPath support
 
 Package: libraqm
 Version: 0.10.3
@@ -16321,6 +16514,36 @@ SHA256: 95c3223cb1cacc3c3ad333cdf86fd891673ecf55e4666ac725a1837097d8e767
 Homepage: http://x265.org/
 Description: Static libraries for libx265
 
+Package: libxapian
+Version: 1.4.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2368
+Depends: libc++, libuuid, zlib
+Breaks: libxapian-dev
+Replaces: libxapian-dev
+Filename: pool/main/libx/libxapian/libxapian_1.4.29-1_aarch64.deb
+Size: 533772
+MD5sum: 8c5a4699a1d138ee7b1cd7c99f218310
+SHA1: 3213bd84e020e496cdee9eec07ce0cd78410a751
+SHA256: 34168cdb2f4621a62befb333fd2e594215392c838dc8067f6ef04aea824d9bcb
+Homepage: https://xapian.org
+Description: Xapian search engine library
+
+Package: libxapian-static
+Version: 1.4.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9052
+Depends: libxapian (= 1.4.29-1)
+Filename: pool/main/libx/libxapian-static/libxapian-static_1.4.29-1_aarch64.deb
+Size: 977316
+MD5sum: 96460939950320f0f5c92a7694bf189a
+SHA1: e26f6874f0221a225e118276dc8a90a8c51fe8b8
+SHA256: ec86e20edbb4f6ad70e1aee809edb46e426df16f9a1afe8bdb732cdde32e0166
+Homepage: https://xapian.org
+Description: Static libraries for libxapian
+
 Package: libxau
 Version: 1.0.12-2
 Architecture: aarch64
@@ -16800,6 +17023,20 @@ SHA1: cd9c523b146a9f3cd575fd6af4bcece7e029f020
 SHA256: 590eef6a4cb220ba225fb525e94fd0f56fb8b94d50953d0eb08f1ce2e66f255f
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
+
+Package: libzim
+Version: 9.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Depends: libc++, libicu, liblzma, libxapian, zstd
+Filename: pool/main/libz/libzim/libzim_9.3.0-1_aarch64.deb
+Size: 230396
+MD5sum: 2733d82a7585c4d1ae322d59dcdd41bf
+SHA1: edd11e6621f01a3e863d2951a9de1082ccd4a572
+SHA256: 063e2099a0b65dabf6dabff65e0efe105ac0c7363319cbb8fd095a4b75648e7f
+Homepage: https://openzim.org
+Description: The ZIM library is the reference implementation for the ZIM file format.
 
 Package: libzimg
 Version: 3.0.6
@@ -20046,6 +20283,22 @@ SHA1: 11e890e1d43fe407b12250ae823649282356eddc
 SHA256: 223cd8f1ac0689a82faba83ac60f48c64087b6e48c677faeef7164e73521ca20
 Homepage: http://x265.org/
 Description: H.265/HEVC video stream encoder tool
+
+Package: xapian-tools
+Version: 1.4.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 824
+Depends: libxapian (= 1.4.29-1)
+Breaks: libxapian (<< 1.4.21)
+Replaces: libxapian (<< 1.4.21)
+Filename: pool/main/x/xapian-tools/xapian-tools_1.4.29-1_aarch64.deb
+Size: 96320
+MD5sum: 4bdab53f20d83dc2e2cfedfe2bd23cbc
+SHA1: aa8df24891c55ae35e32aab842f445f061bc6fa1
+SHA256: f7dda8653d360f493333d4a54294d2ca95076fe828b112bd512650c617c2e1fb
+Homepage: https://xapian.org
+Description: Basic tools for the Xapian search engine
 
 Package: xcb-proto
 Version: 1.17.0-1
