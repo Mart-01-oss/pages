@@ -6932,6 +6932,20 @@ SHA256: 149635d8d4faafecc42872a8c5732c6e8cf1f5eb2d2fb54e2422281efaa0f966
 Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
 Description: Fontconfig binaries
 
+Package: forestdb-dump
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: libforestdb (= 1.2-2)
+Filename: pool/main/f/forestdb-dump/forestdb-dump_1.2-2_aarch64.deb
+Size: 107860
+MD5sum: f7581c17c688ad3cabdc032e44d511cd
+SHA1: c594a89095d95e40326b9dbb9f2a994d45a9563c
+SHA256: 452c5498c5dc3d7c875620666a57cb86ecf96e071451155cc44da9944943756e
+Homepage: https://github.com/couchbase/forestdb
+Description: ForestDB dump tool
+
 Package: forgejo
 Version: 12.0.4
 Architecture: aarch64
@@ -13923,6 +13937,35 @@ SHA256: bf925cb4afd758287f7ef70e6eafe53884bb17d3d7b5a3e88cb37a334dbab692
 Homepage: https://github.com/anholt/libepoxy
 Description: Library handling OpenGL function pointer management
 
+Package: libev
+Version: 4.33-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Breaks: libev-dev
+Replaces: libev-dev
+Filename: pool/main/libe/libev/libev_4.33-2_aarch64.deb
+Size: 114512
+MD5sum: 4894911402fb2fb7adec7ef04ebdc6fa
+SHA1: d9e96db11f9c39b10b584c0f27ef45e44aa6a07b
+SHA256: 73f75375661cb35919af6b484d3242044409bc5c12164782c31aa0d4292a88f8
+Homepage: http://software.schmorp.de/pkg/libev.html
+Description: Full-featured and high-performance event loop library
+
+Package: libev-static
+Version: 4.33-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libev (= 4.33-2)
+Filename: pool/main/libe/libev-static/libev-static_4.33-2_aarch64.deb
+Size: 21268
+MD5sum: a7106d1c33a7b542c594aec870aa316e
+SHA1: 4eff59e19f65f8ae7bfb7d024848f03a233d0cb3
+SHA256: 527e9ec5253a680f2c6a5d51815e520d94b5e295b4de96e78debde79df5ac56d
+Homepage: http://software.schmorp.de/pkg/libev.html
+Description: Static libraries for libev
+
 Package: libevent
 Version: 2.1.12-3
 Architecture: aarch64
@@ -13996,6 +14039,33 @@ SHA256: fc355d1302227233b8a0ba0830d948f12f8810daf609a341627e71d5818eab08
 Homepage: https://libexpat.github.io/
 Description: Static libraries for libexpat
 
+Package: libfann
+Version: 2.2.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 684
+Filename: pool/main/libf/libfann/libfann_2.2.0-2_aarch64.deb
+Size: 93124
+MD5sum: 9adce0a326c4e8a85f34f662a1c0b615
+SHA1: eb021d967a1e946ef6436fca6cc6292b6aeee158
+SHA256: c4212926cd5d048c0be4c842378e7bd48e1040d011fab71fd9e81a44b4900eec
+Homepage: http://leenissen.dk/fann/wp
+Description: Fast artificial neural network library
+
+Package: libfcl
+Version: 0.7.0-3
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 10064
+Depends: libandroid-support, libc++, libccd, octomap
+Filename: pool/main/libf/libfcl/libfcl_0.7.0-3_aarch64.deb
+Size: 1048264
+MD5sum: 7be16cdd0a26814ee85699007467cf56
+SHA1: e953f64a0cfb02f30340afae646cd8a1a2dea1cd
+SHA256: 966120fccda961f54ee4e7526fa1bb89065c43fd8b349e1d13e50a4a9caef00f
+Homepage: https://github.com/flexible-collision-library/fcl
+Description: Flexible collision library
+
 Package: libfdisk
 Version: 2.40.2-5
 Architecture: aarch64
@@ -14066,6 +14136,33 @@ SHA256: 7b95190258681d8d111c6681f2e3a2a246187c57cc3c182689d1bfe15cd2f1b9
 Homepage: https://sourceware.org/libffi/
 Description: Static libraries for libffi
 
+Package: libfixposix
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Filename: pool/main/libf/libfixposix/libfixposix_0.5.1-1_aarch64.deb
+Size: 14448
+MD5sum: ab43f4a7073f7c567054cb191f4a65b1
+SHA1: e08ffed5291cae8f747b6957e2c6ff9c82eb4b50
+SHA256: 466ac99c3ac751ac596bbac506733baaf15e32286344bfadccdd4a7f5b369588
+Homepage: https://github.com/sionescu/libfixposix/
+Description: Thin wrapper over POSIX syscalls
+
+Package: libfixposix-static
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libfixposix (= 0.5.1-1)
+Filename: pool/main/libf/libfixposix-static/libfixposix-static_0.5.1-1_aarch64.deb
+Size: 11696
+MD5sum: 2a855ef60be5c51236fa25d5285d5a13
+SHA1: c286fc4404ecfae58d2709c0125f89f3cdef5438
+SHA256: 4fbf6fd07610e030fde06e39c3f0c7efd929e641db1076fb1a0771bd9597392f
+Homepage: https://github.com/sionescu/libfixposix/
+Description: Static libraries for libfixposix
+
 Package: libflac
 Version: 1.5.0-1
 Architecture: aarch64
@@ -14096,6 +14193,34 @@ SHA256: d717ce966ae87c0d971a1ccbe808e450194df43ff7efbe5c572b52c02555e26e
 Homepage: https://xiph.org/flac/
 Description: Static libraries for libflac
 
+Package: libflann
+Version: 2022.10.27-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8100
+Depends: libc++, liblz4
+Filename: pool/main/libf/libflann/libflann_2022.10.27-2_aarch64.deb
+Size: 1074108
+MD5sum: cf7036a6654b2bea338634fb8c05ef6c
+SHA1: 6cfa25a1596e421be03c6caa1468713fdf8f072d
+SHA256: 2bec684ac22222269d3ca33fa73e62d50b7cd7c067fa6a03ccc71140383c85a6
+Homepage: https://github.com/flann-lib/flann
+Description: A library for performing fast approximate nearest neighbor searches in high dimensional spaces
+
+Package: libforestdb
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: libsnappy
+Filename: pool/main/libf/libforestdb/libforestdb_1.2-2_aarch64.deb
+Size: 130172
+MD5sum: 4773322fb6b8d8fed01f29079e7b50a2
+SHA1: 37a89052449c99d29ef2cf286bd78a4d60c3fedd
+SHA256: bbbb2a0f4627224ba81c4124e23f1b27edac2edc3ded69b4bb890e5d3d8376e3
+Homepage: https://github.com/couchbase/forestdb
+Description: A key-value storage engine
+
 Package: libfreexl
 Version: 2.0.0-1
 Architecture: aarch64
@@ -14123,6 +14248,20 @@ SHA1: 4facb5a49c464d2dbf06a725e9e0eb75dc1c6eb0
 SHA256: 6b8084d2c286ea66ba6daed6557e838369e8c30afea51e9854c0378697008442
 Homepage: https://www.gaia-gis.it/fossil/freexl
 Description: Static libraries for libfreexl
+
+Package: libftxui
+Version: 6.1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1396
+Depends: libc++
+Filename: pool/main/libf/libftxui/libftxui_6.1.9-1_aarch64.deb
+Size: 268684
+MD5sum: 507b14211f217b1eda4d786b0c837bb0
+SHA1: d1aa72d5adb7826dd1500e1c84e963fadf1ddf49
+SHA256: 6da6a3f379610cd73f41b3ee2aa9cebcd9b2874dad058ebdd430876a2aa1a842
+Homepage: https://github.com/ArthurSonzogni/FTXUI
+Description: A simple C++ library for terminal based user interface
 
 Package: libfyaml
 Version: 0.9
@@ -14240,6 +14379,48 @@ SHA256: 98e6c3e4a8a9ab8f50306d90772fd4ac0b2f7ee7cb922b40c77251119309e150
 Homepage: https://libgd.github.io/
 Description: Static libraries for libgd
 
+Package: libgedit-gfls
+Version: 0.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: glib
+Filename: pool/main/libg/libgedit-gfls/libgedit-gfls_0.3.0-1_aarch64.deb
+Size: 16268
+MD5sum: 88732c6e9c5fc9aaa94d78a515047f15
+SHA1: a1e6493f1710820846cf88d781fc028a27430a8a
+SHA256: acb17e20166b45b05d36a2c443c867a520c953722f3c41d710fcd688ceb3c117
+Homepage: https://gitlab.gnome.org/World/gedit/libgedit-gfls
+Description: A module dedicated to file loading and saving
+
+Package: libgee
+Version: 0.20.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1832
+Depends: glib
+Filename: pool/main/libg/libgee/libgee_0.20.8-1_aarch64.deb
+Size: 236024
+MD5sum: e2fe1fab90772bdabc798e1daaf629cb
+SHA1: 6dc6a5d86f8c3fd6c146b26395d345972ed3c181
+SHA256: 7a0306c5a9a97884f7d87d35c68bea65da38e5a5fdbb3e29b0cc447b5938bd7c
+Homepage: https://wiki.gnome.org/Projects/Libgee
+Description: A collection library providing GObject-based interfaces and classes for commonly used data structures
+
+Package: libgee-static
+Version: 0.20.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1776
+Depends: libgee (= 0.20.8-1)
+Filename: pool/main/libg/libgee-static/libgee-static_0.20.8-1_aarch64.deb
+Size: 246488
+MD5sum: a646c6546f83f0468b09640857e006b1
+SHA1: 5f4ef51696c2b7668420fc0ce463391b83817639
+SHA256: 7a7cb59f13fd669efcf46bd195d730f27dd9e44a96a14e925ea76e4a6a96c873
+Homepage: https://wiki.gnome.org/Projects/Libgee
+Description: Static libraries for libgee
+
 Package: libgeos
 Version: 3.13.1
 Architecture: aarch64
@@ -14256,6 +14437,76 @@ SHA256: ca57a3e718deb03b818fb78e5a01cff87303110c882f049212e99bf976fc3aed
 Homepage: https://geos.osgeo.org/
 Description: Geometry Engine, C++ port of the Java Topology Suite
 
+Package: libgeotiff
+Version: 1.7.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 628
+Depends: libtiff, proj
+Filename: pool/main/libg/libgeotiff/libgeotiff_1.7.4-2_aarch64.deb
+Size: 98256
+MD5sum: 46f553c7b0e0dca6326ab8acee23cd67
+SHA1: 29e7161e36752f6633171d479cd3216931cbe153
+SHA256: b11a535de136a9b7118b235b4d84474ceccc3c1e367a519271282c002bb41044
+Homepage: https://github.com/OSGeo/libgeotiff
+Description: Library for handling TIFF for georeferenced raster imagery
+
+Package: libgf2x
+Version: 1.3.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Filename: pool/main/libg/libgf2x/libgf2x_1.3.0-2_aarch64.deb
+Size: 25120
+MD5sum: ec7507e81ad708efee74d0b869f978a6
+SHA1: 6777e574a06831615ca0f7028257eae95b2f660b
+SHA256: f65320b003cf2918109ce40f6ab3e86578448a0891854b940d01c0ba37392bbc
+Homepage: https://gitlab.inria.fr/gf2x/gf2x
+Description: A library for multiplying polynomials over the binary field
+
+Package: libgf2x-static
+Version: 1.3.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libgf2x (= 1.3.0-2)
+Filename: pool/main/libg/libgf2x-static/libgf2x-static_1.3.0-2_aarch64.deb
+Size: 20816
+MD5sum: 5bbe21378d5db4708ad010f8ace463d0
+SHA1: 1969686072716705fe21b49dd2df8320ff605aaa
+SHA256: 92ed33b085888027bcd225068b8f8df0985e1d554d6b00d437c39f5c89a9395f
+Homepage: https://gitlab.inria.fr/gf2x/gf2x
+Description: Static libraries for libgf2x
+
+Package: libgfshare
+Version: 2.0.0-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Breaks: libgfshare-dev
+Replaces: libgfshare-dev
+Filename: pool/main/libg/libgfshare/libgfshare_2.0.0-8_aarch64.deb
+Size: 15704
+MD5sum: 74bad49ece0c96bf494f3708c87b2d7f
+SHA1: d4fa99fa2c18f1d3434e00dbbdc9eeac72c0f453
+SHA256: 9938c4328e9589e4f7e15aff4e3cb2158c7b442be0433eb31a1c16bafc8fde6c
+Homepage: https://github.com/kinnison/libgfshare
+Description: Utilities for multi-way secret-sharing
+
+Package: libgfshare-static
+Version: 2.0.0-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: libgfshare (= 2.0.0-8)
+Filename: pool/main/libg/libgfshare-static/libgfshare-static_2.0.0-8_aarch64.deb
+Size: 3520
+MD5sum: 29ab498ea44e188425fc2bcc1a7019ac
+SHA1: fd8c60d55f036df672fbe831be598114b3972a55
+SHA256: c720b79fe6b49ab2342b88dd8806aa0fb5d8df880c33f0c00ff367aa6c272fbe
+Homepage: https://github.com/kinnison/libgfshare
+Description: Static libraries for libgfshare
+
 Package: libgit2
 Version: 1.9.1-1
 Architecture: aarch64
@@ -14271,6 +14522,20 @@ SHA1: d2359b46460aa43f82439bbcecd47e4bc0bf5ee7
 SHA256: 1324ec1df16907ffac9e064b445fbcd313927ba24ee4a7800b84837cf4d64eac
 Homepage: https://libgit2.github.com/
 Description: C library implementing Git core methods
+
+Package: libglibmm-2.4
+Version: 2.66.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7356
+Depends: glib, libc++, libsigc++-2.0
+Filename: pool/main/libg/libglibmm-2.4/libglibmm-2.4_2.66.8_aarch64.deb
+Size: 939192
+MD5sum: dccf60f44a019687cb5c9ad052abd454
+SHA1: 41cb33e999d30e02a983967f459358af749e028f
+SHA256: 14a640c845be4e0628dc996ed76da2e20a3908da1d3fccd7264d3a27cf749a05
+Homepage: https://www.gtkmm.org/
+Description: A C++ API for parts of glib that are useful for C++
 
 Package: libglvnd
 Version: 1.7.0-1
@@ -19168,6 +19433,34 @@ SHA1: 17a35d1bcd56be93482efa2b9162e5dcd420348e
 SHA256: c53abaeefd65f543d8195957f20c058b70a8624ad41b684f4d827f507141aada
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
+
+Package: octomap
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 1340
+Depends: libc++
+Filename: pool/main/o/octomap/octomap_1.10.0-1_aarch64.deb
+Size: 182032
+MD5sum: 7cee091a54a6b510e7ef14524320fcad
+SHA1: 22d829c31b24b11a71c0d0e88e9ef54f0e881659
+SHA256: bef69ca9198768a48855f4c6ffc78744085d284688390426faf0d74bd0840b16
+Homepage: https://github.com/OctoMap/octomap
+Description: An efficient probabilistic 3D mapping framework based on octrees
+
+Package: octomap-static
+Version: 1.10.0-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 832
+Depends: octomap (= 1.10.0-1)
+Filename: pool/main/o/octomap-static/octomap-static_1.10.0-1_aarch64.deb
+Size: 97260
+MD5sum: 632d49874e6dc91ab661b963056135b9
+SHA1: c307c51e1a249728ea26ca7980d0c9d52c4dcd19
+SHA256: 7a86ff773dd674d5cd2636d34ecf976e4e7fb84bab969992b9dd038f15713a3f
+Homepage: https://github.com/OctoMap/octomap
+Description: Static libraries for octomap
 
 Package: onigmo
 Version: 6.2.0-1
