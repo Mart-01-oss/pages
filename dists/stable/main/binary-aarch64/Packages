@@ -9841,6 +9841,106 @@ SHA256: b123489b72acfc84b4b7d751870fe89b809e4325e93a5f9dc7c21e27a1f2de58
 Homepage: https://github.com/samtools/htslib
 Description: Static libraries for htslib
 
+Package: httping
+Version: 4.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: fftw, libandroid-support, ncurses, openssl
+Filename: pool/main/h/httping/httping_4.4.0-1_aarch64.deb
+Size: 40164
+MD5sum: 0b6c8476f09ab822462e5c25be278248
+SHA1: 27949f8b9d416c1a9b6e28e21aee54dd5a0e5380
+SHA256: a44713b26de4caf17a4f31999fb644c8d064a9be4f29ca19e5f9a0e5bfcf873e
+Homepage: https://github.com/folkertvanheusden/HTTPing
+Description: ping-like program for http-requests
+
+Package: httrack
+Version: 3.49.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1120
+Depends: httrack-data, libandroid-execinfo, libiconv, openssl, zlib
+Breaks: httrack-dev
+Replaces: httrack-dev
+Filename: pool/main/h/httrack/httrack_3.49.6-1_aarch64.deb
+Size: 294308
+MD5sum: d09733b18f948ff67888e41c7ce194d5
+SHA1: b302302975b0a8c24b15c32d68d59eb7ca90bdbe
+SHA256: 4771205f85b94349b455f2c4fbbbfe1f7258b9410c1d72adccfe285c283104f1
+Homepage: http://www.httrack.com
+Description: It allows you to download a World Wide Web site from the Internet
+
+Package: httrack-data
+Version: 3.49.6-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2608
+Breaks: httrack (<< 3.49.3)
+Replaces: httrack (<< 3.49.3)
+Filename: pool/main/h/httrack-data/httrack-data_3.49.6-1_all.deb
+Size: 671140
+MD5sum: cba01869f7508b8db1ab3f052afaba75
+SHA1: b6f8b78d1a57756348d18138b509183581bec1cc
+SHA256: d206514f9b35f1d60e36f0d7a6e4d3d152b230b9d606329e5800df75fc114901
+Homepage: http://www.httrack.com
+Description: Platform-independent data for httrack
+
+Package: httrack-static
+Version: 3.49.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1140
+Depends: httrack (= 3.49.6-1)
+Filename: pool/main/h/httrack-static/httrack-static_3.49.6-1_aarch64.deb
+Size: 243120
+MD5sum: f8ca49920b6229c324782014c2c0a45e
+SHA1: 5bcc82f3bf69cc630f27817c7a9a9cc7fc7c27f7
+SHA256: 6fc33a2fa0021c1c97b198995f7c77d047d2a91ee820334711addf5b1ca7d24a
+Homepage: http://www.httrack.com
+Description: Static libraries for httrack
+
+Package: hub
+Version: 2.14.2-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7664
+Depends: git
+Filename: pool/main/h/hub/hub_2.14.2-6_aarch64.deb
+Size: 2183672
+MD5sum: 0b0cefb0085b61be8dcf1b94151ea1f6
+SHA1: 81b252d3db974c8ad000482ad0d3cd31a7d0c135
+SHA256: 0ee7bc4c2c0b36f75bbdad9312eeb6c74c286dc4f94286b3e696595a2d7e6819
+Homepage: https://hub.github.com/
+Description: Command-line wrapper for git that makes you better at GitHub
+
+Package: hugo
+Version: 0.150.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56712
+Depends: libc++
+Filename: pool/main/h/hugo/hugo_0.150.1_aarch64.deb
+Size: 12008156
+MD5sum: 40b1767feb93a8b276d411432b4b5df8
+SHA1: ec2a7f03baf87a4f059ff2b068bd6b7ce40cdbd9
+SHA256: 51c8a7895922ba0a702a2e9e37e54028a83f1924a6c610d108fe6314f95a7983
+Homepage: https://gohugo.io/
+Description: A fast and flexible static site generator
+
+Package: hummin
+Version: 2021.05.18-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7052
+Filename: pool/main/h/hummin/hummin_2021.05.18-4_aarch64.deb
+Size: 2027776
+MD5sum: 62d505f38d93dc5d9156e41a1ae8cd1f
+SHA1: 797311be360fcac96725dd149606f546fa87d90e
+SHA256: 14e91e0c8aab60588a30ae670bcfd7296fbc53a3113b5c353004fc88a8fba5b8
+Homepage: https://trantor.is/
+Description: Command line client for the imperial library of trantor
+
 Package: hunspell
 Version: 1.7.2-1
 Architecture: aarch64
@@ -9870,6 +9970,45 @@ SHA256: b74665b4a84ef0bf18e17b655e651bda8d576d28468cc8ddb1a44cc863c20c84
 Homepage: https://hunspell.github.io
 Description: American english dictionary for hunspell
 
+Package: hunspell-fr
+Version: 20221031
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1440
+Filename: pool/main/h/hunspell-fr/hunspell-fr_20221031_all.deb
+Size: 282696
+MD5sum: 279ab0173d5a5a837889c7b679e70c3a
+SHA1: 4eea1c7c825f7c2c4da198a973cf704118263fda
+SHA256: e36e5c191ea69b51dd121fc57e88a7e49e60c70062202ef4b1ca0e3d1596515a
+Homepage: https://hunspell.github.io
+Description: French dictionary for hunspell
+
+Package: hunspell-nl
+Version: 2013.07.22
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1924
+Filename: pool/main/h/hunspell-nl/hunspell-nl_2013.07.22_all.deb
+Size: 530680
+MD5sum: 98c93ac6a0a2ec161cd6293b2a03ecb8
+SHA1: faa40f2bfa43a8170ba77188260e44deaedf3f41
+SHA256: 27fb11bbd27a20f2331f8d4eaa3c7bad93a431242052bbe7b388079a066bc314
+Homepage: https://www.opentaal.org/
+Description: Dutch dictionary for hunspell
+
+Package: hunspell-ru
+Version: 20210731
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3504
+Filename: pool/main/h/hunspell-ru/hunspell-ru_20210731_all.deb
+Size: 461804
+MD5sum: 5489cc0ef2990d4e763353b9a0fa86a5
+SHA1: 7acb13c31ef49ec31b47739b0b482d2916a80c39
+SHA256: 97d02d100c77e84cf4cf3523635d8a53822e68fe38e1f4c880fa7760c6f88736
+Homepage: https://hunspell.github.io
+Description: Russian dictionary for hunspell
+
 Package: hunspell-static
 Version: 1.7.2-1
 Architecture: aarch64
@@ -9883,6 +10022,45 @@ SHA1: 44fe8752e03f2e297dd83e694d3bd1a3af78b4f9
 SHA256: 01e7ab5ea474cce3aa46e70fb3e11b1f7e11049bf2b6b46c9363410b68eb34a8
 Homepage: https://hunspell.github.io
 Description: Static libraries for hunspell
+
+Package: hut
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9848
+Filename: pool/main/h/hut/hut_0.7.0-1_aarch64.deb
+Size: 2625288
+MD5sum: fc583d4c577d4dd49a44c3fbc94e0455
+SHA1: 0c94008fd3bb7c663866a81f47ca16129d91d6ab
+SHA256: af9f5fd658ca4dc5270ef945b4ba2801f061c3a955c1e45b72402cc890cbbebb
+Homepage: https://git.sr.ht/~xenrox/hut
+Description: A CLI tool for sr.ht
+
+Package: hwdata
+Version: 0.399
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9868
+Filename: pool/main/h/hwdata/hwdata_0.399_aarch64.deb
+Size: 1642404
+MD5sum: 19ce1eec2a93adccb97aaeb502bbe384
+SHA1: 077e79d28974222e8a65d7493e42ef3d6df4bf52
+SHA256: 403a71c38aa1720b463ca0054908b3b5b18cd8343b6e0a465ecc50fcaa12c5ec
+Homepage: https://github.com/vcrhonek/hwdata
+Description: Database of hardware identification and configuration data
+
+Package: hydroxide
+Version: 0.2.30-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9872
+Filename: pool/main/h/hydroxide/hydroxide_0.2.30-1_aarch64.deb
+Size: 2790668
+MD5sum: 4252a5a30d3d6cd3a88be5e928a3bb83
+SHA1: ccc2c53c19ad4698194cf56c867b48b9feaac4a1
+SHA256: 4ee833ef528a27e728175b19da12088977d2dd699edb29e2bfaacc88a8c443e3
+Homepage: https://github.com/emersion/hydroxide
+Description: A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge
 
 Package: iconv
 Version: 1.18-1
