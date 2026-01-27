@@ -18890,6 +18890,48 @@ SHA256: e4804935924bf6c84ec53b77b543e0ce3fb642f9d20e2b4d0ff85bb57937d6d1
 Homepage: https://github.com/haiwen/libsearpc
 Description: Static libraries for libsearpc
 
+Package: libseat
+Version: 0.9.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/libs/libseat/libseat_0.9.1-2_aarch64.deb
+Size: 24488
+MD5sum: 6b0cd235d85b52ed5ad83db5e96dec03
+SHA1: 8104e2079ceef708019708475ac4abb62d735b39
+SHA256: 3c21b60c00bb122eae84aa055b14e920fae76126d054e0a40ed05ca1d1e3d24b
+Homepage: https://sr.ht/~kennylevinsen/seatd/
+Description: Reference implementation of a wayland compositor
+
+Package: libseccomp
+Version: 2.5.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 388
+Breaks: libseccomp-dev
+Replaces: libseccomp-dev
+Filename: pool/main/libs/libseccomp/libseccomp_2.5.5-5_aarch64.deb
+Size: 70200
+MD5sum: d6e3dff69a56350ce4469279d4ffb915
+SHA1: 70790956877d350cab31c5bb01a746d51be2d983
+SHA256: 6600063576bd065100d0c1d2a4b7e851416daadae861bde3a914a55bc5f56b53
+Homepage: https://github.com/seccomp/libseccomp
+Description: Enhanced seccomp library
+
+Package: libseccomp-static
+Version: 2.5.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: libseccomp (= 2.5.5-5)
+Filename: pool/main/libs/libseccomp-static/libseccomp-static_2.5.5-5_aarch64.deb
+Size: 41504
+MD5sum: d2be4b27a3d4e3243a4aeb22df894736
+SHA1: b2ac4a6960db9f61c53370dbccc0d9b445c63d31
+SHA256: 38aa39bcfd7b28171a59ceb1f7a34db5d97e86b4bc00af6427cfde1db0bede23
+Homepage: https://github.com/seccomp/libseccomp
+Description: Static libraries for libseccomp
+
 Package: libsecp256k1
 Version: 1:0.7.0-2
 Architecture: aarch64
@@ -18916,6 +18958,33 @@ SHA1: 3c5fd4d3ce017212dedf88061a4969b9195aa702
 SHA256: 615a45feea14cbd31918200f5dee3e2eb1b8b2a09cab2886f378c2c53bdeec9e
 Homepage: https://github.com/bitcoin-core/secp256k1
 Description: Static libraries for libsecp256k1
+
+Package: libsecret
+Version: 0.21.7-3
+Architecture: aarch64
+Maintainer: @suhan-paradkar
+Installed-Size: 1204
+Depends: glib, libgcrypt
+Filename: pool/main/libs/libsecret/libsecret_0.21.7-3_aarch64.deb
+Size: 144116
+MD5sum: 1a9de5d9850ddab8a10119d44688c5a8
+SHA1: 7d6e3de2547e11c647114436be05a0b276319947
+SHA256: 7562e0cfaf41fca2b1a8ed3ddc475647b95c85714f03eb0efc2ea09890f0d7a1
+Homepage: https://gitlab.gnome.org/GNOME/libsecret
+Description: A GObject-based library for accessing the Secret Service API
+
+Package: libsfdo
+Version: 0.1.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Filename: pool/main/libs/libsfdo/libsfdo_0.1.4-1_aarch64.deb
+Size: 31348
+MD5sum: b4f2d39fdcab5a046b4be291314b6bd1
+SHA1: 70edaa05d150c3b0b43876ba8873b53ae6487871
+SHA256: c8d2bfc1e285964f72983c1f5d0f7f23dba77dfcd6dff133d57a598978d64b7c
+Homepage: https://gitlab.freedesktop.org/vyivel/libsfdo
+Description: A collection of libraries which implement some of the freedesktop.org specifications.
 
 Package: libshout
 Version: 2.4.6-2
@@ -18973,6 +19042,49 @@ SHA256: a187f0be7ab10ded1d45f4c9cedf46324e7063cebae43ed4c2971e2ee1aff899
 Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
 Description: Implements a typesafe callback system for standard C++
 
+Package: libsignal-protocol-c
+Version: 2.3.3-3
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 512
+Depends: openssl
+Filename: pool/main/libs/libsignal-protocol-c/libsignal-protocol-c_2.3.3-3_aarch64.deb
+Size: 135284
+MD5sum: 4e0afd2ea5beaeb6baa32152e2d0c43e
+SHA1: f5edbc0fb7f25871ba67b784fc88843a6d826e26
+SHA256: e588a041a47943bb2782b91ac43da71ab80e4d697d934bc2ec126aa6ab743c9c
+Homepage: https://github.com/signalapp/libsignal-protocol-c
+Description: Signal Protocol C Library
+
+Package: libsigsegv
+Version: 2.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Breaks: libsigsegv-dev
+Replaces: libsigsegv-dev
+Filename: pool/main/libs/libsigsegv/libsigsegv_2.14-1_aarch64.deb
+Size: 7608
+MD5sum: aab123ec611a987327ed52b6d2e01874
+SHA1: 553d63427544016883357b8db04c516d88863fdc
+SHA256: 4ba718d460dd5a2894e804f46f90876b115a50f54290f2921023a905997240d7
+Homepage: https://www.gnu.org/software/libsigsegv/
+Description: GNU libsigsegv is a library for handling page faults in user mode
+
+Package: libsigsegv-static
+Version: 2.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44
+Depends: libsigsegv (= 2.14-1)
+Filename: pool/main/libs/libsigsegv-static/libsigsegv-static_2.14-1_aarch64.deb
+Size: 4712
+MD5sum: 130a71e9492be81aafa9c9da651a5a78
+SHA1: 05981b92cc4cd9a2149e24e9421e9a0dd85d55a7
+SHA256: 01bedaef1d4feba6c84b26fc76df2f6ff48437ed06c7f999f04ad9b483ffc023
+Homepage: https://www.gnu.org/software/libsigsegv/
+Description: Static libraries for libsigsegv
+
 Package: libsixel
 Version: 1.10.5-1
 Architecture: aarch64
@@ -18988,6 +19100,20 @@ SHA1: be445a4d11475278d903fd25415190f65e8bf5f9
 SHA256: 1bd6aec773ef0780f0c4a1ed372e485a1e9cea8f4c3ec398a106309e9352a73a
 Homepage: https://saitoha.github.io/libsixel/
 Description: Encoder/decoder implementation for DEC SIXEL graphics
+
+Package: libslirp
+Version: 4.8.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Depends: glib
+Filename: pool/main/libs/libslirp/libslirp_4.8.0-2_aarch64.deb
+Size: 56120
+MD5sum: 07d86c15c5fff4fba587140737792a21
+SHA1: 2448fa9b6ff85722d985c5f228e51b7421e2a6df
+SHA256: a53c462573d144f45392b66d6538acda3f56d48157963a5635585d225aeada37
+Homepage: https://gitlab.freedesktop.org/slirp/libslirp
+Description: A general purpose TCP-IP emulator
 
 Package: libsm
 Version: 1.2.6-1
@@ -19091,6 +19217,88 @@ SHA256: 572af03e013bb698eb0421635d0437e97be792ec21d49ae901ed973857d0ef5e
 Homepage: https://libsodium.org/
 Description: Static libraries for libsodium
 
+Package: libsoldout
+Version: 1.4-2
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 288
+Filename: pool/main/libs/libsoldout/libsoldout_1.4-2_aarch64.deb
+Size: 50860
+MD5sum: ab28dc7f9a4af09ac5b1669bf0d87709
+SHA1: c9a7e1c86cc5f32573673e03b7dbafacae723b58
+SHA256: b00493696bde9fb04882cc54cb87b6c8ff62b7b4fd94747e35e2eab83f6d013a
+Homepage: https://fossil.instinctive.eu/libsoldout/index
+Description: Flexible C library and tools for markdown
+
+Package: libsoldout-static
+Version: 1.4-2
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 92
+Depends: libsoldout (= 1.4-2)
+Filename: pool/main/libs/libsoldout-static/libsoldout-static_1.4-2_aarch64.deb
+Size: 17928
+MD5sum: d873cdcdd1ba1a8a7a879c1bf4b8b68f
+SHA1: 61f1c98a9fe476fcbbeefc2126518df68637c3ca
+SHA256: a6617d134b62798c941617734a497823bbbd306c3dee59a4d9629e311fefc662
+Homepage: https://fossil.instinctive.eu/libsoldout/index
+Description: Static libraries for libsoldout
+
+Package: libsophia
+Version: 2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/main/libs/libsophia/libsophia_2.2-1_aarch64.deb
+Size: 99184
+MD5sum: da2868f68019898ea040cbc27adf7355
+SHA1: 6a2462caf8edf745fa579763f17c4f8e1f4247d2
+SHA256: 3ec32bca0c58b82d43e1449dad780f6f0a5ada67c4d0809f6de07b31f4319cef
+Homepage: http://sophia.systems/
+Description: Advanced transactional MVCC key-value/row storage library
+
+Package: libsophia-static
+Version: 2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1756
+Depends: libsophia (= 2.2-1)
+Filename: pool/main/libs/libsophia-static/libsophia-static_2.2-1_aarch64.deb
+Size: 357624
+MD5sum: 313787602ce469b25f76219085ed42a9
+SHA1: 7b880a4864e1e0576e61c05821af36a1474ce518
+SHA256: 087725a6ef315e834a320ede347ae0c6c7a87f60808a2ee6c48276f83abbc4c3
+Homepage: http://sophia.systems/
+Description: Static libraries for libsophia
+
+Package: libsoundtouch
+Version: 2.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 480
+Depends: libc++
+Filename: pool/main/libs/libsoundtouch/libsoundtouch_2.3.3-1_aarch64.deb
+Size: 93440
+MD5sum: 856468f9e78c86bd30de573312d38c24
+SHA1: bc95062cf8ab5bdbe832970afe0ac4398cd05ceb
+SHA256: 4235af9415b990c29ec4a56e4cb196ec5d937d7c8c0cda9786c53e3628907380
+Homepage: https://www.surina.net/soundtouch/
+Description: An open-source audio processing library for changing the Tempo, Pitch and Playback Rates of audio streams or files
+
+Package: libsoundtouch-static
+Version: 2.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 676
+Depends: libsoundtouch (= 2.3.3-1)
+Filename: pool/main/libs/libsoundtouch-static/libsoundtouch-static_2.3.3-1_aarch64.deb
+Size: 70616
+MD5sum: f33396f4a478de754933ce16c7a5ee61
+SHA1: 0b0be218c5cc5e91b93e5d4baecd8d1a497c809a
+SHA256: af5e06273ea8d4d353f13a5b79768a85689641ca8bacd7476072c8304fa85bfb
+Homepage: https://www.surina.net/soundtouch/
+Description: Static libraries for libsoundtouch
+
 Package: libsoup
 Version: 2.74.3-6
 Architecture: aarch64
@@ -19108,6 +19316,21 @@ SHA256: 8a74de17319c67adca0efaadc6ba7f6188d3a38bf6ec6371b54e2501f108b2be
 Homepage: https://wiki.gnome.org/action/show/Projects/libsoup
 Description: HTTP client and server library
 
+Package: libsoup3
+Version: 3.6.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1836
+Depends: brotli, glib, libnghttp2, libpsl, libsqlite, zlib
+Recommends: glib-networking
+Filename: pool/main/libs/libsoup3/libsoup3_3.6.5-1_aarch64.deb
+Size: 279636
+MD5sum: ebf6edc8fd3f9d14293f440a99b4ae2b
+SHA1: 0e46ce13e43e03f36b7efd7f1c349e551200cd93
+SHA256: abe1cc642b24f65d2ba72613d8885dd7fe98755148ad82e951704a076f438c5a
+Homepage: https://libsoup.gnome.org/libsoup-3.0/
+Description: HTTP client and server library
+
 Package: libsoxr
 Version: 0.1.3-8
 Architecture: aarch64
@@ -19122,6 +19345,20 @@ SHA1: c4a0b5f85a25e41e2cced7732bea0568db488ff9
 SHA256: b50cc8662aa139e61ffcc52273c89959cb37a5d8c4507d9f69d0bac78dd719f6
 Homepage: https://sourceforge.net/projects/soxr/
 Description: High quality, one-dimensional sample-rate conversion library
+
+Package: libspatialindex
+Version: 2.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1392
+Depends: libc++
+Filename: pool/main/libs/libspatialindex/libspatialindex_2.1.0-1_aarch64.deb
+Size: 252308
+MD5sum: becb8933cebe14025dd5043abafe990a
+SHA1: d4ca0d78f7e5e303abdd5ecbd388e713c28d6391
+SHA256: a964ecd3946bf19196e72ca438c4f45c21f73f9cb75aa23ffd47f35941ece42b
+Homepage: https://libspatialindex.github.io
+Description: C++ implementation of R*-tree, an MVR-tree and a TPR-tree with C API
 
 Package: libspatialite
 Version: 5.1.0-2
@@ -19164,6 +19401,61 @@ SHA1: d73cf694f7ccf06c86405759c5e7d47ef8d1ce35
 SHA256: 588cf12b26b69839325cd20a56320e0fe4dfd65a90e4ce05a4076071296b76a7
 Homepage: https://github.com/gabime/spdlog
 Description: Very fast, header-only/compiled, C++ logging library
+
+Package: libspectre
+Version: 0.2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: ghostscript
+Filename: pool/main/libs/libspectre/libspectre_0.2.12-1_aarch64.deb
+Size: 24472
+MD5sum: 7733e65d4121735a78385a3d2bd46b25
+SHA1: 5072e3bb86dd2d70372dd7423ea69911133a1503
+SHA256: de40efe947b8ae0eca6041d516e8a1e9e40814ddff566f70eaaedb5d289b2669
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Description: A small library for rendering Postscript documents
+
+Package: libspectre-static
+Version: 0.2.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libspectre (= 0.2.12-1)
+Filename: pool/main/libs/libspectre-static/libspectre-static_0.2.12-1_aarch64.deb
+Size: 24712
+MD5sum: 6e313176f2a2ce038cae080f51c70315
+SHA1: 3b274681cf1ddcd538be4f7dbd898ba45bc2d128
+SHA256: 817ea3ab8eb11cec282864667938462ad3d3cc6258e31e789057bbd6ff43d494
+Homepage: https://www.freedesktop.org/wiki/Software/libspectre/
+Description: Static libraries for libspectre
+
+Package: libspeex
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 632
+Filename: pool/main/libs/libspeex/libspeex_1.2.1-1_aarch64.deb
+Size: 460112
+MD5sum: d4501a6454e8ab79dbe82e09aadfe0e8
+SHA1: c092d54071daf8ada64d89c521fee92fa2e300c7
+SHA256: eea38e36d6d26e78d4dd53431dc2adc6cbc5652dffd3a676d11b4850e3aa2ead
+Homepage: https://www.speex.org/
+Description: A patent-free, Open Source/Free Software voice codec
+
+Package: libspeex-static
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: libspeex (= 1.2.1-1)
+Filename: pool/main/libs/libspeex-static/libspeex-static_1.2.1-1_aarch64.deb
+Size: 47668
+MD5sum: 7a80f7fda97eacf366eece736ca2fafb
+SHA1: e0e9e68f36dd74165d81645044c3315a3f88e98e
+SHA256: 2ffce7d1e1250051adb2aa4de0cc7a5aaaa65c8b80b4cd0e0211d0f7917df979
+Homepage: https://www.speex.org/
+Description: Static libraries for libspeex
 
 Package: libsqlite
 Version: 3.50.4-1
@@ -23284,6 +23576,20 @@ SHA1: 9c37b39328ec48313bc169bba29c9c0e818abbd2
 SHA256: 87d5b619dcd3ad4fc0e8f3b7768d8547108c315988f0c7d7f26c02aa7cec4d38
 Homepage: https://drobilla.net/software/sord.html
 Description: A lightweight C library for storing RDF data in memory
+
+Package: speex-utils
+Version: 1.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libogg, speexdsp, libspeex (= 1.2.1-1)
+Filename: pool/main/s/speex-utils/speex-utils_1.2.1-1_aarch64.deb
+Size: 16576
+MD5sum: b9ec19c1191fc4b3da9b5ef616f5b528
+SHA1: e0e92323635edcbf3942ed962d7c4d82acd423bc
+SHA256: 2d5910361acc31e0f20d47a991d9fbea80660c6b5e992110aaffdfdb9482875a
+Homepage: https://www.speex.org/
+Description: Speex command line tools
 
 Package: speexdsp
 Version: 1.2.1-1
