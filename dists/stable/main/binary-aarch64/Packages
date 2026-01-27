@@ -11802,6 +11802,19 @@ SHA256: 00b94fb8c228c9bc682efd630807c15ccd35f0af5aa1d338f9b165c62556eda9
 Homepage: http://savannah.nongnu.org/projects/acl
 Description: Static libraries for libacl
 
+Package: libaml
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Filename: pool/main/liba/libaml/libaml_1.0.0-1_aarch64.deb
+Size: 11848
+MD5sum: e65791aadab43372c8864dcfa1f0eafb
+SHA1: e27ffae8ec2785f87f725759be9d424bb4bcade0
+SHA256: 698c6f8b75a94d00a3d680770500fff1b1a9f7581b5159054fb74b6287cd4989
+Homepage: https://github.com/any1/aml
+Description: Andri's Main Loop library
+
 Package: libandroid-complex-math
 Version: 0.2
 Architecture: aarch64
@@ -12223,6 +12236,19 @@ SHA256: f50306c27248e7cf42371f54682582d8fbed10b114f6981d07864993139677c8
 Homepage: https://github.com/apache/arrow
 Description: C++ libraries for Apache Arrow
 
+Package: libasio
+Version: 1.24.0-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6880
+Filename: pool/main/liba/libasio/libasio_1.24.0-3_all.deb
+Size: 406948
+MD5sum: 8440e1fe765cff3cb574167d22e81f6c
+SHA1: 7ea32715038e3ea13b77883d90d650dbbf71da58
+SHA256: eb73375f146e6141955f9dd48c9a03aedd2345ee7483549563d71d2894bf16b4
+Homepage: https://think-async.com/Asio
+Description: Cross-platform C++ library for network and low-level I/O programming
+
 Package: libasm
 Version: 0.193-1
 Architecture: aarch64
@@ -12338,6 +12364,20 @@ SHA256: 17180f2a7ebcb08bbe67b92b0e34e48396c1e3dd86eccaad3401435048dbbe66
 Homepage: https://github.com/bdwgc/libatomic_ops
 Description: Static libraries for libatomic-ops
 
+Package: libbcprov-java
+Version: 1.82
+Architecture: all
+Maintainer: @termux
+Installed-Size: 5752
+Depends: openjdk-21
+Filename: pool/main/libb/libbcprov-java/libbcprov-java_1.82_all.deb
+Size: 4919060
+MD5sum: 44725f077de8e28e75a8d440c0f8b8c7
+SHA1: 29744eda0ef1d25540150ccf3460d53521b92816
+SHA256: a06102ffa4f69d3b39bfecd802be69d937a30f29d4adbf4baa664f285d909c45
+Homepage: https://www.bouncycastle.org/java.html
+Description: A lightweight cryptography API for Java
+
 Package: libblkid
 Version: 2.40.2-5
 Architecture: aarch64
@@ -12352,6 +12392,34 @@ SHA1: cfbf6ea95449ca48f88a168fd801c34e9fadbb8e
 SHA256: e7753495846b008bb5122ef0ffd094efd5e9b7b54f9d1eddf7dc0e059807e091
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Block device identification library
+
+Package: libblosc
+Version: 1.21.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: liblz4, libsnappy, zlib, zstd
+Filename: pool/main/libb/libblosc/libblosc_1.21.6-1_aarch64.deb
+Size: 25932
+MD5sum: 695b5fbb15d8f92c4faa077342350f70
+SHA1: 06a1be25ffbaf5b0bcfa98c024366b761fb4cff3
+SHA256: 8c28569ca262cd70792de883df17a901ff3acfab1146dd924f009a1a872b7fdb
+Homepage: https://www.blosc.org
+Description: A blocking, shuffling and loss-less compression library
+
+Package: libblosc-static
+Version: 1.21.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libblosc (= 1.21.6-1)
+Filename: pool/main/libb/libblosc-static/libblosc-static_1.21.6-1_aarch64.deb
+Size: 19732
+MD5sum: 1c43c94717485ecd42a358100cbac51f
+SHA1: 62652509b566fe61ee155cea2801f88b6048cf17
+SHA256: 579f4a4a69184d2b7cae62b63f7b678fb1a05de24b532c84d1ba733bb95ee002
+Homepage: https://www.blosc.org
+Description: Static libraries for libblosc
 
 Package: libbluray
 Version: 1.3.4-3
@@ -12395,6 +12463,34 @@ SHA256: a91f8a206a09a2d2b94face720df5336749f9752c84357d8912e0bda84129dda
 Homepage: https://code.videolan.org/videolan/libbluray/
 Description: Example utilities for libbluray
 
+Package: libbs2b
+Version: 3.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: libc++, libsndfile
+Filename: pool/main/libb/libbs2b/libbs2b_3.1.0-2_aarch64.deb
+Size: 13660
+MD5sum: 1e71d3d733c9ae45d479095e4591eec7
+SHA1: dda4655377e97856697adb6e3e5803ad51f86b61
+SHA256: c838c6c690cd2f354389e7be5a4034b92465bb963e0e5976c9bd091c2d18b8a4
+Homepage: https://bs2b.sourceforge.net/
+Description: Bauer stereophonic-to-binaural DSP
+
+Package: libbs2b-static
+Version: 3.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 544
+Depends: libbs2b (= 3.1.0-2)
+Filename: pool/main/libb/libbs2b-static/libbs2b-static_3.1.0-2_aarch64.deb
+Size: 44548
+MD5sum: 1d3749fa8b5fa304abf220114e51a8b5
+SHA1: 6d84101218f98987404667e389099955333583a7
+SHA256: f7c62662dd901c3e432de3746337e0a4a82bb1d1d342e290cd40f2316a49a05b
+Homepage: https://bs2b.sourceforge.net/
+Description: Static libraries for libbs2b
+
 Package: libbsd
 Version: 0.11.7-2
 Architecture: aarch64
@@ -12425,6 +12521,49 @@ SHA256: 03c7a28cbbab8086142cbf770d7f3a0dc55552300abed95e617f4795ec0313ac
 Homepage: https://libbsd.freedesktop.org
 Description: Static libraries for libbsd
 
+Package: libbullet
+Version: 3.25-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8012
+Depends: libc++
+Filename: pool/main/libb/libbullet/libbullet_3.25-2_aarch64.deb
+Size: 1346016
+MD5sum: c0d1b3c1d492afb9fcf7464c7e578106
+SHA1: 556d19eca56140013188b39062efa9e63670f447
+SHA256: 75345970019decc067eef483e3d31e764efce01b301143db59013d8cd3695be7
+Homepage: https://github.com/bulletphysics/bullet3
+Description: SDK for real-time collision detection and multi-physics simulation for robotics, VR, etc
+
+Package: libburn
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 744
+Breaks: libburn-dev
+Replaces: libburn-dev
+Filename: pool/main/libb/libburn/libburn_1.5.6-1_aarch64.deb
+Size: 244504
+MD5sum: a768a3588c6530bbd2778e92c5648b59
+SHA1: 8bfb9acf8a5bf60d3dc23d10528d12c1f474c134
+SHA256: 480ae28b77c6fe9894566deaa505e09729169e01584fcf5cbeb02d2d9277769f
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Library for reading, mastering and writing optical discs
+
+Package: libburn-static
+Version: 1.5.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1820
+Depends: libburn (= 1.5.6-1)
+Filename: pool/main/libb/libburn-static/libburn-static_1.5.6-1_aarch64.deb
+Size: 375024
+MD5sum: e87554968dc40665873775d47bc1da91
+SHA1: 73601d47697415b241838ece124d548a142b6636
+SHA256: 2ca432ecb50f18b7da6187e971801b79cfcb35435c90da947138a45c014d13b2
+Homepage: https://dev.lovelyhq.com/libburnia
+Description: Static libraries for libburn
+
 Package: libbz2
 Version: 1.0.8-8
 Architecture: aarch64
@@ -12454,6 +12593,48 @@ SHA1: 7e0c3f54472aa80af18fcffd2183d92a842661b2
 SHA256: 9c2daf52459342a81896cc59910698756b7c3cc0483a67b7d5087e4028cbac71
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
+
+Package: libc++utilities
+Version: 5.31.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 968
+Depends: boost, libc++, libiconv
+Filename: pool/main/libc/libc++utilities/libc++utilities_5.31.0_aarch64.deb
+Size: 157076
+MD5sum: c3f9f6a03f02d216f871167e85d40dbe
+SHA1: 0fdbf49da7884d79e038b57ba6a1cf0f8c293945
+SHA256: 41393f805a0238c4e12fd3db87afb184665763b10e8ee060c5e0c030e4975918
+Homepage: https://github.com/Martchus/cpp-utilities
+Description: Useful C++ classes and routines such as argument parser, IO and conversion utilities
+
+Package: libc-client
+Version: 2007f-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1436
+Depends: openssl
+Filename: pool/main/libc/libc-client/libc-client_2007f-4_aarch64.deb
+Size: 396612
+MD5sum: 6006f8a8da7610451eb963baac77ae3f
+SHA1: 0c162d48d948e2e3ecc041511ac5302f77cab1e2
+SHA256: 036be0afdab6d80f5048bee253dfef25131fca0f4a3c3f30cc1ad74431477009
+Homepage: https://www.washington.edu/imap/
+Description: UW IMAP c-client library
+
+Package: libc-client-static
+Version: 2007f-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1508
+Depends: libc-client (= 2007f-4)
+Filename: pool/main/libc/libc-client-static/libc-client-static_2007f-4_aarch64.deb
+Size: 395236
+MD5sum: ae7e7b307a58427bcf4927e66c4c50f2
+SHA1: df38ec6c1a042aef21f3b024b74941e9d6cabd61
+SHA256: 859d96f8685001ca51de487c63bbcd91412f5afe81bc5cf924e4632922d360ae
+Homepage: https://www.washington.edu/imap/
+Description: Static libraries for libc-client
 
 Package: libcaca
 Version: 0.99.beta20-3
@@ -12500,6 +12681,34 @@ SHA1: 21064d8b0310f7546bd883eb077af1dd81858fc6
 SHA256: 2b491e95b0879b623c03911b634157072bd39a1719cd7f8503c056c1299a7e1b
 Homepage: https://cairographics.org
 Description: Cairo 2D vector graphics library
+
+Package: libcairomm-1.0
+Version: 1.14.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 584
+Depends: libc++, libcairo, libsigc++-2.0
+Filename: pool/main/libc/libcairomm-1.0/libcairomm-1.0_1.14.5-1_aarch64.deb
+Size: 92808
+MD5sum: 03cc06134e7682c033a76d5252f728e1
+SHA1: a9b398059472ecf1830e83aa285211ac67c567a3
+SHA256: 4cad85aa69bc7d4734942867410bf6392833b50505118991bb543c4d27f7de35
+Homepage: https://www.cairographics.org/cairomm/
+Description: Provides a C++ interface to cairo
+
+Package: libcairomm-1.16
+Version: 1.18.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 604
+Depends: libc++, libcairo, libsigc++-3.0
+Filename: pool/main/libc/libcairomm-1.16/libcairomm-1.16_1.18.0-1_aarch64.deb
+Size: 95068
+MD5sum: 9d8d234a8132f77afdcd4d999bd4f626
+SHA1: 77dc1a766ec147186f3593e2950fd4ad2160996a
+SHA256: 0d2ddfac0ef463fc40f315b88a3e71faac4bd11fe926c62cda0a4c9bd01338e5
+Homepage: https://www.cairographics.org/cairomm/
+Description: Provides a C++ interface to cairo
 
 Package: libcap
 Version: 2.69-1
@@ -12557,6 +12766,47 @@ SHA1: da72a8e8aa97138540d3762958e019dbc226260d
 SHA256: 9332f68b84866a6f77332a0710dc65623aa3fd972ebb910a09f1239e42af2ab6
 Homepage: https://sites.google.com/site/fullycapable/
 Description: Static libraries for libcap
+
+Package: libccd
+Version: 2.1-2
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 412
+Filename: pool/main/libc/libccd/libccd_2.1-2_aarch64.deb
+Size: 50112
+MD5sum: 81c1d9f783bf93766b301cc4a732683c
+SHA1: 3b103ba8b6767ba62daff67db3205739e47507b2
+SHA256: fe7a5e08f6c90232267099cac27c246c9d5ba9c373beb487918d5d2ecd489b04
+Homepage: https://github.com/danfis/libccd
+Description: Library for collision detection between two convex shapes
+
+Package: libcddb
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Depends: libiconv
+Filename: pool/main/libc/libcddb/libcddb_1.3.2-1_aarch64.deb
+Size: 38920
+MD5sum: 120ff8f1a729ffd1704ca6c7550fa3e9
+SHA1: 34e1f1157072a5a4e500190ac038b131a8c57765
+SHA256: d3b2ed9251da823a125adc5093e138849c03f7356f492eaa412994822ddc2eb3
+Homepage: https://libcddb.sourceforge.net/
+Description: A C library to access data on a CDDB server
+
+Package: libcddb-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 148
+Depends: libcddb (= 1.3.2-1)
+Filename: pool/main/libc/libcddb-static/libcddb-static_1.3.2-1_aarch64.deb
+Size: 24792
+MD5sum: 545940715824834ca6e83d24fabd4ac5
+SHA1: db2de91ec7bab2e6bc5378e530a3665e4f421dfa
+SHA256: 3b32679113641e7be48cac8a188d73f577e7e5745313c8a62fc5b4d511c0ca8f
+Homepage: https://libcddb.sourceforge.net/
+Description: Static libraries for libcddb
 
 Package: libchromaprint
 Version: 1.5.1-p20250625-1
@@ -15654,6 +15904,34 @@ SHA1: cffc26a5cd3cebe2e2160357527a1cf530f1386d
 SHA256: c284abfb4d7d1e938ccf238c08a6ce48d2efec96e9e7413e3850fc7a3c47b886
 Homepage: https://icecast.org/
 Description: Static libraries for libshout
+
+Package: libsigc++-2.0
+Version: 2.12.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1336
+Depends: libc++
+Filename: pool/main/libs/libsigc++-2.0/libsigc++-2.0_2.12.1-1_aarch64.deb
+Size: 73208
+MD5sum: 125199a2e32a636242a83ed1d786420c
+SHA1: 59cf8bd04ab28dce31ef7baefda9bc6ba5753903
+SHA256: 4aa5beef52b2a0065ef765e06fcdc8dbd804853a891e77c02ddaef5c2a00ddb9
+Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
+Description: Implements a typesafe callback system for standard C++
+
+Package: libsigc++-3.0
+Version: 3.6.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: libc++
+Filename: pool/main/libs/libsigc++-3.0/libsigc++-3.0_3.6.0-2_aarch64.deb
+Size: 56528
+MD5sum: da5b419e93ee5297a9f6715d3bedbc2d
+SHA1: 704af51a29a56aea6568127c24718efde82ff929
+SHA256: a187f0be7ab10ded1d45f4c9cedf46324e7063cebae43ed4c2971e2ee1aff899
+Homepage: https://libsigcplusplus.github.io/libsigcplusplus/
+Description: Implements a typesafe callback system for standard C++
 
 Package: libsixel
 Version: 1.10.5-1
