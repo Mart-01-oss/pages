@@ -20053,6 +20053,19 @@ SHA256: d1950404a7cbbea08de88b4e32c1fee978c730a581aeca79ecb666a2b981e55a
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Static libraries for libtirpc
 
+Package: libtllist
+Version: 1.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Filename: pool/main/libt/libtllist/libtllist_1.1.0_aarch64.deb
+Size: 6556
+MD5sum: 46ccb7e1ab93efc167cbdbd3269911a8
+SHA1: 1a529e686b3880599fca99eb6bce01c3e2b93f7d
+SHA256: 3ae43b2e5e68eff58e5241d3fdeaf641e5e40f38109297ff810a292913620848
+Homepage: https://codeberg.org/dnkl/fcft
+Description: A small font loading and glyph rasterization library
+
 Package: libtomcrypt
 Version: 1.18.2-1
 Architecture: aarch64
@@ -20123,6 +20136,76 @@ SHA256: 492c23927ed6f3e6bba9fc12f00e613a864b28e31fd2060e3481608fb8bc7f4a
 Homepage: https://www.gnu.org/software/libtool/
 Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
 
+Package: libtorrent
+Version: 0.15.6
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 1644
+Depends: libc++, openssl, zlib
+Filename: pool/main/libt/libtorrent/libtorrent_0.15.6_aarch64.deb
+Size: 352128
+MD5sum: a2306fc7c4f9b7b3ca4f23156a650cb2
+SHA1: 124c5c957f4aadb4d1ebb986d1f1efdc4226770a
+SHA256: cf59d6e7a671e61cf5d3c302e047ac6a8f52c18cc0d4782b634d3ccff18d4506
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Description: Libtorrent BitTorrent library
+
+Package: libtorrent-rasterbar
+Version: 2.0.11-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13552
+Depends: boost, libc++, openssl, python
+Filename: pool/main/libt/libtorrent-rasterbar/libtorrent-rasterbar_2.0.11-3_aarch64.deb
+Size: 2242840
+MD5sum: f284785184fe70ba4e16ab40b9786542
+SHA1: dd721e18eb2de7ac5b3e1a7c87cb3b218a7be4e1
+SHA256: b6b1d5cb036255445d4800dc5678e744ed5d3dd10e499c2ea3e38f208690fd80
+Homepage: https://libtorrent.org/
+Description: A feature complete C++ bittorrent implementation focusing on efficiency and scalability
+
+Package: libtorrent-static
+Version: 0.15.6
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 43320
+Depends: libtorrent (= 0.15.6)
+Filename: pool/main/libt/libtorrent-static/libtorrent-static_0.15.6_aarch64.deb
+Size: 4994416
+MD5sum: 0efd76bfbf73cfdd71e95bed8301565c
+SHA1: 6ac87286922e9262779d3d308fd9ab0e0ff6ac48
+SHA256: 2a18c5b2439c480c252416f60ac8dface7ecf4767486abc03dd9ca2296ce90e3
+Homepage: https://github.com/rakshasa/rtorrent/wiki
+Description: Static libraries for libtorrent
+
+Package: libtpms
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1312
+Depends: openssl
+Filename: pool/main/libt/libtpms/libtpms_0.10.1-1_aarch64.deb
+Size: 364460
+MD5sum: 0918e5f31d62314d4f84948104f671b5
+SHA1: 4ded16cbae9485dbdc40864b47694fde297fdbec
+SHA256: 6b77359704b0a2a6813e93973b91206d2dbcd5eaab74042b8a6070bf20b1b475
+Homepage: https://github.com/stefanberger/libtpms
+Description: Provides software emulation of a Trusted Platform Module (TPM 1.2 and TPM 2.0)
+
+Package: libtpms-static
+Version: 0.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2084
+Depends: libtpms (= 0.10.1-1)
+Filename: pool/main/libt/libtpms-static/libtpms-static_0.10.1-1_aarch64.deb
+Size: 375980
+MD5sum: 8cf758ff1ceb1722d7f54c8573e36051
+SHA1: 4d3dd911d0e14eaa5ba0effea8e4039db6482f42
+SHA256: d80fd80331294f8e1b59c3da4e0991640da0e797c45e8d7e86c77ade08be8071
+Homepage: https://github.com/stefanberger/libtpms
+Description: Static libraries for libtpms
+
 Package: libtranscript
 Version: 0.3.4-1
 Architecture: aarch64
@@ -20135,6 +20218,102 @@ SHA1: 7fbd55b50abe796b566037dc048b41c0ab33c1a7
 SHA256: f0c09445d45885fbc24520db68dff1b236ae3787b1ffd7f2a6e359b289599005
 Homepage: https://os.ghalkes.nl/libtranscript.html
 Description: A character-set conversion library
+
+Package: libtree-ldd
+Version: 3.1.1-2
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 80
+Depends: libandroid-glob
+Filename: pool/main/libt/libtree-ldd/libtree-ldd_3.1.1-2_aarch64.deb
+Size: 11200
+MD5sum: 4537620152c3ef6ba2c532f74fbceb8d
+SHA1: 80400e061dd63d91a356dd787153a30d13d4278b
+SHA256: 825ddcb06d4191ce50bea48429f14d7f63305ea1a535bd193fb198c7b4bde622
+Homepage: https://github.com/haampie/libtree
+Description: Like ldd(1), but prints a tree(1) like output
+
+Package: libtsduck
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19968
+Depends: libandroid-glob, libc++, libcurl, libedit
+Filename: pool/main/libt/libtsduck/libtsduck_3.40.4165-1_aarch64.deb
+Size: 3391488
+MD5sum: 826bdd1a02242a526acd905df441955e
+SHA1: 9c18b4cd62bcab0bf078520e7379a4dff5530753
+SHA256: 283ddbaae8bc28ce63a06b539517270e9d7acb18efb892d9336e801714a2b4e7
+Homepage: https://tsduck.io/
+Description: An extensible toolkit for MPEG transport streams
+
+Package: libtsduck-static
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40544
+Depends: libtsduck (= 3.40.4165-1)
+Filename: pool/main/libt/libtsduck-static/libtsduck-static_3.40.4165-1_aarch64.deb
+Size: 3802244
+MD5sum: 8bedeedc8b9d711df8ea4d2afa87bb61
+SHA1: 99ba6eac402b72883767b5fb4373405bf95a03a4
+SHA256: 158f4d8ef31c075435e7360d2798158fdff37eee5ccdbb3b8805d70790c8bbe4
+Homepage: https://tsduck.io/
+Description: Static libraries for libtsduck
+
+Package: libtvision
+Version: 2023.01.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1500
+Depends: libc++, ncurses
+Filename: pool/main/libt/libtvision/libtvision_2023.01.29-1_aarch64.deb
+Size: 286580
+MD5sum: 0a8a20d625c9d287d55ed253db2e412b
+SHA1: 3d4fb8c20e18760225ff7640a269ba11b4a4883e
+SHA256: be96dac69b9d0957aef9e72fbc7a3b17f3d5e1e7f63500e027b73311ab57da05
+Homepage: https://github.com/magiblot/tvision
+Description: A modern port of Turbo Vision 2.0 with Unicode support
+
+Package: libtwolame
+Version: 0.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Filename: pool/main/libt/libtwolame/libtwolame_0.4.0-1_aarch64.deb
+Size: 60456
+MD5sum: 38f9e1bfbc5d60cfe2e2b3f9d17c7832
+SHA1: fbd22748e5c7b7d896653a621fc54e8557927cc6
+SHA256: 0b167d0c763a9947362420f93fd1fb937865b00023c35496e9573dedee54a650
+Homepage: https://www.twolame.org/
+Description: An optimised MPEG Audio Layer 2 (MP2) encoder
+
+Package: libtwolame-static
+Version: 0.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 196
+Depends: libtwolame (= 0.4.0-1)
+Filename: pool/main/libt/libtwolame-static/libtwolame-static_0.4.0-1_aarch64.deb
+Size: 43076
+MD5sum: 888c8c70ba3199881dd8f917ad8cc46c
+SHA1: bbd8f78689cb7ed2d7c5247f848fb3128d980a7b
+SHA256: 680a87c51cc779a99377eab758050715cf5c416c097360955b7acda9946202a9
+Homepage: https://www.twolame.org/
+Description: Static libraries for libtwolame
+
+Package: libuber-h3
+Version: 4.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 504
+Filename: pool/main/libu/libuber-h3/libuber-h3_4.3.0-1_aarch64.deb
+Size: 88196
+MD5sum: 6ceb7cde0cbcbae3f9a6344c19d17405
+SHA1: 7e3ad3e42cfd909ab0244849f6f1b9f148f2bb05
+SHA256: 2da353e866427050c8357ac0e50f07c31533bd44be652c399fe9fd558ea8fb5b
+Homepage: https://h3geo.org/
+Description: A hexagonal hierarchical geospatial indexing system
 
 Package: libuchardet
 Version: 0.0.8-2
@@ -20163,6 +20342,33 @@ SHA1: 80d2c4ffb5e39ad11a25cdceddfbc0006551898d
 SHA256: 1986e852f8da2d6869ce70e18ddc403a2214b62e0d5d5beebf3c0a2a479136cd
 Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
 Description: Static libraries for libuchardet
+
+Package: libucontext
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Filename: pool/main/libu/libucontext/libucontext_1.2-2_aarch64.deb
+Size: 3912
+MD5sum: 95e4b6c3cc5256388853e7491ad2baf7
+SHA1: a1e8cd46d02205c514e220cd6a809b6437b36ce1
+SHA256: b56d1fcf74ae6c1fe7f2ab4999f2f55bac48223c23525a6a01d845ea4b002fc0
+Homepage: https://github.com/kaniini/libucontext
+Description: A library which provides the ucontext.h C API
+
+Package: libucontext-static
+Version: 1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: libucontext (= 1.2-2)
+Filename: pool/main/libu/libucontext-static/libucontext-static_1.2-2_aarch64.deb
+Size: 5840
+MD5sum: 7c1871c75c80ab3ced6163c724ebf1aa
+SHA1: 948fb9e179324f90059b95d5252b3fa5c9624c4c
+SHA256: 5a8e5d4711e14515a18d6a07157867d9bcb607fc6933bc12552cd9e14162ac11
+Homepage: https://github.com/kaniini/libucontext
+Description: Static libraries for libucontext
 
 Package: libudfread
 Version: 1.1.2-1
@@ -20350,6 +20556,20 @@ SHA256: 4310c68cb7e32f6e3c30e5c8ef4bba42edea4c263a3037eae8276812fc05b2fb
 Homepage: https://libimobiledevice.org
 Description: Static libraries for libusbmuxd
 
+Package: libusbredir
+Version: 0.13.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: glib, libusb
+Filename: pool/main/libu/libusbredir/libusbredir_0.13.0-1_aarch64.deb
+Size: 35148
+MD5sum: 3b4757091b9fb2632eccede1813ae472
+SHA1: e8f48a6591aa05304b570cfc593f2aec5064db81
+SHA256: 2d6083901b7cb0bd3d3280a46ebc72aeed81a582ba255ef508b729405c117633
+Homepage: https://www.spice-space.org/
+Description: network protocol for sending USB device traffic over a network connection
+
 Package: libuuid
 Version: 2.40.2-5
 Architecture: aarch64
@@ -20476,6 +20696,20 @@ SHA256: a115e2efaeae3f14f28c1153b636989b438591f8b6d1628258a1a53d02fdd6c0
 Homepage: https://ukoethe.github.io/vigra/
 Description: Computer vision library
 
+Package: libvips
+Version: 8.17.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3440
+Depends: cgif, fftw, fontconfig, glib, imagemagick, libc++, libcairo, libexif, libexpat, libheif, libimagequant, libjpeg-turbo, libjxl, libpng, librsvg, libtiff, libwebp, littlecms, openexr, openjpeg, pango, poppler, zlib
+Filename: pool/main/libv/libvips/libvips_8.17.2_aarch64.deb
+Size: 1090440
+MD5sum: eb3833aeebe023fc7a3b12859739827a
+SHA1: 22bba5c78d4902a7a53d5c1b0c57a56a0ba20691
+SHA256: 5445bc5707779c1ef065fc579d50527768358f65ef2271fe0b60cbff2f4fd44b
+Homepage: https://libvips.github.io/libvips/
+Description: A fast image processing library with low memory needs
+
 Package: libvmaf
 Version: 3.0.0-2
 Architecture: aarch64
@@ -20530,6 +20764,34 @@ SHA1: 0b17e70fda708314d1b2043e872c81aea0a50bc3
 SHA256: 83ce2f8819c81bbbac4be30fe4135b99f1d8e85748852f6b60b98c5cee412f71
 Homepage: https://sourceforge.net/projects/opencore-amr/
 Description: Static libraries for libvo-amrwbenc
+
+Package: libvoikko
+Version: 4.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 612
+Depends: libc++
+Filename: pool/main/libv/libvoikko/libvoikko_4.3.3-2_aarch64.deb
+Size: 121724
+MD5sum: d8704b3c4206ec58c988acef31b2a2f0
+SHA1: 5247873d27c262f68299fc7d43255875bd3367ae
+SHA256: f70ed8f53b5206eebf82bd2f4c21f120b641edc0ace5f4328e00b9e6e64bc606
+Homepage: http://voikko.sourceforge.net
+Description: A spelling and grammar checker, hyphenator and collection of related linguistic data for Finnish language
+
+Package: libvoikko-static
+Version: 4.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1680
+Depends: libvoikko (= 4.3.3-2)
+Filename: pool/main/libv/libvoikko-static/libvoikko-static_4.3.3-2_aarch64.deb
+Size: 178276
+MD5sum: ee9c292da45a850055ad93898652fe31
+SHA1: b3f2fd8359f42c6e49d9461f6c4877f4009ff60e
+SHA256: b342c839f6d3f2ea5fa94ca8e3cfd5c482d0d553e0c2784947ce03d9b440132c
+Homepage: http://voikko.sourceforge.net
+Description: Static libraries for libvoikko
 
 Package: libvorbis
 Version: 1.3.7-4
@@ -24448,6 +24710,62 @@ SHA256: 3a1e177644e11bd8491353cdcab0700494edbf43ee70acb84533fbf45e5fa197
 Homepage: https://tree-sitter.github.io/
 Description: Static libraries for tree-sitter
 
+Package: tsduck-java
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: openjdk-21, libtsduck (= 3.40.4165-1)
+Filename: pool/main/t/tsduck-java/tsduck-java_3.40.4165-1_aarch64.deb
+Size: 10084
+MD5sum: 4a14d34d2adef4a3f7b3f8f714c24200
+SHA1: 8add5b587f93b5a40cad14dc308fb5c18ed0c0d7
+SHA256: 387f37fc6d431a547ce524a73743905bcac15f1ebe85c801ad24e607d09ac6b7
+Homepage: https://tsduck.io/
+Description: Java bindings for TSDuck
+
+Package: tsduck-plugins
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6316
+Depends: libtsduck (= 3.40.4165-1)
+Filename: pool/main/t/tsduck-plugins/tsduck-plugins_3.40.4165-1_aarch64.deb
+Size: 754360
+MD5sum: d97b2d39a5314552c9c5932229d0ac31
+SHA1: eee8c4224d09c83819bd03ec677a80dedc199dc2
+SHA256: a3fc05b20e9a4dd9f51ec4bec7e6cddcb78e56c0858e1807a1af2f0c04137cc4
+Homepage: https://tsduck.io/
+Description: Plugins for TSDuck
+
+Package: tsduck-python
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: python, libtsduck (= 3.40.4165-1)
+Filename: pool/main/t/tsduck-python/tsduck-python_3.40.4165-1_aarch64.deb
+Size: 13180
+MD5sum: b0b4d3600cec7b523f906396f8c54964
+SHA1: 3b3035eade3598b25119cd7dec83f320bd780132
+SHA256: dd9b993fc4220de016a5822472f4f5e63627072e8a2f96d62830c94352172f5e
+Homepage: https://tsduck.io/
+Description: Python bindings for TSDuck
+
+Package: tsduck-tools
+Version: 3.40.4165-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2628
+Depends: libtsduck (= 3.40.4165-1)
+Filename: pool/main/t/tsduck-tools/tsduck-tools_3.40.4165-1_aarch64.deb
+Size: 340164
+MD5sum: c51be437de007bd44eb74fb442aab801
+SHA1: 314e935fb052ceacc446b8625604d0c24910fd7a
+SHA256: ea50dc7f3109bb3eadfd808645217f9599e6f5b71e23a4fc692c85110e959d4b
+Homepage: https://tsduck.io/
+Description: Command line tools for TSDuck
+
 Package: ttf-dejavu
 Version: 2.37-8
 Architecture: all
@@ -24460,6 +24778,20 @@ SHA1: eeba052c4f62975cdde43b258a88c31382edd2e2
 SHA256: 6cd7442ddb7ed55b6c3e132aa9f6a86cebc9ba874a30f4fdc2f9c98e26f5a404
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: twolame
+Version: 0.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: libsndfile, libtwolame (= 0.4.0-1)
+Filename: pool/main/t/twolame/twolame_0.4.0-1_aarch64.deb
+Size: 11240
+MD5sum: dd8e8dcf4a6a87143d4499b5be799c34
+SHA1: c83a6b7f5d12571d6d185e143b7e881823e1f4b0
+SHA256: d8b635ba0222a4c4426385cb3def896282b121f751126a35f1f658ad347bf7a9
+Homepage: https://www.twolame.org/
+Description: The frontend for libtwolame
 
 Package: uchardet
 Version: 0.0.8-2
