@@ -9209,6 +9209,34 @@ SHA256: c7328dc5572b896fc2d556bf16711ff12a708d80f3cd8b4a065749069c919f0c
 Homepage: https://groovy-lang.org/
 Description: A powerful multi-faceted programming language for the JVM platform
 
+Package: gsasl
+Version: 2.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124
+Depends: libgnutls, libiconv, readline, libgsasl (= 2.2.2-1)
+Filename: pool/main/g/gsasl/gsasl_2.2.2-1_aarch64.deb
+Size: 29688
+MD5sum: 25ff136662ec3495bd0aa710f8362a64
+SHA1: 2c162c393fd2d67383ba0e649b1540a349ae2ed6
+SHA256: d422d0d485acfa433ce93a93b4026945be87bb7f03165d7adfa49fa312dea97e
+Homepage: https://www.gnu.org/software/gsasl
+Description: GNU SASL library command line interface
+
+Package: gsf-tools
+Version: 1.14.53-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: libgsf (= 1.14.53-2)
+Filename: pool/main/g/gsf-tools/gsf-tools_1.14.53-2_aarch64.deb
+Size: 12460
+MD5sum: 44cce68fe45461e08d43fd37565e4f33
+SHA1: 5b174fe58c83fb873f70b30214a0408f416f916c
+SHA256: 10e9d0d3d97388bd16bd8451c736f8564f755b5b63b7540a53394aba95164b78
+Homepage: https://gitlab.gnome.org/GNOME/libgsf
+Description: Command-line tools for libgsf
+
 Package: gsl
 Version: 2.8-1
 Architecture: aarch64
@@ -13436,6 +13464,20 @@ SHA256: 271ad1111c853ff802a5dc6c018ebc5bb52452b32dd4882bf431cce04a25f224
 Homepage: https://0pointer.de/lennart/projects/libdaemon/
 Description: Static libraries for libdaemon
 
+Package: libdart
+Version: 6.15.0-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 49220
+Depends: libc++, eigen, assimp, libccd, libfcl, fmt, libspdlog, libbullet, libode, libpagmo, octomap, libtinyxml2
+Filename: pool/main/libd/libdart/libdart_6.15.0-1_aarch64.deb
+Size: 11198392
+MD5sum: f9a7e1a6442c66ad2d614f1ccf3b031b
+SHA1: e4b52223af6657ce2b02c1e1ec3ba6a07f5aff12
+SHA256: 2daefc211b212ff96423c608300b8ea64a68a9bfe7d5b530f5e609b26c5d1eb0
+Homepage: https://dartsim.github.io/
+Description: Dynamic Animation and Robotics Toolkit
+
 Package: libdav1d
 Version: 1.5.1-1
 Architecture: aarch64
@@ -14059,10 +14101,10 @@ Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
 Installed-Size: 10064
 Depends: libandroid-support, libc++, libccd, octomap
 Filename: pool/main/libf/libfcl/libfcl_0.7.0-3_aarch64.deb
-Size: 1048264
-MD5sum: 7be16cdd0a26814ee85699007467cf56
-SHA1: e953f64a0cfb02f30340afae646cd8a1a2dea1cd
-SHA256: 966120fccda961f54ee4e7526fa1bb89065c43fd8b349e1d13e50a4a9caef00f
+Size: 1046812
+MD5sum: ceff0c85292348459a09b064f813c9b9
+SHA1: 5ea76863165d7c9d7d4109acf5a893229cdc1399
+SHA256: 7363ab22af13cf00a7a0ebcb8d3f5b8e813102dd3eefdc3b80eab0b5cd456595
 Homepage: https://github.com/flexible-collision-library/fcl
 Description: Flexible collision library
 
@@ -14537,6 +14579,20 @@ SHA256: 14a640c845be4e0628dc996ed76da2e20a3908da1d3fccd7264d3a27cf749a05
 Homepage: https://www.gtkmm.org/
 Description: A C++ API for parts of glib that are useful for C++
 
+Package: libglibmm-2.68
+Version: 2.86.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7844
+Depends: glib, libc++, libsigc++-3.0
+Filename: pool/main/libg/libglibmm-2.68/libglibmm-2.68_2.86.0_aarch64.deb
+Size: 1005928
+MD5sum: f4ca3f982697ec93b290343081732b3d
+SHA1: b7cb3801586722de636ee41725e5461745fff526
+SHA256: 98dfd56e829cbbb4dabee81afbd3edd2f1bc30619ed57eaf51fa5d928d7e7a11
+Homepage: https://www.gtkmm.org/
+Description: A C++ API for parts of glib that are useful for C++
+
 Package: libglvnd
 Version: 1.7.0-1
 Architecture: aarch64
@@ -14569,6 +14625,36 @@ SHA1: f9c2187f3c0be258acecce9e79df9f096be4036f
 SHA256: 583eea87e2f0a1d953fb87118050e1453e54b791ff983babd40aa7da57c8ff9c
 Homepage: https://gitlab.freedesktop.org/glvnd/libglvnd
 Description: GLVND's OpenGL headers
+
+Package: libgmime
+Version: 3.2.15-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2228
+Depends: glib, libiconv, libidn2, zlib
+Breaks: libgmime-dev
+Replaces: libgmime-dev
+Filename: pool/main/libg/libgmime/libgmime_3.2.15-2_aarch64.deb
+Size: 252172
+MD5sum: 69859aeca48c9e1448a4fa35b1f95a4a
+SHA1: 7f996720b845889ef1ba0ff3325e4bc875baaf62
+SHA256: 6c7555de2f0b10e58ed8b876f04169c109b586e75d5af8c64105a12724b2d789
+Homepage: https://github.com/jstedfast/gmime
+Description: MIME message parser and creator
+
+Package: libgmime-static
+Version: 3.2.15-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 980
+Depends: libgmime (= 3.2.15-2)
+Filename: pool/main/libg/libgmime-static/libgmime-static_3.2.15-2_aarch64.deb
+Size: 163388
+MD5sum: 2ab2f2b019b6c2567c63dbb2c25e52cc
+SHA1: cd25dfb878f8a36b859a0702b81d6d11b25a74ff
+SHA256: ad7567ff4a54029b1f03df37e9cea986289cd2d0ea133c63c66d8e674008c865
+Homepage: https://github.com/jstedfast/gmime
+Description: Static libraries for libgmime
 
 Package: libgmp
 Version: 6.3.0-2
@@ -14689,6 +14775,108 @@ SHA256: 5a0d1454c97408462988f237d584c4e47ea56c15fed19ad08b87c2fd627f7850
 Homepage: https://github.com/silnrsi/graphite
 Description: Font system for multiple languages
 
+Package: libgrpc
+Version: 1.75.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27552
+Depends: abseil-cpp, c-ares, ca-certificates, libc++, libprotobuf, libre2, openssl, protobuf, zlib
+Breaks: libgrpc-dev
+Replaces: libgrpc-dev
+Filename: pool/main/libg/libgrpc/libgrpc_1.75.1_aarch64.deb
+Size: 4976184
+MD5sum: 23a35e3fd31d1c94d9b1aba1eecd24f5
+SHA1: f791ed65775bd10e2dcd746bb2b5f9c1bd5934a0
+SHA256: 7d5f35508260f43824a064923c01677344ee4befad5d13fe4625c08f1c2bc725
+Homepage: https://grpc.io/
+Description: High performance, open source, general RPC framework that puts mobile and HTTP/2 first
+
+Package: libgsasl
+Version: 2.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 568
+Depends: libidn
+Breaks: libgsasl-dev
+Replaces: libgsasl-dev
+Filename: pool/main/libg/libgsasl/libgsasl_2.2.2-1_aarch64.deb
+Size: 128344
+MD5sum: fc15e4bcdcf641cf8ad25a6dc540a56a
+SHA1: 445bf30c7cd81e0a999a0e8fa88658b262199142
+SHA256: 804f1b494566ebda39d8b279a2f57c9ead83dc9afed68f1d9f3b71490d9884d2
+Homepage: https://www.gnu.org/software/gsasl
+Description: GNU SASL library
+
+Package: libgsasl-static
+Version: 2.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Depends: libgsasl (= 2.2.2-1)
+Filename: pool/main/libg/libgsasl-static/libgsasl-static_2.2.2-1_aarch64.deb
+Size: 58236
+MD5sum: 2cf3669cd1b3a3d45884d626a6ebcf3d
+SHA1: 68c85fc6796761179125c836baeeb53dd0e42a49
+SHA256: 347aed4b0c2a86d60bd6c4ae98eb0c3777b28cf03308dfd107f18c3b9252eb12
+Homepage: https://www.gnu.org/software/gsasl
+Description: Static libraries for libgsasl
+
+Package: libgsf
+Version: 1.14.53-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1016
+Depends: glib, libbz2, libxml2, zlib
+Filename: pool/main/libg/libgsf/libgsf_1.14.53-2_aarch64.deb
+Size: 134624
+MD5sum: 70a538825b87a9cefb76839756235de3
+SHA1: 2100f83574d465969310cff5d0b07ffe9a6cb716
+SHA256: 418003c324d8ec4b179f298cd2e16ea3fa1d8def957e4603d192fcec98b0c7bb
+Homepage: https://gitlab.gnome.org/GNOME/libgsf
+Description: The G Structured File Library
+
+Package: libgsf-static
+Version: 1.14.53-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Depends: libgsf (= 1.14.53-2)
+Filename: pool/main/libg/libgsf-static/libgsf-static_1.14.53-2_aarch64.deb
+Size: 101576
+MD5sum: a6889222c18097f7db1d4af47d60897b
+SHA1: 8ce834f293b27d83ed0fe9332a620ea0bce8eb76
+SHA256: befc50cf73da2e4ad197b124a3e54eb9e8f4c1e0584108362bbc50f63121db4b
+Homepage: https://gitlab.gnome.org/GNOME/libgsf
+Description: Static libraries for libgsf
+
+Package: libgtop
+Version: 2.41.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 696
+Depends: glib, libandroid-shmem, libxau
+Filename: pool/main/libg/libgtop/libgtop_2.41.3-1_aarch64.deb
+Size: 74940
+MD5sum: b19fb74334fea46f01014df46bd81e02
+SHA1: d577cfa7eb1692c7b73a781a53570a329a40ca32
+SHA256: e36d9c35b672030a8558109fa3aee2bb25e20e86c30e3e33b4319bb5c08481f8
+Homepage: https://gitlab.gnome.org/GNOME/libgtop
+Description: Library for collecting system monitoring data
+
+Package: libgtop-static
+Version: 2.41.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 220
+Depends: libgtop (= 2.41.3-1)
+Filename: pool/main/libg/libgtop-static/libgtop-static_2.41.3-1_aarch64.deb
+Size: 33108
+MD5sum: 3ba56e125a896b59d7fff9739797c539
+SHA1: 2e97560dfb8cd2041a9e836671ad0014a8c0ae5c
+SHA256: 11c117981908176e81e75880b70ffa9d09da0ff4f7b1fb36747c1fcf62f48426
+Homepage: https://gitlab.gnome.org/GNOME/libgtop
+Description: Static libraries for libgtop
+
 Package: libgts
 Version: 0.7.6-2
 Architecture: aarch64
@@ -14716,6 +14904,62 @@ SHA1: 1a3ce04b50ebc65fbc91103488e13a0e2b522093
 SHA256: 123eca011d05bd887b7971f0c6207d5d40d5b311822ab80c14dfb7037adc86e6
 Homepage: https://gts.sourceforge.net/
 Description: Static libraries for libgts
+
+Package: libgxps
+Version: 0.3.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Depends: freetype, glib, libarchive, libcairo, libjpeg-turbo, libpng, libtiff, littlecms
+Filename: pool/main/libg/libgxps/libgxps_0.3.2-3_aarch64.deb
+Size: 64036
+MD5sum: f3f380d167cb4f9556f5ec53fd049c8b
+SHA1: 4ae9349fddb4178b9af75f4cc693da0debc8280d
+SHA256: 4db59ceb650dbd06a0882b51af8e83deb80efa7326a1f6d291aefd4c8351bc65
+Homepage: https://wiki.gnome.org/libgxps
+Description: handling and rendering XPS documents
+
+Package: libhangul
+Version: 0.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6464
+Depends: libandroid-glob, libexpat, libiconv
+Filename: pool/main/libh/libhangul/libhangul_0.2.0-1_aarch64.deb
+Size: 1847240
+MD5sum: 5e4075c57ce78972460a8176515ceefb
+SHA1: 56b96f5ab16819785b0a47c86c8f70bc9d9935e6
+SHA256: 7dbdb3d3f3ee481b5da9629588683af0d2415396e4fbb6a8d90663cc8d1d45e4
+Homepage: https://github.com/libhangul/libhangul
+Description: A library to support hangul input method logic
+
+Package: libhangul-static
+Version: 0.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: libhangul (= 0.2.0-1)
+Filename: pool/main/libh/libhangul-static/libhangul-static_0.2.0-1_aarch64.deb
+Size: 18352
+MD5sum: 05cc230f2d36549c8530442ff1b56cea
+SHA1: ff94f14f7e55f0edef69cd3a205f16bab7ae74e0
+SHA256: df89edee58ccf999f76e1a1d548dbc424355ae6f7021553bc7535f6d60f0e056
+Homepage: https://github.com/libhangul/libhangul
+Description: Static libraries for libhangul
+
+Package: libharu
+Version: 2.4.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2324
+Depends: libpng, zlib
+Filename: pool/main/libh/libharu/libharu_2.4.5-1_aarch64.deb
+Size: 482944
+MD5sum: 9ce442b4a6410ee873a79502edc14d64
+SHA1: b810b56f3229bf72873de02299f83596f9ce7b0f
+SHA256: a85a5a01973b60a27e6e0fe8ed81f1073fb83d72240222bf8d3e0550599102bd
+Homepage: http://libharu.org/
+Description: Free, cross platform, open source library for generating PDF files
 
 Package: libhdf5
 Version: 1.14.4.3-1
@@ -14815,6 +15059,49 @@ SHA1: 6fd62942a31b92874075c71a1858df475e9127cc
 SHA256: 92f2d15d5e33ba849b80c5b17c54850f53dfce65c59e2a12a0cf3baa75e91f94
 Homepage: https://htmlcxx.sourceforge.net/
 Description: Static libraries for libhtmlcxx
+
+Package: libhyphen
+Version: 2.8.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Filename: pool/main/libh/libhyphen/libhyphen_2.8.8-1_aarch64.deb
+Size: 49432
+MD5sum: 093f3ab8d9e0c52510bcea3f1af99db6
+SHA1: 76d9aefde6fe97a229d4cad4ee9421c658b32f2e
+SHA256: 3db91a657521f1111280e5d45810ec3c4c20cbbce0628fb96747cc4658407dfe
+Homepage: https://github.com/hunspell/hyphen
+Description: hyphenation library to use converted TeX hyphenation patterns
+
+Package: libhyphen-static
+Version: 2.8.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libhyphen (= 2.8.8-1)
+Filename: pool/main/libh/libhyphen-static/libhyphen-static_2.8.8-1_aarch64.deb
+Size: 8412
+MD5sum: ef20c9f5a74b8a9a1245dab467a40d94
+SHA1: 1ccc5e52081667837f7ff5d2cc23dc40188f410f
+SHA256: 1037c1cac5083ffa1a422f392230732b0d5b1dad7b4f3d73e475802a42fdd782
+Homepage: https://github.com/hunspell/hyphen
+Description: Static libraries for libhyphen
+
+Package: libical
+Version: 3.0.20-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3804
+Depends: libc++, libicu
+Breaks: libical-dev
+Replaces: libical-dev
+Filename: pool/main/libi/libical/libical_3.0.20-2_aarch64.deb
+Size: 265296
+MD5sum: 514e5739e06aaae101f7109384c7da57
+SHA1: 3a37ed2c169f886838891a4e8d8ddf5ce95a0ca1
+SHA256: 93fdd16c7453fd6cd0eb1e3f63c0c71c542722ca8c9f62ddac235e5b03f98deb
+Homepage: https://libical.github.io/libical/
+Description: Libical is an Open Source implementation of the iCalendar protocols and protocol data units
 
 Package: libice
 Version: 1.1.2-1
@@ -14963,6 +15250,33 @@ SHA1: 6e4b3e0b8c9df258bc5a8c362dcc20c9c62cf72e
 SHA256: 68d7b271afeb54df55d6cdc87ed867c75b92537852d835d7c68dd9db49a77019
 Homepage: https://www.gnu.org/software/libidn/#libidn2
 Description: Static libraries for libidn2
+
+Package: libimagequant
+Version: 4.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 644
+Filename: pool/main/libi/libimagequant/libimagequant_4.4.0-1_aarch64.deb
+Size: 225468
+MD5sum: f3f5ca844f102e5c46f41cad9d5b6d2e
+SHA1: 3fccaf4f2d52f52773b1f01f8ab59ef6ec35ce8b
+SHA256: 070909cd904d98bf042d442a2889b4a897a8586fef3e043e782aa84b9a6519c5
+Homepage: https://pngquant.org/lib/
+Description: Small, portable C library for high-quality conversion of RGBA images to 8-bit indexed-color (palette) images
+
+Package: libimagequant-static
+Version: 4.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22260
+Depends: libimagequant (= 4.4.0-1)
+Filename: pool/main/libi/libimagequant-static/libimagequant-static_4.4.0-1_aarch64.deb
+Size: 4010868
+MD5sum: 4308302c3cc2b95e24fffe8f30784576
+SHA1: e5570f3d387815a3b8de9c5e0bf0546e213d78c6
+SHA256: 7a930ac621d2752fc714621beff15332d285cf6d4c732a2809cc48cddb3d2e21
+Homepage: https://pngquant.org/lib/
+Description: Static libraries for libimagequant
 
 Package: libinih
 Version: 62
@@ -16057,6 +16371,20 @@ SHA256: c0abd750bc0bbd1cf523c8e26b8d1ba2274fa0959d9f3a6f8acbfd8abef7a899
 Homepage: https://www.gnustep.org/
 Description: The GNUstep Objective-C runtime
 
+Package: libode
+Version: 0.16.6-1
+Architecture: aarch64
+Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
+Installed-Size: 1468
+Depends: libc++, libccd
+Filename: pool/main/libo/libode/libode_0.16.6-1_aarch64.deb
+Size: 354132
+MD5sum: 59b8095978d3f38c1df47b1db8bfb25e
+SHA1: 53ebd3eb2888f6e0bc1b5dbb950674bec73aa698
+SHA256: c1a7f37bf19392605d4dca228566949ab7b629aaa133b1033dc6c32f8863b708
+Homepage: https://www.ode.org
+Description: An open source, high performance library for simulating rigid body dynamics
+
 Package: libogg
 Version: 1.3.6-1
 Architecture: aarch64
@@ -16296,6 +16624,20 @@ SHA1: 52d610d2abda879c2d55c6d385bc23e3912df6d7
 SHA256: d2da8dee4819d24c56f9a84e23093ab0da6ee8024e8161fa3095f526815daf52
 Homepage: https://github.com/Pulse-Eight/platform
 Description: Platform support library used by libCEC and binary add-ons for Kodi
+
+Package: libpagmo
+Version: 2.19.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20436
+Depends: libc++, boost, libtbb, eigen, nlopt
+Filename: pool/main/libp/libpagmo/libpagmo_2.19.1-3_aarch64.deb
+Size: 4151668
+MD5sum: 8fa70b60ca11121ef716e35044feea86
+SHA1: 264d066fc0cd5c31d44dfa4d9a44fae8ddabaf62
+SHA256: 029d346afcc15b5cb7419be440a68a9827d2ce76ca1bedff067e0b7a35343efc
+Homepage: https://esa.github.io/pagmo2/index.html
+Description: Scientific library for massively parallel optimization
 
 Package: libpcap
 Version: 1.10.5-1
@@ -19407,6 +19749,20 @@ SHA256: 1eec20c705caa6d12bf77e6feaa825b91613216e4923c8f0905bd3331708260e
 Homepage: https://github.com/nlohmann/json
 Description: JSON for Modern C++
 
+Package: nlopt
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 708
+Depends: libc++
+Filename: pool/main/n/nlopt/nlopt_2.10.0-1_aarch64.deb
+Size: 237696
+MD5sum: e0d9506529bcf441296ffe4b74ebf55f
+SHA1: ac0e2219ceb3ab5f3c006aeab4cd0cf8d430a99b
+SHA256: d23d0cd015707d8a7d809892315bae73d0b76c9421227ce4b2041ce47d5db42e
+Homepage: https://nlopt.readthedocs.io/
+Description: Library for nonlinear optimization
+
 Package: nss-utils
 Version: 3.116
 Architecture: aarch64
@@ -19441,10 +19797,10 @@ Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
 Installed-Size: 1340
 Depends: libc++
 Filename: pool/main/o/octomap/octomap_1.10.0-1_aarch64.deb
-Size: 182032
-MD5sum: 7cee091a54a6b510e7ef14524320fcad
-SHA1: 22d829c31b24b11a71c0d0e88e9ef54f0e881659
-SHA256: bef69ca9198768a48855f4c6ffc78744085d284688390426faf0d74bd0840b16
+Size: 181704
+MD5sum: 5630e3c2adcb9a0d15701995f473518f
+SHA1: a52e58f09a04bbbcabb71c3678247fd02673b1a0
+SHA256: c9b60880933ee299c80a494590d8de4c8355763860d51ce8e5d11b026b1773fd
 Homepage: https://github.com/OctoMap/octomap
 Description: An efficient probabilistic 3D mapping framework based on octrees
 
@@ -19455,10 +19811,10 @@ Maintainer: Pooya Moradi <pvonmoradi@gmail.com>
 Installed-Size: 832
 Depends: octomap (= 1.10.0-1)
 Filename: pool/main/o/octomap-static/octomap-static_1.10.0-1_aarch64.deb
-Size: 97260
-MD5sum: 632d49874e6dc91ab661b963056135b9
-SHA1: c307c51e1a249728ea26ca7980d0c9d52c4dcd19
-SHA256: 7a86ff773dd674d5cd2636d34ecf976e4e7fb84bab969992b9dd038f15713a3f
+Size: 97264
+MD5sum: cfb78da67c50ff2b51db8e05a5008aa3
+SHA1: 7a7cd54c5002059b80fd7d71b0633c9f3f13f685
+SHA256: a464bb67287b186225a11a17c9b0b8bd7e98c59280747582f4c00c57d070019f
 Homepage: https://github.com/OctoMap/octomap
 Description: Static libraries for octomap
 
