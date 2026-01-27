@@ -16032,6 +16032,34 @@ SHA256: 1af666f9a7bba55fb7243cbe613952ac185c0115c75aa3b184670600b9362d2a
 Homepage: https://github.com/carlobaldassi/liblqr
 Description: Static libraries for liblqr
 
+Package: liblrdf
+Version: 0.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: libraptor2
+Filename: pool/main/libl/liblrdf/liblrdf_0.6.1-2_aarch64.deb
+Size: 14432
+MD5sum: 68b06da79bfc9d3c0ed4ac0bd5938d3d
+SHA1: 2523299664bfc128332a9e52d3bbb4369e8384df
+SHA256: cda7ea32aa7463825b28d163ca80850a8d2cf50d23f08bc4efe9765a7797edbd
+Homepage: https://github.com/swh/LRDF
+Description: A library to make it easy to manipulate RDF files describing LADSPA plugins
+
+Package: liblrdf-static
+Version: 0.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: liblrdf (= 0.6.1-2)
+Filename: pool/main/libl/liblrdf-static/liblrdf-static_0.6.1-2_aarch64.deb
+Size: 28096
+MD5sum: 71a58d8a35d77db21b8bbfdb6f005180
+SHA1: e6b1397af37e52119fa0cba0d5ab2206187e204d
+SHA256: 2b53894c8f03cb2937fa0a57671ef50cf8d50d11d0ecc7d8ca3a252dade0e6d2
+Homepage: https://github.com/swh/LRDF
+Description: Static libraries for liblrdf
+
 Package: libltdl
 Version: 2.5.4-2
 Architecture: aarch64
@@ -16161,6 +16189,35 @@ SHA256: 6c86d34fdc256de5016eed99282aaade00fc5649c70ed61ca16b284c54498d6b
 Homepage: https://www.lua.org/
 Description: Static libraries for liblua54
 
+Package: libluajit
+Version: 1:2.1.1731601260-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 592
+Breaks: libluajit-dev
+Replaces: libluajit-dev
+Filename: pool/main/libl/libluajit/libluajit_1+2.1.1731601260-1_aarch64.deb
+Size: 216716
+MD5sum: eb1f6bc65f12f025c05637a590e906b6
+SHA1: 441c22cb5a7cde98ca40031971035441b385e9e9
+SHA256: 3be57aa7a12ccb5f8ff0d1608bdd7e1d4e631df6eceab9cc527f8d564f6533fe
+Homepage: https://luajit.org/
+Description: Just-In-Time Compiler for Lua
+
+Package: libluajit-static
+Version: 1:2.1.1731601260-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 692
+Depends: libluajit (= 1:2.1.1731601260-1)
+Filename: pool/main/libl/libluajit-static/libluajit-static_1+2.1.1731601260-1_aarch64.deb
+Size: 221424
+MD5sum: 567348f9d1c3f3c71fe34862b689211c
+SHA1: 7ec01318a60b8fa3804f1f6a53a9e54e2c40c957
+SHA256: c98845421afd7b1ce4752300d2f481d4889f43c40c3bcf1e60ca00c8bbe044dd
+Homepage: https://luajit.org/
+Description: Static libraries for libluajit
+
 Package: liblz4
 Version: 1.10.0-1
 Architecture: aarch64
@@ -16263,6 +16320,120 @@ SHA256: 2884c9cff3dc6736a0738d87722bc2159a8b9d9c4ab3dfd96f067a783aa0172d
 Homepage: http://www.underbit.com/products/mad/
 Description: MAD is a high-quality MPEG audio decoder
 
+Package: libmariadbcpp
+Version: 1.1.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2356
+Depends: libc++, openssl, zlib
+Filename: pool/main/libm/libmariadbcpp/libmariadbcpp_1.1.2-1_aarch64.deb
+Size: 542728
+MD5sum: d59ffd1efedc5c94ec855417c35a0dda
+SHA1: 16d159867e8905f25bdebd49f2bfa6c1fcf34932
+SHA256: 08969247443ea90dbc4d2eded7dd0d7d88f5fb3a54d2a245f79a13a52ef04e9d
+Homepage: https://mariadb.com/docs/clients/mariadb-connectors/connector-cpp/
+Description: Enables C++ applications to establish client connections to MariaDB Enterprise over TLS
+
+Package: libmatio
+Version: 1.5.28-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Depends: zlib
+Filename: pool/main/libm/libmatio/libmatio_1.5.28-1_aarch64.deb
+Size: 92980
+MD5sum: 014fa1fa248c6106216f3d3403ec507b
+SHA1: 9605e7e977cd1f5ea95744aea4de3514ec16d6fc
+SHA256: e014d9afb0e1bc9b0eff3d0e41e19fbccc72deeca5cf9f98f042cd547af34fe2
+Homepage: https://github.com/tbeu/matio
+Description: A C library for reading and writing Matlab MAT files
+
+Package: libmatroska
+Version: 1.7.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 912
+Depends: libc++, libebml
+Filename: pool/main/libm/libmatroska/libmatroska_1.7.1-1_aarch64.deb
+Size: 118792
+MD5sum: 4f7a916753b6e457f5932077501f1781
+SHA1: bb333eb85b858b016cabe067ebcf542a4fc8df89
+SHA256: 24dd62e26dc91608c384e25615aa94cf4a39b8cbf8343c9b6e84d1f7386c1fb0
+Homepage: https://dl.matroska.org/downloads/libmatroska/
+Description: Matroska library
+
+Package: libmaxminddb
+Version: 1.12.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Breaks: libmaxminddb-dev
+Replaces: libmaxminddb-dev
+Filename: pool/main/libm/libmaxminddb/libmaxminddb_1.12.2-1_aarch64.deb
+Size: 11012
+MD5sum: ee3f8f54779799d2d977faf188dbcbb3
+SHA1: a1704efca6600b3f1d0437660afbf8ae7f28676a
+SHA256: 57033a054c258405cba324ebc4f251836358e4ea4fbe76b15a2a726cf422145f
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Description: MaxMind GeoIP2 database - library and utilities
+
+Package: libmaxminddb-static
+Version: 1.12.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libmaxminddb (= 1.12.2-1)
+Filename: pool/main/libm/libmaxminddb-static/libmaxminddb-static_1.12.2-1_aarch64.deb
+Size: 27156
+MD5sum: 4ddbc762be1d9d2c439d074096a9be07
+SHA1: e45e154db7dbdae855e4639f4199412a8c3452e8
+SHA256: 74943ecfc6c349ac217a6c0acf1d6036397623cae7e43eb8f2bce9c8f80591cf
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Description: Static libraries for libmaxminddb
+
+Package: libmaxminddb-tools
+Version: 1.12.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: geoip2-database, libmaxminddb (= 1.12.2-1)
+Filename: pool/main/libm/libmaxminddb-tools/libmaxminddb-tools_1.12.2-1_aarch64.deb
+Size: 8732
+MD5sum: 1e7caa19179c7878ed4f82cbaf58833a
+SHA1: 89b94946673f73d09a4395d43673beec8f444ac3
+SHA256: b6fe340be5eb45783c0d6d613d2ddad2e99efea68ea7c9395dfcfdea7d9d0d24
+Homepage: https://dev.maxmind.com/geoip/geoip2/
+Description: A geoip lookup utility for MaxMind DB
+
+Package: libmcrypt
+Version: 2.5.8-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 260
+Breaks: libmcrypt-dev
+Replaces: libmcrypt-dev
+Filename: pool/main/libm/libmcrypt/libmcrypt_2.5.8-6_aarch64.deb
+Size: 64508
+MD5sum: 0ef8d97a225c3b0d020c849c3b760cac
+SHA1: a2ffed333a7f19328573535eca1cc9bb7a3fbe46
+SHA256: 10a3b8067e6f1f1ccc0a39d9156a9e332e9dea2eba8c54bf463eb6af0734b489
+Homepage: https://mcrypt.sourceforge.net/
+Description: A library which provides a uniform interface to several symmetric encryption algorithms
+
+Package: libmcrypt-static
+Version: 2.5.8-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: libmcrypt (= 2.5.8-6)
+Filename: pool/main/libm/libmcrypt-static/libmcrypt-static_2.5.8-6_aarch64.deb
+Size: 61900
+MD5sum: cc1007d35e4618a261cff119db6c813a
+SHA1: 56d6b0349904e2e599608eac18174c4001704c61
+SHA256: 9411c886b2b7eff4572333ec1aa3853882a8c39d198d4861480c937f6f5d04e5
+Homepage: https://mcrypt.sourceforge.net/
+Description: Static libraries for libmcrypt
+
 Package: libmd
 Version: 1.1.0-1
 Architecture: aarch64
@@ -16289,6 +16460,107 @@ SHA1: 977a7e45097e39cb1314a57fb8fae5015549a733
 SHA256: de7e05d6a009d0dc249d4d91dcec5f64a8252f9fdde3746a35b85ab43ab7300f
 Homepage: https://www.hadrons.org/software/libmd/
 Description: Static libraries for libmd
+
+Package: libmdbx
+Version: 0.12.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2080
+Depends: libc++
+Filename: pool/main/libm/libmdbx/libmdbx_0.12.10-1_aarch64.deb
+Size: 355428
+MD5sum: c3b56e2046c6a884cce6a40763ad0137
+SHA1: 99d18e54d31dd2ea54d0e094ab0bdeed92d9266a
+SHA256: 71c672cbdf82f175f0e5d5b1a3a9bec878baf6f50d2415b537f138293b02c86b
+Homepage: https://libmdbx.dqdkfa.ru/
+Description: An extremely fast, compact, powerful, embedded, transactional key-value database
+
+Package: libmediainfo
+Version: 25.07-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9252
+Depends: libc++, libcurl, libzen, zlib
+Filename: pool/main/libm/libmediainfo/libmediainfo_25.07-1_aarch64.deb
+Size: 2521884
+MD5sum: a781c63f54af405c7b4c876a5c50d384
+SHA1: 034a245780b3d5a0fcbde0845726fe3c5e10446d
+SHA256: f8c5a2580a259404eee6467acb3330287009cbc5ce5c726aee24c0b971220cbc
+Homepage: https://mediaarea.net/en/MediaInfo
+Description: Library for reading information from media files
+
+Package: libmediainfo-static
+Version: 25.07-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24192
+Depends: libmediainfo (= 25.07-1)
+Filename: pool/main/libm/libmediainfo-static/libmediainfo-static_25.07-1_aarch64.deb
+Size: 3291960
+MD5sum: 754e46c5e5cffe5d83cb3721c56dbe16
+SHA1: 9ba2994a44d783475e86d15ea924bb5ce9921c34
+SHA256: 3814a6f4c0693667602cb1475e1452a4fd28dfedddf78fba23188506975da20d
+Homepage: https://mediaarea.net/en/MediaInfo
+Description: Static libraries for libmediainfo
+
+Package: libmesode
+Version: 0.10.1-5
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 160
+Depends: openssl,libexpat
+Breaks: libmesode-dev
+Replaces: libmesode-dev
+Filename: pool/main/libm/libmesode/libmesode_0.10.1-5_aarch64.deb
+Size: 38696
+MD5sum: dfe6f6c4001d5e7af7eebe79feb15543
+SHA1: a81a78e7f0843d85953b5a275b6b01c2151e4424
+SHA256: 896360619ae4deb2e39b643921fcfdfe2ad75360e25e6533714df996b778fdc3
+Homepage: https://github.com/boothj5/libmesode
+Description: Minimal XMPP library written for use with Profanity XMPP client
+
+Package: libmesode-static
+Version: 0.10.1-5
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 216
+Depends: libmesode (= 0.10.1-5)
+Filename: pool/main/libm/libmesode-static/libmesode-static_0.10.1-5_aarch64.deb
+Size: 43892
+MD5sum: e6921a7337f453de173b53063e55fd40
+SHA1: be376ba0eb7cfe9c5a0dc1f9b2c4bd13455a605e
+SHA256: 5727c6bf5722bc7eea0721e98ea8eaf075fc117b66c258cda032614496f5d362
+Homepage: https://github.com/boothj5/libmesode
+Description: Static libraries for libmesode
+
+Package: libmhash
+Version: 0.9.9.9-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276
+Breaks: libmhash-dev
+Replaces: libmhash-dev
+Filename: pool/main/libm/libmhash/libmhash_0.9.9.9-4_aarch64.deb
+Size: 97956
+MD5sum: a4863e746c7915015946dd1a1d74cbe2
+SHA1: 6e05bd0584212cc2834821cc5255adcb42a74a36
+SHA256: 1cdb7f5e60400731aab36109ac4e39c68340561114e4f889ee39d28775f0efa3
+Homepage: https://mhash.sourceforge.net/
+Description: A thread-safe hash library which provides a uniform interface to hash algorithms
+
+Package: libmhash-static
+Version: 0.9.9.9-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 244
+Depends: libmhash (= 0.9.9.9-4)
+Filename: pool/main/libm/libmhash-static/libmhash-static_0.9.9.9-4_aarch64.deb
+Size: 88488
+MD5sum: 5fd6f3a324415698e2d7f54a2008df90
+SHA1: e3f93e0102c89264988f48709a4ebc04e8dc7a96
+SHA256: c1db1d6d2040b913cb8ca18b166981a8856c071d9c375b20b85050b8f657dbff
+Homepage: https://mhash.sourceforge.net/
+Description: Static libraries for libmhash
 
 Package: libmicrohttpd
 Version: 1.0.2-1
@@ -16334,6 +16606,20 @@ SHA256: d7d2829ea6e3a0945e254baa76a9f6c28dc2a73b054930fc8bee34693eab01c6
 Homepage: https://www.winimage.com/zLibDll/minizip.html
 Description: Mini zip and unzip based on zlib
 
+Package: libminizip-ng
+Version: 4.0.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: libbz2, libiconv, liblzma, openssl, zlib
+Filename: pool/main/libm/libminizip-ng/libminizip-ng_4.0.10-1_aarch64.deb
+Size: 51908
+MD5sum: 376cdd43025a2950b532a48f9461eead
+SHA1: ab4922e75f51b78ddfa750caf4227d6aca36dc5a
+SHA256: a0dff4cfa8fbc3ae60d788c1208c16dd2ced6dbb26e48696ea6526d774b9272a
+Homepage: https://github.com/zlib-ng/minizip-ng
+Description: A zip manipulation library written in C
+
 Package: libminizip-static
 Version: 1.3.1-1
 Architecture: aarch64
@@ -16347,6 +16633,35 @@ SHA1: 7171bb34d1f87c235ee45680be2775861dcde797
 SHA256: 0257d6c67143c62d45472ec328030fa568c56bfcc8d01ac82f5e08d7d01fe786
 Homepage: https://www.winimage.com/zLibDll/minizip.html
 Description: Static libraries for libminizip
+
+Package: libmnl
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Breaks: libmnl-dev
+Replaces: libmnl-dev
+Filename: pool/main/libm/libmnl/libmnl_1.0.5-1_aarch64.deb
+Size: 8580
+MD5sum: d9739583c8c10fcb93114ce2e348cfd7
+SHA1: 21a13c283780a4871c8275976c657dfbe9ae8a6b
+SHA256: 564107e192df7475174a793704b32302f696ffd4c344f894864ca135805f0561
+Homepage: https://www.netfilter.org/projects/libmnl/
+Description: a minimalistic user-space library oriented to Netlink developers
+
+Package: libmnl-static
+Version: 1.0.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: libmnl (= 1.0.5-1)
+Filename: pool/main/libm/libmnl-static/libmnl-static_1.0.5-1_aarch64.deb
+Size: 6936
+MD5sum: 99e09ffcb2f46442a4154c4769a7fcfe
+SHA1: 57adbc65a188e29e7d94ef5be24e701865681549
+SHA256: 989e0db037bd330fdec18d30d5dce26e2c3472f7301ca60a97d520d7cf4a97fb
+Homepage: https://www.netfilter.org/projects/libmnl/
+Description: Static libraries for libmnl
 
 Package: libmodplug
 Version: 0.8.9.1.r461-1
@@ -16375,6 +16690,22 @@ SHA1: 1069f84a33515d5a9daa7ac6a0a58bc2cfb7d176
 SHA256: d3e4e3c99806c3b4e696a88417255580509f91f21744c46a6d24bfa9a1361e6a
 Homepage: https://modplug-xmms.sourceforge.net/
 Description: Static libraries for libmodplug
+
+Package: libmosquitto
+Version: 2.0.22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: c-ares, libc++, openssl
+Breaks: libmosquitto-dev
+Replaces: libmosquitto-dev
+Filename: pool/main/libm/libmosquitto/libmosquitto_2.0.22-2_aarch64.deb
+Size: 64076
+MD5sum: 3a042e666070261da701f7dd9b54b56c
+SHA1: 4841ba3a9e7af57e0b1b31b20d7038f7e40b21c1
+SHA256: f37bc1956574f591f64de4e12606f6b6c83f5413a58d83707419c0da93bf2d63
+Homepage: https://mosquitto.org/
+Description: MQTT library
 
 Package: libmount
 Version: 2.40.2-5
@@ -17298,6 +17629,34 @@ SHA1: 4f828098108bd42f1e51928e7267c7dc42d7f00e
 SHA256: a092f5ec1498d863f17ea0d6edaf8b8377fbf5fc448fb2036e2546f4279646e5
 Homepage: https://pugixml.org/
 Description: Light-weight, simple and fast XML parser for C++ with XPath support
+
+Package: libraptor2
+Version: 2.0.16-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 604
+Depends: libcurl, libicu, libxml2, libxslt, yajl
+Filename: pool/main/libr/libraptor2/libraptor2_2.0.16-9_aarch64.deb
+Size: 154476
+MD5sum: 37c31e23ce39c2d795426acae56dce33
+SHA1: 61d98182c163b5c339ff80490e925a48b5d34ff0
+SHA256: be6611f1a70dfba3a8d2b1c4aae6f01881d2da8530589d4af878c390a402e197
+Homepage: https://librdf.org/raptor/
+Description: RDF Syntax Library
+
+Package: libraptor2-static
+Version: 2.0.16-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 752
+Depends: libraptor2 (= 2.0.16-9)
+Filename: pool/main/libr/libraptor2-static/libraptor2-static_2.0.16-9_aarch64.deb
+Size: 144832
+MD5sum: 6548e1ac9e9a781957ce82e0449b13a7
+SHA1: 6f87a642d485f3a71551650c47cf4e92ba99e360
+SHA256: 3f0b6500ed71c1278415afa3024fdddb9b981834b40435dea9b2832325aae657
+Homepage: https://librdf.org/raptor/
+Description: Static libraries for libraptor2
 
 Package: libraqm
 Version: 0.10.3
@@ -18782,6 +19141,22 @@ SHA256: afb2ffe9f7ed2fe70fabbd55003da6e9ed8c42440573a879b4a447f7e8b26507
 Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
 Description: A library containing the AudioProcessing module from the WebRTC project
 
+Package: libwebsockets
+Version: 4.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1740
+Depends: openssl, libcap, libuv, zlib
+Breaks: libwebsockets-dev
+Replaces: libwebsockets-dev
+Filename: pool/main/libw/libwebsockets/libwebsockets_4.4.1-1_aarch64.deb
+Size: 406600
+MD5sum: b5dcc57aa5eab0c41765ca6a4b37e53e
+SHA1: 5ff167b8d2e94cd463b905e8d4a529979a9a6dbb
+SHA256: cafc4c4a09677367210af8981220602397e662dbbcfa691344a5e993eed5eaad
+Homepage: https://libwebsockets.org
+Description: Lightweight C websockets library
+
 Package: libx11
 Version: 1.8.12-1
 Architecture: aarch64
@@ -19380,6 +19755,34 @@ SHA256: 590eef6a4cb220ba225fb525e94fd0f56fb8b94d50953d0eb08f1ce2e66f255f
 Homepage: https://pyyaml.org/wiki/LibYAML
 Description: Static libraries for libyaml
 
+Package: libzen
+Version: 0.4.41-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 608
+Depends: libandroid-support, libc++
+Filename: pool/main/libz/libzen/libzen_0.4.41-1_aarch64.deb
+Size: 111628
+MD5sum: 43071b6988b6bb0bbf8e26deccf8f5d0
+SHA1: a3f2f8483b2d69cec336167791e1359d32fd485b
+SHA256: d33fc62b15677448eb6b4774d2068e4c19b8fca8ed0fb5fdf8185f1c7362b265
+Homepage: https://mediaarea.net/en/MediaInfo
+Description: ZenLib C++ utility library
+
+Package: libzen-static
+Version: 0.4.41-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1080
+Depends: libzen (= 0.4.41-1)
+Filename: pool/main/libz/libzen-static/libzen-static_0.4.41-1_aarch64.deb
+Size: 130056
+MD5sum: dd92fb55ef2fdd49e9bcc8e1c1a831ea
+SHA1: ef5853e9b6d53abe5bcec431b7747cf407f9c0eb
+SHA256: 355de990abe1e4dca1fd952e0520d49f90525725ad88bc8bf60112241fc14830
+Homepage: https://mediaarea.net/en/MediaInfo
+Description: Static libraries for libzen
+
 Package: libzim
 Version: 9.3.0-1
 Architecture: aarch64
@@ -19714,6 +20117,20 @@ SHA256: 86dc44714d751af975f401ef3daf90581ce1e0451b843047f7119c113b61e2c2
 Homepage: https://www.lua.org/
 Description: Simple, extensible, embeddable programming language
 
+Package: luajit
+Version: 1:2.1.1731601260-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 784
+Depends: libluajit (= 1:2.1.1731601260-1)
+Filename: pool/main/l/luajit/luajit_1+2.1.1731601260-1_aarch64.deb
+Size: 255020
+MD5sum: 498d9dabef194f5dd4e29b4c334c63ad
+SHA1: 03e1b74a75a68ebf149faefe53188ef80df48a73
+SHA256: 659d279c91dec7d54836e218064da87bc7801d4fdea30d6033884fa6ba6b0420
+Homepage: https://luajit.org/
+Description: Just-In-Time compiler for Lua - command line tool
+
 Package: lv2
 Version: 1.18.10-5
 Architecture: aarch64
@@ -19955,6 +20372,20 @@ SHA1: b038a3a715f5b951d57c307af8e5cdb0850d705a
 SHA256: 0059018d4e69ae025df71ebca73050da6eb5059b93b13557561092242f88aa26
 Homepage: https://clang.llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
+
+Package: mosquitto
+Version: 2.0.22-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 672
+Depends: libwebsockets, libmosquitto (= 2.0.22-2)
+Filename: pool/main/m/mosquitto/mosquitto_2.0.22-2_aarch64.deb
+Size: 202356
+MD5sum: c3898b1afeeebb914c0158c977cb7303
+SHA1: dc796f309361ec670f379e2f41a602f27d7a99db
+SHA256: a8ff9dc4db2fb11a9c90655bac4e33b27c2489c868f69d6e4974fb99515cb75f
+Homepage: https://mosquitto.org/
+Description: MQTT version 3.1/3.1.1 compatible message broker and clients
 
 Package: mount-utils
 Version: 2.40.2-5
