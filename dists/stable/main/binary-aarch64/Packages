@@ -16750,6 +16750,66 @@ SHA256: 16cb199b6567387ee09acc26d8095afad6c8cc1a06580a36bf047d4cb080b0e4
 Homepage: https://lame.sourceforge.io/
 Description: Static libraries for libmp3lame
 
+Package: libmp3splt
+Version: 0.9.2-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 456
+Depends: libflac, libid3tag, libltdl, libmad, libogg, libvorbis, pcre
+Breaks: libmp3splt-dev
+Replaces: libmp3splt-dev
+Filename: pool/main/libm/libmp3splt/libmp3splt_0.9.2-10_aarch64.deb
+Size: 113344
+MD5sum: 77094f51add44e56e6967f465199fee2
+SHA1: f9fccf0a1ff7a0fd016a74ef334c0217369a7671
+SHA256: caf8484e7e566010a844809591000add67e2350253b673284b867181d5673076
+Homepage: https://mp3splt.sourceforge.net
+Description: Utility to split MP3, Ogg Vorbis and native FLAC files without decoding
+
+Package: libmp3splt-static
+Version: 0.9.2-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 588
+Depends: libmp3splt (= 0.9.2-10)
+Filename: pool/main/libm/libmp3splt-static/libmp3splt-static_0.9.2-10_aarch64.deb
+Size: 111332
+MD5sum: 391ea3f90babf5f1df2d929b6688746d
+SHA1: 49b6e21421cf3fea75398d80f3a4a9cdca8df062
+SHA256: c24b493d66cb334c989c42208ed9b627ed17406cb28eea772ae6169f2639815f
+Homepage: https://mp3splt.sourceforge.net
+Description: Static libraries for libmp3splt
+
+Package: libmpc
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: libgmp, libmpfr
+Breaks: libmpc-dev
+Replaces: libmpc-dev
+Filename: pool/main/libm/libmpc/libmpc_1.3.1-1_aarch64.deb
+Size: 68128
+MD5sum: 93be3695de9093c64c991a9e497643df
+SHA1: d9bf587c9912e7a7a30701edf438780a2594bbaf
+SHA256: ca3274501e3b437422daf51ebc5c6580151836de886597e90998c7a2c9a05c3c
+Homepage: https://www.multiprecision.org/
+Description: Library for the arithmetic of complex numbers with arbitrarily high precision
+
+Package: libmpc-static
+Version: 1.3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 312
+Depends: libmpc (= 1.3.1-1)
+Filename: pool/main/libm/libmpc-static/libmpc-static_1.3.1-1_aarch64.deb
+Size: 47056
+MD5sum: 469848ce6139dd978900e2388cfc9557
+SHA1: cd262212a65f03ece17e242e3001c96a9749965c
+SHA256: 6c26ee544a4c33fa56866477c4354b74107b169ec0fc5c161152692786ae1bdf
+Homepage: https://www.multiprecision.org/
+Description: Static libraries for libmpc
+
 Package: libmpdclient
 Version: 2.24
 Architecture: aarch64
@@ -16764,6 +16824,33 @@ SHA1: 6c8964820ce7edd570aa9860782c2cced1705733
 SHA256: d5923baeb764f0db3cc84e611ed7f917b1a78269021f23535c6f18c7bca9653c
 Homepage: https://www.musicpd.org/libs/libmpdclient/
 Description: Asynchronous API library for interfacing MPD in the C, C++ & Objective C languages
+
+Package: libmpeg2
+Version: 0.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Filename: pool/main/libm/libmpeg2/libmpeg2_0.5.1-2_aarch64.deb
+Size: 55240
+MD5sum: 37df72f5789be2640b1ecbb895aee486
+SHA1: d4e72d66799758beebd9f67f772add69f7f692dc
+SHA256: cd2de7092d946cf286a6d7b498e194172bbba4c14f94a219b41578ac796975bf
+Homepage: https://libmpeg2.sourceforge.io/
+Description: MPEG-2 decoder libraries
+
+Package: libmpeg2-static
+Version: 0.5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libmpeg2 (= 0.5.1-2)
+Filename: pool/main/libm/libmpeg2-static/libmpeg2-static_0.5.1-2_aarch64.deb
+Size: 37908
+MD5sum: 3a70c2b58c60b62d112ec093884db5ae
+SHA1: 769d7a733233d68408e9b2c5a1ae34d431c8656f
+SHA256: 31ea7e43589c877869edb3dfa27b2d696bbde39c6b397167948e2013ef732031
+Homepage: https://libmpeg2.sourceforge.io/
+Description: Static libraries for libmpeg2
 
 Package: libmpfr
 Version: 4.2.1-1
@@ -16824,6 +16911,146 @@ SHA256: 7e35969c3c78b9ec9166dce4f2fd34a7cbee7d71262676e01e319fb090c0b6a7
 Homepage: https://mpg123.org/
 Description: Static libraries for libmpg123
 
+Package: libmsgpack
+Version: 6.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Breaks: libmsgpack-dev
+Replaces: libmsgpack-dev
+Filename: pool/main/libm/libmsgpack/libmsgpack_6.1.0-1_aarch64.deb
+Size: 26424
+MD5sum: e3d041c1d1a0620495285fafbe321769
+SHA1: b7ad902df249a0ac91f19474cadf410160229eef
+SHA256: 9c445ebcb394aa27dc81bcf4523dd2bdcc332a7c4f56b9472297ef0ae2120d81
+Homepage: https://github.com/msgpack/msgpack-c/
+Description: MessagePack implementation for C
+
+Package: libmsgpack-cxx
+Version: 7.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7608
+Filename: pool/main/libm/libmsgpack-cxx/libmsgpack-cxx_7.0.0-3_aarch64.deb
+Size: 192692
+MD5sum: 15f992621acc4b7418cb7af75fcec5a0
+SHA1: 1714c19cc66b050b065850a84397a6708af27c81
+SHA256: 4c85c57c087a86b70da9a909fe31c4015eb12f880146241165f29551728329b4
+Homepage: https://msgpack.org/
+Description: msgpack for C++
+
+Package: libmsgpack-static
+Version: 6.1.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: libmsgpack (= 6.1.0-1)
+Filename: pool/main/libm/libmsgpack-static/libmsgpack-static_6.1.0-1_aarch64.deb
+Size: 10620
+MD5sum: cb86846b74271f882a4353345ca36f40
+SHA1: 2ca4ebc517260bb31aa9b676d6366344e5690c06
+SHA256: 027a6e3ec4192d8dd696ad77a3578b3da36a054d43ffd61f454f4739a78bbfb9
+Homepage: https://github.com/msgpack/msgpack-c/
+Description: Static libraries for libmsgpack
+
+Package: libmuparser
+Version: 2.3.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1456
+Depends: libc++
+Filename: pool/main/libm/libmuparser/libmuparser_2.3.5-1_aarch64.deb
+Size: 351308
+MD5sum: fb3379a084ec636b719c982ffa750e1f
+SHA1: e37cde25cd08356c0a14089462aa21cbe833a997
+SHA256: b1c3abe1c5c2d0cd42d44661fdb56b1f11e89f2cfd4e72052dc3fde80d660dc9
+Homepage: https://beltoforion.de/en/muparser
+Description: An extensible high performance math expression parser library written in C++
+
+Package: libmypaint
+Version: 1.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 420
+Depends: glib, json-c
+Filename: pool/main/libm/libmypaint/libmypaint_1.6.1-2_aarch64.deb
+Size: 59412
+MD5sum: afb97d10631ed4fb8b5d43b7b4ce74c4
+SHA1: e68c98f2203a5502dd8760ee5d7f57621f8e3df9
+SHA256: 43a8a2d0a621acfe9ca4600d9f2ea0352c4729012a8242469ecdaed5e7782f5b
+Homepage: https://github.com/mypaint/libmypaint
+Description: MyPaint brush engine library
+
+Package: libmypaint-static
+Version: 1.6.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libmypaint (= 1.6.1-2)
+Filename: pool/main/libm/libmypaint-static/libmypaint-static_1.6.1-2_aarch64.deb
+Size: 39596
+MD5sum: e0a74a82a8a418b2920bce3e00f5a763
+SHA1: 5264c82f5def1ec610649dbea2fb651c9a4570e3
+SHA256: 056535c10d92e749b39052b4ce786f2fd03ee37753d704fb756592a2447799ea
+Homepage: https://github.com/mypaint/libmypaint
+Description: Static libraries for libmypaint
+
+Package: libnats-c
+Version: 3.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 988
+Depends: libprotobuf-c, openssl
+Filename: pool/main/libn/libnats-c/libnats-c_3.11.0_aarch64.deb
+Size: 231784
+MD5sum: 371fa5fb80fe9e1e43b2a0c043754a8d
+SHA1: 81c74d8d3c1581709b8ce161a4872b96b8e718c1
+SHA256: 1a3fba3d632289c66c465992a1c3d2472bd682c2e1e250236480d2c9dffeccd5
+Homepage: https://nats-io.github.io/nats.c/
+Description: A C client for the NATS messaging system
+
+Package: libnats-c-static
+Version: 3.11.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 988
+Depends: libnats-c (= 3.11.0)
+Filename: pool/main/libn/libnats-c-static/libnats-c-static_3.11.0_aarch64.deb
+Size: 181356
+MD5sum: e3522a389a1c1b4414b1dff9761bd5c4
+SHA1: 9347c0d5e6bc252ef5f3b9a7e0e4db358c177e7f
+SHA256: 71549b01738de16e1a62fd80d64f25794b89329d30e657d02e8d2e32d4a1e7f2
+Homepage: https://nats-io.github.io/nats.c/
+Description: Static libraries for libnats-c
+
+Package: libncnn
+Version: 20250503-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10200
+Depends: abseil-cpp, glslang, libc++, libandroid-stub, libprotobuf, vulkan-loader
+Filename: pool/main/libn/libncnn/libncnn_20250503-2_aarch64.deb
+Size: 2171536
+MD5sum: 7c5657185a8200ecc8da75238c31e548
+SHA1: af79e5e7146941981f2b4fd4eb11311f39be3aad
+SHA256: db858fc9a67ee4ebae19299315626393c1182286a730c5e440ff452e0183c1c0
+Homepage: https://github.com/Tencent/ncnn
+Description: A high-performance neural network inference framework optimized for the mobile platform
+
+Package: libncnn-static
+Version: 20250503-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11284
+Depends: libncnn (= 20250503-2)
+Filename: pool/main/libn/libncnn-static/libncnn-static_20250503-2_aarch64.deb
+Size: 1816768
+MD5sum: 5b9c4a1c53bbfeb009f3c10f1a614ca3
+SHA1: ac8916f2472aedbfac093d2882bc81b4a86d556d
+SHA256: 2182624b7a0ff42e27bd78f2573c491d8dcc21882e4c2bb52c9737c632f674ba
+Homepage: https://github.com/Tencent/ncnn
+Description: Static libraries for libncnn
+
 Package: libneon
 Version: 0.35.0-1
 Architecture: aarch64
@@ -16851,6 +17078,33 @@ SHA1: b7b2bdd3307fc531414ff0116c94f7c9d2a23a45
 SHA256: c054324efed40e1322c41e91c4e0b29e60309989454328c1c1a72415d9cbe471
 Homepage: https://notroj.github.io/neon/
 Description: Static libraries for libneon
+
+Package: libnet
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Filename: pool/main/libn/libnet/libnet_1.3-1_aarch64.deb
+Size: 78992
+MD5sum: 6818e5ec25887be5849334b1f4d3002f
+SHA1: 98ff845732404dca8291f9f0696b566eb4f5881d
+SHA256: 3144978f9195da6b2d313d8652d224f1d9652d439a863b88ba05aab4cc332815
+Homepage: https://github.com/libnet/libnet
+Description: A library which provides API for commonly used low-level net functions
+
+Package: libnet-static
+Version: 1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: libnet (= 1.3-1)
+Filename: pool/main/libn/libnet-static/libnet-static_1.3-1_aarch64.deb
+Size: 39496
+MD5sum: 315cf297c022b1fe5d93f1d1e2352c67
+SHA1: 271a6fbf78dc9c32678c0b3d65f11246304a3e26
+SHA256: 55e8135f1d98e7fe90cd313d0ad23d7bbd410527ad53a81b3926a474fa0f8f68
+Homepage: https://github.com/libnet/libnet
+Description: Static libraries for libnet
 
 Package: libnettle
 Version: 3.10.2-1
@@ -16882,6 +17136,61 @@ SHA256: 50f3f96fc7d45d4d68ca8a30161087c836f48c1a2d2d3ce8d851d714b0e6ce83
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Static libraries for libnettle
 
+Package: libnewt
+Version: 0.52.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: libandroid-support, slang
+Filename: pool/main/libn/libnewt/libnewt_0.52.25-1_aarch64.deb
+Size: 32472
+MD5sum: 3fa3b35ff4dd479ce75a58c4e2941a1f
+SHA1: 981541fdb0db9013a0cad25500fc3c8bce0d3863
+SHA256: 62e8fbbf8b5f37868c571c0cb5ff76ce4725dd32ffc9ea5dd14aac4463033947
+Homepage: https://pagure.io/newt
+Description: A programming library for color text mode, widget based user interfaces
+
+Package: libnewt-static
+Version: 0.52.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libnewt (= 0.52.25-1)
+Filename: pool/main/libn/libnewt-static/libnewt-static_0.52.25-1_aarch64.deb
+Size: 32380
+MD5sum: 3f26df10f70428de6943a1089c56a02c
+SHA1: 4d1f915a48c06c99174b9ca964abb6cf15ba4748
+SHA256: 0f55537b025264e166998dd77426ca4364fd3b5e7aa2d826fdce135994a58b5a
+Homepage: https://pagure.io/newt
+Description: Static libraries for libnewt
+
+Package: libnfc
+Version: 1.8.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 608
+Filename: pool/main/libn/libnfc/libnfc_1.8.0-2_aarch64.deb
+Size: 102832
+MD5sum: c89c94baf1d1e35edd8a36e9cc22c29b
+SHA1: e50a877ffee34e3ccf3a2f1c0d396d76d164b6b2
+SHA256: 808298d08d78e833f7bf1258696df5ecfe45b3667908edaf135ae923f1e437b1
+Homepage: https://github.com/nfc-tools/libnfc
+Description: Free/Libre Near Field Communication (NFC) library
+
+Package: libnfc-static
+Version: 1.8.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: libnfc (= 1.8.0-2)
+Filename: pool/main/libn/libnfc-static/libnfc-static_1.8.0-2_aarch64.deb
+Size: 51276
+MD5sum: bd7433d86c3fd6ffcb4506d2412cb2ac
+SHA1: 927ef137135f8a6f19971a4f9d23d7efed4b509a
+SHA256: 0dc3e8f927ccad84e229a328800c17ad69f25eab3eacad5b9e9c99999518bde6
+Homepage: https://github.com/nfc-tools/libnfc
+Description: Static libraries for libnfc
+
 Package: libnfs
 Version: 6.0.2-1
 Architecture: aarch64
@@ -16897,6 +17206,36 @@ SHA1: 412727fe65988551b7ef7423c7bc9e476055f573
 SHA256: 50898a6c80a15c05720adbd6ade6f3e6651a314bbbc8b20e4a67da72df82a61f
 Homepage: https://github.com/sahlberg/libnfs
 Description: NFS client library
+
+Package: libnftnl
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libmnl
+Breaks: libnftnl-dev
+Replaces: libnftnl-dev
+Filename: pool/main/libn/libnftnl/libnftnl_1.3.0_aarch64.deb
+Size: 55360
+MD5sum: 4365a1434c1071013b8c2ce6406c2bab
+SHA1: 168a50968d63ff2733c4957418889a117529e7b3
+SHA256: d601e8cf03f2834b7d7142fdc38f94d60c3e4b7d62633fd802fbd76a5b367a21
+Homepage: https://www.netfilter.org/projects/libnftnl/
+Description: Netfilter library providing interface to the nf_tables subsystem
+
+Package: libnftnl-static
+Version: 1.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 492
+Depends: libnftnl (= 1.3.0)
+Filename: pool/main/libn/libnftnl-static/libnftnl-static_1.3.0_aarch64.deb
+Size: 64032
+MD5sum: 7e8744d7babd6c645ecb039dd3901284
+SHA1: 03ce846f5d86e644268aaf82d2954a0d9ac94dca
+SHA256: 0331fc24d5b8ad371837425d2c776aa873e1da04df6aa2a7681525db00de9ac9
+Homepage: https://www.netfilter.org/projects/libnftnl/
+Description: Static libraries for libnftnl
 
 Package: libnghttp2
 Version: 1.67.1
@@ -17011,6 +17350,33 @@ SHA1: d2858bdcd0f91456941ab32531f329e94f2bbcbb
 SHA256: 2e405589f643d8a19a05963f48d8ce7f3e2e2f0a52fc8f65f1b0fe02a5f2ddcd
 Homepage: https://github.com/thom311/libnl
 Description: Static libraries for libnl
+
+Package: libnova
+Version: 0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3820
+Filename: pool/main/libn/libnova/libnova_0.16-1_aarch64.deb
+Size: 842256
+MD5sum: e05ecd69cc18ea105be449fd881ec758
+SHA1: 57ab45991594685a07dcd2af4edfae7d7f5d7794
+SHA256: 2fdff7b54d16c229bbec3a67c999e0bcb68bc0476090dd026ba67aacf534994f
+Homepage: https://libnova.sourceforge.net
+Description: A general purpose, double precision, Celestial Mechanics, Astrometry and Astrodynamics library
+
+Package: libnova-static
+Version: 0.16-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3756
+Depends: libnova (= 0.16-1)
+Filename: pool/main/libn/libnova-static/libnova-static_0.16-1_aarch64.deb
+Size: 839092
+MD5sum: 729546e971ffe2ce507c79f7a763da32
+SHA1: 7d87b07d717bdd9652c140f3a860a61e59f6fcb2
+SHA256: f13bae7e721ce3911f2c0e32bd1ac720165643ca3d3bfb7fe40a16b0b408e48b
+Homepage: https://libnova.sourceforge.net
+Description: Static libraries for libnova
 
 Package: libnpth
 Version: 1.6-3
@@ -22197,6 +22563,20 @@ SHA256: 13d98cab83f65a98eb288e11e0f79d2010aa45033619fc7929854829a1e864cc
 Homepage: https://simdjson.org/
 Description: A C++ library to see how fast we can parse JSON with complete validation
 
+Package: slang
+Version: 2.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3780
+Depends: libiconv, libpng, pcre, oniguruma, zlib
+Filename: pool/main/s/slang/slang_2.3.3-2_aarch64.deb
+Size: 702964
+MD5sum: f30957182c876300683c73e4c57f4dd2
+SHA1: ecf450972cfebbda885dad082c0d8f6f49222c90
+SHA256: e930540bec676c9ad7b6f8868a968d9bd8788a0324804f90e08f66424252afc2
+Homepage: https://www.jedsoft.org/slang/
+Description: S-Lang is a powerful interpreted language
+
 Package: sord
 Version: 0.16.18-1
 Architecture: aarch64
@@ -23127,6 +23507,21 @@ SHA1: 5b75b9870af68ef8bc751c615033d66e1fde7467
 SHA256: 389840dbaffffcc4cd21404be7f1bf44dcfabae8f990ad45b3c4c951fab02fdd
 Homepage: https://www.gnu.org/software/wget/
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+
+Package: whiptail
+Version: 0.52.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 68
+Depends: libpopt, libnewt (= 0.52.25-1)
+Conflicts: dialog (<< 1.3-20211214)
+Filename: pool/main/w/whiptail/whiptail_0.52.25-1_aarch64.deb
+Size: 13208
+MD5sum: c3a487ffa93df2b57ea37cb56edb493d
+SHA1: 9e8c08ab3b76c25f7d0d52573136570651fd668d
+SHA256: 25e3b9e2f9bdafc1788b5a18f706e9b1a6edc5d2012ac3ddc0965788c59c0b72
+Homepage: https://pagure.io/newt
+Description: Display dialog boxes from shell scripts
 
 Package: x264
 Version: 1:0.164.3191-1
