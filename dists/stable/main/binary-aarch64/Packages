@@ -10961,6 +10961,46 @@ SHA256: 699dfdd487b55c4c2a2eb6153b9adcf4369d29d2efc5436b086ecacc0e678ae8
 Homepage: https://github.com/Talinx/jp2a/
 Description: A simple JPEG to ASCII converter
 
+Package: jpegoptim
+Version: 1.5.6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libjpeg-turbo
+Filename: pool/main/j/jpegoptim/jpegoptim_1.5.6_aarch64.deb
+Size: 20040
+MD5sum: fb2aa781de39dd267649340cfb9c690f
+SHA1: a220187c7209f3433624eb37381a5f178d5d9079
+SHA256: f03006a64a6372571925380d2b30b475ff277b2bb05b5f264bea6751c49bd079
+Homepage: https://www.kokkonen.net/tjko/projects.html
+Description: JPEG optimizer that recompresses image files to a smaller size, without losing any information
+
+Package: jq-lsp
+Version: 0.1.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4344
+Filename: pool/main/j/jq-lsp/jq-lsp_0.1.13_aarch64.deb
+Size: 1129172
+MD5sum: 4fdec76aec8e71d543c32b36bd381d12
+SHA1: f6c38bae13c8b282f8d867d5024d422394e8c780
+SHA256: 66ab75a0294ae090b7d21be13e7f90fb3902c6e56259143b059f51b7c6699421
+Homepage: https://github.com/wader/jq-lsp
+Description: jq language server
+
+Package: jql
+Version: 8.0.8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 912
+Filename: pool/main/j/jql/jql_8.0.8_aarch64.deb
+Size: 341404
+MD5sum: e3d7bd9b6ba31d6235d0a56705df2a3e
+SHA1: d50dad5ad10c16f2741ecb5bd7ec788bde6b453b
+SHA256: 20a3fb143437d4ca2be169b9453f764a28cb935f438b36143ba9cc1d3a037116
+Homepage: https://github.com/yamafaktory/jql
+Description: A JSON Query Language CLI tool
+
 Package: json-c
 Version: 0.18-2
 Architecture: aarch64
@@ -11005,6 +11045,130 @@ SHA1: 5f316248c55b899906e341b5b88c5cd198417942
 SHA256: e4a64032736a3053529cbd5cc8184aea5664d2d7c07b0a3249ec2f03048c6239
 Homepage: https://wiki.gnome.org/Projects/JsonGlib
 Description: GLib JSON manipulation library
+
+Package: jump
+Version: 0.51.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3316
+Filename: pool/main/j/jump/jump_0.51.0-3_aarch64.deb
+Size: 914296
+MD5sum: 29dde105cf98c1290eed64d364a9fdfd
+SHA1: 514bf61706a8698ba4d4a990fce6ecddca83166b
+SHA256: d89b28ca14fe165caf66b42c1898b1c6c5d1ea78c7e97a7bb56cbec9c1d9ae99
+Homepage: https://github.com/gsamokovarov/jump
+Description: Jump helps you navigate in shell faster by learning your habits
+
+Package: jupp
+Version: 3.1jupp41-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 748
+Depends: ncurses
+Conflicts: joe
+Filename: pool/main/j/jupp/jupp_3.1jupp41-3_aarch64.deb
+Size: 162360
+MD5sum: 86d0edf2740687c5f6b803351fc3942b
+SHA1: f955859c84ffb8df2bf177ef650827c02841412c
+SHA256: f474ba3c35d0fc16648248ccf7f58e0e16da3372d650caf93aa4022f8d94f1c6
+Homepage: http://www.mirbsd.org/jupp.htm
+Description: User friendly full screen text editor
+
+Package: just
+Version: 1.42.4-1
+Architecture: aarch64
+Maintainer: @flipee
+Installed-Size: 3656
+Filename: pool/main/j/just/just_1.42.4-1_aarch64.deb
+Size: 1087756
+MD5sum: 66fed207097de8b3d193d82f32bbeef3
+SHA1: 8947b702d62888d326a85073c7dba09db340818f
+SHA256: 2beb200c626fdb13d9fa115c9ba20c270b84038d229b02faab3b70b006f6a24f
+Homepage: https://just.systems
+Description: A handy way to save and run project-specific commands
+
+Package: jython
+Version: 2.7.4-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 94856
+Depends: openjdk-21
+Filename: pool/main/j/jython/jython_2.7.4-1_all.deb
+Size: 50297380
+MD5sum: 6baeb46ad0dafbea69b17e262fb20192
+SHA1: 50ca695d0a2b64ddce9d6401fb04718b9ada5355
+SHA256: e22bf0fb119f5974260df8361449ed7174e87beb72dc6ce0e7edec6019fb8e1d
+Homepage: https://www.jython.org/
+Description: Python for the Java Platform
+
+Package: k2pdfopt
+Version: 2.55-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 816
+Depends: djvulibre, gsl, leptonica, libjasper, libjpeg-turbo, libpng, mupdf, zlib
+Filename: pool/main/k/k2pdfopt/k2pdfopt_2.55-4_aarch64.deb
+Size: 351388
+MD5sum: 36a7e390eb24b18e3c0328875d1aea25
+SHA1: ddeaa98491616dcd700a6d58657615242366db5f
+SHA256: e7dcd0180d22a79f6f12c48a3565e2000b0755421e95793ed65a5c029cdba9c0
+Homepage: https://www.willus.com/k2pdfopt/
+Description: A tool that optimizes PDF files for viewing on mobile readers
+
+Package: k9s
+Version: 0.50.12
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 175456
+Filename: pool/main/k/k9s/k9s_0.50.12_aarch64.deb
+Size: 33032480
+MD5sum: 28fbb843715b82e37aa5e8aad857ac9d
+SHA1: e3271dd62e3bad163b711962b1112014072f9c5a
+SHA256: d52fa8916d7e4f8781577c30c4f36b7aa2c5eb5ba32f7aeb3f2f72923cfdb14e
+Homepage: https://k9scli.io
+Description: Kubernetes CLI To Manage Your Clusters In Style!
+
+Package: kainjow-mustache
+Version: 4.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 88
+Filename: pool/main/k/kainjow-mustache/kainjow-mustache_4.1_all.deb
+Size: 8288
+MD5sum: cfa2af687958714f464dc8bc2a44f238
+SHA1: c6f961524df904eab01083a0ff7dbef24cafcf4a
+SHA256: 2474f82fdff37679cb3c47c642b70d20c3e942de0cbae6200dc65ae4dd6c1eb5
+Homepage: https://github.com/kainjow/Mustache
+Description: Mustache implementation for modern C++
+
+Package: kakoune
+Version: 2025.06.03-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3532
+Depends: libc++
+Filename: pool/main/k/kakoune/kakoune_2025.06.03-2_aarch64.deb
+Size: 712076
+MD5sum: 61ea3ca4d51ce97873db1baa5685be7f
+SHA1: 230bcfed3dcb522a603ecae295d025841991034c
+SHA256: 01ffca9c79510fd287e4e7a091999f5cf14aff911edada544cf4a05f38b74c61
+Homepage: https://kakoune.org/
+Description: Code editor heavily inspired by Vim
+
+Package: kakoune-lsp
+Version: 18.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7060
+Conflicts: kak-lsp
+Replaces: kak-lsp
+Filename: pool/main/k/kakoune-lsp/kakoune-lsp_18.2.0-1_aarch64.deb
+Size: 2109072
+MD5sum: 55038dcd382e2dd7244fe1feec31b4a4
+SHA1: 59354f9727fe55499e06d36a054631f3e9f4d109
+SHA256: cb5eb62f7f1f6a0cf66ce7bad667620dd9f4747b0f637c984bb388a18266f7eb
+Homepage: https://github.com/kakoune-lsp/kakoune-lsp
+Description: Language Server Protocol Client for the Kakoune editor
 
 Package: krb5
 Version: 1.22.1-1
@@ -11104,10 +11268,10 @@ Depends: giflib, libjpeg-turbo, libpng, libtiff, libwebp, openjpeg, zlib
 Breaks: leptonica-dev
 Replaces: leptonica-dev
 Filename: pool/main/l/leptonica/leptonica_1.86.0_aarch64.deb
-Size: 936464
-MD5sum: 02c65b61a85fbe578023517a834b0237
-SHA1: 3aa6dfdb3e14bb47841971a863bf5efdc9cb3fba
-SHA256: 695f6815ff66c76f55b6ebc32376ebc6da621be8670ca0136c4cd0df3adfcbb2
+Size: 936740
+MD5sum: a41e60267b87249c277fe9f32fb262f3
+SHA1: 32582172857bbccab3c60d977743bf6f7f06381e
+SHA256: 2e3d82635f619751787905b77bb9a9d8332f24cea5a5a1c0581f6f9e7df19c42
 Homepage: http://www.leptonica.com/
 Description: Library for image processing and image analysis
 
@@ -11118,10 +11282,10 @@ Maintainer: @termux
 Installed-Size: 4544
 Depends: leptonica (= 1.86.0)
 Filename: pool/main/l/leptonica-static/leptonica-static_1.86.0_aarch64.deb
-Size: 992900
-MD5sum: 2b6286e5084936a2819e48aeee3c2633
-SHA1: 8274b960caae38705535047fca211b034c730c09
-SHA256: 7bcd3d386751e6d9a71aa6ff7a7b86cc5c6270a16d956028ede88d80b31e63d2
+Size: 993180
+MD5sum: dbe45d22fd62472b80191945d1280a84
+SHA1: eeabb907f289fa0e1f7bfe25934af3754afca9a2
+SHA256: beda25acaf1ab30c0c32324c41c45d074451e42d9435379f8d9f24af6de4d8dc
 Homepage: http://www.leptonica.com/
 Description: Static libraries for leptonica
 
@@ -17256,6 +17420,48 @@ SHA256: 7ef1e164ef22ef5a30e64bd1eb8dd4858a54757b4a06ae99e67f8f95d6479f9c
 Homepage: https://mpv.io/
 Description: Command-line media player
 
+Package: mupdf
+Version: 1.24.10-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 49992
+Depends: freetype, gumbo-parser, harfbuzz, jbig2dec, leptonica, libc++, libjpeg-turbo, openjpeg, tesseract, zlib
+Filename: pool/main/m/mupdf/mupdf_1.24.10-2_aarch64.deb
+Size: 25310460
+MD5sum: 28bb0f52ad20bc74f1cbb5269e4d5f7b
+SHA1: 0cf6c8ec23fa6c39f7bdd87aa390b1ce2bfba8a2
+SHA256: 3c91c05ccb8ba988cb9b7b0af1ec80eb08f6619d099ac20b8ca1597d1d139f65
+Homepage: https://mupdf.com/
+Description: Lightweight PDF and XPS viewer (library)
+
+Package: mupdf-static
+Version: 1.24.10-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 51860
+Depends: mupdf (= 1.24.10-2)
+Filename: pool/main/m/mupdf-static/mupdf-static_1.24.10-2_aarch64.deb
+Size: 24703880
+MD5sum: 00b7fd895f00f607627bf270fe36cfed
+SHA1: 601767da9ad94b1e8ee72e53020a89d6617b61d2
+SHA256: bd88f1217be6ce6cceb28b5d896876f44483dbbb4862649abda2d4a5976776f3
+Homepage: https://mupdf.com/
+Description: Static libraries for mupdf
+
+Package: mupdf-tools
+Version: 1.24.10-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 500
+Depends: openssl, mupdf (= 1.24.10-2)
+Filename: pool/main/m/mupdf-tools/mupdf-tools_1.24.10-2_aarch64.deb
+Size: 119440
+MD5sum: d34d001f9b026d5558ba5727a809c025
+SHA1: b6fc020111f3074e4716f7f9afcfa54222f4063b
+SHA256: 0438609a62a6c384ebb8ff2657a280e4485f11b7c3818ce08ac41d8107edf2c9
+Homepage: https://mupdf.com/
+Description: Lightweight PDF and XPS viewer (utilities)
+
 Package: ncurses
 Version: 6.5.20240831-3
 Architecture: aarch64
@@ -19324,6 +19530,22 @@ SHA1: 278f3ebe03bc010818247c937f5810ef2d332526
 SHA256: 19b7122c3f2731c5cb60f3a89b8fc03bb15cb09e0d0dceb6f3bb8409f53998f4
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
+
+Package: tesseract
+Version: 5.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 28356
+Depends: fontconfig, glib, harfbuzz, leptonica, libandroid-glob, libandroid-posix-semaphore, libarchive, libc++, libcairo, libcurl, libicu, pango
+Breaks: tesseract-dev
+Replaces: tesseract-dev
+Filename: pool/main/t/tesseract/tesseract_5.5.1-1_aarch64.deb
+Size: 9696136
+MD5sum: a7f8a6ce09faa3b1543d78df6381dc8c
+SHA1: 45dc9bf0ff5c8fc000f13f0512a6a1e3cb4b2596
+SHA256: 7502cb83ad4c5690a969341335eaf01539becc0c452733a58acd87b56457476e
+Homepage: https://github.com/tesseract-ocr/tesseract
+Description: Tesseract is probably the most accurate open source OCR engine available
 
 Package: texinfo
 Version: 7.2-3
