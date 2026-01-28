@@ -25313,6 +25313,49 @@ SHA256: 68be5923c88f9c16435d1145224e02d5d324f8fd4e4e3e42bc20e8b88659fadd
 Homepage: https://www.unidata.ucar.edu/software/netcdf/
 Description: Static libraries for netcdf-c
 
+Package: nethack
+Version: 3.6.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4360
+Depends: gzip, ncurses
+Filename: pool/main/n/nethack/nethack_3.6.7-2_aarch64.deb
+Size: 1385404
+MD5sum: caa745340585adda714b536c21a72a1b
+SHA1: 6b86f99e715903dd16f54bef74436c849b86f1e4
+SHA256: 776b2015056a90a9eed7c77934a3a6c7eafdb3860641c337ca19a26075c0a35d
+Homepage: http://www.nethack.org/
+Description: Dungeon crawl game
+
+Package: netpbm
+Version: 1:10.73.43-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6768
+Depends: libjpeg-turbo, libpng, libtiff, libx11, libxml2
+Breaks: netpbm-dev
+Replaces: netpbm-dev
+Filename: pool/main/n/netpbm/netpbm_1+10.73.43-5_aarch64.deb
+Size: 1033544
+MD5sum: 47e20bac6de533121890de4c0d99e24f
+SHA1: c1faec9a231d63ddb7870d0b4a3faec5920625a1
+SHA256: 1d80500f86e684f9426c0f77596f38ff2bb67fbec726587234d4ea91752a215f
+Homepage: https://netpbm.sourceforge.net/
+Description: Toolkit for manipulation of graphic images of different formats
+
+Package: netsed
+Version: 1.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Filename: pool/main/n/netsed/netsed_1.4_aarch64.deb
+Size: 8072
+MD5sum: 439aec5ba0b27c2621dc656bf1e9ea17
+SHA1: 1c2ce69d5ea0b36640d919e1927cfe567847b361
+SHA256: 85388133a68786252857757c85187af0349f9b73854fb7bec5abe66eb68ac443
+Homepage: http://silicone.homelinux.org/projects/netsed/
+Description: Alter the contents of packets forwarded through network in real time
+
 Package: netstandard-targeting-pack-2.1
 Version: 9.0-2
 Architecture: aarch64
@@ -25370,6 +25413,78 @@ SHA256: b2d7b4cb64ff8692023c12303fe137d3a1a15274677627cc1d5c21af8597ee49
 Homepage: https://www.lysator.liu.se/~nisse/nettle/
 Description: Low level cryptographic tools
 
+Package: newsboat
+Version: 2.41
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11660
+Depends: json-c, libandroid-glob, libandroid-support, libc++, libcurl, libiconv, libsqlite, libxml2, ncurses, stfl
+Conflicts: newsbeuter
+Replaces: newsbeuter
+Filename: pool/main/n/newsboat/newsboat_2.41_aarch64.deb
+Size: 1895568
+MD5sum: 788352fd7d833e54fb7b22fc9e799fc4
+SHA1: 255c3adc9865972eef25a7f496d28929bab96a00
+SHA256: 391ea6fa756e8875f98ec03b904d8fed9a5702f602dfa88a6aa87fd6c5d6b582
+Homepage: https://newsboat.org/
+Description: RSS/Atom feed reader for the text console
+
+Package: nginx
+Version: 1.29.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1536
+Depends: libandroid-glob, libcrypt, pcre2, openssl, zlib
+Filename: pool/main/n/nginx/nginx_1.29.1_aarch64.deb
+Size: 417584
+MD5sum: 3831f2ce18d3eb57a85323838592238f
+SHA1: dcbfc5c1f840f469f0c41ccfdac56fd3c11a09b8
+SHA256: a4a516a568250f7475e1d07bc7851e9513af029518897f574d3a3d3e88ebff07
+Homepage: https://www.nginx.org
+Description: Lightweight HTTP server
+
+Package: ngircd
+Version: 27-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 684
+Depends: zlib, openssl
+Filename: pool/main/n/ngircd/ngircd_27-1_aarch64.deb
+Size: 172924
+MD5sum: 358666374c2cc476f82ab4e7bb1e0c88
+SHA1: 7047affb3f0461047f0894768b05ce1f3cf9c9de
+SHA256: efb4b10b4043c6281f9b48bf9f6d1042e134f2f0acf961681521a199751e8cac
+Homepage: https://ngircd.barton.de/
+Description: Free, portable and lightweight Internet Relay Chat server
+
+Package: ngspice
+Version: 45.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7020
+Depends: fftw, libc++, ncurses, readline
+Filename: pool/main/n/ngspice/ngspice_45.2_aarch64.deb
+Size: 2054408
+MD5sum: 2c10d9b2f11b41de12cab741ee32eb87
+SHA1: 8f187ecc6e857414eeba2c56b34239e0e4d50710
+SHA256: b6336685f25ecb08a845b87c9d901e3d549a9b58bcb46cc95e8b3b8a74e05151
+Homepage: https://ngspice.sourceforge.net/
+Description: A mixed-level/mixed-signal circuit simulator
+
+Package: nim
+Version: 2.2.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24552
+Depends: clang, git, libandroid-glob, openssl
+Filename: pool/main/n/nim/nim_2.2.4-1_aarch64.deb
+Size: 5453936
+MD5sum: 6b40bfa39fb79128dadcbaf19c1177db
+SHA1: c8e554c602aabd46542cb27e586be6cdfea52d80
+SHA256: 0e7c721308ffdde7edd7c8448acfe84284b9b8d1d442cd92d9fefc76df778eb9
+Homepage: https://nim-lang.org/
+Description: Nim programming language compiler
+
 Package: ninja
 Version: 1.13.1-1
 Architecture: aarch64
@@ -25383,6 +25498,20 @@ SHA1: 5623295800a5cfcfd6351d284b92ed07667de655
 SHA256: 77ef435101fb4f667aaecb1195d8967f8c5875d914aae719db1dd934f0eb4354
 Homepage: https://ninja-build.org
 Description: A small build system with a focus on speed
+
+Package: ninvaders
+Version: 0.1.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: ncurses
+Filename: pool/main/n/ninvaders/ninvaders_0.1.2-3_aarch64.deb
+Size: 12956
+MD5sum: 40fd16d1b014357de9d99e592cb28150
+SHA1: d7f386190c64a824f5c5ec8bc6230721211d9a18
+SHA256: 1d4e781722dfebc2a130c29b5771c62154f02dd0c27ecbb2660d3ef909874037
+Homepage: https://ninvaders.sourceforge.net
+Description: Space Invaders clone based on ncurses for ASCII output
 
 Package: nlohmann-json
 Version: 3.12.0
@@ -25410,6 +25539,51 @@ SHA1: ac0e2219ceb3ab5f3c006aeab4cd0cf8d430a99b
 SHA256: d23d0cd015707d8a7d809892315bae73d0b76c9421227ce4b2041ce47d5db42e
 Homepage: https://nlopt.readthedocs.io/
 Description: Library for nonlinear optimization
+
+Package: nmap
+Version: 7.98
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27368
+Depends: libc++, liblua54, libpcap, libssh2, openssl, pcre2, resolv-conf, zlib
+Breaks: nmap-ncat
+Replaces: nmap-ncat
+Provides: nc, ncat, netcat
+Filename: pool/main/n/nmap/nmap_7.98_aarch64.deb
+Size: 5058664
+MD5sum: cae26ee5c636e0f951553ee7172efef8
+SHA1: 915b27f052f8ac7ef2490d690beeaf2719270529
+SHA256: a9889e0629b671fcc2adc2022febbfd64e9403d80758b9a67dbe2db322cda2ce
+Homepage: https://nmap.org/
+Description: Utility for network discovery and security auditing
+
+Package: nmh
+Version: 1.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6972
+Depends: gdbm, libcurl, libiconv, libsasl, ncurses, openssl, readline
+Filename: pool/main/n/nmh/nmh_1.8-2_aarch64.deb
+Size: 1059356
+MD5sum: 5367a0332550eb51e0ca1c8f861c622d
+SHA1: b3fa520b44c6bc7c8165951596e57a4a73c4d580
+SHA256: c34d45c58d4657973ca9caaa45c6f7a59ab8d09ae78c042396026321506312f5
+Homepage: http://www.nongnu.org/nmh/
+Description: Powerful electronic mail handling system
+
+Package: nmon
+Version: 16q-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Depends: ncurses
+Filename: pool/main/n/nmon/nmon_16q-2_aarch64.deb
+Size: 52664
+MD5sum: b53317610082657931f012bc1d5765cc
+SHA1: 975ff8d005e0d0690b0ae8ebd4a6a84efe71eee0
+SHA256: 84f4ec75104fd8e8eddaefb1a9b5ececd711d41bd6210ca7f91970e82558105d
+Homepage: https://nmon.sourceforge.net/
+Description: Curses based Performance Monitor for Linux with saving performance stats to a CSV file mode
 
 Package: notmuch
 Version: 0.39-1
@@ -27257,6 +27431,36 @@ SHA1: 254c7f6c5c5753d8f8db553b369b88aa1675f4e2
 SHA256: 3ca395d3ecd30a5a7c541eb918dfe81eb20fdcffb43103e5cfc0ccd108559c40
 Homepage: https://snowballstem.org/
 Description: A command-line tool which uses libstemmer
+
+Package: stfl
+Version: 0.24-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: libandroid-support, libiconv, ncurses
+Breaks: stfl-dev
+Replaces: stfl-dev
+Filename: pool/main/s/stfl/stfl_0.24-7_aarch64.deb
+Size: 24240
+MD5sum: fa2099e0679bfc2f5590c2a544432b9e
+SHA1: 9d9c20ed8e3572e8a0ec797509c15efbb33688ab
+SHA256: e203397061ee06cadf18590019695fa167722b15a4a88d58ae477c6596364aa0
+Homepage: http://www.clifford.at/stfl
+Description: Structured Terminal Forms Language/Library
+
+Package: stfl-static
+Version: 0.24-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: stfl (= 0.24-7)
+Filename: pool/main/s/stfl-static/stfl-static_0.24-7_aarch64.deb
+Size: 28320
+MD5sum: c012641df54b866eaef609f34a2fc231
+SHA1: c96319ec5c51b619d846f005dedfabb4a835bf11
+SHA256: 7f6c56cd82a29be7dfe036e6bfdc3eef685bd2ce3ba173183a92b97bc9298429
+Homepage: http://www.clifford.at/stfl
+Description: Static libraries for stfl
 
 Package: subversion
 Version: 1.14.5-1
