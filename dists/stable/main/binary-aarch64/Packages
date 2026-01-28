@@ -23940,6 +23940,61 @@ SHA256: 0ea684c72dab848a6912fa15a2483f0f4c4172f978bd2546b0f2561ebfd98cb5
 Homepage: https://miniflux.app/
 Description: A minimalist and opinionated feed reader
 
+Package: minimodem
+Version: 0.24-1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: fftw, libsndfile, pulseaudio
+Filename: pool/main/m/minimodem/minimodem_0.24-1-1_aarch64.deb
+Size: 19192
+MD5sum: a0da4df262bcd7639ccba391eba145cf
+SHA1: 24c87267e803ea5e74df949cbcc824ab55d15179
+SHA256: faf496b8de8219491f7d35809ac736488bee55d0225832840c0271aa062953de
+Homepage: http://www.whence.com/minimodem/
+Description: General-purpose software audio FSK modem
+
+Package: minio
+Version: 2025.09.07.16.13.09
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 110944
+Depends: resolv-conf
+Filename: pool/main/m/minio/minio_2025.09.07.16.13.09_aarch64.deb
+Size: 27114120
+MD5sum: 87adf3856f60239fd2713464f1f538ee
+SHA1: 826c6c3c1692b57870c7c6a12a6dfbb941efdb98
+SHA256: 645123d90da66a3fd4a027595f675bd72c4ddc2c8a087646951fd0d55debe776
+Homepage: https://min.io/
+Description: Multi-Cloud Object Storage
+
+Package: miniserve
+Version: 0.32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7080
+Filename: pool/main/m/miniserve/miniserve_0.32.0_aarch64.deb
+Size: 2353864
+MD5sum: 15aec1f49f3cc9d43b96f25e08cf0287
+SHA1: d9d0e8459f7280d0462220acf8145921fecaacca
+SHA256: f5c26fe2163e0e3ad2abcb7aedef960fc0998d9c51f4e230c2c48adf83399aab
+Homepage: https://github.com/svenstaro/miniserve
+Description: Tool to serve files and dirs over HTTP
+
+Package: minisign
+Version: 0.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: libsodium
+Filename: pool/main/m/minisign/minisign_0.12-1_aarch64.deb
+Size: 12056
+MD5sum: 2afe893a31ec1dead339de96176a803e
+SHA1: fd8a7aa58973812668dcfd4b56ca2963d3fd4f11
+SHA256: 125bd2a17b1171130b41523ba4569b50b66a5b792200fa81109d870091a7484c
+Homepage: https://jedisct1.github.io/minisign/
+Description: A dead simple tool to sign files and verify signatures
+
 Package: miniupnpc
 Version: 2.3.3-1
 Architecture: aarch64
@@ -23969,6 +24024,87 @@ SHA256: a222717a427fcdc84d1891d2a59b523c0df9ccd7b510dd0e4d0a71fa79df52b8
 Homepage: https://miniupnp.tuxfamily.org/
 Description: Static libraries for miniupnpc
 
+Package: minizinc
+Version: 2.9.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11984
+Depends: libc++, zlib, gecode
+Filename: pool/main/m/minizinc/minizinc_2.9.3-1_aarch64.deb
+Size: 1667380
+MD5sum: 15d0848dedec10b454a408439ac98c0b
+SHA1: a7f6961182fd6c6cffbec44962e58e26859a884c
+SHA256: 797cb8736f61f9656af9c44f9d28e04b709687d7eefbdf71bd5dc812c53d3add
+Homepage: https://github.com/MiniZinc/libminizinc
+Description: A medium-level constraint modelling language
+
+Package: minizinc-static
+Version: 2.9.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14040
+Depends: minizinc (= 2.9.3-1)
+Filename: pool/main/m/minizinc-static/minizinc-static_2.9.3-1_aarch64.deb
+Size: 1714128
+MD5sum: 07159fde224e1de9a8b11215eff343e7
+SHA1: 9c4216a53c88b6b202b67c08a5e8a02ec26d80cf
+SHA256: 5b974dbc32340bac0f6f206e3d88c63a228467eb060c79e5ab34a36dee95366a
+Homepage: https://github.com/MiniZinc/libminizinc
+Description: Static libraries for minizinc
+
+Package: mkbootimg
+Version: 2022.11.09-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Filename: pool/main/m/mkbootimg/mkbootimg_2022.11.09-1_aarch64.deb
+Size: 12112
+MD5sum: 00a7a2b132e3e4f3b4aa199a106fa631
+SHA1: f44bb6147a4689bb7660c6c97e6f69c68e3704a6
+SHA256: e5f6ce42ea998b9fc359755249481824166f8f36263539a5af367dd65ea6bb82
+Homepage: https://github.com/osm0sis/mkbootimg
+Description: Maintained fork with android's mkbootimg and unpackbootimg
+
+Package: mkp224o
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: libsodium
+Filename: pool/main/m/mkp224o/mkp224o_1.7.0-1_aarch64.deb
+Size: 57784
+MD5sum: ac75f3b34b07499f3ea32144d25a6707
+SHA1: 838a6b552762374222c7cde57c1a4cdd58386e75
+SHA256: d6540105fe85690792e453fd7b828f9321cbd18b3a3ebfb62b6eb739ddcc20f5
+Homepage: https://github.com/cathugger/mkp224o
+Description: Generate vanity ed25519 (hidden service version 3) onion addresses
+
+Package: mksh
+Version: 59c-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Filename: pool/main/m/mksh/mksh_59c-3_aarch64.deb
+Size: 170368
+MD5sum: f2a689c28c26edcc7ce94d11d9d2eadc
+SHA1: 2084ef9922de2ab3e6da4d16240dbbfb998c35ec
+SHA256: f9c233299d72db2e194080a28468878aa141e0c78a3c36b93c925bbc9d42eeb7
+Homepage: http://www.mirbsd.org/mksh.htm
+Description: The MirBSD Korn Shell - an enhanced version of the public domain ksh
+
+Package: mktorrent
+Version: 1.1-p20210130-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Filename: pool/main/m/mktorrent/mktorrent_1.1-p20210130-1_aarch64.deb
+Size: 11628
+MD5sum: 2de0e5adfd348e56ab6520adf8419b1e
+SHA1: 51202e9f0ba9072ba90a23100b0de5ab01edba48
+SHA256: 73191961494191b7864aaff12d4e950972b43696477e6164947c09daf2e62682
+Homepage: https://github.com/Rudde/mktorrent
+Description: command line utility to create BitTorrent metainfo files
+
 Package: mlir
 Version: 20.1.8-3
 Architecture: aarch64
@@ -23982,6 +24118,48 @@ SHA1: b038a3a715f5b951d57c307af8e5cdb0850d705a
 SHA256: 0059018d4e69ae025df71ebca73050da6eb5059b93b13557561092242f88aa26
 Homepage: https://clang.llvm.org/
 Description: A Multi-Level Intermediate Representation for compilers from LLVM
+
+Package: mlocate
+Version: 0.26-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: libandroid-support
+Filename: pool/main/m/mlocate/mlocate_0.26-6_aarch64.deb
+Size: 38244
+MD5sum: d89a1dbce2e83d2b7f638871426d60fe
+SHA1: e158cc47e11fd0279a2ed82a9c3bf8e790fcf2fc
+SHA256: d89b369c2bfc5eb8cd1be8991fcf64e6a38150b7026bccbf894b9eb4c362e8a0
+Homepage: https://pagure.io/mlocate
+Description: Tool to find files anywhere in the filesystem based on their name
+
+Package: mold
+Version: 2.40.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 21960
+Depends: libandroid-spawn, libc++, openssl, zlib, zstd
+Filename: pool/main/m/mold/mold_2.40.4_aarch64.deb
+Size: 1639460
+MD5sum: 8148a99054b372809d56ee40380bb282
+SHA1: 64b2fc5ad01557e978c055990d92e44a2de1e3dd
+SHA256: 8b2fc1584f4421a3f53a54e9d918b7413518e4a905734d70be1fe889bd3d4cdb
+Homepage: https://github.com/rui314/mold
+Description: mold: A Modern Linker
+
+Package: monero
+Version: 0.18.4.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 71760
+Depends: boost, libc++, libprotobuf, libsodium, libunbound, libusb, libzmq, miniupnpc, openssl, readline
+Filename: pool/main/m/monero/monero_0.18.4.2-2_aarch64.deb
+Size: 12689716
+MD5sum: 38e8977771c122e91257dec88a15480d
+SHA1: 052d949849baf931f84eac1b66d2a68c50b311f2
+SHA256: df379f56d9d983293dca60cc0f325c9d79f09eee761704ca9d93c2ab83e976b1
+Homepage: https://getmonero.org/
+Description: A private, secure, untraceable, decentralised digital currency
 
 Package: mosquitto
 Version: 2.0.22-2
