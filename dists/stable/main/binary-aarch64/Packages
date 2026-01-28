@@ -27796,6 +27796,34 @@ SHA256: eea94db2ecc869b384b0e04c525ecafd4ab5232a368ad9be576f43b156e03c58
 Homepage: https://php.net
 Description: PostgreSQL modules for PHP
 
+Package: php-psr
+Version: 1.2.0-4
+Architecture: aarch64
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Installed-Size: 176
+Depends: php
+Filename: pool/main/p/php-psr/php-psr_1.2.0-4_aarch64.deb
+Size: 14424
+MD5sum: adb52fcffc787ded76e895843fdd63f1
+SHA1: 2c3bbdaea4ec028a36ffa405a11f9719ae2e1f64
+SHA256: 5bf246936a6a09c60a5c6d3cfd13d49aa81a407d541b9a2cb0f6113dd0557699
+Homepage: https://github.com/jbboehr/php-psr
+Description: PHP extension providing the accepted PSR interfaces
+
+Package: php-redis
+Version: 6.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 664
+Depends: php
+Filename: pool/main/p/php-redis/php-redis_6.2.0-1_aarch64.deb
+Size: 159144
+MD5sum: d9f8199602d08744bf2899e4f0f87081
+SHA1: d88c2dbbc4a6ce6ad1b6ffdb56ad3642853d3980
+SHA256: 3b26e78fb462bd3a3473fc01881662cf84b8d21ec2ca97add2779b04bb7d8df6
+Homepage: https://github.com/phpredis/phpredis
+Description: PHP extension for interfacing with Redis
+
 Package: php-sodium
 Version: 8.4.2-3
 Architecture: aarch64
@@ -27809,6 +27837,117 @@ SHA1: 58bb91bb9ae8bb8242bad7e3da9824bbabebb008
 SHA256: 7a971097fa8e6f0f8427dd279b65b741f53f85f1427de14df1944b5317091be9
 Homepage: https://php.net
 Description: Sodium module for PHP
+
+Package: php-zephir-parser
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Installed-Size: 268
+Depends: php
+Filename: pool/main/p/php-zephir-parser/php-zephir-parser_1.7.0-1_aarch64.deb
+Size: 43864
+MD5sum: 1fe92a177e8048f1a2d255a84db2a8b6
+SHA1: f335d6e92f8f05c5644eb9500cbf8a05902ee8d2
+SHA256: 5d33d4c156b648e26db0e4c3f80f0ddf83aca450e37bbbc934848bc8e04fd13a
+Homepage: https://github.com/phalcon/php-zephir-parser
+Description: The Zephir Parser delivered as a C extension for the PHP language
+
+Package: phpmyadmin
+Version: 5.2.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 69412
+Depends: apache2, php, php-apache
+Filename: pool/main/p/phpmyadmin/phpmyadmin_5.2.2_all.deb
+Size: 7624080
+MD5sum: 53b731b78d0414eb4255f1d14a406883
+SHA1: b86a45249bfa6a1c357ce39dbb8b341f6a9e8719
+SHA256: ba559958a36f73c15f32765a8e8ecb8330f65615b3ec1434d5eae0948b67161a
+Homepage: https://www.phpmyadmin.net
+Description: A PHP tool for administering MySQL and MariaDB databases
+
+Package: pianobar
+Version: 2024.12.21-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: libao, ffmpeg, libgcrypt, libcurl, json-c
+Filename: pool/main/p/pianobar/pianobar_2024.12.21-1_aarch64.deb
+Size: 38864
+MD5sum: 2dc8349d70fdef51dd4b29b99b4b77b3
+SHA1: 7084a7b5bab774bd3a8431217f5b0ded4afe66a0
+SHA256: 5bb403350ad90d77e832014af1f58979888e7dea5dfe09a28f3f45021aceb43d
+Homepage: https://6xq.net/pianobar/
+Description: pianobar is a free/open-source, console-based client for the personalized online radio Pandora.
+
+Package: pick
+Version: 4.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: ncurses
+Filename: pool/main/p/pick/pick_4.0.0-3_aarch64.deb
+Size: 10460
+MD5sum: 9f73a9ae242213a0e5157f16c06058de
+SHA1: 4aca1b74737e8155f3e6034b40c4236c40abada0
+SHA256: 73021cce3a53b5552be08b29d976a018e9cb9e65af84aa7c11bdd58067a1878b
+Homepage: https://github.com/calleerlandsson/pick
+Description: Utility to choose one option from a set of choices with fuzzy search functionality
+
+Package: picocom
+Version: 2018.04.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Filename: pool/main/p/picocom/picocom_2018.04.12-1_aarch64.deb
+Size: 36952
+MD5sum: 89dc6e0ad6ba9566a9295cf733eeec53
+SHA1: 976499227c6123f89ce4c70cb1d26f78a0b04586
+SHA256: aca3996428e17200e9f68c1c5172e18d85e6553f64179dbf0f79bc86839319fd
+Homepage: https://github.com/npat-efault/picocom
+Description: A minimal dumb-terminal emulation program
+
+Package: picolisp
+Version: 25.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7380
+Depends: libcrypt, libffi, openssl, readline
+Filename: pool/main/p/picolisp/picolisp_25.6-1_aarch64.deb
+Size: 1284968
+MD5sum: c05ab865ff9b77a7cc507136cd0ddda8
+SHA1: 124c4102edd3b305f44fd4cf9092ad4754e094e5
+SHA256: 1f515754a85d030dcedad8cfba03b9cdf2c9940de7da5ff7e4cee8efa91cd810
+Homepage: https://picolisp.com/wiki/?home
+Description: Lisp interpreter and application server framework
+
+Package: pigz
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Depends: zlib
+Filename: pool/main/p/pigz/pigz_2.8-1_aarch64.deb
+Size: 47100
+MD5sum: ae3abcc8e9f7cb0b8b144461171806ed
+SHA1: 4c451eab964d1744b06b436833e2ccb57fa2518e
+SHA256: 5304898601e2d88100f0217b63e5b06e0791c2eb97ce98c6ce7fc1b846e8064c
+Homepage: https://www.zlib.net/pigz
+Description: Parallel implementation of the gzip file compressor
+
+Package: pika
+Version: 3.4.1-14
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2236
+Depends: abseil-cpp, google-glog, libc++, libprotobuf, librocksdb
+Filename: pool/main/p/pika/pika_3.4.1-14_aarch64.deb
+Size: 555284
+MD5sum: 7b128dbc5cb79280392a66ef29de1cc9
+SHA1: 6f4a567b0fdd0baf02d0ce5bb04e190623159976
+SHA256: 41c001da9373b13f23e7b4ef063e7e4d2162dd130ec836ca435f055612a3bfe9
+Homepage: https://github.com/OpenAtomFoundation/pika
+Description: A persistent huge storage service, compatible with the vast majority of Redis interfaces
 
 Package: pinentry
 Version: 1.3.2-1
