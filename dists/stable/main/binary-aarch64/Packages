@@ -25585,6 +25585,112 @@ SHA256: 84f4ec75104fd8e8eddaefb1a9b5ececd711d41bd6210ca7f91970e82558105d
 Homepage: https://nmon.sourceforge.net/
 Description: Curses based Performance Monitor for Linux with saving performance stats to a CSV file mode
 
+Package: nnn
+Version: 5.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 224
+Depends: file, findutils, readline, wget, libandroid-support, lzip
+Filename: pool/main/n/nnn/nnn_5.1-2_aarch64.deb
+Size: 61888
+MD5sum: 1268447ba9cdaac2dc3eaae2090e1462
+SHA1: a36f90584a14589b0058c0f5dbd91031f95bada3
+SHA256: ba799237e2f706e32e481dad84f737a35d0d79e94a0b71af42c632b0e59438c8
+Homepage: https://github.com/jarun/nnn
+Description: Free, fast, friendly file browser
+
+Package: no-more-secrets
+Version: 1.0.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: libandroid-support, ncurses
+Filename: pool/main/n/no-more-secrets/no-more-secrets_1.0.1-3_aarch64.deb
+Size: 14480
+MD5sum: e85f5130f69f6006f595d766a1edc01d
+SHA1: fcb740bd3b0d975ec664867e6baf1c70ea0fa691
+SHA256: a460446c112c66a735d4bdccb00b38951aea20eaea5c1e494d7bba0113f06874
+Homepage: https://github.com/bartobri/no-more-secrets
+Description: This project provides a command line tool called nms that recreates the famous data decryption effect
+
+Package: nodejs
+Version: 24.7.0
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 95160
+Depends: libc++, openssl, c-ares, libicu, libsqlite, zlib
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs-lts, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/main/n/nodejs/nodejs_24.7.0_aarch64.deb
+Size: 13664964
+MD5sum: aa4a7aa137ef8b8c4d5e633ffc15ff4c
+SHA1: 0d81de7256e264c2e8773670c653c5d599ba9f89
+SHA256: c38cd1fbba5a80c62bdbdb3da4a1995b6d94a0dee6b30eb353060e3d79eb6abd
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
+Package: nodejs-lts
+Version: 22.19.0
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 88040
+Depends: libc++, openssl, c-ares, libicu, zlib
+Suggests: clang, make, pkg-config, python
+Conflicts: nodejs, nodejs-current
+Breaks: nodejs-dev
+Replaces: nodejs-current, nodejs-dev
+Filename: pool/main/n/nodejs-lts/nodejs-lts_22.19.0_aarch64.deb
+Size: 13353584
+MD5sum: 2585f3bbc9e7a1df7bab3602a493d4f1
+SHA1: 2bbe8eb58c9907785df5572be16f6e502175b521
+SHA256: afd22c468fc00cd072f2b37391572e67cd9e0eb1e10b784a3ff0fd18ac1f96b5
+Homepage: https://nodejs.org/
+Description: Open Source, cross-platform JavaScript runtime environment
+
+Package: notcurses
+Version: 3.0.16-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1428
+Depends: ffmpeg, libandroid-spawn, libc++, libunistring, ncurses, zlib
+Filename: pool/main/n/notcurses/notcurses_3.0.16-2_aarch64.deb
+Size: 313420
+MD5sum: 50818223bce4c13ccd55196614aa5a7c
+SHA1: 77d1471557cfdb47609825d73b70d6965dbf5094
+SHA256: e2afadd1b061226c1f465f366b56f737232712c437a5758c043b5b3670ddaf9c
+Homepage: https://notcurses.com/
+Description: blingful TUIs and character graphics
+
+Package: notcurses-data
+Version: 3.0.16-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 6500
+Depends: notcurses (= 3.0.16-2)
+Filename: pool/main/n/notcurses-data/notcurses-data_3.0.16-2_all.deb
+Size: 5903592
+MD5sum: 98ac872f2e13d9dc126bd318506a57c0
+SHA1: e3b773fc381edaf284128d5eb1e28120315c3675
+SHA256: 34bfbc2f0865f64e7c3405a8b4678eba0d926e28f71da0a278f6d3867a5a70ef
+Homepage: https://notcurses.com/
+Description: Platform-independent data for notcurses
+
+Package: notcurses-tools
+Version: 3.0.16-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1232
+Depends: notcurses-data, notcurses (= 3.0.16-2)
+Filename: pool/main/n/notcurses-tools/notcurses-tools_3.0.16-2_aarch64.deb
+Size: 412444
+MD5sum: ecd46500d72c05a2ef3502ddbcbdb4fd
+SHA1: 615739967302e2033e324f0995740fcd7f249f7b
+SHA256: 8014d0a25dbc54cc09a725795b9e4f4afac9a4b9f778da43eed26bdce51df64f
+Homepage: https://notcurses.com/
+Description: Tools and demos for notcurses
+
 Package: notmuch
 Version: 0.39-1
 Architecture: aarch64
@@ -25601,6 +25707,61 @@ SHA256: 29050af6d5b4efeb27e87957cd8bb2dd426044ba91cd06713af84f2492c5a73b
 Homepage: https://notmuchmail.org
 Description: Thread-based email index, search and tagging system
 
+Package: npush
+Version: 0.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 184
+Depends: libc++, ncurses
+Filename: pool/main/n/npush/npush_0.7-2_aarch64.deb
+Size: 26272
+MD5sum: d44db8fc7180a14a86a555253c72c1a0
+SHA1: a0af677879b6ced61b847e3ca58910bbe3a2d5c3
+SHA256: 13881b7020bed56da3a0d859430f5a77e1c2e83cd235f21b46668231569058ac
+Homepage: https://npush.sourceforge.net/
+Description: Curses-based logic game similar to Sokoban and Boulder Dash
+
+Package: nsis
+Version: 3.11-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 964
+Depends: libandroid-support, libc++, libiconv, nsis-stubs, zlib
+Filename: pool/main/n/nsis/nsis_3.11-1_aarch64.deb
+Size: 231184
+MD5sum: 94607b3fd86e33c6b85e0b9ed9f5c7ab
+SHA1: 9d62bc067c2e4b985bac3bfc05420adc07a1a21d
+SHA256: f5d0ff01547d05bfa969db98e9c61e1f76c6acce5715406d4d41ebfbc5203c13
+Homepage: https://sourceforge.net/projects/nsis/
+Description: A professional open source system to create Windows installers
+
+Package: nsis-stubs
+Version: 3.11-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1140
+Filename: pool/main/n/nsis-stubs/nsis-stubs_3.11-1_all.deb
+Size: 97720
+MD5sum: 52150277add1b02304aa2537a78fe8c6
+SHA1: 89498269bcb8db3228f39c5f7eb96d524afd371a
+SHA256: 6c8d0f4ec5db29893e2af3bbc560a5b1a02ca27333d3c1e5f701aaad965e1d67
+Homepage: https://sourceforge.net/projects/nsis/
+Description: NSIS Stubs
+
+Package: nsnake
+Version: 3.0.1-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 452
+Depends: libc++, ncurses
+Filename: pool/main/n/nsnake/nsnake_3.0.1-7_aarch64.deb
+Size: 78024
+MD5sum: 5959e83884ad4e2be0aa73f9e1953388
+SHA1: 5a55ed57eb3337659a4dafb8effe3e878ab71527
+SHA256: 4d7b880c1ef5faa428bc1f07bc394347fc9e9a5bfad17957cbe3ae5bf1565662
+Homepage: https://github.com/alexdantas/nSnake
+Description: The classic snake game with textual interface
+
 Package: nss-utils
 Version: 3.116
 Architecture: aarch64
@@ -25614,6 +25775,63 @@ SHA1: 74523052cd87a1bdc276f289fec59505022862a2
 SHA256: 2591b8291d1b4f427468c710fb95d284ab93fe997deaa82e65951068f0c1b970
 Homepage: https://firefox-source-docs.mozilla.org/security/nss/
 Description: Tools for NSS
+
+Package: nudoku
+Version: 6.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: libcairo, ncurses
+Filename: pool/main/n/nudoku/nudoku_6.0.0_aarch64.deb
+Size: 10720
+MD5sum: 49b49eecff421fd3cd8f02660f191096
+SHA1: 9f61fcaf555f5917d8c2b6d96d6ef6e766f67078
+SHA256: 8d48ead1daa9cf0b93a894dce461f84de8048857b776b9222b965400aca1821b
+Homepage: http://jubalh.github.io/nudoku/
+Description: ncurses based sudoku game
+
+Package: nushell
+Version: 0.107.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31024
+Depends: openssl
+Recommends: command-not-found, termux-api
+Filename: pool/main/n/nushell/nushell_0.107.0-2_aarch64.deb
+Size: 7250656
+MD5sum: aa9b210378b275e8f2dc10018d5a616f
+SHA1: 459b704d29f70beab18ca716a80ad2a7a7e76e78
+SHA256: b7419774572b840432e121b664defb72ff39c351c17f9a53417ed94f3ad686a2
+Homepage: https://www.nushell.sh
+Description: A new type of shell operating on structured data
+
+Package: nyancat
+Version: 1.5.2-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 104
+Filename: pool/main/n/nyancat/nyancat_1.5.2-1_aarch64.deb
+Size: 10592
+MD5sum: db992e856b315f9fb9eb7ec60a3b99f2
+SHA1: 31cf803e15b8c53fccb029dce4ae79b2ec058b98
+SHA256: 75add1de9739ae1652f1e98a30168303a342018502c9d38310166563c28a8803
+Homepage: http://nyancat.dakko.us
+Description: Nyancat in your terminal, rendered through ANSI escape sequences.
+
+Package: nzbget
+Version: 21.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3404
+Depends: libc++, libxml2, ncurses, openssl, p7zip, zlib
+Recommends: unrar
+Filename: pool/main/n/nzbget/nzbget_21.1-8_aarch64.deb
+Size: 920096
+MD5sum: 86f29cf0284e0c20336ac2cfb02ee63b
+SHA1: 8ea5bdceaa44cad966e960d03cafa01ff331cd09
+SHA256: 9552f16c8652b38cfdf7d165abeb8a4dde34595ced7a687a3a1f7f863661e8ac
+Homepage: https://nzbget.net/
+Description: The most efficient usenet downloader
 
 Package: ocl-icd
 Version: 2.3.4
@@ -26079,6 +26297,20 @@ SHA1: 801078d224d36756beefb33fe62d65af8783f0c5
 SHA256: 60b708114cbefc1d5d51869efa10927b0d47271e107ace45e894d167acb08f50
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for opusfile
+
+Package: p7zip
+Version: 17.06-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8648
+Depends: libc++, libiconv
+Filename: pool/main/p/p7zip/p7zip_17.06-1_aarch64.deb
+Size: 1771084
+MD5sum: 09e986ede0e9b7525dcaec75411a0edc
+SHA1: 62a5eb99e7cc6448857f1be08092c20efe61d097
+SHA256: 98b6ca770743ac7276cd2903fe6b1aae50071ac30c631886caf23bbfcbfb6994
+Homepage: https://github.com/p7zip-project/p7zip
+Description: Command-line version of the 7zip compressed file archiver
 
 Package: pango
 Version: 1.57.0
