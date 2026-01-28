@@ -27221,6 +27221,62 @@ SHA256: 3e93f82e57959a0745cb1a9b09ad7108883dd8f3ef6c233ab711904d20ab47ad
 Homepage: https://github.com/tadfisher/pass-otp
 Description: A pass/passage extension for managing one-time-password (OTP) tokens
 
+Package: passage
+Version: 1.7.4a2-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 104
+Depends: bash, age, tree
+Recommends: git
+Suggests: pass-otp
+Filename: pool/main/p/passage/passage_1.7.4a2-1_all.deb
+Size: 10164
+MD5sum: 4030be980dedbfb0faa42e8f3ba52307
+SHA1: 9bfaa6c56bd5d3db39ecdfd750cee5ac677e611b
+SHA256: 426d280622cbcc1230f75346b992ee33a848be5ac81c9dc51556a94d82e97996
+Homepage: https://github.com/FiloSottile/passage
+Description: A fork of password-store that uses age as backend
+
+Package: passphrase2pgp
+Version: 1.3.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3468
+Filename: pool/main/p/passphrase2pgp/passphrase2pgp_1.3.0-3_aarch64.deb
+Size: 1085940
+MD5sum: ed0f20907ed45de14f2af9e8ce0efcb2
+SHA1: c13b68114008392d902f47549f121bea50a69f97
+SHA256: 6a30008388b5a29ff885d8fc54fb4af8f79500905e1e22541fa12b7ceacbace9
+Homepage: https://github.com/skeeto/passphrase2pgp
+Description: Generate EdDSA/cv25519 private key in GnuPG/SSH format reproducibly per hash of user given passphrase
+
+Package: pastebinit
+Version: 1.5.1-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 128
+Depends: python
+Filename: pool/main/p/pastebinit/pastebinit_1.5.1-2_all.deb
+Size: 7700
+MD5sum: 4b4120c2d603acc50bfca7e4ef7d80ae
+SHA1: 61abb1ed756a7bbd7599294d178712b4f541057e
+SHA256: 779261bd792bee265312506218eee8e9a4dac431cf5c4a099cfe56c96dc597d5
+Homepage: https://launchpad.net/pastebinit
+Description: Command-line pastebin client
+
+Package: pastel
+Version: 0.10.0-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 1160
+Filename: pool/main/p/pastel/pastel_0.10.0-1_aarch64.deb
+Size: 388016
+MD5sum: 4839ac84b03eacd134c3f21840263ab8
+SHA1: c38a2d1bc899dffcbe90fa535b2d75c62c04af47
+SHA256: 636c4bfce22691fb477f784071fe68c0ce0461b316b8819c7c020817694fe12c
+Homepage: https://github.com/sharkdp/pastel
+Description: A command-line tool to generate, analyze, convert and manipulate colors
+
 Package: patchelf
 Version: 0.18.0-1
 Architecture: aarch64
@@ -27234,6 +27290,46 @@ SHA1: c4e706e5ef0b8400ff2e4da250255d8b0ead0c47
 SHA256: de4273af6668a9f5ae14f0d5d370a9693c3e6fcd37a7e52afab27d2e47f02980
 Homepage: https://nixos.org/patchelf.html
 Description: Utility to modify the dynamic linker and RPATH of ELF executables
+
+Package: pathpicker
+Version: 0.9.5-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 196
+Depends: bash,python
+Filename: pool/main/p/pathpicker/pathpicker_0.9.5-2_all.deb
+Size: 24844
+MD5sum: 09e13c34e0a86d3c1362903448dfa43d
+SHA1: f6519a2f1fe617e2eaa3383f0b8ffb8096b5654a
+SHA256: 540a8c9f53851339231bfed47d5aab7b1776adaaa918f7e13f70a1fa350ad31e
+Homepage: https://facebook.github.io/PathPicker/
+Description: Facebook PathPicker - a terminal-based file picker
+
+Package: pb
+Version: 2022.11.03-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 60
+Filename: pool/main/p/pb/pb_2022.11.03-1_all.deb
+Size: 3524
+MD5sum: 80fec939c455065492d90f52b5861674
+SHA1: cf1120040e6c78f0ec7c43d028757fc010c2c364
+SHA256: 40308ab566dfdf90cdeb215280a351e9d970d187a828a9dbb3956621abe4dd9e
+Homepage: https://tildegit.org/tomasino/pb
+Description: A helper utility for using 0x0 pastebin services
+
+Package: pcal
+Version: 4.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 364
+Filename: pool/main/p/pcal/pcal_4.11.0-1_aarch64.deb
+Size: 114252
+MD5sum: 97acabf68205c8efae5eadab6a1a6639
+SHA1: 5baddee072cc291eba1fa318af586360310013a5
+SHA256: db16143f54f8ab7beaf677e2c1e72f9a54d292b50b545212becfd53cefa6bff5
+Homepage: https://pcal.sourceforge.net/
+Description: A multi-platform program which generates annotated PostScript or HTML calendars in a monthly or yearly format
 
 Package: pcaudiolib
 Version: 1.3-1
@@ -27363,6 +27459,47 @@ SHA1: 889c32ba672858831ef8c621a992e42c81c3eb84
 SHA256: f0329b0ce64f6a422bc042185bb7670dbd9b9d60ab1d844f7507427e911fcea8
 Homepage: https://pcsclite.apdu.fr/
 Description: Middleware to access a smart card using SCard API (PC/SC). (daemon side)
+
+Package: pdf2svg
+Version: 0.2.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: glib, libcairo, poppler
+Filename: pool/main/p/pdf2svg/pdf2svg_0.2.4-1_aarch64.deb
+Size: 3536
+MD5sum: f762b0bb039b444a6507f7ae15d0661d
+SHA1: 5e18eb9dc11eb6c39eb1c6fbc242d976a3842931
+SHA256: dfc8768f54388b7d16ecc44168b9aa2364c23c49c9bd867ae623a6be9f4684b9
+Homepage: http://www.cityinthesky.co.uk/opensource/pdf2svg/
+Description: A PDF to SVG converter
+
+Package: pdfcpu
+Version: 0.11.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19168
+Filename: pool/main/p/pdfcpu/pdfcpu_0.11.0-1_aarch64.deb
+Size: 6589220
+MD5sum: c7313dbb7f0f075bb1a31faedbab42c1
+SHA1: fe85c047cd4493b016679355c3c66bd3a090f95c
+SHA256: 616f1af61cb2f63b6085f611526f0df43b54debce02007c04eecd8acf6f8a422
+Homepage: https://pdfcpu.io
+Description: A PDF processor written in Go
+
+Package: pdfgrep
+Version: 2.2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libc++, libgcrypt, libgpg-error, pcre2, poppler
+Filename: pool/main/p/pdfgrep/pdfgrep_2.2.0-4_aarch64.deb
+Size: 39348
+MD5sum: cb79e6280f1916b98caa77a4acdb47a4
+SHA1: 8d26a5ae78719ec210adc4d6d429bb9fbafc949f
+SHA256: 90510063ce684c9a94770e27c0336cd80767c7cb3b480f607fb3884a0cb76cd4
+Homepage: https://pdfgrep.org/
+Description: Command line utility to search text in PDF files
 
 Package: perl
 Version: 5.40.3
