@@ -4445,6 +4445,19 @@ SHA256: fd79c9ca37dcc2e38ece95b445ca60c8722b59f21eeca26ec8101d3f790538c6
 Homepage: https://www.gnu.org/software/ddrescue/
 Description: GNU data recovery tool
 
+Package: debianutils
+Version: 5.23.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 116
+Filename: pool/main/d/debianutils/debianutils_5.23.2-1_aarch64.deb
+Size: 16800
+MD5sum: 15e5d8db80e646893ec73570bb7684e3
+SHA1: 39c338691a941e92014ef5797eb94933fad4aa22
+SHA256: a521f7fb6ef1ac4502ce81aea3e55d2c5eaf507964adcd2d39d5544ebdf34e29
+Homepage: https://packages.debian.org/debianutils
+Description: Small utilities which are used primarily by the installation scripts of Debian packages
+
 Package: debootstrap
 Version: 1.0.141
 Architecture: all
@@ -4988,6 +5001,20 @@ SHA1: 08ae4028b17a4f4a4390376215c85e0335bc4398
 SHA256: d09140ffb8872dffb141da28a44f429fa803fd34b2dd3b02d36610cbda4c93d6
 Homepage: https://dopewars.sourceforge.io
 Description: Drug-dealing game set in streets of New York City
+
+Package: dos2unix
+Version: 7.5.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Depends: libandroid-support
+Filename: pool/main/d/dos2unix/dos2unix_7.5.2-1_aarch64.deb
+Size: 64404
+MD5sum: fe3d22117bf33025e4e535a2415e2e05
+SHA1: db86b4552d4e378aeaca9a2aaafe369b1f51b4d0
+SHA256: 22b16f3593d42c9ecb37328fd506bc82852d6b8dff5377676853b6a0b2684888
+Homepage: https://waterlan.home.xs4all.nl/dos2unix.html
+Description: Converts between DOS and Unix text files
 
 Package: dosfstools
 Version: 4.2-1
@@ -5716,6 +5743,19 @@ SHA1: d57bec0c77bafddb3d091c8cfb7e49229c1c04d1
 SHA256: 3cbe150e3741a59ed68bb95f1d828c4d499fe37f8c880bb19a76cbf31180ef01
 Homepage: https://common-lisp.net/project/ecl/
 Description: ECL (Embeddable Common Lisp) is an interpreter of the Common Lisp language
+
+Package: ed
+Version: 1.22.2-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 180
+Filename: pool/main/e/ed/ed_1.22.2-1_aarch64.deb
+Size: 42748
+MD5sum: 1302da64b14281197d05c4ebf3b37527
+SHA1: 080856498bd99bc3572746c3054c370843daa64a
+SHA256: a784e56d19315b9dcd371dc6f75d22116af4e6f757d78ce45f0f5c635ae839aa
+Homepage: https://www.gnu.org/software/ed/
+Description: Classic UNIX line editor
 
 Package: edbrowse
 Version: 3.8.12-1
@@ -10494,6 +10534,21 @@ SHA1: 51acc4281726dd0ab3492f3a178e9f5d7b805d78
 SHA256: 95eb1d7917fc4bc7d886e6c8655679445267fbb853a95b0afcf5246f46182a21
 Homepage: https://www.gnu.org/software/indent/
 Description: C language source code formatting program
+
+Package: inetutils
+Version: 2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1040
+Depends: readline
+Suggests: whois
+Filename: pool/main/i/inetutils/inetutils_2.6-1_aarch64.deb
+Size: 222876
+MD5sum: 50f54e87d4ab7ad1d63ac2e7bff2672d
+SHA1: 23902e8f55cc711c4117dfeeb5b4fe397e544b0b
+SHA256: ef458337db28c22dbe4bcb822e74b525af6403526de2cc35ea624a79748e69d5
+Homepage: https://www.gnu.org/software/inetutils/
+Description: Collection of common network programs
 
 Package: influxdb
 Version: 1.8.10-4
@@ -22585,6 +22640,34 @@ SHA256: 0c7de6bbf9b5449ec15e2b297366fcdaadb97cdfc2f3f583f05c0df5de88452b
 Homepage: https://github.com/hackerb9/lsix
 Description: Shows thumbnails in terminal using sixel graphics
 
+Package: lsof
+Version: 4.99.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 392
+Depends: libandroid-support, libtirpc
+Filename: pool/main/l/lsof/lsof_4.99.5-2_aarch64.deb
+Size: 122000
+MD5sum: 0c1c03d07b63aed594977059d51c4cb1
+SHA1: 66f02e5534350a4693c3454d72965b4b8f54b087
+SHA256: 49aea6f4383009e553d926945fe49b7d8c48ce7fe103a7b4cc4a2659c717bbb8
+Homepage: https://github.com/lsof-org/lsof
+Description: Lists open files for running Unix processes
+
+Package: lsof-static
+Version: 4.99.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: lsof (= 4.99.5-2)
+Filename: pool/main/l/lsof-static/lsof-static_4.99.5-2_aarch64.deb
+Size: 55692
+MD5sum: 96a5d733c1d46d36acbd405bab73dc52
+SHA1: 2bdf5a35d94e6a751e488a4a44954f10d889902d
+SHA256: a49582e4f6e7a4debf10a02a1b0982c3903dbb5b500b7afd8ca2eae249b6b962
+Homepage: https://github.com/lsof-org/lsof
+Description: Static libraries for lsof
+
 Package: ltrace
 Version: 1:0.8.1
 Architecture: aarch64
@@ -23711,6 +23794,20 @@ SHA1: 7f6f020791326b8b877a0841bff43119f94c587f
 SHA256: 057f572d96990b8157615cf7d26c6d2a2811d9aec4a5713527737b0008566fff
 Homepage: https://github.com/bluenviron/mediamtx
 Description: Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy
+
+Package: megacmd
+Version: 2.0.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8288
+Depends: c-ares, cryptopp, dbus, ffmpeg, freeimage, libandroid-glob, libc++, libcurl, libicu, libsodium, libsqlite, libuv, mediainfo, openssl, pcre, readline, zlib
+Filename: pool/main/m/megacmd/megacmd_2.0.0-3_aarch64.deb
+Size: 2247480
+MD5sum: 12ac7d233348bdbef5f07ed3e8e84de7
+SHA1: 7fab638db9c0138bdbc974beacca4f1a26c3b470
+SHA256: 4cc2bd40ef2ed96a0572a24d8db8fdc9753bc58cda48462c99584747eb51002e
+Homepage: https://mega.io/
+Description: Provides non UI access to MEGA services
 
 Package: megatools
 Version: 1.11.5.20250706-1
@@ -24895,6 +24992,20 @@ SHA256: b2492fe1d3367ffbbe30bb8a9a6d267225f3e84b8cac9760be0e772a3a750f93
 Homepage: https://github.com/zu1k/nali
 Description: An offline tool for querying IP geographic information and CDN provider
 
+Package: nano
+Version: 8.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 932
+Depends: libandroid-support, ncurses
+Filename: pool/main/n/nano/nano_8.6-1_aarch64.deb
+Size: 229528
+MD5sum: a33ed1134e7c6e98f131571bb47165be
+SHA1: e52bc6ca25185efc0d69b9e20e3f0b3fd94f23a2
+SHA256: ffffce3f1b3fdbf04d53391cb291a9f8f4076a3c45fce36759c09279c064e6c4
+Homepage: https://www.nano-editor.org/
+Description: Small, free and friendly text editor
+
 Package: nasm
 Version: 2.16.03-1
 Architecture: aarch64
@@ -25326,6 +25437,19 @@ SHA1: 58d7232cd0cacbac80c153027d5c06679bbf32f8
 SHA256: 2308e08b6e2ef2599d277ca329fbda16a0ee90e2e2ceaaaa71a7afabcc4e8fda
 Homepage: http://www.net-snmp.org/
 Description: Static libraries for net-snmp
+
+Package: net-tools
+Version: 2.10.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 564
+Filename: pool/main/n/net-tools/net-tools_2.10.0-1_aarch64.deb
+Size: 118576
+MD5sum: 473976ed538dd5bf71ac52c099a0ba27
+SHA1: d424b0f8a712052aa93afc836c97096a24f27a4e
+SHA256: 4b6001c250dd19adfc2cd6f7f68a3ab655fae47c70fe62a98d837c554fffa611
+Homepage: http://net-tools.sourceforge.net/
+Description: Configuration tools for Linux networking
 
 Package: netcat-openbsd
 Version: 1.229-1-4
@@ -27322,6 +27446,19 @@ SHA256: 636c4bfce22691fb477f784071fe68c0ce0461b316b8819c7c020817694fe12c
 Homepage: https://github.com/sharkdp/pastel
 Description: A command-line tool to generate, analyze, convert and manipulate colors
 
+Package: patch
+Version: 2.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Filename: pool/main/p/patch/patch_2.8-1_aarch64.deb
+Size: 73868
+MD5sum: be7c70b771cce6920610fb7d32e138cc
+SHA1: 73cc211b4333f1a303fa469b318578fd5c300b29
+SHA256: 1c94115cfdb96e09d98909c71302202da4a988a3045823386cf793c080c33e4e
+Homepage: https://savannah.gnu.org/projects/patch/
+Description: GNU patch which applies diff files to create patched files
+
 Package: patchelf
 Version: 0.18.0-1
 Architecture: aarch64
@@ -28630,6 +28767,21 @@ SHA256: 0d310fc1b9fa10fb0336582980532c912f71190f6a85b80bbf1950d056840e54
 Homepage: https://proot-me.github.io/
 Description: Emulate chroot, bind mount and binfmt_misc for non-root users
 
+Package: proot-distro
+Version: 4.29.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 264
+Depends: bash, bzip2, coreutils, curl, file, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, termux-tools, util-linux, xz-utils
+Suggests: bash-completion, termux-api
+Filename: pool/main/p/proot-distro/proot-distro_4.29.0_all.deb
+Size: 31436
+MD5sum: 8c01560be8c4f2ea3e0c7464c8496cdc
+SHA1: 29824371bc2d5ee9ef810586384100d05f7b75aa
+SHA256: 9b3bc59e43b6caf9ae6600ee162fa450edaaa10f53f39930c6e62bb6e75cf4fc
+Homepage: https://github.com/termux/proot-distro
+Description: Termux official utility for managing proot'ed Linux distributions
+
 Package: protobuf
 Version: 2:32.0
 Architecture: aarch64
@@ -28660,6 +28812,22 @@ SHA1: 2a31e5d27809207eb10eef9c9b6b6b58c0f77108
 SHA256: 41c69f79381b8e2de34e28d76605b610e16e0254012c8ada77c65e6c1c44e3b0
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: CMake files for protobuf shared libraries
+
+Package: protobuf-static
+Version: 32.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 44340
+Depends: abseil-cpp, libc++, zlib
+Conflicts: libprotobuf, protobuf-dev
+Breaks: libprotobuf
+Filename: pool/main/p/protobuf-static/protobuf-static_32.0_aarch64.deb
+Size: 4794988
+MD5sum: ba653f3265bb280c6d289ece4b17811c
+SHA1: a86ce99311748d2032685364000c60aa6657d6ef
+SHA256: 6d71181a063d96b7e93e9566d78778e1297a834cd569f7e2714b4555f0615daf
+Homepage: https://github.com/protocolbuffers/protobuf
+Description: Protocol buffers C++ library (static)
 
 Package: psmisc
 Version: 23.7-1
