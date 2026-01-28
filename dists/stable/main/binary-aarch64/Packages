@@ -30125,10 +30125,10 @@ Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
 Filename: pool/main/t/termux-tools/termux-tools_1.46.0+really1.45.0-1_aarch64.deb
-Size: 33740
-MD5sum: 671265b3b0cdc946deac850008616c8d
-SHA1: 278f3ebe03bc010818247c937f5810ef2d332526
-SHA256: 19b7122c3f2731c5cb60f3a89b8fc03bb15cb09e0d0dceb6f3bb8409f53998f4
+Size: 33760
+MD5sum: e612c1149144a59785803a38aff446ea
+SHA1: 84b1a0b8c413c1972bd279baa40410e4dec4467d
+SHA256: 632aaf191f8e17839a6d43b8405f21221022745d0f97c63b72434ba54b0e6a01
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
