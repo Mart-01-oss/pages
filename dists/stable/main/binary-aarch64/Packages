@@ -11100,6 +11100,22 @@ SHA256: f03006a64a6372571925380d2b30b475ff277b2bb05b5f264bea6751c49bd079
 Homepage: https://www.kokkonen.net/tjko/projects.html
 Description: JPEG optimizer that recompresses image files to a smaller size, without losing any information
 
+Package: jq
+Version: 1.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 516
+Depends: oniguruma
+Breaks: jq-dev
+Replaces: jq-dev
+Filename: pool/main/j/jq/jq_1.8.1-1_aarch64.deb
+Size: 178484
+MD5sum: f6b500eeda738b08e80eb39c1272d0ff
+SHA1: 00031e016011f4edb60fab21d929dff5153b95c9
+SHA256: ca07def0d453ae282055da0b9c0aefb0d2440614a2ef33c10daad6099bffa881
+Homepage: https://stedolan.github.io/jq/
+Description: Command-line JSON processor
+
 Package: jq-lsp
 Version: 0.1.13
 Architecture: aarch64
@@ -11112,6 +11128,20 @@ SHA1: f6c38bae13c8b282f8d867d5024d422394e8c780
 SHA256: 66ab75a0294ae090b7d21be13e7f90fb3902c6e56259143b059f51b7c6699421
 Homepage: https://github.com/wader/jq-lsp
 Description: jq language server
+
+Package: jq-static
+Version: 1.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 616
+Depends: jq (= 1.8.1-1)
+Filename: pool/main/j/jq-static/jq-static_1.8.1-1_aarch64.deb
+Size: 138328
+MD5sum: cda162fa923e4cf0913546ab834e63d1
+SHA1: 51408067f9bbb8503c9c81529cdd9e10319a8b67
+SHA256: 89ef6605a6d9ee2ea902a70ce4fc210f0a4b6514e408fe1f7ef8e3358c3b2951
+Homepage: https://stedolan.github.io/jq/
+Description: Static libraries for jq
 
 Package: jql
 Version: 8.0.8
@@ -28128,6 +28158,118 @@ SHA256: ad6f089a06ccbf34340772a1f2d121d4f749b8c9afde637d82ff7e36d173eebd
 Homepage: https://pmt.sourceforge.io/pngcrush/
 Description: Recompresses png files
 
+Package: pngquant
+Version: 3.0.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 728
+Depends: littlecms, zlib
+Filename: pool/main/p/pngquant/pngquant_3.0.3-2_aarch64.deb
+Size: 282720
+MD5sum: c91d1299ba430ca477dee80a92ac8196
+SHA1: b9e498a0c001f414303c34b8eb93d4a0403805bb
+SHA256: 50f17b2af3e4f5344ff277d53122f12b5fd862c98521822b3d67dc9cb883de08
+Homepage: https://pngquant.org
+Description: PNG image optimising utility
+
+Package: pocketbase
+Version: 0.30.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33080
+Depends: resolv-conf
+Filename: pool/main/p/pocketbase/pocketbase_0.30.0_aarch64.deb
+Size: 8494540
+MD5sum: 03f4eb4b92323f42ab72b94a3ca858af
+SHA1: 09f5f52d9dd5a8b66bbfce960ce8cf42f19df2b4
+SHA256: 0c99ee2179c41178c96500bec948a8b8b4e0150c3bc44ec3ba6b0256ce2bde5c
+Homepage: https://github.com/pocketbase/pocketbase
+Description: An open source Go backend
+
+Package: poke
+Version: 4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3592
+Depends: gettext, libgc, ncurses, readline
+Filename: pool/main/p/poke/poke_4.3-1_aarch64.deb
+Size: 614620
+MD5sum: c4f88fdf10fe24902bda66453da65a26
+SHA1: 9f7592c561e66796121d822264461856b87bb482
+SHA256: a647e808b7c562779bc72d303b54bf854d528a982158ffcb8020b4d4d4c40752
+Homepage: http://www.jemarch.net/poke.html
+Description: Interactive, extensible editor for binary data.
+
+Package: poke-static
+Version: 4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1680
+Depends: poke (= 4.3-1)
+Filename: pool/main/p/poke-static/poke-static_4.3-1_aarch64.deb
+Size: 315904
+MD5sum: bffb541f8a22c1c0f05d7bbc848d60ba
+SHA1: 964b845088c97e950a8c58a110f8bd5ed261714e
+SHA256: 94d9bb10e9b43740e71e612e755536d88338936726f3fa69460900333e7e74e6
+Homepage: http://www.jemarch.net/poke.html
+Description: Static libraries for poke
+
+Package: polipo
+Version: 1.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 832
+Depends: resolv-conf
+Filename: pool/main/p/polipo/polipo_1.1.1-1_aarch64.deb
+Size: 143536
+MD5sum: 19496c406b308d28485e850e9e079eb1
+SHA1: 6a44cd8881d32773917620809b37b2ee61822c53
+SHA256: 9e4dda9165fcb9020255f1ace7fe43856271c060e4edf73d077437621cedf889
+Homepage: http://www.pps.jussieu.fr/~jch/software/polipo/
+Description: A small and fast caching web proxy
+
+Package: polyml
+Version: 5.9.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18728
+Depends: libandroid-posix-semaphore, libc++, libffi, libgmp
+Filename: pool/main/p/polyml/polyml_5.9.2_aarch64.deb
+Size: 1820884
+MD5sum: 291f6ea65902b958a42be7bbaf21d4c9
+SHA1: b4f8da5e26a8ac2daa3077dcbeb4996443e13da6
+SHA256: 7013e00c66e2221a1afa909e780abc953c0d98217070a259ec1a7ef752919c0f
+Homepage: https://www.polyml.org/
+Description: A Standard ML implementation
+
+Package: polyml-static
+Version: 5.9.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1216
+Depends: polyml (= 5.9.2)
+Filename: pool/main/p/polyml-static/polyml-static_5.9.2_aarch64.deb
+Size: 208796
+MD5sum: 45c11a862ac5a820a170bc5dbd2f1b30
+SHA1: 4f1c693acb9a6aef0a755ddd91ef94f980bec6c8
+SHA256: 26e5fe470a645680c1f41aeff384fc7fcb15aae57ed63baf06591dd3c0f94e62
+Homepage: https://www.polyml.org/
+Description: Static libraries for polyml
+
+Package: pomodoro-curses
+Version: 2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Depends: libinih, ncurses
+Filename: pool/main/p/pomodoro-curses/pomodoro-curses_2.5-1_aarch64.deb
+Size: 9080
+MD5sum: 9add535d253c5b9db4ba7ed1cd374dba
+SHA1: 898840bd9ce10032b45d4312cda7f0107d6e5de0
+SHA256: 7a68e665b41ad9e41ef4a4b923275a9fede5074be74f2f04c42f486ea470161a
+Homepage: https://github.com/chunga2020/pomodoro_curses
+Description: A simple pomodoro timer written with the Ncurses library
+
 Package: poppler
 Version: 24.05.0-3
 Architecture: aarch64
@@ -28143,6 +28285,19 @@ SHA1: 35d16744b472183b220fdeb1ea189f46b97f4a5c
 SHA256: 43a730c7e31db3888e9e09598aa235421c207026fa397a002bf95c3f4f23de66
 Homepage: https://poppler.freedesktop.org/
 Description: PDF rendering library
+
+Package: poppler-data
+Version: 0.4.12
+Architecture: all
+Maintainer: @termux
+Installed-Size: 13196
+Filename: pool/main/p/poppler-data/poppler-data_0.4.12_all.deb
+Size: 1581136
+MD5sum: c64613049d60ecaf2c06b066fd61c30f
+SHA1: ef321bf17f52863a708d2e64d41b03e82608d861
+SHA256: 948e87c1e42ef7a325c4d061ca0b205359ae46e32e0172a26efb7213645516a3
+Homepage: https://poppler.freedesktop.org/
+Description: Consists of encoding files for use with poppler
 
 Package: portaudio
 Version: 19.07.00-3
@@ -28171,6 +28326,32 @@ SHA1: fc0a67e50f69e6998d2da8c25c09f74b3a8f22df
 SHA256: 38ef0f1a8618f72060c46720333de3fdc82b64942a86ced9ee2f788801d84b55
 Homepage: https://www.portaudio.com/
 Description: Static libraries for portaudio
+
+Package: portmidi
+Version: 2.0.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 160
+Filename: pool/main/p/portmidi/portmidi_2.0.6-1_aarch64.deb
+Size: 28308
+MD5sum: 7392cfe7b4188f9b35b3ce8f41e49927
+SHA1: 5be9c62a4f9b7ea4b0dffc762d8bc3de2b919800
+SHA256: 9d4d1aaf3f653fbd89a3d7646971d2011a12f59d225626ccae671982159e864b
+Homepage: https://github.com/PortMidi/portmidi
+Description: A cross-platform MIDI input/output library
+
+Package: posixvala
+Version: 0.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 104
+Filename: pool/main/p/posixvala/posixvala_0.2_all.deb
+Size: 4660
+MD5sum: 7da0975e836a0e88b4713fe945f2ab0e
+SHA1: 5b74ce2f2e507c35926c32a7ac63fe1a96fde9b3
+SHA256: 2092c4c9754ece306bfcabfc2bc97476967bd62bd6807c33ab00c6b76dc3a322
+Homepage: https://github.com/radare/posixvala
+Description: Aims to bring back the posix profile for Vala
 
 Package: postgresql
 Version: 17.0-4
