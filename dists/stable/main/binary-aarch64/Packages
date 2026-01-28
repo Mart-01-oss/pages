@@ -23178,6 +23178,20 @@ SHA256: ae78e12882995255c6865d4ca63465334fb3164492e65b37668778acda7bd95b
 Homepage: https://github.com/artempyanykh/marksman
 Description: LSP language server for editing Markdown files
 
+Package: mathomatic
+Version: 16.0.5-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1016
+Depends: readline
+Filename: pool/main/m/mathomatic/mathomatic_16.0.5-7_aarch64.deb
+Size: 213464
+MD5sum: 24f709c1c6fb14271a6b12333d4f530a
+SHA1: cf77432bf4baf8b33a27085f4a0de694ed8da38b
+SHA256: ccbbe1dec5bfee475b36fc9c13541fc0f99e97fdaf20bb46c845d8589eaabe4b
+Homepage: https://en.wikipedia.org/wiki/Mathomatic
+Description: Simple CAS and symbolic calculator
+
 Package: matplotlib
 Version: 3.10.6
 Architecture: aarch64
@@ -23463,6 +23477,153 @@ SHA256: bf124b588f8027c1f50f395a1712118ffd3e07eb6d8a21d66181e1fc20a25f70
 Homepage: https://github.com/badboy/mdbook-open-on-gh
 Description: A preprocessor for mdbook to add a open-on-github link on every page
 
+Package: mdbook-pikchr
+Version: 0.1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3196
+Filename: pool/main/m/mdbook-pikchr/mdbook-pikchr_0.1.9-1_aarch64.deb
+Size: 844796
+MD5sum: 6c1f24906f681e6998e20d39db439e4c
+SHA1: b80736e63b94f58c051fa1d8df37f93baf74f6f3
+SHA256: 49a79ffff2452dcdb6d990a5a705d9b2132b6a1dc7a27ff2477baeb8d318a013
+Homepage: https://github.com/podsvirov/mdbook-pikchr
+Description: A mdbook preprocessor to render pikchr code blocks as images in your book
+
+Package: mdbook-plantuml
+Version: 0.8.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4132
+Depends: openssl
+Filename: pool/main/m/mdbook-plantuml/mdbook-plantuml_0.8.0-3_aarch64.deb
+Size: 1115764
+MD5sum: ca57577f0e395bb60ac5ea1f29c58809
+SHA1: 7cdaa8bfbffc378b524237e13be46e37f269cb7f
+SHA256: 1a9103a5d31c8832e326ace175a6405626c1995dce3a4059d988f32342fa34f2
+Homepage: https://github.com/sytsereitsma/mdbook-plantuml
+Description: mdBook preprocessor to render PlantUML code blocks as images in your book
+
+Package: mdbook-presentation-preprocessor
+Version: 0.3.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2268
+Filename: pool/main/m/mdbook-presentation-preprocessor/mdbook-presentation-preprocessor_0.3.1-2_aarch64.deb
+Size: 587988
+MD5sum: 246ddcef821f8d42144b22325db565d3
+SHA1: d160e6042b9793104c3757d448ecb53fccdf6891
+SHA256: 9d398ef18e8765b071fbbebbfb44b1db4d2c5f34d714fd29dbee84f1e25a1a5e
+Homepage: https://github.com/FreeMasen/mdbook-presentation-preprocessor
+Description: A preprocessor for utilizing an MDBook as slides for a presentation
+
+Package: mdbook-svgbob
+Version: 0.2.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3912
+Filename: pool/main/m/mdbook-svgbob/mdbook-svgbob_0.2.2-1_aarch64.deb
+Size: 1038704
+MD5sum: 20cd5cca7f9cab8caa59793242fa1e9c
+SHA1: 4ca743330a7df9c195eaea812fc3716990a4d4a1
+SHA256: e23466a5103ae2417ef675a4a08cbe86de45886ef218a1e56b15194ddc15851e
+Homepage: https://github.com/boozook/mdbook-svgbob
+Description: SvgBob mdbook preprocessor which swaps code-blocks with neat SVG
+
+Package: mdbook-svgbob2
+Version: 0.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2144
+Filename: pool/main/m/mdbook-svgbob2/mdbook-svgbob2_0.3.0-1_aarch64.deb
+Size: 643536
+MD5sum: 3b377ea0c4fe4a19e125c98eed46e26a
+SHA1: 22cf5884db74579fe1d5096fbcf7a9e33b992b67
+SHA256: 829a30e4e0cf3af02d720c50e4733cdeeaabe31c256fd11f20f1458bde5bb9ca
+Homepage: https://github.com/matthiasbeyer/mdbook-svgbob2
+Description: Alternative mdbook preprocessor for svgbob
+
+Package: mdbook-tera
+Version: 0.5.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6504
+Filename: pool/main/m/mdbook-tera/mdbook-tera_0.5.1-1_aarch64.deb
+Size: 1145336
+MD5sum: 017cc1a5244a14561fb31ffa86273d45
+SHA1: f2f8d6eb9368afbcb7127a9d7b1646d0214df2d2
+SHA256: eb8a172beba0ff44a54ec81ee10c021dad53ad6b615faa969864368c3cc5ec11
+Homepage: https://github.com/avitex/mdbook-tera
+Description: Tera preprocessor for mdBook
+
+Package: mdbook-toc
+Version: 0.14.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1528
+Filename: pool/main/m/mdbook-toc/mdbook-toc_0.14.2-1_aarch64.deb
+Size: 465184
+MD5sum: 30dc5299a842a1fb36b5b0df341a1372
+SHA1: 813b44285258cd83f551faf667f52c1894f02d10
+SHA256: 3f06d203e61c7fe5876394bd6119428f019b2b08d486746fefc4213f76837f40
+Homepage: https://github.com/badboy/mdbook-toc
+Description: A preprocessor for mdbook to add inline Table of Contents support
+
+Package: mdbtools
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: glib, libiconv, readline, libiodbc
+Filename: pool/main/m/mdbtools/mdbtools_1.0.1-1_aarch64.deb
+Size: 104624
+MD5sum: 694a25265c895106adffe927f8ecb6cf
+SHA1: 64bc39b7162823a8af13ab67c01822cfb51f7bbe
+SHA256: 8643695b73c3ec0f84626888e2e378b5edcd65cca14a28095d49323e6b57249c
+Homepage: https://github.com/mdbtools/mdbtools
+Description: A set of programs to help you extract data from Microsoft Access files in various settings
+
+Package: mdbtools-static
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: mdbtools (= 1.0.1-1)
+Filename: pool/main/m/mdbtools-static/mdbtools-static_1.0.1-1_aarch64.deb
+Size: 64652
+MD5sum: 171a1372f10a61027110105b6355d31f
+SHA1: d174e92bd1d305dcd8d96c285cecf7dfbd662d7e
+SHA256: f4e7bd0cf547ce49ea8532b32d1509dac45d000a5e7557419510b8291ab020f5
+Homepage: https://github.com/mdbtools/mdbtools
+Description: Static libraries for mdbtools
+
+Package: mdns-scan
+Version: 0.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Filename: pool/main/m/mdns-scan/mdns-scan_0.5-3_aarch64.deb
+Size: 7688
+MD5sum: b97b846b5aea9038d627d2afadd9ef1f
+SHA1: 624c2f1209fe2b35a8460ae2a564cdc5cab486a6
+SHA256: 6b4325f51ac76521306606d10bb84648972dffefcead8c1d09254ebf7dac25eb
+Homepage: https://github.com/alteholz/mdns-scan
+Description: A tool for scanning for mDNS/DNS-SD services published on the local network
+
+Package: mdp
+Version: 1.0.18-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libandroid-support, ncurses
+Filename: pool/main/m/mdp/mdp_1.0.18-1_aarch64.deb
+Size: 16028
+MD5sum: f82a47ae3b819cc148b72af68459f386
+SHA1: 0f9bbd587194d1035e6ddd751e6046bdcce6cc87
+SHA256: 43e15bec21b9961e0d67e79db01399514454babd077b12c8d8fc66c969048b82
+Homepage: https://github.com/visit1985/mdp
+Description: Command-line based markdown presentation tool
+
 Package: media-types
 Version: 13.0.0
 Architecture: all
@@ -23479,6 +23640,33 @@ SHA1: 007a2c51974979daeffb45fefc2b2313adf4a4a1
 SHA256: 77ce89b5a6fd57b0b09284929c953529a8b18cec41ea8ee59f7837f52cac45e8
 Homepage: https://pagure.io/mailcap
 Description: List of standard media types and their usual file extension
+
+Package: mediainfo
+Version: 25.07-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libandroid-support, libc++, libmediainfo, libzen
+Filename: pool/main/m/mediainfo/mediainfo_25.07-1_aarch64.deb
+Size: 28476
+MD5sum: dcb26d02b327511b443319db23dd9366
+SHA1: f244c8f0a8bb98e83b0056145d0cdfdbef2d6ad4
+SHA256: c9062704aabdf65026a706e9edcd3c0836102718e65c7a6fc3782eb2d82b4ebb
+Homepage: https://mediaarea.net/en/MediaInfo
+Description: Command-line utility for reading information from media files
+
+Package: mediamtx
+Version: 1.15.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42648
+Filename: pool/main/m/mediamtx/mediamtx_1.15.1_aarch64.deb
+Size: 9853744
+MD5sum: 391c7989fd736af3f08e20e6224e463a
+SHA1: 7f6f020791326b8b877a0841bff43119f94c587f
+SHA256: 057f572d96990b8157615cf7d26c6d2a2811d9aec4a5713527737b0008566fff
+Homepage: https://github.com/bluenviron/mediamtx
+Description: Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy
 
 Package: mesa
 Version: 25.1.5-2
