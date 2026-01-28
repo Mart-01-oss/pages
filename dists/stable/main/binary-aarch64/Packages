@@ -21254,6 +21254,34 @@ SHA256: de8d8b6dc533c0668e0478c434973ea6fd32bc0f8103868deecc879e52ea3c54
 Homepage: https://github.com/dftlibs/xcfun
 Description: A library of exchange-correlation functionals with arbitrary-order derivatives
 
+Package: libxcursor
+Version: 1.2.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 372
+Depends: libx11, libxfixes, libxrender
+Filename: pool/main/libx/libxcursor/libxcursor_1.2.3_aarch64.deb
+Size: 27472
+MD5sum: 5cdf14f853ab0926b0d0f8f1a04ac4d2
+SHA1: a08b2846ca2294f5cd9dfbf2d5358620a8e6c77c
+SHA256: 0facb78171d7d67c4e884300b0fcd31283f013917cf2bb727df5dc153394e9e3
+Homepage: https://xorg.freedesktop.org/
+Description: X cursor management library
+
+Package: libxcursor-static
+Version: 1.2.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libxcursor (= 1.2.3)
+Filename: pool/main/libx/libxcursor-static/libxcursor-static_1.2.3_aarch64.deb
+Size: 16992
+MD5sum: 8e036ca61a42e2ad4404cdb531d3157b
+SHA1: ae8ace580875c49ca67f490ffbe6af04ac3dc684
+SHA256: d03404a0b61d27d8f492c4716f4df2feb38dbfbaede4453c2a536889ac4b85a7
+Homepage: https://xorg.freedesktop.org/
+Description: Static libraries for libxcursor
+
 Package: libxdg-basedir
 Version: 1.2.3-2
 Architecture: aarch64
@@ -22785,6 +22813,37 @@ SHA256: 603ae9febb0548b6239d2792055071da43ca397817fc48b7e2b330df1e1a881c
 Homepage: https://github.com/lycheeverse/lychee
 Description: A fast, async, resource-friendly link checker written in Rust
 
+Package: lynx
+Version: 2.9.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1904
+Depends: brotli, libiconv, ncurses, openssl, libbz2, libidn, zlib
+Filename: pool/main/l/lynx/lynx_2.9.2-1_aarch64.deb
+Size: 561068
+MD5sum: ca54b42b63709cb3f75cae1784351be3
+SHA1: 8499c31027066b399d342e8971a8f8c39d747a2d
+SHA256: 3d0d959ab4b29c8ba67ce5eb8c49030e13144f4b6a8dd3f86c61fb6a1d8c762b
+Homepage: http://lynx.browser.org/
+Description: The text web browser
+
+Package: lyrebird
+Version: 0.6.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16660
+Depends: tor
+Breaks: obfs4proxy
+Replaces: obfs4proxy
+Provides: obfs4proxy
+Filename: pool/main/l/lyrebird/lyrebird_0.6.1-1_aarch64.deb
+Size: 4141008
+MD5sum: f49b2b1c6fd109653f99c1dfbe113818
+SHA1: e5f3aac10feae105712ed8abedc8649328e9646f
+SHA256: 43ec75c5ae79482e2ca20fe72a1af446b4c9cc7edea0ec351436b817a5dec933
+Homepage: https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports
+Description: A pluggable transport plugin for Tor
+
 Package: lz4
 Version: 1.10.0-1
 Architecture: aarch64
@@ -22799,6 +22858,61 @@ SHA256: bb0acf74b2f8bbe5b63579e530e02df3550d7e9af72bdd43c121cb18b8354a50
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
 
+Package: lzip
+Version: 1.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: libc++
+Filename: pool/main/l/lzip/lzip_1.25-1_aarch64.deb
+Size: 64756
+MD5sum: 54e3aafa5c50f712ff391c418fb09147
+SHA1: 7171b520623696564c889097288eaabc17c88d37
+SHA256: ae0c883c1c73628f9808dbf86430057cc85f20021834e1c34bd54966641d08de
+Homepage: https://www.nongnu.org/lzip/
+Description: Lossless data compressor similar to gzip and bzip2
+
+Package: lzlib
+Version: 1.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Filename: pool/main/l/lzlib/lzlib_1.15-1_aarch64.deb
+Size: 40112
+MD5sum: c9a7d6470f06a4f18c4cb9ada9ebb25f
+SHA1: 5ca377e905a645c16cf463fa54b45d93980e5348
+SHA256: 40e82f30ce4e9f5e5c8b925e9e227e3164ded992e0e6f4a52f1a446dedc5e6f3
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Description: A library providing in-memory LZMA compression and decompression functions
+
+Package: lzlib-static
+Version: 1.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: lzlib (= 1.15-1)
+Filename: pool/main/l/lzlib-static/lzlib-static_1.15-1_aarch64.deb
+Size: 20388
+MD5sum: e13e725426f37fb8016762ac85097c93
+SHA1: 43b8c094b8d97f4f6d726ff5f40c91aacf1f9871
+SHA256: 73d1001d75ff7e3d1978c129d49ee4b239c0fc182fedf842499200f27571df05
+Homepage: http://www.nongnu.org/lzip/lzlib.html
+Description: Static libraries for lzlib
+
+Package: lzop
+Version: 1.04-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: liblzo
+Filename: pool/main/l/lzop/lzop_1.04-2_aarch64.deb
+Size: 61748
+MD5sum: 730431d37ede9c44e7a5e82fc90be283
+SHA1: 35c31ddd201a29799e1c968710519b39dd13b271
+SHA256: 6331374ed738ec49275ca90d598ee9f0b1ca1a4c45862155ad6040211c5b7ffd
+Homepage: https://www.lzop.org
+Description: File compressor using lzo lib.
+
 Package: m4
 Version: 1.4.19-5
 Architecture: aarch64
@@ -22811,6 +22925,60 @@ SHA1: 1d2d8f2c57d689429911ad803743608c121eebf1
 SHA256: 56b0766a91136d6e7d60d8a2ec92aeecdc40dd2e59cdd5164657ebb3878cf0b0
 Homepage: https://www.gnu.org/software/m4/m4.html
 Description: Traditional Unix macro processor
+
+Package: macchina
+Version: 6.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1496
+Filename: pool/main/m/macchina/macchina_6.4.0-1_aarch64.deb
+Size: 531240
+MD5sum: d936e5daf8865547f3d1abf259702ba6
+SHA1: 9e67064e43229eef395e278b938c26d326657e8c
+SHA256: f801740c0f31155730a153e0d655388a33c69d4de7a9bd59404ea86a8d4551bc
+Homepage: https://github.com/Macchina-CLI/macchina
+Description: A system information fetcher, with an emphasis on performance and minimalism.
+
+Package: magic-wormhole-rs
+Version: 0.7.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9544
+Filename: pool/main/m/magic-wormhole-rs/magic-wormhole-rs_0.7.6-1_aarch64.deb
+Size: 2513600
+MD5sum: 9fe1b2f644b73a0c41a749971b971b88
+SHA1: 6585bbd676660528f2618c163fb93af7693e63ee
+SHA256: 2026a134f041e8edde4bfd27625e9d04244bec2cb7580ed95417f48430120ef2
+Homepage: https://github.com/magic-wormhole/magic-wormhole.rs
+Description: Rust implementation of Magic Wormhole, with new features and enhancements
+
+Package: mailsync
+Version: 5.2.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 260
+Depends: libc++, libc-client
+Filename: pool/main/m/mailsync/mailsync_5.2.7-2_aarch64.deb
+Size: 65232
+MD5sum: f65f36c7c20bbb3c0c32c6594be8097d
+SHA1: 4761fe6dcb80b3a358ccd87692b4151ec30ee934
+SHA256: ed1bc5f1bda4687dfae98aba31f6d2db98a18478c56c98fc6d376fa30fcb04e7
+Homepage: https://mailsync.sourceforge.net/
+Description: A way of synchronizing a collection of mailboxes
+
+Package: mailutils
+Version: 3.20-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7504
+Depends: gdbm, libandroid-glob, libcrypt, libiconv, libltdl, libunistring, ncurses, readline
+Filename: pool/main/m/mailutils/mailutils_3.20-1_aarch64.deb
+Size: 1142528
+MD5sum: a181bf499997cc209752a9debde6c6d4
+SHA1: 02af4328394620cc1f9acd98fb5d8a05f427d35f
+SHA256: f0340b93b424021693357abb4440221d2730bfcfeaecb813bad4f45934c9521c
+Homepage: https://mailutils.org/
+Description: Mailutils is a swiss army knife of electronic mail handling.
 
 Package: make
 Version: 4.4.1-1
@@ -22825,6 +22993,24 @@ Size: 240852
 MD5sum: de7337ba0f8c075ad1c297aa8541d074
 SHA1: 6bf7e0aecae52faf65c9b39f27370609d1b075f1
 SHA256: 052abfa54dfb2d8e0a072ffcd0424333b9c38b8b7966f5b738df30b6315ce384
+Homepage: https://www.gnu.org/software/make/
+Description: Tool to control the generation of non-source files from source files
+
+Package: make-guile
+Version: 4.4.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 944
+Depends: guile
+Conflicts: make
+Breaks: make-dev
+Replaces: make-dev
+Provides: make
+Filename: pool/main/m/make-guile/make-guile_4.4.1-1_aarch64.deb
+Size: 239764
+MD5sum: 055d0d8aa2e6f32267c907686ee1d609
+SHA1: c5c3caa42e66725a05ca1afed6be12803a1173c5
+SHA256: af71987f17a21bba9bbfc1dd13d13177197e1fba29b0ba796c4e26e1cf92c7cc
 Homepage: https://www.gnu.org/software/make/
 Description: Tool to control the generation of non-source files from source files
 
@@ -22844,6 +23030,34 @@ SHA1: cb793b5b195d4fcc8b2376a8f29d9bdbbca86867
 SHA256: 5c1a42a9b0eb73778ed68346910ba4fcab16c886208684a983a2cc004a61068a
 Homepage: https://mdocml.bsd.lv/
 Description: Man page viewer from the mandoc toolset
+
+Package: mangal
+Version: 4.0.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27244
+Filename: pool/main/m/mangal/mangal_4.0.6-3_aarch64.deb
+Size: 7763488
+MD5sum: 84fe1c75756b69f20811eb6a6908d4f7
+SHA1: ed889307c59229cec9fa10d49993629d90a15313
+SHA256: b5d74ba6a426228234e43dba1c061caaa01e5882b3a45c759daaed5c6a22c96c
+Homepage: https://github.com/metafates/mangal
+Description: Cli manga downloader
+
+Package: manim
+Version: 0.19.0-2
+Architecture: aarch64
+Maintainer: Nguyen Khanh @nguynkhn
+Installed-Size: 6268
+Depends: ffmpeg, libcairo, pango, xorgproto, python-numpy, python-pillow, pycairo, python-scipy, python-skia-pathops
+Suggests: texlive-installer
+Filename: pool/main/m/manim/manim_0.19.0-2_aarch64.deb
+Size: 974924
+MD5sum: 361956330c276c8d07e03f0617efd2f6
+SHA1: 1c59f304dd1792751f2df761b43fbf0f17493295
+SHA256: 6ae68f1da21d36b17fa5b4269839ac89feca88299966ed94c84affc0123d1461
+Homepage: https://manim.community
+Description: A community-maintained Python framework for creating mathematical animations
 
 Package: marisa
 Version: 0.3.1-1
@@ -24468,6 +24682,20 @@ SHA256: 8e79d30aa4ceceb5e8bee9cb3f9b2d083f4dade4c9bae81f41d77263bf59f4e1
 Homepage: https://numpy.org/
 Description: Static libraries for python-numpy
 
+Package: python-pillow
+Version: 11.1.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3416
+Depends: freetype, libimagequant, libjpeg-turbo, libraqm, libtiff, libwebp, libxcb, littlecms, openjpeg, python, zlib
+Filename: pool/main/p/python-pillow/python-pillow_11.1.0-2_aarch64.deb
+Size: 737436
+MD5sum: 0c2f61ae6b837a6059731d63c6f57308
+SHA1: 7abee4809c6d336c39124e272bcfb4623bafcfbd
+SHA256: 0afdeb3c135743140efad9a5b69e67261fc54f7ae9d1d62f900971514955543e
+Homepage: https://python-pillow.org/
+Description: Python Imaging Library
+
 Package: python-pip
 Version: 25.2
 Architecture: all
@@ -24496,6 +24724,34 @@ SHA1: a9b09a59f9f52ab1f784beacc7a008e690105910
 SHA256: f6aa28a2d5db9fbe81b44aff2c6cfc6796263f37f20f5188164622235664e977
 Homepage: https://github.com/apache/arrow
 Description: Python bindings for Apache Arrow
+
+Package: python-scipy
+Version: 1.16.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92704
+Depends: libc++, libopenblas, python, python-numpy
+Filename: pool/main/p/python-scipy/python-scipy_1.16.2-1_aarch64.deb
+Size: 17860976
+MD5sum: f7cdf6698a1cf5103c4edfa58cac48a3
+SHA1: 143f406ae006be96b594f5d368b239bebdd37940
+SHA256: 088ff724042728f7009d536552a85aa369666d6b31a269bf0b5c299e766b3210
+Homepage: https://scipy.org/
+Description: Fundamental algorithms for scientific computing in Python
+
+Package: python-skia-pathops
+Version: 0.8.0-2
+Architecture: aarch64
+Maintainer: Nguyen Khanh @nguynkhn
+Installed-Size: 3280
+Depends: libc++, python
+Filename: pool/main/p/python-skia-pathops/python-skia-pathops_0.8.0-2_aarch64.deb
+Size: 1005296
+MD5sum: d2c42332e96d836aa4fee3e74ae24d56
+SHA1: ce4799d97bd738f8b86c47e6219c6e9bbdcfae3c
+SHA256: 1d2e989a5e17fddb8f2090e1c6b2044b9aac03fe75eb2a12516c1d23c9a0c9f1
+Homepage: https://github.com/fonttools/skia-pathops
+Description: Python bindings for the Skia library's Path Ops
 
 Package: python-static
 Version: 3.12.11-1
