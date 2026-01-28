@@ -25188,6 +25188,21 @@ SHA256: 3fce9a96bae73e8baf8f16ea9678243044493334e8537b334fb3c69248189d06
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Description: Install native stubs for shared libs from NDK
 
+Package: ndk-sysroot
+Version: 28c
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20872
+Conflicts: libutil-dev, libgcc, libandroid-support-dev
+Replaces: libutil-dev, libgcc, libandroid-support-dev, ndk-stl
+Filename: pool/main/n/ndk-sysroot/ndk-sysroot_28c_aarch64.deb
+Size: 1762964
+MD5sum: 37bf01bba972ec1da00a978fa576acec
+SHA1: 14045763847e4a0d5c345c40262f672d48d6b47b
+SHA256: 3160c4c6d52ba5b622c84b453ff99056c0df49c8c857610dffb44bf73ad4820e
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: System header and library files from the Android NDK needed for compiling C programs
+
 Package: ne
 Version: 3.3.4-2
 Architecture: aarch64
