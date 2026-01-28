@@ -24612,6 +24612,62 @@ SHA256: 05eb961ae324dce2d5c1deb5dddfc2f9fba04c77b98ef8b0f0daac1a56576d3c
 Homepage: http://www.linux-mtd.infradead.org/
 Description: Utilities for dealing with MTD devices
 
+Package: mtools
+Version: 4.0.49-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: libandroid-support, libiconv
+Filename: pool/main/m/mtools/mtools_4.0.49-1_aarch64.deb
+Size: 137676
+MD5sum: 338dedea8944bd193055c8a359de4eb1
+SHA1: 85c38495e2c36613f35e1a788dacb9c6b6f0568d
+SHA256: dc373cb0426e27e15c8fc3f44434f648488946a7bd6819e5e80cb17e76b865d5
+Homepage: https://www.gnu.org/software/mtools/
+Description: Tool for manipulating FAT images
+
+Package: mu
+Version: 1.12.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2400
+Depends: emacs, glib, libc++, libxapian, libgmime
+Filename: pool/main/m/mu/mu_1.12.13_aarch64.deb
+Size: 557552
+MD5sum: ac8685aa9426f0b2f8fe6d5e66a2ec8b
+SHA1: d2069a261db8cd36926df8350c72fb645d27c8fc
+SHA256: f45bba00a723e8fa432e397168596252d0139649a0285113ba35e3228508c0b4
+Homepage: https://www.djcbsoftware.nl/code/mu/
+Description: Maildir indexer/searcher and Emacs client (mu4e)
+
+Package: muchsync
+Version: 7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: libc++, libsqlite, libxapian, notmuch, openssl
+Filename: pool/main/m/muchsync/muchsync_7-2_aarch64.deb
+Size: 82644
+MD5sum: f82b812cf6ad9a36c9619d68fb7a0be6
+SHA1: 8904f45b9006677b34fdce007a3fc512e14f27d7
+SHA256: cd2df7690296b1d62f8e9772e6b9bfb14c595b24b0c1999f3ba5383d65bd1e04
+Homepage: http://www.muchsync.org/
+Description: Synchronize notmuch mail across machines
+
+Package: multitail
+Version: 7.1.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 440
+Depends: libandroid-glob, ncurses, ncurses-ui-libs
+Filename: pool/main/m/multitail/multitail_7.1.5-2_aarch64.deb
+Size: 122128
+MD5sum: ea9e94e67fdac7164cd9819630730776
+SHA1: d0ed526c72453bc039fc4eb3a54cbfebad9e5b1a
+SHA256: 970759104b9e9c1e9d4c6698b1fcf1c6948588a964d5fd8a6bf16f6240e30e8e
+Homepage: http://www.vanheusden.com/multitail/
+Description: Tool to monitor logfiles and command output in multiple windows in a terminal, colorize, filter and merge
+
 Package: mupdf
 Version: 1.24.10-2
 Architecture: aarch64
@@ -24653,6 +24709,120 @@ SHA1: b6fc020111f3074e4716f7f9afcfa54222f4063b
 SHA256: 0438609a62a6c384ebb8ff2657a280e4485f11b7c3818ce08ac41d8107edf2c9
 Homepage: https://mupdf.com/
 Description: Lightweight PDF and XPS viewer (utilities)
+
+Package: music-file-organizer
+Version: 1.0.4-9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 252
+Depends: libicu, taglib
+Filename: pool/main/m/music-file-organizer/music-file-organizer_1.0.4-9_aarch64.deb
+Size: 40352
+MD5sum: 190fd099c58581297d353e5f2d461d1f
+SHA1: abd2350acf3a756ab135d4de9f61331fad1c76ee
+SHA256: 27a5de3ce721f45949277c1ae5a7add2297a747562cdece48e7a3420ddae5c7a
+Homepage: https://git.zx2c4.com/music-file-organizer/about/
+Description: Organizer of audio files into directories based on metadata tags
+
+Package: mutt
+Version: 2.2.14-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6724
+Depends: libandroid-support, ncurses, gdbm, openssl, libsasl, media-types, zlib, libiconv
+Filename: pool/main/m/mutt/mutt_2.2.14-2_aarch64.deb
+Size: 1229256
+MD5sum: f2fd2abd41350bd709c1ce804ed26ccc
+SHA1: e87ad78cb2231c0fe399e16382d2cf4c7a833e4e
+SHA256: 1aee476db1b23c6280807efa5a8bafb764f6c8662264cbd4adde81545154f4d3
+Homepage: http://www.mutt.org/
+Description: Mail client with patches from neomutt
+
+Package: myman
+Version: 0.7.1-6
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 14248
+Depends: ncurses
+Filename: pool/main/m/myman/myman_0.7.1-6_aarch64.deb
+Size: 636676
+MD5sum: 5a6bba833f6e55ae96f22d08f5c16993
+SHA1: 0695341fc30d04aa8ad5db341b4f367762210b0d
+SHA256: 1cd10d9fe3a9ec1c31e2b7f07a8af830a68c49acee0201c39b5b1ffa57937de3
+Homepage: https://sourceforge.net/projects/myman/
+Description: Video game for color and monochrome text terminals in the genre of Namco's Pac-Man
+
+Package: mympd
+Version: 22.0.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1640
+Depends: libflac, libid3tag, liblua54, openssl, pcre2, resolv-conf
+Filename: pool/main/m/mympd/mympd_22.0.4_aarch64.deb
+Size: 808428
+MD5sum: 50ce58e083fd683a288967f53a47bf33
+SHA1: 77e463007a24f8d726aa4a59cd8b93ba5c7c180b
+SHA256: 09b26cf25f4703b6ad0dcf49bd6b8cff02de63c05023fce6c4f62ee36dfece55
+Homepage: https://jcorporation.github.io/myMPD/
+Description: A standalone and lightweight web-based MPD client
+
+Package: mypaint-brushes
+Version: 2.0.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 3836
+Filename: pool/main/m/mypaint-brushes/mypaint-brushes_2.0.2_all.deb
+Size: 1479688
+MD5sum: 3069ab4928e9f7701bd2b01c9e1457ee
+SHA1: 5f57b06b47ecb7ad6ccffb744e9e15ec9ad35275
+SHA256: 448e31bb32ad7a2b643df1c854db6c0f70e355a93d3a85da4583db2c5ab7839d
+Homepage: https://github.com/mypaint/mypaint-brushes
+Description: MyPaint brushes
+
+Package: myrepos
+Version: 1.20180726-4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 228
+Depends: git, perl
+Filename: pool/main/m/myrepos/myrepos_1.20180726-4_all.deb
+Size: 40644
+MD5sum: 2206d8b9d7126d692d0b738b2511a260
+SHA1: 914c159c3d930f180bc03d5f866732f14255a09c
+SHA256: 3e9293767a07c8f7a6f5c4dc4a2aecc776e1f987be2535b99866577ac1560fdb
+Homepage: https://myrepos.branchable.com/
+Description: Tool to manage all your version control repos
+
+Package: n-t-roff-sc
+Version: 7.16-1.1.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 424
+Depends: ncurses
+Conflicts: sc
+Replaces: sc
+Provides: sc
+Filename: pool/main/n/n-t-roff-sc/n-t-roff-sc_7.16-1.1.3-2_aarch64.deb
+Size: 145388
+MD5sum: c21683e39aecd5342461f084ac4492a4
+SHA1: 7fc3a7beee79deb1e62f7a23cddb1d11704d633b
+SHA256: 890ea7dc3e6ba839224723c11c20801fb09d0823f06538277d5d696fccf85c71
+Homepage: https://github.com/n-t-roff/sc
+Description: A vi-like spreadsheet calculator
+
+Package: n2n
+Version: 3.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 668
+Depends: libcap, libpcap, openssl, zstd
+Filename: pool/main/n/n2n/n2n_3.1.1-1_aarch64.deb
+Size: 127396
+MD5sum: aec1c40ab4d2f614df8eefeef3380cbb
+SHA1: 7c7f407d2bf94f7baec52c4f781851f720985706
+SHA256: ac9448ca88d1e2de14af5f76a8644685a5c6aad90a9ac91c3128eb8a93be51e7
+Homepage: https://github.com/ntop/n2n
+Description: A light VPN software
 
 Package: ncurses
 Version: 6.5.20240831-3
@@ -24854,6 +25024,22 @@ SHA1: ac0e2219ceb3ab5f3c006aeab4cd0cf8d430a99b
 SHA256: d23d0cd015707d8a7d809892315bae73d0b76c9421227ce4b2041ce47d5db42e
 Homepage: https://nlopt.readthedocs.io/
 Description: Library for nonlinear optimization
+
+Package: notmuch
+Version: 0.39-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 700
+Depends: glib, libc++, libgmime, libtalloc, libxapian, zlib
+Breaks: notmuch-dev
+Replaces: notmuch-dev
+Filename: pool/main/n/notmuch/notmuch_0.39-1_aarch64.deb
+Size: 202316
+MD5sum: 0e89c4492282eeae532b6a652bf2c419
+SHA1: 3623f538c8f430997c5942e7c7610c312e990fa5
+SHA256: 29050af6d5b4efeb27e87957cd8bb2dd426044ba91cd06713af84f2492c5a73b
+Homepage: https://notmuchmail.org
+Description: Thread-based email index, search and tagging system
 
 Package: nss-utils
 Version: 3.116
@@ -26756,6 +26942,22 @@ SHA1: 0d76bb2d6745dce36747d4e7c971633e91537f89
 SHA256: 4e5957c9485c6bf0f2a94c00f8fad5ad4ee8b373ee4c5c5491bc1f772b4f6320
 Homepage: https://swig.org
 Description: Generate scripting interfaces to C/C++ code
+
+Package: taglib
+Version: 2.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2380
+Depends: libc++, zlib, utf8cpp
+Breaks: taglib-dev
+Replaces: taglib-dev
+Filename: pool/main/t/taglib/taglib_2.1.1-1_aarch64.deb
+Size: 385340
+MD5sum: b50633ea45f0f925b9cd80c8fd0dc382
+SHA1: e1327d7d70b85119990741797d4218358523f8c2
+SHA256: c505a7c4149ad1fc76588f262a5022bd3761963cce3b8fe8f17d2ff5dfa6b0e8
+Homepage: http://taglib.github.io/
+Description: A Library for reading and editing the meta-data of several popular audio formats.
 
 Package: tar
 Version: 1.35-1
