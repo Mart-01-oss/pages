@@ -27501,6 +27501,47 @@ SHA256: 90510063ce684c9a94770e27c0336cd80767c7cb3b480f607fb3884a0cb76cd4
 Homepage: https://pdfgrep.org/
 Description: Command line utility to search text in PDF files
 
+Package: pdftk
+Version: 3.3.3-3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1044
+Depends: libbcprov-java, libcommons-lang3-java, openjdk-21
+Filename: pool/main/p/pdftk/pdftk_3.3.3-3_all.deb
+Size: 968176
+MD5sum: 418952ac593bf314c53565e49ba54c03
+SHA1: 7952e4195a8dc05f231d5143bccc8cb8e794049a
+SHA256: 8cb1ecec1f6ebfccf015a6409ed7af15f52cd28a7d64daea2e7a364fd83f04ea
+Homepage: https://gitlab.com/pdftk-java/pdftk
+Description: A simple tool for doing everyday things with PDF documents
+
+Package: peaclock
+Version: 0.4.3-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 556
+Depends: libc++, libicu
+Filename: pool/main/p/peaclock/peaclock_0.4.3-8_aarch64.deb
+Size: 166664
+MD5sum: bf8717ccda0bbcde142039ba6c0ca80e
+SHA1: 68f5f72604982316d535c239fb229d2f3d2a89d8
+SHA256: 3d74e80acd006555a6cd258c7e7c52ce9bc4bc058c55774e6b9da1f17a62735a
+Homepage: https://github.com/octobanana/peaclock
+Description: A responsive and customizable clock, timer, and stopwatch for the terminal.
+
+Package: peco
+Version: 0.5.11-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3508
+Filename: pool/main/p/peco/peco_0.5.11-2_aarch64.deb
+Size: 991068
+MD5sum: 49ad699cb7c725bd48f5cf1eaa0d4b97
+SHA1: 18a3d7827748ae231f7d928eada03c1429cef191
+SHA256: c498a453da5bb9a7b18eac6dad8cdb62d8d39b18d4fee9582a1630c686928a35
+Homepage: https://github.com/peco/peco
+Description: Simplistic interactive filtering tool
+
 Package: perl
 Version: 5.40.3
 Architecture: aarch64
@@ -27514,6 +27555,74 @@ SHA1: cb007e9c481f52e78c5d668178b84c493cc588e2
 SHA256: 971b20e3224d68a23839cbe2c99db29fa1baf2e93ffa99722132d64be9581f4a
 Homepage: https://www.perl.org/
 Description: Capable, feature-rich programming language
+
+Package: perl-rename
+Version: 1.14
+Architecture: all
+Maintainer: @termux
+Installed-Size: 72
+Depends: perl
+Filename: pool/main/p/perl-rename/perl-rename_1.14_all.deb
+Size: 9380
+MD5sum: ca3d20e80244f4c607355d7630ad25fe
+SHA1: dd8caba4d06e8c07923aa95791b0c9282398608c
+SHA256: a6854a1f35158521223362eb75c866409c4dc400de46e0a7765c2d90242e580a
+Homepage: https://search.cpan.org/~pederst/rename/
+Description: renames multiple files using perl expressions.
+
+Package: pet
+Version: 1.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13780
+Depends: fzf
+Filename: pool/main/p/pet/pet_1.0.1-1_aarch64.deb
+Size: 3178204
+MD5sum: c095b4917a5ff67420a85518104accca
+SHA1: af51eb3282cdaf7d25e95d60c4679774fe52152e
+SHA256: 744378a836da5cb95822e5bfce0d20884a002158700eb0d84f248f2d90801ec3
+Homepage: https://github.com/knqyf263/pet
+Description: Simple command-line snippet manager
+
+Package: pforth
+Version: 1:2.0.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 240
+Filename: pool/main/p/pforth/pforth_1+2.0.1-1_aarch64.deb
+Size: 40576
+MD5sum: 7a44d1c05a0c06e47ed2fdc216b2e8ef
+SHA1: cf17d23c29c7e1c7251a695acecb40511702c4ca
+SHA256: 35cd6fbb030ed752ba7c93d829a0d2e949fe0e66fc6e18535f3830d31eb2e95f
+Homepage: https://www.softsynth.com/pforth/
+Description: Portable Forth in C
+
+Package: pgroonga
+Version: 4.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2696
+Depends: groonga, libmsgpack, xxhash
+Filename: pool/main/p/pgroonga/pgroonga_4.0.2_aarch64.deb
+Size: 150484
+MD5sum: 805642c84f7f5a0fca1a402e81fdf7cb
+SHA1: b101eb021bd935932fd89ec8e37bfbe7ae8285f1
+SHA256: 7ea0dbcbd893852569d2e08a4972bfee0e2b179d6dc52381b4eb97ef8aebb84a
+Homepage: https://github.com/pgroonga/pgroonga
+Description: A PostgreSQL extension to use Groonga as index
+
+Package: photon-rss
+Version: 2023.02.02-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14420
+Filename: pool/main/p/photon-rss/photon-rss_2023.02.02-3_aarch64.deb
+Size: 3831736
+MD5sum: e590cb61bb6816771f5cace8f3d6c22e
+SHA1: cbf754d24a0912ba1800fe3f63ef3672744de677
+SHA256: 0347e6d7e00b93d4c7cb672e12fde5cb0eab87e897376388c03b74cfe23fb69a
+Homepage: https://git.sr.ht/~ghost08/photon
+Description: An RSS/Atom reader with the focus on speed, usability and a bit of unix philosophy
 
 Package: php
 Version: 8.4.2-3
@@ -27601,6 +27710,20 @@ SHA256: f3194dc2e7eec3caa1dcfe835b43aa5bc907364c313bca5b1167dffed75f41ba
 Homepage: https://php.net
 Description: Sodium module for PHP/Apache
 
+Package: php-apcu
+Version: 5.1.27
+Architecture: aarch64
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Installed-Size: 216
+Depends: php
+Filename: pool/main/p/php-apcu/php-apcu_5.1.27_aarch64.deb
+Size: 36908
+MD5sum: e446b1693c3552865578eddc48a308fa
+SHA1: 35083910ecb359179a285c865a82b55d7f5ee8fd
+SHA256: 8c7e8f45aecd62eb7416feca7056da38c41126bb3849c49feca0af6458fb907f
+Homepage: http://php.net/apcu
+Description: APCu - APC User Cache
+
 Package: php-fpm
 Version: 8.4.2-3
 Architecture: aarch64
@@ -27630,6 +27753,20 @@ SHA1: 35991e0c929a5b90e3455a443451a5c2b56b2ad1
 SHA256: 6c5fb02c812bba6243eb21d322548a09cb7a042a67bb894d0e59e9e9c838e63c
 Homepage: https://php.net
 Description: gd module for PHP
+
+Package: php-imagick
+Version: 3.8.0-1
+Architecture: aarch64
+Maintainer: ian4hu <hu2008yinxiang@163.com>
+Installed-Size: 484
+Depends: php, imagemagick
+Filename: pool/main/p/php-imagick/php-imagick_3.8.0-1_aarch64.deb
+Size: 85708
+MD5sum: 69f416d1839f3ba0a9d9fa6d4c0bd1d3
+SHA1: 665dabf124f69a3d29641d766e065a668a4ba646
+SHA256: a23f748eefc19a09a98b1dc468cde622ddfb1216b775a7169a991ad454f02a1f
+Homepage: https://github.com/Imagick/imagick
+Description: The Imagick PHP extension
 
 Package: php-ldap
 Version: 8.4.2-3
