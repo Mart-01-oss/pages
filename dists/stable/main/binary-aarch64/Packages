@@ -20853,6 +20853,35 @@ SHA256: 5c40f939c6b1fd2c39c584f6925533fb82bcc77b64f77d7c2620576c310a2f3b
 Homepage: https://www.webmproject.org
 Description: Static libraries for libvpx
 
+Package: libvterm
+Version: 1:0.3.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Breaks: libvterm-dev
+Replaces: libvterm-dev
+Filename: pool/main/libv/libvterm/libvterm_1+0.3.3-2_aarch64.deb
+Size: 32904
+MD5sum: bf67191829d698b5b14b6a541250e969
+SHA1: 50a70a9848d2987f18b5772d3697f72e9c3ef713
+SHA256: 643e35adc832d5f509c19a006b688f7936a1701ce36ae8d064fbe739e3af052a
+Homepage: https://www.leonerd.org.uk/code/libvterm/
+Description: Terminal emulator library
+
+Package: libvxl
+Version: 3.5.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29084
+Depends: dcmtk, libc++, libgeotiff, libjpeg-turbo, libpng, libtiff, zlib
+Filename: pool/main/libv/libvxl/libvxl_3.5.0-4_aarch64.deb
+Size: 4562864
+MD5sum: 176b4385bfff52ac64b58cb487683c52
+SHA1: 49d7e36af322973689ed27f10207ad7be083f823
+SHA256: b7bca96eba99da3bbf9e07abcc2c104915eb9687c2f362d8e464f039c221ba07
+Homepage: https://vxl.github.io
+Description: A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding
+
 Package: libwavpack
 Version: 5.8.1-1
 Architecture: aarch64
@@ -20967,6 +20996,76 @@ SHA1: 5ff167b8d2e94cd463b905e8d4a529979a9a6dbb
 SHA256: cafc4c4a09677367210af8981220602397e662dbbcfa691344a5e993eed5eaad
 Homepage: https://libwebsockets.org
 Description: Lightweight C websockets library
+
+Package: libwolfssl
+Version: 5.8.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4232
+Filename: pool/main/libw/libwolfssl/libwolfssl_5.8.2-1_aarch64.deb
+Size: 675060
+MD5sum: c3c5f67ce53b300268fc7e44d04d808b
+SHA1: fde8df701b9d0dd297907c60cf1deaa68987ec3c
+SHA256: 7e0e4b1b792c27f422ad705916bee483b1e1794e09fddcef38c327f0b7c9ef63
+Homepage: https://www.wolfssl.com/
+Description: A small, fast, portable implementation of TLS/SSL for embedded devices to the cloud
+
+Package: libwren
+Version: 0.4.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 484
+Breaks: wren-dev, wren (<< 0.3.0)
+Replaces: wren-dev, wren (<< 0.3.0)
+Filename: pool/main/libw/libwren/libwren_0.4.0-4_aarch64.deb
+Size: 76548
+MD5sum: 9ccc593cd4238ea9f8c5121199b7bb91
+SHA1: 3e12f2186694e5145a07e85e05868b366318b4c4
+SHA256: 30653ca8d20474d05ccd4598f17c13b084b7d8dc6749c644cbdd406e44ff2d25
+Homepage: https://wren.io/
+Description: Small, fast, class-based concurrent scripting language libraries
+
+Package: libwslay
+Version: 1.1.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 216
+Provides: wslay
+Filename: pool/main/libw/libwslay/libwslay_1.1.1-2_aarch64.deb
+Size: 37376
+MD5sum: 327eb83158c92bc9c251f310c822578a
+SHA1: cf265e964f77cddf52deea846c7105d255ff92a5
+SHA256: 8391c2b0c03673091c73b7219b4252c9504f8e24fd10b796769d67097b21f40b
+Homepage: https://github.com/tatsuhiro-t/wslay
+Description: WebSocket library
+
+Package: libwv
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2328
+Depends: glib, libgsf, libpng, libxml2, zlib
+Filename: pool/main/libw/libwv/libwv_1.2.9-6_aarch64.deb
+Size: 148292
+MD5sum: 1b98532610a3090412859a072bb7758f
+SHA1: d09ddd7262b7c20951d4aab1d8624b6f9bb7aa01
+SHA256: 0df86473eb223b040241e30c7a9552752a0a24aa8a6f50d9557fb510834dc263
+Homepage: https://wvware.sourceforge.net/
+Description: A library which allows access to Microsoft Word files
+
+Package: libwv-static
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 564
+Depends: libwv (= 1.2.9-6)
+Filename: pool/main/libw/libwv-static/libwv-static_1.2.9-6_aarch64.deb
+Size: 105788
+MD5sum: 78ad63e2b368a0206a0e6d331a349c32
+SHA1: ca30fb380d893d5faf95af3e9e1a5809e6609a21
+SHA256: 793e149255ba2186635939c7e0e93be4f8bcd09073e8201655a9d8925c51e514
+Homepage: https://wvware.sourceforge.net/
+Description: Static libraries for libwv
 
 Package: libx11
 Version: 1.8.12-1
@@ -21128,6 +21227,47 @@ SHA256: efa0dae46ac3f96bd987bb68cf3b50d17dcd58769570e6e71c9439c9d082dc7a
 Homepage: https://xcb.freedesktop.org/
 Description: Static libraries for libxcb
 
+Package: libxcfun
+Version: 2.1.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6320
+Depends: libc++
+Filename: pool/main/libx/libxcfun/libxcfun_2.1.1-2_aarch64.deb
+Size: 1990488
+MD5sum: ef4fdc01fccdc4fd2ecc6650566eb14f
+SHA1: 9550fb3ca578dc8971d76bf03ac1ed0950980ca6
+SHA256: de8d8b6dc533c0668e0478c434973ea6fd32bc0f8103868deecc879e52ea3c54
+Homepage: https://github.com/dftlibs/xcfun
+Description: A library of exchange-correlation functionals with arbitrary-order derivatives
+
+Package: libxdg-basedir
+Version: 1.2.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Filename: pool/main/libx/libxdg-basedir/libxdg-basedir_1.2.3-2_aarch64.deb
+Size: 7400
+MD5sum: 77e51d5965be50018836c8c8d99d4c55
+SHA1: 7e55c84286cbfca2cf5789c1fe2571c4dca48c84
+SHA256: 6f9239b2ae7be95b976e148fa191a034a7807a4492aee421c154b424b42591c1
+Homepage: https://github.com/devnev/libxdg-basedir
+Description: An implementation of the XDG Base Directory specifications
+
+Package: libxdg-basedir-static
+Version: 1.2.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: libxdg-basedir (= 1.2.3-2)
+Filename: pool/main/libx/libxdg-basedir-static/libxdg-basedir-static_1.2.3-2_aarch64.deb
+Size: 4820
+MD5sum: bcbc7c0d29112877e210a7cf41988b86
+SHA1: a9f1538c9bcfa7f1004153c11b676d6beb033fa4
+SHA256: abf1acae5f4ded50ecbe0ab067a44e41ef0e31f05892a999050e01e7196b1870
+Homepage: https://github.com/devnev/libxdg-basedir
+Description: Static libraries for libxdg-basedir
+
 Package: libxdmcp
 Version: 1.1.5-2
 Architecture: aarch64
@@ -21154,6 +21294,19 @@ SHA1: 0ed81d136b640869c29f688a178dcd96208f86ed
 SHA256: 413c98a3a83377ebdd11db5e427d28e5288f50a8e9cde0dc1dc4067189321f66
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxdmcp
+
+Package: libxdrfile
+Version: 1.1.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Filename: pool/main/libx/libxdrfile/libxdrfile_1.1.4-2_aarch64.deb
+Size: 23128
+MD5sum: 3406e9a0236fcf9c04d32e4806a92a31
+SHA1: d06dbd284a6100947bf7073fd9d26716400919a1
+SHA256: e2f4f41815b8916c06f791729a74f9284182d97530ce834c1811f6f5884cecf2
+Homepage: https://userguide.mdanalysis.org/stable/formats/reference/xtc.html
+Description: Library for reading and writing xtc, edr and trr files
 
 Package: libxext
 Version: 1.3.6-1
@@ -21267,6 +21420,63 @@ SHA256: 30136b46dae845566969ca95b417348de23e1902d5966f64dae54dc0a870670b
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxi
 
+Package: libxls
+Version: 1.6.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Filename: pool/main/libx/libxls/libxls_1.6.3-2_aarch64.deb
+Size: 27776
+MD5sum: 9a8e52871bf2797739d6f5ea143b000b
+SHA1: 4954880c10ae8a0a02285eccae6e47a85d8a5fb6
+SHA256: a4dada09e0766716d42ee55ce8443fc3fd7048d6d77398bd5d3bf481640d2814
+Homepage: https://github.com/libxls/libxls
+Description: A C library for reading Excel files in the nasty old binary OLE format
+
+Package: libxls-static
+Version: 1.6.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Depends: libxls (= 1.6.3-2)
+Filename: pool/main/libx/libxls-static/libxls-static_1.6.3-2_aarch64.deb
+Size: 22000
+MD5sum: 1b15b13fc1caaa0205c5e3e8cf9d7603
+SHA1: 4dc0dac75485f1469c21ac68419ea9f464c2ebe2
+SHA256: 014ea1f11a7ea419ae375ec6ea3cd68f215103c7063b219bc3ccc977e1d9129a
+Homepage: https://github.com/libxls/libxls
+Description: Static libraries for libxls
+
+Package: libxls2csv
+Version: 1.6.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 56
+Depends: libxls (= 1.6.3-2)
+Breaks: xls2csv
+Replaces: xls2csv
+Filename: pool/main/libx/libxls2csv/libxls2csv_1.6.3-2_aarch64.deb
+Size: 4616
+MD5sum: d191129fbb7cac0ae665a482fa22b514
+SHA1: d85ba3cd8bfd0ea45273776b2dfa8b81f0a34629
+SHA256: f2f259b21a2eac50618b9633dbe81550242272688f6ddd50cd11255e6112e6c2
+Homepage: https://github.com/libxls/libxls
+Description: A command-line tool for converting XLS to CSV
+
+Package: libxlsxwriter
+Version: 1.2.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1076
+Depends: libminizip
+Filename: pool/main/libx/libxlsxwriter/libxlsxwriter_1.2.3-1_aarch64.deb
+Size: 199700
+MD5sum: 884b3a1a3693883ad8e0fb96529027b8
+SHA1: 81c78aa0b42825a0b50cb2ee30a7396081e7bbd6
+SHA256: ef51963241fdc6b2d2bf8bcef27ab2eca7570b25212ff5413a6c46fea0aa19e7
+Homepage: https://libxlsxwriter.github.io/
+Description: A C library for creating Excel XLSX files
+
 Package: libxml2
 Version: 2.14.6
 Architecture: aarch64
@@ -21353,6 +21563,33 @@ SHA1: a4266b327cbcd385eb13ba0ca01f57a5ea22790d
 SHA256: 1f4da069ba6b7842b4c22380abae6aedd4979cdfd694ed2280bf19d6f1552976
 Homepage: https://github.com/hughsie/libxmlb
 Description: Library to help create and query binary XML blobs
+
+Package: libxmlrpc
+Version: 1.60.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1532
+Filename: pool/main/libx/libxmlrpc/libxmlrpc_1.60.05-1_aarch64.deb
+Size: 273744
+MD5sum: b6e91c99acfc6aab32afeb65c1eb9edd
+SHA1: c57e091051b6fa973e64b2f7805766f0c73424bf
+SHA256: 7d93a7e5c42b5cee6fb92dce9fa2fa936d8b5a554853a9ba8399480d994ac1eb
+Homepage: https://xmlrpc-c.sourceforge.io/
+Description: XML-RPC for C and C++
+
+Package: libxmlrpc-static
+Version: 1.60.05-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7580
+Depends: libxmlrpc (= 1.60.05-1)
+Filename: pool/main/libx/libxmlrpc-static/libxmlrpc-static_1.60.05-1_aarch64.deb
+Size: 1111908
+MD5sum: 4fb88caa5f856108c86d4eeca4a6364f
+SHA1: 4582a2eee94e18db2ae533c1a8f805997a05d84a
+SHA256: 72d046e429a811c6609f77e15211c7bbd85e82b197823acb7abf069657029acb
+Homepage: https://xmlrpc-c.sourceforge.io/
+Description: Static libraries for libxmlrpc
 
 Package: libxrandr
 Version: 1.5.4-1
@@ -25135,6 +25372,20 @@ SHA1: 9e8c08ab3b76c25f7d0d52573136570651fd668d
 SHA256: 25e3b9e2f9bdafc1788b5a18f706e9b1a6edc5d2012ac3ddc0965788c59c0b72
 Homepage: https://pagure.io/newt
 Description: Display dialog boxes from shell scripts
+
+Package: wv-tools
+Version: 1.2.9-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 228
+Depends: libwv (= 1.2.9-6)
+Filename: pool/main/w/wv-tools/wv-tools_1.2.9-6_aarch64.deb
+Size: 27040
+MD5sum: d0666ab9e9017cbc375c8f643adfa422
+SHA1: ca407d2868a208ba5562510ba9bbc594ca09fe05
+SHA256: 9fe056a8db480d631aef65ae776ecbb4b621e0b2d148b7a2df1b5e07c7668bab
+Homepage: https://wvware.sourceforge.net/
+Description: Command-line tools for libwv
 
 Package: x264
 Version: 1:0.164.3191-1
