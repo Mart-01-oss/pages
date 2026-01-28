@@ -30211,6 +30211,20 @@ SHA256: 2599754231b078c47aada01ec4631c8501e2778346a15228a03cb22dd2ea7473
 Homepage: https://www.unixodbc.org/
 Description: Static libraries for unixodbc
 
+Package: unzip
+Version: 6.0-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: libbz2
+Filename: pool/main/u/unzip/unzip_6.0-10_aarch64.deb
+Size: 117148
+MD5sum: d4915abe9c0f739ead78c3da37265dc7
+SHA1: 4b98177afcf28ffb4821032bff9a22a669cf4e99
+SHA256: 6a7817e30eb4609b0e703f74a285b7344fc54ddf17133a65bef205db3e831a02
+Homepage: https://sourceforge.net/projects/infozip/
+Description: Tools for working with zip files
+
 Package: update-info-dir
 Version: 7.2-3
 Architecture: all
@@ -30831,6 +30845,20 @@ SHA1: 30f37f1770bebbe98388dcee1eb7c3fd3dabb661
 SHA256: a8c0012120411c3c46b483be28942cc483160fee34990daec231a11e58c60aa8
 Homepage: https://classic.yarnpkg.com/lang/en/
 Description: Fast, reliable, and secure dependency management
+
+Package: zip
+Version: 3.0-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 548
+Depends: libandroid-support, libbz2
+Filename: pool/main/z/zip/zip_3.0-6_aarch64.deb
+Size: 141832
+MD5sum: 13064f647d6ba993b4d21b6fc91c3e5d
+SHA1: 9000e7acca7532d4e9ce012c23a5f3a8f5c92c1c
+SHA256: b53f7058a0acf2a4cd060fa9eeed1fafd2c19bfef03e1e5792f2742dad84da09
+Homepage: https://sourceforge.net/projects/infozip/
+Description: Tools for working with zip files
 
 Package: zlib
 Version: 1.3.1-1
