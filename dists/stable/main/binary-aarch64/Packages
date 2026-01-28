@@ -25001,6 +25001,35 @@ SHA256: 097f15f194a0dd6c07a92a5c1699eddffb1dceb4d3e6bc7d4def48a22484b552
 Homepage: https://github.com/vapier/ncompress
 Description: The classic unix compression utility which can handle the ancient .Z archive
 
+Package: ncpamixer
+Version: 1.3.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 180
+Depends: libc++, ncurses-ui-libs, pulseaudio
+Filename: pool/main/n/ncpamixer/ncpamixer_1.3.10-1_aarch64.deb
+Size: 42020
+MD5sum: 4cee99063467112bdb79009fe329eb13
+SHA1: c8e72c1a783ce894f0d83be1203be747b8a94967
+SHA256: 655ba160b14d01338d93614479fe140dbfdabb837eeb622f9da29cbfe1b2e38d
+Homepage: https://github.com/fulhax/ncpamixer
+Description: An ncurses mixer for PulseAudio
+
+Package: ncspot
+Version: 1.3.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9660
+Depends: dbus, pulseaudio
+Conflicts: ncspot-mpris
+Filename: pool/main/n/ncspot/ncspot_1.3.1_aarch64.deb
+Size: 2845460
+MD5sum: fd9472334d58487e7b7960e28d295e68
+SHA1: 0474a5d67556ce28c6427c2fac50a16f3fb685d7
+SHA256: 7f0baa06984a02d8422cf9a2b5e5a0608eba1adbd94d46404c0aecb0bc9eecc1
+Homepage: https://github.com/hrkfdn/ncspot
+Description: An ncurses Spotify client written in Rust
+
 Package: ncurses
 Version: 6.5.20240831-3
 Architecture: aarch64
@@ -25073,6 +25102,186 @@ SHA1: e43d091d0ba26b34f48d9dc70cf8fb6270f315cd
 SHA256: f9c2b17b1a07a99b6d2455e90d37796b4e567da796b813c7cf3a545e4876499e
 Homepage: https://invisible-island.net/ncurses/
 Description: Tools for working with terminals
+
+Package: ndk-multilib
+Version: 28c-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 324212
+Filename: pool/main/n/ndk-multilib/ndk-multilib_28c-2_all.deb
+Size: 46868532
+MD5sum: 9e218333e3253b72caeafa13d895bb70
+SHA1: ad9c18c16816448bd07b875e47a7effb3aac3e24
+SHA256: 47c4bf14d8648922f5728c41d1078d8599e3c04ee6b34cf42979283ac930f517
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: Multilib binaries for cross-compilation
+
+Package: ndk-multilib-native-static
+Version: 28c-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: ndk-multilib-native-stubs, ndk-multilib (= 28c-2)
+Filename: pool/main/n/ndk-multilib-native-static/ndk-multilib-native-static_28c-2_aarch64.deb
+Size: 940
+MD5sum: b4f8ceb30c1ae9f8e69c1417c56f42a1
+SHA1: 7f4c3b5c0b36e75872db49b9d4025c88b78193b7
+SHA256: 12996dbed4a6275fcdbf2ce2c7c4b5b8788076d72ca7eac0be6b1b779380edfb
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: Install native static libs from NDK
+
+Package: ndk-multilib-native-stubs
+Version: 28c-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Depends: ndk-multilib (= 28c-2)
+Filename: pool/main/n/ndk-multilib-native-stubs/ndk-multilib-native-stubs_28c-2_aarch64.deb
+Size: 956
+MD5sum: 60b00e2807324ba0527a0c74fa0ac484
+SHA1: b626fff830b8d50594c3e2de50942d30e9ffcec4
+SHA256: 3fce9a96bae73e8baf8f16ea9678243044493334e8537b334fb3c69248189d06
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Description: Install native stubs for shared libs from NDK
+
+Package: ne
+Version: 3.3.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2480
+Depends: libandroid-support, ncurses
+Filename: pool/main/n/ne/ne_3.3.4-2_aarch64.deb
+Size: 400816
+MD5sum: 8160340c437ef78723a993feef9252e7
+SHA1: 8e692563f0825d376d1e396c68dd2f0862ef0b8f
+SHA256: d31dbc2e0a8e73fbd4b04f221ec10750693c859dbdfa2c3efbe23dfb147ff76b
+Homepage: https://ne.di.unimi.it/
+Description: Easy-to-use and powerful text editor
+
+Package: nelua
+Version: 2024.01.13-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2108
+Suggests: gdb, sdl2
+Filename: pool/main/n/nelua/nelua_2024.01.13-1_aarch64.deb
+Size: 385928
+MD5sum: 298a1aa050184ac0f6b471cd06278645
+SHA1: 88eec3e3511ef246e100666b66db0b8fc3d5ab02
+SHA256: fc34ea927f5409e9bfb15ab5f4435bd5945e28151e685de0cad2346b782123cb
+Homepage: https://nelua.io
+Description: Minimal, efficient, statically-typed and meta-programmable systems programming language
+
+Package: neocmakelsp
+Version: 0.8.25
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6456
+Depends: cmake
+Filename: pool/main/n/neocmakelsp/neocmakelsp_0.8.25_aarch64.deb
+Size: 1632512
+MD5sum: 8f581a1717a80d6fe567c3efa2965ce3
+SHA1: 1dd3ef706b2f896fd02103b44c50193cda6ae28d
+SHA256: 3786c0cb995c9d9f88bc89b43da3fe7ecc5e0ebf7a72b223f1249b29dad7ff32
+Homepage: https://neocmakelsp.github.io/
+Description: a cmake lsp based on tower-lsp and treesitter
+
+Package: neofetch
+Version: 7.1.0-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 396
+Depends: bash
+Filename: pool/main/n/neofetch/neofetch_7.1.0-1_all.deb
+Size: 80152
+MD5sum: 5f1a5de1d778bafed06d6f70db6cc1a6
+SHA1: 837d381b937a16fc1e37cc55f5965bf9169b760a
+SHA256: 65607d90237f4e964aad5fadf7ced12557901b6cec24ea53649626666cb68f4d
+Homepage: https://github.com/dylanaraps/neofetch
+Description: Simple system information script
+
+Package: neomutt
+Version: 20250905
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5932
+Depends: gdbm, krb5, libandroid-support, libiconv, libsasl, ncurses, notmuch, openssl, zlib, zstd
+Filename: pool/main/n/neomutt/neomutt_20250905_aarch64.deb
+Size: 1040280
+MD5sum: 8d7b198b53e0aa98092b04f3acdb75f1
+SHA1: 006e93a47c3348f4cafc40080e58ab5120be5730
+SHA256: bb4d7e56066829fad99d48dc1ca88d092be5474a360c86c1be7326eefc9c142b
+Homepage: https://neomutt.org/
+Description: A version of mutt with added features
+
+Package: neovim
+Version: 0.11.4-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 30788
+Depends: libiconv, libuv, luv, libmsgpack, libvterm (>= 1:0.3-0), libluajit, libunibilium, libandroid-support, lua51-lpeg, tree-sitter, tree-sitter-parsers, utf8proc
+Filename: pool/main/n/neovim/neovim_0.11.4-1_aarch64.deb
+Size: 5624188
+MD5sum: e4750425632833e45aa2eb8eecf0c8f4
+SHA1: 14541979c032036f00b3a3a403cdbe613fc26434
+SHA256: f500098a1217ad028f7b74c82267fb98c880baae4f1d048d7e3293e69e760c12
+Homepage: https://neovim.io/
+Description: Ambitious Vim-fork focused on extensibility and agility (nvim)
+
+Package: nerdfix
+Version: 0.4.2-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 3992
+Filename: pool/main/n/nerdfix/nerdfix_0.4.2-1_aarch64.deb
+Size: 989036
+MD5sum: c911f3ce5b7082b9e91e91bd2b9f0d08
+SHA1: 8f148301a4a667b56cb2a4bd5852b03aa745a7c2
+SHA256: 738b7b9af96863cd82453eca0c21f63c60f3de72711df908323bfa99e78ae8cb
+Homepage: https://github.com/loichyan/nerdfix
+Description: nerdfix helps you to find/fix obsolete Nerd Font icons in your project.
+
+Package: net-snmp
+Version: 5.9.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7572
+Filename: pool/main/n/net-snmp/net-snmp_5.9.4-1_aarch64.deb
+Size: 1377912
+MD5sum: 99eb7b2ee24191284594364715e494d8
+SHA1: c7a298af7e2bdeae46a77823a1371a9a852dfe19
+SHA256: 5b495364c329411b53aef2c731f255b792997495ae491618436001bf7fad3c35
+Homepage: http://www.net-snmp.org/
+Description: Various tools relating to the Simple Network Management Protocol
+
+Package: net-snmp-static
+Version: 5.9.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5176
+Depends: net-snmp (= 5.9.4-1)
+Filename: pool/main/n/net-snmp-static/net-snmp-static_5.9.4-1_aarch64.deb
+Size: 807920
+MD5sum: 796ffe5f04662555f5e9f9c24fb84f1b
+SHA1: 58d7232cd0cacbac80c153027d5c06679bbf32f8
+SHA256: 2308e08b6e2ef2599d277ca329fbda16a0ee90e2e2ceaaaa71a7afabcc4e8fda
+Homepage: http://www.net-snmp.org/
+Description: Static libraries for net-snmp
+
+Package: netcat-openbsd
+Version: 1.229-1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 92
+Depends: libbsd
+Provides: nc, ncat, netcat
+Filename: pool/main/n/netcat-openbsd/netcat-openbsd_1.229-1-4_aarch64.deb
+Size: 20984
+MD5sum: 6ceb97fd5e3a093912cf91e096cf6d37
+SHA1: 6bbc94c95b3e09a83ece076073f98304552a390a
+SHA256: e75e3c90fda1bdfcd81ddc13959371ffc75a9b22a317454581ab9ca75cfa1c14
+Homepage: https://packages.debian.org/sid/netcat-openbsd
+Description: TCP/IP swiss army knife. OpenBSD variant.
 
 Package: netcdf-c
 Version: 4.9.3-1
@@ -27529,6 +27738,72 @@ SHA256: 6f5866e358870fe5a761f511612eda1ae270635704e55ce7de4fa023b1318ba1
 Homepage: https://tree-sitter.github.io/
 Description: An incremental parsing system for programming tools
 
+Package: tree-sitter-c
+Version: 0.24.1-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 696
+Filename: pool/main/t/tree-sitter-c/tree-sitter-c_0.24.1-3_aarch64.deb
+Size: 48408
+MD5sum: 1d0891b79c4d490989f03d7f1494dc6b
+SHA1: 4b79b9fd92e9f3b4d4be9ac95d1e7edaeb4e04cf
+SHA256: 091693e738e065e66cca70d87b362d0885ded7438b7741d98dcc1e5820c460c7
+Homepage: https://github.com/tree-sitter/tree-sitter-c
+Description: C grammar for tree-sitter
+
+Package: tree-sitter-lua
+Version: 0.4.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 160
+Filename: pool/main/t/tree-sitter-lua/tree-sitter-lua_0.4.0-3_aarch64.deb
+Size: 13964
+MD5sum: d72278585f9b34e966e57b76e2baf2ac
+SHA1: 8f0d9f4806045172d67368f283a6899eac3d50bf
+SHA256: 411b4fbf926dc80bc31e6b9d4d986c7580bd822a9571834217904e1e8621a835
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-lua
+Description: Lua grammar for tree-sitter
+
+Package: tree-sitter-markdown
+Version: 0.5.1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 864
+Filename: pool/main/t/tree-sitter-markdown/tree-sitter-markdown_0.5.1_aarch64.deb
+Size: 89236
+MD5sum: e231a1f09b4f9fe4fce9a6389ad6e4d5
+SHA1: fd5215c8ebcfc2fc37d26670a277f3c73ad6cc4e
+SHA256: 742913d51301f4e90cbe3d01f637372bc1be92a19d25cacc3cff29591aa66453
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-markdown
+Description: Markdown grammar for tree-sitter
+
+Package: tree-sitter-parsers
+Version: 0.0.5
+Architecture: all
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 4
+Depends: tree-sitter-c, tree-sitter-lua, tree-sitter-markdown, tree-sitter-query, tree-sitter-vimdoc, tree-sitter-vim
+Filename: pool/main/t/tree-sitter-parsers/tree-sitter-parsers_0.0.5_all.deb
+Size: 748
+MD5sum: 1e557c6ef5cd7c4b444c780ce4f15cdb
+SHA1: e34f1ca0b443d030adc76539e7521a7babedb0bb
+SHA256: 34506de294e35bd481162a8d53442e24296cc2904b3452340dd7a478d86f20a8
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides commonly used treesitter parsers
+
+Package: tree-sitter-query
+Version: 0.7.0
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 124
+Filename: pool/main/t/tree-sitter-query/tree-sitter-query_0.7.0_aarch64.deb
+Size: 7544
+MD5sum: e33f51f67572e7186944e260de5d7b7f
+SHA1: d49fa15e94c061aa57c1361c3ace1e3d32313578
+SHA256: 9a39f8c76bb999591480092cda4c664dcfd04fb8f00043fcff27bb0c3cfce458
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-query
+Description: TS query grammar for tree-sitter
+
 Package: tree-sitter-static
 Version: 0.25.10-1
 Architecture: aarch64
@@ -27542,6 +27817,60 @@ SHA1: e60f4ee45f609fd376cdf198ebda745dee6d4750
 SHA256: 3a1e177644e11bd8491353cdcab0700494edbf43ee70acb84533fbf45e5fa197
 Homepage: https://tree-sitter.github.io/
 Description: Static libraries for tree-sitter
+
+Package: tree-sitter-vim
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1300
+Filename: pool/main/t/tree-sitter-vim/tree-sitter-vim_0.7.0-1_aarch64.deb
+Size: 110228
+MD5sum: c98c6bbbbc61eea0451fbb16a639c95c
+SHA1: e1d31fc0c70e6ab3603217a7125145d52f910ff5
+SHA256: b6362b47793a9e19269e7d22f772c033bbc0f92d8fe7379b94a61840ab3e4251
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-vim
+Description: Vimscript grammar for tree-sitter
+
+Package: tree-sitter-vim-static
+Version: 0.7.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 1276
+Depends: tree-sitter-vim (= 0.7.0-1)
+Filename: pool/main/t/tree-sitter-vim-static/tree-sitter-vim-static_0.7.0-1_aarch64.deb
+Size: 108464
+MD5sum: 17dfcce40a4b3f18b2f669eeaa502864
+SHA1: 5fa3a74f60e7f44054dab1963fcc766152c43837
+SHA256: 20fad6e9406eeca0b0a6923d7b68c245b1798614dcf18965088f8012c1745197
+Homepage: https://github.com/tree-sitter-grammars/tree-sitter-vim
+Description: Static libraries for tree-sitter-vim
+
+Package: tree-sitter-vimdoc
+Version: 4.0.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 268
+Filename: pool/main/t/tree-sitter-vimdoc/tree-sitter-vimdoc_4.0.0-3_aarch64.deb
+Size: 18796
+MD5sum: aed86a2b833b0df5a83f321423927f88
+SHA1: 4e7aa5c13e51e762cfb073dbea2cdd04d384589f
+SHA256: 63991afbe89ba02963f3c88680038510ecb3997809136e9b21ffcd168bcbb5cf
+Homepage: https://github.com/neovim/tree-sitter-vimdoc
+Description: Tree-sitter parser for Vim help files
+
+Package: tree-sitter-vimdoc-static
+Version: 4.0.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 232
+Depends: tree-sitter-vimdoc (= 4.0.0-3)
+Filename: pool/main/t/tree-sitter-vimdoc-static/tree-sitter-vimdoc-static_4.0.0-3_aarch64.deb
+Size: 18328
+MD5sum: d9b2365b51a3e53242aedf9aff81fa08
+SHA1: eb660754b09adb4e07c6effff3594613d7f594ad
+SHA256: 1fb1a7d8f6d6f77c9e7ffeb941c7a27ffd83b9dacccd5d8443c05306d51352fe
+Homepage: https://github.com/neovim/tree-sitter-vimdoc
+Description: Static libraries for tree-sitter-vimdoc
 
 Package: tsduck-java
 Version: 3.40.4165-1
