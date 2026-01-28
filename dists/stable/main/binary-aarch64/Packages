@@ -22031,6 +22031,20 @@ SHA256: 456099c86da5b330a196ea3229c6c476aa2252b081e883a5785ae6ff9c75f15a
 Homepage: https://drobilla.net/software/lilv.html
 Description: A C library to make the use of LV2 plugins as simple as possible for applications
 
+Package: lilypond
+Version: 2.24.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13340
+Depends: fontconfig, freetype, ghostscript, glib, guile, harfbuzz, libc++, pango, python, tex-gyre
+Filename: pool/main/l/lilypond/lilypond_2.24.4-2_aarch64.deb
+Size: 2714300
+MD5sum: 8c9a8039bd86e4279a3385d27c904d62
+SHA1: d37b854eeec83039048627c24b45a06b14e260b9
+SHA256: a1df488d045aa5ef1436460cc1b1bc50484ea7ab4f6624ec88ecdfc7ab0448ad
+Homepage: https://lilypond.org/
+Description: A music engraving program
+
 Package: links
 Version: 2.29-2
 Architecture: aarch64
@@ -22237,6 +22251,61 @@ SHA256: 274b796b55cd0ba701e7bac9c28e2c3b29b92036077b91e1405e4a3aacc2ee69
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
+Package: llvm-mingw-w64
+Version: 20250402-1
+Architecture: all
+Maintainer: @licy183
+Installed-Size: 124
+Depends: clang (<< 21), llvm (<< 21), llvm-tools (<< 21), llvm-mingw-w64-libcompiler-rt, llvm-mingw-w64-ucrt
+Recommends: llvm-mingw-w64-tools
+Conflicts: mingw-w64
+Filename: pool/main/l/llvm-mingw-w64/llvm-mingw-w64_20250402-1_all.deb
+Size: 11136
+MD5sum: ffd7c37999ef2cccbec18f6230e228b8
+SHA1: 6f95669e88674a4e06c685ab07bd83319cd77cb9
+SHA256: 2d6ea1b04b2eced17ad6fbae81bfca44e2281d36246718776d647311c6c70e72
+Homepage: https://github.com/mstorsjo/llvm-mingw
+Description: MinGW-w64 toolchain based on LLVM
+
+Package: llvm-mingw-w64-libcompiler-rt
+Version: 20250402
+Architecture: all
+Maintainer: @licy183
+Installed-Size: 20048
+Filename: pool/main/l/llvm-mingw-w64-libcompiler-rt/llvm-mingw-w64-libcompiler-rt_20250402_all.deb
+Size: 2044576
+MD5sum: 18909194ef3c02c80bf9e69f3a6fecc6
+SHA1: dcc8d1de5e16c45d42f32f1c5ce8038917050040
+SHA256: d8d0c9340821d452b65d449e589ec8e67de685e32d9e0ba0f581f99286365321
+Homepage: https://www.llvm.org/
+Description: Compiler runtime libraries for LLVM-MinGW
+
+Package: llvm-mingw-w64-tools
+Version: 12.0.0-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 592
+Filename: pool/main/l/llvm-mingw-w64-tools/llvm-mingw-w64-tools_12.0.0-1_aarch64.deb
+Size: 175596
+MD5sum: af099496667943590b3fff337dd21dba
+SHA1: 717c751416281cb0a9fde084f796f071e16fe004
+SHA256: c12d4817df7bdd32bacf96a2e57e438f0babca8d4aadaeedd6b8f2eaee18db05
+Homepage: https://github.com/mstorsjo/llvm-mingw
+Description: MinGW-w64 tools for LLVM-MinGW
+
+Package: llvm-mingw-w64-ucrt
+Version: 20250402
+Architecture: all
+Maintainer: @licy183
+Installed-Size: 340988
+Filename: pool/main/l/llvm-mingw-w64-ucrt/llvm-mingw-w64-ucrt_20250402_all.deb
+Size: 26912236
+MD5sum: 95de160737e1d9b35c8c3d9090065ea7
+SHA1: 591fb4b06fb08182dc3795461373cabc7eb5be82
+SHA256: dc3e1b90564cd1e10c64372edc360f72aaff976370b39c2f95178e1659eb950e
+Homepage: https://www.mingw-w64.org/
+Description: MinGW-w64 runtime for LLVM-MinGW
+
 Package: llvm-tools
 Version: 20.1.8-3
 Architecture: aarch64
@@ -22266,6 +22335,115 @@ SHA1: a4437e11f121c45f73db3f72d2027ba6a85370bc
 SHA256: 2a6a516e20cdb5c2031658459c2454504495477c46d5692ece325c80535e2bfc
 Homepage: https://clang.llvm.org/
 Description: LLVM gold plugin
+
+Package: lnav
+Version: 0.13.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9408
+Depends: libandroid-execinfo, libandroid-glob, libandroid-spawn, libandroid-utimes, libarchive, libbz2, libc++, libcurl, libsqlite, libunistring, pcre2, readline, zlib
+Filename: pool/main/l/lnav/lnav_0.13.2_aarch64.deb
+Size: 2515012
+MD5sum: 5b68abb4767730b294eef18017971e00
+SHA1: 41faccc9c130f280253778f4e813d7b8d25bfe9f
+SHA256: f571c251fb768bdd46e737b336b90a4a5a7c432c4bb8fc7099a1cc3772f66625
+Homepage: https://lnav.org/
+Description: An advanced log file viewer for the small-scale
+
+Package: lnd
+Version: 0.17.0-beta-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64020
+Depends: bitcoin
+Filename: pool/main/l/lnd/lnd_0.17.0-beta-1_aarch64.deb
+Size: 15559248
+MD5sum: 57114dd20992647ee49dcde1948a9b8d
+SHA1: bfbde0d77992df7d24e1fcd7e2ab465603d3a8cf
+SHA256: bddcc65e7c95274e2c58117ae06076d1b848258d503b6f53c8c008b28e3ed728
+Homepage: https://github.com/lightningnetwork/lnd
+Description: Lightning Network Daemon
+
+Package: locustdb
+Version: 0.4.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15128
+Filename: pool/main/l/locustdb/locustdb_0.4.6-2_aarch64.deb
+Size: 3027976
+MD5sum: e1be991a9ce5b4e27a24739a92bb60f1
+SHA1: 32ef1b8bb4b556c8a513e2c22dc25449f017e37b
+SHA256: 849bedd5a8228589369d9ce554dc3ef2f77c5c2f5b7cdb48679e6ab263ad95f4
+Homepage: https://github.com/cswinter/LocustDB
+Description: An experimental analytics database
+
+Package: logo-ls
+Version: 2024.07.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5656
+Filename: pool/main/l/logo-ls/logo-ls_2024.07.17-1_aarch64.deb
+Size: 1601176
+MD5sum: a9150dda698be4534e6c2a1f42a55569
+SHA1: 40533eae1743436c537ded1a22ed03a8f01c064d
+SHA256: 96c76156756d324c66b41603df22eb8d0aea8f06e2981c82bca7dc3b86ef9b74
+Homepage: https://github.com/Yash-Handa/logo-ls
+Description: Modern ls command with vscode like File Icon and Git Integrations
+
+Package: logrotate
+Version: 3.22.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: libpopt, libandroid-glob
+Filename: pool/main/l/logrotate/logrotate_3.22.0-1_aarch64.deb
+Size: 37152
+MD5sum: 02f7cea9482598894e0ec8117f8f1eb1
+SHA1: e3cabc7e014b5b65685aaf5bfe42b5130eb5effd
+SHA256: d6bf5647451acaf2817382d48b8f62b0bd51ae477e144906ad9eb4d3c4f65c81
+Homepage: https://github.com/logrotate/logrotate
+Description: Simplify the administration of log files on a system which generates a lot of log files
+
+Package: loksh
+Version: 7.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 340
+Depends: ncurses
+Filename: pool/main/l/loksh/loksh_7.7-1_aarch64.deb
+Size: 143596
+MD5sum: 626f30d41efdf97a2938c71b7081f22f
+SHA1: 28071a90bf79bbe32a64609522a32c23098c22c4
+SHA256: c6b69522f35a2bdc966f78b0edf6d69cb31bedacf02ac66fc49a4d470206aa79
+Homepage: https://github.com/dimkr/loksh
+Description: A Linux port of OpenBSD's ksh
+
+Package: lowdown
+Version: 2.0.2-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 996
+Filename: pool/main/l/lowdown/lowdown_2.0.2-1_aarch64.deb
+Size: 182228
+MD5sum: d26432eb9dd5f6708e4f48f82b288f67
+SHA1: 5a94607d67ca2a3a3f03bf110e73c5ea3ab4594d
+SHA256: 2f56c616e0fe9d694198086db4d3b594e02b29d1d7781eed11926eaa93795a55
+Homepage: https://kristaps.bsd.lv/lowdown
+Description: Markdown utilities and library (fork of hoedown -> sundown -> libsoldout)
+
+Package: lowdown-static
+Version: 2.0.2-1
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 1368
+Depends: lowdown (= 2.0.2-1)
+Filename: pool/main/l/lowdown-static/lowdown-static_2.0.2-1_aarch64.deb
+Size: 274428
+MD5sum: 7d15ffc444d4ff6dcaaa1ebfe924b338
+SHA1: 3f41be6fb31597699bab8557cf96e9bd27aadb3a
+SHA256: 8b2190fbee9f2a186bdbaf86047e7ec915411bb8617808561d0c5ed4abf1b116
+Homepage: https://kristaps.bsd.lv/lowdown
+Description: Static libraries for lowdown
 
 Package: lua-lpeg
 Version: 1.1.0-3
@@ -25047,6 +25225,19 @@ SHA1: 45dc9bf0ff5c8fc000f13f0512a6a1e3cb4b2596
 SHA256: 7502cb83ad4c5690a969341335eaf01539becc0c452733a58acd87b56457476e
 Homepage: https://github.com/tesseract-ocr/tesseract
 Description: Tesseract is probably the most accurate open source OCR engine available
+
+Package: tex-gyre
+Version: 2.501-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4816
+Filename: pool/main/t/tex-gyre/tex-gyre_2.501-1_all.deb
+Size: 1531236
+MD5sum: e5cd39dcb712cbb181b6a55597843f59
+SHA1: 3e9f0a2c207eb33eae7114a75d1d832bab5a6df0
+SHA256: 576d9b91fba630d11a36b8001780efb2da2bfdbb1b8e99c7e32472d34bde3984
+Homepage: https://www.gust.org.pl/projects/e-foundry/tex-gyre/
+Description: The TeX Gyre (TG) Collection of Fonts
 
 Package: texinfo
 Version: 7.2-3
