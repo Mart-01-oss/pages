@@ -23668,6 +23668,50 @@ SHA256: 057f572d96990b8157615cf7d26c6d2a2811d9aec4a5713527737b0008566fff
 Homepage: https://github.com/bluenviron/mediamtx
 Description: Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy
 
+Package: memcached
+Version: 1.6.39-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 496
+Depends: libevent, libsasl
+Breaks: memcached-dev
+Replaces: memcached-dev
+Filename: pool/main/m/memcached/memcached_1.6.39-1_aarch64.deb
+Size: 135776
+MD5sum: cd0e4f98fd5dffdec9588c786a4b68cb
+SHA1: 9135b8d01fe186dc0c95b068d24560136f6652f3
+SHA256: 19965c314f3eb81c9a9d40cd6417c423a0c4b1df8073e693095128b13511f80a
+Homepage: https://memcached.org/
+Description: Free & open source, high-performance, distributed memory object caching system
+
+Package: mercury
+Version: 22.01.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 127896
+Depends: libandroid-sysv-semaphore-static
+Filename: pool/main/m/mercury/mercury_22.01.8-1_aarch64.deb
+Size: 9924748
+MD5sum: 809e272a69c0750cd8a3779fcf11af95
+SHA1: 8fc655a02b22b2c4c9e2fede2534becef9a798be
+SHA256: e5457d5c70913b5fa3bd9071f02cc8399e0bbd26870accf51cdd0951bca7108d
+Homepage: https://www.mercurylang.org/
+Description: A logic/functional programming language
+
+Package: mercury-static
+Version: 22.01.8-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60208
+Depends: mercury (= 22.01.8-1)
+Filename: pool/main/m/mercury-static/mercury-static_22.01.8-1_aarch64.deb
+Size: 7084368
+MD5sum: a8181ae7b06cb8f3459ebbe936c0ce63
+SHA1: 72af4ef19c0885684eb0e5bdedcc355545f8dcf2
+SHA256: 9a207f448e2d9c8b271289e1d16c25eedb62a2bf007ee45846c1dde4af9ad9d9
+Homepage: https://www.mercurylang.org/
+Description: Static libraries for mercury
+
 Package: mesa
 Version: 25.1.5-2
 Architecture: aarch64
@@ -23746,6 +23790,155 @@ SHA1: a9cbe9b6ad66eac4aebb638f4b9691544705f5c4
 SHA256: d0e22229d0eedd945d091b2236cd8718cabf03b8e91002e5c7124ef232bc3f25
 Homepage: https://www.mesa3d.org
 Description: Mesa's Swrast Vulkan ICD
+
+Package: mfcuk
+Version: 2018.07.14-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: libnfc
+Filename: pool/main/m/mfcuk/mfcuk_2018.07.14-1_aarch64.deb
+Size: 16948
+MD5sum: a1912c3a1e8ff961b5471822a1f14f27
+SHA1: 6b308e0bfad73c263fb5205c84ce6316968aebd4
+SHA256: b40d4b992ec9bc37c3097c6151d6245e31eab5b89e13ea3183dcdbc1aadb1f2e
+Homepage: https://github.com/nfc-tools/mfcuk
+Description: MiFare Classic Universal toolKit (MFCUK)
+
+Package: mg
+Version: 20240709-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: libbsd, ncurses
+Filename: pool/main/m/mg/mg_20240709-2_aarch64.deb
+Size: 79752
+MD5sum: ef86a4445713b557ab8c4cf931e127af
+SHA1: 7d4243037ec332b3e307dc9dab6a332504a95968
+SHA256: cd86e7df8939ad2e8760353e123c796d90084f23fb2340b56f497dae4bbdc6a3
+Homepage: https://github.com/hboetes/mg
+Description: microscopic GNU Emacs-style editor
+
+Package: micro
+Version: 2.0.14-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13312
+Filename: pool/main/m/micro/micro_2.0.14-3_aarch64.deb
+Size: 3575176
+MD5sum: e7d4bdbefc6d48e839c982eb07813a4d
+SHA1: 1a0219c6d02e3f57db315ff91f8759322fdd943a
+SHA256: 37545bd16cf68f9fca13c22d8a94e418b26a7f8e569edf5e98ca22ca5d4b7e3e
+Homepage: https://micro-editor.github.io/
+Description: Modern and intuitive terminal-based text editor
+
+Package: microsocks
+Version: 1:1.0.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Filename: pool/main/m/microsocks/microsocks_1+1.0.5-1_aarch64.deb
+Size: 6924
+MD5sum: 6abaf91db7860ce871f93e171b46f311
+SHA1: d1fbabbc766732e021b3cd719517106ac4ec7d25
+SHA256: 25c26edf883b8d03e51971ffa6a6c81f5adc6bcc8ea012a7f7fad59c0702a740
+Homepage: https://github.com/rofl0r/microsocks
+Description: tiny, portable SOCKS5 server with very moderate resource usage
+
+Package: miller
+Version: 6.15.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42456
+Filename: pool/main/m/miller/miller_6.15.0_aarch64.deb
+Size: 3375540
+MD5sum: 7d1bbc358975ad88ee1fdfa82db7b603
+SHA1: efe4b927fc23eb8cf80710ee78b01791a18e0c3a
+SHA256: fd17a42647a2a37ace3443f669e767e2dd66b1da6eef8fe9659891aceb0f6d79
+Homepage: https://miller.readthedocs.io/
+Description: Like awk, sed, cut, join, and sort for name-indexed data such as CSV, TSV, and tabular JSON
+
+Package: mimetic
+Version: 0.9.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 624
+Depends: libc++
+Filename: pool/main/m/mimetic/mimetic_0.9.8-2_aarch64.deb
+Size: 95720
+MD5sum: 7393353c049e1f9eb549bc72f41039c1
+SHA1: 1f74b353555e50db55941d359e1ae6320a03d93b
+SHA256: a4a7f11a3804d9ef5b694d388fa9081f5a01323fc86e7302c9a59bf144909970
+Homepage: https://www.codesink.org/mimetic_mime_library.html
+Description: A C++ Email library (MIME)
+
+Package: mimetic-static
+Version: 0.9.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1652
+Depends: mimetic (= 0.9.8-2)
+Filename: pool/main/m/mimetic-static/mimetic-static_0.9.8-2_aarch64.deb
+Size: 155708
+MD5sum: b0bbd444a222a26b40f79f6373222716
+SHA1: e2819f9d562d8d114efa1cb2572dd64a27ed4e4d
+SHA256: 281bb9a9b25b31c44a732c7b443420de40b617a99f8f7c3e1739ce887938efea
+Homepage: https://www.codesink.org/mimetic_mime_library.html
+Description: Static libraries for mimetic
+
+Package: minesweeper
+Version: 0.3.1-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5452
+Filename: pool/main/m/minesweeper/minesweeper_0.3.1-4_aarch64.deb
+Size: 1570904
+MD5sum: 98e754c8171c90001ba0202096bb3cc4
+SHA1: 0de4d9a0442163f4d0f343b7f9912ed179f8505b
+SHA256: e1a680d79e761dbf6cf9afcedb6999ef11b12d9d2cc60a3238ba012ab4a14e02
+Homepage: https://github.com/benhsm/minesweeper
+Description: A simple terminal-based implementation of Minesweeper
+
+Package: minicom
+Version: 2.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 304
+Depends: libiconv, ncurses
+Filename: pool/main/m/minicom/minicom_2.10-1_aarch64.deb
+Size: 92088
+MD5sum: b5e2cd3ed1b0a3eff46bd2b98ef7c4a0
+SHA1: 42958b989de50aa31a8f6a3f6cbad75936fb5dd6
+SHA256: ddcd22a5eb87fa70e494f1134e3319117a7c761c4ec070f5c4ce478616c6cc2f
+Homepage: https://salsa.debian.org/minicom-team/minicom
+Description: Friendly menu driven serial communication program
+
+Package: minidlna
+Version: 1.3.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: ffmpeg, libexif, libflac, libiconv, libid3tag, libjpeg-turbo, libogg, libsqlite, libvorbis
+Filename: pool/main/m/minidlna/minidlna_1.3.3-3_aarch64.deb
+Size: 122000
+MD5sum: 99b8bf72722b4210454e3d8813ff6bd0
+SHA1: 0f512b5be8dd7dcc73e5ee91bec73e58ca48b893
+SHA256: f05d9d943721a0507ee4855ccb1902aa2fb64f24fcdaa83cc6cd699e4c70339f
+Homepage: https://sourceforge.net/projects/minidlna/
+Description: A server software with the aim of being fully compliant with DLNA/UPnP-AV clients
+
+Package: miniflux
+Version: 2.2.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20740
+Filename: pool/main/m/miniflux/miniflux_2.2.13_aarch64.deb
+Size: 5268944
+MD5sum: 8ec3d123ffc0c81deada1f512ec048ec
+SHA1: 11c8cc47d428aa2dc9b01087ae7e7f7c9d95a064
+SHA256: 0ea684c72dab848a6912fa15a2483f0f4c4172f978bd2546b0f2561ebfd98cb5
+Homepage: https://miniflux.app/
+Description: A minimalist and opinionated feed reader
 
 Package: miniupnpc
 Version: 2.3.3-1
