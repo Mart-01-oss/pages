@@ -20472,6 +20472,19 @@ SHA256: ec16b2fdcdba81a0916ace4cab17bed90554bd1c7327efb94b0bf918684289ec
 Homepage: https://www.gnu.org/software/libunistring/
 Description: Static libraries for libunistring
 
+Package: libunqlite
+Version: 1.1.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Filename: pool/main/libu/libunqlite/libunqlite_1.1.9_aarch64.deb
+Size: 182000
+MD5sum: 02eb5a5e1afe29a0f7b5e3cf944063e2
+SHA1: 99bae8c481d379a6d33e8a8ba3438e54a5a3f3e7
+SHA256: 69db11e8cf87819f9abceb096c5369bc2b05e5e1fb2042191c1c5276c602eaec
+Homepage: https://unqlite.org/
+Description: Transactional embedded database engine
+
 Package: liburcu
 Version: 0.15.3-1
 Architecture: aarch64
@@ -21903,6 +21916,20 @@ SHA256: b1e3df8e8d9c2a8065231068e5dd6da04bb5632c897e934f68e9ea837b792947
 Homepage: https://libzip.org/
 Description: Library for reading, creating, and modifying zip archives
 
+Package: libzita-convolver
+Version: 4.0.3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: libc++, fftw
+Filename: pool/main/libz/libzita-convolver/libzita-convolver_4.0.3-2_aarch64.deb
+Size: 21652
+MD5sum: cfd05d10187eb871e040151407cbf1a6
+SHA1: 78f68671520fdf947e187528306ebb26523196fc
+SHA256: 6eda9b741d3f061ea50ace89832f29cdb75944ff6ea5f2bc9be371f18491336a
+Homepage: https://kokkinizita.linuxaudio.org/linuxaudio/
+Description: A real-time C++ convolution library
+
 Package: libzix
 Version: 0.6.2-1
 Architecture: aarch64
@@ -21946,6 +21973,120 @@ SHA256: a6d9a210bd46cacf02c58bac0b9a96438079c65bc0143f3b533a2a35cc48321d
 Homepage: https://zeromq.org/
 Description: Static libraries for libzmq
 
+Package: libzopfli
+Version: 1.0.3-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Depends: libc++
+Breaks: libzopfli-dev
+Replaces: libzopfli-dev
+Filename: pool/main/libz/libzopfli/libzopfli_1.0.3-5_aarch64.deb
+Size: 119092
+MD5sum: 8fd02f62c1ba978386955978eea03944
+SHA1: 1f59755e3442b193fc7d41f4528e6bd20fe1136e
+SHA256: 2ed5e1fb83a75b817f5872b337619ed4671bd6668793515e3f52e10d38001ca6
+Homepage: https://github.com/google/zopfli
+Description: New zlib compatible compressor library
+
+Package: libzxing-cpp
+Version: 2.3.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1604
+Depends: libc++
+Filename: pool/main/libz/libzxing-cpp/libzxing-cpp_2.3.0-3_aarch64.deb
+Size: 581948
+MD5sum: 24c238e376363fed9d9369144bc17a84
+SHA1: 729a51f7faf4bfb7a289c8ccf33fd280aa82b19a
+SHA256: 575b938b36299490cd4e6c5779af7eb3bd607c99b8b6c9e405c4aae7bcd08704
+Homepage: https://github.com/zxing-cpp/zxing-cpp
+Description: An open-source, multi-format 1D/2D barcode image processing library implemented in C++
+
+Package: lighttpd
+Version: 1.4.82
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1024
+Depends: libandroid-glob, libandroid-spawn, libbz2, libcrypt, openssl, pcre2, zlib
+Filename: pool/main/l/lighttpd/lighttpd_1.4.82_aarch64.deb
+Size: 262960
+MD5sum: b26c11c1f35dbe22644c0db6b042a1ac
+SHA1: 66991a6c914e20a09243f9c4552856d9c3a8520b
+SHA256: fca80ea23fa00375c95030ecbec1f069829e476c746a167508a60594d4363ab8
+Homepage: https://www.lighttpd.net
+Description: Fast webserver with minimal memory footprint
+
+Package: lilv
+Version: 0.24.26-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 320
+Depends: libsndfile, libzix, lv2, serd, sord, sratom
+Filename: pool/main/l/lilv/lilv_0.24.26-2_aarch64.deb
+Size: 57432
+MD5sum: 3baf2a9c98c63426e0739aafdf0b9532
+SHA1: 48fce99234c3ae632e79dfbff54586deb52d4179
+SHA256: 456099c86da5b330a196ea3229c6c476aa2252b081e883a5785ae6ff9c75f15a
+Homepage: https://drobilla.net/software/lilv.html
+Description: A C library to make the use of LV2 plugins as simple as possible for applications
+
+Package: links
+Version: 2.29-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5156
+Depends: brotli, fontconfig, freetype, glib, libbz2, libcairo, libevent, libjpeg-turbo, liblzma, libpng, librsvg, libtiff, libwebp, libx11, openssl, zlib, zstd
+Filename: pool/main/l/links/links_2.29-2_aarch64.deb
+Size: 2885500
+MD5sum: d9a21314a02ccf86058760fc400d474f
+SHA1: d5a5ff872386fecbca37bcca13e0aee77045ca32
+SHA256: 7270070f1c5b34209db6eab267bb5b97c32235573244b64412dbfce9e74dfbbd
+Homepage: http://links.twibright.com
+Description: Links is a text and graphics mode WWW browser
+
+Package: lipl
+Version: 0.1.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1076
+Filename: pool/main/l/lipl/lipl_0.1.3-1_aarch64.deb
+Size: 345984
+MD5sum: f95c80059551fef0678034d32ee47696
+SHA1: 863cae0f990933cebcdad0c71e56d0cf02c8d63c
+SHA256: 345f39fbfd9bdecc0a92dea8db7f45d552dccaecf94bf26e20aba1e2cfbc454f
+Homepage: https://github.com/yxdunc/lipl
+Description: A command line tool that is similar to watch but has extended functions for commands outputing a number
+
+Package: lit
+Version: 3.8.5-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 736
+Depends: luvi
+Suggests: luvit
+Filename: pool/main/l/lit/lit_3.8.5-3_aarch64.deb
+Size: 174808
+MD5sum: ebdf7ddd6289ce58eed013fc01ae4b82
+SHA1: f4308a6478aefec7a5c2db6ff4c5b1e1f2656ec5
+SHA256: bbf0cca84583940c01a1b6eec1e646b30570781a1497cd93b0a52b26879bfebf
+Homepage: https://luvit.io
+Description: Toolkit for developing, sharing, and running luvit/lua programs and libraries.
+
+Package: litespeedtest
+Version: 0.15.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 19852
+Depends: resolv-conf
+Filename: pool/main/l/litespeedtest/litespeedtest_0.15.0-3_aarch64.deb
+Size: 5412312
+MD5sum: 2694ab9a6dc8d18e68949b8039b8bff6
+SHA1: 755a9ea17b90379a9168993758f72d60d036014a
+SHA256: b3c937a111533f81bf491a9926c3f5a78e96c85ec6053962cd7f27fc0628adde
+Homepage: https://github.com/xxf098/LiteSpeedTest
+Description: A simple tool for batch test ss/ssr/v2ray/trojan servers
+
 Package: littlecms
 Version: 2.17-1
 Architecture: aarch64
@@ -21988,6 +22129,67 @@ SHA1: d03e1ce6a97b0fe3a8cc913cb213656b7afba022
 SHA256: e1db549c8f2f592acdc5388cd9a2b8ab27081182e1b9cfa3481d11ba9ffb206b
 Homepage: http://www.littlecms.com/
 Description: Color management utilities
+
+Package: llama-cpp
+Version: 0.0.0-b6604-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48040
+Depends: libc++, libcurl
+Suggests: llama-cpp-backend-vulkan, llama-cpp-backend-opencl
+Filename: pool/main/l/llama-cpp/llama-cpp_0.0.0-b6604-0_aarch64.deb
+Size: 5771740
+MD5sum: dd144fce60167e0cbec2aa57297f4d61
+SHA1: 31cfe00a90d8a93476704904d20c00bd32ba3c9a
+SHA256: c3925d2923c28a8c44b64caab0f49fb6f07bdf3d04f79537528127f5117d4009
+Homepage: https://github.com/ggml-org/llama.cpp
+Description: LLM inference in C/C++
+
+Package: llama-cpp-backend-opencl
+Version: 0.0.0-b6604-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 700
+Depends: llama-cpp (= 0.0.0-b6604-0)
+Recommends: ocl-icd
+Suggests: opencl-vendor-driver | clvk
+Filename: pool/main/l/llama-cpp-backend-opencl/llama-cpp-backend-opencl_0.0.0-b6604-0_aarch64.deb
+Size: 114636
+MD5sum: 5eb4bf5918f435bb631013e5384f422e
+SHA1: 6fbad957375e6f779e3c5215ff6691eae19ae4e4
+SHA256: 5a0fd551075363fa06ffac197daab6138a0cc05622cec37df95067d17cef34d4
+Homepage: https://github.com/ggml-org/llama.cpp
+Description: OpenCL Backend for LLaMA.cpp
+
+Package: llama-cpp-backend-vulkan
+Version: 0.0.0-b6604-0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 26260
+Depends: llama-cpp (= 0.0.0-b6604-0)
+Recommends: vulkan-loader
+Suggests: vulkan-loader-generic, mesa-vulkan-icd-freedreno
+Filename: pool/main/l/llama-cpp-backend-vulkan/llama-cpp-backend-vulkan_0.0.0-b6604-0_aarch64.deb
+Size: 2444088
+MD5sum: c8572aa16a407be25c80b3be6648560b
+SHA1: cb2eb3ce2f95f48d5526331ce3f15492c20b9272
+SHA256: 1c87973000119aea67d96faa1923a37a39ef4d175b02f03419d0bce35a41c956
+Homepage: https://github.com/ggml-org/llama.cpp
+Description: Vulkan Backend for LLaMA.cpp
+
+Package: llbuild
+Version: 6.1-1
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 2648
+Depends: libc++, libandroid-spawn, libsqlite
+Filename: pool/main/l/llbuild/llbuild_6.1-1_aarch64.deb
+Size: 486340
+MD5sum: f4b1ff1ab7170987043fe8da1efc3d2a
+SHA1: d978831a418c126f36b41a4583086b2022cc8947
+SHA256: dd40d72bb9e6ebf19ba909b33ef1cf17689f2cbc21cca17605eb4cad5aca483f
+Homepage: https://github.com/swiftlang/swift-llbuild
+Description: A low-level build system, used by the Swift Package Manager
 
 Package: lld
 Version: 20.1.8-3
@@ -22192,6 +22394,35 @@ SHA1: 03e1b74a75a68ebf149faefe53188ef80df48a73
 SHA256: 659d279c91dec7d54836e218064da87bc7801d4fdea30d6033884fa6ba6b0420
 Homepage: https://luajit.org/
 Description: Just-In-Time compiler for Lua - command line tool
+
+Package: luv
+Version: 1.51.0-1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: libluajit, libuv
+Filename: pool/main/l/luv/luv_1.51.0-1-1_aarch64.deb
+Size: 49496
+MD5sum: bafddf0a4f7a0a181c8cec4df131dffb
+SHA1: bf9e711d9085b282db8212907dcb718067f821b6
+SHA256: c41ad84957f00d103567c0705909fb117437faea9568cff33b5e4b178d3e98f5
+Homepage: https://github.com/luvit/luv
+Description: Bare libuv bindings for lua
+
+Package: luvi
+Version: 1:2.15.0-1
+Architecture: aarch64
+Maintainer: Komo @mbekkomo
+Installed-Size: 672
+Depends: libluajit, lua51-lpeg, luv, openssl, pcre2, zlib
+Suggests: lit, luvit
+Filename: pool/main/l/luvi/luvi_1+2.15.0-1_aarch64.deb
+Size: 161328
+MD5sum: 0388d36d962ef41ae94cd63633eec69a
+SHA1: f9f1af43c77eb4466890558ae6bab13e49995799
+SHA256: e670714d56edd5fde7092634bb4762b49b76bb8cf5c61169a54bb7267ed9346d
+Homepage: https://luvit.io
+Description: A project in-between luv and luvit
 
 Package: lv2
 Version: 1.18.10-5
@@ -24455,6 +24686,20 @@ SHA256: ceebf9f89f742309f6d330af30305ea871f256818a49547e990294ddb06a6eee
 Homepage: https://www.sqlite.org
 Description: Command line shell for SQLite
 
+Package: sratom
+Version: 0.6.18-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: lv2, serd, sord
+Filename: pool/main/s/sratom/sratom_0.6.18-1_aarch64.deb
+Size: 11144
+MD5sum: 1612e46e99ad941612434a8996bcd7d5
+SHA1: f9a87518508aa6208d595f3b8d25298c6b818888
+SHA256: f7df60a7a52c01483ff4efcc3d0b2e60fa3a3ac1f8b610242b8cc53be232e996
+Homepage: https://drobilla.net/software/sratom.html
+Description: A small library for serialising LV2 atoms to and from RDF
+
 Package: srt-tools
 Version: 1.5.4-1
 Architecture: aarch64
@@ -25644,6 +25889,20 @@ SHA1: efd895193a47aa6df693b52b8885f9d3935ae678
 SHA256: 97ba2bf60abacd70ffdbcd52be78c06e6021956d4596d6a7d90e3ffe51d388b1
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
+
+Package: zopfli
+Version: 1.0.3-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libzopfli (= 1.0.3-5)
+Filename: pool/main/z/zopfli/zopfli_1.0.3-5_aarch64.deb
+Size: 22272
+MD5sum: 76f8511946253fa6e729f2eb7c69ac37
+SHA1: 6f7e8bc131d0f6930f3492fdd8d0e9df9c124f20
+SHA256: 9d9c84acd340d79c436f44edaa42433aae36eb574c632d459c51be029e6220aa
+Homepage: https://github.com/google/zopfli
+Description: New zlib compatible compressor tools
 
 Package: zstd
 Version: 1.5.7-1
