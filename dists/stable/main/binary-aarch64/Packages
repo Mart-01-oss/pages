@@ -25833,6 +25833,36 @@ SHA256: 9552f16c8652b38cfdf7d165abeb8a4dde34595ced7a687a3a1f7f863661e8ac
 Homepage: https://nzbget.net/
 Description: The most efficient usenet downloader
 
+Package: oathtool
+Version: 2.6.12-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 916
+Depends: libxml2, xmlsec
+Breaks: oathtool-dev
+Replaces: oathtool-dev
+Filename: pool/main/o/oathtool/oathtool_2.6.12-2_aarch64.deb
+Size: 181216
+MD5sum: 56f21297752aef8335da35a92dca85f6
+SHA1: 5de801835936df9b81f8c219cd541591a80081fb
+SHA256: e11476cfee4195754ecf90b86fbb2213905f60f185653f05f3b0aa605e5726bf
+Homepage: http://www.nongnu.org/oath-toolkit/
+Description: One-time password components
+
+Package: oathtool-static
+Version: 2.6.12-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: oathtool (= 2.6.12-2)
+Filename: pool/main/o/oathtool-static/oathtool-static_2.6.12-2_aarch64.deb
+Size: 54368
+MD5sum: ec65fbc9cbe410329b65618bef4ec4a4
+SHA1: c3a04e21354dcea74d6877ddd91379fb754fc36e
+SHA256: e2919bcce9e9cfdb8cadb29e374e696e907f77add64c6da5188a9a2df879e0df
+Homepage: http://www.nongnu.org/oath-toolkit/
+Description: Static libraries for oathtool
+
 Package: ocl-icd
 Version: 2.3.4
 Architecture: aarch64
@@ -25845,6 +25875,66 @@ SHA1: 17a35d1bcd56be93482efa2b9162e5dcd420348e
 SHA256: c53abaeefd65f543d8195957f20c058b70a8624ad41b684f4d827f507141aada
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
+
+Package: ocrad
+Version: 0.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 368
+Depends: libc++, libpng
+Breaks: ocrad-dev
+Replaces: ocrad-dev
+Filename: pool/main/o/ocrad/ocrad_0.29-1_aarch64.deb
+Size: 111072
+MD5sum: ed0cfc9e2516271e2e084a72b2250fc9
+SHA1: 28f069e2a15431885b230219991f6f17e4297953
+SHA256: 4d3cac0a7f4dcff9c80ee90863f11db58349cdb02454e754dd74a258e1ec9842
+Homepage: https://www.gnu.org/software/ocrad/ocrad.html
+Description: Optical Character Recognition program based on a feature extraction method
+
+Package: ocrad-static
+Version: 0.29-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1088
+Depends: ocrad (= 0.29-1)
+Filename: pool/main/o/ocrad-static/ocrad-static_0.29-1_aarch64.deb
+Size: 154448
+MD5sum: 477882a42855e42ca07faf6b33c4873e
+SHA1: e877db50840cc68927b6167a87a9eed71570ecfa
+SHA256: c93f28237c34d506b362575b66eb8e9345b166e2d702230a5a17182e4761cf58
+Homepage: https://www.gnu.org/software/ocrad/ocrad.html
+Description: Static libraries for ocrad
+
+Package: octave
+Version: 9.4.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60708
+Depends: libandroid-complex-math, arpack-ng, clang, bzip2, fftw, fontconfig, freetype, glpk, graphicsmagick, libcurl, libhdf5, libiconv, libopenblas, libsndfile, make, openssl, pcre2, portaudio, qhull, qrupdate-ng, rapidjson, readline, suitesparse, sundials, zlib
+Recommends: gnuplot, less
+Conflicts: octave-x
+Filename: pool/main/o/octave/octave_9.4.0-2_aarch64.deb
+Size: 12911192
+MD5sum: eb4c79f25ade6eebde528c04cffe0ebb
+SHA1: 6bb2d59357e09bf9f2dd775e6b5242adc7d0a50f
+SHA256: 0ede8e3d35a2c215bbc990637c0007c7775465c6b5b62da18138d1a1b6ef0870
+Homepage: https://octave.org
+Description: GNU Octave is a high-level language, primarily intended for numerical computations. (only CLI)
+
+Package: octave-static
+Version: 9.4.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 124812
+Depends: octave (= 9.4.0-2)
+Filename: pool/main/o/octave-static/octave-static_9.4.0-2_aarch64.deb
+Size: 9800012
+MD5sum: f1454191f4a9b20bba3d492929f6e680
+SHA1: a6c9f9c0500160b65dccc1f116a71bbd87e90bf3
+SHA256: a8ed40c0341d5d518910effa242d50e85aa83a029adcdf332b53ca49cf17a549
+Homepage: https://octave.org
+Description: Static libraries for octave
 
 Package: octomap
 Version: 1.10.0-1
@@ -25873,6 +25963,113 @@ SHA1: 7a7cd54c5002059b80fd7d71b0633c9f3f13f685
 SHA256: a464bb67287b186225a11a17c9b0b8bd7e98c59280747582f4c00c57d070019f
 Homepage: https://github.com/OctoMap/octomap
 Description: Static libraries for octomap
+
+Package: odt2txt
+Version: 0.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: libiconv, libzip, zlib
+Filename: pool/main/o/odt2txt/odt2txt_0.5-5_aarch64.deb
+Size: 9468
+MD5sum: ec8976e604681340434e4ee7fce67e0a
+SHA1: b6ef43b518cbc24c8d3048dfaafbb7765baf51b9
+SHA256: 40161fcd6368dde0ce10c09fbaa17e510f45dae2501f783bb1e799dce95056cc
+Homepage: https://github.com/dstosberg/odt2txt
+Description: Simple converter from OpenDocument Text to plain text
+
+Package: oh-my-posh
+Version: 26.26.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18696
+Filename: pool/main/o/oh-my-posh/oh-my-posh_26.26.0_aarch64.deb
+Size: 4580208
+MD5sum: 1d7b7ab9b33d912181f6982ba3c4b69b
+SHA1: eb9a2d4480b6357aa14910fac75ac8888413ccc3
+SHA256: 43beae135c488e926e1d54cfcab896cc557336caa0a6e48a83a82d8dd0254b66
+Homepage: https://ohmyposh.dev
+Description: A prompt theme engine for any shell.
+
+Package: oidn
+Version: 2.3.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 54300
+Depends: libc++, libllvm, libtbb
+Filename: pool/main/o/oidn/oidn_2.3.3-1_aarch64.deb
+Size: 49239528
+MD5sum: 125c4fea3e45a375411adcbe6275a34c
+SHA1: ef1f2183510f33e16cef3944c6afbe9ed85ff96a
+SHA256: 2de003270b799e1ceeb422fbb5b5dac8de1fd6505a2ec58b1c62013279f371d9
+Homepage: https://www.openimagedenoise.org
+Description: Intel® Open Image Denoise library
+
+Package: okc-agents
+Version: 0.1.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3924
+Filename: pool/main/o/okc-agents/okc-agents_0.1.2-2_aarch64.deb
+Size: 771784
+MD5sum: 48e372baa17a326c0978355ae07cbd40
+SHA1: 043031598b8511ad97546dccf554075b02d7e182
+SHA256: bf82119566a836bec482216404268ade72fdabdec93cd14db1db56b817cf0f3a
+Homepage: https://github.com/DDoSolitary/okc-agents
+Description: OpenKeychain agents for GnuPG and OpenSSH
+
+Package: ol
+Version: 2.6-3
+Architecture: aarch64
+Maintainer: Yuriy Chumak <yuriy.chumak@mail.com>
+Installed-Size: 3688
+Filename: pool/main/o/ol/ol_2.6-3_aarch64.deb
+Size: 413540
+MD5sum: 23856df5ebb27b89ab5ad297eb19b504
+SHA1: 5a75ab17fdb94d3713e87731e4892dce4cc62188
+SHA256: 47684d9d24fdc021a43308650ebc6780dc534fdce8790b6f1830b381459fb70b
+Homepage: https://yuriy-chumak.github.io/ol/
+Description: Purely functional dialect of Lisp
+
+Package: oleo
+Version: 1.99.16-10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 972
+Depends: ncurses
+Filename: pool/main/o/oleo/oleo_1.99.16-10_aarch64.deb
+Size: 213144
+MD5sum: e6b1ec25608fdbb0b3f064f8b4441a1d
+SHA1: 478880fada4f30f5a6f8909c009fa411647987ff
+SHA256: 9bc0926a7e052b46a367be75f4c420a6a537d09a0ea2edecb1bae1688a8f7d59
+Homepage: https://www.gnu.org/software/oleo/
+Description: The GNU Spreadsheet
+
+Package: ollama
+Version: 0.12.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 31844
+Filename: pool/main/o/ollama/ollama_0.12.3_aarch64.deb
+Size: 7669128
+MD5sum: 6d609e035f155c800514fe778bb88673
+SHA1: 487aa90756ba9e57014bc94de002c9b28cb7177e
+SHA256: 7a4e26def884babf9f35eb17b30bc6be15deaf222ed86c1d1b6fd583ec2ddf8b
+Homepage: https://ollama.com/
+Description: Get up and running with large language models
+
+Package: onefetch
+Version: 2.25.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13252
+Filename: pool/main/o/onefetch/onefetch_2.25.0-1_aarch64.deb
+Size: 4463844
+MD5sum: 7deba22e024fd66b6a73e5fabf2275da
+SHA1: 54a562116f80a272b4532dd56d78c1d8445a3185
+SHA256: dd08730d91a506ece255c2fa43371c62ac62b2956cfb8e57c7e5979464bef11c
+Homepage: https://onefetch.dev/
+Description: A command-line Git information tool written in Rust
 
 Package: onigmo
 Version: 6.2.0-1
@@ -25927,6 +26124,34 @@ SHA1: bae1f37cce4d1a50396c1c19989701556cfa159d
 SHA256: a14f9ba02eb51f76a9df9331f550d68d3d0e692acebda740c44b7699de1c7395
 Homepage: https://github.com/kkos/oniguruma
 Description: Static libraries for oniguruma
+
+Package: oorexx
+Version: 4.2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4276
+Depends: libandroid-posix-semaphore, libandroid-wordexp, libc++, libcrypt
+Filename: pool/main/o/oorexx/oorexx_4.2.0-4_aarch64.deb
+Size: 645936
+MD5sum: 7cfd02edc34798cfa9748656d363d269
+SHA1: b2952fa126c0df52c52d5d27d842777b94775b98
+SHA256: 08a497f0d209361e3e6fd5ddccefb62d76077e244970b67cc03432710776acd1
+Homepage: https://www.oorexx.org/
+Description: Open Object Rexx
+
+Package: oorexx-static
+Version: 4.2.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9064
+Depends: oorexx (= 4.2.0-4)
+Filename: pool/main/o/oorexx-static/oorexx-static_4.2.0-4_aarch64.deb
+Size: 676668
+MD5sum: 5fbbfac3faa0a1ed79c426145469fee3
+SHA1: f73494926a61538e41818d72fc36a0535d9aabad
+SHA256: e767b9d625ac9ceb2d1181fb2f6fa4c5789472acf5017246c4b7201720f92b1b
+Homepage: https://www.oorexx.org/
+Description: Static libraries for oorexx
 
 Package: openal-soft
 Version: 1.24.3
@@ -26701,6 +26926,34 @@ SHA256: 43a730c7e31db3888e9e09598aa235421c207026fa397a002bf95c3f4f23de66
 Homepage: https://poppler.freedesktop.org/
 Description: PDF rendering library
 
+Package: portaudio
+Version: 19.07.00-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 332
+Depends: libc++
+Filename: pool/main/p/portaudio/portaudio_19.07.00-3_aarch64.deb
+Size: 61560
+MD5sum: ed9309d4e6aa3babe6584657f543bd35
+SHA1: ce2820084904e34e1b8a64909b3d00b08a23a328
+SHA256: 758e148ca583216cfc1299ed3ce403de4de3d0253590201d8d31800844c8ab3b
+Homepage: https://www.portaudio.com/
+Description: A portable audio I/O library
+
+Package: portaudio-static
+Version: 19.07.00-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 268
+Depends: portaudio (= 19.07.00-3)
+Filename: pool/main/p/portaudio-static/portaudio-static_19.07.00-3_aarch64.deb
+Size: 41004
+MD5sum: 367faeb4005b69be9268fbef73bfd13e
+SHA1: fc0a67e50f69e6998d2da8c25c09f74b3a8f22df
+SHA256: 38ef0f1a8618f72060c46720333de3fdc82b64942a86ced9ee2f788801d84b55
+Homepage: https://www.portaudio.com/
+Description: Static libraries for portaudio
+
 Package: postgresql
 Version: 17.0-4
 Architecture: aarch64
@@ -27162,6 +27415,47 @@ SHA1: 08d20c53d964de60fc1fe1c6bbd3eeedec09f14b
 SHA256: 52d8b79bca68567220acbb78f6489ef7f71fb3e0ee0fccfcfcd5e36ca565e714
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
+
+Package: qhull
+Version: 8.1-alpha3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4640
+Filename: pool/main/q/qhull/qhull_8.1-alpha3-2_aarch64.deb
+Size: 647868
+MD5sum: c41b968327ab8c343d6838211c31d508
+SHA1: 41ead0d780699b1b3d6547a2810273abd621c239
+SHA256: 7281b3e45ee6c27456ab47864201f27db6ab4a26766045a92b447a96f6746068
+Homepage: http://www.qhull.org
+Description: Calculate convex hulls and related structures
+
+Package: qhull-static
+Version: 8.1-alpha3-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1828
+Depends: qhull (= 8.1-alpha3-2)
+Filename: pool/main/q/qhull-static/qhull-static_8.1-alpha3-2_aarch64.deb
+Size: 337688
+MD5sum: e0ecfe86b012f6a811eb98b0f7dac4a5
+SHA1: f8550d3c7b4e9824a92e81fc5f02bf5fb598b6a1
+SHA256: 377062471e2dd063fa97084ad677be6556598ef5d0523e9593bf72c44c9e8daf
+Homepage: http://www.qhull.org
+Description: Static libraries for qhull
+
+Package: qrupdate-ng
+Version: 1.1.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 732
+Depends: libopenblas
+Filename: pool/main/q/qrupdate-ng/qrupdate-ng_1.1.5-1_aarch64.deb
+Size: 147344
+MD5sum: d433c876b92ba140ad4ff28c9cc35dee
+SHA1: 2e9c158d2be450b6d7ff6a8ec5acc16d64f9d231
+SHA256: 8f574f307e5ac22467d5c4eb74948fdbfaffa9125332769aada817eb1ea1a213
+Homepage: https://github.com/mpimd-csc/qrupdate-ng
+Description: A Library for Fast Updating of QR and Cholesky Decompositions.
 
 Package: quickjs
 Version: 1:20250426-1
@@ -27751,6 +28045,63 @@ SHA1: 95df227bac911fda4172bfd8b3466e8017549339
 SHA256: 2bd682c6275d386f12a03859260a84a878c3e74b966b6790c4949d8933e38cae
 Homepage: https://subversion.apache.org
 Description: Static libraries for subversion
+
+Package: suitesparse
+Version: 7.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 55836
+Depends: libandroid-complex-math, libgmp, libmpfr, libopenblas
+Breaks: sundials (<< 7.1.1-2), octave (<< 8.4.0-6), octave-x (<< 8.4.0-5)
+Filename: pool/main/s/suitesparse/suitesparse_7.9.0-1_aarch64.deb
+Size: 7302140
+MD5sum: d588f3b003bd810c50ab052b077a7bce
+SHA1: 3662427990b0256aed0fb14c88bd2d2e01b7342c
+SHA256: 88d0418930fb4515edbc42caa5c292bf1ca4e23f4cf564c2a1a044801be99c33
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: A Suite of Sparse matrix packages.
+
+Package: suitesparse-static
+Version: 7.9.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7188
+Depends: suitesparse (= 7.9.0-1)
+Filename: pool/main/s/suitesparse-static/suitesparse-static_7.9.0-1_aarch64.deb
+Size: 1293588
+MD5sum: 59d940f53e327bca803aae8585759045
+SHA1: 00b6a00ec26883d0d5e9ee1cd63feab17a8a7e64
+SHA256: 609595c00bd4f2cd11c33fd934164ca20f13e5a640fdc3b518f2b2d45dc9465e
+Homepage: https://github.com/DrTimothyAldenDavis/SuiteSparse
+Description: Static libraries for suitesparse
+
+Package: sundials
+Version: 7.4.0-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 4076
+Depends: suitesparse
+Filename: pool/main/s/sundials/sundials_7.4.0-1_aarch64.deb
+Size: 752144
+MD5sum: 3aafe0821de04adfd4723feee29c98d8
+SHA1: a1c69a0248c87daf78fa4593094e72b3b37cbb84
+SHA256: 8f8ed764d7a53bc3b9d904835d971a13f2b1d9b7f9f44d1b1fb0d9dd85d2401d
+Homepage: https://computing.llnl.gov/projects/sundials
+Description: SUite of Nonlinear and DIfferential/ALgebraic equation Solvers.
+
+Package: sundials-static
+Version: 7.4.0-1
+Architecture: aarch64
+Maintainer: @termux-user-repository
+Installed-Size: 3920
+Depends: sundials (= 7.4.0-1)
+Filename: pool/main/s/sundials-static/sundials-static_7.4.0-1_aarch64.deb
+Size: 463176
+MD5sum: b8e2ddfec1faba3c7d5da0a2c7b1f2eb
+SHA1: 48106972c7adbaecfd0a15f3243dc49c3640ec25
+SHA256: e2819d4456f14f66dea90c391c535c30c04cef20cc83541e4f66c4de593768c9
+Homepage: https://computing.llnl.gov/projects/sundials
+Description: Static libraries for sundials
 
 Package: svt-av1
 Version: 3.1.2
@@ -28635,6 +28986,26 @@ SHA256: 309437db3588505a21e0c93843923639aa9d40f40b3306b0760d1f5e1aec547c
 Homepage: https://www.vamp-plugins.org/
 Description: Static libraries for vamp-plugin-sdk
 
+Package: vim
+Version: 9.1.1750
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 33888
+Depends: libiconv, ncurses
+Recommends: diffutils, xxd
+Suggests: libluajit, perl, python, ruby, tcl
+Conflicts: vim-gtk
+Breaks: vim-python, vim-runtime
+Replaces: vim-python, vim-runtime
+Provides: vim-python
+Filename: pool/main/v/vim/vim_9.1.1750_aarch64.deb
+Size: 6517468
+MD5sum: 8998cfdeabcb3fddcd1050a5c2acc4e6
+SHA1: 36440d749d382af91c436e52182a845ea3943dcd
+SHA256: 9bf83acd594b0372cd522e7d2f75e9d1449c4c38a8ebba3b0d6f0eeb45de8673
+Homepage: https://www.vim.org
+Description: Vi IMproved - enhanced vi editor
+
 Package: vulkan-headers
 Version: 1.4.328
 Architecture: all
@@ -28821,6 +29192,36 @@ SHA256: 5fd7ce0272336b1bf33459f82612c9407e3972a50ddbd6c9addbdaa1c64f8bc8
 Homepage: https://xcb.freedesktop.org/
 Description: XML-XCB protocol descriptions
 
+Package: xmlsec
+Version: 1.3.7-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5396
+Depends: libgcrypt, libxml2, libnspr, libnss, libxslt, openssl
+Breaks: xmlsec-dev
+Replaces: xmlsec-dev
+Filename: pool/main/x/xmlsec/xmlsec_1.3.7-3_aarch64.deb
+Size: 559908
+MD5sum: 12ff886f99ccf20886f085751cf747c5
+SHA1: 6585e5ff6deaf7c29dba7f97606ac8e8026f3907
+SHA256: 860c553e5c6cf15f56f69c51ac285cb09dca93740cdb598318d18d09c4bb6f70
+Homepage: https://www.aleksey.com/xmlsec/
+Description: XML Security Library
+
+Package: xmlsec-static
+Version: 1.3.7-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2600
+Depends: xmlsec (= 1.3.7-3)
+Filename: pool/main/x/xmlsec-static/xmlsec-static_1.3.7-3_aarch64.deb
+Size: 302196
+MD5sum: bc806f948074cc3e4f05b10d09120078
+SHA1: 255031e2ec41fed7828fdf38db924c0a5b3cc68c
+SHA256: f109a59609a71f56b69975f1d7c1c5c9671ef5c8a4378b343ea6f478fdaa2dd1
+Homepage: https://www.aleksey.com/xmlsec/
+Description: Static libraries for xmlsec
+
 Package: xorg-util-macros
 Version: 1.20.2
 Architecture: all
@@ -28905,6 +29306,19 @@ SHA1: 3b287b964cb937205297861ef87d9d808e7e282e
 SHA256: cbc1f1fbca5c70794120894b3766fdbaa490dfdf1705caf571bf47253c024136
 Homepage: https://www.xvid.com/
 Description: Static libraries for xvidcore
+
+Package: xxd
+Version: 9.1.1750
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 68
+Filename: pool/main/x/xxd/xxd_9.1.1750_aarch64.deb
+Size: 13120
+MD5sum: 7c24add08514015074d0ab01800c8934
+SHA1: 0308924c60ed72ff34d2ba8388eca2b74e7d96f0
+SHA256: ae3ed2bd924ae28525b5886b3bec524b3f87d26940e9601a12fc44b0c1a4259f
+Homepage: https://www.vim.org
+Description: Hexdump utility from vim
 
 Package: xxhash
 Version: 0.8.3-1
