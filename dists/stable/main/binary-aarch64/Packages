@@ -28353,6 +28353,20 @@ SHA256: 2092c4c9754ece306bfcabfc2bc97476967bd62bd6807c33ab00c6b76dc3a322
 Homepage: https://github.com/radare/posixvala
 Description: Aims to bring back the posix profile for Vala
 
+Package: postgis
+Version: 3.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42208
+Depends: gdal, json-c, libc++, libgeos, libiconv, libprotobuf-c, libxml2, pcre2, postgresql, proj
+Filename: pool/main/p/postgis/postgis_3.6.0-1_aarch64.deb
+Size: 1826940
+MD5sum: 6e90f5e9411e0090c355f8b440b281b0
+SHA1: 21b8a0daae27811f1c1770fce119ed4cc4885485
+SHA256: 3f19b5883f51fd9e0b6de97e0eed9c4f6589b7ef89afacd21e1f5b763cb846f1
+Homepage: https://postgis.net
+Description: Spatial database extender for PostgreSQL object-relational database
+
 Package: postgresql
 Version: 17.0-4
 Architecture: aarch64
@@ -28382,6 +28396,105 @@ SHA1: b4c0c8717fac745d452f50075339e65ed509c1c5
 SHA256: ad817ffa71387f0b390a8934d6a0dd6fbb413a242fba6ff6effdac26cd8a248d
 Homepage: https://www.postgresql.org
 Description: Static libraries for postgresql
+
+Package: potrace
+Version: 1.16-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 232
+Depends: zlib
+Filename: pool/main/p/potrace/potrace_1.16-2_aarch64.deb
+Size: 73368
+MD5sum: d1f043bf7b2ac7ff9b467e1a38821617
+SHA1: abb45edafd9ea77a039c0ccb07d7257e2100de64
+SHA256: 88c31d247546716a02f27ba0fc9b1270eb898d3682b65eb664086c864c7ccc86
+Homepage: https://potrace.sourceforge.net
+Description: Tool for transforming a bitmap into a smooth, scalable image
+
+Package: potrace-static
+Version: 1.16-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: potrace (= 1.16-2)
+Filename: pool/main/p/potrace-static/potrace-static_1.16-2_aarch64.deb
+Size: 12204
+MD5sum: 274d8afc9a891b8c5ff4b2187ac081a4
+SHA1: 52e9de735a60f26bef715907dec7ec22ef272fc3
+SHA256: 12af456cd4f8aa33c0680768b909f441fb46b7d27d38e674f8ab168703d15893
+Homepage: https://potrace.sourceforge.net
+Description: Static libraries for potrace
+
+Package: pounce
+Version: 3.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 132
+Depends: libcrypt, libretls
+Filename: pool/main/p/pounce/pounce_3.1-1_aarch64.deb
+Size: 30388
+MD5sum: 3f3b04e9e79d4b284a7647358b009ebc
+SHA1: 625f1f018377b00bd5c668968a476578828b95b6
+SHA256: e2002ff51f10be569a96ea05f8fff323d379e3989c52ac74b302b9a4983824f3
+Homepage: https://git.causal.agency/pounce
+Description: A multi-client, TLS-only IRC bouncer
+
+Package: povray
+Version: 3.8.0-beta.2-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2560
+Depends: boost, imath, libc++, libjpeg-turbo, libpng, libtiff, openexr, povray-data, zlib
+Filename: pool/main/p/povray/povray_3.8.0-beta.2-15_aarch64.deb
+Size: 735600
+MD5sum: b7d7aa9e1f60217a1400976f70fc7ea0
+SHA1: 6b24ceac7976363eaf53a9cbae25dd815cd88523
+SHA256: b8391ea79a6d40944a67a802e8150beb7e59a06d24032e5d66dd3242eb1a803b
+Homepage: https://www.povray.org/
+Description: The Persistence of Vision Raytracer
+
+Package: povray-data
+Version: 3.8.0-beta.2-15
+Architecture: all
+Maintainer: @termux
+Installed-Size: 23064
+Breaks: povray (<< 3.8.0-beta.2-2)
+Replaces: povray (<< 3.8.0-beta.2-2)
+Filename: pool/main/p/povray-data/povray-data_3.8.0-beta.2-15_all.deb
+Size: 10357816
+MD5sum: cae379572086f1179cb380cf04cc808b
+SHA1: f2c1ed9bd53457686aae771e5cab20aaaff38ad0
+SHA256: 6092e640a17b34eb59e52f07973bd33b87fcc5e86d5d1e7c3e5c97972bb2ffa3
+Homepage: https://www.povray.org/
+Description: Platform-independent data for povray
+
+Package: predict
+Version: 2.3.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1708
+Depends: ncurses, ncurses-ui-libs,play-audio,wget
+Filename: pool/main/p/predict/predict_2.3.1-3_aarch64.deb
+Size: 1247112
+MD5sum: 86f6b1b90196d8b307699ae2feb8f704
+SHA1: e25f26fe2cd428628b714c77f722bb447ab8e7b2
+SHA256: fab0b267298f6b4ef8a0e0cbd2a0031f7f19af38709fe015e382287eed9683d0
+Homepage: https://www.qsl.net/kd2bd/predict.html
+Description: A Satellite Tracking/Orbital Prediction Program
+
+Package: privoxy
+Version: 4.0.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2492
+Depends: pcre, libpcreposix, zlib
+Filename: pool/main/p/privoxy/privoxy_4.0.0_aarch64.deb
+Size: 509940
+MD5sum: 3db9c8b4d417bc37606a7735bc08001a
+SHA1: db0f5d2a5d0203fc289dbb31ff2f760c1e6c2192
+SHA256: 42a4b9a3382f2ec5c3ccdaca52074cb52cfd67c762c7569852cefc38d03f367f
+Homepage: https://www.privoxy.org
+Description: Non-caching web proxy with advanced filtering capabilities
 
 Package: procps
 Version: 3.3.17-6
@@ -28413,6 +28526,63 @@ SHA1: 2af6e18c14979ec30abe798d5af5a8ee91db7077
 SHA256: 6d0c5be908cac3996883796e3e86a3d7bb666bbc26edbac9fe49555a002c0e88
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
+
+Package: procs
+Version: 0.14.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4924
+Filename: pool/main/p/procs/procs_0.14.10-1_aarch64.deb
+Size: 1370356
+MD5sum: 79baaee2761b28632fd1d9366c82efe6
+SHA1: 94798946606f5f7479f6d88594e71c86cc559c2d
+SHA256: ea5dd575decd09251a6ad25045b846b5b14a006abb0c5e86bd7898623a1bdabc
+Homepage: https://github.com/dalance/procs
+Description: A modern replacement for ps
+
+Package: procyon-decompiler
+Version: 0.6.0-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2028
+Depends: openjdk-21
+Filename: pool/main/p/procyon-decompiler/procyon-decompiler_0.6.0-2_all.deb
+Size: 1847908
+MD5sum: f0661e698aec2a1b2913a2a772acbc49
+SHA1: 5c782bc53c50fcf9d4f63e1e9af9415d99bbf668
+SHA256: 908695b9c649657d31c8ebfd7b9d900a9ac22fd5e36e5fd88426b4c142a2cef6
+Homepage: https://github.com/mstrobel/procyon
+Description: A standalone front-end for the Java decompiler in Procyon Compiler Toolset
+
+Package: profanity
+Version: 0.15.1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 2108
+Depends: glib, gpgme, libandroid-support, libassuan, libcurl, libgcrypt, libgpg-error, libotr, libsignal-protocol-c, libsqlite, libstrophe, ncurses, python, readline
+Breaks: profanity-dev
+Replaces: profanity-dev
+Filename: pool/main/p/profanity/profanity_0.15.1_aarch64.deb
+Size: 395024
+MD5sum: 15bf80815b3a06c3738ea72207dd054b
+SHA1: d02c8f3e478c5b32933944172588912596a36368
+SHA256: d67b0184cfdae964a305fa109a59d09c22d676d03611521aeaab8f3fcd6fe8d5
+Homepage: https://profanity-im.github.io
+Description: Profanity is a console based XMPP client written in C using ncurses and libstrophe, inspired by Irssi
+
+Package: progress
+Version: 0.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Depends: libandroid-wordexp, ncurses
+Filename: pool/main/p/progress/progress_0.17-1_aarch64.deb
+Size: 11228
+MD5sum: 72df9d54f8e98ded75e5c67d8e78f3cf
+SHA1: 6caace1b562436e4cf2e1dd9a1e0840e9f003f0b
+SHA256: 41e16f077981a84620d88dc043131f594c16d681cae68ac747addff84f925eb3
+Homepage: https://github.com/Xfennec/progress
+Description: Linux tool to show progress for cp, mv, dd and more
 
 Package: proj
 Version: 9.7.0
