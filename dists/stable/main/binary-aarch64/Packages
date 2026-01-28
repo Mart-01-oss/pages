@@ -22711,6 +22711,20 @@ SHA256: 659d279c91dec7d54836e218064da87bc7801d4fdea30d6033884fa6ba6b0420
 Homepage: https://luajit.org/
 Description: Just-In-Time compiler for Lua - command line tool
 
+Package: luarocks
+Version: 3.12.2-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1068
+Depends: curl, lua51
+Filename: pool/main/l/luarocks/luarocks_3.12.2-1_all.deb
+Size: 125892
+MD5sum: e5f15623555e406028fc616079b15040
+SHA1: da680bd4d5c465c3a3c43e694729f317f965131c
+SHA256: 29a81ee73bedff268e25136a7611d57e484eb2eaf97f347a98c74f37ab9679a3
+Homepage: https://luarocks.org/
+Description: Deployment and management system for Lua modules
+
 Package: luv
 Version: 1.51.0-1-1
 Architecture: aarch64
@@ -23261,6 +23275,19 @@ SHA256: 2a1ea011433bd414dc51f823ea47b07995da5001497a4cf7c1af2fd4153db858
 Homepage: https://maxima.sourceforge.io/
 Description: A Computer Algebra System
 
+Package: mazter
+Version: 2022.08.13-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1216
+Filename: pool/main/m/mazter/mazter_2022.08.13-1_aarch64.deb
+Size: 407352
+MD5sum: b8845d96ef1be1bac978ea8ee0600c68
+SHA1: 186fb875c8236b657bd03ae7764e2ad3dba522f1
+SHA256: 39ada6062d67ad4f8ea8eab324b587ae488800285bbd7c11f228679cc7d0edae
+Homepage: https://github.com/Canop/mazter
+Description: Mazes in your terminal
+
 Package: mbedtls
 Version: 3.6.4-1
 Architecture: aarch64
@@ -23289,6 +23316,152 @@ SHA1: 09ff4a8ef19e8fb49db34e32100f24618c0da0ca
 SHA256: 4de1300102037616d5cd9ea8ee0555ceb34e3481ca30e6570f65a45de87cddc2
 Homepage: https://www.trustedfirmware.org/projects/mbed-tls/
 Description: Static libraries for mbedtls
+
+Package: mc
+Version: 4.8.33-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3176
+Depends: glib, libandroid-support, libssh2, ncurses, which
+Filename: pool/main/m/mc/mc_4.8.33-2_aarch64.deb
+Size: 613836
+MD5sum: ea610a6adc4682dd0ce9811d7d2e35ac
+SHA1: 0735a6ae2ed2b8429ea72fa8646f15028c0218c0
+SHA256: e1f36667f0777a93fc726b3922baa7500b1c8cd5d4ca9fbb324ca8c2a114aa37
+Homepage: https://midnight-commander.org
+Description: Midnight Commander - a powerful file manager
+
+Package: mcfly
+Version: 0.9.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3692
+Filename: pool/main/m/mcfly/mcfly_0.9.3-1_aarch64.deb
+Size: 1345344
+MD5sum: 04f100422b49576e376f738a6b35ce22
+SHA1: 0f2e95dcb5679c9be51b88bbc98eb45bb583e429
+SHA256: 33bf6247fecfeffb4f4fde86695a5677c5280661afdfb0476bc8e467982eb605
+Homepage: https://github.com/cantino/mcfly
+Description: Replaces your default ctrl-r shell history search with an intelligent search engine
+
+Package: mdbook
+Version: 0.4.52-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10296
+Filename: pool/main/m/mdbook/mdbook_0.4.52-1_aarch64.deb
+Size: 3098112
+MD5sum: 0a4354b19a35613a1a97cb0e6100eb58
+SHA1: 6da69812f0e24261320776e5b3485072c6a60e7b
+SHA256: e83d249d0c5ce63817a24a1748e321765b9d91493b90f4403688057ce9e6e4b8
+Homepage: https://rust-lang.github.io/mdBook/
+Description: Creates book from markdown files
+
+Package: mdbook-auto-gen-summary
+Version: 0.1.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7060
+Filename: pool/main/m/mdbook-auto-gen-summary/mdbook-auto-gen-summary_0.1.10_aarch64.deb
+Size: 2251772
+MD5sum: 03e424b10cc08964db3d265d4688d74e
+SHA1: 04a32d8d9a4a9f43cada726323e0082c76fcfbf2
+SHA256: e23e84f0328a0e71386f0c0c23e52c3855a5b41461c56e5fcdcb457798477e3c
+Homepage: https://github.com/cococolanosugar/mdbook-auto-gen-summary
+Description: A preprocessor and cli tool for mdbook to auto generate summary
+
+Package: mdbook-cat-prep
+Version: 1.0.9
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1464
+Filename: pool/main/m/mdbook-cat-prep/mdbook-cat-prep_1.0.9_aarch64.deb
+Size: 473372
+MD5sum: 04196d4366fa38a83b891dcb79739e49
+SHA1: 905bac3c65f91feb1e5529e41598407d851b59b4
+SHA256: 565d0424803353b14ac521796bc1405a773da6af99a2d5b589f3fca8a7743faa
+Homepage: https://github.com/gjk-cat/cat-prep
+Description: A preprocessor for mdbook which provides teacher, subject, material and tag functionality
+
+Package: mdbook-epub
+Version: 0.4.48-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8880
+Filename: pool/main/m/mdbook-epub/mdbook-epub_0.4.48-1_aarch64.deb
+Size: 3201396
+MD5sum: 9cc86eec702bcf653199b811e1cad4ef
+SHA1: f1257824920583a6dc60bd3b5107239689c5f68f
+SHA256: 6848393c48313e1b8c11efd0bb539774fba03a2fc4eb3169da4ac70e61729062
+Homepage: https://github.com/Michael-F-Bryan/mdbook-epub
+Description: An EPUB renderer for mdbook
+
+Package: mdbook-graphviz
+Version: 0.2.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3524
+Depends: graphviz
+Filename: pool/main/m/mdbook-graphviz/mdbook-graphviz_0.2.1-2_aarch64.deb
+Size: 936392
+MD5sum: f574ca6ab6c9f75dfc262db8e27418ff
+SHA1: a008b078128592f9ec460b19e78450ae9d2ccf06
+SHA256: 806bf0b729fcc70b17724b3727e1a59b258de988f659f3b7d6ab34e88003e0e0
+Homepage: https://github.com/dylanowen/mdbook-graphviz
+Description: mdbook preprocessor to add graphviz support
+
+Package: mdbook-katex
+Version: 0.9.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3240
+Filename: pool/main/m/mdbook-katex/mdbook-katex_0.9.4-1_aarch64.deb
+Size: 917824
+MD5sum: b0bbc8df61da1b7429b2f41bbdceaa4f
+SHA1: 750a6b1c0be604321c364b4fa79b7a59207a091e
+SHA256: 968916fa0659da3bd022f1aa80ed8bf803f326b278e5ac28df1b232801f8be88
+Homepage: https://github.com/lzanini/mdbook-katex
+Description: A preprocessor for mdBook, pre-rendering LaTex equations to HTML at build time
+
+Package: mdbook-linkcheck
+Version: 0.7.7-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8612
+Depends: openssl
+Filename: pool/main/m/mdbook-linkcheck/mdbook-linkcheck_0.7.7-2_aarch64.deb
+Size: 2691732
+MD5sum: 56c105237a37c1fb09b04f0efad571f1
+SHA1: ba73a1d1f0909a7dc68c48188c73182b2e4ef27c
+SHA256: d5bb301363537a85813caba007842749ee89003542ccc1f2f85c05a46c1fc108
+Homepage: https://michael-f-bryan.github.io/mdbook-linkcheck/
+Description: A backend for mdbook which will check your links for you
+
+Package: mdbook-mermaid
+Version: 0.16.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6196
+Filename: pool/main/m/mdbook-mermaid/mdbook-mermaid_0.16.0_aarch64.deb
+Size: 1545228
+MD5sum: 8451e16630618f68bc84fb1b012f19b8
+SHA1: f545b5ecc8225ab92f169ae391942a429d0b015f
+SHA256: 1c7b435a38ba97864aa53f89e52c729db3a382acac266ecf8ae31cdf13064490
+Homepage: https://github.com/badboy/mdbook-mermaid
+Description: A preprocessor for mdbook to add mermaid support
+
+Package: mdbook-open-on-gh
+Version: 2.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2760
+Filename: pool/main/m/mdbook-open-on-gh/mdbook-open-on-gh_2.4.3-1_aarch64.deb
+Size: 740900
+MD5sum: acec3c3cd0cb2d76cd97297d31aab1ca
+SHA1: 2ed263696126acfb77073dbc26947e2e689aa571
+SHA256: bf124b588f8027c1f50f395a1712118ffd3e07eb6d8a21d66181e1fc20a25f70
+Homepage: https://github.com/badboy/mdbook-open-on-gh
+Description: A preprocessor for mdbook to add a open-on-github link on every page
 
 Package: media-types
 Version: 13.0.0
@@ -26448,6 +26621,20 @@ SHA1: 5b75b9870af68ef8bc751c615033d66e1fde7467
 SHA256: 389840dbaffffcc4cd21404be7f1bf44dcfabae8f990ad45b3c4c951fab02fdd
 Homepage: https://www.gnu.org/software/wget/
 Description: Commandline tool for retrieving files using HTTP, HTTPS and FTP
+
+Package: which
+Version: 2.23-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Conflicts: debianutils (<< 5.7-1)
+Filename: pool/main/w/which/which_2.23-1_aarch64.deb
+Size: 12508
+MD5sum: b1d60bce82836cb0e7e059571beeb2b3
+SHA1: ff7a76fe87d5060018deea24642e1aa2df2f9ca9
+SHA256: 35aad2371f735057125c605d803d2225b8777607615a75844c1a6d342f8aa641
+Homepage: https://savannah.gnu.org/projects/which/
+Description: Shows the full path of (shell) commands
 
 Package: whiptail
 Version: 0.52.25-1
