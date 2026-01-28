@@ -23668,6 +23668,20 @@ SHA256: 057f572d96990b8157615cf7d26c6d2a2811d9aec4a5713527737b0008566fff
 Homepage: https://github.com/bluenviron/mediamtx
 Description: Ready-to-use SRT / WebRTC / RTSP / RTMP / LL-HLS media server and media proxy
 
+Package: megatools
+Version: 1.11.5.20250706-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 248
+Depends: glib, libandroid-support, libcurl, openssl
+Filename: pool/main/m/megatools/megatools_1.11.5.20250706-1_aarch64.deb
+Size: 71408
+MD5sum: b4aa695bd106a9de84792e2b24be221f
+SHA1: e107876c9fdbbe1b83aa6b6d1089fdec432180fe
+SHA256: 40dd8010891b2c61e282c367e39b6c47faea801399f92976362c3b8734ab9c16
+Homepage: https://xff.cz/megatools/
+Description: Open-source command line tools and C library (libmega) for accessing Mega.co.nz cloud storage
+
 Package: memcached
 Version: 1.6.39-1
 Architecture: aarch64
@@ -24389,6 +24403,75 @@ SHA256: a42fc6a20c141e17a70b7f630da4a0bd75299bbbaa728b7dfcd51ed3b9bc1814
 Homepage: https://tomclegg.ca/mp3cat
 Description: Copies a byte stream, skipping everything except mp3 frames with valid headers
 
+Package: mp3cat-go
+Version: 4.2.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2016
+Conflicts: mp3cat
+Filename: pool/main/m/mp3cat-go/mp3cat-go_4.2.2-3_aarch64.deb
+Size: 580284
+MD5sum: 7e42ce4139376e62c4e4367fe97985f6
+SHA1: 3cde143c82ab5fe713fd35de232dd27169d55909
+SHA256: f29cc8e99cae93b1dd01d555f7a8e6e620ab5b3de3e932174cf7ab407f3acda6
+Homepage: https://www.dmulholl.com/dev/mp3cat.html
+Description: A command line utility for joining MP3 files.
+
+Package: mp3gain
+Version: 1.6.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Depends: libmpg123
+Filename: pool/main/m/mp3gain/mp3gain_1.6.2-2_aarch64.deb
+Size: 26856
+MD5sum: 6a445e15bdff2d58da06afbf80171066
+SHA1: 0c98998034293b1e9e48f8e892fa87743a4f519a
+SHA256: 7fb14c0f85ecbf4e281fc1a93286f3f51d77a1a347f281ccc39bafa0d0600274
+Homepage: https://mp3gain.sourceforge.net/
+Description: Analyzes and adjusts mp3 files so that they have the same volume
+
+Package: mp3splt
+Version: 2.6.2-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 108
+Depends: libmp3splt
+Filename: pool/main/m/mp3splt/mp3splt_2.6.2-2_aarch64.deb
+Size: 28924
+MD5sum: 5e729d76d4f9a472a9739f8f115fa42f
+SHA1: 260f7c31eb0fbe64336c3d2dd2ee4ee72aefc746
+SHA256: 13b64b9e473ad2aa44fc528bcbede98f67cf4991f875e072b45e88ca5b29c050
+Homepage: https://mp3splt.sourceforge.net
+Description: Utility to split mp3, ogg vorbis and FLAC files without decoding
+
+Package: mp3wrap
+Version: 0.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Filename: pool/main/m/mp3wrap/mp3wrap_0.5-2_aarch64.deb
+Size: 7044
+MD5sum: 232fd6d54a84441517007d725e3099c4
+SHA1: c164a59fb29587fb3665cf6aa31cea0c2f21e9af
+SHA256: dce65d0166dddd9deb48e7f62fb8d417a29efad7606e87bb6363e5ffd58f97c3
+Homepage: https://mp3wrap.sourceforge.net/
+Description: A command-line utility that wraps quickly two or more mp3 files in one single large playable mp3
+
+Package: mpc
+Version: 0.35-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 404
+Depends: libiconv, libmpdclient
+Filename: pool/main/m/mpc/mpc_0.35-2_aarch64.deb
+Size: 75516
+MD5sum: aabf4b3a7b68842de84677e3b7956826
+SHA1: 26f8ffa994fad6e6ff2e7ad91d88a565701cae8a
+SHA256: e5b003c524eeb83a62e9280673d3992e65ea0fe0b3991d74f06d312b5fb15bcb
+Homepage: https://www.musicpd.org/clients/mpc/
+Description: Minimalist command line interface for MPD
+
 Package: mpd
 Version: 0.24.5-1
 Architecture: aarch64
@@ -24402,6 +24485,20 @@ SHA1: 7fba20ba8b5a10db8947fad8d1c50675c89d0aca
 SHA256: 01668df942fd16d5043009d21841ebdff07efdec79033c29720688735af9912c
 Homepage: https://www.musicpd.org
 Description: Music player daemon
+
+Package: mpdscribble
+Version: 0.25-3
+Architecture: aarch64
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 252
+Depends: libc++, libcurl, libgcrypt, mpd, libmpdclient, glib
+Filename: pool/main/m/mpdscribble/mpdscribble_0.25-3_aarch64.deb
+Size: 57792
+MD5sum: f19a53cb6b9272f308a524e4009eeb0d
+SHA1: 7fd6195104e0555cbea72ea13b3969b79bff8f7d
+SHA256: 6b1678492cf414630c1c0a09e5a57e9545ebecaae3c04ec3d421b3a23e0a369b
+Homepage: https://www.musicpd.org/clients/mpdscribble/
+Description: A Music Player Daemon (MPD) client which submits information about tracks being played to a scrobbler
 
 Package: mpg123
 Version: 1.33.2
@@ -24417,6 +24514,20 @@ SHA256: 35fe860e239b7854f49ab14362596fb582b41e640f8d1ab9d027d77f901176aa
 Homepage: https://mpg123.org/
 Description: Fast console MPEG Audio Player based on libmpg123
 
+Package: mplayer
+Version: 1.5-11
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4416
+Depends: ffmpeg, fontconfig, freetype, fribidi, liba52, libass, libbluray, libdvdnav, libdvdread, libiconv, libjpeg-turbo, liblzo, libmad, libmp3lame, libogg, libpng, libtheora, libtwolame, libvorbis, libx11, libx264, libxext, libxss, libxv, libmpg123, ncurses, openal-soft, pulseaudio, xvidcore, zlib
+Filename: pool/main/m/mplayer/mplayer_1.5-11_aarch64.deb
+Size: 843932
+MD5sum: c4ff5288261c945df65ce09e99e6e139
+SHA1: 0f547bd6aa1773d22e08c1d91b44733ce3b6c1f7
+SHA256: 021b33906aa7dcd3c5b4c70ccbda730d43f258f5653bbe10abb1d8ab552d93e0
+Homepage: https://mplayerhq.hu/
+Description: The Movie Player
+
 Package: mpv
 Version: 0.40.0-1
 Architecture: aarch64
@@ -24430,6 +24541,76 @@ SHA1: edff9acce0c4f2afcde072ecc083844a59591c61
 SHA256: 7ef1e164ef22ef5a30e64bd1eb8dd4858a54757b4a06ae99e67f8f95d6479f9c
 Homepage: https://mpv.io/
 Description: Command-line media player
+
+Package: mruby
+Version: 3.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4452
+Depends: libandroid-complex-math, readline
+Filename: pool/main/m/mruby/mruby_3.4.0-1_aarch64.deb
+Size: 513872
+MD5sum: 0efb029f9d12077283391a114181626b
+SHA1: 2647914168bae3b968d2399128a22d1c409a611d
+SHA256: 54afe82d7a1fac902da981b8990411b0edf2f72a2a7769972286f34ed3295a36
+Homepage: https://mruby.org/
+Description: Lightweight implementation of the Ruby language
+
+Package: mruby-static
+Version: 3.4.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4120
+Depends: mruby (= 3.4.0-1)
+Filename: pool/main/m/mruby-static/mruby-static_3.4.0-1_aarch64.deb
+Size: 409536
+MD5sum: c45328d00f40fc5e8cb346e5e78e5355
+SHA1: 04d26d3bedcff1456e441d1fda37e506ac01a029
+SHA256: b94d43eab4ad86b40374b6233611ee02268c652b01edc769ff4b8e84058b18a7
+Homepage: https://mruby.org/
+Description: Static libraries for mruby
+
+Package: msitools
+Version: 0.106-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2448
+Depends: gcab, glib, libgsf, libxml2
+Filename: pool/main/m/msitools/msitools_0.106-1_aarch64.deb
+Size: 360036
+MD5sum: c25d8fe1673fc331d2d1514ab7750b64
+SHA1: cad1b40fbd75679f6636c45c70f81642355b2a73
+SHA256: e748427c650ecd3e5238ef3c19dda44c63b7f4ad09af590fc05c13168e0cf6b5
+Homepage: https://gitlab.gnome.org/GNOME/msitools
+Description: Set of programs to inspect and build Windows Installer (.MSI) files
+
+Package: msmtp
+Version: 1.8.31
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: libgnutls, libidn2
+Filename: pool/main/m/msmtp/msmtp_1.8.31_aarch64.deb
+Size: 85020
+MD5sum: 8089b3441747a022c71128742b276928
+SHA1: e3f3a5416bf250600159bd55833a781e7dde1527
+SHA256: 55da13b37780f052a24ddbc1834dc736bf55a62a1f02c3cdd415ae67073cdf80
+Homepage: https://marlam.de/msmtp/
+Description: Lightweight SMTP client
+
+Package: mtd-utils
+Version: 2.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1944
+Depends: liblzo, libuuid, openssl, zlib, zstd, libandroid-execinfo
+Filename: pool/main/m/mtd-utils/mtd-utils_2.3.0-1_aarch64.deb
+Size: 350848
+MD5sum: 090e13b68fa1f91093b1ac6888574a51
+SHA1: 5651bd842ca92c905d9d7c1767c689f15e73040b
+SHA256: 05eb961ae324dce2d5c1deb5dddfc2f9fba04c77b98ef8b0f0daac1a56576d3c
+Homepage: http://www.linux-mtd.infradead.org/
+Description: Utilities for dealing with MTD devices
 
 Package: mupdf
 Version: 1.24.10-2
