@@ -24824,6 +24824,183 @@ SHA256: ac9448ca88d1e2de14af5f76a8644685a5c6aad90a9ac91c3128eb8a93be51e7
 Homepage: https://github.com/ntop/n2n
 Description: A light VPN software
 
+Package: nala
+Version: 0.16.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 964
+Depends: python-apt, python-pip
+Filename: pool/main/n/nala/nala_0.16.0_all.deb
+Size: 223172
+MD5sum: 4664002e00e2e6e5358620ef0d8ea673
+SHA1: 6d9de55b4af8624ee56e63da0f21aef6e39bde9c
+SHA256: a43e91e33572bd776ad91088a3c69a60aba483c23d2514680adc00a3d596bb36
+Homepage: https://gitlab.com/volian/nala
+Description: Commandline frontend for the apt package manager
+
+Package: nali
+Version: 0.8.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12356
+Filename: pool/main/n/nali/nali_0.8.1-1_aarch64.deb
+Size: 3291892
+MD5sum: 75626886c9d7f0e7694c64cbd9bb600f
+SHA1: 5b9ad343aaf8ce773783a0ca97982c26b4fc3b5a
+SHA256: b2492fe1d3367ffbbe30bb8a9a6d267225f3e84b8cac9760be0e772a3a750f93
+Homepage: https://github.com/zu1k/nali
+Description: An offline tool for querying IP geographic information and CDN provider
+
+Package: nasm
+Version: 2.16.03-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3268
+Filename: pool/main/n/nasm/nasm_2.16.03-1_aarch64.deb
+Size: 300484
+MD5sum: 2cc272e126f21a31305bc272c56c1bc3
+SHA1: ff325e3cfb30d27bbd1ad2c16e453c45c815a15c
+SHA256: f8bd0ae4386e4df4d75e399806b98699c19d1d98583eba2de338c72a53b7f62e
+Homepage: https://nasm.us
+Description: A cross-platform x86 assembler with an Intel-like syntax
+
+Package: natpmpc
+Version: 20230423-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Filename: pool/main/n/natpmpc/natpmpc_20230423-2_aarch64.deb
+Size: 9808
+MD5sum: 7a8f598d882279c71083c2b955fc48c9
+SHA1: 7b7a3b9a2f84cc3a72bfa3bd4861b9c2c79485ac
+SHA256: bd4aae078ce6621feba7cb6dff0282889b03cca466d8bfb6f97e87b931a22fd5
+Homepage: https://miniupnp.tuxfamily.org/libnatpmp.html
+Description: Portable and fully compliant implementation of NAT-PMP
+
+Package: natpmpc-static
+Version: 20230423-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 40
+Depends: natpmpc (= 20230423-2)
+Filename: pool/main/n/natpmpc-static/natpmpc-static_20230423-2_aarch64.deb
+Size: 3756
+MD5sum: 3f5e6d5ca2a0b07dbdd46a20e95c0797
+SHA1: 9a334c48bd56156dd9eb8468dccef7a0b89fa545
+SHA256: 5eb5b98c50ad00370da736e4325c12fd0ebbe7b41b2f35118853f46a2ff612cd
+Homepage: https://miniupnp.tuxfamily.org/libnatpmp.html
+Description: Static libraries for natpmpc
+
+Package: navi
+Version: 2.24.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4116
+Depends: fzf, git
+Filename: pool/main/n/navi/navi_2.24.0-1_aarch64.deb
+Size: 963732
+MD5sum: 25284a121c4797977796ecb744e477ee
+SHA1: 76277a61a666407c6e79e843901d0c296ff67542
+SHA256: c39afe52e02390c58d7d27082d0c95bb004de395830b615ee05dbce42debc37e
+Homepage: https://github.com/denisidoro/navi
+Description: An interactive cheatsheet tool for the command-line
+
+Package: navidrome
+Version: 0.58.0-1
+Architecture: aarch64
+Maintainer: 2096779623 <admin@utermux.dev>
+Installed-Size: 56048
+Depends: taglib, ffmpeg
+Filename: pool/main/n/navidrome/navidrome_0.58.0-1_aarch64.deb
+Size: 12944952
+MD5sum: 819c0061245b9e03d34066b30f929e2f
+SHA1: 7842875a99a5dbb8ca6d3d4577be40d81f003456
+SHA256: 09d22cecf97835019ea25760116e3d849797864747efed60bec449b67d44f7b7
+Homepage: https://www.navidrome.org/
+Description: 🎧☁️ Modern Music Server and Streamer compatible with Subsonic/Airsonic
+
+Package: ncdc
+Version: 1.25-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: glib, libbz2, libgnutls, libsqlite, ncurses, zlib
+Filename: pool/main/n/ncdc/ncdc_1.25-1_aarch64.deb
+Size: 163628
+MD5sum: 2cb09a18d26c9964e03c3900f47f4a06
+SHA1: 61e9727338bd9a074ae1ad3ef3f96f97bd801416
+SHA256: 08936c8d3a9ab6356533c8393fb3778a26423f76901d5e509f76ffcd67cfb9e1
+Homepage: https://dev.yorhel.nl/ncdc
+Description: Modern and lightweight direct connect client with a friendly ncurses interface
+
+Package: ncdu
+Version: 1.22-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 136
+Depends: libandroid-support, ncurses
+Filename: pool/main/n/ncdu/ncdu_1.22-1_aarch64.deb
+Size: 37064
+MD5sum: 2963c0d575c1d4e23881d7eac16c37e7
+SHA1: c50239c6bfd670ae885b1e5f79b5c96559711f53
+SHA256: 8097d2ee6d69f396da4c5aa4b664147fa016b7a85ac8f8fc58b12370e997103c
+Homepage: https://dev.yorhel.nl/ncdu
+Description: Disk usage analyzer
+
+Package: ncdu2
+Version: 2.9.1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 832
+Filename: pool/main/n/ncdu2/ncdu2_2.9.1_aarch64.deb
+Size: 308556
+MD5sum: c90c3710e71fcbe28cbd19da1bb7f571
+SHA1: 1125274a32fae5a97c2e26222e0d5ac413467f37
+SHA256: f9e3f923d1570d816becad195260737a825bf276530d9224916cadd8de950dbe
+Homepage: https://dev.yorhel.nl/ncdu
+Description: Disk usage analyzer
+
+Package: ncftp
+Version: 3.3.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1360
+Depends: ncurses, resolv-conf
+Filename: pool/main/n/ncftp/ncftp_3.3.0-1_aarch64.deb
+Size: 234496
+MD5sum: 4537d76f104feab4e06c030c7a1a4669
+SHA1: 0b5be158917956d5c6e43c062636dacdf3c7ab1f
+SHA256: d720bc3ab88ca6b3cc9d4af85144f89f4b6d74e4eda583cca22ab0ff04e0feb6
+Homepage: https://www.ncftp.com/
+Description: A free set of programs that use the File Transfer Protocol
+
+Package: ncmpcpp
+Version: 0.10.1-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2028
+Depends: boost, fftw, libandroid-support, libc++, libcurl, libicu, libmpdclient, ncurses, readline, taglib
+Filename: pool/main/n/ncmpcpp/ncmpcpp_0.10.1-6_aarch64.deb
+Size: 515340
+MD5sum: 38f91cd11f0127087ebcc5cef997cba0
+SHA1: 1567abad2654b2064ea0808e9698c931227d5277
+SHA256: 28dc52638ce2e697839ceb2e6f3612dd2b1624b2356b311a34b99bd16d90cd71
+Homepage: https://rybczak.net/ncmpcpp/
+Description: NCurses Music Player Client (Plus Plus)
+
+Package: ncompress
+Version: 5.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Filename: pool/main/n/ncompress/ncompress_5.0-1_aarch64.deb
+Size: 11828
+MD5sum: 3322f5aa6306e7163eaddf6e87b70710
+SHA1: ce3563ad2f11d39f2b3b439b286e3fd2f6b84506
+SHA256: 097f15f194a0dd6c07a92a5c1699eddffb1dceb4d3e6bc7d4def48a22484b552
+Homepage: https://github.com/vapier/ncompress
+Description: The classic unix compression utility which can handle the ancient .Z archive
+
 Package: ncurses
 Version: 6.5.20240831-3
 Architecture: aarch64
@@ -26123,6 +26300,20 @@ SHA1: bdb48fa6099dfc5729f04d513e1e8fab216cf0fd
 SHA256: 61542afbe47bbc95003a87d009adaf9bfd3a3302f1f847c129ba91e2621156f5
 Homepage: https://python.org/
 Description: Python 3 programming language intended to enable clear programs
+
+Package: python-apt
+Version: 3.0.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1244
+Depends: apt, libandroid-support, libc++, python
+Filename: pool/main/p/python-apt/python-apt_3.0.0-1_aarch64.deb
+Size: 251824
+MD5sum: 943d59932b5c99e98d5acf106d061401
+SHA1: 316511c01b32faf40a6f1e84987cb34164bb387d
+SHA256: fc52b77f707cc817212448c404967161e9306926b363eea33d0b62ee6fbcd236
+Homepage: https://apt-team.pages.debian.net/python-apt/
+Description: Python bindings for APT
 
 Package: python-contourpy
 Version: 1.3.3-1
