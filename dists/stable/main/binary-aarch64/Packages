@@ -27963,6 +27963,60 @@ SHA256: 5ba24273b411a2f397ceea35c18167005440efde6e5d80e26e392c69bb4e1208
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Description: Dialog allowing secure password entry
 
+Package: pingme
+Version: 0.2.6-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 15992
+Filename: pool/main/p/pingme/pingme_0.2.6-4_aarch64.deb
+Size: 3892864
+MD5sum: 7cd2989ac5a42c7344a88b3cf320156a
+SHA1: ca5d2392b2fc4ab7468de87b9cb815953f03ffc5
+SHA256: c7a24ae3c40f4e849f7d98947aa2c77716384056ed092ab5a6f0eee9491dbd49
+Homepage: https://github.com/kha7iq/pingme
+Description: A small utility which can be called from anywhere to send a message with particular information
+
+Package: pipebuffer
+Version: 0.0.git20211120-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1272
+Filename: pool/main/p/pipebuffer/pipebuffer_0.0.git20211120-1_aarch64.deb
+Size: 397224
+MD5sum: 6f7609caa9e544c8787e816dd8ec681b
+SHA1: 88fe880774e423dd81d570b9ecf8ca44bcabfda5
+SHA256: f4955c9ab19ddce6268d3dfb6564b3743b079e2f780d2a48d948b2ef1129cf0b
+Homepage: https://github.com/tfenne/pipebuffer
+Description: Arbitrary-sized in-memory buffer between pipelined programs (non-blocking mbuffer analogue for pipeline)
+
+Package: pipes.sh
+Version: 2018.04.22-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 68
+Depends: bash, ncurses-utils
+Filename: pool/main/p/pipes.sh/pipes.sh_2018.04.22-1_all.deb
+Size: 7504
+MD5sum: e7d16ebad2eccfc4af86cd9d5ac76b33
+SHA1: 5261497600e00a402035f8a54f03099f698e7d0a
+SHA256: 052428ae0db4af373fa0cce93bf6c74c64a6765e34776cbc8cc51827cc5b5d53
+Homepage: https://github.com/pipeseroni/pipes.sh
+Description: Animated pipes terminal screensaver
+
+Package: pipewire
+Version: 1.2.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8964
+Depends: ffmpeg, glib, libc++, liblua54, libopus, libsndfile, libwebrtc-audio-processing, lilv, ncurses, openssl, pulseaudio, readline
+Filename: pool/main/p/pipewire/pipewire_1.2.7-1_aarch64.deb
+Size: 1425036
+MD5sum: b8d31a4104b8519d380ee8a0ca69bb61
+SHA1: e1c961af8a6dd438ca86412c88cb57502a769348
+SHA256: 0b76d80a6a1606bf53b505593d645175b8a3da93282185c92bfed4de7c4ea88d
+Homepage: https://pipewire.org/
+Description: A server and user space API to deal with multimedia pipelines
+
 Package: pkg-config
 Version: 0.29.2-3
 Architecture: aarch64
@@ -27977,6 +28031,61 @@ SHA256: d9cf696b5af59a80941b3093dbbe1f8f511ab52306d14458391763adc3676ed4
 Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
 Description: Helper tool used when compiling applications and libraries
 
+Package: pkgfile
+Version: 25
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 288
+Depends: libandroid-glob, libandroid-utimes, libarchive, libcurl, pcre
+Filename: pool/main/p/pkgfile/pkgfile_25_aarch64.deb
+Size: 64860
+MD5sum: b923bf480d8240e92c564d25cddd769b
+SHA1: 961b7d9989a38b7ac770e2e619faeca57f78dab8
+SHA256: cc5d1c42c50fd83712525db9763a947ed71267bb455ea8306722de2b5a914d18
+Homepage: https://github.com/falconindy/pkgfile
+Description: An alpm .files metadata explorer
+
+Package: pkgtop
+Version: 2.5.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2740
+Filename: pool/main/p/pkgtop/pkgtop_2.5.1_aarch64.deb
+Size: 783564
+MD5sum: b63c8bce8f704ba66d79bf06a9dedcc3
+SHA1: af7019e38cc1703d206bcf7fd21d4437e3d481bf
+SHA256: 3ab5846d8f547765bf8c82fee2a32834835229bee33ee04d93de158242726608
+Homepage: https://github.com/orhun/pkgtop
+Description: Interactive package manager and resource monitor
+
+Package: plantuml
+Version: 1.2025.7
+Architecture: all
+Maintainer: @termux
+Installed-Size: 24876
+Depends: openjdk-21
+Filename: pool/main/p/plantuml/plantuml_1.2025.7_all.deb
+Size: 23979344
+MD5sum: ed42072f90c17ebc519c8f406459e260
+SHA1: 40476632556256d6d76d32456daf967ef8dd80a1
+SHA256: 7041a517916e71217b311016a40aac9ab707e67783f91b610e8ca36e64957e55
+Homepage: https://plantuml.com/
+Description: Draws UML diagrams, using a simple and human readable text description
+
+Package: play-audio
+Version: 0.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 64
+Depends: libc++
+Filename: pool/main/p/play-audio/play-audio_0.6-2_aarch64.deb
+Size: 4552
+MD5sum: 16fb6b6c158dcf865590fc1268af35cc
+SHA1: a46ad9ce67b84eea861b77ac8ccecb7d7290b585
+SHA256: 84586ae552507da650ca105b16220b96f64aa132fa0e88dd153c6dd1f4ae6122
+Homepage: https://github.com/termux/play-audio
+Description: Simple command line audio player for Android
+
 Package: plutolang
 Version: 0.11.3
 Architecture: aarch64
@@ -27990,6 +28099,34 @@ SHA1: d2dd06c149380bb1999426b49909c084d7e8ae63
 SHA256: c42d47233b7bd99d983802e190cc85560f39204afb120d023d17888f50130a25
 Homepage: https://plutolang.github.io/
 Description: A superset of Lua 5.4 with a focus on general-purpose programming.
+
+Package: plzip
+Version: 1.12-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 200
+Depends: libc++, lzlib
+Filename: pool/main/p/plzip/plzip_1.12-1_aarch64.deb
+Size: 52568
+MD5sum: 2b8a243b58f7ba6b5c3217ec31438ae2
+SHA1: 929b40448c92d18fa5ee67ab55cee5a72c631e15
+SHA256: ccb0b52d9f506183597810ca0a1c134b228b095dc1bdbc306e9133bd63b060a3
+Homepage: https://www.nongnu.org/lzip/plzip.html
+Description: A massively parallel lossless data compressor based on the lzlib compression library
+
+Package: pngcrush
+Version: 1.8.13-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Depends: libpng, zlib
+Filename: pool/main/p/pngcrush/pngcrush_1.8.13-2_aarch64.deb
+Size: 37688
+MD5sum: 286de4cd50f8553c7cb34c6a1da780ad
+SHA1: bcad88dae49fe8c5c513ea4b743d19e60265f524
+SHA256: ad6f089a06ccbf34340772a1f2d121d4f749b8c9afde637d82ff7e36d173eebd
+Homepage: https://pmt.sourceforge.io/pngcrush/
+Description: Recompresses png files
 
 Package: poppler
 Version: 24.05.0-3
