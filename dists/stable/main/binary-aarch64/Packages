@@ -22445,6 +22445,116 @@ SHA256: 8b2190fbee9f2a186bdbaf86047e7ec915411bb8617808561d0c5ed4abf1b116
 Homepage: https://kristaps.bsd.lv/lowdown
 Description: Static libraries for lowdown
 
+Package: lr
+Version: 2.0.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 144
+Filename: pool/main/l/lr/lr_2.0.1_aarch64.deb
+Size: 24116
+MD5sum: f349007b9567c7e41ef52e03aa133d81
+SHA1: be5218b2f4db45a38bca35d502f42bff41db42ac
+SHA256: 008072fc00bae01892a3890143a45bcfd70bc5006e13cb5e9f10fc67d068f9cb
+Homepage: https://git.vuxu.org/lr/about/
+Description: list files, recursively, includes the best features of ls, find, stat and du
+
+Package: lrzip
+Version: 0.651-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 512
+Depends: bash, libbz2, libc++, liblz4, liblzo, zlib
+Filename: pool/main/l/lrzip/lrzip_0.651-2_aarch64.deb
+Size: 157712
+MD5sum: 3355e6762c307de2fa4977ebfca57bd6
+SHA1: 18bed6bc40b35514fc8e77ace7496efa02b46065
+SHA256: 077f1bc799bf689e24d6a5eadfb476edd6e1835897e6ab49206b8ab9e6185f0d
+Homepage: https://github.com/ckolivas/lrzip
+Description: A compression utility that excels at compressing large files
+
+Package: lrzsz
+Version: 0.12.21-rc1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 164
+Filename: pool/main/l/lrzsz/lrzsz_0.12.21-rc1-2_aarch64.deb
+Size: 44684
+MD5sum: 89fba9d8ab7cba9ffe442f1d516e3c9f
+SHA1: 3a0c2663f756f87ec2d544aed4556bd8b7452a8f
+SHA256: cbca50e8ff8f29f322f5b00e6cdeedc41a9b2d4e07631255900bf419ee4206df
+Homepage: https://ohse.de/uwe/software/lrzsz.html
+Description: Tools for zmodem/xmodem/ymodem file transfer
+
+Package: lsd
+Version: 1.1.5-2
+Architecture: aarch64
+Maintainer: Krishna Kanhaiya @kcubeterm
+Installed-Size: 3144
+Depends: zlib
+Filename: pool/main/l/lsd/lsd_1.1.5-2_aarch64.deb
+Size: 987108
+MD5sum: eb8e9553954c1dcea9c59df7640baa0c
+SHA1: bdb50eaed9519486a7f16efbfb0768329a8e70eb
+SHA256: ec980fedda6ab5244840cbf5d84d91fcdff6fd20f54117e77628c49b4e74dd53
+Homepage: https://github.com/lsd-rs/lsd
+Description: Next gen ls command
+
+Package: lsix
+Version: 1.9.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 52
+Depends: bash, imagemagick
+Filename: pool/main/l/lsix/lsix_1.9.1_all.deb
+Size: 5780
+MD5sum: 0377a6a30fb0cd26ffd006f18b143760
+SHA1: 43a4c059c0311fad67b1c8fbd030b200093c71df
+SHA256: 0c7de6bbf9b5449ec15e2b297366fcdaadb97cdfc2f3f583f05c0df5de88452b
+Homepage: https://github.com/hackerb9/lsix
+Description: Shows thumbnails in terminal using sixel graphics
+
+Package: ltrace
+Version: 1:0.8.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 428
+Depends: libc++, libelf, libdw
+Filename: pool/main/l/ltrace/ltrace_1+0.8.1_aarch64.deb
+Size: 118092
+MD5sum: c7779be91b842b46fd5927c75d12ec41
+SHA1: 9771976d8073b4d16c4f9fa26aeaa6fb890ecabc
+SHA256: 29800d1d192cfbd2e460b5f8a1795db6a7ff5496ad72a57aa192f585f4cce609
+Homepage: http://www.ltrace.org/
+Description: Tracks runtime library calls in dynamically linked programs
+
+Package: lua-language-server
+Version: 3.15.0-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 11156
+Depends: libandroid-spawn, libc++
+Filename: pool/main/l/lua-language-server/lua-language-server_3.15.0-1_aarch64.deb
+Size: 1685588
+MD5sum: edeac0693d8aed5e65866f32ad856a35
+SHA1: d522170c144581171b05c65066a3e933cc7adb9e
+SHA256: f56056ff32377d05950ce4cc85fce53996c73167e24e0ac0986e9c2ec55eb1b9
+Homepage: https://github.com/sumneko/lua-language-server
+Description: Sumneko Lua Language Server coded in Lua
+
+Package: lua-lgi
+Version: 0.9.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 428
+Depends: glib, gobject-introspection, libffi, liblua54
+Filename: pool/main/l/lua-lgi/lua-lgi_0.9.2-1_aarch64.deb
+Size: 73420
+MD5sum: 3bc4c01332002d20d9f92b2330e528d8
+SHA1: 0890bf128e929faae0ace8c6b1f36da2a0b0106a
+SHA256: 4f95c50bf7647acdf8909cc500897204bda778933f72ea470f191a4bf2e6ff27
+Homepage: https://github.com/lgi-devs/lgi
+Description: Dynamic Lua binding to GObject libraries using GObject-Introspection
+
 Package: lua-lpeg
 Version: 1.1.0-3
 Architecture: aarch64
@@ -22602,6 +22712,51 @@ SHA256: e670714d56edd5fde7092634bb4762b49b76bb8cf5c61169a54bb7267ed9346d
 Homepage: https://luvit.io
 Description: A project in-between luv and luvit
 
+Package: luvit
+Version: 2.18.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 616
+Depends: luvi
+Suggests: lit
+Filename: pool/main/l/luvit/luvit_2.18.1-1_aarch64.deb
+Size: 167700
+MD5sum: aaaf1dfc8666d9b32cfb37428645b7a1
+SHA1: 40fda1efab37e2186a919f6899bd9971593b2932
+SHA256: 1164d51a710444cd5d58d745e31b99d77953aab2b001f31349058938b98353ff
+Homepage: https://luvit.io
+Description: Asynchronous I/O for Lua
+
+Package: lux
+Version: 0.24.1-2
+Architecture: aarch64
+Maintainer: @flosnvjx
+Installed-Size: 23664
+Recommends: ffmpeg
+Suggests: aria2
+Filename: pool/main/l/lux/lux_0.24.1-2_aarch64.deb
+Size: 5540368
+MD5sum: 9a3191728edd5847c6432f980e2a0e49
+SHA1: fd2cc1e8ba7687211fdc8febf6184a2cf72f16da
+SHA256: 2deb73bc395cddb42d1aabec7cc37e06525b5009da0e67c459825f3ad197e979
+Homepage: https://github.com/iawia002/lux
+Description: CLI tool to download videos from various websites
+
+Package: lux-cli
+Version: 0.18.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24372
+Depends: bzip2, gpgme, libgit2, libgpg-error, lua54, openssl, xz-utils
+Provides: lx
+Filename: pool/main/l/lux-cli/lux-cli_0.18.1_aarch64.deb
+Size: 7961700
+MD5sum: f2e13efb5ae49d71eca6e1c41d6bb526
+SHA1: bc37e48cbce643ecc43bb6c5735c2b54f8c58e15
+SHA256: d59a5ff110c40361dedddb0d71a3135f74a3ca10ea0a3539511ed588c06cc58e
+Homepage: https://nvim-neorocks.github.io/
+Description: A package manager for Lua, similar to luarocks
+
 Package: lv2
 Version: 1.18.10-5
 Architecture: aarch64
@@ -22615,6 +22770,20 @@ SHA1: af5c87c718f0572163f05f20819983f92fbf21f9
 SHA256: 0ffa8d66cbd33e985a484c9d759bb9fffb193538f117bb8a919e3c78554ed874
 Homepage: https://lv2plug.in/
 Description: A plugin standard for audio systems
+
+Package: lychee
+Version: 0.20.1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 18820
+Depends: openssl, resolv-conf
+Filename: pool/main/l/lychee/lychee_0.20.1_aarch64.deb
+Size: 4457916
+MD5sum: 262db1d2db1a093489e3838de1eac1b1
+SHA1: 918bfe4a685075644dbdca090ac800decc3cf05a
+SHA256: 603ae9febb0548b6239d2792055071da43ca397817fc48b7e2b330df1e1a881c
+Homepage: https://github.com/lycheeverse/lychee
+Description: A fast, async, resource-friendly link checker written in Rust
 
 Package: lz4
 Version: 1.10.0-1
