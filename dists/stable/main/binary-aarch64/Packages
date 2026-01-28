@@ -27005,6 +27005,76 @@ SHA256: 98b6ca770743ac7276cd2903fe6b1aae50071ac30c631886caf23bbfcbfb6994
 Homepage: https://github.com/p7zip-project/p7zip
 Description: Command-line version of the 7zip compressed file archiver
 
+Package: pacman
+Version: 7.0.0-4
+Architecture: aarch64
+Maintainer: @Maxython <mixython@gmail.com>
+Installed-Size: 1344
+Depends: bash, curl, gpgme, libandroid-glob, libarchive, libcurl, openssl, termux-licenses, termux-keyring
+Filename: pool/main/p/pacman/pacman_7.0.0-4_aarch64.deb
+Size: 262616
+MD5sum: 0ff5d8db9d4e8cfd2043ef5b0e2ac3aa
+SHA1: 05b4c886594ceb7bb8829364593fe6ac58117251
+SHA256: 650785089a3991d54fa1819dbe5b2f3d5ad0baf7d2990494f09e1bd34785e694
+Homepage: https://archlinux.org/pacman/
+Description: A library-based package manager with dependency support
+
+Package: pacman4console
+Version: 1.3-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: ncurses
+Filename: pool/main/p/pacman4console/pacman4console_1.3-5_aarch64.deb
+Size: 12360
+MD5sum: 7aadd0ef7f565cd0e22c1f9d9c2f274a
+SHA1: a60291a6589662516b7fad9f3590864e1ace6c79
+SHA256: 67f2bf3013e35c19cf91b6c864a98217eee027a3035e1f7afd82b11c0a94eeac
+Homepage: https://sites.google.com/site/doctormike/pacman.html
+Description: A 9 level ncurses pacman game with editor
+
+Package: panda3d
+Version: 1.10.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 25192
+Depends: libc++, python
+Filename: pool/main/p/panda3d/panda3d_1.10.15-1_aarch64.deb
+Size: 3538456
+MD5sum: 6a6a06ea5642af2cdb34cfa16facd931
+SHA1: ed37cd1c92ad63429744f63d9fc5402f12ff5498
+SHA256: cc8e59c6923e9c8484cfcace0fc0bac0682ed940b2e5f677f1b2c1581094b372
+Homepage: https://www.panda3d.org/
+Description: A framework for 3D rendering and game development for Python and C++ programs
+
+Package: panda3d-samples
+Version: 1.10.15-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 22848
+Depends: panda3d (= 1.10.15-1)
+Filename: pool/main/p/panda3d-samples/panda3d-samples_1.10.15-1_all.deb
+Size: 20890984
+MD5sum: f6e3f21e441634855cf9afdac27dbae8
+SHA1: 75e0662bd2863b0db831b70983f81e00d82f1e37
+SHA256: 9f8f932c595468b2358832ce0d477389062dff1903210249771407cbdb3e9606
+Homepage: https://www.panda3d.org/
+Description: Python sample programs that use Panda3D
+
+Package: panda3d-static
+Version: 1.10.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 60
+Depends: panda3d (= 1.10.15-1)
+Filename: pool/main/p/panda3d-static/panda3d-static_1.10.15-1_aarch64.deb
+Size: 4916
+MD5sum: 342174cf39bc60181f420163d2c40da2
+SHA1: 3e5e905604602ea927275d8e5e32d5c7c7b220eb
+SHA256: 70789a5bb8ddbe44d0668de28bd4ef05818bbd52ccc0e9aa42128ca186d95418
+Homepage: https://www.panda3d.org/
+Description: Static libraries for panda3d
+
 Package: pango
 Version: 1.57.0
 Architecture: aarch64
@@ -27020,6 +27090,136 @@ SHA1: 398677b826e7b3505279380e5ef04d7cf254372c
 SHA256: 5190d0c2c5aba307acfc4b853400f6c2d20eb257a4273dc5d010f3f70467612a
 Homepage: https://www.gtk.org/docs/architecture/pango
 Description: Library for laying out and rendering text
+
+Package: paperkey
+Version: 1.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Filename: pool/main/p/paperkey/paperkey_1.6-1_aarch64.deb
+Size: 15540
+MD5sum: 557001225209cdd188eaed08a67bf1b3
+SHA1: 2b52059c104eb606b6aa51506c56fb400ee1a13c
+SHA256: 77a996a137069c45f78959ebd88e674878eac96046df124a19f84b64b9685151
+Homepage: http://www.jabberwocky.com/software/paperkey/
+Description: Archive OpenPGP keys on paper
+
+Package: par2
+Version: 1.0.0-1
+Architecture: aarch64
+Maintainer: Oliver Schmidhauser @Neo-Oli
+Installed-Size: 956
+Depends: libc++
+Filename: pool/main/p/par2/par2_1.0.0-1_aarch64.deb
+Size: 274688
+MD5sum: 1cacf137e27c739d0e405f95b231ec46
+SHA1: 00aaf9e7d0b5259fd6ba71816b9790bffcdf2b58
+SHA256: 3098950f64aba2f78e96ea7d47a9de880732d0019aa3149a476fce5ea3aa4ed4
+Homepage: https://github.com/Parchive/par2cmdline
+Description: par2cmdline is a PAR 2.0 compatible file verification and repair tool
+
+Package: parallel
+Version: 20250922
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4792
+Depends: perl
+Filename: pool/main/p/parallel/parallel_20250922_all.deb
+Size: 2089980
+MD5sum: c0d202f1cdd54852bc009beccde7c106
+SHA1: 3b858f9746f36e22550394203c99e1dfdae1004e
+SHA256: 96f5816f8b32fe1507104e78779869f0ba46f014f7e6e9283bae9df949cc2dab
+Homepage: https://www.gnu.org/software/parallel/
+Description: GNU Parallel is a shell tool for executing jobs in parallel using one or more machines
+
+Package: pari
+Version: 2.17.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 16968
+Depends: gzip, libgmp, readline
+Filename: pool/main/p/pari/pari_2.17.2-1_aarch64.deb
+Size: 4349412
+MD5sum: 288fbaf9ff181b983483caddcbab0410
+SHA1: 94696746e87e3aa165e75841e093937207c783ca
+SHA256: 3ad1962b3afe0b8b6065befd39bf5e121e546c94ebf85c486662b1699f0c865b
+Homepage: https://pari.math.u-bordeaux.fr/
+Description: A computer algebra system designed for fast computations in number theory
+
+Package: pari-static
+Version: 2.17.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10968
+Depends: pari (= 2.17.2-1)
+Filename: pool/main/p/pari-static/pari-static_2.17.2-1_aarch64.deb
+Size: 2408980
+MD5sum: 2fcfff7920d3ece3ef1c6c687d101e3b
+SHA1: 4c1e1da4898bb39c6dfe124452f1dad6618f831a
+SHA256: 30d939d48acbb33ee5464ae09413c680502077e09557b1d11df840a4795ba66c
+Homepage: https://pari.math.u-bordeaux.fr/
+Description: Static libraries for pari
+
+Package: parted
+Version: 3.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 728
+Depends: libblkid, libiconv, libuuid, ncurses, readline
+Breaks: parted-dev
+Replaces: parted-dev
+Filename: pool/main/p/parted/parted_3.6-1_aarch64.deb
+Size: 201844
+MD5sum: b6ee218ba8783181e1b774ea727f8a5d
+SHA1: f8074084e2ddf9aa684f77f769f6220020dc0191
+SHA256: 818ad7c53e913af10d962f3b9f5a303eea55d1e20832d694ce5d14e4ff1ed5a1
+Homepage: https://www.gnu.org/software/parted/
+Description: Versatile partition editor
+
+Package: parted-static
+Version: 3.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 968
+Depends: parted (= 3.6-1)
+Filename: pool/main/p/parted-static/parted-static_3.6-1_aarch64.deb
+Size: 190280
+MD5sum: b5f4700ef70b1e1c73bc909c5bb12fb1
+SHA1: 2c4b7ed542e852bdeee35a89ba5fcbcccda0793b
+SHA256: a29934da900ccd1c554f8916efc6c482d0f7a67cbe5cf5542fdec6701cd36830
+Homepage: https://www.gnu.org/software/parted/
+Description: Static libraries for parted
+
+Package: pass
+Version: 1.7.4-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 128
+Depends: bash, coreutils, gnupg (>= 2.2.9-1), tree
+Recommends: git
+Suggests: pass-otp
+Filename: pool/main/p/pass/pass_1.7.4-5_all.deb
+Size: 17260
+MD5sum: 6e3633b469ebc72c4431c7c0fad41d53
+SHA1: ab795e5ae41d4c06757b3f80a550d0bb43118bf0
+SHA256: c07a3cc207c43493a7ff6d389bd5a57932a4ead766eb32063e0568e5acc1fc6a
+Homepage: https://www.passwordstore.org
+Description: Lightweight directory-based password manager
+
+Package: pass-otp
+Version: 1.2.0-p20250809-0
+Architecture: all
+Maintainer: Henrik Grimler @Grimler91
+Installed-Size: 100
+Depends: oathtool
+Suggests: pass | passage, libqrencode
+Filename: pool/main/p/pass-otp/pass-otp_1.2.0-p20250809-0_all.deb
+Size: 7172
+MD5sum: 14cb628d2455203800e1bbc3ac83610b
+SHA1: 8ce533693ef7b34f05b2540731e69fd23dc6df21
+SHA256: 3e93f82e57959a0745cb1a9b09ad7108883dd8f3ef6c233ab711904d20ab47ad
+Homepage: https://github.com/tadfisher/pass-otp
+Description: A pass/passage extension for managing one-time-password (OTP) tokens
 
 Package: patchelf
 Version: 0.18.0-1
