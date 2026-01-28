@@ -14756,6 +14756,20 @@ SHA256: 76a451aed94c14cbb99eac87a0a107d24354c24dc3c2f302b7c386935e80a117
 Homepage: https://keep.imfreedom.org/libgnt/libgnt
 Description: An ncurses toolkit for creating text-mode graphical user interfaces in a fast and easy way
 
+Package: libgnustep-base
+Version: 1.31.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11828
+Depends: gnustep-make, libcurl, libc++, libffi, libgmp, libgnutls, libiconv, libicu, libobjc2, libxml2, libxslt, zlib
+Filename: pool/main/libg/libgnustep-base/libgnustep-base_1.31.1-3_aarch64.deb
+Size: 1649380
+MD5sum: 34a7932639742758c6a25cdc851cf601
+SHA1: 8c76034177a8e47105ff12a5f0d2e9e89b755dc9
+SHA256: b87e0aa6b9ceddc1c506bf97a1a79a9e22d303b451f02d42b1fb99e22c4d7f27
+Homepage: https://www.gnustep.org
+Description: A library of general-purpose, non-graphical Objective C objects
+
 Package: libgnutls
 Version: 3.8.10
 Architecture: aarch64
@@ -26739,6 +26753,62 @@ SHA256: 56cc06ccee2e0003e34f6e3fb56bda2a3df08bd837139077a41b2ff6607bc259
 Homepage: https://www.openssl.org/
 Description: The openssl command line cryptographic tool
 
+Package: opentimelineio
+Version: 0.17.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1096
+Depends: libc++
+Filename: pool/main/o/opentimelineio/opentimelineio_0.17.0-1_aarch64.deb
+Size: 200436
+MD5sum: 1449a76f1c9530a458b54aa9e1bd6e25
+SHA1: f24dcad4a25326f3931cbe640e1d061daab6e6f4
+SHA256: 10413a3f5ec51ca30c497dc1f27214e75ef3d15c9af7acd19ecd2f0fe9cebc26
+Homepage: http://opentimeline.io/
+Description: Open Source API and interchange format for editorial timeline information.
+
+Package: openxr
+Version: 1.1.52
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9548
+Depends: jsoncpp, libc++, libx11, vulkan-icd, libxrandr, libxxf86vm, opengl
+Filename: pool/main/o/openxr/openxr_1.1.52_aarch64.deb
+Size: 1457212
+MD5sum: e059ad37a3ca4bdad25c22985237f1a1
+SHA1: acc4d9d7ce9eb8e281c8e3b9d2eeb50d9c4285d8
+SHA256: 5afbaf50dee7c238d6f0af2e57836c7467060c360b55d502b0cc145e9aaf7167
+Homepage: https://www.khronos.org/openxr/
+Description: Open standard that provides a common set of APIs for developing XR applications
+
+Package: optipng
+Version: 7.9.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: libpng, zlib
+Filename: pool/main/o/optipng/optipng_7.9.1-1_aarch64.deb
+Size: 37636
+MD5sum: 5030fbdc70f8bcc556f536b2dbbc47b7
+SHA1: 867025fc3fec3b17313c944ed2d556dbe19741a5
+SHA256: a15e68db422528bd4f88ae924b1d9a30ff2d25d97eb09c58ede23d9b44356530
+Homepage: https://optipng.sourceforge.net/
+Description: PNG optimizer that recompresses image files to a smaller size, without losing any information
+
+Package: opus-tools
+Version: 0.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 192
+Depends: libopusenc, libogg, libflac, opusfile, libopus
+Filename: pool/main/o/opus-tools/opus-tools_0.2-4_aarch64.deb
+Size: 53972
+MD5sum: 42462b5643906ffa469908a719125034
+SHA1: 2bb699173f99e1a1dad2205ae2a7d8591fa0715c
+SHA256: 0457913ad07bc9bb016926cf9eb5755f67e5430f33ff89c46e77962ee8428c46
+Homepage: https://www.opus-codec.org/
+Description: Utilities to encode and decode .opus files
+
 Package: opusfile
 Version: 0.12-4
 Architecture: aarch64
@@ -26768,6 +26838,158 @@ SHA1: 801078d224d36756beefb33fe62d65af8783f0c5
 SHA256: 60b708114cbefc1d5d51869efa10927b0d47271e107ace45e894d167acb08f50
 Homepage: https://www.opus-codec.org/
 Description: Static libraries for opusfile
+
+Package: orbiton
+Version: 2.70.0-1
+Architecture: aarch64
+Maintainer: Alexander F. Rødseth <xyproto@archlinux.org>
+Installed-Size: 12176
+Breaks: o, o-editor
+Replaces: o, o-editor
+Filename: pool/main/o/orbiton/orbiton_2.70.0-1_aarch64.deb
+Size: 3701184
+MD5sum: aa80f2fb345beb2054828ab5c4910aa2
+SHA1: 0dc9b231b2c35acdd5d3164561c3c2687bc9caa7
+SHA256: 79cbe358f8e48fa1e63460892392611706f3efd02f8334cf9450fca565016704
+Homepage: https://roboticoverlords.org/orbiton/
+Description: Small, fast and limited text editor
+
+Package: osm2pgsql
+Version: 2.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2096
+Depends: boost, libbz2, libc++, libexpat, liblua54, postgresql, proj, zlib, nlohmann-json
+Filename: pool/main/o/osm2pgsql/osm2pgsql_2.2.0_aarch64.deb
+Size: 574540
+MD5sum: 4bcd118c5461b64b6a9894c4e4c4111e
+SHA1: 365edc54d64a2c9d6e258fc44dd759556fb7ebca
+SHA256: 019fd19113c4c6dc2b08111be2a5eac346631a7ca4397ac1bd40ad6ac98e0e2c
+Homepage: https://osm2pgsql.org/
+Description: osm2pgsql imports OpenStreetMap (OSM) data into a PostgreSQL/PostGIS database
+
+Package: osmctools
+Version: 0.9-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 308
+Depends: zlib
+Filename: pool/main/o/osmctools/osmctools_0.9-3_aarch64.deb
+Size: 92164
+MD5sum: e68bd1553236cf02618f357b6a1c660e
+SHA1: b563960b071f81218260d9a3ea08d250d5634942
+SHA256: 1c491b641895cbd2087be64e73ac46d1b6d30eaccfe4c295f6bc63285012dd5a
+Homepage: https://gitlab.com/osm-c-tools/osmctools
+Description: Simple tools for OpenStreetMap processing
+
+Package: osmium-tool
+Version: 1.18.0-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1932
+Depends: boost, libbz2, libc++, libexpat, liblz4, zlib
+Filename: pool/main/o/osmium-tool/osmium-tool_1.18.0-4_aarch64.deb
+Size: 546520
+MD5sum: bead3c5a2bba4800719729b6787cf63f
+SHA1: 792fb322c939fad1967d6f491da4cf4440061a4a
+SHA256: 4d34770dafcf66a6ebde047db72a678858ee4ad2c26a505a97b2c765c5e41b4d
+Homepage: https://osmcode.org/osmium-tool/
+Description: A multipurpose command line tool based on the Osmium Library
+
+Package: osslsigncode
+Version: 2.10-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 296
+Depends: libcurl, openssl, zlib
+Filename: pool/main/o/osslsigncode/osslsigncode_2.10-1_aarch64.deb
+Size: 78584
+MD5sum: 786cf08396980f149ca4f4b66c4d46fc
+SHA1: 93f8771637c5422cfd75fb206b6eb636ff1a7c21
+SHA256: b30b20894c815b98a41b1b471d082e9b656a52dbb1bcc1326d3aeea43e22f75e
+Homepage: https://github.com/mtrojnar/osslsigncode
+Description: OpenSSL based Authenticode signing for PE/MSI/Java CAB files
+
+Package: ossp-uuid
+Version: 1.6.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Breaks: ossp-uuid-dev
+Replaces: ossp-uuid-dev
+Filename: pool/main/o/ossp-uuid/ossp-uuid_1.6.2-4_aarch64.deb
+Size: 25088
+MD5sum: 3de26059ae0f4f606e6d74d7b633a040
+SHA1: 6365485f42c4be826042a8cd092317536bdc05a7
+SHA256: 0387b435e04b7e8633cd12a1ea1988178e8177a959131082cdf571d43c75a38a
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Description: ISO-C:1999 uuid generator supporting DCE 1.1, ISO/IEC 11578:1996 and RFC 4122.
+
+Package: ossp-uuid-static
+Version: 1.6.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 100
+Depends: ossp-uuid (= 1.6.2-4)
+Filename: pool/main/o/ossp-uuid-static/ossp-uuid-static_1.6.2-4_aarch64.deb
+Size: 19084
+MD5sum: 448329a7db88ba19f693383d9de4332a
+SHA1: 49b76874ad382f268d643005e830270b94331815
+SHA256: 7cd792253331fbc279066ce0a036bda4843d423aae01249964124656cd759ea1
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Description: Static libraries for ossp-uuid
+
+Package: ovmf
+Version: 20231122-16.fc40-0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 609292
+Filename: pool/main/o/ovmf/ovmf_20231122-16.fc40-0_all.deb
+Size: 38913968
+MD5sum: 33f4df78fd63d9cb2c97953a8394992d
+SHA1: 0b43e297ac122881be3d328337a9b6a927f08636
+SHA256: 76bcbcac6cbbf6916e5588df461e0f549fcb8624298345c71f693790acea26e8
+Homepage: https://www.tianocore.org/
+Description: Open Virtual Machine Firmware
+
+Package: oxc-language-server
+Version: 1.16.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8724
+Filename: pool/main/o/oxc-language-server/oxc-language-server_1.16.0_aarch64.deb
+Size: 2476788
+MD5sum: 699248efea3e8ca2430dc2e16a41598c
+SHA1: fd6f9a0e508cb658bb9062340b2f355d32b7acac
+SHA256: 23f92fef0e7eec606b24be7923f543e76925a1eb4542684b38746398d45fbbb4
+Homepage: https://oxc.rs/
+Description: Oxc JavaScript linter language server
+
+Package: oxfmt
+Version: 1.16.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3772
+Filename: pool/main/o/oxfmt/oxfmt_1.16.0_aarch64.deb
+Size: 1072636
+MD5sum: 3d9605fc02b6d4d77f3aa3a84b11ddb8
+SHA1: 2446e64f2903c17ca622b65fca1b72dd0d46b967
+SHA256: 7901ea6ac37299246ef0737f4f2fc98a6e1170bc4a16f0fa60fc1ed4d495b0f4
+Homepage: https://oxc.rs/
+Description: Oxc JavaScript formatter
+
+Package: oxlint
+Version: 1.16.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8464
+Filename: pool/main/o/oxlint/oxlint_1.16.0_aarch64.deb
+Size: 2356084
+MD5sum: 3f3921c2b7133b7a7c6cf561e75ad3f9
+SHA1: e91110cd0e41496c4764de4c484e0ba49ea1d548
+SHA256: 731e678187983211fcb81859d9d66008b77d9eb56bb3305c39c4f3f87d94f75a
+Homepage: https://oxc.rs/
+Description: Oxc JavaScript linter
 
 Package: p7zip
 Version: 17.06-1
@@ -29278,6 +29500,20 @@ SHA1: d3f55a0148684346d7d6476cb8c14c0dbcfc494d
 SHA256: 2853b9388548a651f421bf9b075a6ae2550e76fe738c14a1010ecee118482c84
 Homepage: https://github.com/KhronosGroup/Vulkan-Headers
 Description: Vulkan Header files and API registry
+
+Package: vulkan-icd
+Version: 0.1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 4
+Depends: mesa-vulkan-icd-swrast | mesa-vulkan-icd-freedreno | swiftshader
+Filename: pool/main/v/vulkan-icd/vulkan-icd_0.1_all.deb
+Size: 716
+MD5sum: 7ab22fe1681a1465adc9ca49e29efd28
+SHA1: 4d4997a83963a9791d9939df43163bf775e79830
+SHA256: 845f3a77fb25a3d232b869dfbdedca51ce39498e7ec27c86c6bf9dabcc6fd33f
+Homepage: https://github.com/termux/termux-packages
+Description: A metapackage that provides Vulkan ICDs
 
 Package: vulkan-loader
 Version: 0.0.3
