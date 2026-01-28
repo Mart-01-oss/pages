@@ -24161,6 +24161,177 @@ SHA256: df379f56d9d983293dca60cc0f325c9d79f09eee761704ca9d93c2ab83e976b1
 Homepage: https://getmonero.org/
 Description: A private, secure, untraceable, decentralised digital currency
 
+Package: monetdb
+Version: 11.53.13
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 17244
+Depends: libandroid-sysv-semaphore, libbz2, libcurl, libiconv, liblz4, liblzma, libxml2, netcdf-c, pcre2, readline, zlib
+Filename: pool/main/m/monetdb/monetdb_11.53.13_aarch64.deb
+Size: 3281384
+MD5sum: 1c343415d548e2c9162cd0f9b897da6a
+SHA1: bd56d1aeda040e0b16b96c96326569952f13e128
+SHA256: a66df3316820ebdba74015c7808435b0ed086eb696474844c3538276a9d3c47d
+Homepage: https://www.monetdb.org/
+Description: A high-performance database kernel for query-intensive applications
+
+Package: mono
+Version: 6.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9780
+Depends: krb5, zlib, mono-libs
+Filename: pool/main/m/mono/mono_6.14.1-2_aarch64.deb
+Size: 2155920
+MD5sum: 1f9bf88eafa213f09237274013114d71
+SHA1: f17edc87a20c97ecd807d99817d19706cc800b52
+SHA256: bd2fc9a5c05a27edc313a7e44495ea5bb1d89cdbd30964142c245ecdf76cd5c5
+Homepage: https://gitlab.winehq.org/mono/mono
+Description: Framework Mono
+
+Package: mono-libs
+Version: 6.14.1-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 204220
+Breaks: mono (<< 6.12.0.122-2)
+Replaces: mono (<< 6.12.0.122-2)
+Filename: pool/main/m/mono-libs/mono-libs_6.14.1-2_all.deb
+Size: 46484780
+MD5sum: 2050a12ca152dfbd4ffe956ef11db920
+SHA1: b324186806d8fd1b926d41e451bbcdb7b3cd8237
+SHA256: 51820c01032b108c7efb67455528debbf3a7b2e4ec44eadffa3aad1c6a2d01e7
+Homepage: https://gitlab.winehq.org/mono/mono
+Description: Platform-independent libraries for mono
+
+Package: mono-static
+Version: 6.14.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48432
+Depends: mono (= 6.14.1-2)
+Filename: pool/main/m/mono-static/mono-static_6.14.1-2_aarch64.deb
+Size: 7461280
+MD5sum: 8301700ea41869078cff8b2691db31b7
+SHA1: 11e3ae6ee50fe026747d366f80a51104e1f83ed3
+SHA256: b2f3f88c256dbc8d7e147dd55c215a57cab463d3d678d4976403c12c93dc1b5b
+Homepage: https://gitlab.winehq.org/mono/mono
+Description: Static libraries for mono
+
+Package: monolith
+Version: 2.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5156
+Depends: openssl
+Filename: pool/main/m/monolith/monolith_2.10.1-1_aarch64.deb
+Size: 1532220
+MD5sum: bdb8e9d9ad6516393365bec15fe485c8
+SHA1: 53e9d2829c3b225ced7486f4b8fe38caa44769ad
+SHA256: 8c149b863f3faec9841af66092dddbbabc22e7ae265c3bc363db1ed0e72e80b0
+Homepage: https://github.com/Y2Z/monolith
+Description: CLI tool for saving complete web pages as a single HTML file
+
+Package: moon-buggy
+Version: 1.0.51-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 136
+Depends: ncurses
+Filename: pool/main/m/moon-buggy/moon-buggy_1.0.51-6_aarch64.deb
+Size: 30532
+MD5sum: dbcd09b2f00296d14ddb91578a2e0fa0
+SHA1: 0aefd25ff73949469e28e0d58715abde84ba50b5
+SHA256: 1f63172f2c5798dd1c20cb051281735d0218dbc9665595629b6780a405fd6f04
+Homepage: https://github.com/seehuhn/moon-buggy
+Description: Simple game where you drive a car across the moon's surface
+
+Package: moor
+Version: 2.3.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7784
+Conflicts: moar
+Replaces: moar
+Filename: pool/main/m/moor/moor_2.3.0_aarch64.deb
+Size: 1931944
+MD5sum: 3ece4faa850be55e03f8571fbe6aa3d1
+SHA1: 553c3a38e77f9a09f3b9088ba5301d1effbaa2b0
+SHA256: 340d54eb4080110358a3c9b5a053e791eedf67179a64a8c7ae8720cbe6606841
+Homepage: https://github.com/walles/moor
+Description: A pager designed to just do the right thing without any configuration
+
+Package: mop
+Version: 2025.03.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8116
+Filename: pool/main/m/mop/mop_2025.03.17-1_aarch64.deb
+Size: 2249376
+MD5sum: b5f5a684d09568592a3b46991b7c9d59
+SHA1: 360789481ccac75a01d20bdd19f40b965f5655e0
+SHA256: 29445d6ef1e7c8f881188b2067fba4ada56fe52b6bf6cc56c96748a5bc748659
+Homepage: https://github.com/mop-tracker/mop
+Description: Stock market tracker
+
+Package: moreutils
+Version: 0.70-1
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 220
+Depends: perl
+Filename: pool/main/m/moreutils/moreutils_0.70-1_aarch64.deb
+Size: 39968
+MD5sum: 0daa99dfb101ccc87ebecf08ccab28f1
+SHA1: 1a8dd8b15acfb12b0f239e1e663c35b362a6e0c9
+SHA256: b80f2a2bceb5ccab53c74d49d75a7c3a1ba65cac020c39e1ad68363187dc481a
+Homepage: https://joeyh.name/code/moreutils/
+Description: A growing collection of the unix tools that nobody thought to write thirty years ago
+
+Package: morse2ascii
+Version: 0.2.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Filename: pool/main/m/morse2ascii/morse2ascii_0.2.1-1_aarch64.deb
+Size: 30548
+MD5sum: f4f59bd92fd85a5805490aadb8488289
+SHA1: 53b7c28b11bd9b0ec22f4c4e7e22566625f99305
+SHA256: c798619c792d1dd3e129ff31bb5017692aa03d8aedced456ffd7d14b8e8f9f66
+Homepage: https://packages.debian.org/sid/morse2ascii
+Description: A tool to decode the morse codes from a PCM WAV file as well as from text and RAW PCM files
+
+Package: mosh
+Version: 1.4.0-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 740
+Depends: abseil-cpp, libandroid-support, libc++, libprotobuf, ncurses, openssl, openssh
+Suggests: mosh-perl
+Filename: pool/main/m/mosh/mosh_1.4.0-15_aarch64.deb
+Size: 150364
+MD5sum: a7fd0fa56681726e9f7f50a537f6fb78
+SHA1: 790a9836060af7e48544c4dca92bfba1c5992323
+SHA256: 27197042b40a2e2066e748c4be82ade9ec6721c5b9795c427d51bf8f393b4702
+Homepage: https://mosh.org
+Description: Mobile shell that supports roaming and intelligent local echo
+
+Package: mosh-perl
+Version: 1.4.0-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: perl, mosh (= 1.4.0-15)
+Conflicts: mosh (<< 1.3.2-37)
+Replaces: mosh (<< 1.3.2-37)
+Filename: pool/main/m/mosh-perl/mosh-perl_1.4.0-15_aarch64.deb
+Size: 6624
+MD5sum: 4e58291a93ae7f8d0a1e57a8aa719fff
+SHA1: 471002c3268ed9ee1e073f3dcf2a002ceb517a75
+SHA256: 0fe34e4952c7690a390b6d78e3f7b52d70e6d60ecab5fa2821cd58f612f3735f
+Homepage: https://mosh.org
+Description: The mosh Perl script
+
 Package: mosquitto
 Version: 2.0.22-2
 Architecture: aarch64
@@ -24174,6 +24345,20 @@ SHA1: dc796f309361ec670f379e2f41a602f27d7a99db
 SHA256: a8ff9dc4db2fb11a9c90655bac4e33b27c2489c868f69d6e4974fb99515cb75f
 Homepage: https://mosquitto.org/
 Description: MQTT version 3.1/3.1.1 compatible message broker and clients
+
+Package: most
+Version: 5.2.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: slang
+Filename: pool/main/m/most/most_5.2.0-3_aarch64.deb
+Size: 47300
+MD5sum: d9a67e94a8d1d5a68a7411a7e69c2eae
+SHA1: d97cc2fc2b4e5ebdf25de2c14b6beb321fedbb3a
+SHA256: 6e4cbb015a44db238277643bf36ada6537b1a9be809c6acf2199aa59f660e40a
+Homepage: http://www.jedsoft.org/most/index.html
+Description: A terminal pager similar to 'more' and 'less'
 
 Package: mount-utils
 Version: 2.40.2-5
@@ -24189,6 +24374,20 @@ SHA1: 3e40e9029c27565df6e6a49b879ea8bb18a9f40c
 SHA256: e483dd8d405671311f0157ba90dcd0c7ccd869387ac794948d9ae5330c5db2cc
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for (un)mounting filesystems
+
+Package: mp3cat
+Version: 0.5-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Conflicts: mp3cat-go
+Filename: pool/main/m/mp3cat/mp3cat_0.5-2_aarch64.deb
+Size: 6468
+MD5sum: 0ec6cbd818cf35c6e01529fa0f942375
+SHA1: dbe10a47c8046330ced04c4da58c0c4f3353544c
+SHA256: a42fc6a20c141e17a70b7f630da4a0bd75299bbbaa728b7dfcd51ed3b9bc1814
+Homepage: https://tomclegg.ca/mp3cat
+Description: Copies a byte stream, skipping everything except mp3 frames with valid headers
 
 Package: mpd
 Version: 0.24.5-1
