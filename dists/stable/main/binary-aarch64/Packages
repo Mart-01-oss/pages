@@ -25807,10 +25807,10 @@ Conflicts: nodejs-lts, nodejs-current
 Breaks: nodejs-dev
 Replaces: nodejs-current, nodejs-dev
 Filename: pool/main/n/nodejs/nodejs_24.7.0_aarch64.deb
-Size: 13664964
-MD5sum: aa4a7aa137ef8b8c4d5e633ffc15ff4c
-SHA1: 0d81de7256e264c2e8773670c653c5d599ba9f89
-SHA256: c38cd1fbba5a80c62bdbdb3da4a1995b6d94a0dee6b30eb353060e3d79eb6abd
+Size: 13667480
+MD5sum: 844e530fd0e6fc25c894ee271fc8e93b
+SHA1: e27e425e725b001db2ec12c50551c245dc5a5333
+SHA256: 02717d3af1725738f17cae1d68830889704c94cb8e77cf13b2e5185ca791b47e
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
@@ -25825,10 +25825,10 @@ Conflicts: nodejs, nodejs-current
 Breaks: nodejs-dev
 Replaces: nodejs-current, nodejs-dev
 Filename: pool/main/n/nodejs-lts/nodejs-lts_22.19.0_aarch64.deb
-Size: 13353584
-MD5sum: 2585f3bbc9e7a1df7bab3602a493d4f1
-SHA1: 2bbe8eb58c9907785df5572be16f6e502175b521
-SHA256: afd22c468fc00cd072f2b37391572e67cd9e0eb1e10b784a3ff0fd18ac1f96b5
+Size: 13352984
+MD5sum: d9a5a4105b3fc13efbabbbdc6d3c7f6a
+SHA1: 640d84096553bc97aeb575e06f3cc9cf4401270d
+SHA256: 54d0c739c59af61e3dfbd58d4baa9633b0f7933e53991f15e55a8a4bda77b098
 Homepage: https://nodejs.org/
 Description: Open Source, cross-platform JavaScript runtime environment
 
