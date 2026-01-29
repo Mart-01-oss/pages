@@ -29524,6 +29524,36 @@ SHA256: f85e7a5458c0324e182f58f495792afdee13f6210432b84b1d5b50b7459862d9
 Homepage: https://xcb.freedesktop.org/
 Description: The xcbgen Python module
 
+Package: python-xlib
+Version: 0.33-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 1832
+Depends: python, python-pip
+Filename: pool/main/p/python-xlib/python-xlib_0.33-1_all.deb
+Size: 265292
+MD5sum: acde9ca683c9365bbcb0465f6a6ba307
+SHA1: 9c48ce6ae3299340cbbb05db93d583ad29437cc0
+SHA256: cf9f1dfdbb92d50e944432faf308796598fcb049474135e9d79c3ef4340e5a02
+Homepage: https://github.com/python-xlib/python-xlib
+Description: The Python X Library
+
+Package: python-yt-dlp
+Version: 2025.09.26
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 23940
+Depends: libc++, libexpat, openssl, python, python-brotli, python-pip, python-pycryptodomex
+Recommends: ffmpeg
+Provides: yt-dlp
+Filename: pool/main/p/python-yt-dlp/python-yt-dlp_2025.09.26_aarch64.deb
+Size: 4886696
+MD5sum: 8daaede3592c64199a1f03af3adce382
+SHA1: a15ae98cf9474ac057bd846ec96de55525494d4f
+SHA256: 6cc876ecbad57c55f806fed814a0695e5162eaf9510597413557a4d31f8233b7
+Homepage: https://github.com/yt-dlp/yt-dlp
+Description: A youtube-dl fork with additional features and fixes
+
 Package: pyunbound
 Version: 1.24.0-1
 Architecture: aarch64
@@ -29552,6 +29582,19 @@ SHA1: 08d20c53d964de60fc1fe1c6bbd3eeedec09f14b
 SHA256: 52d8b79bca68567220acbb78f6489ef7f71fb3e0ee0fccfcfcd5e36ca565e714
 Homepage: https://github.com/facebook/zstd
 Description: A Pigz-like tool for Zstandard
+
+Package: q-dns-client
+Version: 0.19.9
+Architecture: aarch64
+Maintainer: kay9925@outlook.com
+Installed-Size: 10428
+Filename: pool/main/q/q-dns-client/q-dns-client_0.19.9_aarch64.deb
+Size: 2748332
+MD5sum: ea14271bd44ab1bfcef095d64ee92972
+SHA1: a5c0795155f0b2389cc95a083b20cdf4e59ee656
+SHA256: d76a414a26c2017caf62d498ceb0467403fd37226023f21238ea93223a75ec43
+Homepage: https://github.com/natesales/q
+Description: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
 
 Package: qhull
 Version: 8.1-alpha3-2
