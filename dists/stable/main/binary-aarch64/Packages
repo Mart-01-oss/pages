@@ -30532,17 +30532,17 @@ Version: 1.46.0+really1.45.0-1
 Architecture: aarch64
 Essential: yes
 Maintainer: @termux
-Installed-Size: 552
+Installed-Size: 232
 Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am (>= 0.8.0), termux-am-socket (>= 1.5.0), termux-core, termux-exec, util-linux, xz-utils, dialog
 Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
 Suggests: termux-api
 Conflicts: procps (<< 3.3.15-2)
 Breaks: termux-keyring (<< 1.9)
 Filename: pool/main/t/termux-tools/termux-tools_1.46.0+really1.45.0-1_aarch64.deb
-Size: 33760
-MD5sum: e612c1149144a59785803a38aff446ea
-SHA1: 84b1a0b8c413c1972bd279baa40410e4dec4467d
-SHA256: 632aaf191f8e17839a6d43b8405f21221022745d0f97c63b72434ba54b0e6a01
+Size: 25860
+MD5sum: 6c9c81ab486f5fe575c1ea51f414131a
+SHA1: 94b8b049a9a9cad4119b6eec527bcdb8550c55df
+SHA256: bdf7eb48a8ec9636921764211eb486ca6ccedc1eb88a558555f09fd22a49e08b
 Homepage: https://termux.dev/
 Description: Basic system tools for Termux
 
