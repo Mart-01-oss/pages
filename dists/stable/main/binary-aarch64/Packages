@@ -28829,6 +28829,60 @@ SHA256: 6d71181a063d96b7e93e9566d78778e1297a834cd569f7e2714b4555f0615daf
 Homepage: https://github.com/protocolbuffers/protobuf
 Description: Protocol buffers C++ library (static)
 
+Package: proton-bridge
+Version: 3.21.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 29472
+Depends: glib, libsecret
+Filename: pool/main/p/proton-bridge/proton-bridge_3.21.2-1_aarch64.deb
+Size: 7144936
+MD5sum: b3bda8996498f6f8e0da3b459f06b7a6
+SHA1: f6cf289af9f9f77070aad2af0f78d698da83490d
+SHA256: 69e925af458f4befe9607508256ad60aaa81cb447a9e406b131c59607618e453
+Homepage: https://github.com/ProtonMail/proton-bridge
+Description: ProtonMail Bridge application
+
+Package: prover9
+Version: 2009-11A-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9944
+Filename: pool/main/p/prover9/prover9_2009-11A-2_aarch64.deb
+Size: 900028
+MD5sum: b095af46a4c94bc705fc240482c1b6ce
+SHA1: f0015ad849e5cfe6f3405e38da3b8a6ce20e861c
+SHA256: 9deb2b748ad9bfcb7536aa8711d660b90ee44b7ca1008330897e618e53d2b4aa
+Homepage: https://www.cs.unm.edu/~mccune/prover9/
+Description: An automated theorem prover for first-order and equational logic
+
+Package: proxmark3
+Version: 1:4.20728
+Architecture: aarch64
+Maintainer: Marlin Sööse <marlin.soose@esque.ca>
+Installed-Size: 45016
+Depends: libbz2, libc++, liblz4, readline
+Filename: pool/main/p/proxmark3/proxmark3_1+4.20728_aarch64.deb
+Size: 5364984
+MD5sum: 9e4f79bdb60ca1e56c58c04b912c08b7
+SHA1: 01986a089f1a2b70dfa9375d31e5c7e26c3c8268
+SHA256: bf6958af52efd77c0a9e3206194ca110040ae07888a639364e8d6f4cf412fa96
+Homepage: https://github.com/RfidResearchGroup/proxmark3
+Description: The Swiss Army Knife of RFID Research - RRG/Iceman repo
+
+Package: proxychains-ng
+Version: 4.17-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 120
+Filename: pool/main/p/proxychains-ng/proxychains-ng_4.17-1_aarch64.deb
+Size: 24060
+MD5sum: 8883f6d75daf794b2f5305b4f23c0992
+SHA1: 1a90f3c98f1c55aa3cfae24e5d0ba8a74a83ab85
+SHA256: 22798103be69a516d59921fd43accb66f6e222672a3d1c2f214e9a03fed463da
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: A hook preloader that allows to redirect TCP traffic of existing dynamically linked programs through one or more SOCKS or HTTP proxies
+
 Package: psmisc
 Version: 23.7-1
 Architecture: aarch64
@@ -28843,6 +28897,60 @@ SHA1: 2e256d959f64c4d36530a9a14eb78f6164ad6776
 SHA256: 6f6cf563586aaff6721b61bd4098ca29fb9c230dc55f4f7ee17bc945b9b71842
 Homepage: https://gitlab.com/psmisc/psmisc
 Description: Some small useful utilities that use the proc filesystem
+
+Package: ptex
+Version: 2.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1064
+Depends: libc++, zlib
+Filename: pool/main/p/ptex/ptex_2.4.3-1_aarch64.deb
+Size: 133752
+MD5sum: 5878fe0518eacc597c510b1b9ec90cc5
+SHA1: 08b02ba0f8facd8bc8d9999956b4d0ea99cd9772
+SHA256: 0c41345440db50e0e1e87f385e5d633d46d3545435ce0f6848d251e4b82989d4
+Homepage: https://github.com/wdas/ptex
+Description: Per-Face Texture Mapping for Production Rendering
+
+Package: ptex-static
+Version: 2.4.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 764
+Depends: ptex (= 2.4.3-1)
+Filename: pool/main/p/ptex-static/ptex-static_2.4.3-1_aarch64.deb
+Size: 108984
+MD5sum: 906d611d203730bd0632349b3168c61f
+SHA1: ffaac0de0ca718a96a438ae132e46e21a608e65a
+SHA256: 4995d8cce625a6903c8e1b3a477a135dd546f370c94423eab0d1679263a8f865
+Homepage: https://github.com/wdas/ptex
+Description: Static libraries for ptex
+
+Package: ptunnel-ng
+Version: 1.43-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Filename: pool/main/p/ptunnel-ng/ptunnel-ng_1.43-1_aarch64.deb
+Size: 20764
+MD5sum: 5eaf8e7418b228bf75f52683da2783b5
+SHA1: 1b3a87a791cd119aa93fabd3693990a62a5b4d37
+SHA256: edef9807937bee63d3b4233276d1f942a296b160dd988a4a0bba0bbbeb8d5d6f
+Homepage: https://github.com/lnslbrty/ptunnel-ng
+Description: Tunnel TCP connections through ICMP
+
+Package: pueue
+Version: 4.0.1-1
+Architecture: aarch64
+Maintainer: @stevenxxiu
+Installed-Size: 12716
+Filename: pool/main/p/pueue/pueue_4.0.1-1_aarch64.deb
+Size: 2619136
+MD5sum: 07eb9249a4490260b95fc16979725d75
+SHA1: 6c96215c7fd1b07754435770d0e193ff2a3a4314
+SHA256: 7ee4d78ed815e2cf02404dfa16dbc4f5f7ae433fb39fa625c4feeb40b93753a2
+Homepage: https://github.com/Nukesor/pueue
+Description: A command-line task management tool for sequential and parallel execution of long-running tasks
 
 Package: pulseaudio
 Version: 17.0-1
@@ -28873,6 +28981,59 @@ SHA1: 913fafee7eb5f01be7ac5dd4ada6f33b1aa95c89
 SHA256: 741082f8d6b5d1a9bcb90c2a62c605f46f672f3ef94e067d04454428172b956f
 Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
 Description: PulseAudio GLIB mainloop component
+
+Package: pup
+Version: 0.4.0-7
+Architecture: aarch64
+Maintainer: Krishna kanhaiya @kcubeterm
+Installed-Size: 3628
+Filename: pool/main/p/pup/pup_0.4.0-7_aarch64.deb
+Size: 1068608
+MD5sum: faabf26db92a3fb6fcb861bcd3cc7a9e
+SHA1: 4442e0b81fa66616e490c73f454c850eebddb363
+SHA256: 6d46c6ea49f31a86df29b1d799fab7ba658c87ae26ad624ce7475ce435833057
+Homepage: https://github.com/ericchiang/pup
+Description: command line tool for processing HTML
+
+Package: pure-ftpd
+Version: 1.0.52-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 520
+Depends: libcrypt, openssl
+Filename: pool/main/p/pure-ftpd/pure-ftpd_1.0.52-1_aarch64.deb
+Size: 131440
+MD5sum: 367a890775a431e6f0c47d6b926461c6
+SHA1: 934d0084500908678be6aa8254442cb68df89d4d
+SHA256: 489e40c1bf57203bdffea416ffc4e547fd422b7329be89dc887e9248bc0a8a55
+Homepage: https://www.pureftpd.org/project/pure-ftpd
+Description: Pure-FTPd is a free (BSD), secure, production-quality and standard-conformant FTP server
+
+Package: pv
+Version: 1.9.34-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 688
+Filename: pool/main/p/pv/pv_1.9.34-1_aarch64.deb
+Size: 235860
+MD5sum: 66b41cff3c05362c3f3938a760b9d290
+SHA1: d625257fb160a19ec622ce1bf374b89641fd781b
+SHA256: 3ce6f5af91889b3bc934857b61d8b04ed84405bdd11862ba44365e1d295800c2
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Terminal-based tool for monitoring the progress of data through a pipeline
+
+Package: pwgen
+Version: 2.08-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Filename: pool/main/p/pwgen/pwgen_2.08-2_aarch64.deb
+Size: 12040
+MD5sum: bd79ce72f46087d0b48a29ed1051b0bc
+SHA1: 7b191efadf6524773b4652413eb06722f817ca7d
+SHA256: 9ab6a8c7cbc341e56924459c84d2e3cc359360797bf47499a9fc558b295e5079
+Homepage: http://pwgen.sourceforge.net/
+Description: Password generator which by default, unless given the '-s' option, generates memorable but insecure passwords
 
 Package: pycairo
 Version: 1.28.0-1
