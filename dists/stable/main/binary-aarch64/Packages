@@ -29280,6 +29280,20 @@ SHA256: f0c44b48a33079c9af14b55596812acddf2528c4b96de49e9cb818f3df240b29
 Homepage: https://github.com/lxml/lxml
 Description: Python binding for the libxml2 and libxslt libraries
 
+Package: python-msgpack
+Version: 1.1.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 356
+Depends: libc++, python
+Filename: pool/main/p/python-msgpack/python-msgpack_1.1.1-1_aarch64.deb
+Size: 70992
+MD5sum: 7080a0116dd34fd4b0c865cd6343e3cf
+SHA1: b9f692a339be5171c3c5edb6f00e54889052e856
+SHA256: 58da2ed7fa93c304f41b737fb203c737351f65d40da3f4c6ba0780baf1cee440
+Homepage: https://github.com/msgpack/msgpack-python
+Description: MessagePack serializer implementation for Python
+
 Package: python-numpy
 Version: 2.2.5-1
 Architecture: aarch64
@@ -29307,6 +29321,20 @@ SHA1: c5cde6c0ece13444c416d655c3a267b8c7d2f219
 SHA256: 8e79d30aa4ceceb5e8bee9cb3f9b2d083f4dade4c9bae81f41d77263bf59f4e1
 Homepage: https://numpy.org/
 Description: Static libraries for python-numpy
+
+Package: python-onnxruntime
+Version: 1.22.2-4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 27220
+Depends: abseil-cpp, libc++, protobuf, libre2, python
+Filename: pool/main/p/python-onnxruntime/python-onnxruntime_1.22.2-4_aarch64.deb
+Size: 5269548
+MD5sum: d0a2ef2984395b766f924183090f228f
+SHA1: ed4791dec85268ba7bfba0facda59be0263a506d
+SHA256: 56d4ea82421bd0b59dcda9c2aa8c69fa13f7cf2c860111919799c174a38aad29
+Homepage: https://onnxruntime.ai/
+Description: Cross-platform, high performance ML inferencing and training accelerator
 
 Package: python-pillow
 Version: 11.1.0-2
@@ -29351,6 +29379,48 @@ SHA256: f6aa28a2d5db9fbe81b44aff2c6cfc6796263f37f20f5188164622235664e977
 Homepage: https://github.com/apache/arrow
 Description: Python bindings for Apache Arrow
 
+Package: python-pycryptodomex
+Version: 3.23.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7716
+Depends: python, python-pip
+Filename: pool/main/p/python-pycryptodomex/python-pycryptodomex_3.23.0-1_aarch64.deb
+Size: 1505872
+MD5sum: 3bff5d29572620bfcfb5913c278e4e1e
+SHA1: fc8c8abfa9f2bcb59b1acecd730df2edbfd97e8d
+SHA256: ef417671365a1911c73d749ee32e027b46fc61c2ff70b4f19cbf1431456f7946
+Homepage: https://www.pycryptodome.org/
+Description: A self-contained Python package of low-level cryptographic primitives
+
+Package: python-pynvim
+Version: 0.6.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 568
+Depends: python-greenlet, python-msgpack
+Filename: pool/main/p/python-pynvim/python-pynvim_0.6.0_all.deb
+Size: 85068
+MD5sum: 0128f949c4ab250bc6f0822d60f56da1
+SHA1: 5663e813ae33b638b20a3f27c568f6c15ba6a22d
+SHA256: 1e1ee70fda0523c6e9c742a0de4a60b8b679c3f8e6c62391b1f4ae30f710c8a8
+Homepage: https://github.com/neovim/pynvim
+Description: Python client for Neovim
+
+Package: python-sabyenc3
+Version: 8.2.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 176
+Depends: libc++, python
+Filename: pool/main/p/python-sabyenc3/python-sabyenc3_8.2.6-1_aarch64.deb
+Size: 31956
+MD5sum: fef1898fe1010dcf066806844b1f9eb6
+SHA1: 1c92d45b3989f70ba887f5dcbd43c8fc32cf19d5
+SHA256: d7c389ed75d46fd03ac3a360f2e59c14a63b5b3cafeb57267bef791670e89c49
+Homepage: https://github.com/sabnzbd/sabctools
+Description: C implementations of functions for use within SABnzbd
+
 Package: python-scipy
 Version: 1.16.2-1
 Architecture: aarch64
@@ -29393,6 +29463,20 @@ SHA256: 3c1e6c69cfb58dff7f496c01f017dc69a9151ac2e9773b66f7339e6dacf51ba0
 Homepage: https://python.org/
 Description: Static libraries for python
 
+Package: python-tflite-runtime
+Version: 2.20.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6156
+Depends: python, python-numpy, python-pip
+Filename: pool/main/p/python-tflite-runtime/python-tflite-runtime_2.20.0_aarch64.deb
+Size: 1523472
+MD5sum: 2cff4fa08c9bc10c58fc10ae9816d56b
+SHA1: 9b5b44e415075e7f124cc7815ccf0fb65a8ee99e
+SHA256: 987ba5a7a81427cdf486b77902de7a9298f200debcc1d509aec4a85be55d1162
+Homepage: https://www.tensorflow.org/lite
+Description: TensorFlow Lite Python bindings
+
 Package: python-tkinter
 Version: 3.12.11-1
 Architecture: aarch64
@@ -29408,6 +29492,20 @@ SHA1: 9f6a025301a021aa81d9d4d1e0a1638dd2798084
 SHA256: 937be8becb0c882245e8b8ffb033f68345dc704af44d5f40d04a75d99e8a263a
 Homepage: https://python.org/
 Description: Tkinter support for Python 3
+
+Package: python-tldp
+Version: 0.7.5-5
+Architecture: all
+Maintainer: @termux
+Installed-Size: 560
+Depends: python, python-pip
+Filename: pool/main/p/python-tldp/python-tldp_0.7.5-5_all.deb
+Size: 79056
+MD5sum: cecb681cd682f1c055fff0cea3ead7f0
+SHA1: 16347a5d14d80e531d140bfe28736b28743c50f1
+SHA256: 87441a7e78f68230a564e52d9555314ff0889082abe74001df666f354075114c
+Homepage: https://github.com/tLDP/python-tldp
+Description: Tools for publishing from TLDP sources
 
 Package: python-xcbgen
 Version: 1.17.0-1
