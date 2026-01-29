@@ -29554,6 +29554,37 @@ SHA256: 6cc876ecbad57c55f806fed814a0695e5162eaf9510597413557a4d31f8233b7
 Homepage: https://github.com/yt-dlp/yt-dlp
 Description: A youtube-dl fork with additional features and fixes
 
+Package: python2
+Version: 2.7.18-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 18772
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libffi, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: clang, make, pkg-config
+Breaks: python2-dev
+Replaces: python2-dev
+Filename: pool/main/p/python2/python2_2.7.18-15_aarch64.deb
+Size: 4948752
+MD5sum: 0c5c02be56ed8d5ac99c7fb76d95c48c
+SHA1: 4726ff8f0a01bae203b2eab5ec3a0dcedf848101
+SHA256: 6452388674b100f82f332b76962cdb1527bad5699880ea2f949e115416294e14
+Homepage: http://python.org/
+Description: Python 2 programming language intended to enable clear programs
+
+Package: python2-static
+Version: 2.7.18-15
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10888
+Depends: python2 (= 2.7.18-15)
+Filename: pool/main/p/python2-static/python2-static_2.7.18-15_aarch64.deb
+Size: 1972184
+MD5sum: 19a647a7ebc5699a9ab0d975b6997b70
+SHA1: f26aba1ac748f683c622ebc13799c675735df537
+SHA256: 1d4a79c734baad02c022e4e61cf3535cf1d797702d0ab96c38c59d7172660ef3
+Homepage: http://python.org/
+Description: Static libraries for python2
+
 Package: pyunbound
 Version: 1.24.0-1
 Architecture: aarch64
@@ -29596,6 +29627,36 @@ SHA256: d76a414a26c2017caf62d498ceb0467403fd37226023f21238ea93223a75ec43
 Homepage: https://github.com/natesales/q
 Description: A tiny command line DNS client with support for UDP, TCP, DoT, DoH, DoQ and ODoH
 
+Package: qalc
+Version: 5.7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7664
+Depends: libc++, libcurl, libgmp, libiconv, libmpfr, libxml2, readline
+Breaks: qalc-dev
+Replaces: qalc-dev
+Filename: pool/main/q/qalc/qalc_5.7.0_aarch64.deb
+Size: 1736188
+MD5sum: 797fef106974684d067c799026009d88
+SHA1: 77726dcba0e69878f41ff5a25d7b169fb04c59c9
+SHA256: 3e0e3d84243982cecfe44b0ff160263396e9661a3951f2fc7056402068ac00a7
+Homepage: https://qalculate.github.io/
+Description: Powerful and easy to use command line calculator
+
+Package: qalc-static
+Version: 5.7.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 11256
+Depends: qalc (= 5.7.0)
+Filename: pool/main/q/qalc-static/qalc-static_5.7.0_aarch64.deb
+Size: 1692152
+MD5sum: 0fbc2e22b1091db04fbf2cb10fbd3042
+SHA1: fbf64ae50e0915c49fdd7b676b6bd1876f2f1178
+SHA256: 7dba3fb4d02c61240875b51f2d9dbb5aa1bd9190ae34c70def61066d75ce6136
+Homepage: https://qalculate.github.io/
+Description: Static libraries for qalc
+
 Package: qhull
 Version: 8.1-alpha3-2
 Architecture: aarch64
@@ -29622,6 +29683,36 @@ SHA1: f8550d3c7b4e9824a92e81fc5f02bf5fb598b6a1
 SHA256: 377062471e2dd063fa97084ad677be6556598ef5d0523e9593bf72c44c9e8daf
 Homepage: http://www.qhull.org
 Description: Static libraries for qhull
+
+Package: qpdf
+Version: 12.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4044
+Depends: libc++, libjpeg-turbo, zlib
+Breaks: qpdf-dev
+Replaces: qpdf-dev
+Filename: pool/main/q/qpdf/qpdf_12.2.0-1_aarch64.deb
+Size: 866812
+MD5sum: e69550a8d1062a70f319e8cd23cdf749
+SHA1: 020fab28cccbd3bb6cb5221702d29a1414384e6b
+SHA256: 1c932fb3cebbfb7ee9d80805f83462274e3db74dd865e029628b37027f27d2bf
+Homepage: http://qpdf.sourceforge.net
+Description: Content-Preserving PDF Transformation System
+
+Package: qpdf-static
+Version: 12.2.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 9384
+Depends: qpdf (= 12.2.0-1)
+Filename: pool/main/q/qpdf-static/qpdf-static_12.2.0-1_aarch64.deb
+Size: 1080508
+MD5sum: 9787fad90fc40157a86472c71cf951ff
+SHA1: 7fe07cf1388ce9711f68bf2dd5651c3683270970
+SHA256: de2c0ea9d95d7e46d2ee81f9df10c8e117200dde9ecf47d1563c61f22a58a791
+Homepage: http://qpdf.sourceforge.net
+Description: Static libraries for qpdf
 
 Package: qrupdate-ng
 Version: 1.1.5-1
