@@ -786,10 +786,10 @@ Conflicts: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-re
 Replaces: apt-transport-https, libapt-pkg, unstable-repo, game-repo, science-repo
 Provides: unstable-repo, game-repo, science-repo
 Filename: pool/main/a/apt/apt_2.8.1-2_aarch64.deb
-Size: 1031440
-MD5sum: 83424e4852bf42acab4ccef88a601665
-SHA1: ce42327fd6565a407cbdc409c7c5fb1eab918f16
-SHA256: 671666328eb4d32f4abc748c1fa2e0918d50f8c5da3313f327717ede18d856f6
+Size: 1030668
+MD5sum: bce95369ce15ceed01a363675d4d603a
+SHA1: 3dab0b9e6453fd28747e0a29e35eb3dc0666f823
+SHA256: 59ccbc8ac2d1a435679f3d2ebfdacaca5ae31482deb9cba94ba625201112aa12
 Homepage: https://packages.debian.org/apt
 Description: Front-end for the dpkg package manager
 
@@ -815,10 +815,10 @@ Maintainer: @termux
 Installed-Size: 308
 Depends: libdb, apt (= 2.8.1-2)
 Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-2_aarch64.deb
-Size: 94992
-MD5sum: 4c7a103cbcb90130dea01ea667964baf
-SHA1: 6b093f57f9ea5d0c7d8293a83851c60af6f27d24
-SHA256: 9f001225e4436f5a14240476dc758f32d4def460441e1b8d78b9d851b73aa379
+Size: 95132
+MD5sum: 0d6b99bce3b77e1a6093226d0e7b4407
+SHA1: c857d1131a61c7a1922685058900fb964e0e4c33
+SHA256: 5def5c2172a454fc106506640223bcbf425850025a0acc2e979b5fd0936cbc7b
 Homepage: https://packages.debian.org/apt
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 
@@ -843,10 +843,10 @@ Maintainer: @termux
 Installed-Size: 44
 Depends: tor, apt (= 2.8.1-2)
 Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-2_all.deb
-Size: 912
-MD5sum: 6025075fd7e9beb795940141a1f00d67
-SHA1: ff10b940fd7693503d8b6465e5ada00732817dc2
-SHA256: de9fd77e69c8afa8f3be9d30a59dce2b18d0285491c19b01e8027c25d2e35a57
+Size: 916
+MD5sum: a929adb9aeb25b5f09ee2e2785eeedcd
+SHA1: 4a0177f3214aae7f1c8809a386710b06254d5120
+SHA256: e91852c52d76e288eea742e6c1fac105cf63392d38756729d4628811e22d74c1
 Homepage: https://packages.debian.org/apt
 Description: APT transport for anonymous package downloads via Tor
 
@@ -30595,12 +30595,12 @@ Version: 3.13
 Architecture: all
 Essential: yes
 Maintainer: @termux
-Installed-Size: 76
+Installed-Size: 68
 Filename: pool/main/t/termux-keyring/termux-keyring_3.13_all.deb
 Size: 2300
-MD5sum: ce3eb7bdbcf47e4a590f4999a355798a
-SHA1: 5fcdeb53ea44b437bacb73c3cb7ef7233af6020d
-SHA256: 36c7ab21a28f66224a27ba3514be13b02ba4283fa2e5b5e32074da98a1d9cfc5
+MD5sum: f1a2bbdc3191c356589dedda50cfda34
+SHA1: b031369fb65e43fc6ce67f14efbb3b9ffb5a15f0
+SHA256: 8daa84d70535ed2b1370422438408ce88dc0666a2f02e2e501cc7766ceaeee74
 Homepage: https://github.com/Mart-01-oss/pages
 Description: GPG public keys for NeonIDE repositories
 
