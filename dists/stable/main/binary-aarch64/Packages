@@ -30461,14 +30461,14 @@ Version: 3.13
 Architecture: all
 Essential: yes
 Maintainer: @termux
-Installed-Size: 192
+Installed-Size: 76
 Filename: pool/main/t/termux-keyring/termux-keyring_3.13_all.deb
-Size: 39800
-MD5sum: 7acf9010664650918faa44eb970696be
-SHA1: f6966a0f8321daa5e688ece339d7b446d4b0718d
-SHA256: 57e96c859c9fd7198fad657d8713794bd595e2e07515bc87d19648a94c2b5ab7
-Homepage: https://github.com/termux
-Description: GPG public keys for the official Termux repositories
+Size: 2300
+MD5sum: ce3eb7bdbcf47e4a590f4999a355798a
+SHA1: 5fcdeb53ea44b437bacb73c3cb7ef7233af6020d
+SHA256: 36c7ab21a28f66224a27ba3514be13b02ba4283fa2e5b5e32074da98a1d9cfc5
+Homepage: https://github.com/Mart-01-oss/pages
+Description: GPG public keys for NeonIDE repositories
 
 Package: termux-licenses
 Version: 2.1
