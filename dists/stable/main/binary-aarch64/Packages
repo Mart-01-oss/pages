@@ -29507,6 +29507,62 @@ SHA256: 87441a7e78f68230a564e52d9555314ff0889082abe74001df666f354075114c
 Homepage: https://github.com/tLDP/python-tldp
 Description: Tools for publishing from TLDP sources
 
+Package: python-torch
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 276720
+Depends: abseil-cpp, libc++, libopenblas, libprotobuf, python, python-numpy, python-pip
+Filename: pool/main/p/python-torch/python-torch_2.6.0-1_aarch64.deb
+Size: 39537732
+MD5sum: c10a0908739d3656738f0ee1abd057c6
+SHA1: 7bb27bb8a5f2a1ac8f32409a4abcdaaaab4a81ee
+SHA256: 84b67080d2b23c724281aaefbbfc618d3649d5683d3f5bd97eecdab0f1b5f461
+Homepage: https://pytorch.org/
+Description: Tensors and Dynamic neural networks in Python
+
+Package: python-torch-static
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8596
+Depends: python-torch (= 2.6.0-1)
+Filename: pool/main/p/python-torch-static/python-torch-static_2.6.0-1_aarch64.deb
+Size: 1194492
+MD5sum: 4624e554139a05b22aff2e143882dbd0
+SHA1: 61143e6d2f906a31af2a2e35fdf043f80325a9c4
+SHA256: 2bfe82048035287baf4f2aead6e64a85452fb9942a8e58e9dcaf710cdc3464c8
+Homepage: https://pytorch.org/
+Description: Static libraries for python-torch
+
+Package: python-torchaudio
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5788
+Depends: libc++, python, python-pip, python-torch, torchaudio-ffmpeg
+Filename: pool/main/p/python-torchaudio/python-torchaudio_2.6.0-1_aarch64.deb
+Size: 889748
+MD5sum: 131f0cd4b6579419e5298eac9358207b
+SHA1: 8aed78b79180693e3daeadbae3a0c23db05bf8bf
+SHA256: 5da730ac3dc5ecac35a431b495d9f402b75c118da5757c759b51e237e5863ff6
+Homepage: https://github.com/pytorch/audio
+Description: Data manipulation and transformation for audio signal processing, powered by PyTorch
+
+Package: python-torchvision
+Version: 0.21.0-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7524
+Depends: libc++, ffmpeg, python, python-numpy, python-pillow, python-pip, python-torch, libjpeg-turbo, libpng, libwebp, zlib
+Filename: pool/main/p/python-torchvision/python-torchvision_0.21.0-2_aarch64.deb
+Size: 1232468
+MD5sum: 443cb852e6d47793209780738cb78a44
+SHA1: 85b5443ba78a90668470d887f0d3c400a0493192
+SHA256: be2180cc437106d201ae0d5d99b17accf8eea9a3fca5e9633fae3d42fbd416df
+Homepage: https://github.com/pytorch/vision
+Description: Datasets, Transforms and Models specific to Computer Vision
+
 Package: python-xcbgen
 Version: 1.17.0-1
 Architecture: all
@@ -29713,6 +29769,20 @@ SHA1: 7fe07cf1388ce9711f68bf2dd5651c3683270970
 SHA256: de2c0ea9d95d7e46d2ee81f9df10c8e117200dde9ecf47d1563c61f22a58a791
 Homepage: http://qpdf.sourceforge.net
 Description: Static libraries for qpdf
+
+Package: qrsspig
+Version: 0.8.0-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1928
+Depends: boost, fftw, libc++, libcurl, libgd, libliquid-dsp, libssh, libyaml-cpp, pulseaudio
+Filename: pool/main/q/qrsspig/qrsspig_0.8.0-6_aarch64.deb
+Size: 387708
+MD5sum: d3e53dad46aebc34df5f42a83a86d6ad
+SHA1: aeb6869eecbc482c5c41db45670a0922506e2dcc
+SHA256: 99db5e927111b08d8d22c06625a0c4af2db19542ce34c496dad25274235016c7
+Homepage: https://gitlab.com/hb9fxx/qrsspig
+Description: Headless QRSS grabber for Raspberry Pi's
 
 Package: qrupdate-ng
 Version: 1.1.5-1
@@ -30766,6 +30836,19 @@ SHA1: 9005c1692c578a2293524a5e53814bbb6a5df020
 SHA256: 8ca132577aabd857ee1edd888e5ea9081efacc1e1c8d52e391163b307a011ce5
 Homepage: https://www.torproject.org
 Description: The Onion Router anonymizing overlay network
+
+Package: torchaudio-ffmpeg
+Version: 2.6.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1332
+Filename: pool/main/t/torchaudio-ffmpeg/torchaudio-ffmpeg_2.6.0-1_aarch64.deb
+Size: 439012
+MD5sum: 86830e1e69d578a4caa3f71b3780a156
+SHA1: 81b27b3c0c06f32edada33aeb01bd9d7a504e46f
+SHA256: 485425a0b6bcf13ef92b4ca3bf48f85e6b94743f4645dbd6bc2c70ae3ca40282
+Homepage: https://github.com/pytorch/audio
+Description: Minimal FFmpeg libraries for python-torchaudio
 
 Package: tree
 Version: 2.2.1-1
