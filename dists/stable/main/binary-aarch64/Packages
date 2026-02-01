@@ -24443,6 +24443,20 @@ SHA256: b80f2a2bceb5ccab53c74d49d75a7c3a1ba65cac020c39e1ad68363187dc481a
 Homepage: https://joeyh.name/code/moreutils/
 Description: A growing collection of the unix tools that nobody thought to write thirty years ago
 
+Package: moria
+Version: 5.7.15-7
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 780
+Depends: libc++, ncurses
+Filename: pool/main/m/moria/moria_5.7.15-7_aarch64.deb
+Size: 217152
+MD5sum: 946bb1dd0e50ade37d335e440de519c5
+SHA1: 1f96c5b474040cf1303fd98b15c5db19715d1a88
+SHA256: f12d5991dcbe1ec810edd5ce91abcea073e762da20b8a2ce48e40a45b296bb0e
+Homepage: https://umoria.org
+Description: Rogue-like game with an infinite dungeon
+
 Package: morse2ascii
 Version: 0.2.1-1
 Architecture: aarch64
@@ -27160,6 +27174,20 @@ SHA256: 731e678187983211fcb81859d9d66008b77d9eb56bb3305c39c4f3f87d94f75a
 Homepage: https://oxc.rs/
 Description: Oxc JavaScript linter
 
+Package: p11-kit
+Version: 0.25.10
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3504
+Depends: libffi, libtasn1
+Filename: pool/main/p/p11-kit/p11-kit_0.25.10_aarch64.deb
+Size: 461772
+MD5sum: 22803d8cb05552c1d3319b77fafaad11
+SHA1: 24f83ca3b29b0bc98a633a230e21337bfb6bd048
+SHA256: 2fb2b92caf87b6559e23e59860933b63188355039ccb80cba36a200e4c07be3c
+Homepage: https://p11-glue.github.io/p11-glue/p11-kit.html
+Description: Provides a way to load and enumerate PKCS#11 modules
+
 Package: p7zip
 Version: 17.06-1
 Architecture: aarch64
@@ -27358,6 +27386,21 @@ SHA1: 2c4b7ed542e852bdeee35a89ba5fcbcccda0793b
 SHA256: a29934da900ccd1c554f8916efc6c482d0f7a67cbe5cf5542fdec6701cd36830
 Homepage: https://www.gnu.org/software/parted/
 Description: Static libraries for parted
+
+Package: paruz
+Version: 1.1.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 44
+Depends: bash, fzf
+Recommends: pacman
+Filename: pool/main/p/paruz/paruz_1.1.2_all.deb
+Size: 1728
+MD5sum: c4e3db1ce5aeacc20700e287445d197c
+SHA1: 5198d8876937fd4167305125e4d5a344ae5d9e9f
+SHA256: 5a50ac313f6672bc7459a7b6e0f62ea6e545f1bb130550032202a49d6e1f5c5d
+Homepage: https://github.com/komori/paruz
+Description: A fzf terminal UI for paru or pacman
 
 Package: pass
 Version: 1.7.4-5
@@ -29077,6 +29120,50 @@ SHA256: 91e176cdf7428c0324eaff163ab88116573c7f1d20d6fa93a5fc9f4faa5604ff
 Homepage: https://pygobject.gnome.org/
 Description: Python package which provides bindings for GObject based libraries
 
+Package: pypy
+Version: 7.3.20
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 71272
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy-tkinter
+Filename: pool/main/p/pypy/pypy_7.3.20_aarch64.deb
+Size: 12183840
+MD5sum: 2583e4b6efb599acf3fdb3f0940745d7
+SHA1: 7779c9ee57f77d8fbfee00b1b09124fc7d74e136
+SHA256: 0a04d96f0e45f1afd1483213f9343832b6c931af7fa87c5742c7448499ea7fe9
+Homepage: https://pypy.org
+Description: A fast, compliant alternative implementation of Python
+
+Package: pypy-tests
+Version: 7.3.20
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 16952
+Depends: pypy (= 7.3.20)
+Filename: pool/main/p/pypy-tests/pypy-tests_7.3.20_aarch64.deb
+Size: 2192116
+MD5sum: 1a48451c8fa4e17f41552fd9e9516a84
+SHA1: 74c9ddc9a9cf1313d11465456f9caf8c8fcb4f88
+SHA256: 4e016b94855de6fd30808bc1f37389e9cc6fe86986302a874c818f26915a3795
+Homepage: https://pypy.org
+Description: Test files for PyPy
+
+Package: pypy-tkinter
+Version: 7.3.20
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 136
+Depends: tk, pypy (= 7.3.20)
+Filename: pool/main/p/pypy-tkinter/pypy-tkinter_7.3.20_aarch64.deb
+Size: 16656
+MD5sum: dc1a207d8b8d555dcc74049bb5a2c9e3
+SHA1: 03f1e6ac2cf4b322fa759abf03f64035149399e4
+SHA256: dc61c0b2a0488285f1c9ee5796e93072ceb0712a2131927a8bc9854076da4a80
+Homepage: https://pypy.org
+Description: Tkinter support for PyPy
+
 Package: pystring
 Version: 1.1.4-1
 Architecture: aarch64
@@ -29165,6 +29252,20 @@ SHA1: 7d25ceef17602ab4304af1d4d870baae64b74760
 SHA256: 3654f4bf341587627b71456665340133a1b825fbd06c03b307237a5716bcfbf6
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (Python bindings)
+
+Package: python-cmake
+Version: 4.1.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: cmake, cmake-curses-gui, python, python-pip
+Filename: pool/main/p/python-cmake/python-cmake_4.1.0_aarch64.deb
+Size: 10120
+MD5sum: b32eb32fedf9c841deeb4fee72f0a195
+SHA1: 59a2b1347c9de5b6c4c1fa9bb19d3cf4b98eb866
+SHA256: 95853439755b893098245df3bf51b76730a1b24ccc9c5558fe5596e175fea79a
+Homepage: https://cmake-python-distributions.readthedocs.io/
+Description: Python wrapper for CMake
 
 Package: python-contourpy
 Version: 1.3.3-1
@@ -29713,6 +29814,293 @@ SHA256: 7dba3fb4d02c61240875b51f2d9dbb5aa1bd9190ae34c70def61066d75ce6136
 Homepage: https://qalculate.github.io/
 Description: Static libraries for qalc
 
+Package: qemu-common
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 246012
+Depends: glib, libbz2, libcap-ng, libcurl, libgmp, libgnutls, libnettle, libnfs, libpixman, libssh, zlib, zstd
+Breaks: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0)
+Replaces: qemu-system-x86-64 (<< 1:8.0.0), qemu-system-x86-64-headless (<< 1:8.0.0)
+Filename: pool/main/q/qemu-common/qemu-common_1+8.2.6-6_aarch64.deb
+Size: 18500552
+MD5sum: 62b36d87591ebaf2218ce0dc5ed91fb8
+SHA1: 3ecc262f540314fac6614fede2893de3925344b1
+SHA256: 726f4524907e493b1ce7eb6c3027cdd5f36c46a93cd46bb303a40f966517544c
+Homepage: https://www.qemu.org
+Description: A set common files used by the QEMU emulators
+
+Package: qemu-system-aarch64-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 24324
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-aarch64-headless/qemu-system-aarch64-headless_1+8.2.6-6_aarch64.deb
+Size: 3264396
+MD5sum: a5ea832237c261178dab0ae604c98dc9
+SHA1: aa417eb432cc9d9612d737f1d938470ae1dba179
+SHA256: e7e12de9aa56099ae3601486fdd3d89b7ec0ca6a992db774328e0c03aa0ed5c9
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-arm-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 22536
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-arm-headless/qemu-system-arm-headless_1+8.2.6-6_aarch64.deb
+Size: 2901052
+MD5sum: 184ab42b40f572cc729ddc748fd02690
+SHA1: 241001229dbc2e42288835386edd5be63e5343df
+SHA256: dba4141b1c434611218bc14be9ef83c1e0ce3b3b8ad670c78b6a63ae0d4ab4d3
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-i386-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20440
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-i386-headless/qemu-system-i386-headless_1+8.2.6-6_aarch64.deb
+Size: 2370724
+MD5sum: bb364bcdf90c07e13d1fd903225b5458
+SHA1: 12d0c302ef1b89458fe42ee8fee317873d600b1f
+SHA256: aa5026dd670592203199321597e66755824ec96f11abfed5ec53d1b9fe8a8b1f
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-m68k-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 6756
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-m68k-headless/qemu-system-m68k-headless_1+8.2.6-6_aarch64.deb
+Size: 1637672
+MD5sum: af6245b30ac11237a0e97fe55f7f8806
+SHA1: 0be4a146d18f9b5fd725f004ea500abad04bd7f2
+SHA256: 929a0ff12f632fd141da60f6628936eec3ef202a7504f1e09074703203f8d6b7
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-ppc-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12232
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-ppc-headless/qemu-system-ppc-headless_1+8.2.6-6_aarch64.deb
+Size: 2352960
+MD5sum: a80040005e9d607ac50a745eed821582
+SHA1: 5f3023c13a09380acdf398777a86aecd843aab80
+SHA256: f7c478ea9aec099d13bc78be58a7ac2ac89daaade0118c785a6b212c08c932ed
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-ppc64-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12956
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-ppc64-headless/qemu-system-ppc64-headless_1+8.2.6-6_aarch64.deb
+Size: 2567796
+MD5sum: 337fab15ddbd1270f7a2c6fb0e0d3ba8
+SHA1: 1921c64a2ca8a0a718b722d153bb8f9e4521a98b
+SHA256: c7f9cd12d79a37342f4669b2379bb5c2a62c366e88fd51bf1df68174d4ef67d3
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-riscv32-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12156
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-riscv32-headless/qemu-system-riscv32-headless_1+8.2.6-6_aarch64.deb
+Size: 2233136
+MD5sum: 257e2126566c93df7fa41528b0068ed8
+SHA1: a05f16bbc605224d4d8672013b731591faf5690c
+SHA256: cf243112f79325347e7bfbe9b4ac1880234d1859ade2179ff687e518446faf88
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-riscv64-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 12184
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Filename: pool/main/q/qemu-system-riscv64-headless/qemu-system-riscv64-headless_1+8.2.6-6_aarch64.deb
+Size: 2235188
+MD5sum: a2decd923160a7f67a083144572aa46b
+SHA1: cee05b8b3219cccef52921cb92fb6dee277aa2f7
+SHA256: fd91acd258d2a1843866e01cf552193cf9257e683d4fce9efeb3ea9b37c84060
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-system-x86-64-headless
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20468
+Depends: alsa-lib, dtc, glib, jack2, libbz2, libcurl, libdw, libgmp, libgnutls, libiconv, libjpeg-turbo, liblzo, libnettle, libnfs, libpixman, libpng, libslirp, libspice-server, libssh, libusb, libusbredir, ncurses, pulseaudio, qemu-common, resolv-conf, zlib, zstd
+Conflicts: qemu-system-x86_64-headless
+Replaces: qemu-system-x86_64-headless
+Provides: qemu-system-x86_64-headless
+Filename: pool/main/q/qemu-system-x86-64-headless/qemu-system-x86-64-headless_1+8.2.6-6_aarch64.deb
+Size: 2378304
+MD5sum: 9e5993749840e12ed6a7cce52d295cfa
+SHA1: a0e9efdcd0dc9b04b3c542bb39f699c0eed84580
+SHA256: ee3f66ebea0931342681582eb2c83eee540c10d5732abe357738cfb038653b4a
+Homepage: https://www.qemu.org
+Description: A generic and open source machine emulator and virtualizer (headless)
+
+Package: qemu-user-aarch64
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3712
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-aarch64/qemu-user-aarch64_1+8.2.6-6_aarch64.deb
+Size: 838936
+MD5sum: 202343f67d15555769e3c419aba30eea
+SHA1: 861e2e588f5d43dfc2ed189bfd0cdf19d6411467
+SHA256: 822c2e9ee6cd1f07e371b413f874a7aa0d4ff4ee45a8db0bfdc46d56d662dc4f
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-arm
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2452
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-arm/qemu-user-arm_1+8.2.6-6_aarch64.deb
+Size: 612060
+MD5sum: 1296f06669ca81193954e9fabfa0027c
+SHA1: ccfc87984c2445528a6c3ba4c845c12322c8111e
+SHA256: 2fa12e223af3e304b54e9b0c631e665698fbdec78309bb201ec615b961bab7f9
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-i386
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1964
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-i386/qemu-user-i386_1+8.2.6-6_aarch64.deb
+Size: 503140
+MD5sum: 77d49c2bd7fbeb599bf4c014496cf93c
+SHA1: da731514758c9bd88ca01ecd1dc810883e48e594
+SHA256: 62fe3fdddc38b441e7505e10d3ba9a47119cb18e2ab511bceeec6e335d72f0ef
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-m68k
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1692
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-m68k/qemu-user-m68k_1+8.2.6-6_aarch64.deb
+Size: 437616
+MD5sum: c5154ea2f80803decc911129e2dd2bf8
+SHA1: 6c3af7c1a281e6a17c6ad343c69ca2472fd79ada
+SHA256: e8c036725dd2164b1623676c9c046ae7bcd07ce37fd5868fc4bc80a3d4149efc
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-ppc
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2152
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-ppc/qemu-user-ppc_1+8.2.6-6_aarch64.deb
+Size: 548616
+MD5sum: 290536affc1593ce5bde8be1b4aed7f9
+SHA1: fc91fa77aa0aaba689fdb2ec7d6d3e9cac680d22
+SHA256: c99c0194a8d740542a7d2a6d4d4241e100573b75a5dacab66c71ae4ed565792f
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-ppc64
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2204
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-ppc64/qemu-user-ppc64_1+8.2.6-6_aarch64.deb
+Size: 559004
+MD5sum: c905039039f6290f7befb0cfab299b32
+SHA1: fb3054bf41cf3a0e3e5a5fbe4832b2f8786731e9
+SHA256: b15e60e7dc2e761f0a900beaa9e3e19655cd172954c21bdb35e902c4af890ef8
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-riscv32
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2364
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-riscv32/qemu-user-riscv32_1+8.2.6-6_aarch64.deb
+Size: 509032
+MD5sum: 1477ba18ff9dc7a8f5c3fae98034f02f
+SHA1: d51e6e84db213c31f61f720753a6ee914050e113
+SHA256: 550a1e5a5e702b3cce14b835b5dfbb03c5883a3c9d4ba2dc183f0612c2006b9e
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-riscv64
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2380
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Filename: pool/main/q/qemu-user-riscv64/qemu-user-riscv64_1+8.2.6-6_aarch64.deb
+Size: 514116
+MD5sum: c5f39172a0e2f9e541f5b557ee03b3a6
+SHA1: ae2fefafb1a42165cf50bb55ef339648a901a6b8
+SHA256: 9ee7fa2eee94a4fb69867d8a07aee15a4763d2fcbfeb02c35ba5eb3b6ec0dd54
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-user-x86-64
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1948
+Depends: glib, libandroid-shmem, libdw, libgnutls, libpixman
+Breaks: qemu-user-x86_64
+Replaces: qemu-user-x86_64
+Filename: pool/main/q/qemu-user-x86-64/qemu-user-x86-64_1+8.2.6-6_aarch64.deb
+Size: 497924
+MD5sum: 2dcd489e2054f49f311372887aa582fc
+SHA1: 49ac0771c5e241f248f84686a8232862d6798d49
+SHA256: 81b8f07cc33f793f43beac0fd5b15785b37c6ad5783186df33526ea5367366d1
+Homepage: https://www.qemu.org
+Description: QEMU Linux user mode emulator
+
+Package: qemu-utils
+Version: 1:8.2.6-6
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5504
+Depends: glib, libbz2, libcurl, libgmp, libgnutls, libnettle, libnfs, libpixman, libssh, zlib, zstd
+Filename: pool/main/q/qemu-utils/qemu-utils_1+8.2.6-6_aarch64.deb
+Size: 941772
+MD5sum: 496ed59485d8a86160d1a6a6ec74abe2
+SHA1: ce23daa0656bc49efc13dc476b0eec58894e789a
+SHA256: 575dbe17b6bd4814a165e1b41c6e948e07d077dce553b676e94445be82302e0b
+Homepage: https://www.qemu.org
+Description: A set of utilities for working with the QEMU emulators
+
 Package: qhull
 Version: 8.1-alpha3-2
 Architecture: aarch64
@@ -29798,6 +30186,20 @@ SHA256: 8f574f307e5ac22467d5c4eb74948fdbfaffa9125332769aada817eb1ea1a213
 Homepage: https://github.com/mpimd-csc/qrupdate-ng
 Description: A Library for Fast Updating of QR and Cholesky Decompositions.
 
+Package: quick-lint-js
+Version: 3.2.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1080
+Depends: libc++
+Filename: pool/main/q/quick-lint-js/quick-lint-js_3.2.0_aarch64.deb
+Size: 247484
+MD5sum: c4bdf18fa0173f172e85c63ba6fb072a
+SHA1: 540b550c8d735b9b6c02fb00e909259eef01d6ca
+SHA256: 2867639bfd33dd38ff2a615f1bfff7151197435f3e9cd2798fdb7b9fe28371eb
+Homepage: https://quick-lint-js.com/
+Description: Finds bugs in JavaScript programs
+
 Package: quickjs
 Version: 1:20250426-1
 Architecture: aarch64
@@ -29810,6 +30212,77 @@ SHA1: 00928d3742c70147f1e20db2853f7c2b7426f26a
 SHA256: 0191b6d85768e2fe4382dd23f949561099c557e32a7da0ec8c76a62eac9c85d1
 Homepage: https://bellard.org/quickjs/
 Description: QuickJS is a small and embeddable Javascript engine
+
+Package: rabbitmq-server
+Version: 4.1.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 61800
+Depends: erlang
+Filename: pool/main/r/rabbitmq-server/rabbitmq-server_4.1.4_all.deb
+Size: 22283916
+MD5sum: a8e1107876ef1224a5bfaa5502f6ec8a
+SHA1: b1d6df45bbeca63a541ae8f6a12f4f238253ec52
+SHA256: c71bc48df4205e43750e6a6278f868b91f7941735116477c2083d5ea001b2d89
+Homepage: https://github.com/rabbitmq/rabbitmq-server
+Description: Feature rich, multi-protocol messaging and streaming broker
+
+Package: racket
+Version: 8.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 33300
+Depends: libffi, libiconv
+Filename: pool/main/r/racket/racket_8.18_aarch64.deb
+Size: 5657224
+MD5sum: 722ecc91b366579877cc761c184e056b
+SHA1: d14537ce15013832492bc98ba8c0bf9e0ad0e4df
+SHA256: 27738e65c7eddf56629a28912fa1d75a1ed21c9939f41ac759d8ca96ab395f2e
+Homepage: https://racket-lang.org
+Description: Full-spectrum programming language going beyond Lisp and Scheme
+
+Package: racket-static
+Version: 8.18
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4852
+Depends: racket (= 8.18)
+Filename: pool/main/r/racket-static/racket-static_8.18_aarch64.deb
+Size: 1064772
+MD5sum: cc90615a294c6316f6f4359447764ad9
+SHA1: e2b9c811aa03541124e90110493d6e0438367eb8
+SHA256: cbad09b846f1f1e9baf3d3915677fc48c9f3e104c0210c62ecc953e4d2f3fa78
+Homepage: https://racket-lang.org
+Description: Static libraries for racket
+
+Package: radare2
+Version: 6.0.2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42044
+Depends: libuv
+Breaks: radare2-dev
+Replaces: radare2-dev
+Filename: pool/main/r/radare2/radare2_6.0.2_aarch64.deb
+Size: 7466888
+MD5sum: 92c391a641b6de834e1e6ff43d943a33
+SHA1: 31cfc38eaef82478afcf889015c26efa5ebf39a9
+SHA256: adec98676dd71af99279cb2d6a9f7283ffe4c256e939fbd7afa9b6fc82317e49
+Homepage: https://www.radare.org/
+Description: UNIX-like reverse engineering framework and command-line toolset
+
+Package: rage
+Version: 0.11.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 7040
+Filename: pool/main/r/rage/rage_0.11.1-1_aarch64.deb
+Size: 1296612
+MD5sum: 44e6cad2d56d45dd0b709fc789622e59
+SHA1: 9e108112df64b20af8851d7e220d5df85a9e84b9
+SHA256: 77e2e4e08864c44fc91294ed9ac24247956fcefe0e9a5724aeef1335504c549e
+Homepage: https://age-encryption.org/v1
+Description: A simple, secure and modern encryption tool
 
 Package: rapidjson
 Version: 1.1.0-5
