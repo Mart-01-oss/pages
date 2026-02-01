@@ -27272,6 +27272,20 @@ SHA256: 70789a5bb8ddbe44d0668de28bd4ef05818bbd52ccc0e9aa42128ca186d95418
 Homepage: https://www.panda3d.org/
 Description: Static libraries for panda3d
 
+Package: pandoc
+Version: 3.7.0.2
+Architecture: aarch64
+Maintainer: Aditya Alok <alok@termux.dev>
+Installed-Size: 254184
+Depends: libffi, libiconv, libgmp, liblua54, zlib
+Filename: pool/main/p/pandoc/pandoc_3.7.0.2_aarch64.deb
+Size: 28215420
+MD5sum: 11361ba485bc9140a5d206b33c8cb07d
+SHA1: f455ceb375a5ff0f0f0510d932008c3e3a26be27
+SHA256: 1ff5d1d60f5cbeb19fa0adf90416a63d6957a1e2850345273696d41d64336650
+Homepage: https://pandoc.org/
+Description: Universal markup converter
+
 Package: pango
 Version: 1.57.0
 Architecture: aarch64
@@ -29164,6 +29178,50 @@ SHA256: dc61c0b2a0488285f1c9ee5796e93072ceb0712a2131927a8bc9854076da4a80
 Homepage: https://pypy.org
 Description: Tkinter support for PyPy
 
+Package: pypy3
+Version: 7.3.19-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 74124
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, zlib
+Recommends: clang, make, pkg-config
+Suggests: pypy3-tkinter
+Filename: pool/main/p/pypy3/pypy3_7.3.19-1_aarch64.deb
+Size: 13459880
+MD5sum: 681f55a0a04f3a2b62906bd4d94262c3
+SHA1: 91f9174eb3df3af5a1cdb89be433e028abef94f3
+SHA256: c3a7dc432ed895111f5c7849d30c0a5204e0f6a029b7c82da8f62dd5bd9352dc
+Homepage: https://pypy.org
+Description: A fast, compliant alternative implementation of Python 3
+
+Package: pypy3-tests
+Version: 7.3.19-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 29224
+Depends: pypy3 (= 7.3.19-1)
+Filename: pool/main/p/pypy3-tests/pypy3-tests_7.3.19-1_aarch64.deb
+Size: 3455784
+MD5sum: 66bd2739997c49438e66df4d1d994ac5
+SHA1: b9f7e6c672c4999860feda8bfe12987cb8a0f50c
+SHA256: d4c1d1e0346265ed3c4516d536bfbd3fd595063d9f1014b77a7d8ceb6801ba3f
+Homepage: https://pypy.org
+Description: Test files for PyPy 3
+
+Package: pypy3-tkinter
+Version: 7.3.19-1
+Architecture: aarch64
+Maintainer: @licy183
+Installed-Size: 136
+Depends: tk, pypy3 (= 7.3.19-1)
+Filename: pool/main/p/pypy3-tkinter/pypy3-tkinter_7.3.19-1_aarch64.deb
+Size: 16284
+MD5sum: eb72bd8e94137ca68983f2ac1b0e2ea8
+SHA1: b703bc69efc6808b49ad44a6928f57d0ffe2e4b1
+SHA256: 042b75225c252b0bfab305f97cdcb7ce5e24887a844dea12d23bef01da07eaf2
+Homepage: https://pypy.org
+Description: Tkinter support for PyPy 3
+
 Package: pystring
 Version: 1.1.4-1
 Architecture: aarch64
@@ -30284,6 +30342,74 @@ SHA256: 77e2e4e08864c44fc91294ed9ac24247956fcefe0e9a5724aeef1335504c549e
 Homepage: https://age-encryption.org/v1
 Description: A simple, secure and modern encryption tool
 
+Package: ragel
+Version: 7.0.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13368
+Depends: colm, libc++
+Filename: pool/main/r/ragel/ragel_7.0.4-1_aarch64.deb
+Size: 606988
+MD5sum: ef51bddae43725ae9a1aa09dab92b5d7
+SHA1: 01d44e865491130783109587b0454431f5b5284e
+SHA256: 284b673a7dffe0732e8d22ba6ccefeb408ca2391e28c3fc9ce6f60ea350559af
+Homepage: https://www.colm.net/open-source/ragel/
+Description: Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code
+
+Package: ragel-static
+Version: 7.0.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 432
+Depends: ragel (= 7.0.4-1)
+Filename: pool/main/r/ragel-static/ragel-static_7.0.4-1_aarch64.deb
+Size: 66060
+MD5sum: 148fc39b757a6fdc45a753efaae9e650
+SHA1: 42b59dfe5e4d79f12583f6df37e38320ce26b63d
+SHA256: 211cf654ddce951bb8bbc57744cd6c4c1e37e6a208dee64686218345cbfe0581
+Homepage: https://www.colm.net/open-source/ragel/
+Description: Static libraries for ragel
+
+Package: railway-cli
+Version: 4.10.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 5916
+Filename: pool/main/r/railway-cli/railway-cli_4.10.0_aarch64.deb
+Size: 2195656
+MD5sum: 61f091c85bf307e532f32a7c4cb88a2e
+SHA1: fbe9d07f2b769187a42dd64f2e819d190a257f9e
+SHA256: 3e26f14f6f0b1d94e8c760cbf91b087267be66744550e1380683fdf4635b8c07
+Homepage: https://railway.app
+Description: This is the command line interface for Railway
+
+Package: range-v3
+Version: 0.12.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2796
+Filename: pool/main/r/range-v3/range-v3_0.12.0_aarch64.deb
+Size: 203884
+MD5sum: 3babf2e7593d9cbf0ab33a6efc0b9d75
+SHA1: cf8b4e2910733e7207d0cb36d1afff101e77f702
+SHA256: eda0272540123bc53e7559e5680e71df0c10902100125eb49e869b7736d09c59
+Homepage: https://github.com/ericniebler/range-v3
+Description: Range library for C++14/17/20, basis for C++20's std::ranges
+
+Package: ranger
+Version: 1.9.4
+Architecture: all
+Maintainer: @termux
+Installed-Size: 2644
+Depends: python, file
+Filename: pool/main/r/ranger/ranger_1.9.4_all.deb
+Size: 450436
+MD5sum: bc32045b3389e1f51d87bf11792062d4
+SHA1: 0527eb5ea4d9199a240cd8eba1713f5dcc27c8f5
+SHA256: b5686b483ae11fe843b969f202a9a3448cb0a66cc5a2b51cc017676ee49f7f80
+Homepage: https://ranger.github.io/
+Description: File manager with VI key bindings
+
 Package: rapidjson
 Version: 1.1.0-5
 Architecture: all
@@ -30297,6 +30423,33 @@ SHA256: 1604d6cc3a7a58405e8d88c87a699a39060ec67a2ce1feaec922d5af0db2d890
 Homepage: https://github.com/Tencent/rapidjson/
 Description: Fast JSON parser/generator for C++ with SAX/DOM style API
 
+Package: rappel
+Version: 2022.11.07-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 80
+Depends: binutils-is-llvm | binutils, libedit
+Filename: pool/main/r/rappel/rappel_2022.11.07-1_aarch64.deb
+Size: 12192
+MD5sum: 36c7aabb48abee1e64e5c39cab31f235
+SHA1: bdeb2e306fa2ae54664e89c6eaedcc3bd7de1958
+SHA256: 8f3239a8424a0d46366d88783c19823aa475284e4881d05f32e9549e00113091
+Homepage: https://github.com/yrp604/rappel
+Description: Rappel is a pretty janky assembly REPL
+
+Package: ratt
+Version: 2023.02.02-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10648
+Filename: pool/main/r/ratt/ratt_2023.02.02-3_aarch64.deb
+Size: 2873772
+MD5sum: 94d52da856ea2b40cd6eb01fc309435d
+SHA1: 81c1a3e308f6f92f8fade3fe8f474cd185e28142
+SHA256: e4e63d17a93c43e9225a26b1d32954e7c5408b2a8a1de3c373a6c327ebe8c91d
+Homepage: https://git.sr.ht/~ghost08/ratt
+Description: A tool for converting websites to rss/atom feeds
+
 Package: rav1e
 Version: 0.8.1
 Architecture: aarch64
@@ -30309,6 +30462,75 @@ SHA1: bcd2526409c56c81c06f724dbf3f4909089cc63c
 SHA256: d8024d45283f2ac89e9b113edff99760787ed5973277dd4a2f6ee5f2f7dce337
 Homepage: https://github.com/xiph/rav1e/
 Description: An AV1 encoder program focused on speed and safety
+
+Package: ravencoin
+Version: 4.6.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 13004
+Depends: boost, libc++, libevent, libzmq, miniupnpc, openssl
+Filename: pool/main/r/ravencoin/ravencoin_4.6.1-8_aarch64.deb
+Size: 3405040
+MD5sum: ab308794cd99fba6aab819727bef3915
+SHA1: a358401e7703499a767ae2b73120960b1b0f7bbc
+SHA256: 4ecb628d3414716918e51f0cea5a53c4698daeac72afee55fa2caeba86387f6b
+Homepage: https://ravencoin.org/
+Description: A peer-to-peer blockchain, handling the efficient creation and transfer of assets from one party to another
+
+Package: ravencoin-static
+Version: 4.6.1-8
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2008
+Depends: ravencoin (= 4.6.1-8)
+Filename: pool/main/r/ravencoin-static/ravencoin-static_4.6.1-8_aarch64.deb
+Size: 530348
+MD5sum: a98b8a2dadbbe86cb7fd82a407cfbb52
+SHA1: b77c034826d3c176ff2f67d4909a6caf82c59c05
+SHA256: c5943f3fb1dc8dc3fb0e48e1f2bd4a9b94356fe3c96ad147514cc6e2179737e0
+Homepage: https://ravencoin.org/
+Description: Static libraries for ravencoin
+
+Package: rbw
+Version: 1.14.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 14816
+Depends: pinentry
+Filename: pool/main/r/rbw/rbw_1.14.1_aarch64.deb
+Size: 2966716
+MD5sum: d731eebbd5232bca0d88e30beefa562d
+SHA1: ad301ced29108aef61ca74987a58fff9334d2c79
+SHA256: 2eae85b1f77c52480a01e05f3fe0f9519a9665b8138b74ae677d0f8234eab14c
+Homepage: https://github.com/doy/rbw
+Description: An unofficial command line client for Bitwarden
+
+Package: rclone
+Version: 1.71.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 93216
+Filename: pool/main/r/rclone/rclone_1.71.1_aarch64.deb
+Size: 20341476
+MD5sum: 4fb11e58dc08bf07610290c5eac6b6b3
+SHA1: 6b3f56830c4700cde19941918601509b16e67f1d
+SHA256: d8972eebe2c8222d0e32d1427df225f1a0b1e83723f6dabedff9d70c3dab42bc
+Homepage: https://rclone.org/
+Description: rsync for cloud storage
+
+Package: rcm
+Version: 1.3.6
+Architecture: all
+Maintainer: @termux
+Installed-Size: 124
+Depends: bash
+Filename: pool/main/r/rcm/rcm_1.3.6_all.deb
+Size: 20188
+MD5sum: b588e2f034a299255c4cd8438f1c6aa7
+SHA1: 6f5bcb3d8abc0f60786bb54cc6b5dc88782f5a59
+SHA256: f5d353c84c9e86cc5237acf108323f5aee38b17b7589ab91b0e3badd7578d210
+Homepage: https://github.com/thoughtbot/rcm
+Description: Dotfiles management
 
 Package: rdiff
 Version: 2.3.4-1
