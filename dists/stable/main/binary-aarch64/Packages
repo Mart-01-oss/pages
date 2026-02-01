@@ -29425,6 +29425,20 @@ SHA256: 586d20a61c2bc00e04ca79928a91eed27635509758767f188e6af99c2f5f051b
 Homepage: https://github.com/sass/libsass-python
 Description: A straightforward binding of libsass for Python
 
+Package: python-llvmlite
+Version: 0.44.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 113720
+Depends: libc++, libffi, python, python-pip
+Filename: pool/main/p/python-llvmlite/python-llvmlite_0.44.0_aarch64.deb
+Size: 19751276
+MD5sum: 98a24a48c1c89a2536b09128f829dc45
+SHA1: 724a22c87171081c12b2d3fd41ceffcba9cca2a7
+SHA256: 730fa3cab40b65244e06e405dcab6f4fea6460f821af75d3af61e58545829fac
+Homepage: https://llvmlite.pydata.org/
+Description: A lightweight LLVM python binding for writing JIT compilers
+
 Package: python-lxml
 Version: 6.0.2
 Architecture: aarch64
@@ -30505,6 +30519,22 @@ SHA256: 2eae85b1f77c52480a01e05f3fe0f9519a9665b8138b74ae677d0f8234eab14c
 Homepage: https://github.com/doy/rbw
 Description: An unofficial command line client for Bitwarden
 
+Package: rc
+Version: 1.7.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 156
+Depends: readline
+Breaks: rcshell
+Replaces: rcshell
+Filename: pool/main/r/rc/rc_1.7.4-2_aarch64.deb
+Size: 50256
+MD5sum: 77c003fb487098da25e63bfbd1a5eb44
+SHA1: f981f850f0d9a8874d6e91a5ef65318c6a2a6d8c
+SHA256: 982f0041a79df0de8ccdc3a514248f89c2cf5dbfa7cbdd4617b13eb05c494c25
+Homepage: https://github.com/rakitzis/rc
+Description: An alternative implementation of the plan 9 rc shell
+
 Package: rclone
 Version: 1.71.1
 Architecture: aarch64
@@ -30532,6 +30562,34 @@ SHA256: f5d353c84c9e86cc5237acf108323f5aee38b17b7589ab91b0e3badd7578d210
 Homepage: https://github.com/thoughtbot/rcm
 Description: Dotfiles management
 
+Package: rcs
+Version: 5.10.1-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 680
+Depends: diffutils
+Filename: pool/main/r/rcs/rcs_5.10.1-1_aarch64.deb
+Size: 166328
+MD5sum: 3cc3dc209944c2f57c12660adc3017ec
+SHA1: e481edae54416c0449759951e6bad7a58fd520ef
+SHA256: 86bfb96441b89555bb1d2c3f75339a322d0ce57dadc811056e65902c6eebb4d0
+Homepage: https://www.gnu.org/s/rcs
+Description: The GNU Revision Control System
+
+Package: rdfind
+Version: 1.7.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 152
+Depends: libc++, libnettle
+Filename: pool/main/r/rdfind/rdfind_1.7.0-1_aarch64.deb
+Size: 38548
+MD5sum: 4b903cfbadceb0df998dd42dd01e16d1
+SHA1: 8e7a896d28b49592c8f13d4cc26e32f6b0461ac4
+SHA256: 6b4622baed236d26cfed18eed9be3fa1a67e0a22f35fa356bc076facf3f127f8
+Homepage: https://github.com/pauldreik/rdfind
+Description: A tool for finding duplicate files
+
 Package: rdiff
 Version: 2.3.4-1
 Architecture: aarch64
@@ -30545,6 +30603,62 @@ SHA1: b87f854ead1fdbb1c8bff73aa8346cf95f4fa3f1
 SHA256: 2edc6dc17630c8d304bf8e41694a8196b90b8dce9f016933bc88e5c85d0ecebb
 Homepage: https://github.com/librsync/librsync
 Description: Remote incremental backup
+
+Package: rdiff-backup
+Version: 2.2.6-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2876
+Depends: librsync, python
+Filename: pool/main/r/rdiff-backup/rdiff-backup_2.2.6-3_aarch64.deb
+Size: 525616
+MD5sum: e982202f9625ceb3430904c3f68e041c
+SHA1: ce136ea8acbc74b513643935ff3188577b58b082
+SHA256: 018f987e29d9b7bee703cd1fbf8744ad1b717cdd19714edbd349e80618044342
+Homepage: https://rdiff-backup.net
+Description: A utility for local/remote mirroring and incremental backups
+
+Package: rdircd
+Version: 2023.02.07-1
+Architecture: all
+Maintainer: @termux
+Installed-Size: 212
+Depends: python, python-pip
+Filename: pool/main/r/rdircd/rdircd_2023.02.07-1_all.deb
+Size: 51720
+MD5sum: 5fee3735a7afe397108b2f1a4af03312
+SHA1: 073956df2db23c9f7d52ade4dc6e13538f8a55e0
+SHA256: dbc73b847099ecc2b4ca11ed7d1385c6a2140e65a5eee0085d5c6b7cbfd9fe71
+Homepage: https://github.com/mk-fg/reliable-discord-client-irc-daemon
+Description: A daemon that allows using a personal Discord account through an IRC client
+
+Package: rdrview
+Version: 1:0.1.4-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 112
+Depends: libcurl, libiconv, libseccomp, libxml2
+Filename: pool/main/r/rdrview/rdrview_1+0.1.4-1_aarch64.deb
+Size: 23324
+MD5sum: a51da8f3ffd3afb89ab04960a3d55aaa
+SHA1: 8d43238dccc58e04f360380c9c164677847b8b9e
+SHA256: c31f69e18ed65c620b4403377387a6b65ee89e76132c14f33061f00104df958a
+Homepage: https://github.com/eafer/rdrview
+Description: Command line tool to extract the main content from a webpage
+
+Package: re2c
+Version: 4.3-1
+Architecture: aarch64
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Installed-Size: 12240
+Depends: libc++
+Filename: pool/main/r/re2c/re2c_4.3-1_aarch64.deb
+Size: 812584
+MD5sum: cf38e40835847be661c4b798db7e6d91
+SHA1: e9420c1dc0075bdf06a61749e0514d5100796640
+SHA256: 7bd912615c0f6bbdb9a78cc524701a7029d7b9d9e2e9238b7a753db72fa08d39
+Homepage: https://re2c.org/
+Description: Lexer generator for C, C++ and Go.
 
 Package: readline
 Version: 8.3.1-1
@@ -30575,6 +30689,130 @@ SHA1: 17174f67e84a0716a631482d20a374760aefad46
 SHA256: 5776ea9d49dbfda2f413a5281638f98af7e9ca3bb626f862316577342b8a7479
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Static libraries for readline
+
+Package: recode
+Version: 3.7.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1552
+Depends: libiconv
+Filename: pool/main/r/recode/recode_3.7.15-1_aarch64.deb
+Size: 322224
+MD5sum: 5f2d7bb58de2831ecfa602b11f55f5da
+SHA1: 7c7c71963432fa53ccdfb8d9f52405a99ef8957d
+SHA256: 3318e01610f9d52ec3d905434866029fa9d35d425603048273555fb66acfc804
+Homepage: https://github.com/pinard/Recode
+Description: Charset converter tool and library
+
+Package: recode-static
+Version: 3.7.15-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1836
+Depends: recode (= 3.7.15-1)
+Filename: pool/main/r/recode-static/recode-static_3.7.15-1_aarch64.deb
+Size: 238504
+MD5sum: 37b9dacd9db4a04704b1b5caa438c5ae
+SHA1: d8406961acc8dc7e0af8b216d4e9ec84a6afb2ca
+SHA256: cfbc3564dc9b14639b342a8619b8ab1b4a6eb8ce3d13eb74f35bba61c247e22a
+Homepage: https://github.com/pinard/Recode
+Description: Static libraries for recode
+
+Package: recoll
+Version: 1.43.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 4728
+Depends: aspell, file, libc++, libiconv, libxapian, libxml2, libxslt, zlib
+Filename: pool/main/r/recoll/recoll_1.43.5_aarch64.deb
+Size: 1191988
+MD5sum: 14b7b628cd1a02d760b26f9463f81595
+SHA1: b9cb5df19f6ff6ea46bd10acc90fe79fb146c56c
+SHA256: 251f4651e4b9640b122ba1fd69dabca095c0835162e2f33c9e8ca22addd16cbf
+Homepage: https://www.recoll.org/
+Description: Full-text search for your desktop
+
+Package: recoll-python
+Version: 1.43.5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 284
+Depends: python, recoll (= 1.43.5)
+Filename: pool/main/r/recoll-python/recoll-python_1.43.5_aarch64.deb
+Size: 65632
+MD5sum: f55b687ea12b5a2fcd68631d3210e761
+SHA1: cc3bb1bbe1fae5266e7162fe73691b510c486bcd
+SHA256: 36904a7dea161bfaa8f6a7b60935308d2f4e698ed8b89b6bc828c56791c1b942
+Homepage: https://www.recoll.org/
+Description: Python interface for Recoll
+
+Package: recutils
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1960
+Filename: pool/main/r/recutils/recutils_1.9-1_aarch64.deb
+Size: 281228
+MD5sum: 851299b1133846adf712da4aade16a47
+SHA1: 93375f6bf250d98b78c5a8841705b6449a60bab4
+SHA256: 54e552a4104b5d4995f51c39cd2346b2ed9b02e831072ab281321a70fd27932e
+Homepage: https://www.gnu.org/software/recutils/
+Description: Set of tools and libraries to access human-editable, plain text databases called recfiles
+
+Package: recutils-static
+Version: 1.9-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 748
+Depends: recutils (= 1.9-1)
+Filename: pool/main/r/recutils-static/recutils-static_1.9-1_aarch64.deb
+Size: 152124
+MD5sum: 0b0ebd4b28d33512b554b8710cbf2611
+SHA1: bac85be3c7ffa1b6c505294efee148e78094e0b3
+SHA256: ad3ac3c6926f1ff3b3a99f5f361009e7e4b21b7beb5a0ba909da4aece4b04082
+Homepage: https://www.gnu.org/software/recutils/
+Description: Static libraries for recutils
+
+Package: redir
+Version: 3.3-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 84
+Filename: pool/main/r/redir/redir_3.3-3_aarch64.deb
+Size: 13700
+MD5sum: 2a3eb15e166f76bafdd3cf8faaad57be
+SHA1: a44078935bd96e00413dc79a135c666f512f4c70
+SHA256: 5aef2b4df8989404c9c7f5b5231fe78a597e1cb8014c695fca0d62bb699a3b7e
+Homepage: https://github.com/troglobit/redir
+Description: TCP port redirector for UNIX
+
+Package: redis
+Version: 1:7.2.5-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3380
+Depends: libandroid-execinfo, libandroid-glob
+Filename: pool/main/r/redis/redis_1+7.2.5-1_aarch64.deb
+Size: 867200
+MD5sum: 6d9b91d6dd63dbb400af899e13aff65e
+SHA1: abb33b6eaf88a7b233e5e10b1d9d69d193ae4b5c
+SHA256: c4c33940aa70c033c6bb1b863d431a1e13cc786a773ede2af50f7b8be3ec4a8f
+Homepage: https://redis.io/
+Description: In-memory data structure store used as a database, cache and message broker
+
+Package: remind
+Version: 1:06.01.02
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 3004
+Depends: libandroid-glob
+Filename: pool/main/r/remind/remind_1+06.01.02_aarch64.deb
+Size: 300224
+MD5sum: acb8b83074c8a6a02a41db519d3c55c9
+SHA1: d745fad3f3490685bc806b70a6a49ce02e2d7eba
+SHA256: 8970a5fbef9a2d9665da2644c9a769876a2d465cd8f2fe05dc33ac69f1a01b4d
+Homepage: https://dianne.skoll.ca/projects/remind/
+Description: Sophisticated calendar and alarm program
 
 Package: resolv-conf
 Version: 1.3
