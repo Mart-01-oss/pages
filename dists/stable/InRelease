@@ -5,39 +5,39 @@ Origin: com.neonide.studio
 Label: com.neonide.studio
 Suite: stable
 Codename: stable
-Date: Wed, 04 Feb 2026 01:44:42 +0000
+Date: Wed, 04 Feb 2026 02:01:36 +0000
 Architectures: aarch64
 Components: main
 Description: NeonIDE APT repo
 MD5Sum:
- 13ef7ff4afd38c9f3ca1d5281fdde080              200 Release
+ abffbfafbe3733cc10f5dafb6740a874              200 Release
  c55945100ecd4d1c797074a95e5733fb          1119054 main/binary-aarch64/Packages
- 817d523bf1433eea391e4fc20c8234a0           378550 main/binary-aarch64/Packages.gz
+ 148432a15a112c33d427b31958414b8b           378550 main/binary-aarch64/Packages.gz
 SHA1:
- e00fb1b75603f40418cfea92891d82cb88554220              428 Release
+ 0a035ed2397c03774a2f853328802d221c1bc840              428 Release
  6645194b98a3bc137c9663c8a81ab8c91bab7366          1119054 main/binary-aarch64/Packages
- c99b6a9de779b12c34234796a24816a920d638a8           378550 main/binary-aarch64/Packages.gz
+ 1b55175ec2245d8b57a3222bb2b29a6c0e68c0ac           378550 main/binary-aarch64/Packages.gz
 SHA256:
- bef17dd5068fdf5eda78929ae475c014aadd3509cb677a6cfea88f038081df52              682 Release
+ a82bd8961a4d09f0a2caa18a31510a3802a85880948c1a6f2382c620cc27c3c8              682 Release
  681690e61bf2526a5ecd50fde9f3a57b6dd5d9242d442e890e9643ac5d70a42b          1119054 main/binary-aarch64/Packages
- 5158eaae1b35a425d881b3fa558169b971bf6beae9d2aceff93107743f1cc073           378550 main/binary-aarch64/Packages.gz
+ 277ce6f560315cbbc2406706c69ea2b551b3f779364fec8c87464a250a505889           378550 main/binary-aarch64/Packages.gz
 SHA512:
- 829b65548e513a37ff501abf11e3ecaac94f5efe055b20265ce274d382bbf826117416b4f03fac8fcbbf99453e9820422977bab88c5748d748ce8ac591431d4a             1008 Release
+ a665bf3d12ccf438eb758292780132c9a2f404b38ea3c38e03c1082fa0b063a26f2bcf6c031c2b99aaeb77ae1b1bf172262d4a93eadccf2c453b329e59e2985b             1008 Release
  ed46e583251905e0555ee10bf4bf03215b40db89e8b876c005c0e030dd18fc6b441be0109c422cebdf71b4bc847c3e32804dec18d5d01ae0df11a74e5295cc34          1119054 main/binary-aarch64/Packages
- fa9049da8d677faa18ff6c4f5e74f7a95d0c0ffee276b3b6d3707ca18b61db988f103507f202e355fc77f103d979448d2cd1240ab11969cea3a12f53e8e9de2f           378550 main/binary-aarch64/Packages.gz
+ 644dbb310839f5a18f6b39eb3c78e58478f2dce6990935e161f6401a28b08f4dbd024b5f2f1804ca8dfaf30efb08b1865d2532aa449533efcfcef519f50f0176           378550 main/binary-aarch64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEExZc89leBly0JS53xCXP36mAqp9YFAmmCpIoACgkQCXP36mAq
-p9bg8w//SolM4PTONPgMzH+eNG3JVJDYKGcBjHnnbhHzDxb99Yn9pKcLOsgHcykG
-uIfR+VrKeGkvu8uTwCpnSakd468pbwnHVz4QYjS0JJh254Fliesw2Po+jvdSmByS
-iL+H3R50Q4t3y+aouYYLpJlfxWev1OnGEYWI8iAhKCegfzmOAr3eTUxFNRUvf6mA
-P7IY1tfriiAxyeNv77jdsUp4FzrptOe49tdchs/6vghNHbC7OdKUhZmNYe3RtIPF
-Qys+hlA4aHTUgAxyuW8zd9kLmqXOvqgaWsJ6e2LHuk4NgbsoKhhQRspB1uD7RZGh
-KyoweZAJInOyFdZ2LK4PPD798Hx42XpU0lq0lBkC8xRLiIZ9PqB9zZaaFrD9VMUX
-l1jppUMgpIbuUAnUQyq3QaieoMXRtUYyW6YXaDU8MST4shnvHuhtgSHEpC8u3idx
-3cVFQU3rd/v/PVcHCNTTXWFOl/FoGUg5jJVvhRds+nPpLhmK4ev2hPavGGrU/ELy
-3sylXmAusY2LRrcngaqzJUTczCbc1Ju0jksUJ6VGLFXer4a1ZW2ibEpbW7erxIB1
-+eKTj+2g9RtCLTn9bhhJq1n7SjeC6G6e3lHRNRRq1MHcZPOMwkDA6p9k9DQUhcnt
-S70qKQ7pVRJAE5RVQQyP4zlMQalpxct+L3GGqu2m2/+3ZuN8UrI=
-=NMk+
+iQIzBAEBCgAdFiEExZc89leBly0JS53xCXP36mAqp9YFAmmCqIAACgkQCXP36mAq
+p9ateQ//Whf31EBQgeUDwmV3IgRHaB+iVMfezoFzH9N5qaQhsmpR1t3pI9sI043x
+6Cc8Zxg9O3xZaAYTMniSCQtwOl5q87iMfWt93+TdHIOjZ/74mytT5jDKdSFu9MNY
+mJFIzfcvg9lcQbz9AKn6bSdYpItHXHd7Rxi4fePNDK0kd1KnezYlBXzZONul88kX
+EM73P8+1JbIdJ2NxOGr/aIvv61iFgC4OyOeXtJBpku9r780ZCraQeHohph5M2fTG
+x+QzohGPyUUTIAHWUb+hBjO+5RIeK7Mg5ZLzX+bvBcT9KKmPzUm56H1y+ToZKETc
+eq/0uhGFYa0yG6lOWWGdKUizteWyivbVhpxsSaQVtm4KSG9ClxGzf1wx6l6k+Zsp
+XqFIXO22IfuNGQ5epQX7m/xIqqPuKdb6I9J3113rE+X73wC/asgXbyow+w0IO0Kc
+y+iBYADULhVZioooD/rl2XMA8xR4MjlNZYYsdIlD4OTAYoLmilYs+Y7S5q4jmrKi
+wroj3iIiqJ6zjOWUVOIfN4FHDeU/ObUZBpti7BJkJQDPtMmdqIqEZlaSRmwNmbtf
+XEwJ+6tJKPvdpcIb1UGwMx+sIi6RDiQPLcFSALdmqPyreNNyQu3RnDoERqHrYWic
+m26ij+oG5mZVpzs+d1TR6Jqo3KaNdLNcf75S2Kpw8m81djyAB30=
+=Aj7p
 -----END PGP SIGNATURE-----
