@@ -2598,11 +2598,11 @@ Architecture: all
 Maintainer: @termux
 Installed-Size: 212
 Depends: ca-certificates (= 1:2025.09.09)
-Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1+2025.09.09_all.deb
-Size: 115188
-MD5sum: 341742b9919ed395f2cbe0f08389cc3d
-SHA1: fe1a3d6f6281433ae4e1b486038a08452521ce3d
-SHA256: 513ac5daeab3c477257a9738eaf8588f38606f14d4aeafc51b1b4c990c133d0c
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1:2025.09.09_all.deb
+Size: 115160
+MD5sum: ea7ee713cebfefe9bc11efbece9f633b
+SHA1: f0fbc2a8df796877ee4e71a6bc8722e2dcee3ba7
+SHA256: 0ba30263df1ff2c1da595521cd873ca5f015ef26a820ab8a6dfbb21b82999c9e
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -2612,11 +2612,11 @@ Architecture: all
 Maintainer: @termux
 Installed-Size: 212
 Depends: ca-certificates (= 1:2025.09.09)
-Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1:2025.09.09_all.deb
-Size: 115160
-MD5sum: ea7ee713cebfefe9bc11efbece9f633b
-SHA1: f0fbc2a8df796877ee4e71a6bc8722e2dcee3ba7
-SHA256: 0ba30263df1ff2c1da595521cd873ca5f015ef26a820ab8a6dfbb21b82999c9e
+Filename: pool/main/c/ca-certificates-java/ca-certificates-java_1+2025.09.09_all.deb
+Size: 115188
+MD5sum: 341742b9919ed395f2cbe0f08389cc3d
+SHA1: fe1a3d6f6281433ae4e1b486038a08452521ce3d
+SHA256: 513ac5daeab3c477257a9738eaf8588f38606f14d4aeafc51b1b4c990c133d0c
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -12194,6 +12194,21 @@ SHA256: 37d07b76f3fff0d2185a57ba5f36fa0037ba0b77af800b0110113382097170d0
 Homepage: https://github.com/termux/libandroid-shmem
 Description: System V shared memory emulation on Android using ashmem
 
+Package: libandroid-shmem
+Version: 0.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 72
+Breaks: libandroid-shmem-dev
+Replaces: libandroid-shmem-dev
+Filename: pool/main/liba/libandroid-shmem/libandroid-shmem_0.7-1_aarch64.deb
+Size: 7184
+MD5sum: 0e3bac391693622958a14364bed7b30a
+SHA1: 41fb5f4e5d4011e466cd6e609e05187f847f112b
+SHA256: 3b6d0912ea4f40c063f03fd1e14174dc523b5a0dca19b8435bf771ba108506de
+Homepage: https://github.com/termux/libandroid-shmem
+Description: System V shared memory emulation on Android using ashmem
+
 Package: libandroid-shmem-static
 Version: 0.5-1
 Architecture: aarch64
@@ -12205,6 +12220,20 @@ Size: 5704
 MD5sum: b899bb76fabde0657f0e46fd9e708273
 SHA1: e15396a412b35df7c6eda0cae0b51f8905e09c4c
 SHA256: 5eb16c04ec512cc287f7cb68b77e74013152f881b699308f83b797b4c6f77691
+Homepage: https://github.com/termux/libandroid-shmem
+Description: Static libraries for libandroid-shmem
+
+Package: libandroid-shmem-static
+Version: 0.7-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 48
+Depends: libandroid-shmem (= 0.7-1)
+Filename: pool/main/liba/libandroid-shmem-static/libandroid-shmem-static_0.7-1_aarch64.deb
+Size: 6064
+MD5sum: 90f87b1efe1419dd643b81b84e178f8f
+SHA1: 9dcef0ade487b49bb0e537ab2c40b59753419069
+SHA256: 96b58e5be62959b5d6dc032f65c50aea564c98b859c9a6db22305440613a096c
 Homepage: https://github.com/termux/libandroid-shmem
 Description: Static libraries for libandroid-shmem
 
@@ -12842,6 +12871,20 @@ Size: 290920
 MD5sum: a503ef8bd038bc515ae33ffd9dbe64b7
 SHA1: 7e0c3f54472aa80af18fcffd2183d92a842661b2
 SHA256: 9c2daf52459342a81896cc59910698756b7c3cc0483a67b7d5087e4028cbac71
+Homepage: https://libcxx.llvm.org/
+Description: C++ Standard Library
+
+Package: libc++
+Version: 29
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 1268
+Filename: pool/main/libc/libc++/libc++_29_aarch64.deb
+Size: 290808
+MD5sum: 4c477b1155f6e61d9f01fe5b33411185
+SHA1: 504fa6495fcf45a8c76e58a6412e1deaf0635bfc
+SHA256: a54a2d32321b54ca14a31fcf05d2f495917c848712c06a5d145305e8f16b49d4
 Homepage: https://libcxx.llvm.org/
 Description: C++ Standard Library
 
@@ -32749,6 +32792,21 @@ SHA256: b9a68e83d5efa4e18ca5a0c507e0014712f9344c3ff1bdcf564d84605411360a
 Homepage: https://www.zlib.net/
 Description: Compression library implementing the deflate compression method found in gzip and PKZIP
 
+Package: zlib
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 264
+Breaks: ndk-sysroot (<< 19b-3), zlib-dev
+Replaces: ndk-sysroot (<< 19b-3), zlib-dev
+Filename: pool/main/z/zlib/zlib_1.3.2-1_aarch64.deb
+Size: 62680
+MD5sum: e70cc4fcab4f7c5185b71950a6f40f89
+SHA1: 4edb626e6e741b82b23dcc13e35f1d2bae1b5ab4
+SHA256: 8bc35f102ae5d8b5db28ab3944191f7dff8f7b93ab24032af04500e0f44c8fea
+Homepage: https://www.zlib.net/
+Description: Compression library implementing the deflate compression method found in gzip and PKZIP
+
 Package: zlib-static
 Version: 1.3.1-1
 Architecture: aarch64
@@ -32760,6 +32818,20 @@ Size: 34380
 MD5sum: 78974108ea1f93f8a75fe171e8e7dcf0
 SHA1: efd895193a47aa6df693b52b8885f9d3935ae678
 SHA256: 97ba2bf60abacd70ffdbcd52be78c06e6021956d4596d6a7d90e3ffe51d388b1
+Homepage: https://www.zlib.net/
+Description: Static libraries for zlib
+
+Package: zlib-static
+Version: 1.3.2-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: zlib (= 1.3.2-1)
+Filename: pool/main/z/zlib-static/zlib-static_1.3.2-1_aarch64.deb
+Size: 35320
+MD5sum: 3e7052f1566a1a2a274d0e428298812b
+SHA1: 89fb74a26c2a2542575f0c9593666674763feb22
+SHA256: 8adcee062004d416c1f2d737d5174e26ac5492c755845a07189cea38b4a3c047
 Homepage: https://www.zlib.net/
 Description: Static libraries for zlib
 
