@@ -16391,6 +16391,22 @@ SHA256: e6714a8bc197f2e5c234f7901d15f62e1821e6b322d3365fd2bb801fa5164a8b
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
 
+Package: liblzma
+Version: 5.8.3-1
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 864
+Breaks: liblzma-dev
+Replaces: liblzma-dev
+Filename: pool/main/libl/liblzma/liblzma_5.8.3-1_aarch64.deb
+Size: 192848
+MD5sum: d3383534994659b684b7de2024f44c8f
+SHA1: 180feab1f532663440144491b64a494805072517
+SHA256: 47208dac7fcfa5c602a6c61c1a22315eb8a094cab3a41071fafbcbbc703e6d8d
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+
 Package: liblzma-static
 Version: 5.8.1-1
 Architecture: aarch64
@@ -16402,6 +16418,20 @@ Size: 89600
 MD5sum: d895e087d89e8136da5b7da450794147
 SHA1: 7872552259c63d6fae3000662136041e8e6027f5
 SHA256: c8468dc8555f4a6846b68874f2beaaa205a2f1e85c7e90f87297cddc06ba1307
+Homepage: https://tukaani.org/xz/
+Description: Static libraries for liblzma
+
+Package: liblzma-static
+Version: 5.8.3-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 360
+Depends: liblzma (= 5.8.3-1)
+Filename: pool/main/libl/liblzma-static/liblzma-static_5.8.3-1_aarch64.deb
+Size: 89588
+MD5sum: bb47902e4c49295e0969cbf0349f8f48
+SHA1: b017ea343d06ae6bf8a226df2c82190686222088
+SHA256: bba1c2cabdc0c3492e8f592639d6ffe7b2c51d6cdafcbdbc07d5c6834cd14d7b
 Homepage: https://tukaani.org/xz/
 Description: Static libraries for liblzma
 
@@ -32717,6 +32747,21 @@ Size: 71068
 MD5sum: fb9ed940665a09b0a8d36e1026cdcefe
 SHA1: ee7ab92682129f67637e0a9f01cd31e88ddb42ba
 SHA256: 6a56ec1cb2a6d0c36b700a87f0a4884c6c2fa97983777ba25ad4416184866dfa
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression tools
+
+Package: xz-utils
+Version: 5.8.3-1
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 228
+Depends: liblzma (= 5.8.3-1)
+Filename: pool/main/x/xz-utils/xz-utils_5.8.3-1_aarch64.deb
+Size: 71256
+MD5sum: 17c829e574128ae2010feaa6e4019f03
+SHA1: 0aedf16fc004a08cc395bb0f09a6762dbdb00cba
+SHA256: 636487e5edb7576c7663b455e2af95de2d54efad7cb6672450817b5b288506c5
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression tools
 
